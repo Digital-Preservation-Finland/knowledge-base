@@ -1,0 +1,22 @@
+{
+  "files": [
+    "database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header"
+  ],
+  "analyses": [
+    "database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header.repair"
+  ],
+  "media-type": "audio/x-wav",
+  "versions": [
+    "PCM"
+  ],
+  "profile": "",
+  "validator": "jhove",
+  "validator-version": "",
+  "error-message": "File does not start with RIFF header",
+  "type": "unknown",
+  "output-example": "\"<?xml version=\\\"\"1.0\\\"\" encoding=\\\"\"UTF-8\\\"\"?>\\n<jhove xmlns:xsi=\\\"\"http://www.w3.org/2001/XMLSchema-instance\\\"\" xmlns=\\\"\"http://schema.openpreservation.org/ois/xml/ns/jhove\\\"\" xsi:schemaLocation=\\\"\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd\\\"\" name=\\\"\"Jhove\\\"\" release=\\\"\"1.24.1\\\"\" date=\\\"\"2020-03-16\\\"\">\\n <date>2023-10-10T11:32:16+00:00</date>\\n <repInfo uri=\\\"\"missing-RIFF-start.wav\\\"\">\\n  <reportingModule release=\\\"\"1.8.1\\\"\" date=\\\"\"2019-12-10\\\"\">WAVE-hul</reportingModule>\\n  <lastModified>2023-10-04T08:14:16+00:00</lastModified>\\n  <size>83</size>\\n  <status>Not well-formed</status>\\n  <messages>\\n   <message offset=\\\"\"0\\\"\" severity=\\\"\"error\\\"\" id=\\\"\"WAVE-HUL-1\\\"\">File does not start with RIFF header</message>\\n  </messages>\\n </repInfo>\\n</jhove>\\n\"",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

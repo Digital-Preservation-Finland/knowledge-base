@@ -1,0 +1,19 @@
+{
+  "name": "database/text_html/v.Nu/error-Attribute-caption-not-allowed-on-element-img-at-this-point.repair",
+  "repairs": [
+    {
+      "name": "database/text_html/v.Nu/error-Attribute-caption-not-allowed-on-element-img-at-this-point/analysis",
+      "repair": "",
+      "execution": "",
+      "effects": "",
+      "_metadata": {
+        "version": 3
+      }
+    }
+  ],
+  "analysis": "",
+  "software-problem": "no",
+  "_metadata": {
+    "version": 4
+  }
+}

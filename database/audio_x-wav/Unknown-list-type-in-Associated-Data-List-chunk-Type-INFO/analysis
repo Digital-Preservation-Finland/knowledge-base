@@ -1,0 +1,19 @@
+{
+  "name": "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair",
+  "repairs": [
+    {
+      "name": "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO/analysis",
+      "repair": "Copy the streams to a new file.",
+      "execution": "ffmpeg -i INPUT.WAV -vn -c:a copy -map_metadata 0 OUTPUT.WAV",
+      "effects": "",
+      "_metadata": {
+        "version": 3
+      }
+    }
+  ],
+  "analysis": "The repair specified here probably removes the unknown type, referring to the error message. The newly created file is only a tens of bytes smaller than the original.",
+  "software-problem": "",
+  "_metadata": {
+    "version": 4
+  }
+}

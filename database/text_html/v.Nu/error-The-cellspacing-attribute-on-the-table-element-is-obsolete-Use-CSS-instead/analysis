@@ -1,0 +1,19 @@
+{
+  "name": "database/text_html/v.Nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead.repair",
+  "repairs": [
+    {
+      "name": "database/text_html/v.Nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/analysis",
+      "repair": "",
+      "execution": "",
+      "effects": "",
+      "_metadata": {
+        "version": 3
+      }
+    }
+  ],
+  "analysis": "",
+  "software-problem": "no",
+  "_metadata": {
+    "version": 4
+  }
+}

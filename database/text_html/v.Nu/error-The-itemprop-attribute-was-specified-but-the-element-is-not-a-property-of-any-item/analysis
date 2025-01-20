@@ -1,0 +1,19 @@
+{
+  "name": "database/text_html/v.Nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item.repair",
+  "repairs": [
+    {
+      "name": "database/text_html/v.Nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis",
+      "repair": "",
+      "execution": "",
+      "effects": "",
+      "_metadata": {
+        "version": 3
+      }
+    }
+  ],
+  "analysis": "",
+  "software-problem": "no",
+  "_metadata": {
+    "version": 4
+  }
+}

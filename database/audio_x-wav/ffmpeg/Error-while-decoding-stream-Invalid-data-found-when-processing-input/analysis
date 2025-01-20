@@ -1,0 +1,19 @@
+{
+  "name": "database/audio_x-wav/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input.repair",
+  "repairs": [
+    {
+      "name": "database/audio_x-wav/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/analysis",
+      "repair": "",
+      "execution": "",
+      "effects": "",
+      "_metadata": {
+        "version": 3
+      }
+    }
+  ],
+  "analysis": "",
+  "software-problem": "no",
+  "_metadata": {
+    "version": 4
+  }
+}

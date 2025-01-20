@@ -1,0 +1,22 @@
+{
+  "files": [
+    "database/audio_x-wav/jhove/Chunk-ID-character-outside-printable-ASCII-range"
+  ],
+  "analyses": [
+    "database/audio_x-wav/jhove/Chunk-ID-character-outside-printable-ASCII-range.repair"
+  ],
+  "media-type": "audio/x-wav",
+  "versions": [
+    "PCM"
+  ],
+  "profile": "",
+  "validator": "jhove",
+  "validator-version": "",
+  "error-message": "Chunk ID character outside printable ASCII range",
+  "type": "unknown",
+  "output-example": "\"<?xml version=\\\"\"1.0\\\"\" encoding=\\\"\"UTF-8\\\"\"?>\\n<jhove xmlns:xsi=\\\"\"http://www.w3.org/2001/XMLSchema-instance\\\"\" xmlns=\\\"\"http://schema.openpreservation.org/ois/xml/ns/jhove\\\"\" xsi:schemaLocation=\\\"\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd\\\"\" name=\\\"\"Jhove\\\"\" release=\\\"\"1.24.1\\\"\" date=\\\"\"2020-03-16\\\"\">\\n <date>2023-01-25T17:41:19+02:00</date>\\n <repInfo uri=\\\"\"_/354/354Kn/354Kn14/354Kn14_1.wav\\\"\">\\n  <reportingModule release=\\\"\"1.8.1\\\"\" date=\\\"\"2019-12-10\\\"\">WAVE-hul</reportingModule>\\n  <lastModified>2013-05-20T13:37:16+03:00</lastModified>\\n  <size>98617097</size>\\n  <format>WAVE</format>\\n  <status>Not well-formed</status>\\n  <sigMatch>\\n  <module>WAVE-hul</module>\\n  </sigMatch>\\n  <messages>\\n   <message offset=\\\"\"98360322\\\"\" severity=\\\"\"info\\\"\" id=\\\"\"WAVE-HUL-7\\\"\">Ignored unrecognized chunk: \\\"\"ext\\\\\\\"\"</message>\\n   <message subMessage=\\\"\"Character = 0x01\\\"\" offset=\\\"\"98360333\\\"\" severity=\\\"\"error\\\"\" id=\\\"\"IFF-HUL-1\\\"\">Chunk ID character outside printable ASCII range</message>\\n   <message subMessage=\\\"\"Chunk = &quot",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

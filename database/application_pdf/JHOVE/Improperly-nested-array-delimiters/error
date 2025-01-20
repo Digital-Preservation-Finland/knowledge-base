@@ -1,0 +1,22 @@
+{
+  "files": [
+    "database/application_pdf/JHOVE/Improperly-nested-array-delimiters"
+  ],
+  "analyses": [
+    "database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair"
+  ],
+  "media-type": "application/pdf",
+  "versions": [
+    "1.4"
+  ],
+  "profile": "",
+  "validator": "JHOVE",
+  "validator-version": "",
+  "error-message": "Improperly nested array delimiters",
+  "type": "unknown",
+  "output-example": "",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

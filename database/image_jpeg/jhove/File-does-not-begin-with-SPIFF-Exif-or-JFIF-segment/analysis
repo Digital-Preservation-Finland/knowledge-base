@@ -1,0 +1,19 @@
+{
+  "name": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment.repair",
+  "repairs": [
+    {
+      "name": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/analysis",
+      "repair": "If the bits are not completely missing, use ImageMagick. If the bits are missing JHOVE reports 'Expected marker byte 255 ' from JPEG-HUL and in that case 4 bytes can be added starting from position 7 in the file. Otherwise, the file more thoroughly corrupted.",
+      "execution": "ImageMagick: convert <input> <output>",
+      "effects": "",
+      "_metadata": {
+        "version": 3
+      }
+    }
+  ],
+  "analysis": "",
+  "software-problem": "no",
+  "_metadata": {
+    "version": 4
+  }
+}

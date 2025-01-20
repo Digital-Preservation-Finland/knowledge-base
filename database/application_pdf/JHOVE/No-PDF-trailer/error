@@ -1,0 +1,22 @@
+{
+  "files": [
+    "database/application_pdf/JHOVE/No-PDF-trailer"
+  ],
+  "analyses": [
+    "database/application_pdf/JHOVE/No-PDF-trailer.repair"
+  ],
+  "media-type": "application/pdf",
+  "versions": [
+    ""
+  ],
+  "profile": "",
+  "validator": "JHOVE",
+  "validator-version": "",
+  "error-message": "No PDF trailer",
+  "type": "unknown",
+  "output-example": "",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

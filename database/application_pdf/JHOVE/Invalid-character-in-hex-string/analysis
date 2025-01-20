@@ -1,0 +1,19 @@
+{
+  "name": "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair",
+  "repairs": [
+    {
+      "name": "database/application_pdf/JHOVE/Invalid-character-in-hex-string/analysis",
+      "repair": "Open the file with Acrobat Reader and save as a new file without making any changes to the content.",
+      "execution": "",
+      "effects": "",
+      "_metadata": {
+        "version": 3
+      }
+    }
+  ],
+  "analysis": "PDF-HUL-67. Unsupported character in a hexadecimal character string.",
+  "software-problem": "",
+  "_metadata": {
+    "version": 4
+  }
+}
