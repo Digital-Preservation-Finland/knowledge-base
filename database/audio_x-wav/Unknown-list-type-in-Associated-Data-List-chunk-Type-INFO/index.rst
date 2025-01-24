@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO
-
-.. topic:: Analyses related to the error
-
-	- database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair
-

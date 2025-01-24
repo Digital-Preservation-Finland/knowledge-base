@@ -88,11 +88,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/audio_x-wav/jhove/Chunk-ID-contains-space-before-printable-characters-BKj
-
-.. topic:: Analyses related to the error
-
-	- database/audio_x-wav/jhove/Chunk-ID-contains-space-before-printable-characters-BKj.repair
-

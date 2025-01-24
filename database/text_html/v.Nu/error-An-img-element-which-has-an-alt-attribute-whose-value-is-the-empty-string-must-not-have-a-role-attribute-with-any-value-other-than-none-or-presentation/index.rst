@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- 
-
-.. topic:: Analyses related to the error
-
-	- database/text_html/v.Nu/error-An-img-element-which-has-an-alt-attribute-whose-value-is-the-empty-string-must-not-have-a-role-attribute-with-any-value-other-than-none-or-presentation.repair
-

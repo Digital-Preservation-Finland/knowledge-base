@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- 
-
-.. topic:: Analyses related to the error
-
-	- database/text_html/v.Nu/error-Element-div-not-allowed-as-child-of-element-span-in-this-context-Suppressing-further-errors-from-this-subtree.repair
-

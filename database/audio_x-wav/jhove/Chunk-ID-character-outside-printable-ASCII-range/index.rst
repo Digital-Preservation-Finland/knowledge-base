@@ -87,11 +87,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/audio_x-wav/jhove/Chunk-ID-character-outside-printable-ASCII-range
-
-.. topic:: Analyses related to the error
-
-	- database/audio_x-wav/jhove/Chunk-ID-character-outside-printable-ASCII-range.repair
-

@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid
-
-.. topic:: Analyses related to the error
-
-	- database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid.repair
-

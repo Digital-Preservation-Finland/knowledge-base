@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/image_jpeg/jhove/Invalid-Checksum
-
-.. topic:: Analyses related to the error
-
-	- database/image_jpeg/jhove/Invalid-Checksum.repair
-

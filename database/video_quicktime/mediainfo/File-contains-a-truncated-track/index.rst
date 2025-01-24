@@ -72,11 +72,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/video_quicktime/mediainfo/File-contains-a-truncated-track
-
-.. topic:: Analyses related to the error
-
-	- database/video_quicktime/mediainfo/File-contains-a-truncated-track.repair
-

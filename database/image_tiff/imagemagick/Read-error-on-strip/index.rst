@@ -72,11 +72,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/image_tiff/imagemagick-(wand)/Read-error-on-strip
-
-.. topic:: Analyses related to the error
-
-	- database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair
-

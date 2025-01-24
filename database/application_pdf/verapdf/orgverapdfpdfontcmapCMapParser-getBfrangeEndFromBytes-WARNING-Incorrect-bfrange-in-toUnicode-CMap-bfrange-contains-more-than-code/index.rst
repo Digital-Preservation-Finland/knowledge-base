@@ -72,11 +72,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/application_pdf/verapdf/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code
-
-.. topic:: Analyses related to the error
-
-	- database/application_pdf/verapdf/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code.repair
-

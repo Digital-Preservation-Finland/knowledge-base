@@ -93,11 +93,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/video_dv/ffmpeg/Concealing-bitstream-errors
-
-.. topic:: Analyses related to the error
-
-	- database/video_dv/ffmpeg/Concealing-bitstream-errors.repair
-

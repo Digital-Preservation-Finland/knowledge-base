@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/application_pdf/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17
-
-.. topic:: Analyses related to the error
-
-	- database/application_pdf/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17.repair
-

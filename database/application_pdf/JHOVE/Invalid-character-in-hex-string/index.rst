@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/application_pdf/JHOVE/Invalid-character-in-hex-string
-
-.. topic:: Analyses related to the error
-
-	- database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair
-

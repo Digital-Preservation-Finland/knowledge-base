@@ -313,11 +313,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/video_dv/ffmpeg/AC-EOB-marker-is-absent-pos
-
-.. topic:: Analyses related to the error
-
-	- database/video_dv/ffmpeg/AC-EOB-marker-is-absent-pos.repair
-

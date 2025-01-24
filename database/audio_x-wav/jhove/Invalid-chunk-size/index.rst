@@ -88,11 +88,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/audio_x-wav/jhove/Invalid-chunk-size
-
-.. topic:: Analyses related to the error
-
-	- database/audio_x-wav/jhove/Invalid-chunk-size.repair
-

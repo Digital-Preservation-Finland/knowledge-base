@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- 
-
-.. topic:: Analyses related to the error
-
-	- database/text_html/v.Nu/error-Attribute-caption-not-allowed-on-element-img-at-this-point.repair
-

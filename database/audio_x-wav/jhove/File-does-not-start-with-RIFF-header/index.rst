@@ -85,11 +85,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header
-
-.. topic:: Analyses related to the error
-
-	- database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header.repair
-

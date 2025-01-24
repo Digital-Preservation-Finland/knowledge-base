@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/application_pdf/ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu
-
-.. topic:: Analyses related to the error
-
-	- database/application_pdf/ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu.repair
-

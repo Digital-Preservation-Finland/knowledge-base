@@ -75,11 +75,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found
-
-.. topic:: Analyses related to the error
-
-	- database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found.repair
-

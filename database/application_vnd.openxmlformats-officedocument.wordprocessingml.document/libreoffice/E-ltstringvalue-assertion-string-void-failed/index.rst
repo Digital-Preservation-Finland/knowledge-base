@@ -75,11 +75,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- 
-
-.. topic:: Analyses related to the error
-
-	- database/application_vnd.openxmlformats-officedocument.wordprocessingml.document/libreoffice/E-ltstringvalue-assertion-string-void-failed.repair
-

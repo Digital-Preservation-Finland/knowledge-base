@@ -87,11 +87,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext
-
-.. topic:: Analyses related to the error
-
-	- database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext.repair
-

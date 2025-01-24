@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- 
-
-.. topic:: Analyses related to the error
-
-	- database/text_html/v.Nu/error-Start-tag-a-seen-but-an-element-of-the-same-type-was-already-open.repair
-

@@ -86,11 +86,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/audio_x-wav/ffprobe/Invalid-data-found-when-processing-input
-
-.. topic:: Analyses related to the error
-
-	- database/audio_x-wav/ffprobe/Invalid-data-found-when-processing-input.repair
-

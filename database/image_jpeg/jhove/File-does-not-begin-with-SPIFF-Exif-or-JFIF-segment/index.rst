@@ -217,11 +217,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment
-
-.. topic:: Analyses related to the error
-
-	- database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment.repair
-

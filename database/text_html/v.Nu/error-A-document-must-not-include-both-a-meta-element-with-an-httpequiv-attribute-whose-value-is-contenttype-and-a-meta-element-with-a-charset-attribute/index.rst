@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- 
-
-.. topic:: Analyses related to the error
-
-	- database/text_html/v.Nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute.repair
-

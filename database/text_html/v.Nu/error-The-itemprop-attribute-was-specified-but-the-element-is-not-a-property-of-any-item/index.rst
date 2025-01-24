@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- 
-
-.. topic:: Analyses related to the error
-
-	- database/text_html/v.Nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item.repair
-

@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/audio_x-wav/mediainfo/No-audio-or-video-tracks-found
-
-.. topic:: Analyses related to the error
-
-	- database/audio_x-wav/mediainfo/No-audio-or-video-tracks-found.repair
-

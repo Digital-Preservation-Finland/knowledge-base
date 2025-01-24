@@ -93,11 +93,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/audio_x-wav/ffprobe/Error-opening-filters
-
-.. topic:: Analyses related to the error
-
-	- database/audio_x-wav/ffprobe/Error-opening-filters.repair
-

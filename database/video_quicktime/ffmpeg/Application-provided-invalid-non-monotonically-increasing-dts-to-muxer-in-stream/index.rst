@@ -74,11 +74,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/video_quicktime/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream
-
-.. topic:: Analyses related to the error
-
-	- database/video_quicktime/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream.repair
-

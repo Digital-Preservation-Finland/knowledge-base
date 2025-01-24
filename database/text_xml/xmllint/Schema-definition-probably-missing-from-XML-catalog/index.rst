@@ -70,11 +70,3 @@ Notes on the error
 	It is uncertain what validator software has raised the error. The error message has been thought to come from xmllint.
 
 
-.. topic:: Files related to the error
-
-	- database/text_xml/xmllint-kai/Schema-definition-probably-missing-from-XML-catalog
-
-.. topic:: Analyses related to the error
-
-	- database/text_xml/xmllint-kai/Schema-definition-probably-missing-from-XML-catalog.repair
-

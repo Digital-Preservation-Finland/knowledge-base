@@ -70,11 +70,3 @@ Notes on the error
 	
 
 
-.. topic:: Files related to the error
-
-	- database/application_pdf/JHOVE/Lexical-error
-
-.. topic:: Analyses related to the error
-
-	- database/application_pdf/JHOVE/Lexical-error.repair
-
