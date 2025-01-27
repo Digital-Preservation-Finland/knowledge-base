@@ -1,7 +1,7 @@
-Knowledge base for logical preservation
-=======================================
+Knowledge base for fixing file format validation errors
+=======================================================
 
-This database contains information about identification, classification, analysis and also the fixing of file format validation errors in a way that enables easy and efficient processing.
+This database contains information about the identification, characterisation, analysis and fixing of file format validation errors in a way that enables easy and efficient processing.
 
 The purpose of this database is to help the community with the challenges on preserving content. The information in the database can be handled in accordance with the revised validation error treatment process described in https://hdl.handle.net/2142/121092.
 
@@ -17,7 +17,7 @@ Model
 
 The data model consists of units of files, errors, analyses and repairs. Relations in the database are unidirectional.
 
-Files should contain a reference the erroneous data. In the case there the data is not available, the reference is a database-wide unique identifier linking the related message from other validating software. Different errors from different validators of the same data can be grouped by the reverse relationship from file to error. An error may have many analyses and the analyses may have different repairs, that is solutions, to the problem.
+Files should contain a reference the erroneous data. In the case there the data is not available, the reference is a database-wide unique identifier linking the related message from other validating software. Different errors from different validators of the same data can be grouped by the reverse relationship from file to error. An error may have many analyses and the analyses may have different repairs, proposed solutions, to the problem.
 
 .. image:: docs/graphs/datamodel.dot.png
    :align: center

@@ -1,5 +1,6 @@
 digraph model {
 
-	errors -> files
-	errors -> analysis
+	error -> file
+	error -> analysis
+	analysis -> repair
 }
