@@ -1,5 +1,5 @@
-Knowledge base for fixing file format validation errors
-=======================================================
+Knowledge base for file format validation errors
+================================================
 
 This database contains information about the identification, characterisation, analysis and fixing of file format validation errors in a way that enables easy and efficient processing.
 
