@@ -1,6 +1,6 @@
 {
   "files": [
-    "database/video_dv/ffmpeg/Concealing-bitstream-errors"
+    "database/video_dv/ffmpeg/DV-video-stream"
   ],
   "analyses": [
     "database/video_dv/ffmpeg/Concealing-bitstream-errors.repair"
