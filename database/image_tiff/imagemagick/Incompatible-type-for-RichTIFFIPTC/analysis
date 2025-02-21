@@ -1,16 +1,6 @@
 {
   "name": "database/image_tiff/imagemagick-(wand)/Incompatible-type-for-RichTIFFIPTC.repair",
-  "repairs": [
-    {
-      "name": "database/image_tiff/imagemagick-(wand)/Incompatible-type-for-RichTIFFIPTC/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "",
   "software-problem": "",
   "_metadata": {

@@ -1,16 +1,6 @@
 {
   "name": "database/audio_x-wav/ffprobe/Invalid-data-found-when-processing-input.repair",
-  "repairs": [
-    {
-      "name": "database/audio_x-wav/ffprobe/Invalid-data-found-when-processing-input/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "",
   "software-problem": "no",
   "_metadata": {

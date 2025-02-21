@@ -1,16 +1,6 @@
 {
   "name": "database/text_html/v.Nu/error-Start-tag-a-seen-but-an-element-of-the-same-type-was-already-open.repair",
-  "repairs": [
-    {
-      "name": "database/text_html/v.Nu/error-Start-tag-a-seen-but-an-element-of-the-same-type-was-already-open/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "",
   "software-problem": "no",
   "_metadata": {

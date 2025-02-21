@@ -1,16 +1,6 @@
 {
   "name": "database/video_dv/ffmpeg/Concealing-bitstream-errors.repair",
-  "repairs": [
-    {
-      "name": "database/video_dv/ffmpeg/Concealing-bitstream-errors/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "",
   "software-problem": "no",
   "_metadata": {

@@ -1,16 +1,6 @@
 {
   "name": "database/text_html/v.Nu/error-End-tag-a-violates-nesting-rules.repair",
-  "repairs": [
-    {
-      "name": "database/text_html/v.Nu/error-End-tag-a-violates-nesting-rules/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "",
   "software-problem": "no",
   "_metadata": {

@@ -1,16 +1,6 @@
 {
   "name": "database/audio_x-wav/mediainfo/No-audio-or-video-tracks-found.repair",
-  "repairs": [
-    {
-      "name": "database/audio_x-wav/mediainfo/No-audio-or-video-tracks-found/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "",
   "software-problem": "no",
   "_metadata": {

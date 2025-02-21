@@ -1,16 +1,6 @@
 {
   "name": "database/text_html/v.Nu/error-fatal-Cannot-recover-after-last-error-Any-further-errors-will-be-ignored.repair",
-  "repairs": [
-    {
-      "name": "database/text_html/v.Nu/error-fatal-Cannot-recover-after-last-error-Any-further-errors-will-be-ignored/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "",
   "software-problem": "no",
   "_metadata": {

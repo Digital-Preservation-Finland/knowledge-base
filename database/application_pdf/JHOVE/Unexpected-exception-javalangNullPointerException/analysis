@@ -1,16 +1,6 @@
 {
   "name": "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair",
-  "repairs": [
-    {
-      "name": "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors.",
   "software-problem": "",
   "_metadata": {

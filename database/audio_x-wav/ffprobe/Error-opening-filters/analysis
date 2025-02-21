@@ -1,16 +1,6 @@
 {
   "name": "database/audio_x-wav/ffprobe/Error-opening-filters.repair",
-  "repairs": [
-    {
-      "name": "database/audio_x-wav/ffprobe/Error-opening-filters/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "The error message does not refer to a file or file format but instead to missing missing or invalid arguments given to the software.",
   "software-problem": "yes",
   "_metadata": {

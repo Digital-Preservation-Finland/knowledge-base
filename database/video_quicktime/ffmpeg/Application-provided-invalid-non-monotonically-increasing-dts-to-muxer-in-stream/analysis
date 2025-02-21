@@ -1,16 +1,6 @@
 {
   "name": "database/video_quicktime/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream.repair",
-  "repairs": [
-    {
-      "name": "database/video_quicktime/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/analysis",
-      "repair": "",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 3
-      }
-    }
-  ],
+  "repairs": [],
   "analysis": "DTS is abbreviation from Decode Timestamp. Muxer (multiplexer) combines multiple data streams into single stream eg. for transfer.",
   "software-problem": "no",
   "_metadata": {

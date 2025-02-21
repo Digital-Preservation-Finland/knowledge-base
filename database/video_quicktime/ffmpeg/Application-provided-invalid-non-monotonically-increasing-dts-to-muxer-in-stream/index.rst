@@ -42,23 +42,6 @@ Suggested repairs
 .. contents::
    :local:
 
-
-
-
-Effects
-~~~~~~~
-
-
-
-Suggestion
-~~~~~~~~~~
-
-
-
-Execution example
-~~~~~~~~~~~~~~~~~
-	
-
 --------------
 Output example
 --------------
