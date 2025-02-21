@@ -19,7 +19,7 @@ Classification
    * - **MIME type**
      - image/jpeg
    * - **Versions**
-     - JPEG image data
+     - 
    * - **Profile**
      - 
    * - **Validator**

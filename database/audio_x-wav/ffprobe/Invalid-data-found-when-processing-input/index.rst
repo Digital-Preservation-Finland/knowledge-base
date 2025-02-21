@@ -19,7 +19,7 @@ Classification
    * - **MIME type**
      - audio/x-wav
    * - **Versions**
-     - PCM
+     - 
    * - **Profile**
      - 
    * - **Validator**

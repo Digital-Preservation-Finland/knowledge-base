@@ -1,6 +1,6 @@
-=====================================================================================
-Application provided invalid, non monotonically increasing dts to muxer in stream 0: 
-=====================================================================================
+
+
+
 
 .. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
 
@@ -17,24 +17,24 @@ Classification
    :align: center
 
    * - **MIME type**
-     - video/quicktime
+     - audio/mpeg
    * - **Versions**
-     - 
+     - 1
    * - **Profile**
      - 
    * - **Validator**
-     - ffmpeg
+     - file-scraper
    * - **Validator version**
-     - 
+     - 0.78
    * - **Software problem**
-     - no
+     - yes
    * - **Error message type**
      - unknown
 
 --------
 Analysis
 --------
-DTS is abbreviation from Decode Timestamp. Muxer (multiplexer) combines multiple data streams into single stream eg. for transfer.
+The file contains two streams: a video container and an audio stream. The file's well-formedness is declared 'null' but the validator has set a grading value of 'fi-dpres-acceptable-file-format' for the file which implies that even though the file si recognised, it can not be appraised neither as well-formed not not well-formed. This is a logical conflict and implies that there is a problem with the validating software because the acceptable grade should result in a decisive result for well-formedness.
 
 -----------------
 Suggested repairs
@@ -42,8 +42,8 @@ Suggested repairs
 .. contents::
    :local:
 
-
-
+Remove the container stream by using FFMPEG
+===========================================
 
 Effects
 ~~~~~~~
@@ -53,24 +53,20 @@ Does the repair alter the interpretation of the data? Explain the migration proc
 Suggestion
 ~~~~~~~~~~
 
-
+Remove the container stream by using FFMPEG.
 
 Execution example
 ~~~~~~~~~~~~~~~~~
-	
+	ffmpeg -i <input>.mp3 -c:a copy -map 0 <output>.mp3
 
 --------------
 Output example
 --------------
-::
 
-	[null @ 0x11f4c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 5142 >= 5142
-	[null @ 0x11f4c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 6053 >= 6053
-	
 
 ------------------
 Notes on the error
 ------------------
-	
+	The music file contains cover art image in a video container stream.
 
 

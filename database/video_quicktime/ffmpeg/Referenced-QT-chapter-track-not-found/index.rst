@@ -19,7 +19,7 @@ Classification
    * - **MIME type**
      - video/quicktime
    * - **Versions**
-     - AVCPCM
+     - 
    * - **Profile**
      - 
    * - **Validator**
