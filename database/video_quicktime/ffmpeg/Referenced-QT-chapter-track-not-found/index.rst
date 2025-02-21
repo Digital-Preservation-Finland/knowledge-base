@@ -26,8 +26,6 @@ Classification
      - ffmpeg
    * - **Validator version**
      - 
-   * - **Software problem**
-     - unclear
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 The repair add the following line to the ffmpeg output: 'Guessed Channel Layout: stereo.' The markers to the unexisting chapter are probably removed. The error message does not prevent playing the streams. The message could possibly be also ignored.
+
+Is it a bug in the validating software? - unclear
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Migrate the streams to a new copy
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

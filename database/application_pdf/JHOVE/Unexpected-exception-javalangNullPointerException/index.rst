@@ -26,8 +26,6 @@ Classification
      - JHOVE
    * - **Validator version**
      - 
-   * - **Software problem**
-     - unclear
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors.
+
+Is it a bug in the validating software? - unclear
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Suggested repairs
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

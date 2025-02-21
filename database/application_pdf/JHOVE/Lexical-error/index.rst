@@ -26,8 +26,6 @@ Classification
      - JHOVE
    * - **Validator version**
      - 
-   * - **Software problem**
-     - unclear
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 PDF-HUL-65, PDF-HUL-66. Unsupported character or insufficiently built dictionary object in the document. The exception is of a general kind and the problem case needs more inspection.
+
+Is it a bug in the validating software? - unclear
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Open the file with Acrobat Reader and save as a new file without making any chan
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

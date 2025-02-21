@@ -26,8 +26,6 @@ Classification
      - jhove
    * - **Validator version**
      - 
-   * - **Software problem**
-     - no
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 Chunk size refers to the bytes 5-8 that are the second record in a file header. The record states the number of bytes after the record until the end of file.
+
+Is it a bug in the validating software? - no
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Suggested repairs
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

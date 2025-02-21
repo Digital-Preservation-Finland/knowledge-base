@@ -26,8 +26,6 @@ Classification
      - JHOVE
    * - **Validator version**
      - 
-   * - **Software problem**
-     - unclear
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 PDF-HUL-138. End-of-file marker (%%EOF) is missing. May indicate that the file is missing bits (in the end). File should be inspected with Acrobat Reader. If Reader manages to open the file and the file contents are intact, saving the file as a new should solve the problem.
+
+Is it a bug in the validating software? - unclear
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Suggested repairs
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

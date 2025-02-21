@@ -26,8 +26,6 @@ Classification
      - ffprobe
    * - **Validator version**
      - 
-   * - **Software problem**
-     - yes
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 The error message does not refer to a file or file format but instead to missing missing or invalid arguments given to the software.
+
+Is it a bug in the validating software? - yes
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Suggested repairs
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

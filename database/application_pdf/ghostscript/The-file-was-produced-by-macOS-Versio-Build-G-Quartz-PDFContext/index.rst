@@ -26,8 +26,6 @@ Classification
      - ghostscript
    * - **Validator version**
      - 
-   * - **Software problem**
-     - yes
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 
+
+Is it a bug in the validating software? - yes
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Open the file with Acrobat Reader and save it as a new file without any changes 
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

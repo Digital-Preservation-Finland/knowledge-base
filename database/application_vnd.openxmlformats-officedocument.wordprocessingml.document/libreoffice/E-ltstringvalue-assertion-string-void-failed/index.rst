@@ -26,8 +26,6 @@ Classification
      - libreoffice
    * - **Validator version**
      - 
-   * - **Software problem**
-     - yes
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 A bug in a LibreOffice software. The problem is fixed since LibreOffice 7.2.0: https://bugs.documentfoundation.org/show_bug.cgi?id=79069
+
+Is it a bug in the validating software? - yes
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Suggested repairs
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

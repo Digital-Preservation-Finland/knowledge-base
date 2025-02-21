@@ -26,8 +26,6 @@ Classification
      - jhove
    * - **Validator version**
      - 
-   * - **Software problem**
-     - no
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'.
+
+Is it a bug in the validating software? - no
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Suggested repairs
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~

@@ -26,8 +26,6 @@ Classification
      - 
    * - **Validator version**
      - 
-   * - **Software problem**
-     - no
    * - **Error message type**
      - unknown
 
@@ -35,6 +33,8 @@ Classification
 Analysis
 --------
 The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog.
+
+Is it a bug in the validating software? - no
 
 -----------------
 Suggested repairs
@@ -48,7 +48,7 @@ Suggested repairs
 Effects
 ~~~~~~~
 
-Does the repair alter the interpretation of the data? Explain the migration process, please.
+
 
 Suggestion
 ~~~~~~~~~~
