@@ -1,5 +1,6 @@
 {
   "media-type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
   "version": "",
-  "profile": ""
+  "profile": "",
+  "@id": "database/sources/application_vnd.openxmlformats-officedocument.wordprocessingml.document/general"
 }

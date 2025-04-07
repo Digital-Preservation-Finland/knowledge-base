@@ -1,5 +1,6 @@
 {
   "media-type": "image/tiff",
   "version": "6.0",
-  "profile": ""
+  "profile": "",
+  "@id": "database/sources/image_tiff/6.0"
 }
