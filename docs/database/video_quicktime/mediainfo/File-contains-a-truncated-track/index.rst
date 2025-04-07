@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - video/quicktime
-   * - **Versions**
-     - 
-   * - **Profile**
-     - 
    * - **Validator**
-     - mediainfo
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - mediainfo
      - 
-   * - **Error message type**
      - general
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - video/quicktime
+     - 
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 The repair add the following line to the ffmpeg output: 'Guessed Channel Layout: stereo.' The markers to the unexisting chapter are probably removed. The error message does not prevent playing the streams. The message could possibly be also ignored.
 
-Is it a bug in the validating software? - unclear
+Is it a bug in the validating software? - 
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -57,18 +68,31 @@ Migrate the streams to a new copy.
 
 Execution example
 ~~~~~~~~~~~~~~~~~
+
 	ffmpeg -i INPUT.MOV -c:v copy -c:a copy -map_metadata 0 OUTPUT.MOV
+
 
 --------------
 Output example
 --------------
 ::
 
+
 	The file is truncated. File contains a truncated track.
 
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ffmpeg:	Application provided invalid, non monotonically increasing dts to muxer in stream 0: 
+	ffmpeg:	Referenced QT chapter track not found
+	mediainfo:	File contains a truncated track

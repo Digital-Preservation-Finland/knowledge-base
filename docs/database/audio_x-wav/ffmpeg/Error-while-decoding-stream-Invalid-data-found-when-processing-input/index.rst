@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - audio/x-wav
-   * - **Versions**
-     - 
-   * - **Profile**
-     - 
    * - **Validator**
-     - ffmpeg
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - ffmpeg
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - audio/x-wav
+     - 
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 
 
 Is it a bug in the validating software? - no
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -47,12 +58,28 @@ Output example
 --------------
 ::
 
-	[pcm_s16le @ 0x737200] Invalid PCM packet, data has size 2 but at least a size of 4 was expected
-	Error while decoding stream #0:0: Invalid data found when processing input
+
+	[pcm_s16le @ 0x737200] Invalid PCM packet, data has size 2 but at least a size of 4 was expected\nError while decoding stream #0:0: Invalid data found when processing input
 
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ffmpeg:	Error while decoding stream #0:0: Invalid data found when processing input
+	ffprobe:	Error opening filters!
+	ffprobe:	Invalid data found when processing input
+	jhove:	Chunk ID character outside printable ASCII range
+	jhove:	"Chunk ID contains space before printable characters: \"""" BKj\"""""
+	jhove:	File does not start with RIFF header
+	jhove:	Invalid chunk size
+	mediainfo:	No audio or video tracks found.
+	unknown:	Unknown list type in Associated Data List chunk: Type = "INFO"

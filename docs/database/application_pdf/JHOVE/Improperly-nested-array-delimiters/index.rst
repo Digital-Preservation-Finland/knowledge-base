@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - application/pdf
-   * - **Versions**
-     - 1.4
-   * - **Profile**
-     - 
    * - **Validator**
-     - JHOVE
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - JHOVE
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - application/pdf
+     - 1.4
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well formed.
 
-Is it a bug in the validating software? - unclear
+Is it a bug in the validating software? - 
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -57,7 +68,9 @@ Open the file with Acrobat Reader and save as a new file without making any chan
 
 Execution example
 ~~~~~~~~~~~~~~~~~
+
 	
+
 
 --------------
 Output example
@@ -67,6 +80,17 @@ Output example
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ghostscript:	**** The file was produced by: \\n   **** >>>> Adobe PSL 1.2e for Canon\\u0000 <<<<
+	JHOVE:	Improperly nested array delimiters
+	JHOVE:	Invalid character in hex string
+	JHOVE:	Lexical error

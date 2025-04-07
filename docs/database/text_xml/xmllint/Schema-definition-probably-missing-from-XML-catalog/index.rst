@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - text/xml
-   * - **Versions**
-     - 1
-   * - **Profile**
-     - 
    * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - 
      - 
-   * - **Validator version**
-     - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - text/xml
+     - 1
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog.
 
 Is it a bug in the validating software? - no
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -50,6 +61,14 @@ Output example
 ------------------
 Notes on the error
 ------------------
-	It is uncertain what validator software has raised the error. The error message has been thought to come from xmllint.
+
+It is uncertain what validator software has raised the error. The error message has been thought to come from xmllint.
 
 
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	:	Schema definition probably missing from XML catalog

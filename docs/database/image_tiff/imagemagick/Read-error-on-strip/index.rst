@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - image/tiff
-   * - **Versions**
-     - 6.0
-   * - **Profile**
-     - 
    * - **Validator**
-     - imagemagick (wand)
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - imagemagick (wand)
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - image/tiff
+     - 6.0
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
 
 
-Is it a bug in the validating software? - unclear
 
------------------
-Suggested repairs
------------------
+Is it a bug in the validating software? - 
+
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -47,11 +58,21 @@ Output example
 --------------
 ::
 
+
 	"identify: Read error on strip 525
 
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	imagemagick (wand):	"Incompatible type for ""RichTIFFIPTC"""
+	imagemagick (wand):	Read error on strip 525

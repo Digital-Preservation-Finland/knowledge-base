@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - audio/x-wav
-   * - **Versions**
-     - 
-   * - **Profile**
-     - 
    * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - unknown
      - 
-   * - **Validator version**
-     - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - audio/x-wav
+     - 
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 The repair specified here probably removes the unknown type, referring to the error message. The newly created file is only a tens of bytes smaller than the original.
 
-Is it a bug in the validating software? - unclear
+Is it a bug in the validating software? - 
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -57,7 +68,9 @@ Copy the streams to a new file.
 
 Execution example
 ~~~~~~~~~~~~~~~~~
+
 	ffmpeg -i INPUT.WAV -vn -c:a copy -map_metadata 0 OUTPUT.WAV
+
 
 --------------
 Output example
@@ -67,6 +80,22 @@ Output example
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ffmpeg:	Error while decoding stream #0:0: Invalid data found when processing input
+	ffprobe:	Error opening filters!
+	ffprobe:	Invalid data found when processing input
+	jhove:	Chunk ID character outside printable ASCII range
+	jhove:	"Chunk ID contains space before printable characters: \"""" BKj\"""""
+	jhove:	File does not start with RIFF header
+	jhove:	Invalid chunk size
+	mediainfo:	No audio or video tracks found.
+	unknown:	Unknown list type in Associated Data List chunk: Type = "INFO"

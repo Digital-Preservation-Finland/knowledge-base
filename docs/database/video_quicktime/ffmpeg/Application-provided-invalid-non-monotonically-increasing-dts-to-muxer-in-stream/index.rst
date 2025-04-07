@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - video/quicktime
-   * - **Versions**
-     - 
-   * - **Profile**
-     - 
    * - **Validator**
-     - ffmpeg
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - ffmpeg
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - video/quicktime
+     - 
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 DTS is abbreviation from Decode Timestamp. Muxer (multiplexer) combines multiple data streams into single stream eg. for transfer.
 
 Is it a bug in the validating software? - no
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -47,13 +58,22 @@ Output example
 --------------
 ::
 
-	[null @ 0x11f4c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 5142 >= 5142
-	[null @ 0x11f4c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 6053 >= 6053
-	
+
+	[null @ 0x11f4c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 5142 >= 5142\n[null @ 0x11f4c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 6053 >= 6053\n
 
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ffmpeg:	Application provided invalid, non monotonically increasing dts to muxer in stream 0: 
+	ffmpeg:	Referenced QT chapter track not found
+	mediainfo:	File contains a truncated track

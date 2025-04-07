@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - application/pdf
-   * - **Versions**
-     - 1.3
-   * - **Profile**
-     - 
    * - **Validator**
-     - ghostscript
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - ghostscript
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - application/pdf
+     - 1.3
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 A generally known repair is to open the file with Acrobat Reader and save it as a new file without making any changes to the content.
 
-Is it a bug in the validating software? - unclear
+Is it a bug in the validating software? - 
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -50,6 +61,15 @@ Output example
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ghostscript:	Quartz PDFContext
+	ghostscript:	The file was produced by: macOS Versio 10.14.6 (Build 18G1012) Quartz PDFContext <<<<

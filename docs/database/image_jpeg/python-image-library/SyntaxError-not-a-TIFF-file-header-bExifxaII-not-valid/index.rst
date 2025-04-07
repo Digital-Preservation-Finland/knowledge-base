@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - image/jpeg
-   * - **Versions**
-     - 
-   * - **Profile**
-     - 
    * - **Validator**
-     - python image library
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - python image library
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - image/jpeg
+     - 
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
 
 
-Is it a bug in the validating software? - unclear
 
------------------
-Suggested repairs
------------------
+Is it a bug in the validating software? - 
+
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -57,7 +68,9 @@ Open the file in an image processing software and save it again in the same file
 
 Execution example
 ~~~~~~~~~~~~~~~~~
+
 	
+
 
 --------------
 Output example
@@ -67,6 +80,15 @@ Output example
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	jhove:	File does not begin with SPIFF, Exif or JFIF segment
+	python image library:	SyntaxError: not a TIFF file (header b'Exif\x00aII' not valid)

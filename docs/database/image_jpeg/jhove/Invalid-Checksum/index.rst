@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - application/pdf
-   * - **Versions**
-     - 
-   * - **Profile**
-     - 
    * - **Validator**
-     - JHOVE
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - JHOVE
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - application/pdf
+     - 
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 File checksums do not match. Either the file has changed, corrupted, in a transfer or the pre-calculated checksum is wrong. The transferred file should be replaced with the original file.
 
-Is it a bug in the validating software? - unclear
+Is it a bug in the validating software? - 
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -50,6 +61,17 @@ Output example
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	JHOVE:	Invalid Checksum
+	JHOVE:	Malformed dictionary: Vector must contain an even number of objects, but has 17
+	JHOVE:	No PDF trailer
+	JHOVE:	Unexpected exception java.lang.NullPointerException

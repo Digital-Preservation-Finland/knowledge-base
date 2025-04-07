@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - application/pdf
-   * - **Versions**
-     - 
-   * - **Profile**
-     - 
    * - **Validator**
-     - JHOVE
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - JHOVE
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - application/pdf
+     - 
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 PDF-HUL-138. End-of-file marker (%%EOF) is missing. May indicate that the file is missing bits (in the end). File should be inspected with Acrobat Reader. If Reader manages to open the file and the file contents are intact, saving the file as a new should solve the problem.
 
-Is it a bug in the validating software? - unclear
+Is it a bug in the validating software? - 
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -50,6 +61,17 @@ Output example
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	JHOVE:	Invalid Checksum
+	JHOVE:	Malformed dictionary: Vector must contain an even number of objects, but has 17
+	JHOVE:	No PDF trailer
+	JHOVE:	Unexpected exception java.lang.NullPointerException

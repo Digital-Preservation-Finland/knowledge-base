@@ -16,29 +16,40 @@ Classification
 .. list-table::
    :align: center
 
-   * - **MIME type**
-     - application/pdf
-   * - **Versions**
-     - 
-   * - **Profile**
-     - 
    * - **Validator**
-     - JHOVE
-   * - **Validator version**
+     - **Validator version**
+     - **Error message type**
+   * - JHOVE
      - 
-   * - **Error message type**
      - unknown
 
+
+
+.. list-table::
+   :align: center
+
+   * - **MIME type**
+     - **Version**
+     - **Profile**
+   * - application/pdf
+     - 
+     - 
+
 --------
+Analyses
+--------
+
 Analysis
---------
+========
+
 Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors.
 
-Is it a bug in the validating software? - unclear
+Is it a bug in the validating software? - 
 
------------------
-Suggested repairs
------------------
+
+------------------
+Possible solutions
+------------------
 .. contents::
    :local:
 
@@ -50,6 +61,17 @@ Output example
 ------------------
 Notes on the error
 ------------------
-	
 
 
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	JHOVE:	Invalid Checksum
+	JHOVE:	Malformed dictionary: Vector must contain an even number of objects, but has 17
+	JHOVE:	No PDF trailer
+	JHOVE:	Unexpected exception java.lang.NullPointerException
