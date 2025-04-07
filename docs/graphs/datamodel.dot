@@ -1,6 +1,11 @@
 digraph model {
 
+	layout=dot
+
 	error -> file
 	error -> analysis
 	analysis -> repair
+
+	error [xlabel="database/solutions/"]
+	file [xlabel="database/sources/",fontcolor="#1c7ba0"]
 }

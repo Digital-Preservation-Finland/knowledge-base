@@ -8,19 +8,10 @@ The database consists of information that enable identification and classificati
 --------
 
 files : optional
-    List of files containing the problem at hand or identifier for the problem when source or example data is not available.
+    List of refetences to `4. Data source / files` describing the problem data at hand.
 
 analyses : optional, required with an `2. Analysis`_.
     List of analysis identifiers describing the problem at hand.
-
-media-type : required
-    MIME type, file format
-
-versions : optional
-    List of MIME type versions, sub property of media-type.
-
-profile : optional
-    Sub property of media type and version.
 
 validator : required
     The software raising the error.
@@ -50,7 +41,7 @@ repairs : optional, required with a `3. Repair`_.
     List of repairs related to this analysis. Repairs are described in section 3. Repair.
 
 analysis : required
-    Description of what's wrong with the file. Analysis may contain some common steps to ensure comprehensiveness of the analysis.
+    List of paragraphs that describe the problem with the data. The list of paragraphs have a visualization purpose for the articles.
 
 software-problem : optional [ "yes" | "no" | "unclear" ]
     Is it a bug? Or perhaps misconfiguration?
@@ -70,11 +61,16 @@ execution : optional
 effects : required
     Description of the effects of the execution of the repair.
 
-4. Metadata
------------
+4. Data source / file
+---------------------
 
-Metadata for the models are set in `_metadata` JSON object and contains the following:
+Data source or file describe a type of source or file.
 
-version : required
-    A version integer of a model. The version changes every time the model changes.
+media-type : required
+    MIME type, file format.
 
+version : optional
+    Version of the MIME type.
+
+profile : optional
+    Sub property of media type and version.
