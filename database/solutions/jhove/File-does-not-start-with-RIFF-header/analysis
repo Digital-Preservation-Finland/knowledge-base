@@ -1,9 +1,9 @@
 {
-  "name": "database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header.repair",
   "repairs": [],
   "analysis": "",
   "software-problem": "no",
   "_metadata": {
-    "version": 4
-  }
+    "version": 5
+  },
+  "@id": "database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header.repair"
 }

@@ -1,9 +1,9 @@
 {
-  "name": "database/application_pdf/ghostscript/Quartz-PDFContext.repair",
   "repairs": [],
   "analysis": "A generally known repair is to open the file with Acrobat Reader and save it as a new file without making any changes to the content.",
   "software-problem": "",
   "_metadata": {
-    "version": 4
-  }
+    "version": 5
+  },
+  "@id": "database/application_pdf/ghostscript/Quartz-PDFContext.repair"
 }

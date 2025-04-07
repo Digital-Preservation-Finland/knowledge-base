@@ -1,5 +1,4 @@
 {
-  "name": "database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair",
   "repairs": [
     {
       "name": "database/application_pdf/JHOVE/Improperly-nested-array-delimiters/analysis",
@@ -14,6 +13,7 @@
   "analysis": "PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well formed.",
   "software-problem": "",
   "_metadata": {
-    "version": 4
-  }
+    "version": 5
+  },
+  "@id": "database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair"
 }

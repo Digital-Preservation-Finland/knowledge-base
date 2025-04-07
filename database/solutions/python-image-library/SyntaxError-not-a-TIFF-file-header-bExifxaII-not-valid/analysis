@@ -1,5 +1,4 @@
 {
-  "name": "database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid.repair",
   "repairs": [
     {
       "name": "database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/analysis",
@@ -14,6 +13,7 @@
   "analysis": "",
   "software-problem": "",
   "_metadata": {
-    "version": 4
-  }
+    "version": 5
+  },
+  "@id": "database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid.repair"
 }

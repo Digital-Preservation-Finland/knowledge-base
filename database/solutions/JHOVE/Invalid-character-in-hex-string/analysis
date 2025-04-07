@@ -1,5 +1,4 @@
 {
-  "name": "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair",
   "repairs": [
     {
       "name": "database/application_pdf/JHOVE/Invalid-character-in-hex-string/analysis",
@@ -14,6 +13,7 @@
   "analysis": "PDF-HUL-67. Unsupported character in a hexadecimal character string.",
   "software-problem": "",
   "_metadata": {
-    "version": 4
-  }
+    "version": 5
+  },
+  "@id": "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair"
 }
