@@ -78,7 +78,11 @@ Output example
 ::
 
 
-	"[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] Referenced QT chapter track not found\\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2000d8: partial file\\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2010d8: partial file\\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2020d8: partial file
+	"[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] Referenced QT chapter track not found\
+	[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2000d8: partial file\
+	[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2010d8: partial file\
+	[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2020d8: partial file
+
 
 ------------------
 Notes on the error

@@ -59,7 +59,21 @@ Output example
 ::
 
 
-	"<?xml version=\""1.0\"" encoding=\""UTF-8\""?>\n<jhove xmlns:xsi=\""http://www.w3.org/2001/XMLSchema-instance\"" xmlns=\""http://schema.openpreservation.org/ois/xml/ns/jhove\"" xsi:schemaLocation=\""http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd\"" name=\""Jhove\"" release=\""1.24.1\"" date=\""2020-03-16\"">\n <date>2023-10-10T11:32:16+00:00</date>\n <repInfo uri=\""missing-RIFF-start.wav\"">\n  <reportingModule release=\""1.8.1\"" date=\""2019-12-10\"">WAVE-hul</reportingModule>\n  <lastModified>2023-10-04T08:14:16+00:00</lastModified>\n  <size>83</size>\n  <status>Not well-formed</status>\n  <messages>\n   <message offset=\""0\"" severity=\""error\"" id=\""WAVE-HUL-1\"">File does not start with RIFF header</message>\n  </messages>\n </repInfo>\n</jhove>\n"
+	"<?xml version=\""1.0\"" encoding=\""UTF-8\""?>
+	<jhove xmlns:xsi=\""http://www.w3.org/2001/XMLSchema-instance\"" xmlns=\""http://schema.openpreservation.org/ois/xml/ns/jhove\"" xsi:schemaLocation=\""http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd\"" name=\""Jhove\"" release=\""1.24.1\"" date=\""2020-03-16\"">
+	<date>2023-10-10T11:32:16+00:00</date>
+	<repInfo uri=\""missing-RIFF-start.wav\"">
+	<reportingModule release=\""1.8.1\"" date=\""2019-12-10\"">WAVE-hul</reportingModule>
+	<lastModified>2023-10-04T08:14:16+00:00</lastModified>
+	<size>83</size>
+	<status>Not well-formed</status>
+	<messages>
+	<message offset=\""0\"" severity=\""error\"" id=\""WAVE-HUL-1\"">File does not start with RIFF header</message>
+	</messages>
+	</repInfo>
+	</jhove>
+	"
+
 
 ------------------
 Notes on the error

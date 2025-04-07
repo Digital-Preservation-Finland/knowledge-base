@@ -59,7 +59,29 @@ Output example
 ::
 
 
-	[dvvideo @ 0xcfb260] Concealing bitstream errors\n    Last message repeated 56 times\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=70\n[dvvideo @ 0xcfb260] Concealing bitstream errors\n    Last message repeated 1 times\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=67\n[dvvideo @ 0xcfb260] Concealing bitstream errors\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=64\n[dvvideo @ 0xcfb260] Concealing bitstream errors\n    Last message repeated 1 times\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=64\n[dvvideo @ 0xcfb260] Concealing bitstream errors\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=64\n[dvvideo @ 0xcfb260] Concealing bitstream errors\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=89\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=101\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=68\n[dvvideo @ 0xcfb260] Concealing bitstream errors\n[dvvideo @ 0xcfb260] AC EOB marker is absent pos=68\n[dvvideo @ 0xcfb260] Concealing bitstream errors\n    Last message repeated 161 times\n
+	[dvvideo @ 0xcfb260] Concealing bitstream errors
+	Last message repeated 56 times
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=70
+	[dvvideo @ 0xcfb260] Concealing bitstream errors
+	Last message repeated 1 times
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=67
+	[dvvideo @ 0xcfb260] Concealing bitstream errors
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=64
+	[dvvideo @ 0xcfb260] Concealing bitstream errors
+	Last message repeated 1 times
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=64
+	[dvvideo @ 0xcfb260] Concealing bitstream errors
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=64
+	[dvvideo @ 0xcfb260] Concealing bitstream errors
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=89
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=101
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=68
+	[dvvideo @ 0xcfb260] Concealing bitstream errors
+	[dvvideo @ 0xcfb260] AC EOB marker is absent pos=68
+	[dvvideo @ 0xcfb260] Concealing bitstream errors
+	Last message repeated 161 times
+	
+
 
 ------------------
 Notes on the error

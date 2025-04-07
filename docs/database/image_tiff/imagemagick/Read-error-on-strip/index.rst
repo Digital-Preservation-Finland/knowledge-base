@@ -61,6 +61,7 @@ Output example
 
 	"identify: Read error on strip 525
 
+
 ------------------
 Notes on the error
 ------------------
