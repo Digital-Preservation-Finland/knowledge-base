@@ -1,0 +1,20 @@
+{
+  "files": [
+    "database/sources/audio_x-wav/general"
+  ],
+  "analyses": [
+    "database/audio_x-wav/jhove/Invalid-chunk-size.repair"
+  ],
+  "media-type": "audio/x-wav",
+  "versions": [],
+  "profile": "",
+  "validator": "jhove",
+  "validator-version": "",
+  "error-message": "Invalid chunk size",
+  "type": "unknown",
+  "output-example": "\"<?xml version=\\\"\"1.0\\\"\" encoding=\\\"\"UTF-8\\\"\"?>\\n<jhove xmlns:xsi=\\\"\"http://www.w3.org/2001/XMLSchema-instance\\\"\" xmlns=\\\"\"http://schema.openpreservation.org/ois/xml/ns/jhove\\\"\" xsi:schemaLocation=\\\"\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd\\\"\" name=\\\"\"Jhove\\\"\" release=\\\"\"1.24.1\\\"\" date=\\\"\"2020-03-16\\\"\">\\n <date>2023-01-25T23:15:20+02:00</date>\\n <repInfo uri=\\\"\"_/365/365Kn/365Kn61/365Kn61_2.wav\\\"\">\\n  <reportingModule release=\\\"\"1.8.1\\\"\" date=\\\"\"2019-12-10\\\"\">WAVE-hul</reportingModule>\\n  <lastModified>2021-03-19T10:44:50+02:00</lastModified>\\n  <size>196095431</size>\\n  <format>WAVE</format>\\n  <status>Not well-formed</status>\\n  <sigMatch>\\n  <module>WAVE-hul</module>\\n  </sigMatch>\\n  <messages>\\n   <message offset=\\\"\"196094820\\\"\" severity=\\\"\"info\\\"\" id=\\\"\"WAVE-HUL-7\\\"\">Ignored unrecognized chunk: \\\"\"ext[\\\"\"</message>\\n   <message offset=\\\"\"196094830\\\"\" severity=\\\"\"error\\\"\" id=\\\"\"IFF-HUL-2\\\"\">Chunk ID contains space before printable characters: \\\"\" BKj\\\"\"</message>\\n   <message offset=\\\"\"196094834\\\"\" severity=\\\"\"error\\\"\" id=\\\"\"WAVE-HUL-6\\\"\">Invalid chunk size</message>\\n   <message subMessage=\\\"\"Chunk = &quot",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

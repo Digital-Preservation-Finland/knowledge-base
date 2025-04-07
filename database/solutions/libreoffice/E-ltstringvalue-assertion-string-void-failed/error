@@ -1,0 +1,20 @@
+{
+  "files": [
+    "database/sources/application_vnd.openxmlformats-officedocument.wordprocessingml.document/general"
+  ],
+  "analyses": [
+    "database/application_vnd.openxmlformats-officedocument.wordprocessingml.document/libreoffice/E-ltstringvalue-assertion-string-void-failed.repair"
+  ],
+  "media-type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "versions": [],
+  "profile": "",
+  "validator": "libreoffice",
+  "validator-version": "",
+  "error-message": "E: lt_string_value: assertion `string != ((void *)0)\\' failed",
+  "type": "unknown",
+  "output-example": "E: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

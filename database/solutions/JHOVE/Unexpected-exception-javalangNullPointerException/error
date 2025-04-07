@@ -1,0 +1,20 @@
+{
+  "files": [
+    "database/sources/application_pdf/general"
+  ],
+  "analyses": [
+    "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair"
+  ],
+  "media-type": "application/pdf",
+  "versions": [],
+  "profile": "",
+  "validator": "JHOVE",
+  "validator-version": "",
+  "error-message": "Unexpected exception java.lang.NullPointerException",
+  "type": "unknown",
+  "output-example": "",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

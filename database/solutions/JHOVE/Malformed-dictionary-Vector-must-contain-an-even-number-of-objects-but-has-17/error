@@ -1,0 +1,20 @@
+{
+  "files": [
+    "database/sources/application_pdf/general"
+  ],
+  "analyses": [
+    "database/application_pdf/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17.repair"
+  ],
+  "media-type": "application/pdf",
+  "versions": [],
+  "profile": "",
+  "validator": "JHOVE",
+  "validator-version": "",
+  "error-message": "Malformed dictionary: Vector must contain an even number of objects, but has 17",
+  "type": "unknown",
+  "output-example": "",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

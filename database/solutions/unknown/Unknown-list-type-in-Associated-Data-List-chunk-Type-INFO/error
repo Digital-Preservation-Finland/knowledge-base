@@ -1,0 +1,20 @@
+{
+  "files": [
+    "database/sources/audio_x-wav/general"
+  ],
+  "analyses": [
+    "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair"
+  ],
+  "media-type": "audio/x-wav",
+  "versions": [],
+  "profile": "",
+  "validator": "unknown",
+  "validator-version": "",
+  "error-message": "Unknown list type in Associated Data List chunk: Type = \"INFO\"",
+  "type": "unknown",
+  "output-example": "",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

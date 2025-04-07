@@ -1,0 +1,20 @@
+{
+  "files": [
+    "database/sources/application_pdf/general"
+  ],
+  "analyses": [
+    "database/image_jpeg/jhove/Invalid-Checksum.repair"
+  ],
+  "media-type": "application/pdf",
+  "versions": [],
+  "profile": "",
+  "validator": "JHOVE",
+  "validator-version": "",
+  "error-message": "Invalid Checksum",
+  "type": "unknown",
+  "output-example": "",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

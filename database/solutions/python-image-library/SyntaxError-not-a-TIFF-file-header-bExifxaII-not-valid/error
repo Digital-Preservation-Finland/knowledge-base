@@ -1,0 +1,20 @@
+{
+  "files": [
+    "database/sources/image_jpeg/general"
+  ],
+  "analyses": [
+    "database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid.repair"
+  ],
+  "media-type": "image/jpeg",
+  "versions": [],
+  "profile": "",
+  "validator": "python image library",
+  "validator-version": "",
+  "error-message": "SyntaxError: not a TIFF file (header b'Exif\\x00aII' not valid)",
+  "type": "unknown",
+  "output-example": "",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

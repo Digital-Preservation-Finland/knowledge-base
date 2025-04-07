@@ -1,0 +1,22 @@
+{
+  "files": [
+    "database/sources/text_html/5.0"
+  ],
+  "analyses": [
+    "database/text_html/v.Nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead.repair"
+  ],
+  "media-type": "text/html",
+  "versions": [
+    "5.0"
+  ],
+  "profile": "",
+  "validator": "v.Nu",
+  "validator-version": "",
+  "error-message": "error: The \"cellspacing\" attribute on the \"table\" element is obsolete. Use CSS instead.",
+  "type": "unknown",
+  "output-example": "",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}

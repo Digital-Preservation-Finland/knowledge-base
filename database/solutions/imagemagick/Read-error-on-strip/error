@@ -1,0 +1,22 @@
+{
+  "files": [
+    "database/sources/image_tiff/6.0"
+  ],
+  "analyses": [
+    "database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair"
+  ],
+  "media-type": "image/tiff",
+  "versions": [
+    "6.0"
+  ],
+  "profile": "",
+  "validator": "imagemagick (wand)",
+  "validator-version": "",
+  "error-message": "Read error on strip 525",
+  "type": "unknown",
+  "output-example": "\"identify: Read error on strip 525",
+  "notes": "",
+  "_metadata": {
+    "version": 6
+  }
+}
