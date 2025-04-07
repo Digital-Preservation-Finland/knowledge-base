@@ -1,0 +1,15 @@
+{
+  "name": "database/audio_x-ms-wma/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream.repair",
+  "repairs": [{
+    "name": "ffmpeg-wma-wav-conversion",
+    "repair": "The problematic WMA file is converted to WAVE format using FFMpeg.",
+    "execution": "ffmpeg -i <problematic WMA file> <converted WAV file>",
+    "effects": "The file format changes to the WAVE format.",
+    "_metadata": {"version": 3}
+  }],
+  "analysis": "DTS is abbreviation from Decode Timestamp. Muxer (multiplexer) combines multiple data streams into single stream eg. for transfer.",
+  "software-problem": "no",
+  "_metadata": {
+    "version": 4
+  }
+}
