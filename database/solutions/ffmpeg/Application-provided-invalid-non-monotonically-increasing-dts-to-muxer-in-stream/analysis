@@ -1,7 +1,7 @@
 {
   "repairs": [
     {
-      "name": "ffmpeg-wma-wav-conversion",
+      "@id": "ffmpeg-wma-wav-conversion",
       "repair": "The problematic WMA file is converted to WAVE format using FFMpeg.",
       "execution": "ffmpeg -i <problematic WMA file> <converted WAV file>",
       "effects": "The file format changes to the WAVE format.",

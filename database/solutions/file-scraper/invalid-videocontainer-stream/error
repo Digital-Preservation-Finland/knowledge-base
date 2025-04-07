@@ -8,7 +8,7 @@
   "validator": "file-scraper",
   "validator-version": "0.78",
   "error-message": "",
-  "type": "",
+  "type": "unknown",
   "output-example": "",
   "notes": "The music file contains cover art image in a video container stream.",
   "_metadata": {

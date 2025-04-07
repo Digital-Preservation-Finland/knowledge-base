@@ -10,7 +10,7 @@
       "@id": "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"
     }
   ],
-  "analysis": "",
+  "analysis": [],
   "software-problem": "yes",
   "_metadata": {
     "version": 5
