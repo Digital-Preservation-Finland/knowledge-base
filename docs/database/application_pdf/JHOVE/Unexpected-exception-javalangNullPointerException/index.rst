@@ -42,7 +42,7 @@ Analyses
 Analysis
 ========
 
-['Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors.']
+Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors.
 
 Is it a bug in the validating software? - 
 

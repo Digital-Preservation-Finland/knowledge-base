@@ -42,7 +42,7 @@ Analyses
 Analysis
 ========
 
-['PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well formed.']
+PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well formed.
 
 Is it a bug in the validating software? - 
 

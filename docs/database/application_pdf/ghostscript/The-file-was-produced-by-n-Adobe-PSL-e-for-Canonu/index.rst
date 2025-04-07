@@ -42,7 +42,7 @@ Analyses
 Analysis
 ========
 
-["JHOVE raises the exception 'invalid character in hex string'. Might be solved by opening the file with Acrobat Reader and saving it as a new file without any changes to the content."]
+JHOVE raises the exception 'invalid character in hex string'. Might be solved by opening the file with Acrobat Reader and saving it as a new file without any changes to the content.
 
 Is it a bug in the validating software? - 
 

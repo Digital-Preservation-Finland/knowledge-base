@@ -42,7 +42,7 @@ Analyses
 Analysis
 ========
 
-['PDF-HUL-67. Unsupported character in a hexadecimal character string.']
+PDF-HUL-67. Unsupported character in a hexadecimal character string.
 
 Is it a bug in the validating software? - 
 
