@@ -42,7 +42,7 @@ Analyses
 Analysis
 ========
 
-The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog.
+['The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog.']
 
 Is it a bug in the validating software? - no
 

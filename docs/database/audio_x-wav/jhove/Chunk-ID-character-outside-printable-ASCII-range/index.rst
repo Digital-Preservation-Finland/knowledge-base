@@ -42,7 +42,7 @@ Analyses
 Analysis
 ========
 
-Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'.
+["Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'."]
 
 Is it a bug in the validating software? - no
 

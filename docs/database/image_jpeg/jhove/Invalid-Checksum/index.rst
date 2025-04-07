@@ -42,7 +42,7 @@ Analyses
 Analysis
 ========
 
-File checksums do not match. Either the file has changed, corrupted, in a transfer or the pre-calculated checksum is wrong. The transferred file should be replaced with the original file.
+['File checksums do not match. Either the file has changed, corrupted, in a transfer or the pre-calculated checksum is wrong. The transferred file should be replaced with the original file.']
 
 Is it a bug in the validating software? - 
 

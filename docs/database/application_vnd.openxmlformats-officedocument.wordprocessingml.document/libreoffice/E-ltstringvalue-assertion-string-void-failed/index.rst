@@ -42,7 +42,7 @@ Analyses
 Analysis
 ========
 
-A bug in a LibreOffice software. The problem is fixed since LibreOffice 7.2.0: https://bugs.documentfoundation.org/show_bug.cgi?id=79069
+['A bug in a LibreOffice software. The problem is fixed since LibreOffice 7.2.0: https://bugs.documentfoundation.org/show_bug.cgi?id=79069']
 
 Is it a bug in the validating software? - yes
 
