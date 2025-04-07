@@ -1,13 +1,13 @@
 {
   "repairs": [
     {
-      "name": "database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found/analysis",
       "repair": "Migrate the streams to a new copy.",
       "execution": "ffmpeg -i INPUT.MOV -c:v copy -c:a copy -map_metadata 0 OUTPUT.MOV",
       "effects": "",
       "_metadata": {
-        "version": 3
-      }
+        "version": 4
+      },
+      "@id": "database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found/analysis"
     }
   ],
   "analysis": "The repair add the following line to the ffmpeg output: 'Guessed Channel Layout: stereo.' The markers to the unexisting chapter are probably removed. The error message does not prevent playing the streams. The message could possibly be also ignored.",

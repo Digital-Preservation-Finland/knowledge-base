@@ -1,13 +1,13 @@
 {
   "repairs": [
     {
-      "name": "database/application_pdf/JHOVE/Lexical-error/analysis",
       "repair": "Open the file with Acrobat Reader and save as a new file without making any changes to the content.",
       "execution": "",
       "effects": "",
       "_metadata": {
-        "version": 3
-      }
+        "version": 4
+      },
+      "@id": "database/application_pdf/JHOVE/Lexical-error/analysis"
     }
   ],
   "analysis": "PDF-HUL-65, PDF-HUL-66. Unsupported character or insufficiently built dictionary object in the document. The exception is of a general kind and the problem case needs more inspection.",

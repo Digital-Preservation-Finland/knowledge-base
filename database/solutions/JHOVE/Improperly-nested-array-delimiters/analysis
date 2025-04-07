@@ -1,13 +1,13 @@
 {
   "repairs": [
     {
-      "name": "database/application_pdf/JHOVE/Improperly-nested-array-delimiters/analysis",
       "repair": "Open the file with Acrobat Reader and save as a new file without making any changes to the content.",
       "execution": "",
       "effects": "",
       "_metadata": {
-        "version": 3
-      }
+        "version": 4
+      },
+      "@id": "database/application_pdf/JHOVE/Improperly-nested-array-delimiters/analysis"
     }
   ],
   "analysis": "PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well formed.",
