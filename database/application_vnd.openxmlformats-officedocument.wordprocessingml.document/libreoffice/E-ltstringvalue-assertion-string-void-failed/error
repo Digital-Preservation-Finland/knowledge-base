@@ -6,7 +6,7 @@
     "database/application_vnd.openxmlformats-officedocument.wordprocessingml.document/libreoffice/E-ltstringvalue-assertion-string-void-failed.repair"
   ],
   "media-type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-  "versions": [""],
+  "versions": [],
   "profile": "",
   "validator": "libreoffice",
   "validator-version": "",
