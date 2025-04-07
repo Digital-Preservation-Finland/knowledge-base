@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - file-scraper
      - 0.78
-     - 
+     - unknown
 
 
 
