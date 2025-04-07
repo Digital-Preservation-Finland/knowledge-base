@@ -8,7 +8,7 @@
   "media-type": "audio/x-wav",
   "versions": [],
   "profile": "",
-  "validator": "",
+  "validator": "unknown",
   "validator-version": "",
   "error-message": "Unknown list type in Associated Data List chunk: Type = \"INFO\"",
   "type": "unknown",
