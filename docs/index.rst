@@ -10,7 +10,6 @@ Welcome to Knowledge base for file format validation errors's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   toc-mime
    toc-validator
    datamodel
 
