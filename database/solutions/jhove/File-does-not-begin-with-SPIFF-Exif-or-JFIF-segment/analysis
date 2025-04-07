@@ -10,7 +10,9 @@
       "@id": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/analysis"
     }
   ],
-  "analysis": "",
+  "analysis": [
+    ""
+  ],
   "software-problem": "no",
   "_metadata": {
     "version": 5

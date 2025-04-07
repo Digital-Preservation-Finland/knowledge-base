@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - ffmpeg
      - 
-     - unknown
+     - general
 
 
 

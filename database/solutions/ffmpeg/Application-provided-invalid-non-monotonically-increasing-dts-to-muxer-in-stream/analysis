@@ -1,6 +1,8 @@
 {
   "repairs": [],
-  "analysis": "DTS is abbreviation from Decode Timestamp. Muxer (multiplexer) combines multiple data streams into single stream eg. for transfer.",
+  "analysis": [
+    "DTS is abbreviation from Decode Timestamp. Muxer (multiplexer) combines multiple data streams into single stream eg. for transfer."
+  ],
   "software-problem": "no",
   "_metadata": {
     "version": 5

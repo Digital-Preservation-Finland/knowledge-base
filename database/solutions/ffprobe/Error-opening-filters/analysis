@@ -1,6 +1,8 @@
 {
   "repairs": [],
-  "analysis": "The error message does not refer to a file or file format but instead to missing missing or invalid arguments given to the software.",
+  "analysis": [
+    "The error message does not refer to a file or file format but instead to missing missing or invalid arguments given to the software."
+  ],
   "software-problem": "yes",
   "_metadata": {
     "version": 5

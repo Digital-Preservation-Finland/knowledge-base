@@ -1,0 +1,11 @@
+{
+  "name": "database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair",
+  "repairs": [],
+  "analysis": [
+    ""
+  ],
+  "software-problem": "",
+  "_metadata": {
+    "version": 4
+  }
+}

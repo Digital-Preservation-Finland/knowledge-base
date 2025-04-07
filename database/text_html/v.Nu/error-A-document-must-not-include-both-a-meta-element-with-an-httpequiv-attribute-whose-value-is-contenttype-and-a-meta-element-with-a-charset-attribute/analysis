@@ -1,0 +1,11 @@
+{
+  "name": "database/text_html/v.Nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute.repair",
+  "repairs": [],
+  "analysis": [
+    ""
+  ],
+  "software-problem": "no",
+  "_metadata": {
+    "version": 4
+  }
+}

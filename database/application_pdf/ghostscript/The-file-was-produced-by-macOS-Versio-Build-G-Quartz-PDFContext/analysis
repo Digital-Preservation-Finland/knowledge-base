@@ -1,0 +1,21 @@
+{
+  "name": "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext.repair",
+  "repairs": [
+    {
+      "name": "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis",
+      "repair": "Open the file with Acrobat Reader and save it as a new file without any changes to the content.",
+      "execution": "",
+      "effects": "",
+      "_metadata": {
+        "version": 3
+      }
+    }
+  ],
+  "analysis": [
+    ""
+  ],
+  "software-problem": "yes",
+  "_metadata": {
+    "version": 4
+  }
+}

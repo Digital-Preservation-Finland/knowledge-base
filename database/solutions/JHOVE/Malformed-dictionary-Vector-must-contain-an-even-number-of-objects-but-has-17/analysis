@@ -1,6 +1,8 @@
 {
   "repairs": [],
-  "analysis": "PDF-HUL-41. A dictionary in the PDF document contains an uneven number of objects and therefore the matching of key-value pairs does not succeed. Acrobat Reader could possibly be able to repair errors in the internal structure of the document.",
+  "analysis": [
+    "PDF-HUL-41. A dictionary in the PDF document contains an uneven number of objects and therefore the matching of key-value pairs does not succeed. Acrobat Reader could possibly be able to repair errors in the internal structure of the document."
+  ],
   "software-problem": "",
   "_metadata": {
     "version": 5

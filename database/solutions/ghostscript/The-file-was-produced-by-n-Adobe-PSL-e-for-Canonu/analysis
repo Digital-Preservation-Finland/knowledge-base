@@ -1,6 +1,8 @@
 {
   "repairs": [],
-  "analysis": "JHOVE raises the exception 'invalid character in hex string'. Might be solved by opening the file with Acrobat Reader and saving it as a new file without any changes to the content.",
+  "analysis": [
+    "JHOVE raises the exception 'invalid character in hex string'. Might be solved by opening the file with Acrobat Reader and saving it as a new file without any changes to the content."
+  ],
   "software-problem": "",
   "_metadata": {
     "version": 5

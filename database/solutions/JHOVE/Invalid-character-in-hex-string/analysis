@@ -10,7 +10,9 @@
       "@id": "database/application_pdf/JHOVE/Invalid-character-in-hex-string/analysis"
     }
   ],
-  "analysis": "PDF-HUL-67. Unsupported character in a hexadecimal character string.",
+  "analysis": [
+    "PDF-HUL-67. Unsupported character in a hexadecimal character string."
+  ],
   "software-problem": "",
   "_metadata": {
     "version": 5

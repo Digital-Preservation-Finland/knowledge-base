@@ -1,6 +1,8 @@
 {
   "repairs": [],
-  "analysis": "Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors.",
+  "analysis": [
+    "Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors."
+  ],
   "software-problem": "",
   "_metadata": {
     "version": 5

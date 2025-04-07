@@ -1,6 +1,8 @@
 {
   "repairs": [],
-  "analysis": "Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'.",
+  "analysis": [
+    "Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'."
+  ],
   "software-problem": "no",
   "_metadata": {
     "version": 5

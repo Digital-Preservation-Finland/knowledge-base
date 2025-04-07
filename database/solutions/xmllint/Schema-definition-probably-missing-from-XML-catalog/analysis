@@ -1,6 +1,8 @@
 {
   "repairs": [],
-  "analysis": "The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog.",
+  "analysis": [
+    "The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog."
+  ],
   "software-problem": "no",
   "_metadata": {
     "version": 5
