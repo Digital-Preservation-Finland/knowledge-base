@@ -10,7 +10,7 @@
     "1.4"
   ],
   "profile": "",
-  "validator": "JHOVE",
+  "validator": "jhove",
   "validator-version": "",
   "error-message": "Improperly nested array delimiters",
   "type": "unknown",

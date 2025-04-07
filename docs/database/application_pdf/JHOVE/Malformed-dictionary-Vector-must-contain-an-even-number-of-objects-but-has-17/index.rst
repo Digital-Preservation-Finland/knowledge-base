@@ -19,7 +19,7 @@ Classification
    * - **Validator**
      - **Validator version**
      - **Error message type**
-   * - JHOVE
+   * - jhove
      - 
      - unknown
 
@@ -71,7 +71,7 @@ Related errors by source files
 
 ::
 
-	JHOVE:	Invalid Checksum
-	JHOVE:	Malformed dictionary: Vector must contain an even number of objects, but has 17
-	JHOVE:	No PDF trailer
-	JHOVE:	Unexpected exception java.lang.NullPointerException
+	jhove:	Invalid Checksum
+	jhove:	Malformed dictionary: Vector must contain an even number of objects, but has 17
+	jhove:	No PDF trailer
+	jhove:	Unexpected exception java.lang.NullPointerException

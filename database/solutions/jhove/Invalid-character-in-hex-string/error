@@ -10,7 +10,7 @@
     "1.4"
   ],
   "profile": "",
-  "validator": "JHOVE",
+  "validator": "jhove",
   "validator-version": "",
   "error-message": "Invalid character in hex string",
   "type": "unknown",

@@ -19,7 +19,7 @@ Classification
    * - **Validator**
      - **Validator version**
      - **Error message type**
-   * - JHOVE
+   * - jhove
      - 
      - unknown
 
@@ -91,6 +91,6 @@ Related errors by source files
 ::
 
 	ghostscript:	**** The file was produced by: \\n   **** >>>> Adobe PSL 1.2e for Canon\\u0000 <<<<
-	JHOVE:	Improperly nested array delimiters
-	JHOVE:	Invalid character in hex string
-	JHOVE:	Lexical error
+	jhove:	Improperly nested array delimiters
+	jhove:	Invalid character in hex string
+	jhove:	Lexical error

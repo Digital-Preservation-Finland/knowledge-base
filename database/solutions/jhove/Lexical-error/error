@@ -1,16 +1,18 @@
 {
   "files": [
-    "database/sources/application_pdf/general"
+    "database/sources/application_pdf/1.4"
   ],
   "analyses": [
-    "database/application_pdf/JHOVE/No-PDF-trailer.repair"
+    "database/application_pdf/JHOVE/Lexical-error.repair"
   ],
   "media-type": "application/pdf",
-  "versions": [],
+  "versions": [
+    "1.4"
+  ],
   "profile": "",
-  "validator": "JHOVE",
+  "validator": "jhove",
   "validator-version": "",
-  "error-message": "No PDF trailer",
+  "error-message": "Lexical error",
   "type": "unknown",
   "output-example": "",
   "notes": "",

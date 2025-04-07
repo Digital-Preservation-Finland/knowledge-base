@@ -3,14 +3,14 @@
     "database/sources/application_pdf/general"
   ],
   "analyses": [
-    "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair"
+    "database/application_pdf/JHOVE/No-PDF-trailer.repair"
   ],
   "media-type": "application/pdf",
   "versions": [],
   "profile": "",
-  "validator": "JHOVE",
+  "validator": "jhove",
   "validator-version": "",
-  "error-message": "Unexpected exception java.lang.NullPointerException",
+  "error-message": "No PDF trailer",
   "type": "unknown",
   "output-example": "",
   "notes": "",
