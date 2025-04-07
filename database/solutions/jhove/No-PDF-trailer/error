@@ -5,9 +5,6 @@
   "analyses": [
     "database/application_pdf/JHOVE/No-PDF-trailer.repair"
   ],
-  "media-type": "application/pdf",
-  "versions": [],
-  "profile": "",
   "validator": "jhove",
   "validator-version": "",
   "error-message": "No PDF trailer",

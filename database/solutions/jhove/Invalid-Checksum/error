@@ -5,9 +5,6 @@
   "analyses": [
     "database/image_jpeg/jhove/Invalid-Checksum.repair"
   ],
-  "media-type": "application/pdf",
-  "versions": [],
-  "profile": "",
   "validator": "jhove",
   "validator-version": "",
   "error-message": "Invalid Checksum",

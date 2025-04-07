@@ -5,11 +5,6 @@
   "analyses": [
     "database/text_xml/xmllint-kai/Schema-definition-probably-missing-from-XML-catalog.repair"
   ],
-  "media-type": "text/xml",
-  "versions": [
-    "1"
-  ],
-  "profile": "",
   "validator": "",
   "validator-version": "",
   "error-message": "Schema definition probably missing from XML catalog",

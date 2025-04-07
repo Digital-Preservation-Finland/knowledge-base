@@ -5,11 +5,6 @@
   "analyses": [
     "database/audio_mpeg/file-scraper/invalid-videocontainer-stream/analysis"
   ],
-  "media-type": "audio/mpeg",
-  "versions": [
-    "1"
-  ],
-  "profile": "",
   "validator": "file-scraper",
   "validator-version": "0.78",
   "error-message": "",

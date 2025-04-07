@@ -5,9 +5,6 @@
   "analyses": [
     "database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found.repair"
   ],
-  "media-type": "video/quicktime",
-  "versions": [],
-  "profile": "",
   "validator": "ffmpeg",
   "validator-version": "",
   "error-message": "Referenced QT chapter track not found",

@@ -5,11 +5,6 @@
   "analyses": [
     "database/application_pdf/verapdf/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code.repair"
   ],
-  "media-type": "application/pdf",
-  "versions": [
-    "A1-b"
-  ],
-  "profile": "",
   "validator": "verapdf",
   "validator-version": "",
   "error-message": "org.verapdf.pd.font.cmap.CMapParser getBfrangeEndFromBytes WARNING: Incorrect bfrange in toUnicode CMap: bfrange contains more than 256 code.",

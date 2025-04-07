@@ -5,9 +5,6 @@
   "analyses": [
     "database/audio_x-wav/ffprobe/Error-opening-filters.repair"
   ],
-  "media-type": "audio/x-wav",
-  "versions": [],
-  "profile": "",
   "validator": "ffprobe",
   "validator-version": "",
   "error-message": "Error opening filters!",

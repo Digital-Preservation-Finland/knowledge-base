@@ -5,11 +5,6 @@
   "analyses": [
     "database/application_pdf/JHOVE/Lexical-error.repair"
   ],
-  "media-type": "application/pdf",
-  "versions": [
-    "1.4"
-  ],
-  "profile": "",
   "validator": "jhove",
   "validator-version": "",
   "error-message": "Lexical error",

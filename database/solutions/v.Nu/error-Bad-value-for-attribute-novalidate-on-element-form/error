@@ -5,11 +5,6 @@
   "analyses": [
     "database/text_html/v.Nu/error-Bad-value-for-attribute-novalidate-on-element-form.repair"
   ],
-  "media-type": "text/html",
-  "versions": [
-    "5.0"
-  ],
-  "profile": "",
   "validator": "v.Nu",
   "validator-version": "",
   "error-message": "error: Bad value \"1\" for attribute \"novalidate\" on element \"form\".",

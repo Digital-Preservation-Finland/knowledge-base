@@ -5,11 +5,6 @@
   "analyses": [
     "database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair"
   ],
-  "media-type": "image/tiff",
-  "versions": [
-    "6.0"
-  ],
-  "profile": "",
   "validator": "imagemagick (wand)",
   "validator-version": "",
   "error-message": "Read error on strip 525",

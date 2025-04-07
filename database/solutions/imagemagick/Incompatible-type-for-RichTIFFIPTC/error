@@ -5,11 +5,6 @@
   "analyses": [
     "database/image_tiff/imagemagick-(wand)/Incompatible-type-for-RichTIFFIPTC.repair"
   ],
-  "media-type": "image/tiff",
-  "versions": [
-    "6.0"
-  ],
-  "profile": "",
   "validator": "imagemagick (wand)",
   "validator-version": "",
   "error-message": "\"Incompatible type for \"\"RichTIFFIPTC\"\"\"",

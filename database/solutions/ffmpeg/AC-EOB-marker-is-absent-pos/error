@@ -5,9 +5,6 @@
   "analyses": [
     "database/video_dv/ffmpeg/AC-EOB-marker-is-absent-pos.repair"
   ],
-  "media-type": "video/dv",
-  "versions": [],
-  "profile": "",
   "validator": "ffmpeg",
   "validator-version": "",
   "error-message": "AC EOB marker is absent pos=",

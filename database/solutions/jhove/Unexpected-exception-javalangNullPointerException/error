@@ -5,9 +5,6 @@
   "analyses": [
     "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair"
   ],
-  "media-type": "application/pdf",
-  "versions": [],
-  "profile": "",
   "validator": "jhove",
   "validator-version": "",
   "error-message": "Unexpected exception java.lang.NullPointerException",

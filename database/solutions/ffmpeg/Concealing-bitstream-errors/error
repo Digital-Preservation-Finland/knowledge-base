@@ -5,9 +5,6 @@
   "analyses": [
     "database/video_dv/ffmpeg/Concealing-bitstream-errors.repair"
   ],
-  "media-type": "video/dv",
-  "versions": [],
-  "profile": "",
   "validator": "ffmpeg",
   "validator-version": "",
   "error-message": "Concealing bitstream errors",

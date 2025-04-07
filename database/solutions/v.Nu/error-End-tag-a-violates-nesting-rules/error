@@ -5,11 +5,6 @@
   "analyses": [
     "database/text_html/v.Nu/error-End-tag-a-violates-nesting-rules.repair"
   ],
-  "media-type": "text/html",
-  "versions": [
-    "5.0"
-  ],
-  "profile": "",
   "validator": "v.Nu",
   "validator-version": "",
   "error-message": "error: End tag \"a\" violates nesting rules.",
