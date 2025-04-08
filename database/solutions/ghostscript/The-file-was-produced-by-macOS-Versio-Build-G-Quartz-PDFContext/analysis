@@ -1,16 +1,6 @@
 {
   "repairs": [
-    {
-      "repair": "Open the file with Acrobat Reader and save it as a new file without any changes to the content.",
-      "execution": "",
-      "effects": "",
-      "_metadata": {
-        "version": 4
-      },
-      "@id": "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis",
-      "justification": "",
-      "heading": "Fix with Acrobat Reader"
-    }
+    "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"
   ],
   "analysis": [],
   "software-problem": "yes",

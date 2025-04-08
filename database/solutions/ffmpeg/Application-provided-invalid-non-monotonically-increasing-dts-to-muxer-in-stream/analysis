@@ -1,16 +1,6 @@
 {
   "repairs": [
-    {
-      "@id": "ffmpeg-wma-wav-conversion",
-      "repair": "The problematic WMA file is converted to WAVE format using FFMpeg.",
-      "execution": "ffmpeg -i <problematic WMA file> <converted WAV file>",
-      "effects": "The file format changes to the WAVE format.",
-      "_metadata": {
-        "version": 3
-      },
-      "justification": "",
-      "heading": "Convert file format with ffmpeg"
-    }
+    "ffmpeg-wma-wav-conversion"
   ],
   "analysis": [
     "DTS is abbreviation from Decode Timestamp. Muxer (multiplexer) combines multiple data streams into single stream eg. for transfer.",
