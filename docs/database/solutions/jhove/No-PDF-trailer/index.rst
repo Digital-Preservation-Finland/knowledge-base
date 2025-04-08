@@ -42,9 +42,12 @@ Analyses
 Analysis
 ========
 
+
+
 PDF-HUL-138. End-of-file marker (%%EOF) is missing. May indicate that the file is missing bits (in the end). File should be inspected with Acrobat Reader. If Reader manages to open the file and the file contents are intact, saving the file as a new should solve the problem.
 
 Is it a bug in the validating software? - 
+
 
 
 ------------------

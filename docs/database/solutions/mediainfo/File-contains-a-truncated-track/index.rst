@@ -42,9 +42,12 @@ Analyses
 Analysis
 ========
 
+
+
 The repair add the following line to the ffmpeg output: 'Guessed Channel Layout: stereo.' The markers to the unexisting chapter are probably removed. The error message does not prevent playing the streams. The message could possibly be also ignored.
 
 Is it a bug in the validating software? - 
+
 
 
 ------------------
@@ -53,18 +56,23 @@ Possible solutions
 .. contents::
    :local:
 
-Migrate the streams to a new copy
-=================================
+Create new file from audio and video streams
+============================================
+
+Suggestion
+~~~~~~~~~~
+
+Migrate the streams to a new copy.
 
 Effects
 ~~~~~~~
 
 
 
-Suggestion
-~~~~~~~~~~
+Justification
+~~~~~~~~~~~~~
 
-Migrate the streams to a new copy.
+
 
 Execution example
 ~~~~~~~~~~~~~~~~~

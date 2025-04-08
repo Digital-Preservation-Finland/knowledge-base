@@ -42,9 +42,12 @@ Analyses
 Analysis
 ========
 
+
+
 PDF-HUL-41. A dictionary in the PDF document contains an uneven number of objects and therefore the matching of key-value pairs does not succeed. Acrobat Reader could possibly be able to repair errors in the internal structure of the document.
 
 Is it a bug in the validating software? - 
+
 
 
 ------------------

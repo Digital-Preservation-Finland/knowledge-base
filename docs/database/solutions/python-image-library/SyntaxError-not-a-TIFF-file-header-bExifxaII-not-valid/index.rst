@@ -44,7 +44,10 @@ Analysis
 
 
 
+
+
 Is it a bug in the validating software? - 
+
 
 
 ------------------
@@ -53,18 +56,23 @@ Possible solutions
 .. contents::
    :local:
 
+Open and save as a new file
+===========================
+
+Suggestion
+~~~~~~~~~~
+
 Open the file in an image processing software and save it again in the same file format
-=======================================================================================
 
 Effects
 ~~~~~~~
 
 
 
-Suggestion
-~~~~~~~~~~
+Justification
+~~~~~~~~~~~~~
 
-Open the file in an image processing software and save it again in the same file format
+
 
 Execution example
 ~~~~~~~~~~~~~~~~~

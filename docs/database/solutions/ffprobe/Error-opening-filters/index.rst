@@ -42,9 +42,12 @@ Analyses
 Analysis
 ========
 
+
+
 The error message does not refer to a file or file format but instead to missing missing or invalid arguments given to the software.
 
 Is it a bug in the validating software? - yes
+
 
 
 ------------------

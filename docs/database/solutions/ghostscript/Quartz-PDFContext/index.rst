@@ -42,9 +42,12 @@ Analyses
 Analysis
 ========
 
+
+
 A generally known repair is to open the file with Acrobat Reader and save it as a new file without making any changes to the content.
 
 Is it a bug in the validating software? - 
+
 
 
 ------------------

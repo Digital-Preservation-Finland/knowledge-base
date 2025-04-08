@@ -42,9 +42,12 @@ Analyses
 Analysis
 ========
 
+
+
 The repair specified here probably removes the unknown type, referring to the error message. The newly created file is only a tens of bytes smaller than the original.
 
 Is it a bug in the validating software? - 
+
 
 
 ------------------
@@ -53,18 +56,23 @@ Possible solutions
 .. contents::
    :local:
 
-Copy the streams to a new file
-==============================
+Create new file from audio stream
+=================================
+
+Suggestion
+~~~~~~~~~~
+
+Copy the streams to a new file.
 
 Effects
 ~~~~~~~
 
 
 
-Suggestion
-~~~~~~~~~~
+Justification
+~~~~~~~~~~~~~
 
-Copy the streams to a new file.
+
 
 Execution example
 ~~~~~~~~~~~~~~~~~

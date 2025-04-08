@@ -42,9 +42,12 @@ Analyses
 Analysis
 ========
 
+
+
 PDF-HUL-65, PDF-HUL-66. Unsupported character or insufficiently built dictionary object in the document. The exception is of a general kind and the problem case needs more inspection.
 
 Is it a bug in the validating software? - 
+
 
 
 ------------------
@@ -53,18 +56,23 @@ Possible solutions
 .. contents::
    :local:
 
-Open the file with Acrobat Reader and save as a new file without making any changes to the content
-==================================================================================================
+Remake with Acrobat Reader
+==========================
+
+Suggestion
+~~~~~~~~~~
+
+Open the file with Acrobat Reader and save it as a new file without any changes to the content.
 
 Effects
 ~~~~~~~
 
 
 
-Suggestion
-~~~~~~~~~~
+Justification
+~~~~~~~~~~~~~
 
-Open the file with Acrobat Reader and save as a new file without making any changes to the content.
+
 
 Execution example
 ~~~~~~~~~~~~~~~~~
