@@ -9,7 +9,7 @@
       },
       "@id": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/analysis",
       "justification": "",
-      "heading": ""
+      "heading": "Read with ImageMagick"
     }
   ],
   "analysis": [],
