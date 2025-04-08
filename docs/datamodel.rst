@@ -61,6 +61,9 @@ execution : optional
 effects : required
     Description of the effects of the execution of the repair.
 
+justification : optional
+    Rationale for accepting the repair.
+
 4. Data source / file
 ---------------------
 
