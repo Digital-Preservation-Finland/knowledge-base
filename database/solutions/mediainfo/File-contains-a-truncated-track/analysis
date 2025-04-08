@@ -1,6 +1,6 @@
 {
   "repairs": [
-    "database/video_quicktime/mediainfo/File-contains-a-truncated-track/analysis"
+    "database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found/analysis"
   ],
   "analysis": [
     "The repair add the following line to the ffmpeg output: 'Guessed Channel Layout: stereo.' The markers to the unexisting chapter are probably removed. The error message does not prevent playing the streams. The message could possibly be also ignored."
