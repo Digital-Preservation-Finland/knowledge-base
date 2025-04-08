@@ -61,6 +61,9 @@ name : required
 repair : required
     How to repair the file and how the repair affects the data in the file.
 
+heading : required
+    Short and distinctive description of the repair.
+
 execution : optional
     Is there a command or a script to execute the solution? What's the environment like for running the command?
 
