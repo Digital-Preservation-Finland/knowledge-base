@@ -8,5 +8,6 @@
     "version": 5
   },
   "@id": "database/application_pdf/ghostscript/Quartz-PDFContext.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }

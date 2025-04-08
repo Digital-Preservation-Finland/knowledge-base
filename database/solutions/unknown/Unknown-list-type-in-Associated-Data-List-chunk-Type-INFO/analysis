@@ -19,5 +19,6 @@
     "version": 5
   },
   "@id": "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }

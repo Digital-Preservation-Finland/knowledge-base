@@ -19,5 +19,6 @@
     "version": 5
   },
   "@id": "database/application_pdf/JHOVE/Lexical-error.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }

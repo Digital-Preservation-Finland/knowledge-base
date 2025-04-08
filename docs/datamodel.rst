@@ -49,6 +49,9 @@ software-problem : optional [ "yes" | "no" | "unclear" ]
 significant-properties : optional list of paragraphs
     The properties of data that are considered significant in the analysis.
 
+do-fix : optional [ "yes" | "no" | "" ]
+    An analysis may conclude that the solution is to not try to fix the files. If the error is fixable it should have repairs related to it, otherwise not.
+
 3. Repair
 ---------
 

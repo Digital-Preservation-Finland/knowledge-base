@@ -20,5 +20,6 @@
     "version": 5
   },
   "@id": "database/video_quicktime/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }

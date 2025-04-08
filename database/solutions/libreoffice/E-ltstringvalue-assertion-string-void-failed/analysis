@@ -8,5 +8,6 @@
     "version": 5
   },
   "@id": "database/application_vnd.openxmlformats-officedocument.wordprocessingml.document/libreoffice/E-ltstringvalue-assertion-string-void-failed.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }

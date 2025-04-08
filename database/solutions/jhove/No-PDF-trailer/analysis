@@ -8,5 +8,6 @@
     "version": 5
   },
   "@id": "database/application_pdf/JHOVE/No-PDF-trailer.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }

@@ -6,5 +6,6 @@
     "version": 5
   },
   "@id": "database/text_html/v.Nu/error-Attribute-caption-not-allowed-on-element-img-at-this-point.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }

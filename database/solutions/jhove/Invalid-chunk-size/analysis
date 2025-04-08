@@ -8,5 +8,6 @@
     "version": 5
   },
   "@id": "database/audio_x-wav/jhove/Invalid-chunk-size.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }

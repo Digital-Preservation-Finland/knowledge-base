@@ -8,5 +8,6 @@
     "version": 5
   },
   "@id": "database/text_xml/xmllint-kai/Schema-definition-probably-missing-from-XML-catalog.repair",
-  "significant-properties": []
+  "significant-properties": [],
+  "do-fix": ""
 }
