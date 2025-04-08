@@ -18,5 +18,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/video_quicktime/mediainfo/File-contains-a-truncated-track.repair"
+  "@id": "database/video_quicktime/mediainfo/File-contains-a-truncated-track.repair",
+  "significant-properties": []
 }

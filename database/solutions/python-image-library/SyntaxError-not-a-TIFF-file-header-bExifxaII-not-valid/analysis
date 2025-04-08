@@ -16,5 +16,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid.repair"
+  "@id": "database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid.repair",
+  "significant-properties": []
 }

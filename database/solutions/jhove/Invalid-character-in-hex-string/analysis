@@ -18,5 +18,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair"
+  "@id": "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair",
+  "significant-properties": []
 }

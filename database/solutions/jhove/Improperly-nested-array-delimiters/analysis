@@ -18,5 +18,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair"
+  "@id": "database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair",
+  "significant-properties": []
 }

@@ -7,5 +7,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/image_jpeg/jhove/Invalid-Checksum.repair"
+  "@id": "database/image_jpeg/jhove/Invalid-Checksum.repair",
+  "significant-properties": []
 }

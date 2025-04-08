@@ -16,5 +16,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment.repair"
+  "@id": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment.repair",
+  "significant-properties": []
 }

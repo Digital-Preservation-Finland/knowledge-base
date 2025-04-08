@@ -5,5 +5,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header.repair"
+  "@id": "database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header.repair",
+  "significant-properties": []
 }

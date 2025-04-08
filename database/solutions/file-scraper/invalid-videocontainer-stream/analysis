@@ -18,5 +18,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/audio_mpeg/file-scraper/invalid-videocontainer-stream/analysis"
+  "@id": "database/audio_mpeg/file-scraper/invalid-videocontainer-stream/analysis",
+  "significant-properties": []
 }

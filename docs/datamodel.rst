@@ -46,6 +46,9 @@ analysis : required
 software-problem : optional [ "yes" | "no" | "unclear" ]
     Is it a bug? Or perhaps misconfiguration?
 
+significant-properties : optional list of paragraphs
+    The properties of data that are considered significant in the analysis.
+
 3. Repair
 ---------
 

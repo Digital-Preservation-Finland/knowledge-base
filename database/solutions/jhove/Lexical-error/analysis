@@ -18,5 +18,6 @@
   "_metadata": {
     "version": 5
   },
-  "@id": "database/application_pdf/JHOVE/Lexical-error.repair"
+  "@id": "database/application_pdf/JHOVE/Lexical-error.repair",
+  "significant-properties": []
 }
