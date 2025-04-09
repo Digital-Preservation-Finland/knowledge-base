@@ -48,8 +48,6 @@ The file contains two streams: a video container and an audio stream. The file's
 
 Is it a bug in the validating software? - yes
 
-
-
 ------------------
 Possible solutions
 ------------------

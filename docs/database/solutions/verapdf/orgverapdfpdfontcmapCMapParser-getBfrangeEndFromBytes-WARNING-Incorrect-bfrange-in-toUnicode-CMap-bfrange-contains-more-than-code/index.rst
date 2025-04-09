@@ -48,8 +48,6 @@ The error message refers to the method of the Java class. It's unclear is this a
 
 Is it a bug in the validating software? - unclear
 
-
-
 ------------------
 Possible solutions
 ------------------

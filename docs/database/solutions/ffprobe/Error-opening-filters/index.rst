@@ -48,8 +48,6 @@ The error message does not refer to a file or file format but instead to missing
 
 Is it a bug in the validating software? - yes
 
-
-
 ------------------
 Possible solutions
 ------------------

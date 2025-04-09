@@ -48,8 +48,6 @@ PDF-HUL-41. A dictionary in the PDF document contains an uneven number of object
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

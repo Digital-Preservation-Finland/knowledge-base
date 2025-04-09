@@ -48,8 +48,6 @@ JHOVE raises the exception 'invalid character in hex string'. Might be solved by
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

@@ -48,8 +48,6 @@ The schema for the document is missing from the schema catalog. A known repair i
 
 Is it a bug in the validating software? - no
 
-
-
 ------------------
 Possible solutions
 ------------------

@@ -48,8 +48,6 @@ Unexpected error in file handling. Errors in the internal structure of the file.
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

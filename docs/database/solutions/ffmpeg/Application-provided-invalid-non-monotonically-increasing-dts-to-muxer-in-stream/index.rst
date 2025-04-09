@@ -54,8 +54,6 @@ From https://stackoverflow.com/a/76222700: The 'non monotonically increasing dts
 
 Is it a bug in the validating software? - no
 
-
-
 ------------------
 Possible solutions
 ------------------

@@ -48,8 +48,6 @@ PDF-HUL-138. End-of-file marker (%%EOF) is missing. May indicate that the file i
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

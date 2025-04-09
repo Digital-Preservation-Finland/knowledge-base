@@ -48,8 +48,6 @@ PDF-HUL-67. Unsupported character in a hexadecimal character string.
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

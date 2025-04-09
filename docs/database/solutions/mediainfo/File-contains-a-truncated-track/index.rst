@@ -48,8 +48,6 @@ The repair add the following line to the ffmpeg output: 'Guessed Channel Layout:
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

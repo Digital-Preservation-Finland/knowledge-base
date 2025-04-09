@@ -48,8 +48,6 @@ Chunk ID refers to the four first byte in file header. The bytes should contain 
 
 Is it a bug in the validating software? - no
 
-
-
 ------------------
 Possible solutions
 ------------------

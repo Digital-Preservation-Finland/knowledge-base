@@ -48,8 +48,6 @@ A generally known repair is to open the file with Acrobat Reader and save it as 
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

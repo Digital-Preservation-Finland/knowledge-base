@@ -48,8 +48,6 @@ File checksums do not match. Either the file has changed, corrupted, in a transf
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

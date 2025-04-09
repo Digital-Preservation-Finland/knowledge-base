@@ -48,8 +48,6 @@ PDF-HUL-65, PDF-HUL-66. Unsupported character or insufficiently built dictionary
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

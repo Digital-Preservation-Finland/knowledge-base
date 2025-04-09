@@ -48,8 +48,6 @@ Analysis
 
 Is it a bug in the validating software? - yes
 
-
-
 ------------------
 Possible solutions
 ------------------

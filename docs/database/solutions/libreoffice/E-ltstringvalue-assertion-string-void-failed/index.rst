@@ -48,8 +48,6 @@ A bug in a LibreOffice software. The problem is fixed since LibreOffice 7.2.0: h
 
 Is it a bug in the validating software? - yes
 
-
-
 ------------------
 Possible solutions
 ------------------

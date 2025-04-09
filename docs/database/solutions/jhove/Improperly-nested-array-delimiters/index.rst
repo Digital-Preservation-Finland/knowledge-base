@@ -48,8 +48,6 @@ PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well for
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

@@ -48,8 +48,6 @@ The repair specified here probably removes the unknown type, referring to the er
 
 Is it a bug in the validating software? - 
 
-
-
 ------------------
 Possible solutions
 ------------------

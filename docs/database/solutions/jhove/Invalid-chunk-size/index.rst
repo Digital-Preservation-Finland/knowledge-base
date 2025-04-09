@@ -48,8 +48,6 @@ Chunk size refers to the bytes 5-8 that are the second record in a file header. 
 
 Is it a bug in the validating software? - no
 
-
-
 ------------------
 Possible solutions
 ------------------
