@@ -46,7 +46,7 @@ Analysis
 
 The error message refers to the method of the Java class. It's unclear is this a software error or error in a data file.
 
-Is it a bug in the validating software? - unclear
+Is it a bug in the validating software? - 
 
 ------------------
 Possible solutions
