@@ -2,7 +2,7 @@ Articles by file format
 =======================
 
 .. contents:: File formats:
-   :depth: 1
+   :depth: 2
 
 
 application/pdf
