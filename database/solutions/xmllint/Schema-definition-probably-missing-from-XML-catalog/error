@@ -10,8 +10,5 @@
   "error-message": "Schema definition probably missing from XML catalog",
   "type": "unknown",
   "output-example": "",
-  "notes": "It is uncertain what validator software has raised the error. The error message has been thought to come from xmllint.",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": "It is uncertain what validator software has raised the error. The error message has been thought to come from xmllint."
 }

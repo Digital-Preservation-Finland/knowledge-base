@@ -10,8 +10,5 @@
   "error-message": "error: Element \"div\" not allowed as child of element \"span\" in this context. (Suppressing further errors from this subtree.)",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

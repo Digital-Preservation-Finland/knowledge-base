@@ -10,8 +10,5 @@
   "error-message": "Lexical error",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

@@ -2,9 +2,6 @@
   "repairs": [],
   "analysis": [],
   "software-problem": "no",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/text_html/v.Nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item.repair",
   "significant-properties": [],
   "do-fix": ""

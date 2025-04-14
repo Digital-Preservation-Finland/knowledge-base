@@ -10,8 +10,5 @@
   "error-message": "Malformed dictionary: Vector must contain an even number of objects, but has 17",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

@@ -6,9 +6,6 @@
     "The repair specified here probably removes the unknown type, referring to the error message. The newly created file is only a tens of bytes smaller than the original."
   ],
   "software-problem": "",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair",
   "significant-properties": [],
   "do-fix": ""

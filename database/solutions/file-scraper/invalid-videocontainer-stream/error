@@ -10,8 +10,5 @@
   "error-message": "",
   "type": "unknown",
   "output-example": "",
-  "notes": "The music file contains cover art image in a video container stream.",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": "The music file contains cover art image in a video container stream."
 }

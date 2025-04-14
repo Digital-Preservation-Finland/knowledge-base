@@ -10,8 +10,5 @@
   "error-message": "Unexpected exception java.lang.NullPointerException",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

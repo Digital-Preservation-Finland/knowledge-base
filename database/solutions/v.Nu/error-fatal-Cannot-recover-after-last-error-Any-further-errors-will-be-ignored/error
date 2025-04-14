@@ -10,8 +10,5 @@
   "error-message": "error fatal: Cannot recover after last error. Any further errors will be ignored.",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

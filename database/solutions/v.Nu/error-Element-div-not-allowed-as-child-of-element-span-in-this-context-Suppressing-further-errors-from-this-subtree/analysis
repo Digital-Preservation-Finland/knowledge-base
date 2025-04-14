@@ -2,9 +2,6 @@
   "repairs": [],
   "analysis": [],
   "software-problem": "no",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/text_html/v.Nu/error-Element-div-not-allowed-as-child-of-element-span-in-this-context-Suppressing-further-errors-from-this-subtree.repair",
   "significant-properties": [],
   "do-fix": ""

@@ -10,8 +10,5 @@
   "error-message": "Unknown list type in Associated Data List chunk: Type = \"INFO\"",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

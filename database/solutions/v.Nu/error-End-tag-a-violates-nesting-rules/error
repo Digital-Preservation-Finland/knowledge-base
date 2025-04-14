@@ -10,8 +10,5 @@
   "error-message": "error: End tag \"a\" violates nesting rules.",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

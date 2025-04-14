@@ -2,9 +2,6 @@
   "repairs": [],
   "analysis": [],
   "software-problem": "no",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/text_html/v.Nu/error-fatal-Cannot-recover-after-last-error-Any-further-errors-will-be-ignored.repair",
   "significant-properties": [],
   "do-fix": ""

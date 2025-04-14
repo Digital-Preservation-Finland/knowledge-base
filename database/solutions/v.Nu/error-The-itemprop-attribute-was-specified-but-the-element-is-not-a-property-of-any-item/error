@@ -10,8 +10,5 @@
   "error-message": "error: The \"itemprop\" attribute was specified, but the element is not a property of any item.",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

@@ -10,8 +10,5 @@
   "error-message": "Read error on strip 525",
   "type": "unknown",
   "output-example": "\"identify: Read error on strip 525",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

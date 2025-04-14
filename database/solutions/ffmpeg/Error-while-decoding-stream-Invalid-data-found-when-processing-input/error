@@ -10,8 +10,5 @@
   "error-message": "Error while decoding stream #0:0: Invalid data found when processing input",
   "type": "unknown",
   "output-example": "[pcm_s16le @ 0x737200] Invalid PCM packet, data has size 2 but at least a size of 4 was expected\\nError while decoding stream #0:0: Invalid data found when processing input",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

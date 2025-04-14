@@ -10,8 +10,5 @@
   "error-message": "E: lt_string_value: assertion `string != ((void *)0)\\' failed",
   "type": "unknown",
   "output-example": "E: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

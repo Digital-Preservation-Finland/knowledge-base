@@ -10,8 +10,5 @@
   "error-message": "error: Bad value \"1\" for attribute \"novalidate\" on element \"form\".",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

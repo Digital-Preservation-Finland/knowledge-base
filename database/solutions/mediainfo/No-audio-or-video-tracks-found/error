@@ -10,8 +10,5 @@
   "error-message": "No audio or video tracks found.",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

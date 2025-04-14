@@ -4,9 +4,6 @@
     "A bug in a LibreOffice software. The problem is fixed since LibreOffice 7.2.0: https://bugs.documentfoundation.org/show_bug.cgi?id=79069"
   ],
   "software-problem": "yes",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/application_vnd.openxmlformats-officedocument.wordprocessingml.document/libreoffice/E-ltstringvalue-assertion-string-void-failed.repair",
   "significant-properties": [],
   "do-fix": ""

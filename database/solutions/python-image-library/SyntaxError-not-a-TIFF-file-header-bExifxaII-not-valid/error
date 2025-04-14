@@ -10,8 +10,5 @@
   "error-message": "SyntaxError: not a TIFF file (header b'Exif\\x00aII' not valid)",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

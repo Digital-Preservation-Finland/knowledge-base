@@ -10,8 +10,5 @@
   "error-message": "error: Start tag \"a\" seen but an element of the same type was already open.",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

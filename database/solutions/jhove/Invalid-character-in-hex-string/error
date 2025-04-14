@@ -10,8 +10,5 @@
   "error-message": "Invalid character in hex string",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

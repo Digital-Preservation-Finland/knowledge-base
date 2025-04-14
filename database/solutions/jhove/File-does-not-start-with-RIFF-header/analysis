@@ -2,9 +2,6 @@
   "repairs": [],
   "analysis": [],
   "software-problem": "no",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header.repair",
   "significant-properties": [],
   "do-fix": ""

@@ -4,9 +4,6 @@
   ],
   "analysis": [],
   "software-problem": "yes",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext.repair",
   "significant-properties": [],
   "do-fix": ""

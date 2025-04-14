@@ -2,9 +2,6 @@
   "repairs": [],
   "analysis": [],
   "software-problem": "no",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/video_dv/ffmpeg/AC-EOB-marker-is-absent-pos.repair",
   "significant-properties": [],
   "do-fix": ""

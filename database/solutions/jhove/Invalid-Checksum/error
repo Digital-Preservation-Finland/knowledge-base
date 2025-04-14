@@ -10,8 +10,5 @@
   "error-message": "Invalid Checksum",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

@@ -10,8 +10,5 @@
   "error-message": "File contains a truncated track",
   "type": "general",
   "output-example": "The file is truncated. File contains a truncated track.",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }

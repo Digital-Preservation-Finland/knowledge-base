@@ -4,9 +4,6 @@
     "Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'."
   ],
   "software-problem": "no",
-  "_metadata": {
-    "version": 5
-  },
   "@id": "database/audio_x-wav/jhove/Chunk-ID-contains-space-before-printable-characters-BKj.repair",
   "significant-properties": [],
   "do-fix": ""

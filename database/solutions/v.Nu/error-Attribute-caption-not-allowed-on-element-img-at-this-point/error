@@ -10,8 +10,5 @@
   "error-message": "error: Attribute \"caption\" not allowed on element \"img\" at this point.",
   "type": "unknown",
   "output-example": "",
-  "notes": "",
-  "_metadata": {
-    "version": 6
-  }
+  "notes": ""
 }
