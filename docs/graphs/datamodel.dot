@@ -8,4 +8,5 @@ digraph model {
 
 	error [xlabel="database/solutions/"]
 	file [xlabel="database/sources/",fontcolor="#1c7ba0"]
+	repair [xlabel="database/repairs.jsonl",fontcolor="#a8742f"]
 }
