@@ -1,6 +1,8 @@
 Knowledge base for file format validation errors
 ================================================
 
+The articles: https://digital-preservation-finland.github.io/knowledge-base
+
 This database contains information about the identification, characterisation, analysis and fixing of file format validation errors in a way that enables easy and efficient processing.
 
 The purpose of this database is to help the community with the challenges on preserving content. The information in the database can be handled in accordance with the revised validation error treatment process described in https://hdl.handle.net/2142/121092.
