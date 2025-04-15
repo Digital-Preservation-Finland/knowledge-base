@@ -7,11 +7,13 @@ The database consists of information that enable identification and classificati
 1. Error
 --------
 
-files : optional
-    List of refetences to `4. Data source / files` describing the problem data at hand.
+Errors describe the problem. An error may have many analyses and many data sources. Error message, validator and validator version should form unique key.
 
-analyses : optional, required with an `2. Analysis`_.
-    List of analysis identifiers describing the problem at hand.
+files : optional list of `repairs.@id` identifiers.
+    List of references to `4. Data source / files`.
+
+analyses : optional list of `analysis.@id`_ identifiers.
+    List of references to `2. Analysis`.
 
 validator : required
     The software raising the error.
@@ -26,7 +28,7 @@ type : optional [ "general" | "exact" | "unknown" ]
     Is the error exact enough to have an unambiguous solution, repair, or does the error state a general problem that needs further studying for each case? Most likely the error is of general type. However, every error message should ideally be clear enough to have an exact repair.
 
 output-example : optional
-    What the output from the validator like? Give some context, please.
+    Full or extended output from the validator to give context.
 
 notes : optional
     Additional notes about the error.
@@ -34,17 +36,19 @@ notes : optional
 2. Analysis
 -----------
 
-name : required
-    Identifier for this analysis unit to match an item in `error.analyses[]`.
+Description of the problem. The list of paragraphs, in analysis for example, has a plot and visualization purpose for the articles.
 
-repairs : optional, required with a `3. Repair`_.
-    List of repairs related to this analysis. Repairs are described in section 3. Repair.
+@id : required
+    Analysis object identifier.
 
-analysis : required
-    List of paragraphs that describe the problem with the data. The list of paragraphs have a visualization purpose for the articles.
+repairs : optional list of `repair.@id`_ identifiers.
+    List of repairs related to this analysis. Repairs are described in section `3. Repair`_.
 
-software-problem : optional [ "yes" | "no" | "unclear" ]
-    Is it a bug? Or perhaps misconfiguration?
+analysis : required list of paragraphs
+    Analysis of the error.
+
+software-problem : optional [ "yes" | "no" | "" ]
+    Is it a bug?
 
 significant-properties : optional list of paragraphs
     The properties of data that are considered significant in the analysis.
@@ -55,20 +59,20 @@ do-fix : optional [ "yes" | "no" | "" ]
 3. Repair
 ---------
 
-name : required
-    Identifier for this repair to match an item in `analysis.repairs[]`.
+@id : required
+    Repair object identifier.
 
 repair : required
-    How to repair the file and how the repair affects the data in the file.
+    A suggestion on how to repair a file.
 
 heading : required
     Short and distinctive description of the repair.
 
 execution : optional
-    Is there a command or a script to execute the solution? What's the environment like for running the command?
+    Example of execution of the repair.
 
 effects : required
-    Description of the effects of the execution of the repair.
+    Description of how performing the repair affects data.
 
 justification : optional
     Rationale for accepting the repair.
@@ -78,11 +82,14 @@ justification : optional
 
 Data source or file describe a type of source or file.
 
+@id : required
+    Data source object identifier.
+
 media-type : required
-    MIME type, file format.
+    File format, MIME type.
 
 version : optional
-    Version of the MIME type.
+    File format version.
 
 profile : optional
     Sub property of media type and version.
