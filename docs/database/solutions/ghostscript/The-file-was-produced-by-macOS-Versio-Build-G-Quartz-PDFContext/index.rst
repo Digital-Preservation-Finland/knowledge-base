@@ -115,5 +115,6 @@ Related errors by source files
 
 ::
 
+	ghostscript:	Annotation has a scale factor of zero and was ignored
 	ghostscript:	Quartz PDFContext
 	ghostscript:	The file was produced by: macOS Versio 10.14.6 (Build 18G1012) Quartz PDFContext <<<<
