@@ -9,7 +9,7 @@ The database consists of information that enable identification and classificati
 
 Errors describe the problem. An error may have many analyses and many data sources. Error message, validator and validator version should form unique key.
 
-files : optional list of `repairs.@id` identifiers.
+files : optional list of `datasource.@id` identifiers.
     List of references to `4. Data source / files`.
 
 analyses : optional list of `analysis.@id`_ identifiers.
