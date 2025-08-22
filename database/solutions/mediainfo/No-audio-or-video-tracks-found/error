@@ -6,9 +6,9 @@
     "database/audio_x-wav/mediainfo/No-audio-or-video-tracks-found.repair"
   ],
   "validator": "mediainfo",
-  "validator-version": "",
-  "error-message": "No audio or video tracks found.",
+  "validatorVersion": "",
+  "errorMessage": "No audio or video tracks found.",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

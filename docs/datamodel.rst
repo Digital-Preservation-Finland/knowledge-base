@@ -18,16 +18,16 @@ analyses : optional list of `analysis.@id`_ identifiers.
 validator : required
     The software raising the error.
 
-validator-version : optional
+validatorVersion : optional
     Version of the validating software.
 
-error-message : required
+errorMessage : required
     The message from a validator.
 
 type : optional [ "general" | "exact" | "unknown" ]
     Is the error exact enough to have an unambiguous solution, repair, or does the error state a general problem that needs further studying for each case? Most likely the error is of general type. However, every error message should ideally be clear enough to have an exact repair.
 
-output-example : optional
+outputExample : optional
     Full or extended output from the validator to give context.
 
 notes : optional
@@ -47,13 +47,13 @@ repairs : optional list of `repair.@id`_ identifiers.
 analysis : required list of paragraphs
     Analysis of the error.
 
-software-problem : optional [ "yes" | "no" | "" ]
+softwareProblem : optional [ "yes" | "no" | "" ]
     Is it a bug?
 
-significant-properties : optional list of paragraphs
+significantProperties : optional list of paragraphs
     The properties of data that are considered significant in the analysis.
 
-do-fix : optional [ "yes" | "no" | "" ]
+fixable : optional [ "yes" | "no" | "" ]
     An analysis may conclude that the solution is to not try to fix the files. If the error is fixable it should have repairs related to it, otherwise not.
 
 3. Repair
@@ -85,7 +85,7 @@ Data source or file describe a type of source or file.
 @id : required
     Data source object identifier.
 
-media-type : required
+fileFormat : required
     File format, MIME type.
 
 version : optional

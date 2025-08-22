@@ -1,8 +1,8 @@
 {
   "repairs": [],
   "analysis": [],
-  "software-problem": "no",
+  "softwareProblem": "no",
   "@id": "database/text_html/v.Nu/error-fatal-Cannot-recover-after-last-error-Any-further-errors-will-be-ignored.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

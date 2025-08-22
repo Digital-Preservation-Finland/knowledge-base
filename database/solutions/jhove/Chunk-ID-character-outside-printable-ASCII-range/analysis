@@ -3,8 +3,8 @@
   "analysis": [
     "Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'."
   ],
-  "software-problem": "no",
+  "softwareProblem": "no",
   "@id": "database/audio_x-wav/jhove/Chunk-ID-character-outside-printable-ASCII-range.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

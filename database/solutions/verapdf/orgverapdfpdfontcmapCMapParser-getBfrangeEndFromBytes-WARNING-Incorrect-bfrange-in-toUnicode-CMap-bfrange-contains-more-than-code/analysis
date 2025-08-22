@@ -3,8 +3,8 @@
   "analysis": [
     "The error message refers to the method of the Java class. It's unclear is this a software error or error in a data file."
   ],
-  "software-problem": "",
+  "softwareProblem": "",
   "@id": "database/application_pdf/verapdf/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

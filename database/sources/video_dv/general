@@ -1,5 +1,5 @@
 {
-  "media-type": "video/dv",
+  "fileFormat": "video/dv",
   "version": "",
   "profile": "",
   "@id": "database/sources/video_dv/general"

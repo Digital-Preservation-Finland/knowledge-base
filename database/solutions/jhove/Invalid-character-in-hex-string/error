@@ -6,9 +6,9 @@
     "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair"
   ],
   "validator": "jhove",
-  "validator-version": "",
-  "error-message": "Invalid character in hex string",
+  "validatorVersion": "",
+  "errorMessage": "Invalid character in hex string",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

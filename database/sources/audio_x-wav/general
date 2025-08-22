@@ -1,5 +1,5 @@
 {
-  "media-type": "audio/x-wav",
+  "fileFormat": "audio/x-wav",
   "version": "",
   "profile": "",
   "@id": "database/sources/audio_x-wav/general"

@@ -6,9 +6,9 @@
     "database/application_pdf/JHOVE/Lexical-error.repair"
   ],
   "validator": "jhove",
-  "validator-version": "",
-  "error-message": "Lexical error",
+  "validatorVersion": "",
+  "errorMessage": "Lexical error",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

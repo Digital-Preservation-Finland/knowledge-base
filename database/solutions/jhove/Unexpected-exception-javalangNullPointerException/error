@@ -6,9 +6,9 @@
     "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair"
   ],
   "validator": "jhove",
-  "validator-version": "",
-  "error-message": "Unexpected exception java.lang.NullPointerException",
+  "validatorVersion": "",
+  "errorMessage": "Unexpected exception java.lang.NullPointerException",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

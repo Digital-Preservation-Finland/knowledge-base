@@ -3,8 +3,8 @@
   "analysis": [
     "A generally known repair is to open the file with Acrobat Reader and save it as a new file without making any changes to the content."
   ],
-  "software-problem": "",
+  "softwareProblem": "",
   "@id": "database/application_pdf/ghostscript/Quartz-PDFContext.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

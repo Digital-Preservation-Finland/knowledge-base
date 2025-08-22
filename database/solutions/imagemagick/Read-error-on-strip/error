@@ -6,9 +6,9 @@
     "database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair"
   ],
   "validator": "imagemagick (wand)",
-  "validator-version": "",
-  "error-message": "Read error on strip 525",
+  "validatorVersion": "",
+  "errorMessage": "Read error on strip 525",
   "type": "unknown",
-  "output-example": "\"identify: Read error on strip 525",
+  "outputExample": "\"identify: Read error on strip 525",
   "notes": ""
 }

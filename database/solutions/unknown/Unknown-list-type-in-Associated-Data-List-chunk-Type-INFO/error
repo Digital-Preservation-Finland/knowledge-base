@@ -6,9 +6,9 @@
     "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair"
   ],
   "validator": "unknown",
-  "validator-version": "",
-  "error-message": "Unknown list type in Associated Data List chunk: Type = \"INFO\"",
+  "validatorVersion": "",
+  "errorMessage": "Unknown list type in Associated Data List chunk: Type = \"INFO\"",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

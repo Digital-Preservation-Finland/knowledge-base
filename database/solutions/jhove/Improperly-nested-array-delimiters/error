@@ -6,9 +6,9 @@
     "database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair"
   ],
   "validator": "jhove",
-  "validator-version": "",
-  "error-message": "Improperly nested array delimiters",
+  "validatorVersion": "",
+  "errorMessage": "Improperly nested array delimiters",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

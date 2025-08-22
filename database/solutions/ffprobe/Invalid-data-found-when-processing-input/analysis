@@ -1,8 +1,8 @@
 {
   "repairs": [],
   "analysis": [],
-  "software-problem": "no",
+  "softwareProblem": "no",
   "@id": "database/audio_x-wav/ffprobe/Invalid-data-found-when-processing-input.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

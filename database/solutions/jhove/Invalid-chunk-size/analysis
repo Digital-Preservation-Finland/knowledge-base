@@ -3,8 +3,8 @@
   "analysis": [
     "Chunk size refers to the bytes 5-8 that are the second record in a file header. The record states the number of bytes after the record until the end of file."
   ],
-  "software-problem": "no",
+  "softwareProblem": "no",
   "@id": "database/audio_x-wav/jhove/Invalid-chunk-size.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

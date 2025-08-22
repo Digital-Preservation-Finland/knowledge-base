@@ -6,9 +6,9 @@
     "database/text_xml/xmllint-kai/Schema-definition-probably-missing-from-XML-catalog.repair"
   ],
   "validator": "",
-  "validator-version": "",
-  "error-message": "Schema definition probably missing from XML catalog",
+  "validatorVersion": "",
+  "errorMessage": "Schema definition probably missing from XML catalog",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": "It is uncertain what validator software has raised the error. The error message has been thought to come from xmllint."
 }

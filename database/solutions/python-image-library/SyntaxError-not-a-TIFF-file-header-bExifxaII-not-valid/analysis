@@ -3,8 +3,8 @@
     "database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/analysis"
   ],
   "analysis": [],
-  "software-problem": "",
+  "softwareProblem": "",
   "@id": "database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

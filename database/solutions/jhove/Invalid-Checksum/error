@@ -6,9 +6,9 @@
     "database/image_jpeg/jhove/Invalid-Checksum.repair"
   ],
   "validator": "jhove",
-  "validator-version": "",
-  "error-message": "Invalid Checksum",
+  "validatorVersion": "",
+  "errorMessage": "Invalid Checksum",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

@@ -6,9 +6,9 @@
     "database/text_html/v.Nu/error-End-tag-a-violates-nesting-rules.repair"
   ],
   "validator": "v.Nu",
-  "validator-version": "",
-  "error-message": "error: End tag \"a\" violates nesting rules.",
+  "validatorVersion": "",
+  "errorMessage": "error: End tag \"a\" violates nesting rules.",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

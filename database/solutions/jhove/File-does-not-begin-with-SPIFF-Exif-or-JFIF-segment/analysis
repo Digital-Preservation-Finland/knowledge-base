@@ -3,8 +3,8 @@
     "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/analysis"
   ],
   "analysis": [],
-  "software-problem": "no",
+  "softwareProblem": "no",
   "@id": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

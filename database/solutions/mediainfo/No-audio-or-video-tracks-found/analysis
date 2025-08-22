@@ -1,8 +1,8 @@
 {
   "repairs": [],
   "analysis": [],
-  "software-problem": "no",
+  "softwareProblem": "no",
   "@id": "database/audio_x-wav/mediainfo/No-audio-or-video-tracks-found.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

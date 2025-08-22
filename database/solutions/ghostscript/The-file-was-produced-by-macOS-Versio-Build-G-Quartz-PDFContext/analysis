@@ -3,8 +3,8 @@
     "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"
   ],
   "analysis": [],
-  "software-problem": "yes",
+  "softwareProblem": "yes",
   "@id": "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

@@ -1,8 +1,8 @@
 {
   "repairs": [],
   "analysis": [],
-  "software-problem": "no",
+  "softwareProblem": "no",
   "@id": "database/text_html/v.Nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

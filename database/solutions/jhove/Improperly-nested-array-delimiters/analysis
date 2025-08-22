@@ -5,8 +5,8 @@
   "analysis": [
     "PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well formed."
   ],
-  "software-problem": "",
+  "softwareProblem": "",
   "@id": "database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

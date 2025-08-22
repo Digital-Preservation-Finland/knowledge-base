@@ -6,9 +6,9 @@
     "database/audio_mpeg/file-scraper/invalid-videocontainer-stream/analysis"
   ],
   "validator": "file-scraper",
-  "validator-version": "0.78",
-  "error-message": "",
+  "validatorVersion": "0.78",
+  "errorMessage": "",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": "The music file contains cover art image in a video container stream."
 }

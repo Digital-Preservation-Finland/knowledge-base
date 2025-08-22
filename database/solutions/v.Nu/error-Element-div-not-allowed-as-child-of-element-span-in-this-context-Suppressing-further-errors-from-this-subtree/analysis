@@ -1,8 +1,8 @@
 {
   "repairs": [],
   "analysis": [],
-  "software-problem": "no",
+  "softwareProblem": "no",
   "@id": "database/text_html/v.Nu/error-Element-div-not-allowed-as-child-of-element-span-in-this-context-Suppressing-further-errors-from-this-subtree.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

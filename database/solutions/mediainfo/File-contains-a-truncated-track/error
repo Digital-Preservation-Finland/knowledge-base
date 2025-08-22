@@ -6,9 +6,9 @@
     "database/video_quicktime/mediainfo/File-contains-a-truncated-track.repair"
   ],
   "validator": "mediainfo",
-  "validator-version": "",
-  "error-message": "File contains a truncated track",
+  "validatorVersion": "",
+  "errorMessage": "File contains a truncated track",
   "type": "general",
-  "output-example": "The file is truncated. File contains a truncated track.",
+  "outputExample": "The file is truncated. File contains a truncated track.",
   "notes": ""
 }

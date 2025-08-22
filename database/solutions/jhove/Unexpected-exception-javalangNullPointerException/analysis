@@ -3,8 +3,8 @@
   "analysis": [
     "Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors."
   ],
-  "software-problem": "",
+  "softwareProblem": "",
   "@id": "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

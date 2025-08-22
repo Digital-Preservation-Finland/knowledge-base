@@ -1,5 +1,5 @@
 {
-  "media-type": "text/html",
+  "fileFormat": "text/html",
   "version": "5.0",
   "profile": "",
   "@id": "database/sources/text_html/5.0"

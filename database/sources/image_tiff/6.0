@@ -1,5 +1,5 @@
 {
-  "media-type": "image/tiff",
+  "fileFormat": "image/tiff",
   "version": "6.0",
   "profile": "",
   "@id": "database/sources/image_tiff/6.0"

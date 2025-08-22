@@ -3,8 +3,8 @@
   "analysis": [
     "PDF-HUL-41. A dictionary in the PDF document contains an uneven number of objects and therefore the matching of key-value pairs does not succeed. Acrobat Reader could possibly be able to repair errors in the internal structure of the document."
   ],
-  "software-problem": "",
+  "softwareProblem": "",
   "@id": "database/application_pdf/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

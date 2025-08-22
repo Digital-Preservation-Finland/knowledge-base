@@ -6,9 +6,9 @@
     "database/text_html/v.Nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute.repair"
   ],
   "validator": "v.Nu",
-  "validator-version": "",
-  "error-message": "error: A document must not include both a \"meta\" element with an \"http-equiv\" attribute whose value is \"content-type\", and a \"meta\" element with a \"charset\" attribute.",
+  "validatorVersion": "",
+  "errorMessage": "error: A document must not include both a \"meta\" element with an \"http-equiv\" attribute whose value is \"content-type\", and a \"meta\" element with a \"charset\" attribute.",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

@@ -6,9 +6,9 @@
     "database/application_pdf/JHOVE/No-PDF-trailer.repair"
   ],
   "validator": "jhove",
-  "validator-version": "",
-  "error-message": "No PDF trailer",
+  "validatorVersion": "",
+  "errorMessage": "No PDF trailer",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

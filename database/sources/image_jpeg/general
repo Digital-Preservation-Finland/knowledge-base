@@ -1,5 +1,5 @@
 {
-  "media-type": "image/jpeg",
+  "fileFormat": "image/jpeg",
   "version": "",
   "profile": "",
   "@id": "database/sources/image_jpeg/general"

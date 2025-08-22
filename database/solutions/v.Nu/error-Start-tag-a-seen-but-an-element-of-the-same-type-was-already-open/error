@@ -6,9 +6,9 @@
     "database/text_html/v.Nu/error-Start-tag-a-seen-but-an-element-of-the-same-type-was-already-open.repair"
   ],
   "validator": "v.Nu",
-  "validator-version": "",
-  "error-message": "error: Start tag \"a\" seen but an element of the same type was already open.",
+  "validatorVersion": "",
+  "errorMessage": "error: Start tag \"a\" seen but an element of the same type was already open.",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }

@@ -1,8 +1,8 @@
 {
   "repairs": [],
   "analysis": [],
-  "software-problem": "",
+  "softwareProblem": "",
   "@id": "database/image_tiff/imagemagick-(wand)/Incompatible-type-for-RichTIFFIPTC.repair",
-  "significant-properties": [],
-  "do-fix": ""
+  "significantProperties": [],
+  "fixable": ""
 }

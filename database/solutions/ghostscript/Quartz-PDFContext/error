@@ -6,9 +6,9 @@
     "database/application_pdf/ghostscript/Quartz-PDFContext.repair"
   ],
   "validator": "ghostscript",
-  "validator-version": "",
-  "error-message": "Quartz PDFContext",
+  "validatorVersion": "",
+  "errorMessage": "Quartz PDFContext",
   "type": "unknown",
-  "output-example": "",
+  "outputExample": "",
   "notes": ""
 }
