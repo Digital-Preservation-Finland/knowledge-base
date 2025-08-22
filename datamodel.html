@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data model &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Articles by validating software" href="toc-validator.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="data-model">
+<h1>Data model<a class="headerlink" href="#data-model" title="Link to this heading">¶</a></h1>
+<p>The database consists of information that enable identification and classification of the errors raised by the validator software running a problematic file. In addition to identification and classification, that enable solution discovery, the database will eventually contain analyses and repairs for the problems as the encountered problems are studied.</p>
+<section id="error">
+<h2>1. Error<a class="headerlink" href="#error" title="Link to this heading">¶</a></h2>
+<p>Errors describe the problem. An error may have many analyses and many data sources. Error message, validator and validator version should form unique key.</p>
+<dl>
+<dt>files<span class="classifier">optional list of <cite>datasource.&#64;id</cite> identifiers.</span></dt><dd><p>List of references to <cite>4. Data source / files</cite>.</p>
+</dd>
+<dt>analyses<span class="classifier">optional list of <a href="#id1"><span class="problematic" id="id2">`analysis.&#64;id`_</span></a> identifiers.</span></dt><dd><p>List of references to <cite>2. Analysis</cite>.</p>
+</dd>
+<dt>validator<span class="classifier">required</span></dt><dd><p>The software raising the error.</p>
+</dd>
+<dt>validatorVersion<span class="classifier">optional</span></dt><dd><p>Version of the validating software.</p>
+</dd>
+<dt>errorMessage<span class="classifier">required</span></dt><dd><p>The message from a validator.</p>
+</dd>
+<dt>type<span class="classifier">optional [ “general” | “exact” | “unknown” ]</span></dt><dd><p>Is the error exact enough to have an unambiguous solution, repair, or does the error state a general problem that needs further studying for each case? Most likely the error is of general type. However, every error message should ideally be clear enough to have an exact repair.</p>
+</dd>
+<dt>outputExample<span class="classifier">optional</span></dt><dd><p>Full or extended output from the validator to give context.</p>
+</dd>
+<dt>notes<span class="classifier">optional</span></dt><dd><p>Additional notes about the error.</p>
+</dd>
+</dl>
+</section>
+<section id="analysis">
+<h2>2. Analysis<a class="headerlink" href="#analysis" title="Link to this heading">¶</a></h2>
+<p>Description of the problem. The list of paragraphs, in analysis for example, has a plot and visualization purpose for the articles.</p>
+<dl>
+<dt>&#64;id<span class="classifier">required</span></dt><dd><p>Analysis object identifier.</p>
+</dd>
+<dt>repairs<span class="classifier">optional list of <a href="#id3"><span class="problematic" id="id4">`repair.&#64;id`_</span></a> identifiers.</span></dt><dd><p>List of repairs related to this analysis. Repairs are described in section <a class="reference internal" href="#repair">3. Repair</a>.</p>
+</dd>
+<dt>analysis<span class="classifier">required list of paragraphs</span></dt><dd><p>Analysis of the error.</p>
+</dd>
+<dt>softwareProblem<span class="classifier">optional [ “yes” | “no” | “” ]</span></dt><dd><p>Is it a bug?</p>
+</dd>
+<dt>significantProperties<span class="classifier">optional list of paragraphs</span></dt><dd><p>The properties of data that are considered significant in the analysis.</p>
+</dd>
+<dt>fixable<span class="classifier">optional [ “yes” | “no” | “” ]</span></dt><dd><p>An analysis may conclude that the solution is to not try to fix the files. If the error is fixable it should have repairs related to it, otherwise not.</p>
+</dd>
+</dl>
+</section>
+<section id="repair">
+<h2>3. Repair<a class="headerlink" href="#repair" title="Link to this heading">¶</a></h2>
+<dl class="simple">
+<dt>&#64;id<span class="classifier">required</span></dt><dd><p>Repair object identifier.</p>
+</dd>
+<dt>repair<span class="classifier">required</span></dt><dd><p>A suggestion on how to repair a file.</p>
+</dd>
+<dt>heading<span class="classifier">required</span></dt><dd><p>Short and distinctive description of the repair.</p>
+</dd>
+<dt>execution<span class="classifier">optional</span></dt><dd><p>Example of execution of the repair.</p>
+</dd>
+<dt>effects<span class="classifier">required</span></dt><dd><p>Description of how performing the repair affects data.</p>
+</dd>
+<dt>justification<span class="classifier">optional</span></dt><dd><p>Rationale for accepting the repair.</p>
+</dd>
+</dl>
+</section>
+<section id="data-source-file">
+<h2>4. Data source / file<a class="headerlink" href="#data-source-file" title="Link to this heading">¶</a></h2>
+<p>Data source or file describe a type of source or file.</p>
+<dl class="simple">
+<dt>&#64;id<span class="classifier">required</span></dt><dd><p>Data source object identifier.</p>
+</dd>
+<dt>fileFormat<span class="classifier">required</span></dt><dd><p>File format, MIME type.</p>
+</dd>
+<dt>version<span class="classifier">optional</span></dt><dd><p>File format version.</p>
+</dd>
+<dt>profile<span class="classifier">optional</span></dt><dd><p>Sub property of media type and version.</p>
+</dd>
+</dl>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="toc-mime.html">Articles by file format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="toc-validator.html">Articles by validating software</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Data model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#error">1. Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#analysis">2. Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#repair">3. Repair</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-source-file">4. Data source / file</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="toc-validator.html" title="previous chapter">Articles by validating software</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/datamodel.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
