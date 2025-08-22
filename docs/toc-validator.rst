@@ -28,6 +28,7 @@ file-scraper
 ghostscript
 -----------
 
+ - `Annotation has scale factor of zero and was ignored <docs/database/solutions/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/index.html>`_
  - `Quartz PDFContext <docs/database/solutions/ghostscript/Quartz-PDFContext/index.html>`_
  - `The file was produced by macOS Versio Build G Quartz PDFContext <docs/database/solutions/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/index.html>`_
  - `The file was produced by n Adobe PSL e for Canonu <docs/database/solutions/ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu/index.html>`_

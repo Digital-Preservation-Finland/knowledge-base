@@ -12,6 +12,7 @@ application/pdf
 ghostscript
 ~~~~~~~~~~~
 
+ - `Annotation has scale factor of zero and was ignored <database/solutions/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/index.html>`_
  - `Quartz PDFContext <database/solutions/ghostscript/Quartz-PDFContext/index.html>`_
  - `The file was produced by macOS Versio Build G Quartz PDFContext <database/solutions/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/index.html>`_
  - `The file was produced by n Adobe PSL e for Canonu <database/solutions/ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu/index.html>`_
