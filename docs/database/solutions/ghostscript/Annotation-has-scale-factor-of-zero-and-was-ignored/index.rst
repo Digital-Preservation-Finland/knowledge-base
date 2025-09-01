@@ -65,7 +65,7 @@ Remove the annotations using Ghostscript.
 Effects
 ~~~~~~~
 
-All annotations are removed.
+All annotations are removed. Ghostscript will convert the file from PDF to PostScript and back to PDF again. The file may lose other features in the process.
 
 Justification
 ~~~~~~~~~~~~~
