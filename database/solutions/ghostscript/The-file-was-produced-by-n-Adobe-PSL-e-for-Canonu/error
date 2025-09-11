@@ -1,14 +1,1 @@
-{
-  "files": [
-    "database/sources/application_pdf/1.4"
-  ],
-  "analyses": [
-    "database/application_pdf/ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu.repair"
-  ],
-  "validator": "ghostscript",
-  "validatorVersion": "",
-  "errorMessage": "**** The file was produced by: \\\\n   **** >>>> Adobe PSL 1.2e for Canon\\\\u0000 <<<<",
-  "type": "unknown",
-  "outputExample": "",
-  "notes": ""
-}
+{"files":["database/sources/application_pdf/1.4"],"analyses":["database/application_pdf/ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu.repair"],"validator":"ghostscript","validatorVersion":"","errorMessage":"**** The file was produced by: \\\\n   **** >>>> Adobe PSL 1.2e for Canon\\\\u0000 <<<<","type":"unknown","outputExample":"","notes":""}

@@ -1,8 +1,1 @@
-{
-  "repairs": [],
-  "analysis": [],
-  "softwareProblem": "no",
-  "@id": "database/text_html/v.Nu/error-Element-div-not-allowed-as-child-of-element-span-in-this-context-Suppressing-further-errors-from-this-subtree.repair",
-  "significantProperties": [],
-  "fixable": ""
-}
+{"repairs":[],"analysis":[],"softwareProblem":"no","@id":"database/text_html/v.Nu/error-Element-div-not-allowed-as-child-of-element-span-in-this-context-Suppressing-further-errors-from-this-subtree.repair","significantProperties":[],"fixable":""}

@@ -1,12 +1,1 @@
-{
-  "repairs": [
-    "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"
-  ],
-  "analysis": [
-    "PDF-HUL-67. Unsupported character in a hexadecimal character string."
-  ],
-  "softwareProblem": "",
-  "@id": "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair",
-  "significantProperties": [],
-  "fixable": ""
-}
+{"repairs":["database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"],"analysis":["PDF-HUL-67. Unsupported character in a hexadecimal character string."],"softwareProblem":"","@id":"database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair","significantProperties":[],"fixable":""}

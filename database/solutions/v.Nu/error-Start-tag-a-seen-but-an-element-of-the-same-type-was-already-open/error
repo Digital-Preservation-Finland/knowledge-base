@@ -1,14 +1,1 @@
-{
-  "files": [
-    "database/sources/text_html/5"
-  ],
-  "analyses": [
-    "database/text_html/v.Nu/error-Start-tag-a-seen-but-an-element-of-the-same-type-was-already-open.repair"
-  ],
-  "validator": "v.Nu",
-  "validatorVersion": "",
-  "errorMessage": "error: Start tag \"a\" seen but an element of the same type was already open.",
-  "type": "unknown",
-  "outputExample": "",
-  "notes": ""
-}
+{"files":["database/sources/text_html/5"],"analyses":["database/text_html/v.Nu/error-Start-tag-a-seen-but-an-element-of-the-same-type-was-already-open.repair"],"validator":"v.Nu","validatorVersion":"","errorMessage":"error: Start tag \"a\" seen but an element of the same type was already open.","type":"unknown","outputExample":"","notes":""}

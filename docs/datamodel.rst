@@ -7,89 +7,142 @@ The database consists of information that enable identification and classificati
 1. Error
 --------
 
-Errors describe the problem. An error may have many analyses and many data sources. Error message, validator and validator version should form unique key.
+JSON Schema ID : http://digitalpreservation.fi/schemas/2025-09/error.schema.ld.json
 
-files : optional list of `datasource.@id` identifiers.
-    List of references to `4. Data source / files`.
+Description of an error. An error may have many analyses and it may rise from many files. Output example from the validating software may and should present context for the error message and the error message is also most likely found in the output example. Validator, validator version and error message fields should define unique error objects.
 
-analyses : optional list of `analysis.@id`_ identifiers.
-    List of references to `2. Analysis`.
+Index fields: ["validator", "validatorVersion", "errorMessage"]
 
-validator : required
-    The software raising the error.
+files : array of string
+    List of references to Files.
 
-validatorVersion : optional
-    Version of the validating software.
+analyses : array of string
+    List of references to Analyses
 
-errorMessage : required
-    The message from a validator.
+validator : string
+    Name of the validating software reporting the error.
 
-type : optional [ "general" | "exact" | "unknown" ]
-    Is the error exact enough to have an unambiguous solution, repair, or does the error state a general problem that needs further studying for each case? Most likely the error is of general type. However, every error message should ideally be clear enough to have an exact repair.
+errorMessage : string
+    The message reported and identified by the validating software. The message can be (should be) exact match but may contain regular expressions if the message contains varying data in the middle of the string, such as a file name or an offset. A certain amount of uncertainty inevitably hovers around when raisin-picking the error message from validator output. The output example field may be used to provide implicit reasoning for the picked string or pattern. Notes field may be used for explicit reasoning.
 
-outputExample : optional
-    Full or extended output from the validator to give context.
+type : ["general", "exact", "unknown"]
+    The error message can (perhaps) be classified either general, exact or unknown. Exact error message may have exact repair solution, general error message needs to be investigated further, has probably many analyses and repairs, and should probably have a more specific error message. Error messages of unknown are not studied yet in such a way.
 
-notes : optional
-    Additional notes about the error.
+outputExample : string
+    Additional output from the validator to the error mesasge to give context for later handling and verification. For example the full output from the validating software.
+
+notes : string
+    Additional information on the error.
+
+
 
 2. Analysis
 -----------
 
-Description of the problem. The list of paragraphs, in analysis for example, has a plot and visualization purpose for the articles.
+JSON Schema ID : http://digitalpreservation.fi/schemas/2025-09/analysis.schema.ld.json
 
-@id : required
+Description of the problem.
+
+Index fields: ["@id", "softwareProlem", "fixable"]
+
+@id : string
     Analysis object identifier.
 
-repairs : optional list of `repair.@id`_ identifiers.
-    List of repairs related to this analysis. Repairs are described in section `3. Repair`_.
+repairs : array of string
+    List of reference to Repairs.
 
-analysis : required list of paragraphs
-    Analysis of the error.
+analysis : array of string
+    The analysis of the error. String items in the array can be presented as paragraphs.
 
-softwareProblem : optional [ "yes" | "no" | "" ]
-    Is it a bug?
+softwareProblem : ["yes", "no", ""]
+    Classification whetever the cause of the problem is in the validating software, that is a software bug, or not. Bugs should most likely be handled by the developers.
 
-significantProperties : optional list of paragraphs
-    The properties of data that are considered significant in the analysis.
+significantProperties : array of string
+    The significant properties that are especially taken into account in the analysis. Significant properties may provide a perspective to the problem. String items in the array can be presented as paragraphs.
 
-fixable : optional [ "yes" | "no" | "" ]
-    An analysis may conclude that the solution is to not try to fix the files. If the error is fixable it should have repairs related to it, otherwise not.
+fixable : ["yes", "no", ""]
+    Should a fix be determined for the error based on this analysis?
+
+
 
 3. Repair
 ---------
 
-@id : required
-    Repair object identifier.
+JSON Schema ID : http://digitalpreservation.fi/schemas/2025-09/repair.schema.ld.json
 
-repair : required
-    A suggestion on how to repair a file.
+A repair solution for an error based on an analysis.
 
-heading : required
-    Short and distinctive description of the repair.
+Index fields: ["@id"]
 
-execution : optional
-    Example of execution of the repair.
+@id : string
+    Identifier for the repair.
 
-effects : required
+repair : string
+    Detailed description of the repair
+
+heading : string
+    Heading or a very short description of the repair for an article.
+
+execution : string
+    Command execution example for the repair, if there is such.
+
+effects : string
     Description of how performing the repair affects data.
 
-justification : optional
+justification : string
     Rationale for accepting the repair.
 
-4. Data source / file
----------------------
 
-Data source or file describe a type of source or file.
 
-@id : required
-    Data source object identifier.
+4. File
+-------
 
-fileFormat : required
-    File format, MIME type.
+JSON Schema ID : http://digitalpreservation.fi/schemas/2025-09/file.schema.ld.json
 
-version : optional
-    File format version.
+Description of a file. File objects describe content from which a problem arises. Although the file may be also valid and have no error object referring to it.
 
-profile : optional
-    Sub property of media type and version.
+Index fields: ["checksum"]
+
+@id : string
+    Identifier for the file
+
+source : string
+    Identifier for the source classifying the file.
+
+description : string
+    Description of the content.
+
+wellFormed : [true, false, null, "virtual"]
+    Should the file validate as well-formed. 'null' value equals to undetermined. 'virtual' value refers to virtual or dummy files that will never have a location but connect an error to a file format.
+
+checksum : object
+    Checksums of the content in the locations. Two checksums are used to mitigate checksum collisions. The other is faster and the other is more reliable.
+
+location : array of string
+    List of free form descriptions of the file locations to the source. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.
+
+
+
+5. Format
+---------
+
+JSON Schema ID : http://digitalpreservation.fi/schemas/2025-09/source.schema.ld.json
+
+Description of a file format. The file format classifies file objects and determines the valid form for the data.
+
+Index fields: ["fileFormat", "version"]
+
+@id : string
+    Identifier for the source.
+
+fileFormat : string
+    MIME type of the file format.
+
+version : string
+    Version of the file format.
+
+profile : string
+    Further classification of the data.
+
+
+

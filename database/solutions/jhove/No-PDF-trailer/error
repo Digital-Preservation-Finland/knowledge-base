@@ -1,14 +1,1 @@
-{
-  "files": [
-    "database/sources/application_pdf/general"
-  ],
-  "analyses": [
-    "database/application_pdf/JHOVE/No-PDF-trailer.repair"
-  ],
-  "validator": "jhove",
-  "validatorVersion": "",
-  "errorMessage": "No PDF trailer",
-  "type": "unknown",
-  "outputExample": "",
-  "notes": ""
-}
+{"files":["database/sources/application_pdf/general"],"analyses":["database/application_pdf/JHOVE/No-PDF-trailer.repair"],"validator":"jhove","validatorVersion":"","errorMessage":"No PDF trailer","type":"unknown","outputExample":"","notes":""}

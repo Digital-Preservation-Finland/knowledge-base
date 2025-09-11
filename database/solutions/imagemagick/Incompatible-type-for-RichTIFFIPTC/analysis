@@ -1,8 +1,1 @@
-{
-  "repairs": [],
-  "analysis": [],
-  "softwareProblem": "",
-  "@id": "database/image_tiff/imagemagick-(wand)/Incompatible-type-for-RichTIFFIPTC.repair",
-  "significantProperties": [],
-  "fixable": ""
-}
+{"repairs":[],"analysis":[],"softwareProblem":"","@id":"database/image_tiff/imagemagick-(wand)/Incompatible-type-for-RichTIFFIPTC.repair","significantProperties":[],"fixable":""}

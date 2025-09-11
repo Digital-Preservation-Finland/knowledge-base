@@ -1,14 +1,1 @@
-{
-  "files": [
-    "database/sources/image_tiff/6.0"
-  ],
-  "analyses": [
-    "database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair"
-  ],
-  "validator": "imagemagick (wand)",
-  "validatorVersion": "",
-  "errorMessage": "Read error on strip 525",
-  "type": "unknown",
-  "outputExample": "\"identify: Read error on strip 525",
-  "notes": ""
-}
+{"files":["database/sources/image_tiff/6.0"],"analyses":["database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair"],"validator":"imagemagick (wand)","validatorVersion":"","errorMessage":"Read error on strip 525","type":"unknown","outputExample":"\"identify: Read error on strip 525","notes":""}

@@ -32,7 +32,7 @@ Classification
      - **Version**
      - **Profile**
    * - text/html
-     - 5.0
+     - 5
      - 
 
 --------

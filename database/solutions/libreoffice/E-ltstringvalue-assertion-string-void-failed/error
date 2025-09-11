@@ -1,14 +1,1 @@
-{
-  "files": [
-    "database/sources/application_vnd.openxmlformats-officedocument.wordprocessingml.document/general"
-  ],
-  "analyses": [
-    "database/application_vnd.openxmlformats-officedocument.wordprocessingml.document/libreoffice/E-ltstringvalue-assertion-string-void-failed.repair"
-  ],
-  "validator": "libreoffice",
-  "validatorVersion": "",
-  "errorMessage": "E: lt_string_value: assertion `string != ((void *)0)\\' failed",
-  "type": "unknown",
-  "outputExample": "E: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed",
-  "notes": ""
-}
+{"files":["database/sources/application_vnd.openxmlformats-officedocument.wordprocessingml.document/general"],"analyses":["database/application_vnd.openxmlformats-officedocument.wordprocessingml.document/libreoffice/E-ltstringvalue-assertion-string-void-failed.repair"],"validator":"libreoffice","validatorVersion":"","errorMessage":"E: lt_string_value: assertion `string != ((void *)0)\\' failed","type":"unknown","outputExample":"E: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed\nE: lt_string_value: assertion `string != ((void *)0)\\' failed","notes":""}

@@ -1,0 +1,6 @@
+Data model
+==========
+
+The knowledge base consists of information that enable identification and classification of the errors raised by the validator software running a problematic file. In addition to identification and classification, that enable solution discovery, the database will eventually contain analyses and repairs for the problems as the encountered problems are studied.
+
+

@@ -1,10 +1,1 @@
-{
-  "repairs": [
-    "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"
-  ],
-  "analysis": [],
-  "softwareProblem": "yes",
-  "@id": "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext.repair",
-  "significantProperties": [],
-  "fixable": ""
-}
+{"repairs":["database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"],"analysis":[],"softwareProblem":"yes","@id":"database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext.repair","significantProperties":[],"fixable":""}

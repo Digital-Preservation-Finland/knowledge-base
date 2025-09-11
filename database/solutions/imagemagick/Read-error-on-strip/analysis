@@ -1,8 +1,1 @@
-{
-  "repairs": [],
-  "analysis": [],
-  "softwareProblem": "",
-  "@id": "database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair",
-  "significantProperties": [],
-  "fixable": ""
-}
+{"repairs":[],"analysis":[],"softwareProblem":"","@id":"database/image_tiff/imagemagick-(wand)/Read-error-on-strip.repair","significantProperties":[],"fixable":""}

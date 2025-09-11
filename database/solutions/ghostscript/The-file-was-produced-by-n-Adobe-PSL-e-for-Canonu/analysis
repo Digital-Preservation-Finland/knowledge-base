@@ -1,10 +1,1 @@
-{
-  "repairs": [],
-  "analysis": [
-    "JHOVE raises the exception 'invalid character in hex string'. Might be solved by opening the file with Acrobat Reader and saving it as a new file without any changes to the content."
-  ],
-  "softwareProblem": "",
-  "@id": "database/application_pdf/ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu.repair",
-  "significantProperties": [],
-  "fixable": ""
-}
+{"repairs":[],"analysis":["JHOVE raises the exception 'invalid character in hex string'. Might be solved by opening the file with Acrobat Reader and saving it as a new file without any changes to the content."],"softwareProblem":"","@id":"database/application_pdf/ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu.repair","significantProperties":[],"fixable":""}

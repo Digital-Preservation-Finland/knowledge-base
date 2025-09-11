@@ -1,8 +1,1 @@
-{
-  "repairs": [],
-  "analysis": [],
-  "softwareProblem": "no",
-  "@id": "database/video_dv/ffmpeg/AC-EOB-marker-is-absent-pos.repair",
-  "significantProperties": [],
-  "fixable": ""
-}
+{"repairs":[],"analysis":[],"softwareProblem":"no","@id":"database/video_dv/ffmpeg/AC-EOB-marker-is-absent-pos.repair","significantProperties":[],"fixable":""}

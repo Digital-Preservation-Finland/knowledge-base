@@ -1,14 +1,1 @@
-{
-  "files": [
-    "database/sources/application_pdf/1.4"
-  ],
-  "analyses": [
-    "database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair"
-  ],
-  "validator": "jhove",
-  "validatorVersion": "",
-  "errorMessage": "Improperly nested array delimiters",
-  "type": "unknown",
-  "outputExample": "",
-  "notes": ""
-}
+{"files":["database/sources/application_pdf/1.4"],"analyses":["database/application_pdf/JHOVE/Improperly-nested-array-delimiters.repair"],"validator":"jhove","validatorVersion":"","errorMessage":"Improperly nested array delimiters","type":"unknown","outputExample":"","notes":""}

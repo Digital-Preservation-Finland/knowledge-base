@@ -1,14 +1,1 @@
-{
-  "files": [
-    "database/sources/video_quicktime/general"
-  ],
-  "analyses": [
-    "database/video_quicktime/mediainfo/File-contains-a-truncated-track.repair"
-  ],
-  "validator": "mediainfo",
-  "validatorVersion": "",
-  "errorMessage": "File contains a truncated track",
-  "type": "general",
-  "outputExample": "The file is truncated. File contains a truncated track.",
-  "notes": ""
-}
+{"files":["database/sources/video_quicktime/general"],"analyses":["database/video_quicktime/mediainfo/File-contains-a-truncated-track.repair"],"validator":"mediainfo","validatorVersion":"","errorMessage":"File contains a truncated track","type":"general","outputExample":"The file is truncated. File contains a truncated track.","notes":""}

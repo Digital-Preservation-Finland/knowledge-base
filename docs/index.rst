@@ -11,6 +11,7 @@ Welcome to Knowledge base for file format validation errors's documentation!
 
    toc-mime
    toc-validator
+   corpus
    datamodel
 
 
@@ -20,3 +21,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+

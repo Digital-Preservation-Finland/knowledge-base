@@ -1,10 +1,1 @@
-{
-  "repairs": [],
-  "analysis": [
-    "The error message does not refer to a file or file format but instead to missing missing or invalid arguments given to the software."
-  ],
-  "softwareProblem": "yes",
-  "@id": "database/audio_x-wav/ffprobe/Error-opening-filters.repair",
-  "significantProperties": [],
-  "fixable": ""
-}
+{"repairs":[],"analysis":["The error message does not refer to a file or file format but instead to missing missing or invalid arguments given to the software."],"softwareProblem":"yes","@id":"database/audio_x-wav/ffprobe/Error-opening-filters.repair","significantProperties":[],"fixable":""}
