@@ -1,6 +1,1 @@
-{
-  "fileFormat": "audio/mpeg",
-  "version": "1",
-  "profile": "",
-  "@id": "database/sources/audio_mpeg/1"
-}
+{"fileFormat":"audio/mpeg","version":"1","profile":"","@id":"database/sources/audio_mpeg/1"}

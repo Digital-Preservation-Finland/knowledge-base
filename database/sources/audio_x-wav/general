@@ -1,6 +1,1 @@
-{
-  "fileFormat": "audio/x-wav",
-  "version": "",
-  "profile": "",
-  "@id": "database/sources/audio_x-wav/general"
-}
+{"fileFormat":"audio/x-wav","version":"","profile":"","@id":"database/sources/audio_x-wav/general"}

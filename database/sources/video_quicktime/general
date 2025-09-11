@@ -1,6 +1,1 @@
-{
-  "fileFormat": "video/quicktime",
-  "version": "",
-  "profile": "",
-  "@id": "database/sources/video_quicktime/general"
-}
+{"fileFormat":"video/quicktime","version":"","profile":"","@id":"database/sources/video_quicktime/general"}

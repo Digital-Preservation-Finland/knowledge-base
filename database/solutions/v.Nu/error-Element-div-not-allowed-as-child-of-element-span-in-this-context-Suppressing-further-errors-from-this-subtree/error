@@ -1,6 +1,6 @@
 {
   "files": [
-    "database/sources/text_html/5.0"
+    "database/sources/text_html/5"
   ],
   "analyses": [
     "database/text_html/v.Nu/error-Element-div-not-allowed-as-child-of-element-span-in-this-context-Suppressing-further-errors-from-this-subtree.repair"

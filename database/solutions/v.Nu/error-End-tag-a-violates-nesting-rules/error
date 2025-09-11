@@ -1,6 +1,6 @@
 {
   "files": [
-    "database/sources/text_html/5.0"
+    "database/sources/text_html/5"
   ],
   "analyses": [
     "database/text_html/v.Nu/error-End-tag-a-violates-nesting-rules.repair"

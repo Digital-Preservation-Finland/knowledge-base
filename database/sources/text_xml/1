@@ -1,6 +1,1 @@
-{
-  "fileFormat": "text/xml",
-  "version": "1",
-  "profile": "",
-  "@id": "database/sources/text_xml/1"
-}
+{"fileFormat":"text/xml","version":"1","profile":"","@id":"database/sources/text_xml/1"}

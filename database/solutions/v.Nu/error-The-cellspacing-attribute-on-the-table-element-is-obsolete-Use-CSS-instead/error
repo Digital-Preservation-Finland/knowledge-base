@@ -1,6 +1,6 @@
 {
   "files": [
-    "database/sources/text_html/5.0"
+    "database/sources/text_html/5"
   ],
   "analyses": [
     "database/text_html/v.Nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead.repair"

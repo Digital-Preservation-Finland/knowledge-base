@@ -1,6 +1,1 @@
-{
-  "fileFormat": "audio/x-ms-wma",
-  "version": "",
-  "profile": "",
-  "@id": "database/sources/audio_x-ms-wma/general"
-}
+{"fileFormat":"audio/x-ms-wma","version":"","profile":"","@id":"database/sources/audio_x-ms-wma/general"}
