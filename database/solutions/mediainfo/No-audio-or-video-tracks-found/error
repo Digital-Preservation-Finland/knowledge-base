@@ -1,1 +1,1 @@
-{"files":["database/sources/audio_x-wav/general"],"analyses":["database/audio_x-wav/mediainfo/No-audio-or-video-tracks-found.repair"],"validator":"mediainfo","validatorVersion":"","errorMessage":"No audio or video tracks found.","type":"unknown","outputExample":"","notes":""}
+{"files":["database/sources/audio_x-wav/general"],"analyses":["database/audio_x-wav/mediainfo/No-audio-or-video-tracks-found.repair"],"validator":"mediainfo","validatorVersion":"","errorMessage":"No audio or video tracks found.","type":"","outputExample":[],"notes":[]}
