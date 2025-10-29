@@ -2,9 +2,11 @@
 Corpus files
 ============
 
-This page lists and describes files in the corpus in briefly manner. The original files are available from GitHub via a link to the location. File metadata is extracted with `file-scraper <https://github.com/Digital-Preservation-Finland/file-scraper>`_ tool and is listed here by its intended file format even though File scraper would report a implementation specific value. 
+This page lists and describes files in the corpus in briefly manner. The files are available in GitHub.
 
-Corpus contains also empty files and some files whose data can be considered random. These invalid files are impossible to `fix`. Fishy file formats and version values include ``application/octet-stream``, ``inode/x-empty``, and File scraper specific values ``(:unav)``, ``(:unap)`` and ``(:unac)`` depending on the reason a valid value can not be used. `File scraper's technical notes <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/doc/contribute.rst>`_ provide information about the invalidity values.
+File metadata is extracted with `File Scraper <https://github.com/Digital-Preservation-Finland/file-scraper>`_ and is listed here by its intended file format even though File Scraper would report a implementation specific value. 
+
+Corpus contains also empty files and some files whose data can be considered random and are impossible to `fix`. Fishy MIME types and version values include ``application/octet-stream``, ``inode/x-empty``, and File Scraper specific values ``(:unav)``, ``(:unap)`` and ``(:unac)`` depending on the reason a valid value can not be used. `File Scraper's technical notes <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/doc/contribute.rst>`_ provide information about the invalidity values.
 
 .. contents:: File formats
    :local:

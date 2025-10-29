@@ -17,7 +17,7 @@ Data may be provided to the database by the Github's Issues functionality or by 
 Corpora
 .......
 
-Corpora are independent collections of files and can provide information to the knowledge base via metadata extraction. The knowledge base then would refer to locations of data in a corpus, and also maintain references to locations. Access to the actual data from which the metadata is extracted may be useful when reproducing a problem, analysing it and finally when creating a fix for the problem. All the phases may be executed by a different entity and a single phase may be executed by many entities.
+Corpora are independent collections of files and can provide information to the knowledge base via metadata extraction. The knowledge base would then refer to the data locations in a corpus, and also maintain references to the locations. Access to the actual data from which the metadata is extracted may be useful when reproducing a problem, analysing it and finally when creating a fix for the problem. All the phases may be executed by a different entity and a single phase may be executed by many entities.
 
 .. image:: docs/graphs/process.dot.png
    :align: center
