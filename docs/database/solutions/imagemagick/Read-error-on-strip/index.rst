@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - imagemagick (wand)
      - 
-     - unknown
+     - 
 
 
 
@@ -57,10 +57,12 @@ Possible solutions
 --------------
 Output example
 --------------
+
 ::
 
 
 	"identify: Read error on strip 525
+
 
 
 ------------------
@@ -73,6 +75,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

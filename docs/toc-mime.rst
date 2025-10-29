@@ -1,7 +1,9 @@
 Articles by file format
 =======================
 
-.. contents:: File formats:
+List of knowledge base articles grouped by a file format and a validator raising an error.
+
+.. contents::
    :depth: 2
 
 
@@ -140,10 +142,11 @@ text/xml
 --------
 
 
-xmllint
-~~~~~~~
+lxml
+~~~~
 
- - `Schema definition probably missing from XML catalog <database/solutions/xmllint/Schema-definition-probably-missing-from-XML-catalog/index.html>`_
+ - `Schema definition probably missing from XML catalog <database/solutions/lxml/Schema-definition-probably-missing-from-XML-catalog/index.html>`_
+ - `Schema definition probably missing from XML catalog <database/solutions/lxml/Schema-definition-probably-missing-from-XML-catalog/index.html>`_
 
 video/dv
 --------

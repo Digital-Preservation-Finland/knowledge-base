@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - v.Nu
      - 
-     - unknown
+     - 
 
 
 
@@ -59,6 +59,8 @@ Output example
 --------------
 
 
+
+
 ------------------
 Notes on the error
 ------------------
@@ -69,6 +71,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

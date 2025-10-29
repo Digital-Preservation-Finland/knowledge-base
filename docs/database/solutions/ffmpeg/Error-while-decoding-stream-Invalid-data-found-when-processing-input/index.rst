@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - ffmpeg
      - 
-     - unknown
+     - 
 
 
 
@@ -57,11 +57,13 @@ Possible solutions
 --------------
 Output example
 --------------
+
 ::
 
 
 	[pcm_s16le @ 0x737200] Invalid PCM packet, data has size 2 but at least a size of 4 was expected
 	Error while decoding stream #0:0: Invalid data found when processing input
+
 
 
 ------------------
@@ -74,6 +76,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

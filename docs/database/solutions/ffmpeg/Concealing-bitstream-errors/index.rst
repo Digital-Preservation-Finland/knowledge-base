@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - ffmpeg
      - 
-     - unknown
+     - 
 
 
 
@@ -57,6 +57,7 @@ Possible solutions
 --------------
 Output example
 --------------
+
 ::
 
 
@@ -84,6 +85,7 @@ Output example
 	
 
 
+
 ------------------
 Notes on the error
 ------------------
@@ -94,6 +96,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

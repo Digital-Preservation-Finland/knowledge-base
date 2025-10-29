@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - ghostscript
      - 
-     - unknown
+     - 
 
 
 
@@ -81,6 +81,7 @@ Execution example
 --------------
 Output example
 --------------
+
 ::
 
 
@@ -102,6 +103,7 @@ Output example
 	
 
 
+
 ------------------
 Notes on the error
 ------------------
@@ -112,6 +114,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

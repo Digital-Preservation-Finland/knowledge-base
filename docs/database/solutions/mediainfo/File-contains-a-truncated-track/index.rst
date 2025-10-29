@@ -81,10 +81,12 @@ Execution example
 --------------
 Output example
 --------------
+
 ::
 
 
 	The file is truncated. File contains a truncated track.
+
 
 
 ------------------
@@ -97,6 +99,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

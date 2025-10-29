@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - ffmpeg
      - 
-     - unknown
+     - 
 
 
 
@@ -81,6 +81,7 @@ Execution example
 --------------
 Output example
 --------------
+
 ::
 
 
@@ -88,6 +89,7 @@ Output example
 	[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2000d8: partial file\
 	[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2010d8: partial file\
 	[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56204e0c9500] stream 1, offset 0xd2020d8: partial file
+
 
 
 ------------------
@@ -100,6 +102,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

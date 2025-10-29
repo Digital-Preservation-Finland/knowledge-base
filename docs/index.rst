@@ -9,8 +9,8 @@ Welcome to Knowledge base for file format validation errors's documentation!
 .. toctree::
    :maxdepth: 2
 
-   toc-mime
    toc-validator
+   toc-mime
    corpus
    datamodel
 

@@ -87,12 +87,14 @@ Execution example
 --------------
 Output example
 --------------
+
 ::
 
 
 	[null @ 0x11f4c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 5142 >= 5142
 	[null @ 0x11f4c00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 6053 >= 6053
 	
+
 
 
 ------------------
@@ -105,6 +107,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

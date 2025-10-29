@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - unknown
      - 
-     - unknown
+     - 
 
 
 
@@ -83,6 +83,8 @@ Output example
 --------------
 
 
+
+
 ------------------
 Notes on the error
 ------------------
@@ -93,6 +95,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

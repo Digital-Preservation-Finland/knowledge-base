@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - imagemagick (wand)
      - 
-     - unknown
+     - 
 
 
 
@@ -57,10 +57,12 @@ Possible solutions
 --------------
 Output example
 --------------
+
 ::
 
 
 	"Scraping files  [###################################-]   99%  00:00:02/home/maf-admin/dpres/venv/lib64/python3.6/site-packages/wand/image.py:8387: CoderWarning: Incompatible type for ""RichTIFFIPTC""
+
 
 
 ------------------
@@ -73,6 +75,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

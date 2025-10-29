@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - jhove
      - 
-     - unknown
+     - 
 
 
 
@@ -81,6 +81,7 @@ Execution example
 --------------
 Output example
 --------------
+
 ::
 
 
@@ -232,6 +233,7 @@ Output example
 	"
 
 
+
 ------------------
 Notes on the error
 ------------------
@@ -242,6 +244,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

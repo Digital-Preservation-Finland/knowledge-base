@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - jhove
      - 
-     - unknown
+     - 
 
 
 
@@ -57,6 +57,7 @@ Possible solutions
 --------------
 Output example
 --------------
+
 ::
 
 
@@ -78,6 +79,7 @@ Output example
 	<message subMessage=\""Chunk = &quot
 
 
+
 ------------------
 Notes on the error
 ------------------
@@ -88,6 +90,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

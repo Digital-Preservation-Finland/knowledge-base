@@ -1,5 +1,5 @@
 ===================================================
-Unexpected exception java.lang.NullPointerException
+Schema definition probably missing from XML catalog
 ===================================================
 
 .. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
@@ -19,9 +19,9 @@ Classification
    * - **Validator**
      - **Validator version**
      - **Error message type**
-   * - jhove
+   * - lxml
      - 
-     - 
+     - unknown
 
 
 
@@ -31,8 +31,12 @@ Classification
    * - **MIME type**
      - **Version**
      - **Profile**
-   * - application/pdf
+   * - text/xml
+     - 1.0
      - 
+
+   * - text/xml
+     - 1.0
      - 
 
 --------
@@ -44,9 +48,9 @@ Analysis
 
 
 
-Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors.
+The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog.
 
-Is it a bug in the validating software? - 
+Is it a bug in the validating software? - no
 
 ------------------
 Possible solutions
@@ -65,7 +69,127 @@ Output example
 Notes on the error
 ------------------
 
+I
 
+t
+
+ 
+
+i
+
+s
+
+ 
+
+u
+
+n
+
+c
+
+e
+
+r
+
+t
+
+a
+
+i
+
+n
+
+ 
+
+w
+
+h
+
+a
+
+t
+
+ 
+
+v
+
+a
+
+l
+
+i
+
+d
+
+a
+
+t
+
+o
+
+r
+
+ 
+
+s
+
+o
+
+f
+
+t
+
+w
+
+a
+
+r
+
+e
+
+ 
+
+h
+
+a
+
+s
+
+ 
+
+r
+
+a
+
+i
+
+s
+
+e
+
+d
+
+ 
+
+t
+
+h
+
+e
+
+ 
+
+e
+
+r
+
+r
+
+o
+
+r
+
+.
 
 
 ------------------------------
@@ -75,7 +199,4 @@ Related errors by source files
 
 ::
 
-	jhove:	Invalid Checksum
-	jhove:	Malformed dictionary: Vector must contain an even number of objects, but has 17
-	jhove:	No PDF trailer
-	jhove:	Unexpected exception java.lang.NullPointerException
+	lxml:	Schema definition probably missing from XML catalog

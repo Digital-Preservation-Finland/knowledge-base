@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - file-scraper
      - 0.78
-     - unknown
+     - 
 
 
 
@@ -83,6 +83,8 @@ Output example
 --------------
 
 
+
+
 ------------------
 Notes on the error
 ------------------
@@ -93,6 +95,7 @@ The music file contains cover art image in a video container stream.
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

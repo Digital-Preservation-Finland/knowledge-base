@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - libreoffice
      - 
-     - unknown
+     - 
 
 
 
@@ -57,6 +57,7 @@ Possible solutions
 --------------
 Output example
 --------------
+
 ::
 
 
@@ -64,6 +65,7 @@ Output example
 E: lt_string_value: assertion `string != ((void *)0)\' failed
 E: lt_string_value: assertion `string != ((void *)0)\' failed
 E: lt_string_value: assertion `string != ((void *)0)\' failed
+
 
 
 ------------------
@@ -76,6 +78,7 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
+
 
 ::
 

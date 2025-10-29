@@ -1,7 +1,9 @@
 Articles by validating software
 ===============================
 
-.. contents:: Validators:
+List of knowledge base articles grouped by a validator raising an error.
+
+.. contents::
    :depth: 2
 
 
@@ -60,6 +62,11 @@ libreoffice
 
  - `E ltstringvalue assertion string void failed <database/solutions/libreoffice/E-ltstringvalue-assertion-string-void-failed/index.html>`_
 
+lxml
+----
+
+ - `Schema definition probably missing from XML catalog <database/solutions/lxml/Schema-definition-probably-missing-from-XML-catalog/index.html>`_
+
 mediainfo
 ---------
 
@@ -95,8 +102,3 @@ verapdf
 -------
 
  - `orgverapdfpdfontcmapCMapParser getBfrangeEndFromBytes WARNING Incorrect bfrange in toUnicode CMap bfrange contains more than code <database/solutions/verapdf/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/index.html>`_
-
-xmllint
--------
-
- - `Schema definition probably missing from XML catalog <database/solutions/xmllint/Schema-definition-probably-missing-from-XML-catalog/index.html>`_
