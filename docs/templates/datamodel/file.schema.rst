@@ -1,7 +1,7 @@
 4. File
 -------
 
-JSON Schema ID : {$id}
+JSON Schema ID : ``{$id}``
 
 {description}
 

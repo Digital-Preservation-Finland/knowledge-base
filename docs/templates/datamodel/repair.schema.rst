@@ -1,7 +1,7 @@
 3. Repair
 ---------
 
-JSON Schema ID : {$id}
+JSON Schema ID : ``{$id}``
 
 {description}
 

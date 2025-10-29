@@ -1,7 +1,7 @@
 5. Format
 ---------
 
-JSON Schema ID : {$id}
+JSON Schema ID : ``{$id}``
 
 {description}
 
@@ -19,4 +19,6 @@ version : {properties[version][type]}
 profile : {properties[profile][type]}
     {properties[profile][description]}
 
+description : {properties[description][type]}
+    {properties[description][description]}
 

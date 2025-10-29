@@ -1,7 +1,7 @@
 1. Error
 --------
 
-JSON Schema ID : {$id}
+JSON Schema ID : ``{$id}``
 
 {description}
 
