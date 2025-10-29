@@ -1,0 +1,11 @@
+digraph model {
+
+	layout=dot
+
+	corpus1 -> kb
+	corpus2 -> kb [label="metadata\nextraction"]
+
+	kb [label="Knowledge\nbase"]
+	corpus1 [label="Corpus"]
+	corpus2 [label="Corpus"]
+}
