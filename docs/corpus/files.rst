@@ -36,7 +36,7 @@ invalid_2.0.1_libreoffice.epub
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_epub+zip/invalid_2.0.1_libreoffice.epub>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/invalid_2.0.1_libreoffice.epub>`__
    * - Description
      - 
    * - Well-formed
@@ -78,7 +78,7 @@ valid_2.0.1_calibre.epub
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_epub+zip/valid_2.0.1_calibre.epub>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_2.0.1_calibre.epub>`__
    * - Description
      - 
    * - Well-formed
@@ -121,7 +121,7 @@ invalid_3_libreoffice.epub
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_epub+zip/invalid_3_libreoffice.epub>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/invalid_3_libreoffice.epub>`__
    * - Description
      - 
    * - Well-formed
@@ -163,7 +163,7 @@ invalid_3_mimetype_not_first.epub
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_epub+zip/invalid_3_mimetype_not_first.epub>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/invalid_3_mimetype_not_first.epub>`__
    * - Description
      - 
    * - Well-formed
@@ -205,7 +205,7 @@ valid_3_calibre.epub
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_epub+zip/valid_3_calibre.epub>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_calibre.epub>`__
    * - Description
      - 
    * - Well-formed
@@ -245,7 +245,7 @@ valid_3_libreoffice_writer2epub.epub
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_epub+zip/valid_3_libreoffice_writer2epub.epub>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_libreoffice_writer2epub.epub>`__
    * - Description
      - 
    * - Well-formed
@@ -285,7 +285,7 @@ valid_3_pages.epub
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_epub+zip/valid_3_pages.epub>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_pages.epub>`__
    * - Description
      - 
    * - Well-formed
@@ -337,7 +337,7 @@ valid_97-2003.doc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_msword/valid_97-2003.doc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_msword/valid_97-2003.doc>`__
    * - Description
      - 
    * - Well-formed
@@ -380,7 +380,7 @@ invalid_97-2003_missing_data.doc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_msword/invalid_97-2003_missing_data.doc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_msword/invalid_97-2003_missing_data.doc>`__
    * - Description
      - 
    * - Well-formed
@@ -420,7 +420,7 @@ invalid__empty.doc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_msword/invalid__empty.doc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_msword/invalid__empty.doc>`__
    * - Description
      - 
    * - Well-formed
@@ -472,7 +472,7 @@ invalid__jpeg2000_truncated.mxf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_mxf/invalid__jpeg2000_truncated.mxf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/invalid__jpeg2000_truncated.mxf>`__
    * - Description
      - 
    * - Well-formed
@@ -541,7 +541,7 @@ valid__jpeg2000_grayscale.mxf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_mxf/valid__jpeg2000_grayscale.mxf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_grayscale.mxf>`__
    * - Description
      - 
    * - Well-formed
@@ -608,7 +608,7 @@ valid__jpeg2000_lossless.mxf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_mxf/valid__jpeg2000_lossless.mxf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_lossless.mxf>`__
    * - Description
      - 
    * - Well-formed
@@ -675,7 +675,7 @@ valid__jpeg2000_lossless-wavelet_lossy-subsampling.mxf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_mxf/valid__jpeg2000_lossless-wavelet_lossy-subsampling.mxf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_lossless-wavelet_lossy-subsampling.mxf>`__
    * - Description
      - 
    * - Well-formed
@@ -742,7 +742,7 @@ valid__jpeg2000.mxf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_mxf/valid__jpeg2000.mxf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000.mxf>`__
    * - Description
      - 
    * - Well-formed
@@ -812,7 +812,7 @@ invalid__jpeg2000_wrong_signature.mxf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_mxf/invalid__jpeg2000_wrong_signature.mxf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/invalid__jpeg2000_wrong_signature.mxf>`__
    * - Description
      - 
    * - Well-formed
@@ -864,7 +864,7 @@ invalid_1.2_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.2_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.2_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -904,7 +904,7 @@ invalid_1.3_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.3_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.3_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -947,7 +947,7 @@ invalid_1.5_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.5_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.5_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -987,7 +987,7 @@ invalid_1.6_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.6_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.6_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1027,7 +1027,7 @@ invalid_1.7_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.7_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.7_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1070,7 +1070,7 @@ invalid_1.2_payload_altered.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.2_payload_altered.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.2_payload_altered.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1114,7 +1114,7 @@ invalid_1.2_removed_xref.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.2_removed_xref.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.2_removed_xref.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1158,7 +1158,7 @@ valid_1.2.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_1.2.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_1.2.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1201,7 +1201,7 @@ invalid_1.5_payload_altered.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.5_payload_altered.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.5_payload_altered.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1245,7 +1245,7 @@ invalid_1.5_removed_xref.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.5_removed_xref.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.5_removed_xref.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1289,7 +1289,7 @@ valid_1.5.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_1.5.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_1.5.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1332,7 +1332,7 @@ invalid_1.6_payload_altered.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.6_payload_altered.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.6_payload_altered.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1376,7 +1376,7 @@ invalid_1.6_removed_xref.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.6_removed_xref.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.6_removed_xref.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1420,7 +1420,7 @@ valid_1.6.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_1.6.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_1.6.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1463,7 +1463,7 @@ invalid_1.4_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.4_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.4_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1503,7 +1503,7 @@ invalid_1.7_invalid_resource_name.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.7_invalid_resource_name.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.7_invalid_resource_name.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1545,7 +1545,7 @@ invalid_1.7_payload_altered.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.7_payload_altered.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.7_payload_altered.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1589,7 +1589,7 @@ invalid_1.7_removed_xref.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_1.7_removed_xref.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.7_removed_xref.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1633,7 +1633,7 @@ invalid_A-2b_payload_altered.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_payload_altered.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-2b_payload_altered.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1679,7 +1679,7 @@ invalid_A-2b_removed_xref.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_removed_xref.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-2b_removed_xref.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1725,7 +1725,7 @@ invalid_A-3b_payload_altered.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_payload_altered.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-3b_payload_altered.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1771,7 +1771,7 @@ invalid_A-3b_removed_xref.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_removed_xref.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-3b_removed_xref.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1817,7 +1817,7 @@ valid_1.7_jpeg2000.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_1.7_jpeg2000.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_1.7_jpeg2000.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1857,7 +1857,7 @@ valid_1.7.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_1.7.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_1.7.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1900,7 +1900,7 @@ invalid_A-2b_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-2b_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1944,7 +1944,7 @@ invalid_A-3b_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-3b_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -1991,7 +1991,7 @@ invalid_A-1a_wrong_version.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_wrong_version.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-1a_wrong_version.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2033,7 +2033,7 @@ valid_A-1a_invalid_resource_name.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-1a_invalid_resource_name.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_invalid_resource_name.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2073,7 +2073,7 @@ valid_A-1a.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-1a.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2113,7 +2113,7 @@ valid_A-1a_root_1.6.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-1a_root_1.6.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_root_1.6.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2153,7 +2153,7 @@ valid_A-1a_root_1.7.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-1a_root_1.7.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_root_1.7.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2196,7 +2196,7 @@ valid_A-1b_root_1.7.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-1b_root_1.7.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1b_root_1.7.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2239,7 +2239,7 @@ invalid_A-2b_invalid_resource_name.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_invalid_resource_name.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-2b_invalid_resource_name.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2281,7 +2281,7 @@ valid_A-2b.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-2b.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-2b.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2324,7 +2324,7 @@ valid_A-2u_root_1.5.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-2u_root_1.5.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-2u_root_1.5.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2367,7 +2367,7 @@ invalid_A-3b_invalid_resource_name.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_invalid_resource_name.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-3b_invalid_resource_name.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2409,7 +2409,7 @@ valid_A-3b_no_file_extension
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-3b_no_file_extension>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-3b_no_file_extension>`__
    * - Description
      - 
    * - Well-formed
@@ -2449,7 +2449,7 @@ valid_A-3b.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/valid_A-3b.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-3b.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2492,7 +2492,7 @@ invalid__empty.pdf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_pdf/invalid__empty.pdf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid__empty.pdf>`__
    * - Description
      - 
    * - Well-formed
@@ -2544,7 +2544,7 @@ valid_8X.xls
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.ms-excel/valid_8X.xls>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-excel/valid_8X.xls>`__
    * - Description
      - 
    * - Well-formed
@@ -2587,7 +2587,7 @@ invalid_8X_missing_data.xls
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.ms-excel/invalid_8X_missing_data.xls>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-excel/invalid_8X_missing_data.xls>`__
    * - Description
      - 
    * - Well-formed
@@ -2627,7 +2627,7 @@ invalid__empty.xls
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.ms-excel/invalid__empty.xls>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-excel/invalid__empty.xls>`__
    * - Description
      - 
    * - Well-formed
@@ -2679,7 +2679,7 @@ valid_97-2003.ppt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.ms-powerpoint/valid_97-2003.ppt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-powerpoint/valid_97-2003.ppt>`__
    * - Description
      - 
    * - Well-formed
@@ -2722,7 +2722,7 @@ invalid_97-2003_missing_data.ppt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.ms-powerpoint/invalid_97-2003_missing_data.ppt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-powerpoint/invalid_97-2003_missing_data.ppt>`__
    * - Description
      - 
    * - Well-formed
@@ -2762,7 +2762,7 @@ invalid__empty.ppt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.ms-powerpoint/invalid__empty.ppt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-powerpoint/invalid__empty.ppt>`__
    * - Description
      - 
    * - Well-formed
@@ -2814,7 +2814,7 @@ valid_1.2.odf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.formula/valid_1.2.odf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.formula/valid_1.2.odf>`__
    * - Description
      - 
    * - Well-formed
@@ -2857,7 +2857,7 @@ invalid_1.3_corrupted.odf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.formula/invalid_1.3_corrupted.odf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.formula/invalid_1.3_corrupted.odf>`__
    * - Description
      - 
    * - Well-formed
@@ -2897,7 +2897,7 @@ valid_1.3.odf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.formula/valid_1.3.odf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.formula/valid_1.3.odf>`__
    * - Description
      - 
    * - Well-formed
@@ -2940,7 +2940,7 @@ invalid_1.2_corrupted.odf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.formula/invalid_1.2_corrupted.odf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.formula/invalid_1.2_corrupted.odf>`__
    * - Description
      - 
    * - Well-formed
@@ -2980,7 +2980,7 @@ invalid_1.2_missing_data.odf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.formula/invalid_1.2_missing_data.odf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.formula/invalid_1.2_missing_data.odf>`__
    * - Description
      - 
    * - Well-formed
@@ -3022,7 +3022,7 @@ invalid__empty.odf
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.formula/invalid__empty.odf>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.formula/invalid__empty.odf>`__
    * - Description
      - 
    * - Well-formed
@@ -3074,7 +3074,7 @@ invalid_1.2_corrupted.odg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.graphics/invalid_1.2_corrupted.odg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.graphics/invalid_1.2_corrupted.odg>`__
    * - Description
      - 
    * - Well-formed
@@ -3117,7 +3117,7 @@ valid_1.2.odg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.graphics/valid_1.2.odg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.graphics/valid_1.2.odg>`__
    * - Description
      - 
    * - Well-formed
@@ -3160,7 +3160,7 @@ invalid_1.3_corrupted.odg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.graphics/invalid_1.3_corrupted.odg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.graphics/invalid_1.3_corrupted.odg>`__
    * - Description
      - 
    * - Well-formed
@@ -3200,7 +3200,7 @@ valid_1.3.odg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.graphics/valid_1.3.odg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.graphics/valid_1.3.odg>`__
    * - Description
      - 
    * - Well-formed
@@ -3243,7 +3243,7 @@ invalid_1.2_missing_data.odg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.graphics/invalid_1.2_missing_data.odg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.graphics/invalid_1.2_missing_data.odg>`__
    * - Description
      - 
    * - Well-formed
@@ -3285,7 +3285,7 @@ invalid__empty.odg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.graphics/invalid__empty.odg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.graphics/invalid__empty.odg>`__
    * - Description
      - 
    * - Well-formed
@@ -3337,7 +3337,7 @@ invalid_1.2_corrupted.odp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.presentation/invalid_1.2_corrupted.odp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.presentation/invalid_1.2_corrupted.odp>`__
    * - Description
      - 
    * - Well-formed
@@ -3380,7 +3380,7 @@ valid_1.2.odp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.presentation/valid_1.2.odp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.presentation/valid_1.2.odp>`__
    * - Description
      - 
    * - Well-formed
@@ -3423,7 +3423,7 @@ invalid_1.3_corrupted.odp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.presentation/invalid_1.3_corrupted.odp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.presentation/invalid_1.3_corrupted.odp>`__
    * - Description
      - 
    * - Well-formed
@@ -3463,7 +3463,7 @@ valid_1.3.odp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.presentation/valid_1.3.odp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.presentation/valid_1.3.odp>`__
    * - Description
      - 
    * - Well-formed
@@ -3506,7 +3506,7 @@ invalid_1.2_missing_data.odp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.presentation/invalid_1.2_missing_data.odp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.presentation/invalid_1.2_missing_data.odp>`__
    * - Description
      - 
    * - Well-formed
@@ -3548,7 +3548,7 @@ invalid__empty.odp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.presentation/invalid__empty.odp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.presentation/invalid__empty.odp>`__
    * - Description
      - 
    * - Well-formed
@@ -3600,7 +3600,7 @@ invalid_1.2_corrupted.ods
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid_1.2_corrupted.ods>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid_1.2_corrupted.ods>`__
    * - Description
      - 
    * - Well-formed
@@ -3643,7 +3643,7 @@ valid_1.2.ods
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.spreadsheet/valid_1.2.ods>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.spreadsheet/valid_1.2.ods>`__
    * - Description
      - 
    * - Well-formed
@@ -3686,7 +3686,7 @@ invalid_1.3_corrupted.ods
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid_1.3_corrupted.ods>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid_1.3_corrupted.ods>`__
    * - Description
      - 
    * - Well-formed
@@ -3726,7 +3726,7 @@ valid_1.3.ods
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.spreadsheet/valid_1.3.ods>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.spreadsheet/valid_1.3.ods>`__
    * - Description
      - 
    * - Well-formed
@@ -3769,7 +3769,7 @@ invalid_1.2_missing_data.ods
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid_1.2_missing_data.ods>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid_1.2_missing_data.ods>`__
    * - Description
      - 
    * - Well-formed
@@ -3811,7 +3811,7 @@ invalid__empty.ods
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid__empty.ods>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid__empty.ods>`__
    * - Description
      - 
    * - Well-formed
@@ -3863,7 +3863,7 @@ invalid_1.2_corrupted.odt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.text/invalid_1.2_corrupted.odt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.text/invalid_1.2_corrupted.odt>`__
    * - Description
      - 
    * - Well-formed
@@ -3906,7 +3906,7 @@ valid_1.2.odt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.text/valid_1.2.odt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.text/valid_1.2.odt>`__
    * - Description
      - 
    * - Well-formed
@@ -3949,7 +3949,7 @@ invalid_1.3_corrupted.odt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.text/invalid_1.3_corrupted.odt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.text/invalid_1.3_corrupted.odt>`__
    * - Description
      - 
    * - Well-formed
@@ -3989,7 +3989,7 @@ valid_1.3.odt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.text/valid_1.3.odt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.text/valid_1.3.odt>`__
    * - Description
      - 
    * - Well-formed
@@ -4032,7 +4032,7 @@ invalid_1.2_invalid_xml.odt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.text/invalid_1.2_invalid_xml.odt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.text/invalid_1.2_invalid_xml.odt>`__
    * - Description
      - 
    * - Well-formed
@@ -4074,7 +4074,7 @@ invalid_1.2_missing_data.odt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.text/invalid_1.2_missing_data.odt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.text/invalid_1.2_missing_data.odt>`__
    * - Description
      - 
    * - Well-formed
@@ -4116,7 +4116,7 @@ invalid__empty.odt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.oasis.opendocument.text/invalid__empty.odt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.text/invalid__empty.odt>`__
    * - Description
      - 
    * - Well-formed
@@ -4168,7 +4168,7 @@ invalid_2007 onwards_corrupted.pptx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/invalid_2007 onwards_corrupted.pptx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/invalid_2007 onwards_corrupted.pptx>`__
    * - Description
      - 
    * - Well-formed
@@ -4208,7 +4208,7 @@ valid_2007 onwards.pptx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/valid_2007 onwards.pptx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/valid_2007 onwards.pptx>`__
    * - Description
      - 
    * - Well-formed
@@ -4251,7 +4251,7 @@ invalid_2007 onwards_missing_data.pptx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/invalid_2007 onwards_missing_data.pptx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/invalid_2007 onwards_missing_data.pptx>`__
    * - Description
      - 
    * - Well-formed
@@ -4291,7 +4291,7 @@ invalid__empty.pptx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/invalid__empty.pptx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/invalid__empty.pptx>`__
    * - Description
      - 
    * - Well-formed
@@ -4343,7 +4343,7 @@ invalid_2007 onwards_corrupted.xlsx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid_2007 onwards_corrupted.xlsx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid_2007 onwards_corrupted.xlsx>`__
    * - Description
      - 
    * - Well-formed
@@ -4383,7 +4383,7 @@ valid_2007 onwards.xlsx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/valid_2007 onwards.xlsx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/valid_2007 onwards.xlsx>`__
    * - Description
      - 
    * - Well-formed
@@ -4426,7 +4426,7 @@ invalid_2007 onwards_missing_data.xlsx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid_2007 onwards_missing_data.xlsx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid_2007 onwards_missing_data.xlsx>`__
    * - Description
      - 
    * - Well-formed
@@ -4466,7 +4466,7 @@ invalid__empty.xlsx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid__empty.xlsx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid__empty.xlsx>`__
    * - Description
      - 
    * - Well-formed
@@ -4518,7 +4518,7 @@ invalid_2007 onwards_corrupted.docx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/invalid_2007 onwards_corrupted.docx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/invalid_2007 onwards_corrupted.docx>`__
    * - Description
      - 
    * - Well-formed
@@ -4558,7 +4558,7 @@ valid_2007 onwards.docx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/valid_2007 onwards.docx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/valid_2007 onwards.docx>`__
    * - Description
      - 
    * - Well-formed
@@ -4598,7 +4598,7 @@ valid_2007 onwards_word-dir-third.docx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/valid_2007 onwards_word-dir-third.docx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/valid_2007 onwards_word-dir-third.docx>`__
    * - Description
      - 
    * - Well-formed
@@ -4641,7 +4641,7 @@ invalid_2007 onwards_missing_data.docx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/invalid_2007 onwards_missing_data.docx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/invalid_2007 onwards_missing_data.docx>`__
    * - Description
      - 
    * - Well-formed
@@ -4681,7 +4681,7 @@ invalid__empty.docx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/invalid__empty.docx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/invalid__empty.docx>`__
    * - Description
      - 
    * - Well-formed
@@ -4733,7 +4733,7 @@ invalid__aac.ra
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.rn-realmedia/invalid__aac.ra>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.rn-realmedia/invalid__aac.ra>`__
    * - Description
      - 
    * - Well-formed
@@ -4773,7 +4773,7 @@ invalid__ac3.ra
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_vnd.rn-realmedia/invalid__ac3.ra>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.rn-realmedia/invalid__ac3.ra>`__
    * - Description
      - 
    * - Well-formed
@@ -4825,7 +4825,7 @@ valid_0.17.warc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/valid_0.17.warc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_0.17.warc>`__
    * - Description
      - 
    * - Well-formed
@@ -4868,7 +4868,7 @@ valid_0.18.warc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/valid_0.18.warc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_0.18.warc>`__
    * - Description
      - 
    * - Well-formed
@@ -4911,7 +4911,7 @@ invalid_1.0_wrong_version.warc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/invalid_1.0_wrong_version.warc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid_1.0_wrong_version.warc>`__
    * - Description
      - 
    * - Well-formed
@@ -4954,7 +4954,7 @@ valid_1.0.warc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/valid_1.0.warc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_1.0.warc>`__
    * - Description
      - 
    * - Well-formed
@@ -4994,7 +4994,7 @@ valid_1.0_.warc.gz
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/valid_1.0_.warc.gz>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_1.0_.warc.gz>`__
    * - Description
      - 
    * - Well-formed
@@ -5037,7 +5037,7 @@ invalid_0.17_too_short_content_length.warc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/invalid_0.17_too_short_content_length.warc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid_0.17_too_short_content_length.warc>`__
    * - Description
      - 
    * - Well-formed
@@ -5072,7 +5072,7 @@ invalid_0.18_too_short_content_length.warc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/invalid_0.18_too_short_content_length.warc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid_0.18_too_short_content_length.warc>`__
    * - Description
      - 
    * - Well-formed
@@ -5107,7 +5107,7 @@ invalid__empty.warc
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/invalid__empty.warc>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid__empty.warc>`__
    * - Description
      - 
    * - Well-formed
@@ -5147,7 +5147,7 @@ invalid__empty.warc.gz
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/invalid__empty.warc.gz>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid__empty.warc.gz>`__
    * - Description
      - 
    * - Well-formed
@@ -5187,7 +5187,7 @@ invalid__missing_data.warc.gz
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_warc/invalid__missing_data.warc.gz>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid__missing_data.warc.gz>`__
    * - Description
      - 
    * - Well-formed
@@ -5234,7 +5234,7 @@ invalid_empty.atlproj
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.atlproj/invalid_empty.atlproj>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.atlproj/invalid_empty.atlproj>`__
    * - Description
      - 
    * - Well-formed
@@ -5286,7 +5286,7 @@ invalid_1.0_ascii_header.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid_1.0_ascii_header.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid_1.0_ascii_header.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5326,7 +5326,7 @@ invalid_1.0_ebcdic_header.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid_1.0_ebcdic_header.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid_1.0_ebcdic_header.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5369,7 +5369,7 @@ invalid_2.0_ascii_header.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid_2.0_ascii_header.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid_2.0_ascii_header.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5409,7 +5409,7 @@ invalid_2.0_ebcdic_header.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid_2.0_ebcdic_header.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid_2.0_ebcdic_header.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5452,7 +5452,7 @@ invalid__ascii_header.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid__ascii_header.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid__ascii_header.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5492,7 +5492,7 @@ invalid__ebcdic_header.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid__ebcdic_header.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid__ebcdic_header.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5532,7 +5532,7 @@ invalid__ebcdic_ljust.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid__ebcdic_ljust.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid__ebcdic_ljust.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5572,7 +5572,7 @@ invalid__ebcdic_no_indices.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid__ebcdic_no_indices.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid__ebcdic_no_indices.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5612,7 +5612,7 @@ invalid__ebcdic_padded_ljust_eof.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid__ebcdic_padded_ljust_eof.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid__ebcdic_padded_ljust_eof.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5652,7 +5652,7 @@ invalid__empty_ascii_header.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid__empty_ascii_header.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid__empty_ascii_header.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5692,7 +5692,7 @@ invalid__empty_ebcdic_header.sgy
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x.fi-dpres.segy/invalid__empty_ebcdic_header.sgy>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid__empty_ebcdic_header.sgy>`__
    * - Description
      - 
    * - Well-formed
@@ -5744,7 +5744,7 @@ invalid_1.0_illegal_tags.xhtml
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_illegal_tags.xhtml>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_xhtml+xml/invalid_1.0_illegal_tags.xhtml>`__
    * - Description
      - 
    * - Well-formed
@@ -5787,7 +5787,7 @@ invalid_1.0_missing_closing_tag.xhtml
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_missing_closing_tag.xhtml>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_xhtml+xml/invalid_1.0_missing_closing_tag.xhtml>`__
    * - Description
      - 
    * - Well-formed
@@ -5830,7 +5830,7 @@ invalid_1.0_no_doctype.xhtml
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_no_doctype.xhtml>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_xhtml+xml/invalid_1.0_no_doctype.xhtml>`__
    * - Description
      - 
    * - Well-formed
@@ -5871,7 +5871,7 @@ valid_1.0.xhtml
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_xhtml+xml/valid_1.0.xhtml>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_xhtml+xml/valid_1.0.xhtml>`__
    * - Description
      - 
    * - Well-formed
@@ -5915,7 +5915,7 @@ invalid__empty.xhtml
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_xhtml+xml/invalid__empty.xhtml>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_xhtml+xml/invalid__empty.xhtml>`__
    * - Description
      - 
    * - Well-formed
@@ -5967,7 +5967,7 @@ invalid_2.0_invalid_version.siard
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-siard/invalid_2.0_invalid_version.siard>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-siard/invalid_2.0_invalid_version.siard>`__
    * - Description
      - 
    * - Well-formed
@@ -6010,7 +6010,7 @@ invalid_2.1.1_schema_errors.siard
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-siard/invalid_2.1.1_schema_errors.siard>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-siard/invalid_2.1.1_schema_errors.siard>`__
    * - Description
      - 
    * - Well-formed
@@ -6052,7 +6052,7 @@ valid_2.1.1.siard
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-siard/valid_2.1.1.siard>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-siard/valid_2.1.1.siard>`__
    * - Description
      - 
    * - Well-formed
@@ -6095,7 +6095,7 @@ invalid_2.1.1_invalid_extension.zip
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-siard/invalid_2.1.1_invalid_extension.zip>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-siard/invalid_2.1.1_invalid_extension.zip>`__
    * - Description
      - 
    * - Well-formed
@@ -6147,7 +6147,7 @@ invalid__header_corrupted.por
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-spss-por/invalid__header_corrupted.por>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-spss-por/invalid__header_corrupted.por>`__
    * - Description
      - 
    * - Well-formed
@@ -6188,7 +6188,7 @@ invalid__pspp_header.por
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-spss-por/invalid__pspp_header.por>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-spss-por/invalid__pspp_header.por>`__
    * - Description
      - 
    * - Well-formed
@@ -6229,7 +6229,7 @@ invalid__truncated.por
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-spss-por/invalid__truncated.por>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-spss-por/invalid__truncated.por>`__
    * - Description
      - 
    * - Well-formed
@@ -6270,7 +6270,7 @@ valid__spss24-dates.por
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-spss-por/valid__spss24-dates.por>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-spss-por/valid__spss24-dates.por>`__
    * - Description
      - 
    * - Well-formed
@@ -6310,7 +6310,7 @@ valid__spss24-dot.por
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-spss-por/valid__spss24-dot.por>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-spss-por/valid__spss24-dot.por>`__
    * - Description
      - 
    * - Well-formed
@@ -6353,7 +6353,7 @@ invalid__empty.por
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-spss-por/invalid__empty.por>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-spss-por/invalid__empty.por>`__
    * - Description
      - 
    * - Well-formed
@@ -6393,7 +6393,7 @@ invalid__wrong_spss_format.sav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/application_x-spss-por/invalid__wrong_spss_format.sav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-spss-por/invalid__wrong_spss_format.sav>`__
    * - Description
      - 
    * - Well-formed
@@ -6445,7 +6445,7 @@ invalid__bit_level_format.ac3
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_ac3/invalid__bit_level_format.ac3>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_ac3/invalid__bit_level_format.ac3>`__
    * - Description
      - 
    * - Well-formed
@@ -6508,7 +6508,7 @@ invalid__bytes_missing.flac
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_flac/invalid__bytes_missing.flac>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__bytes_missing.flac>`__
    * - Description
      - 
    * - Well-formed
@@ -6561,7 +6561,7 @@ valid__flac.flac
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_flac/valid__flac.flac>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/valid__flac.flac>`__
    * - Description
      - 
    * - Well-formed
@@ -6615,7 +6615,7 @@ invalid__header_edited.flac
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_flac/invalid__header_edited.flac>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__header_edited.flac>`__
    * - Description
      - 
    * - Well-formed
@@ -6667,7 +6667,7 @@ valid__aac.m4a
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_mp4/valid__aac.m4a>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mp4/valid__aac.m4a>`__
    * - Description
      - 
    * - Well-formed
@@ -6730,7 +6730,7 @@ invalid__empty.m4a
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_mp4/invalid__empty.m4a>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mp4/invalid__empty.m4a>`__
    * - Description
      - 
    * - Well-formed
@@ -6782,7 +6782,7 @@ invalid_1_missing_data.mp3
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_mpeg/invalid_1_missing_data.mp3>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_missing_data.mp3>`__
    * - Description
      - 
    * - Well-formed
@@ -6826,7 +6826,7 @@ invalid__empty.mp3
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_mpeg/invalid__empty.mp3>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid__empty.mp3>`__
    * - Description
      - 
    * - Well-formed
@@ -6878,7 +6878,7 @@ invalid_1.3_data_bytes_missing.aiff
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-aiff/invalid_1.3_data_bytes_missing.aiff>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-aiff/invalid_1.3_data_bytes_missing.aiff>`__
    * - Description
      - 
    * - Well-formed
@@ -6922,7 +6922,7 @@ valid_1.3.aiff
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-aiff/valid_1.3.aiff>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-aiff/valid_1.3.aiff>`__
    * - Description
      - 
    * - Well-formed
@@ -6976,7 +6976,7 @@ valid__aiff-c.aiff
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-aiff/valid__aiff-c.aiff>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-aiff/valid__aiff-c.aiff>`__
    * - Description
      - 
    * - Well-formed
@@ -7039,7 +7039,7 @@ valid_2_bwf.wav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-wav/valid_2_bwf.wav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/valid_2_bwf.wav>`__
    * - Description
      - 
    * - Well-formed
@@ -7093,7 +7093,7 @@ invalid_2_bwf_RIFF_edited.wav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav>`__
    * - Description
      - 
    * - Well-formed
@@ -7148,7 +7148,7 @@ invalid__pcm_alaw_format.wav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-wav/invalid__pcm_alaw_format.wav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__pcm_alaw_format.wav>`__
    * - Description
      - 
    * - Well-formed
@@ -7201,7 +7201,7 @@ valid__wav.wav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-wav/valid__wav.wav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/valid__wav.wav>`__
    * - Description
      - 
    * - Well-formed
@@ -7255,7 +7255,7 @@ invalid_2_bwf_data_bytes_missing.wav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_data_bytes_missing.wav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid_2_bwf_data_bytes_missing.wav>`__
    * - Description
      - 
    * - Well-formed
@@ -7299,7 +7299,7 @@ invalid__data_bytes_missing.wav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-wav/invalid__data_bytes_missing.wav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__data_bytes_missing.wav>`__
    * - Description
      - 
    * - Well-formed
@@ -7345,7 +7345,7 @@ invalid__empty.wav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-wav/invalid__empty.wav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__empty.wav>`__
    * - Description
      - 
    * - Well-formed
@@ -7385,7 +7385,7 @@ invalid__RIFF_edited.wav
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__RIFF_edited.wav>`__
    * - Description
      - 
    * - Well-formed
@@ -7443,7 +7443,7 @@ invalid_1987a_truncated.gif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_gif/invalid_1987a_truncated.gif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_gif/invalid_1987a_truncated.gif>`__
    * - Description
      - 
    * - Well-formed
@@ -7489,7 +7489,7 @@ valid_1987a.gif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_gif/valid_1987a.gif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_gif/valid_1987a.gif>`__
    * - Description
      - 
    * - Well-formed
@@ -7540,7 +7540,7 @@ invalid_1989a_truncated.gif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_gif/invalid_1989a_truncated.gif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_gif/invalid_1989a_truncated.gif>`__
    * - Description
      - 
    * - Well-formed
@@ -7586,7 +7586,7 @@ valid_1989a.gif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_gif/valid_1989a.gif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_gif/valid_1989a.gif>`__
    * - Description
      - 
    * - Well-formed
@@ -7665,7 +7665,7 @@ invalid_1987a_broken_header.gif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_gif/invalid_1987a_broken_header.gif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_gif/invalid_1987a_broken_header.gif>`__
    * - Description
      - 
    * - Well-formed
@@ -7711,7 +7711,7 @@ invalid_1989a_broken_header.gif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_gif/invalid_1989a_broken_header.gif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_gif/invalid_1989a_broken_header.gif>`__
    * - Description
      - 
    * - Well-formed
@@ -7760,7 +7760,7 @@ invalid__empty.gif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_gif/invalid__empty.gif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_gif/invalid__empty.gif>`__
    * - Description
      - 
    * - Well-formed
@@ -7812,7 +7812,7 @@ invalid__header_box_missing_bytes.jp2
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jp2/invalid__header_box_missing_bytes.jp2>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jp2/invalid__header_box_missing_bytes.jp2>`__
    * - Description
      - 
    * - Well-formed
@@ -7858,7 +7858,7 @@ valid__jpylyzer_reference.jp2
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jp2/valid__jpylyzer_reference.jp2>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jp2/valid__jpylyzer_reference.jp2>`__
    * - Description
      - 
    * - Well-formed
@@ -7906,7 +7906,7 @@ valid__many_qcc_blocks.jp2
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jp2/valid__many_qcc_blocks.jp2>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jp2/valid__many_qcc_blocks.jp2>`__
    * - Description
      - 
    * - Well-formed
@@ -7957,7 +7957,7 @@ invalid__data_missing.jp2
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jp2/invalid__data_missing.jp2>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jp2/invalid__data_missing.jp2>`__
    * - Description
      - 
    * - Well-formed
@@ -7997,7 +7997,7 @@ invalid__empty.jp2
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jp2/invalid__empty.jp2>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jp2/invalid__empty.jp2>`__
    * - Description
      - 
    * - Well-formed
@@ -8049,7 +8049,7 @@ invalid_1.01_data_changed.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/invalid_1.01_data_changed.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/invalid_1.01_data_changed.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8095,7 +8095,7 @@ valid_1.01_121_APP2_segments.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/valid_1.01_121_APP2_segments.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_121_APP2_segments.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8143,7 +8143,7 @@ valid_1.01_icc_sRGB_profile.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/valid_1.01_icc_sRGB_profile.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_icc_sRGB_profile.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8191,7 +8191,7 @@ valid_1.01.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/valid_1.01.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8239,7 +8239,7 @@ valid_1.01_many_jpeg_segments.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/valid_1.01_many_jpeg_segments.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_many_jpeg_segments.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8290,7 +8290,7 @@ valid_2.2.1_exif_metadata.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/valid_2.2.1_exif_metadata.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_2.2.1_exif_metadata.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8338,7 +8338,7 @@ valid_2.2.1_exif_no_jfif.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/valid_2.2.1_exif_no_jfif.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_2.2.1_exif_no_jfif.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8389,7 +8389,7 @@ invalid_1.01_no_start_marker.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/invalid_1.01_no_start_marker.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/invalid_1.01_no_start_marker.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8429,7 +8429,7 @@ invalid__empty.jpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_jpeg/invalid__empty.jpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/invalid__empty.jpg>`__
    * - Description
      - 
    * - Well-formed
@@ -8481,7 +8481,7 @@ invalid_1.2_no_IEND.png
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IEND.png>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_png/invalid_1.2_no_IEND.png>`__
    * - Description
      - 
    * - Well-formed
@@ -8532,7 +8532,7 @@ invalid_1.2_no_IHDR.png
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IHDR.png>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_png/invalid_1.2_no_IHDR.png>`__
    * - Description
      - 
    * - Well-formed
@@ -8578,7 +8578,7 @@ invalid_1.2_wrong_CRC.png
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_png/invalid_1.2_wrong_CRC.png>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_png/invalid_1.2_wrong_CRC.png>`__
    * - Description
      - 
    * - Well-formed
@@ -8624,7 +8624,7 @@ valid_1.2_LA.png
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_png/valid_1.2_LA.png>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_png/valid_1.2_LA.png>`__
    * - Description
      - 
    * - Well-formed
@@ -8672,7 +8672,7 @@ valid_1.2.png
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_png/valid_1.2.png>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_png/valid_1.2.png>`__
    * - Description
      - 
    * - Well-formed
@@ -8723,7 +8723,7 @@ invalid_1.2_wrong_header.png
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_png/invalid_1.2_wrong_header.png>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_png/invalid_1.2_wrong_header.png>`__
    * - Description
      - 
    * - Well-formed
@@ -8763,7 +8763,7 @@ invalid__empty.png
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_png/invalid__empty.png>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_png/invalid__empty.png>`__
    * - Description
      - 
    * - Well-formed
@@ -8815,7 +8815,7 @@ invalid_6.0_wrong_byte_order.tif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_tiff/invalid_6.0_wrong_byte_order.tif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/invalid_6.0_wrong_byte_order.tif>`__
    * - Description
      - 
    * - Well-formed
@@ -8855,7 +8855,7 @@ invalid__empty.tif
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_tiff/invalid__empty.tif>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/invalid__empty.tif>`__
    * - Description
      - 
    * - Well-formed
@@ -8907,7 +8907,7 @@ invalid__no_scraper_found.ico
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_vnd.microsoft.icon/invalid__no_scraper_found.ico>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_vnd.microsoft.icon/invalid__no_scraper_found.ico>`__
    * - Description
      - 
    * - Well-formed
@@ -8959,7 +8959,7 @@ valid__lossless.webp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_webp/valid__lossless.webp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/valid__lossless.webp>`__
    * - Description
      - 
    * - Well-formed
@@ -9007,7 +9007,7 @@ valid__lossy.webp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_webp/valid__lossy.webp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/valid__lossy.webp>`__
    * - Description
      - 
    * - Well-formed
@@ -9058,7 +9058,7 @@ invalid__empty.webp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_webp/invalid__empty.webp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__empty.webp>`__
    * - Description
      - 
    * - Well-formed
@@ -9098,7 +9098,7 @@ invalid__lossless_with_lossy_header.webp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_webp/invalid__lossless_with_lossy_header.webp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__lossless_with_lossy_header.webp>`__
    * - Description
      - 
    * - Well-formed
@@ -9135,7 +9135,7 @@ invalid__missing_bitstream.webp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_webp/invalid__missing_bitstream.webp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__missing_bitstream.webp>`__
    * - Description
      - 
    * - Well-formed
@@ -9172,7 +9172,7 @@ invalid__missing_icc_profile.webp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_webp/invalid__missing_icc_profile.webp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__missing_icc_profile.webp>`__
    * - Description
      - 
    * - Well-formed
@@ -9209,7 +9209,7 @@ invalid__missing_image_data.webp
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_webp/invalid__missing_image_data.webp>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__missing_image_data.webp>`__
    * - Description
      - 
    * - Well-formed
@@ -9258,7 +9258,7 @@ invalid_1.4_edited_header.dng
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng>`__
    * - Description
      - 
    * - Well-formed
@@ -9305,7 +9305,7 @@ valid_1.4.dng
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-adobe-dng/valid_1.4.dng>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-adobe-dng/valid_1.4.dng>`__
    * - Description
      - 
    * - Well-formed
@@ -9357,7 +9357,7 @@ invalid__empty.dng
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid__empty.dng>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-adobe-dng/invalid__empty.dng>`__
    * - Description
      - 
    * - Well-formed
@@ -9409,7 +9409,7 @@ valid_1.0_just_version_change_from_2.0.dpx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-dpx/valid_1.0_just_version_change_from_2.0.dpx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-dpx/valid_1.0_just_version_change_from_2.0.dpx>`__
    * - Description
      - 
    * - Well-formed
@@ -9452,7 +9452,7 @@ valid_2.0.dpx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-dpx/valid_2.0.dpx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-dpx/valid_2.0.dpx>`__
    * - Description
      - 
    * - Well-formed
@@ -9495,7 +9495,7 @@ invalid_2.0_file_size_error.dpx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-dpx/invalid_2.0_file_size_error.dpx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-dpx/invalid_2.0_file_size_error.dpx>`__
    * - Description
      - 
    * - Well-formed
@@ -9537,7 +9537,7 @@ invalid_2.0_missing_data.dpx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-dpx/invalid_2.0_missing_data.dpx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-dpx/invalid_2.0_missing_data.dpx>`__
    * - Description
      - 
    * - Well-formed
@@ -9579,7 +9579,7 @@ invalid_2.0_wrong_endian.dpx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-dpx/invalid_2.0_wrong_endian.dpx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-dpx/invalid_2.0_wrong_endian.dpx>`__
    * - Description
      - 
    * - Well-formed
@@ -9621,7 +9621,7 @@ invalid__empty_file.dpx
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/image_x-dpx/invalid__empty_file.dpx>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_x-dpx/invalid__empty_file.dpx>`__
    * - Description
      - 
    * - Well-formed
@@ -9673,7 +9673,7 @@ invalid__missing_end_quote.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/invalid__missing_end_quote.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/invalid__missing_end_quote.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -9724,7 +9724,7 @@ valid__ascii.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/valid__ascii.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__ascii.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -9775,7 +9775,7 @@ valid__ascii_header.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/valid__ascii_header.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__ascii_header.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -9826,7 +9826,7 @@ valid__header_only.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/valid__header_only.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__header_only.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -9867,7 +9867,7 @@ valid__iso8859-15.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/valid__iso8859-15.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__iso8859-15.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -9918,7 +9918,7 @@ valid__iso8859-15_header.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/valid__iso8859-15_header.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__iso8859-15_header.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -9969,7 +9969,7 @@ valid__quotechar.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/valid__quotechar.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__quotechar.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -10010,7 +10010,7 @@ valid__utf8.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/valid__utf8.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__utf8.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -10061,7 +10061,7 @@ valid__utf8_header.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/valid__utf8_header.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__utf8_header.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -10115,7 +10115,7 @@ invalid__empty.csv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_csv/invalid__empty.csv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/invalid__empty.csv>`__
    * - Description
      - 
    * - Well-formed
@@ -10167,7 +10167,7 @@ invalid_4.01_illegal_tags.html
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_html/invalid_4.01_illegal_tags.html>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/invalid_4.01_illegal_tags.html>`__
    * - Description
      - 
    * - Well-formed
@@ -10210,7 +10210,7 @@ valid_4.01.html
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_html/valid_4.01.html>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/valid_4.01.html>`__
    * - Description
      - 
    * - Well-formed
@@ -10254,7 +10254,7 @@ invalid_4.01_nodoctype.html
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_html/invalid_4.01_nodoctype.html>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/invalid_4.01_nodoctype.html>`__
    * - Description
      - 
    * - Well-formed
@@ -10299,7 +10299,7 @@ invalid_5_nodoctype.html
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_html/invalid_5_nodoctype.html>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/invalid_5_nodoctype.html>`__
    * - Description
      - 
    * - Well-formed
@@ -10344,7 +10344,7 @@ invalid__empty.html
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_html/invalid__empty.html>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/invalid__empty.html>`__
    * - Description
      - 
    * - Well-formed
@@ -10396,7 +10396,7 @@ invalid__unknown_encoding_cp437.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/invalid__unknown_encoding_cp437.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/invalid__unknown_encoding_cp437.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10437,7 +10437,7 @@ valid__ascii.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__ascii.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__ascii.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10478,7 +10478,7 @@ valid__iso8859.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__iso8859.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__iso8859.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10519,7 +10519,7 @@ valid__should_scrape_as_plain_text.json
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__should_scrape_as_plain_text.json>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__should_scrape_as_plain_text.json>`__
    * - Description
      - 
    * - Well-formed
@@ -10560,7 +10560,7 @@ valid__utf16be_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf16be_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf16be_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10601,7 +10601,7 @@ valid__utf16le_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf16le_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf16le_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10642,7 +10642,7 @@ valid__utf32be_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf32be_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf32be_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10683,7 +10683,7 @@ valid__utf32le_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf32le_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf32le_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10724,7 +10724,7 @@ valid__utf8_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf8_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf8_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10765,7 +10765,7 @@ valid__utf8_multibyte.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf8_multibyte.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf8_multibyte.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10806,7 +10806,7 @@ valid__utf8_without_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf8_without_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf8_without_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10850,7 +10850,7 @@ invalid__binary_data.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/invalid__binary_data.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/invalid__binary_data.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10890,7 +10890,7 @@ invalid__control_character.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/invalid__control_character.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/invalid__control_character.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10930,7 +10930,7 @@ invalid__empty.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/invalid__empty.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/invalid__empty.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -10970,7 +10970,7 @@ invalid__utf8_just_c3.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/invalid__utf8_just_c3.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/invalid__utf8_just_c3.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -11010,7 +11010,7 @@ valid__utf16be_multibyte.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf16be_multibyte.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf16be_multibyte.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -11050,7 +11050,7 @@ valid__utf16be_without_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf16be_without_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf16be_without_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -11090,7 +11090,7 @@ valid__utf16le_multibyte.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf16le_multibyte.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf16le_multibyte.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -11130,7 +11130,7 @@ valid__utf16le_without_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf16le_without_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf16le_without_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -11170,7 +11170,7 @@ valid__utf32be_without_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf32be_without_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf32be_without_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -11210,7 +11210,7 @@ valid__utf32le_without_bom.txt
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_plain/valid__utf32le_without_bom.txt>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__utf32le_without_bom.txt>`__
    * - Description
      - 
    * - Well-formed
@@ -11262,7 +11262,7 @@ valid_1.0_mets_noheader.xml
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_xml/valid_1.0_mets_noheader.xml>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_mets_noheader.xml>`__
    * - Description
      - 
    * - Well-formed
@@ -11306,7 +11306,7 @@ invalid__empty.xml
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/text_xml/invalid__empty.xml>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid__empty.xml>`__
    * - Description
      - 
    * - Well-formed
@@ -11358,7 +11358,7 @@ valid__mpeg2_mp3.avi
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_avi/valid__mpeg2_mp3.avi>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_avi/valid__mpeg2_mp3.avi>`__
    * - Description
      - 
    * - Well-formed
@@ -11453,7 +11453,7 @@ invalid__missing_data.dv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_dv/invalid__missing_data.dv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_dv/invalid__missing_data.dv>`__
    * - Description
      - 
    * - Well-formed
@@ -11512,7 +11512,7 @@ valid__pal_lossy.dv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_dv/valid__pal_lossy.dv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_dv/valid__pal_lossy.dv>`__
    * - Description
      - 
    * - Well-formed
@@ -11572,7 +11572,7 @@ invalid__empty.dv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_dv/invalid__empty.dv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_dv/invalid__empty.dv>`__
    * - Description
      - 
    * - Well-formed
@@ -11624,7 +11624,7 @@ valid__mpeg1_mp3.mpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP1S/valid__mpeg1_mp3.mpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP1S/valid__mpeg1_mp3.mpg>`__
    * - Description
      - 
    * - Well-formed
@@ -11710,7 +11710,7 @@ invalid__empty.mpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP1S/invalid__empty.mpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP1S/invalid__empty.mpg>`__
    * - Description
      - 
    * - Well-formed
@@ -11762,7 +11762,7 @@ invalid__mpeg2_ac3.mpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP2P/invalid__mpeg2_ac3.mpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2P/invalid__mpeg2_ac3.mpg>`__
    * - Description
      - 
    * - Well-formed
@@ -11845,7 +11845,7 @@ valid__mpeg2_mp3.mpg
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP2P/valid__mpeg2_mp3.mpg>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2P/valid__mpeg2_mp3.mpg>`__
    * - Description
      - 
    * - Well-formed
@@ -11940,7 +11940,7 @@ valid__h265_aac.ts
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP2T/valid__h265_aac.ts>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2T/valid__h265_aac.ts>`__
    * - Description
      - 
    * - Well-formed
@@ -12023,7 +12023,7 @@ valid__mpeg2_mp3.ts
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP2T/valid__mpeg2_mp3.ts>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2T/valid__mpeg2_mp3.ts>`__
    * - Description
      - 
    * - Well-formed
@@ -12109,7 +12109,7 @@ invalid__empty.ts
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP2T/invalid__empty.ts>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2T/invalid__empty.ts>`__
    * - Description
      - 
    * - Well-formed
@@ -12149,7 +12149,7 @@ invalid__missing_data.ts
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP2T/invalid__missing_data.ts>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2T/invalid__missing_data.ts>`__
    * - Description
      - 
    * - Well-formed
@@ -12205,7 +12205,7 @@ invalid__missing_sync_byte.ts
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_MP2T/invalid__missing_sync_byte.ts>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2T/invalid__missing_sync_byte.ts>`__
    * - Description
      - 
    * - Well-formed
@@ -12257,7 +12257,7 @@ invalid__h265_aac_invalid_data.mp4
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mp4/invalid__h265_aac_invalid_data.mp4>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mp4/invalid__h265_aac_invalid_data.mp4>`__
    * - Description
      - 
    * - Well-formed
@@ -12342,7 +12342,7 @@ valid__h264_aac.mp4
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mp4/valid__h264_aac.mp4>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mp4/valid__h264_aac.mp4>`__
    * - Description
      - 
    * - Well-formed
@@ -12425,7 +12425,7 @@ valid__h264_aac_mp42.mp4
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mp4/valid__h264_aac_mp42.mp4>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mp4/valid__h264_aac_mp42.mp4>`__
    * - Description
      - 
    * - Well-formed
@@ -12508,7 +12508,7 @@ valid__h265_aac.mp4
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mp4/valid__h265_aac.mp4>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mp4/valid__h265_aac.mp4>`__
    * - Description
      - 
    * - Well-formed
@@ -12591,7 +12591,7 @@ valid__too_many_packets_buffered.mp4
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mp4/valid__too_many_packets_buffered.mp4>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mp4/valid__too_many_packets_buffered.mp4>`__
    * - Description
      - 
    * - Well-formed
@@ -12677,7 +12677,7 @@ invalid__empty.mp4
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mp4/invalid__empty.mp4>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mp4/invalid__empty.mp4>`__
    * - Description
      - 
    * - Well-formed
@@ -12717,7 +12717,7 @@ invalid__h264_aac_missing_data.mp4
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4>`__
    * - Description
      - 
    * - Well-formed
@@ -12766,7 +12766,7 @@ invalid_1_missing_data.m1v
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mpeg/invalid_1_missing_data.m1v>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/invalid_1_missing_data.m1v>`__
    * - Description
      - 
    * - Well-formed
@@ -12825,7 +12825,7 @@ valid_1.m1v
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mpeg/valid_1.m1v>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/valid_1.m1v>`__
    * - Description
      - 
    * - Well-formed
@@ -12885,7 +12885,7 @@ invalid_2_missing_data.m2v
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mpeg/invalid_2_missing_data.m2v>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/invalid_2_missing_data.m2v>`__
    * - Description
      - 
    * - Well-formed
@@ -12944,7 +12944,7 @@ valid_2.m2v
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mpeg/valid_2.m2v>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/valid_2.m2v>`__
    * - Description
      - 
    * - Well-formed
@@ -13004,7 +13004,7 @@ invalid_1_empty.m1v
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mpeg/invalid_1_empty.m1v>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/invalid_1_empty.m1v>`__
    * - Description
      - 
    * - Well-formed
@@ -13044,7 +13044,7 @@ invalid_2_empty.m2v
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_mpeg/invalid_2_empty.m2v>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/invalid_2_empty.m2v>`__
    * - Description
      - 
    * - Well-formed
@@ -13096,7 +13096,7 @@ invalid__cinepak_lpcm8.mov
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_quicktime/invalid__cinepak_lpcm8.mov>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_quicktime/invalid__cinepak_lpcm8.mov>`__
    * - Description
      - 
    * - Well-formed
@@ -13179,7 +13179,7 @@ invalid__prores_lpcm8.mov
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_quicktime/invalid__prores_lpcm8.mov>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_quicktime/invalid__prores_lpcm8.mov>`__
    * - Description
      - 
    * - Well-formed
@@ -13262,7 +13262,7 @@ valid__dv_lpcm8.mov
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_quicktime/valid__dv_lpcm8.mov>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_quicktime/valid__dv_lpcm8.mov>`__
    * - Description
      - 
    * - Well-formed
@@ -13345,7 +13345,7 @@ valid__h264_aac.mov
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_quicktime/valid__h264_aac.mov>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_quicktime/valid__h264_aac.mov>`__
    * - Description
      - 
    * - Well-formed
@@ -13428,7 +13428,7 @@ valid__h264_aac_no_ftyp_atom.mov
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_quicktime/valid__h264_aac_no_ftyp_atom.mov>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_quicktime/valid__h264_aac_no_ftyp_atom.mov>`__
    * - Description
      - 
    * - Well-formed
@@ -13511,7 +13511,7 @@ valid__h265_aac.mov
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_quicktime/valid__h265_aac.mov>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_quicktime/valid__h265_aac.mov>`__
    * - Description
      - 
    * - Well-formed
@@ -13606,7 +13606,7 @@ invalid_4_ffv1_aac.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/invalid_4_ffv1_aac.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_aac.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -13689,7 +13689,7 @@ invalid_4_ffv1_wrong_duration.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/invalid_4_ffv1_wrong_duration.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_wrong_duration.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -13755,7 +13755,7 @@ invalid_4_mp1.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/invalid_4_mp1.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_mp1.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -13821,7 +13821,7 @@ valid_4_ffv1_flac.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/valid_4_ffv1_flac.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1_flac.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -13904,7 +13904,7 @@ valid_4_ffv1_lpcm8.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/valid_4_ffv1_lpcm8.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1_lpcm8.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -13987,7 +13987,7 @@ valid_4_ffv1.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/valid_4_ffv1.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -14053,7 +14053,7 @@ valid_4_h265.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/valid_4_h265.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_h265.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -14122,7 +14122,7 @@ invalid_4_ffv1_missing_data.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/invalid_4_ffv1_missing_data.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_missing_data.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -14172,7 +14172,7 @@ invalid__empty.mkv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-matroska/invalid__empty.mkv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid__empty.mkv>`__
    * - Description
      - 
    * - Well-formed
@@ -14224,7 +14224,7 @@ invalid__vc1_missing_data.wmv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-ms-asf/invalid__vc1_missing_data.wmv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__vc1_missing_data.wmv>`__
    * - Description
      - 
    * - Well-formed
@@ -14292,7 +14292,7 @@ invalid__vc1_mp3.wmv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-ms-asf/invalid__vc1_mp3.wmv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__vc1_mp3.wmv>`__
    * - Description
      - 
    * - Well-formed
@@ -14375,7 +14375,7 @@ invalid__wma7.wma
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-ms-asf/invalid__wma7.wma>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__wma7.wma>`__
    * - Description
      - 
    * - Well-formed
@@ -14435,7 +14435,7 @@ valid__vc1_wma9.wmv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-ms-asf/valid__vc1_wma9.wmv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__vc1_wma9.wmv>`__
    * - Description
      - 
    * - Well-formed
@@ -14518,7 +14518,7 @@ valid__vc1.wmv
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-ms-asf/valid__vc1.wmv>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__vc1.wmv>`__
    * - Description
      - 
    * - Well-formed
@@ -14584,7 +14584,7 @@ valid__wma9.wma
 .. list-table::
 
    * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/corpus/file-scraper/tests/data/video_x-ms-asf/valid__wma9.wma>`__
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__wma9.wma>`__
    * - Description
      - 
    * - Well-formed
