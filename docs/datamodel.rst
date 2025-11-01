@@ -68,7 +68,7 @@ fixable : ['yes', 'no', '']
 3. Repair
 ---------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-09/repair.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-11/repair.schema.ld.json``
 
 A repair solution for an error based on an analysis.
 
@@ -92,7 +92,8 @@ effects : string
 justification : string
     Rationale for accepting the repair.
 
-
+files : array of string
+    Knowledge base file object identifiers that refer to file that were normalised using this solution.
 
 4. File
 -------

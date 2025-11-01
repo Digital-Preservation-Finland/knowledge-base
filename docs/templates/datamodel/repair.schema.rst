@@ -25,4 +25,5 @@ effects : {properties[effects][type]}
 justification : {properties[justification][type]}
     {properties[justification][description]}
 
-
+files : {properties[files][type]} of {properties[files][items][type]}
+    {properties[files][description]}
