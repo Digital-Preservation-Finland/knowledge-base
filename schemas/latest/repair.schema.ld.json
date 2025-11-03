@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://digitalpreservation.fi/schemas/2025-09/repair.schema.ld.json",
+  "title": "Repair",
+  "description": "A repair solution for an error based on an analysis.",
+  "type": "object",
+  "required": [
+    "@id",
+    "repair",
+    "execution",
+    "effects",
+    "justification",
+    "heading"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "description": "Identifier for the repair.",
+      "type": "string"
+    },
+    "heading": {
+      "description": "Heading or a very short description of the repair for an article.",
+      "type": "string"
+    },
+    "repair": {
+      "description": "Detailed description of the repair",
+      "type": "string"
+    },
+    "execution": {
+      "description": "Command execution example for the repair, if there is such.",
+      "type": "string"
+    },
+    "effects": {
+      "description": "Description of how performing the repair affects data.",
+      "type": "string"
+    },
+    "justification": {
+      "description": "Rationale for accepting the repair.",
+      "type": "string"
+    }
+  },
+  "index": [
+    "@id"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://digitalpreservation.fi/schemas/2025-09/error.schema.ld.json",
+  "title": "Error",
+  "description": "Description of an error. An error may have many analyses and it may rise from many files. Output example from the validating software may and should present context for the error message and the error message is also most likely found in the output example. Validator, validator version and error message fields should define unique error objects.",
+  "type": "object",
+  "required": [
+    "files",
+    "analyses",
+    "validator",
+    "validatorVersion",
+    "errorMessage",
+    "type",
+    "outputExample",
+    "notes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "files": {
+      "description": "List of references to Files.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "analyses": {
+      "description": "List of references to Analyses",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validator": {
+      "description": "Name of the validating software reporting the error.",
+      "type": "string"
+    },
+    "validatorVersion": {
+      "description": "Version of the validating software.",
+      "type": "string"
+    },
+    "errorMessage": {
+      "description": "The message reported and identified by the validating software. The message can be (should be) exact match but may contain regular expressions if the message contains varying data in the middle of the string, such as a file name or an offset. A certain amount of uncertainty inevitably hovers around when raisin-picking the error message from validator output. The output example field may be used to provide implicit reasoning for the picked string or pattern. Notes field may be used for explicit reasoning.",
+      "type": "string"
+    },
+    "type": {
+      "description": "The error message can (perhaps) be classified either general, exact or unknown. Exact error message may have exact repair solution, general error message needs to be investigated further, has probably many analyses and repairs, and should probably have a more specific error message. Error messages of unknown are not studied yet in such a way.",
+      "enum": [
+        "general",
+        "exact",
+        ""
+      ]
+    },
+    "outputExample": {
+      "description": "Additional output from the validator to the error mesasge to give context for later handling and verification. For example the full output from the validating software.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "description": "Additional information on the error.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "index": [
+    "validator",
+    "validatorVersion",
+    "errorMessage"
+  ]
+}

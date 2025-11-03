@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://digitalpreservation.fi/schemas/2025-09/file.schema.ld.json",
+  "title": "File object",
+  "description": "Description of a file. File objects describe content from which a problem arises. Although the file may be also valid and have no error object referring to it.",
+  "type": "object",
+  "required": [
+    "@id",
+    "source",
+    "wellFormed",
+    "description",
+    "checksum",
+    "location"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "description": "Identifier for the file",
+      "type": "string"
+    },
+    "source": {
+      "description": "Identifier for the source classifying the file.",
+      "type": "string"
+    },
+    "wellFormed": {
+      "description": "Should the file validate as well-formed. 'null' value equals to undetermined. 'virtual' value refers to virtual or dummy files that will never have a location but connect an error to a file format.",
+      "enum": [
+        true,
+        false,
+        null,
+        "virtual"
+      ]
+    },
+    "description": {
+      "description": "Description of the content.",
+      "type": "string"
+    },
+    "checksum": {
+      "description": "Checksums of the content in the locations. Two checksums are used to mitigate checksum collisions. The other is faster and the other is more reliable.",
+      "type": "object",
+      "properties": {
+        "md5": {
+          "type": "string",
+          "description": "MD5 checksum of the data in the locations."
+        },
+        "blake2b": {
+          "type": "string",
+          "description": "BLAKE2b checksum of the data in the locations."
+        }
+      }
+    },
+    "location": {
+      "description": "List of free form descriptions of the file locations to the source. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metadata": {
+      "description": "File scraper output of streams in a file for corpus documentation.",
+      "type": "object"
+    }
+  },
+  "index": [
+    "checksum"
+  ]
+}

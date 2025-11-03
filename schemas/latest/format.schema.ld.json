@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://digitalpreservation.fi/schemas/2025-09/source.schema.ld.json",
+  "title": "Format",
+  "description": "Description of a file format. The file format classifies file objects and determines the valid form for the data.",
+  "type": "object",
+  "required": [
+    "@id",
+    "fileFormat",
+    "version",
+    "profile"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "description": "Identifier for the source.",
+      "type": "string"
+    },
+    "fileFormat": {
+      "description": "MIME type of the file format.",
+      "type": "string"
+    },
+    "version": {
+      "description": "Version of the file format.",
+      "type": "string"
+    },
+    "profile": {
+      "description": "Further classification of the data.",
+      "type": "string"
+    },
+    "description": {
+      "description": "Free form description.",
+      "type": "string"
+    }
+  },
+  "index": [
+    "fileFormat",
+    "version"
+  ]
+}

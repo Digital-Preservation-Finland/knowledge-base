@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://digitalpreservation.fi/schemas/2025-09/analysis.schema.ld.json",
+  "title": "Analysis",
+  "description": "Description of the problem.",
+  "type": "object",
+  "required": [
+    "@id",
+    "repairs",
+    "analysis",
+    "softwareProblem",
+    "significantProperties",
+    "fixable"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "@id": {
+      "description": "Analysis object identifier.",
+      "type": "string"
+    },
+    "repairs": {
+      "description": "List of reference to Repairs.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "analysis": {
+      "description": "The analysis of the error. String items in the array can be presented as paragraphs.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "significantProperties": {
+      "description": "The significant properties that are especially taken into account in the analysis. Significant properties may provide a perspective to the problem. String items in the array can be presented as paragraphs.",
+      "type": "array",
+      "items": {
+        "type": "string" 
+      }
+    },
+    "softwareProblem": {
+      "description": "Classification whetever the cause of the problem is in the validating software, that is a software bug, or not. Bugs should most likely be handled by the developers.",
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        ""
+      ]
+    },
+    "fixable": {
+      "description": "Should a fix be determined for the error based on this analysis?",
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        ""
+      ]
+    }
+  },
+  "index": [
+    "@id",
+	"softwareProlem",
+	"fixable"
+  ]
+}
