@@ -1,6 +1,6 @@
-===================================================
-Schema definition probably missing from XML catalog
-===================================================
+========================================
+"Incompatible type for ""RichTIFFIPTC"""
+========================================
 
 .. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
 
@@ -19,9 +19,9 @@ Classification
    * - **Validator**
      - **Validator version**
      - **Error message type**
-   * - lxml
+   * - imagemagick (wand)
      - 
-     - unknown
+     - 
 
 
 
@@ -31,14 +31,6 @@ Classification
    * - **MIME type**
      - **Version**
      - **Profile**
-   * - text/xml
-     - 1.0
-     - 
-
-   * - text/xml
-     - 1.0
-     - 
-
 --------
 Analyses
 --------
@@ -48,9 +40,9 @@ Analysis
 
 
 
-The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog.
 
-Is it a bug in the validating software? - no
+
+Is it a bug in the validating software? - 
 
 ------------------
 Possible solutions
@@ -62,18 +54,26 @@ Possible solutions
 Output example
 --------------
 
+::
+
+
+	"Scraping files  [###################################-]   99%  00:00:02/home/maf-admin/dpres/venv/lib64/python3.6/site-packages/wand/image.py:8387: CoderWarning: Incompatible type for ""RichTIFFIPTC""
+
+
 
 ------------------
 Notes on the error
 ------------------
 
-It is uncertain what validator software has raised the error.
+
 
 
 ------------------------------
 Related errors by source files
 ------------------------------
 
+
 ::
 
-	lxml:	Schema definition probably missing from XML catalog
+	imagemagick (wand):	"Incompatible type for ""RichTIFFIPTC"""
+	imagemagick (wand):	Read error on strip 525

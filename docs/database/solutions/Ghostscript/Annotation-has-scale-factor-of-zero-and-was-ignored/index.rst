@@ -1,6 +1,6 @@
-=================
-Quartz PDFContext
-=================
+=====================================================
+Annotation has a scale factor of zero and was ignored
+=====================================================
 
 .. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
 
@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - ghostscript
      - 
-     - 
+     - exact
 
 
 
@@ -31,10 +31,6 @@ Classification
    * - **MIME type**
      - **Version**
      - **Profile**
-   * - application/pdf
-     - 1.3
-     - 
-
 --------
 Analyses
 --------
@@ -44,15 +40,39 @@ Analysis
 
 
 
-A generally known repair is to open the file with Acrobat Reader and save it as a new file without making any changes to the content.
+There have been cases where tools like PyMuPDF do not find any annotations in the file, but Ghostscript still prints this warning. In other cases the files have actual annotations, which are broken. Further analysis is needed.
 
-Is it a bug in the validating software? - 
+Is it a bug in the validating software? - no
 
 ------------------
 Possible solutions
 ------------------
 .. contents::
    :local:
+
+Remove annotations with Ghostscript
+===================================
+
+Suggestion
+~~~~~~~~~~
+
+Remove the annotations using Ghostscript.
+
+Effects
+~~~~~~~
+
+All annotations are removed. Ghostscript will convert the file from PDF to PostScript and back to PDF again. The file may lose other features in the process.
+
+Justification
+~~~~~~~~~~~~~
+
+The file will now be valid, however, you lose all annotations.
+
+Execution example
+~~~~~~~~~~~~~~~~~
+
+	gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf
+
 
 --------------
 Output example

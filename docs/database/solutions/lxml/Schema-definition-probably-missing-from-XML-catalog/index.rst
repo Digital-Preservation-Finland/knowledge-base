@@ -21,7 +21,7 @@ Classification
      - **Error message type**
    * - lxml
      - 
-     - unknown
+     - 
 
 
 
@@ -31,10 +31,6 @@ Classification
    * - **MIME type**
      - **Version**
      - **Profile**
-   * - text/xml
-     - 1.0
-     - 
-
    * - text/xml
      - 1.0
      - 
@@ -69,127 +65,7 @@ Output example
 Notes on the error
 ------------------
 
-I
-
-t
-
- 
-
-i
-
-s
-
- 
-
-u
-
-n
-
-c
-
-e
-
-r
-
-t
-
-a
-
-i
-
-n
-
- 
-
-w
-
-h
-
-a
-
-t
-
- 
-
-v
-
-a
-
-l
-
-i
-
-d
-
-a
-
-t
-
-o
-
-r
-
- 
-
-s
-
-o
-
-f
-
-t
-
-w
-
-a
-
-r
-
-e
-
- 
-
-h
-
-a
-
-s
-
- 
-
-r
-
-a
-
-i
-
-s
-
-e
-
-d
-
- 
-
-t
-
-h
-
-e
-
- 
-
-e
-
-r
-
-r
-
-o
-
-r
-
-.
+It is uncertain what validator software has raised the error.
 
 
 ------------------------------

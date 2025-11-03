@@ -31,10 +31,6 @@ Classification
    * - **MIME type**
      - **Version**
      - **Profile**
-   * - application/pdf
-     - 1.3
-     - 
-
 --------
 Analyses
 --------

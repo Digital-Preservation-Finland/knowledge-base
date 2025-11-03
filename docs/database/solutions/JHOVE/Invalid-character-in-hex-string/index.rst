@@ -1,6 +1,6 @@
-========================================
-"Incompatible type for ""RichTIFFIPTC"""
-========================================
+===============================
+Invalid character in hex string
+===============================
 
 .. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
 
@@ -19,7 +19,7 @@ Classification
    * - **Validator**
      - **Validator version**
      - **Error message type**
-   * - imagemagick (wand)
+   * - jhove
      - 
      - 
 
@@ -31,10 +31,6 @@ Classification
    * - **MIME type**
      - **Version**
      - **Profile**
-   * - image/tiff
-     - 6.0
-     - 
-
 --------
 Analyses
 --------
@@ -44,7 +40,7 @@ Analysis
 
 
 
-
+PDF-HUL-67. Unsupported character in a hexadecimal character string.
 
 Is it a bug in the validating software? - 
 
@@ -54,14 +50,34 @@ Possible solutions
 .. contents::
    :local:
 
+Remake with Acrobat Reader
+==========================
+
+Suggestion
+~~~~~~~~~~
+
+Open the file with Acrobat Reader and save it as a new file without any changes to the content.
+
+Effects
+~~~~~~~
+
+
+
+Justification
+~~~~~~~~~~~~~
+
+
+
+Execution example
+~~~~~~~~~~~~~~~~~
+
+	
+
+
 --------------
 Output example
 --------------
 
-::
-
-
-	"Scraping files  [###################################-]   99%  00:00:02/home/maf-admin/dpres/venv/lib64/python3.6/site-packages/wand/image.py:8387: CoderWarning: Incompatible type for ""RichTIFFIPTC""
 
 
 
@@ -79,5 +95,7 @@ Related errors by source files
 
 ::
 
-	imagemagick (wand):	"Incompatible type for ""RichTIFFIPTC"""
-	imagemagick (wand):	Read error on strip 525
+	ghostscript:	**** The file was produced by: \\n   **** >>>> Adobe PSL 1.2e for Canon\\u0000 <<<<
+	jhove:	Improperly nested array delimiters
+	jhove:	Invalid character in hex string
+	jhove:	Lexical error

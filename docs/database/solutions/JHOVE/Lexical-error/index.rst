@@ -1,6 +1,6 @@
-==================================
-Improperly nested array delimiters
-==================================
+=============
+Lexical error
+=============
 
 .. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
 
@@ -31,10 +31,6 @@ Classification
    * - **MIME type**
      - **Version**
      - **Profile**
-   * - application/pdf
-     - 1.4
-     - 
-
 --------
 Analyses
 --------
@@ -44,7 +40,7 @@ Analysis
 
 
 
-PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well formed.
+PDF-HUL-65, PDF-HUL-66. Unsupported character or insufficiently built dictionary object in the document. The exception is of a general kind and the problem case needs more inspection.
 
 Is it a bug in the validating software? - 
 
