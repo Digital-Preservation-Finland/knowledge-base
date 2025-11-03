@@ -133,3 +133,4 @@
 {"@id":"corpus/format/bdd6b168-e38f-4a06-8f51-237e65c38290","fileFormat":"video/x-matroska","version":"4","profile":"","description":""}
 {"@id":"corpus/format/76a480a3-9ec4-4951-becc-e8121efb0f3d","fileFormat":"video/x-matroska","version":"(:unav)","profile":"","description":""}
 {"@id":"corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247","fileFormat":"video/x-ms-asf","version":"(:unap)","profile":"","description":""}
+{"@id":"corpus/format/403f9f67-cc15-4a43-a4d2-8ee11c075082","fileFormat":"image/jpeg","version":"1.02","profile":"","description":""}
