@@ -24,17 +24,17 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - application/vnd.openxmlformats-officedocument.wordprocessingml.document
      - 
+     - application/vnd.openxmlformats-officedocument.wordprocessingml.document  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 A bug in a LibreOffice software. The problem is fixed since LibreOffice 7.2.0: https://bugs.documentfoundation.org/show_bug.cgi?id=79069
 
 Is it a bug in the validating software? - yes
-
 ------------------
 Possible solutions
 ------------------
@@ -78,7 +77,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

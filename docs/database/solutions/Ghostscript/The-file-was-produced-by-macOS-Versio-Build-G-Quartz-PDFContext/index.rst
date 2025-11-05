@@ -24,13 +24,13 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
 --------
 Analyses
 --------
@@ -43,7 +43,6 @@ Analysis
 
 
 Is it a bug in the validating software? - yes
-
 ------------------
 Possible solutions
 ------------------
@@ -72,7 +71,6 @@ Execution example
 ~~~~~~~~~~~~~~~~~
 
 	
-
 
 --------------
 Output example
@@ -110,7 +108,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

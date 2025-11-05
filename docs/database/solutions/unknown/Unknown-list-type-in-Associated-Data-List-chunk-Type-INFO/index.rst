@@ -24,17 +24,17 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - audio/x-wav
      - 
+     - audio/x-wav  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 The repair specified here probably removes the unknown type, referring to the error message. The newly created file is only a tens of bytes smaller than the original.
 
 Is it a bug in the validating software? - 
-
 ------------------
 Possible solutions
 ------------------
@@ -77,7 +76,6 @@ Execution example
 
 	ffmpeg -i INPUT.WAV -vn -c:a copy -map_metadata 0 OUTPUT.WAV
 
-
 --------------
 Output example
 --------------
@@ -95,7 +93,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

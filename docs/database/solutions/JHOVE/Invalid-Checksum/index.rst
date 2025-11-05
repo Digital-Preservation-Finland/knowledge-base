@@ -24,17 +24,17 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - application/pdf
      - 
+     - application/pdf  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 File checksums do not match. Either the file has changed, corrupted, in a transfer or the pre-calculated checksum is wrong. The transferred file should be replaced with the original file.
 
 Is it a bug in the validating software? - 
-
 ------------------
 Possible solutions
 ------------------
@@ -71,7 +70,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

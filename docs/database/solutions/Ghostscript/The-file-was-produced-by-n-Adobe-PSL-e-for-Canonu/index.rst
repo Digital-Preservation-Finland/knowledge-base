@@ -24,13 +24,13 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
 --------
 Analyses
 --------
@@ -43,7 +43,6 @@ Analysis
 JHOVE raises the exception 'invalid character in hex string'. Might be solved by opening the file with Acrobat Reader and saving it as a new file without any changes to the content.
 
 Is it a bug in the validating software? - 
-
 ------------------
 Possible solutions
 ------------------
@@ -67,7 +66,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

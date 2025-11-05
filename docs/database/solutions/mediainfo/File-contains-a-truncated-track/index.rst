@@ -24,17 +24,17 @@ Classification
      - general
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - video/quicktime
      - 
+     - video/quicktime  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 The repair add the following line to the ffmpeg output: 'Guessed Channel Layout: stereo.' The markers to the unexisting chapter are probably removed. The error message does not prevent playing the streams. The message could possibly be also ignored.
 
 Is it a bug in the validating software? - 
-
 ------------------
 Possible solutions
 ------------------
@@ -77,7 +76,6 @@ Execution example
 
 	ffmpeg -i INPUT.MOV -c:v copy -c:a copy -map_metadata 0 OUTPUT.MOV
 
-
 --------------
 Output example
 --------------
@@ -99,7 +97,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

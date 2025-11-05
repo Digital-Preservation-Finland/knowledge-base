@@ -24,17 +24,17 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - application/pdf
      - A1-b
+     - application/pdf A1-b : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 The error message refers to the method of the Java class. It's unclear is this a software error or error in a data file.
 
 Is it a bug in the validating software? - 
-
 ------------------
 Possible solutions
 ------------------
@@ -75,7 +74,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

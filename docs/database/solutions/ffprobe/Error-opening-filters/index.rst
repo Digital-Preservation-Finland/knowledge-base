@@ -24,17 +24,17 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - audio/x-wav
      - 
+     - audio/x-wav  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 The error message does not refer to a file or file format but instead to missing missing or invalid arguments given to the software.
 
 Is it a bug in the validating software? - yes
-
 ------------------
 Possible solutions
 ------------------
@@ -96,7 +95,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

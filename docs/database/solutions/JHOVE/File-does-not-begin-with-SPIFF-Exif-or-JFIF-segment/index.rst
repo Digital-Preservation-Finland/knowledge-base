@@ -24,17 +24,17 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - image/jpeg
      - 
+     - image/jpeg  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 
 
 Is it a bug in the validating software? - no
-
 ------------------
 Possible solutions
 ------------------
@@ -76,7 +75,6 @@ Execution example
 ~~~~~~~~~~~~~~~~~
 
 	ImageMagick: convert <input> <output>
-
 
 --------------
 Output example
@@ -244,7 +242,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

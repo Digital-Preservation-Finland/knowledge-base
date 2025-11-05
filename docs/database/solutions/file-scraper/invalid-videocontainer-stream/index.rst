@@ -24,17 +24,17 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - audio/mpeg
      - 1
+     - audio/mpeg 1 : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 The file contains two streams: a video container and an audio stream. The file's well-formedness is declared 'null' but the validator has set a grading value of 'fi-dpres-acceptable-file-format' for the file which implies that even though the file si recognised, it can not be appraised neither as well-formed not not well-formed. This is a logical conflict and implies that there is a problem with the validating software because the acceptable grade should result in a decisive result for well-formedness.
 
 Is it a bug in the validating software? - yes
-
 ------------------
 Possible solutions
 ------------------
@@ -77,7 +76,6 @@ Execution example
 
 	ffmpeg -i <input>.mp3 -c:a copy -map 0 <output>.mp3
 
-
 --------------
 Output example
 --------------
@@ -95,7 +93,6 @@ The music file contains cover art image in a video container stream.
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

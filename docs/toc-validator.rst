@@ -52,6 +52,12 @@ Validator.nu
  - `error The itemprop attribute was specified but the element is not a property of any item <database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/index.html>`_
  - `error fatal Cannot recover after last error Any further errors will be ignored <database/solutions/Validator.nu/error-fatal-Cannot-recover-after-last-error-Any-further-errors-will-be-ignored/index.html>`_
 
+dpx-validator
+-------------
+
+ - `Different file sizes from header and filesystem <database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/index.html>`_
+ - `Offset to image is more than file size <database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/index.html>`_
+
 ffmpeg
 ------
 

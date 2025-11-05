@@ -24,13 +24,13 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
 --------
 Analyses
 --------
@@ -43,7 +43,6 @@ Analysis
 PDF-HUL-67. Unsupported character in a hexadecimal character string.
 
 Is it a bug in the validating software? - 
-
 ------------------
 Possible solutions
 ------------------
@@ -73,7 +72,6 @@ Execution example
 
 	
 
-
 --------------
 Output example
 --------------
@@ -91,7 +89,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

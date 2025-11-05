@@ -24,13 +24,13 @@ Classification
      - exact
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
 --------
 Analyses
 --------
@@ -43,7 +43,6 @@ Analysis
 There have been cases where tools like PyMuPDF do not find any annotations in the file, but Ghostscript still prints this warning. In other cases the files have actual annotations, which are broken. Further analysis is needed.
 
 Is it a bug in the validating software? - no
-
 ------------------
 Possible solutions
 ------------------
@@ -73,7 +72,6 @@ Execution example
 
 	gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf
 
-
 --------------
 Output example
 --------------
@@ -91,7 +89,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 

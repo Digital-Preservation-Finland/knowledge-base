@@ -94,6 +94,18 @@ python-image-library
 
  - `SyntaxError not a TIFF file header bExifxaII not valid <database/solutions/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/index.html>`_
 
+image/x-dpx
+-----------
+
+
+dpx-validator
+~~~~~~~~~~~~~
+
+ - `Different file sizes from header and filesystem <database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/index.html>`_
+ - `Different file sizes from header and filesystem <database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/index.html>`_
+ - `Different file sizes from header and filesystem <database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/index.html>`_
+ - `Offset to image is more than file size <database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/index.html>`_
+
 text/html
 ---------
 

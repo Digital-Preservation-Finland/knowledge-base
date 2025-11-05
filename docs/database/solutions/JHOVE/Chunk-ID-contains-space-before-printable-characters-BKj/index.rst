@@ -24,17 +24,17 @@ Classification
      - 
 
 
-
 .. list-table::
    :align: center
 
-   * - **MIME type**
+   * - **File format**
      - **Version**
-     - **Profile**
+     - **Description**
+     - **Location**
    * - audio/x-wav
      - 
+     - audio/x-wav  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
-
 --------
 Analyses
 --------
@@ -47,7 +47,6 @@ Analysis
 Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'.
 
 Is it a bug in the validating software? - no
-
 ------------------
 Possible solutions
 ------------------
@@ -91,7 +90,6 @@ Notes on the error
 ------------------------------
 Related errors by source files
 ------------------------------
-
 
 ::
 
