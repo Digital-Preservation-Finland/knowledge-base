@@ -35,6 +35,7 @@ Classification
      - 
      - image/jpeg  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,11 +48,14 @@ Analysis
 
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
 .. contents::
    :local:
+
 
 Open and save as a new file
 ===========================
@@ -98,3 +102,4 @@ Related errors by source files
 
 	jhove:	File does not begin with SPIFF, Exif or JFIF segment
 	python image library:	SyntaxError: not a TIFF file (header b'Exif\x00aII' not valid)
+

@@ -35,6 +35,7 @@ Classification
      - 
      - audio/x-wav  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,6 +48,8 @@ Analysis
 Chunk ID refers to the four first byte in file header. The bytes should contain ASCII characters 'RIFF'.
 
 Is it a bug in the validating software? - no
+
+
 ------------------
 Possible solutions
 ------------------
@@ -101,3 +104,4 @@ Related errors by source files
 	jhove:	Invalid chunk size
 	mediainfo:	No audio or video tracks found.
 	unknown:	Unknown list type in Associated Data List chunk: Type = "INFO"
+

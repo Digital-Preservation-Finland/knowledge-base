@@ -35,6 +35,7 @@ Classification
      - (:unav)
      - 
      - :ref:`corpus <corpus/file/4d39f111-3166-4602-a6f3-148471c2086b>`
+
 --------
 Analyses
 --------
@@ -46,7 +47,9 @@ Analysis
 
 The value of the start position of the image data presented in the file format header is further than the end of the file. The file size must be greater than the image data starting offset, or possibly equal to if there is not image data. The file might have been truncated or the presented start of the image data is scrambled.
 
-Is it a bug in the validating software? - 
+Is it a bug in the validating software? - no
+
+
 ------------------
 Possible solutions
 ------------------
@@ -81,3 +84,4 @@ Related errors by source files
 
 	dpx-validator:	Different file sizes from header (.*) and filesystem (.*)
 	dpx-validator:	Offset to image (.*) is more than file size (.*)
+

@@ -39,6 +39,7 @@ Classification
      - 
      - audio/x-ms-wma  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -53,11 +54,14 @@ DTS is abbreviation from Decode Timestamp. Muxer (multiplexer) combines multiple
 From https://stackoverflow.com/a/76222700: The 'non monotonically increasing dts' issue is mainly a result of streaming the input video file in a loop. Each time the loop starts, the timestamps starts from the beginning. The remuxing procedure copies the timestamps from the input to the output, so there is a 'non-increased DTS scenario' each time the loop restarts.
 
 Is it a bug in the validating software? - no
+
+
 ------------------
 Possible solutions
 ------------------
 .. contents::
    :local:
+
 
 Convert file format with ffmpeg
 ===============================
@@ -111,3 +115,4 @@ Related errors by source files
 	ffmpeg:	Application provided invalid, non monotonically increasing dts to muxer in stream 0: 
 	ffmpeg:	Referenced QT chapter track not found
 	mediainfo:	File contains a truncated track
+

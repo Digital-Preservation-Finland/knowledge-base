@@ -35,6 +35,7 @@ Classification
      - 1.0
      - text/xml 1 : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,6 +48,8 @@ Analysis
 The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog.
 
 Is it a bug in the validating software? - no
+
+
 ------------------
 Possible solutions
 ------------------
@@ -74,3 +77,4 @@ Related errors by source files
 ::
 
 	lxml:	Schema definition probably missing from XML catalog
+

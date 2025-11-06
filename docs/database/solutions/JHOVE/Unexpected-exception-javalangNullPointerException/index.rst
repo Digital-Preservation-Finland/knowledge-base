@@ -35,6 +35,7 @@ Classification
      - 
      - application/pdf  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,6 +48,8 @@ Analysis
 Unexpected error in file handling. Errors in the internal structure of the file. Acrobat Reader could possibly be able to repair this kind of structual errors.
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
@@ -77,3 +80,4 @@ Related errors by source files
 	jhove:	Malformed dictionary: Vector must contain an even number of objects, but has 17
 	jhove:	No PDF trailer
 	jhove:	Unexpected exception java.lang.NullPointerException
+

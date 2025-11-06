@@ -35,6 +35,7 @@ Classification
      - 
      - video/quicktime  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,11 +48,14 @@ Analysis
 The repair add the following line to the ffmpeg output: 'Guessed Channel Layout: stereo.' The markers to the unexisting chapter are probably removed. The error message does not prevent playing the streams. The message could possibly be also ignored.
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
 .. contents::
    :local:
+
 
 Create new file from audio and video streams
 ============================================
@@ -103,3 +107,4 @@ Related errors by source files
 	ffmpeg:	Application provided invalid, non monotonically increasing dts to muxer in stream 0: 
 	ffmpeg:	Referenced QT chapter track not found
 	mediainfo:	File contains a truncated track
+

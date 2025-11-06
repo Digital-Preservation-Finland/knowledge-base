@@ -31,6 +31,7 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+
 --------
 Analyses
 --------
@@ -43,6 +44,8 @@ Analysis
 JHOVE raises the exception 'invalid character in hex string'. Might be solved by opening the file with Acrobat Reader and saving it as a new file without any changes to the content.
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
@@ -73,3 +76,4 @@ Related errors by source files
 	jhove:	Improperly nested array delimiters
 	jhove:	Invalid character in hex string
 	jhove:	Lexical error
+

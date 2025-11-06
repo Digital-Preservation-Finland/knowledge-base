@@ -31,6 +31,7 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+
 --------
 Analyses
 --------
@@ -43,11 +44,14 @@ Analysis
 PDF-HUL-67. Unsupported character in a hexadecimal character string.
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
 .. contents::
    :local:
+
 
 Remake with Acrobat Reader
 ==========================
@@ -96,3 +100,4 @@ Related errors by source files
 	jhove:	Improperly nested array delimiters
 	jhove:	Invalid character in hex string
 	jhove:	Lexical error
+

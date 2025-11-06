@@ -35,6 +35,7 @@ Classification
      - 
      - application/pdf  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,6 +48,8 @@ Analysis
 File checksums do not match. Either the file has changed, corrupted, in a transfer or the pre-calculated checksum is wrong. The transferred file should be replaced with the original file.
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
@@ -77,3 +80,4 @@ Related errors by source files
 	jhove:	Malformed dictionary: Vector must contain an even number of objects, but has 17
 	jhove:	No PDF trailer
 	jhove:	Unexpected exception java.lang.NullPointerException
+

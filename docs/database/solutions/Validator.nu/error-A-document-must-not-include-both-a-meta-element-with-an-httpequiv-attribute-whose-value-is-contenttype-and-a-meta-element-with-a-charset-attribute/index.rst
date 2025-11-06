@@ -35,6 +35,7 @@ Classification
      - 5
      - text/html 5 : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,6 +48,8 @@ Analysis
 
 
 Is it a bug in the validating software? - no
+
+
 ------------------
 Possible solutions
 ------------------
@@ -84,3 +87,4 @@ Related errors by source files
 	v.Nu:	error: The "cellpadding" attribute on the "table" element is obsolete. Use CSS instead.
 	v.Nu:	error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
 	v.Nu:	error: The "itemprop" attribute was specified, but the element is not a property of any item.
+

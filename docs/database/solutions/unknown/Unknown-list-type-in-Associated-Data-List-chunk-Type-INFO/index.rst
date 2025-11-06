@@ -35,6 +35,7 @@ Classification
      - 
      - audio/x-wav  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,11 +48,14 @@ Analysis
 The repair specified here probably removes the unknown type, referring to the error message. The newly created file is only a tens of bytes smaller than the original.
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
 .. contents::
    :local:
+
 
 Create new file from audio stream
 =================================
@@ -105,3 +109,4 @@ Related errors by source files
 	jhove:	Invalid chunk size
 	mediainfo:	No audio or video tracks found.
 	unknown:	Unknown list type in Associated Data List chunk: Type = "INFO"
+

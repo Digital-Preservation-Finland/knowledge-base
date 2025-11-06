@@ -31,6 +31,7 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+
 --------
 Analyses
 --------
@@ -43,11 +44,14 @@ Analysis
 There have been cases where tools like PyMuPDF do not find any annotations in the file, but Ghostscript still prints this warning. In other cases the files have actual annotations, which are broken. Further analysis is needed.
 
 Is it a bug in the validating software? - no
+
+
 ------------------
 Possible solutions
 ------------------
 .. contents::
    :local:
+
 
 Remove annotations with Ghostscript
 ===================================
@@ -95,3 +99,4 @@ Related errors by source files
 	ghostscript:	Annotation has a scale factor of zero and was ignored
 	ghostscript:	Quartz PDFContext
 	ghostscript:	The file was produced by: macOS Versio 10.14.6 (Build 18G1012) Quartz PDFContext <<<<
+

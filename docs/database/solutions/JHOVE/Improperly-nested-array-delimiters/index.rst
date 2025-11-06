@@ -31,6 +31,7 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+
 --------
 Analyses
 --------
@@ -43,11 +44,14 @@ Analysis
 PDF-HUL-34: An object (such as a PDF dictionary) in the document is not well formed.
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
 .. contents::
    :local:
+
 
 Remake with Acrobat Reader
 ==========================
@@ -96,3 +100,4 @@ Related errors by source files
 	jhove:	Improperly nested array delimiters
 	jhove:	Invalid character in hex string
 	jhove:	Lexical error
+

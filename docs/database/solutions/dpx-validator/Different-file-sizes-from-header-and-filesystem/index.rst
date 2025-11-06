@@ -43,6 +43,7 @@ Classification
      - (:unav)
      - 
      - :ref:`corpus <file-scraper/f6c478bf-41c7-4e54-a85c-879b4c7edf66>`
+
 --------
 Analyses
 --------
@@ -54,7 +55,9 @@ Analysis
 
 The size for the file marked in the file header metadata differs from the size that the validator software gets from the library reading the file system entry of the file; cross-checking of the size of the file fails.The size should be in presented in bytes in the header.
 
-Is it a bug in the validating software? - 
+Is it a bug in the validating software? - no
+
+
 ------------------
 Possible solutions
 ------------------
@@ -89,3 +92,4 @@ Related errors by source files
 
 	dpx-validator:	Different file sizes from header (.*) and filesystem (.*)
 	dpx-validator:	Offset to image (.*) is more than file size (.*)
+

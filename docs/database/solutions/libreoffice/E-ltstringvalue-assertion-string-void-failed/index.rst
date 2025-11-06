@@ -35,6 +35,7 @@ Classification
      - 
      - application/vnd.openxmlformats-officedocument.wordprocessingml.document  : Virtual file object connecting error message to a file format specification and without a file location.
      - 
+
 --------
 Analyses
 --------
@@ -47,6 +48,8 @@ Analysis
 A bug in a LibreOffice software. The problem is fixed since LibreOffice 7.2.0: https://bugs.documentfoundation.org/show_bug.cgi?id=79069
 
 Is it a bug in the validating software? - yes
+
+
 ------------------
 Possible solutions
 ------------------
@@ -81,3 +84,4 @@ Related errors by source files
 ::
 
 	libreoffice:	E: lt_string_value: assertion `string != ((void *)0)\' failed
+

@@ -1,0 +1,73 @@
+# This is list of severity="error" messages in outputExamples
+Chunk ID character outside printable ASCII range
+CSS-001, ERROR, [The "direction" property must not be included in an EPUB Style Sheet.], OEBPS/styles/stylesheet.css (11-3)
+Document catalog dictionary object number and trailer root ref number are inconsistent.
+IFD offset not word-aligned: 16777985
+Improperly formed date
+Improperly nested dictionary delimiters
+Invalid character in hex string
+Invalid chunk size
+Invalid cross-reference table
+Invalid destination object
+Invalid GIF header
+Invalid object definition
+JPEGProc not defined for JPEG compression
+Missing startxref keyword or value
+No document catalog dictionary
+No file trailer
+No Format chunk found
+No PDF trailer
+PDF minor version number is greater than 7.
+PKG-006, ERROR, [Mimetype file entry is missing or is not the first file in the archive.], /tmp/epub13922129527198935704.epub
+Premature EOF
+RSC-005, ERROR, [Error while parsing file: element "title" not allowed here; expected the element end-tag or element "base", "link", "meta", "script" or "style"], OEBPS/sections/section0001.xhtml (2-109)
+RSC-005, ERROR, [Error while parsing file: element "title" not allowed here; expected the element end-tag or element "base", "link", "meta", "script" or "style"], OEBPS/sections/section0001.xhtml (2-66)
+RSC-017, WARN, [Warning while parsing file: The "head" element should have a "title" child element.], OEBPS/sections/section0001.xhtml (2-50)
+RSC-017, WARN, [Warning while parsing file: The "head" element should have a "title" child element.], OEBPS/toc.xhtml (2-93)
+SAXParseException: Element type "bod" must be declared.
+SAXParseException: The content of element type "html" must match "(head,body)".
+SAXParseException: The element type "body" must be terminated by the matching end-tag "&lt;/body&gt;".
+Tag 0 out of sequence
+Tag 1148 out of sequence
+Tag 132 out of sequence
+Tag 13889 out of sequence
+Tag 16975 out of sequence
+Tag 1799 out of sequence
+Tag 18944 out of sequence
+Tag 192 out of sequence
+Tag 1 out of sequence
+Tag 2048 out of sequence
+Tag 2054 out of sequence
+Tag 2065 out of sequence
+Tag 20931 out of sequence
+Tag 20944 out of sequence
+Tag 20991 out of sequence
+Tag 221 out of sequence
+Tag 257 out of sequence
+Tag 30720 out of sequence
+Tag 3084 out of sequence
+Tag 3089 out of sequence
+Tag 3233 out of sequence
+Tag 32351 out of sequence
+Tag 35584 out of sequence
+Tag 3598 out of sequence
+Tag 3933 out of sequence
+Tag 40448 out of sequence
+Tag 50748 out of sequence
+Tag 5134 out of sequence
+Tag 5144 out of sequence
+Tag 53444 out of sequence
+Tag 5457 out of sequence
+Tag 770 out of sequence
+Tag 7858 out of sequence
+Type mismatch for tag 257; expecting 3 or 4, saw 1
+Unexpected end of file
+Unexpected exception java.lang.ArrayIndexOutOfBoundsException
+Unknown data block type
+Unknown data type
+Unknown tag
+Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2
+Value offset not word-aligned: 17891841
+Value offset not word-aligned: 2229097383
+Value offset not word-aligned: 3
+Value offset not word-aligned: 33554699

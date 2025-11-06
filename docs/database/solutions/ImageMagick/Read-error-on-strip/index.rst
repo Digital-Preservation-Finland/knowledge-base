@@ -31,6 +31,7 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+
 --------
 Analyses
 --------
@@ -43,6 +44,8 @@ Analysis
 
 
 Is it a bug in the validating software? - 
+
+
 ------------------
 Possible solutions
 ------------------
@@ -75,3 +78,4 @@ Related errors by source files
 
 	imagemagick (wand):	"Incompatible type for ""RichTIFFIPTC"""
 	imagemagick (wand):	Read error on strip 525
+
