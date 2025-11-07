@@ -33,6 +33,18 @@ libreoffice
 
  - `E ltstringvalue assertion string void failed <database/solutions/libreoffice/E-ltstringvalue-assertion-string-void-failed/index.html>`_
 
+application/x-siard
+-------------------
+
+
+DBPTK-Developer
+~~~~~~~~~~~~~~~
+
+ - `Correspondence between metadata and table data <database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/index.html>`_
+ - `Data type invalid   is not in conformity with INTEGER type in contentxml <database/solutions/DBPTK-Developer/Data-type-invalid---is-not-in-conformity-with-INTEGER-type-in-contentxml/index.html>`_
+ - `Requirements for table data <database/solutions/DBPTK-Developer/Requirements-for-table-data/index.html>`_
+ - `The data type information on the column definitions in metadataxml must be identical to that in the corresponding tablenumberxsd file <database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/index.html>`_
+
 audio/mpeg
 ----------
 
