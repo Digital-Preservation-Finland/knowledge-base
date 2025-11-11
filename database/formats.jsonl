@@ -134,3 +134,6 @@
 {"@id":"corpus/format/76a480a3-9ec4-4951-becc-e8121efb0f3d","fileFormat":"video/x-matroska","version":"(:unav)","profile":"","description":""}
 {"@id":"corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247","fileFormat":"video/x-ms-asf","version":"(:unap)","profile":"","description":""}
 {"@id":"corpus/format/403f9f67-cc15-4a43-a4d2-8ee11c075082","fileFormat":"image/jpeg","version":"1.02","profile":"","description":""}
+{"@id":"corpus/format/7d89fdbf-d0ad-49cc-9215-e5571beb8785","fileFormat":"application/json","version":"(:unav)","profile":"","description":""}
+{"@id":"corpus/format/a7375157-9bb3-4254-97f8-f5b606d5a5f8","fileFormat":"application/json","version":"(:unap)","profile":"","description":""}
+{"@id":"corpus/format/4a7887c1-6d6c-435f-8d52-f848e3fec5bc","fileFormat":"application/warc","version":"1.1","profile":"","description":""}

@@ -21,7 +21,6 @@ application/epub+zip
    :depth: 2
 
 
-
 2.0.1
 -----
 
@@ -58,11 +57,9 @@ invalid_2.0.1_libreoffice.epub
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/2281790a-4bbd-49d6-9584-61ed31010ea7>`
-
 
 
 ----
@@ -100,8 +97,7 @@ valid_2.0.1_calibre.epub
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -143,11 +139,9 @@ invalid_3_libreoffice.epub
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/cc3ebd39-d7b0-498d-8398-86bbb6b971e7>`
-
 
 
 ----
@@ -185,11 +179,9 @@ invalid_3_mimetype_not_first.epub
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/1759ce1d-b7d7-47a2-90bf-a31b4032ea6a>`
-
 
 
 ----
@@ -227,8 +219,7 @@ valid_3_calibre.epub
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -267,8 +258,7 @@ valid_3_libreoffice_writer2epub.epub
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -307,8 +297,339 @@ valid_3_pages.epub
        }
    }
 
-**Outputs:**
+**Error messages:**
 
+
+
+----
+
+application/json
+================
+
+.. contents:: Versions
+   :local:
+   :depth: 2
+
+
+(:unap)
+-------
+
+.. _corpus/file/61aad544-92fe-40cc-8ab6-566bdc15c963:
+
+invalid__property_needs_doublequotes.json
+.........................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__property_needs_doublequotes.json>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 962a903cb6ed9d4ea5a7d0615b9134c6
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/plain",
+           "stream_type": "text",
+           "version": "(:unap)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/dcab9989-5a92-4759-b0e9-8e57dc322692:
+
+invalid__single_quotes_are_not_allowed.json
+...........................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__single_quotes_are_not_allowed.json>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - bf303a9f1760842160489de3bd307dc7
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/plain",
+           "stream_type": "text",
+           "version": "(:unap)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/6cd74ccb-1821-48b1-a7f7-c2c8b93cca13:
+
+invalid__utf16le_bom.json
+.........................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__utf16le_bom.json>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - e2ee8db42f58dc220baf53b4aed8273f
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-16",
+           "index": 0,
+           "mimetype": "text/plain",
+           "stream_type": "text",
+           "version": "(:unap)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/f4f298da-8948-42b9-b5c0-c5e5d08ce9bc:
+
+valid__empty_object.json
+........................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__empty_object.json>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 99914b932bd37a50b983c5e7c90ae93b
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/json",
+           "stream_type": "text",
+           "version": "(:unap)",
+           "charset": "UTF-8"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/6e20d469-32f9-4cc1-a315-6b21eec11ee2:
+
+valid__.json
+............
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__.json>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 23dc36733261478de98642fbbe17ba8a
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/json",
+           "stream_type": "text",
+           "version": "(:unap)",
+           "charset": "UTF-8"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/1c9828f5-aa9d-4aaf-b45b-faa64ad9f430:
+
+valid__ugly.json
+................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__ugly.json>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 336bf022eb3e9d3c7b55d0eeaf2f15af
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/json",
+           "stream_type": "text",
+           "version": "(:unap)",
+           "charset": "UTF-8"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+(:unav)
+-------
+
+.. _file-scraper/e4d430d9-9f81-479c-b5d6-0069a1bf5863:
+
+invalid__empty.json
+...................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__empty.json>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - d41d8cd98f00b204e9800998ecf8427e
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "inode/x-empty",
+           "stream_type": "(:unav)",
+           "version": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/b65b3be8-4a57-48ca-a1e2-8286a6d3b18e:
+
+invalid__only_one_root_element.json
+...................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__only_one_root_element.json>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 0b6f687ad85d4544a0b514f63707644f
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/x-ndjson",
+           "stream_type": "(:unav)",
+           "version": "(:unav)"
+       }
+   }
+
+**Error messages:**
 
 
 
@@ -320,7 +641,6 @@ application/msword
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 97-2003
@@ -359,8 +679,7 @@ valid_97-2003.doc
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -402,8 +721,7 @@ invalid_97-2003_missing_data.doc
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -442,8 +760,7 @@ invalid__empty.doc
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -455,7 +772,6 @@ application/mxf
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -521,11 +837,9 @@ invalid__jpeg2000_truncated.mxf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-file-scraper/c8d6dbdf-cd5c-4283-b897-d999608a7c6f>`
-
 
 
 ----
@@ -590,8 +904,7 @@ valid__jpeg2000_grayscale.mxf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -657,8 +970,7 @@ valid__jpeg2000_lossless.mxf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -724,8 +1036,7 @@ valid__jpeg2000_lossless-wavelet_lossy-subsampling.mxf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -791,8 +1102,7 @@ valid__jpeg2000.mxf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -834,8 +1144,7 @@ invalid__jpeg2000_wrong_signature.mxf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -847,7 +1156,6 @@ application/pdf
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.0
@@ -886,8 +1194,7 @@ invalid_1.2_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -926,8 +1233,7 @@ invalid_1.3_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -969,8 +1275,7 @@ invalid_1.5_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -1009,8 +1314,7 @@ invalid_1.6_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -1049,8 +1353,7 @@ invalid_1.7_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -1092,13 +1395,10 @@ invalid_1.2_payload_altered.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/52f8f0df-bd86-45a2-8c82-fb57900ae739>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/52f8f0df-bd86-45a2-8c82-fb57900ae739>`
-
 
 
 ----
@@ -1136,13 +1436,10 @@ invalid_1.2_removed_xref.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/275c3a47-8798-4f26-bdbd-367a49ddef72>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/275c3a47-8798-4f26-bdbd-367a49ddef72>`
-
 
 
 ----
@@ -1180,8 +1477,378 @@ valid_1.2.pdf
        }
    }
 
-**Outputs:**
+**Error messages:**
 
+
+
+----
+
+1.3
+---
+
+.. _file-scraper/15cb88cf-248b-435b-bfde-125f09fcc9ef:
+
+invalid_1.3_payload_altered.pdf
+...............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.3_payload_altered.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - cb8c693ecd8b6faf154eb80d4ce4d91e
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.3"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/15cb88cf-248b-435b-bfde-125f09fcc9ef>`
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/15cb88cf-248b-435b-bfde-125f09fcc9ef>`
+
+
+----
+
+.. _file-scraper/7a99b587-1f85-422c-b931-30ce39ab4955:
+
+invalid_1.3_removed_xref.pdf
+............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.3_removed_xref.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 7e25005d0d0cb0691d601d337c70b4ae
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.3"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/7a99b587-1f85-422c-b931-30ce39ab4955>`
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/7a99b587-1f85-422c-b931-30ce39ab4955>`
+
+
+----
+
+.. _file-scraper/b0ef1c9a-f6fe-4dd0-abe2-c712b116bbd6:
+
+valid_1.3.pdf
+.............
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_1.3.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 3f207622b10bb38e478d00f2e2a355c5
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.3"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+1.4
+---
+
+.. _file-scraper/c4399821-916e-4db9-a036-07f9b1c9d98e:
+
+invalid_1.4_payload_altered.pdf
+...............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.4_payload_altered.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 4fded37dd47717a5ca4de437e795ba15
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.4"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/c4399821-916e-4db9-a036-07f9b1c9d98e>`
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/c4399821-916e-4db9-a036-07f9b1c9d98e>`
+
+
+----
+
+.. _file-scraper/a396fcb4-c412-41f7-9ae5-f7519f66448a:
+
+invalid_1.4_removed_xref.pdf
+............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_1.4_removed_xref.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - b8b5d4e9f20a5d0d747b6b495542982f
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.4"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/a396fcb4-c412-41f7-9ae5-f7519f66448a>`
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/a396fcb4-c412-41f7-9ae5-f7519f66448a>`
+
+
+----
+
+.. _file-scraper/114f7207-5dc9-491b-a978-2394e6b8cc92:
+
+invalid_A-1a_payload_altered.pdf
+................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-1a_payload_altered.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - de0667162a8367dd4c97b433f14bddbc
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.4"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/114f7207-5dc9-491b-a978-2394e6b8cc92>`
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/114f7207-5dc9-491b-a978-2394e6b8cc92>`
+* :ref:`veraPDF 1.28.2 <veraPDF-1.28.2-file-scraper/114f7207-5dc9-491b-a978-2394e6b8cc92>`
+
+
+----
+
+.. _file-scraper/cc51790d-b251-4e1a-ac86-3980981d3ee6:
+
+invalid_A-1a_removed_xref.pdf
+.............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-1a_removed_xref.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 4a05b8ce9b40430618f132daf934e2c4
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.4"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/cc51790d-b251-4e1a-ac86-3980981d3ee6>`
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/cc51790d-b251-4e1a-ac86-3980981d3ee6>`
+* :ref:`veraPDF 1.28.2 <veraPDF-1.28.2-file-scraper/cc51790d-b251-4e1a-ac86-3980981d3ee6>`
+
+
+----
+
+.. _file-scraper/c2c21fd9-d189-414a-ac6a-c32ee19c779b:
+
+valid_1.4_0xFFFF_character.pdf
+..............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_1.4_0xFFFF_character.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - f508c8fff23a5beea23135eaac2ba318
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.4"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/360abd65-6b5f-45ac-9bb8-62bf6036ec61:
+
+valid_1.4.pdf
+.............
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_1.4.pdf>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 8e57be2cd66a36bd4157d1b0f3b2aeae
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/pdf",
+           "stream_type": "binary",
+           "version": "1.4"
+       }
+   }
+
+**Error messages:**
 
 
 
@@ -1223,13 +1890,10 @@ invalid_1.5_payload_altered.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/42f24218-11c8-4a6f-bab2-fa58cc015d58>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/42f24218-11c8-4a6f-bab2-fa58cc015d58>`
-
 
 
 ----
@@ -1267,13 +1931,10 @@ invalid_1.5_removed_xref.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/b4acb5d5-8b8e-4b4a-9cdf-7bd099f25a01>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/b4acb5d5-8b8e-4b4a-9cdf-7bd099f25a01>`
-
 
 
 ----
@@ -1311,8 +1972,7 @@ valid_1.5.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -1354,13 +2014,10 @@ invalid_1.6_payload_altered.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/9bec28c0-42f9-4556-ab46-f3457df5540a>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/9bec28c0-42f9-4556-ab46-f3457df5540a>`
-
 
 
 ----
@@ -1398,13 +2055,10 @@ invalid_1.6_removed_xref.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/1d0ea0f9-7029-405b-9d7e-eca47adfcd7a>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/1d0ea0f9-7029-405b-9d7e-eca47adfcd7a>`
-
 
 
 ----
@@ -1442,8 +2096,7 @@ valid_1.6.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -1485,8 +2138,7 @@ invalid_1.4_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -1525,11 +2177,9 @@ invalid_1.7_invalid_resource_name.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/50dd48e8-de3b-4e46-aa8e-2ec6f698c56e>`
-
 
 
 ----
@@ -1567,13 +2217,10 @@ invalid_1.7_payload_altered.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/fd536f85-6f7d-4cbb-aa65-a7d251d77cb2>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/fd536f85-6f7d-4cbb-aa65-a7d251d77cb2>`
-
 
 
 ----
@@ -1611,13 +2258,10 @@ invalid_1.7_removed_xref.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/3744d871-0720-4089-b871-4d264c692bd3>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/3744d871-0720-4089-b871-4d264c692bd3>`
-
 
 
 ----
@@ -1655,15 +2299,11 @@ invalid_A-2b_payload_altered.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/a4992834-6697-48b5-a104-e70c7dee22eb>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/a4992834-6697-48b5-a104-e70c7dee22eb>`
-
 * :ref:`veraPDF 1.28.2 <veraPDF-1.28.2-file-scraper/a4992834-6697-48b5-a104-e70c7dee22eb>`
-
 
 
 ----
@@ -1701,15 +2341,11 @@ invalid_A-2b_removed_xref.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/0de7ba37-03da-4f5b-9928-404bdececd42>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/0de7ba37-03da-4f5b-9928-404bdececd42>`
-
 * :ref:`veraPDF 1.28.2 <veraPDF-1.28.2-file-scraper/0de7ba37-03da-4f5b-9928-404bdececd42>`
-
 
 
 ----
@@ -1747,15 +2383,11 @@ invalid_A-3b_payload_altered.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/87af55ef-9b6e-4f05-8c04-3e146c310efe>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/87af55ef-9b6e-4f05-8c04-3e146c310efe>`
-
 * :ref:`veraPDF 1.28.2 <veraPDF-1.28.2-file-scraper/87af55ef-9b6e-4f05-8c04-3e146c310efe>`
-
 
 
 ----
@@ -1793,15 +2425,11 @@ invalid_A-3b_removed_xref.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/f1856ee2-1690-43f1-8902-516dd6ba077e>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/f1856ee2-1690-43f1-8902-516dd6ba077e>`
-
 * :ref:`veraPDF 1.28.2 <veraPDF-1.28.2-file-scraper/f1856ee2-1690-43f1-8902-516dd6ba077e>`
-
 
 
 ----
@@ -1839,8 +2467,7 @@ valid_1.7_jpeg2000.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -1879,8 +2506,7 @@ valid_1.7.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -1922,13 +2548,10 @@ invalid_A-2b_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/605fba04-371d-4de8-a1cc-a07bd4c80660>`
-
 * :ref:`veraPDF 1.28.2 <veraPDF-1.28.2-file-scraper/605fba04-371d-4de8-a1cc-a07bd4c80660>`
-
 
 
 ----
@@ -1966,13 +2589,10 @@ invalid_A-3b_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/467e9ad2-a091-4af1-b364-fee4ce6fa320>`
-
 * :ref:`veraPDF 1.28.2 <veraPDF-1.28.2-file-scraper/467e9ad2-a091-4af1-b364-fee4ce6fa320>`
-
 
 
 ----
@@ -2013,11 +2633,9 @@ invalid_A-1a_wrong_version.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/b22c925e-7e20-42f0-a2bb-04cdc0c10388>`
-
 
 
 ----
@@ -2055,8 +2673,7 @@ valid_A-1a_invalid_resource_name.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2095,8 +2712,7 @@ valid_A-1a.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2135,8 +2751,7 @@ valid_A-1a_root_1.6.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2175,8 +2790,7 @@ valid_A-1a_root_1.7.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2218,11 +2832,13 @@ valid_A-1b_root_1.7.pdf
        }
    }
 
-**Outputs:**
+**Error messages:**
 
 
 
+----
 
+A1-b
 ----
 
 A-2b
@@ -2261,11 +2877,9 @@ invalid_A-2b_invalid_resource_name.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/49a97c44-37c5-4855-b10f-7f1c031a2eff>`
-
 
 
 ----
@@ -2303,8 +2917,7 @@ valid_A-2b.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2346,8 +2959,7 @@ valid_A-2u_root_1.5.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2389,11 +3001,9 @@ invalid_A-3b_invalid_resource_name.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Ghostscript 10.06.0 <Ghostscript-10.06.0-file-scraper/07f8f586-1d9d-4f8e-8486-c4cb94dca022>`
-
 
 
 ----
@@ -2431,8 +3041,7 @@ valid_A-3b_no_file_extension
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2471,12 +3080,14 @@ valid_A-3b.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
 ----
+
+
+
 
 (:unav)
 -------
@@ -2514,8 +3125,7 @@ invalid__empty.pdf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2527,7 +3137,6 @@ application/vnd.ms-excel
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 8X
@@ -2566,8 +3175,7 @@ valid_8X.xls
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2609,8 +3217,7 @@ invalid_8X_missing_data.xls
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2649,8 +3256,7 @@ invalid__empty.xls
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2662,7 +3268,6 @@ application/vnd.ms-powerpoint
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 97-2003
@@ -2701,8 +3306,7 @@ valid_97-2003.ppt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2744,8 +3348,7 @@ invalid_97-2003_missing_data.ppt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2784,8 +3387,7 @@ invalid__empty.ppt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2797,7 +3399,6 @@ application/vnd.oasis.opendocument.formula
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.2
@@ -2836,8 +3437,7 @@ valid_1.2.odf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2879,8 +3479,7 @@ invalid_1.3_corrupted.odf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2919,8 +3518,7 @@ valid_1.3.odf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -2962,8 +3560,7 @@ invalid_1.2_corrupted.odf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3002,11 +3599,9 @@ invalid_1.2_missing_data.odf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-corpus/file/489a6094-91f4-4bc8-8f68-9b8c375560e2>`
-
 
 
 ----
@@ -3044,8 +3639,7 @@ invalid__empty.odf
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3057,7 +3651,6 @@ application/vnd.oasis.opendocument.graphics
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.1
@@ -3096,8 +3689,7 @@ invalid_1.2_corrupted.odg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3139,8 +3731,7 @@ valid_1.2.odg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3182,8 +3773,7 @@ invalid_1.3_corrupted.odg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3222,8 +3812,7 @@ valid_1.3.odg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3265,11 +3854,9 @@ invalid_1.2_missing_data.odg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-corpus/file/a91f3402-337e-46cd-b542-9dc5eefc3fe2>`
-
 
 
 ----
@@ -3307,8 +3894,7 @@ invalid__empty.odg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3320,7 +3906,6 @@ application/vnd.oasis.opendocument.presentation
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.1
@@ -3359,8 +3944,7 @@ invalid_1.2_corrupted.odp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3402,8 +3986,7 @@ valid_1.2.odp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3445,8 +4028,7 @@ invalid_1.3_corrupted.odp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3485,8 +4067,7 @@ valid_1.3.odp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3528,11 +4109,9 @@ invalid_1.2_missing_data.odp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-corpus/file/703c816d-f54a-4d61-a42e-f7864f737ac3>`
-
 
 
 ----
@@ -3570,8 +4149,7 @@ invalid__empty.odp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3583,7 +4161,6 @@ application/vnd.oasis.opendocument.spreadsheet
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.1
@@ -3622,8 +4199,7 @@ invalid_1.2_corrupted.ods
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3665,8 +4241,7 @@ valid_1.2.ods
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3708,8 +4283,7 @@ invalid_1.3_corrupted.ods
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3748,8 +4322,7 @@ valid_1.3.ods
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3791,11 +4364,9 @@ invalid_1.2_missing_data.ods
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-corpus/file/847ff599-02b8-4b5e-acad-dbd19d6be508>`
-
 
 
 ----
@@ -3833,8 +4404,7 @@ invalid__empty.ods
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3846,7 +4416,6 @@ application/vnd.oasis.opendocument.text
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.1
@@ -3885,8 +4454,7 @@ invalid_1.2_corrupted.odt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3928,8 +4496,7 @@ valid_1.2.odt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -3971,8 +4538,7 @@ invalid_1.3_corrupted.odt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4011,8 +4577,7 @@ valid_1.3.odt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4054,11 +4619,9 @@ invalid_1.2_invalid_xml.odt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/23d70128-b0f7-443e-b628-a4417d04636d>`
-
 
 
 ----
@@ -4096,11 +4659,9 @@ invalid_1.2_missing_data.odt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-corpus/file/7493c970-dcf6-4f79-9aa5-e50976798669>`
-
 
 
 ----
@@ -4138,8 +4699,7 @@ invalid__empty.odt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4151,7 +4711,6 @@ application/vnd.openxmlformats-officedocument.presentationml.presentation
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 2007 onwards
@@ -4190,8 +4749,7 @@ invalid_2007 onwards_corrupted.pptx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4230,8 +4788,7 @@ valid_2007 onwards.pptx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4273,8 +4830,7 @@ invalid_2007 onwards_missing_data.pptx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4313,8 +4869,7 @@ invalid__empty.pptx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4326,7 +4881,6 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 2007 onwards
@@ -4365,8 +4919,7 @@ invalid_2007 onwards_corrupted.xlsx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4405,8 +4958,7 @@ valid_2007 onwards.xlsx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4448,8 +5000,7 @@ invalid_2007 onwards_missing_data.xlsx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4488,8 +5039,7 @@ invalid__empty.xlsx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4501,7 +5051,6 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 2007 onwards
@@ -4540,8 +5089,7 @@ invalid_2007 onwards_corrupted.docx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4580,8 +5128,7 @@ valid_2007 onwards.docx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4620,12 +5167,14 @@ valid_2007 onwards_word-dir-third.docx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
 ----
+
+
+
 
 (:unav)
 -------
@@ -4663,8 +5212,7 @@ invalid_2007 onwards_missing_data.docx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4703,8 +5251,7 @@ invalid__empty.docx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4716,7 +5263,6 @@ application/vnd.rn-realmedia
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unav)
@@ -4755,8 +5301,7 @@ invalid__aac.ra
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4795,8 +5340,7 @@ invalid__ac3.ra
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4808,7 +5352,6 @@ application/warc
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 0.17
@@ -4847,8 +5390,7 @@ valid_0.17.warc
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4890,8 +5432,7 @@ valid_0.18.warc
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4900,7 +5441,7 @@ valid_0.18.warc
 -1.0
 ----
 
-.. _file-scraper/9c074b25-293f-4ddb-8949-21c72eecc86b:
+.. _corpus/file/9ac7558b-faa6-4127-a57c-8cac2d33fdbe:
 
 invalid_1.0_wrong_version.warc
 ..............................
@@ -4917,7 +5458,7 @@ invalid_1.0_wrong_version.warc
    * - Well-formed
      - False
    * - MD5
-     - 4edfe84305e4ff33d79523a2826b5b62
+     - be34acad2d71b219a7da713878c8acbc
 
 
 **Streams:**
@@ -4933,8 +5474,7 @@ invalid_1.0_wrong_version.warc
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -4943,7 +5483,85 @@ invalid_1.0_wrong_version.warc
 1.0
 ---
 
-.. _file-scraper/59fdf146-f9c3-40c6-9f07-29fd65a7cae5:
+.. _corpus/file/74820ea6-74a6-4377-98fd-95223b117dfd:
+
+invalid_1.0_missing_content.warc
+................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid_1.0_missing_content.warc>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - ef6abd7a7f0bbb04449c0f99263e4d53
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/warc",
+           "stream_type": "binary",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/8b0a65ca-993d-46ff-8f55-b78bd5acc444:
+
+valid_1.0_nonsense_field.warc
+.............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_1.0_nonsense_field.warc>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - b209f40efc95af9e3695928c9d07a987
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/warc",
+           "stream_type": "binary",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/c0997a4c-e668-4c96-ac2c-1c10eef66ed7:
 
 valid_1.0.warc
 ..............
@@ -4960,7 +5578,7 @@ valid_1.0.warc
    * - Well-formed
      - True
    * - MD5
-     - 4338acc49f962bede93733a3be2ed06b
+     - 28ec33f180c0f65ee19e7129c1b6c718
 
 
 **Streams:**
@@ -4976,14 +5594,13 @@ valid_1.0.warc
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
 ----
 
-.. _file-scraper/546e621b-03fc-4435-9be1-1558c492fc2d:
+.. _corpus/file/eeb5e0d7-4e40-4052-8b7b-caca22e09be6:
 
 valid_1.0_.warc.gz
 ..................
@@ -5000,7 +5617,7 @@ valid_1.0_.warc.gz
    * - Well-formed
      - True
    * - MD5
-     - 14bc4075ed1e083d20d02bf68af3ecc1
+     - 579d3c9f1695200cfb56b9c3c0b5ffdf
 
 
 **Streams:**
@@ -5016,8 +5633,166 @@ valid_1.0_.warc.gz
        }
    }
 
-**Outputs:**
+**Error messages:**
 
+
+
+----
+
+.. _corpus/file/c0997a4c-e668-4c96-ac2c-1c10eef66ed7:
+
+valid_1.0_wrong_suffix.txt
+..........................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_1.0_wrong_suffix.txt>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 28ec33f180c0f65ee19e7129c1b6c718
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/warc",
+           "stream_type": "binary",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+1.1
+---
+
+.. _corpus/file/f1c70f29-d297-43a6-b57f-54b188a70124:
+
+invalid_1.1_wrong_digest.warc
+.............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid_1.1_wrong_digest.warc>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 807b662112394d48e53cf323cb39af39
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/warc",
+           "stream_type": "(:unav)",
+           "version": "1.1"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/07efe96e-71bc-41ae-aa81-3e5cb9a5dad7:
+
+valid_1.1.warc
+..............
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_1.1.warc>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - b158f53f9acdf7c943f4421fd39b601e
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/warc",
+           "stream_type": "(:unav)",
+           "version": "1.1"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/98bd5a18-8a56-42b1-96ee-8d086d221610:
+
+valid_1.1_.warc.gz
+..................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_1.1_.warc.gz>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 0a368f959ae7923a58325ad5089db0aa
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "application/warc",
+           "stream_type": "(:unav)",
+           "version": "1.1"
+       }
+   }
+
+**Error messages:**
 
 
 
@@ -5052,11 +5827,9 @@ invalid_0.17_too_short_content_length.warc
 
    {}
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`warctools (:unac) <warctools-(:unac)-file-scraper/b2dba2c5-c384-425a-9643-7d1f22fd00d1>`
-
 
 
 ----
@@ -5087,11 +5860,128 @@ invalid_0.18_too_short_content_length.warc
 
    {}
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`warctools (:unac) <warctools-(:unac)-file-scraper/4fbf3a98-390d-4f0b-9cd6-300f733fa93a>`
 
+
+----
+
+.. _corpus/file/9821c146-4b93-4d55-9013-3b8b6aee718e:
+
+invalid_1.0_missing_required_field.warc
+.......................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid_1.0_missing_required_field.warc>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - d88cf8efbe23c1ebc038aa1d26b39500
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "(:unav)",
+           "stream_type": "text",
+           "version": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/9821c146-4b93-4d55-9013-3b8b6aee718e>`
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-corpus/file/9821c146-4b93-4d55-9013-3b8b6aee718e>`
+* :ref:`Validator.nu 20.6.30 <Validator.nu-20.6.30-corpus/file/9821c146-4b93-4d55-9013-3b8b6aee718e>`
+
+
+----
+
+.. _corpus/file/3b5e39f7-d60c-4249-bb75-aa9101766866:
+
+invalid_1.0_no_carriage_return.warc
+...................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid_1.0_no_carriage_return.warc>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - dfdfa2cbb9633a9adfec264c3f8c2a9f
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "(:unav)",
+           "stream_type": "text",
+           "version": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/3b5e39f7-d60c-4249-bb75-aa9101766866>`
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-corpus/file/3b5e39f7-d60c-4249-bb75-aa9101766866>`
+* :ref:`Validator.nu 20.6.30 <Validator.nu-20.6.30-corpus/file/3b5e39f7-d60c-4249-bb75-aa9101766866>`
+
+
+----
+
+.. _corpus/file/29bf4fa6-d087-42e0-8ba1-8b7c6f8b4baf:
+
+invalid_1.0_too_short_content_length.warc
+.........................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/invalid_1.0_too_short_content_length.warc>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - f0d58084091276a636bf568ee2f1a0b1
+
+
+**Streams:**
+
+.. code:: json
+
+   {}
+
+**Error messages:**
+
+* :ref:`warctools (:unac) <warctools-(:unac)-corpus/file/29bf4fa6-d087-42e0-8ba1-8b7c6f8b4baf>`
 
 
 ----
@@ -5129,8 +6019,7 @@ invalid__empty.warc
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5169,8 +6058,7 @@ invalid__empty.warc.gz
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5202,11 +6090,9 @@ invalid__missing_data.warc.gz
 
    {}
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`warctools (:unac) <warctools-(:unac)-corpus/file/7e3fd354-3fe9-4e8d-834e-c5e5781b3b75>`
-
 
 
 ----
@@ -5217,7 +6103,6 @@ application/x.fi-dpres.atlproj
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -5256,8 +6141,7 @@ invalid_empty.atlproj
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5269,7 +6153,6 @@ application/x.fi-dpres.segy
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.0
@@ -5308,8 +6191,7 @@ invalid_1.0_ascii_header.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5348,8 +6230,7 @@ invalid_1.0_ebcdic_header.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5391,8 +6272,7 @@ invalid_2.0_ascii_header.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5431,8 +6311,7 @@ invalid_2.0_ebcdic_header.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5474,8 +6353,7 @@ invalid__ascii_header.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5514,8 +6392,7 @@ invalid__ebcdic_header.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5554,8 +6431,7 @@ invalid__ebcdic_ljust.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5594,8 +6470,7 @@ invalid__ebcdic_no_indices.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5634,8 +6509,7 @@ invalid__ebcdic_padded_ljust_eof.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5674,8 +6548,7 @@ invalid__empty_ascii_header.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5714,8 +6587,7 @@ invalid__empty_ebcdic_header.sgy
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5727,7 +6599,6 @@ application/xhtml+xml
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.0
@@ -5767,11 +6638,9 @@ invalid_1.0_illegal_tags.xhtml
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/e102c6a4-1954-42b0-ad01-22ffdf2e7edc>`
-
 
 
 ----
@@ -5810,11 +6679,9 @@ invalid_1.0_missing_closing_tag.xhtml
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/4bdbde3c-ab84-43c6-af2b-294437608814>`
-
 
 
 ----
@@ -5853,8 +6720,7 @@ invalid_1.0_no_doctype.xhtml
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5894,8 +6760,7 @@ valid_1.0.xhtml
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5937,8 +6802,7 @@ invalid__empty.xhtml
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -5950,7 +6814,6 @@ application/x-siard
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 2.0
@@ -5989,8 +6852,7 @@ invalid_2.0_invalid_version.siard
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6032,11 +6894,9 @@ invalid_2.1.1_schema_errors.siard
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`DBPTK Developer 2.11.1-DPRES <DBPTK Developer-2.11.1-DPRES-file-scraper/cdbc63c6-b217-4a0a-bcd6-06fc045a2f6c>`
-
 
 
 ----
@@ -6074,8 +6934,7 @@ valid_2.1.1.siard
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6117,8 +6976,7 @@ invalid_2.1.1_invalid_extension.zip
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6130,7 +6988,6 @@ application/x-spss-por
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -6170,8 +7027,7 @@ invalid__header_corrupted.por
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6211,8 +7067,7 @@ invalid__pspp_header.por
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6252,8 +7107,7 @@ invalid__truncated.por
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6292,8 +7146,7 @@ valid__spss24-dates.por
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6332,8 +7185,7 @@ valid__spss24-dot.por
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6375,8 +7227,7 @@ invalid__empty.por
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6415,8 +7266,7 @@ invalid__wrong_spss_format.sav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6428,7 +7278,6 @@ audio/ac3
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -6478,8 +7327,7 @@ invalid__bit_level_format.ac3
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6491,7 +7339,6 @@ audio/flac
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -6541,11 +7388,9 @@ invalid__bytes_missing.flac
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-file-scraper/690d68cf-7aeb-4257-bd66-ad62b218d1d8>`
-
 
 
 ----
@@ -6594,8 +7439,7 @@ valid__flac.flac
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6637,8 +7481,7 @@ invalid__header_edited.flac
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6650,7 +7493,6 @@ audio/mp4
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -6709,8 +7551,7 @@ valid__aac.m4a
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6752,8 +7593,7 @@ invalid__empty.m4a
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6767,6 +7607,292 @@ audio/mpeg
    :depth: 2
 
 
+1
+-
+
+.. _corpus/file/d832b0e8-15dc-4802-89f3-3590752866da:
+
+invalid_1_missing_header.mp3
+............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_missing_header.mp3>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 499962034608db2c05b6129ac5a16e09
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "audio/mpeg",
+           "stream_type": "audio",
+           "version": "1",
+           "audio_data_encoding": "MPEG Audio",
+           "bits_per_sample": "(:unav)",
+           "codec_creator_app": "(:unav)",
+           "codec_creator_app_version": "(:unav)",
+           "codec_name": "MPEG Audio",
+           "codec_quality": "lossy",
+           "data_rate": "128",
+           "data_rate_mode": "Fixed",
+           "duration": "PT0.89S",
+           "num_channels": "2",
+           "sampling_frequency": "44.1"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/d832b0e8-15dc-4802-89f3-3590752866da>`
+
+
+----
+
+.. _corpus/file/9aef58b1-fb9a-4d2f-928d-ea4fcd1e26e8:
+
+invalid_1_wrong_sampling_rate.mp3
+.................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_wrong_sampling_rate.mp3>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 97e4f0a87253f0b2820685c7e2e9a5e1
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "audio/mpeg",
+           "stream_type": "audio",
+           "version": "1",
+           "audio_data_encoding": "MPEG Audio",
+           "bits_per_sample": "(:unav)",
+           "codec_creator_app": "(:unav)",
+           "codec_creator_app_version": "(:unav)",
+           "codec_name": "MPEG Audio",
+           "codec_quality": "lossy",
+           "data_rate": "139.314",
+           "data_rate_mode": "Fixed",
+           "duration": "PT0.82S",
+           "num_channels": "2",
+           "sampling_frequency": "48"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/9aef58b1-fb9a-4d2f-928d-ea4fcd1e26e8>`
+
+
+----
+
+.. _corpus/file/835f950a-d86a-4d9f-9d2b-e9111a73f684:
+
+invalid_contains_jpeg.mp3
+.........................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_contains_jpeg.mp3>`__
+   * - Description
+     - 
+   * - Well-formed
+     - None
+   * - MD5
+     - 6eb0297c5671d05a2b71aac9545a8527
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "audio/mpeg",
+           "stream_type": "videocontainer",
+           "version": "1",
+           "codec_creator_app": "(:unav)",
+           "codec_creator_app_version": "(:unav)",
+           "codec_name": "MPEG Audio",
+           "codec_quality": "lossy"
+       },
+       "1": {
+           "audio_data_encoding": "MPEG Audio",
+           "bits_per_sample": "(:unav)",
+           "codec_creator_app": "(:unav)",
+           "codec_creator_app_version": "(:unav)",
+           "codec_name": "MPEG Audio",
+           "codec_quality": "lossy",
+           "data_rate": "128",
+           "data_rate_mode": "Fixed",
+           "duration": "PT0.89S",
+           "index": 1,
+           "mimetype": "audio/mpeg",
+           "num_channels": "2",
+           "sampling_frequency": "44.1",
+           "stream_type": "audio",
+           "version": "1"
+       },
+       "2": {
+           "index": 2,
+           "mimetype": "image/jpeg",
+           "stream_type": "image",
+           "version": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/fa436a0d-1678-4d22-8d82-5e0c1469737e:
+
+invalid_contains_png.mp3
+........................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_contains_png.mp3>`__
+   * - Description
+     - 
+   * - Well-formed
+     - None
+   * - MD5
+     - 048f31addd98c96ea58bc064ceb4fa78
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "audio/mpeg",
+           "stream_type": "videocontainer",
+           "version": "1",
+           "codec_creator_app": "(:unav)",
+           "codec_creator_app_version": "(:unav)",
+           "codec_name": "MPEG Audio",
+           "codec_quality": "lossy"
+       },
+       "1": {
+           "audio_data_encoding": "MPEG Audio",
+           "bits_per_sample": "(:unav)",
+           "codec_creator_app": "(:unav)",
+           "codec_creator_app_version": "(:unav)",
+           "codec_name": "MPEG Audio",
+           "codec_quality": "lossy",
+           "data_rate": "128",
+           "data_rate_mode": "Fixed",
+           "duration": "PT0.89S",
+           "index": 1,
+           "mimetype": "audio/mpeg",
+           "num_channels": "2",
+           "sampling_frequency": "44.1",
+           "stream_type": "audio",
+           "version": "1"
+       },
+       "2": {
+           "index": 2,
+           "mimetype": "image/png",
+           "stream_type": "image",
+           "version": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/a62763b5-890c-4576-a5d8-115a65230eb9:
+
+valid_1.mp3
+...........
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/valid_1.mp3>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 17b9a0a04a342def598cf30cb2cef461
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "audio/mpeg",
+           "stream_type": "audio",
+           "version": "1",
+           "audio_data_encoding": "MPEG Audio",
+           "bits_per_sample": "(:unav)",
+           "codec_creator_app": "(:unav)",
+           "codec_creator_app_version": "(:unav)",
+           "codec_name": "MPEG Audio",
+           "codec_quality": "lossy",
+           "data_rate": "128",
+           "data_rate_mode": "Fixed",
+           "duration": "PT0.89S",
+           "num_channels": "2",
+           "sampling_frequency": "44.1"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
 
 (:unav)
 -------
@@ -6804,13 +7930,10 @@ invalid_1_missing_data.mp3
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/703c3532-6341-421a-b4b2-a2a3ab7fab89>`
-
 * :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-corpus/file/703c3532-6341-421a-b4b2-a2a3ab7fab89>`
-
 
 
 ----
@@ -6848,8 +7971,7 @@ invalid__empty.mp3
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -6861,7 +7983,6 @@ audio/x-aiff
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.3
@@ -6900,13 +8021,10 @@ invalid_1.3_data_bytes_missing.aiff
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-file-scraper/d3d095af-df79-4427-be70-3392a0b1e672>`
-
 * :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-file-scraper/d3d095af-df79-4427-be70-3392a0b1e672>`
-
 
 
 ----
@@ -6955,8 +8073,7 @@ valid_1.3.aiff
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -7009,12 +8126,22 @@ valid__aiff-c.aiff
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
 ----
+
+audio/x-ms-wma
+==============
+
+.. contents:: Versions
+   :local:
+   :depth: 2
+
+
+
+
 
 audio/x-wav
 ===========
@@ -7022,7 +8149,6 @@ audio/x-wav
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 2
@@ -7072,12 +8198,14 @@ valid_2_bwf.wav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
 ----
+
+
+
 
 (:unap)
 -------
@@ -7126,13 +8254,10 @@ invalid_2_bwf_RIFF_edited.wav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/1e21bb99-c686-4e5f-858f-f5a857a29c86>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/1e21bb99-c686-4e5f-858f-f5a857a29c86>`
-
 
 
 ----
@@ -7181,11 +8306,9 @@ invalid__pcm_alaw_format.wav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-file-scraper/f37d1e1e-1161-4f70-9894-2cf40bc08119>`
-
 
 
 ----
@@ -7234,8 +8357,7 @@ valid__wav.wav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -7277,13 +8399,10 @@ invalid_2_bwf_data_bytes_missing.wav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/406e5d9c-da24-479b-a38f-be6d9cb8603a>`
-
 * :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-corpus/file/406e5d9c-da24-479b-a38f-be6d9cb8603a>`
-
 
 
 ----
@@ -7321,15 +8440,11 @@ invalid__data_bytes_missing.wav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/5e601373-3d79-4d3c-bf18-621440677296>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/5e601373-3d79-4d3c-bf18-621440677296>`
-
 * :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-corpus/file/5e601373-3d79-4d3c-bf18-621440677296>`
-
 
 
 ----
@@ -7367,8 +8482,7 @@ invalid__empty.wav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -7407,15 +8521,11 @@ invalid__RIFF_edited.wav
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/7b474fe4-ceba-46c0-9605-583dd8b56783>`
-
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/7b474fe4-ceba-46c0-9605-583dd8b56783>`
-
 * :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-corpus/file/7b474fe4-ceba-46c0-9605-583dd8b56783>`
-
 
 
 ----
@@ -7426,7 +8536,6 @@ image/gif
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1987a
@@ -7465,15 +8574,11 @@ invalid_1987a_truncated.gif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/79f4b2b7-9eac-4352-a188-91c1e50ceeab>`
-
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-corpus/file/79f4b2b7-9eac-4352-a188-91c1e50ceeab>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-corpus/file/79f4b2b7-9eac-4352-a188-91c1e50ceeab>`
-
 
 
 ----
@@ -7519,8 +8624,7 @@ valid_1987a.gif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -7562,15 +8666,11 @@ invalid_1989a_truncated.gif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017>`
-
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017>`
-
 
 
 ----
@@ -7644,8 +8744,7 @@ valid_1989a.gif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -7687,15 +8786,11 @@ invalid_1987a_broken_header.gif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309>`
-
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309>`
-
 
 
 ----
@@ -7733,15 +8828,11 @@ invalid_1989a_broken_header.gif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80>`
-
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80>`
-
 
 
 ----
@@ -7782,8 +8873,7 @@ invalid__empty.gif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -7795,7 +8885,6 @@ image/jp2
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -7834,15 +8923,11 @@ invalid__header_box_missing_bytes.jp2
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`jpylyzer 2.2.1 <jpylyzer-2.2.1-file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84>`
-
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84>`
-
 
 
 ----
@@ -7888,8 +8973,7 @@ valid__jpylyzer_reference.jp2
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -7936,8 +9020,7 @@ valid__many_qcc_blocks.jp2
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -7979,8 +9062,7 @@ invalid__data_missing.jp2
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8019,8 +9101,7 @@ invalid__empty.jp2
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8032,7 +9113,6 @@ image/jpeg
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.01
@@ -8071,15 +9151,11 @@ invalid_1.01_data_changed.jpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b>`
-
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b>`
-
 
 
 ----
@@ -8125,8 +9201,7 @@ valid_1.01_121_APP2_segments.jpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8173,8 +9248,7 @@ valid_1.01_icc_sRGB_profile.jpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8221,8 +9295,7 @@ valid_1.01.jpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8269,11 +9342,13 @@ valid_1.01_many_jpeg_segments.jpg
        }
    }
 
-**Outputs:**
+**Error messages:**
 
 
 
+----
 
+1.02
 ----
 
 2.2.1
@@ -8320,8 +9395,7 @@ valid_2.2.1_exif_metadata.jpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8368,12 +9442,14 @@ valid_2.2.1_exif_no_jfif.jpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
 ----
+
+
+
 
 (:unav)
 -------
@@ -8411,8 +9487,7 @@ invalid_1.01_no_start_marker.jpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8451,8 +9526,7 @@ invalid__empty.jpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8464,7 +9538,6 @@ image/png
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.2
@@ -8510,13 +9583,10 @@ invalid_1.2_no_IEND.png
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`PNGcheck 4.0.0 <PNGcheck-4.0.0-corpus/file/aad28cd5-cfb7-4cba-bf0c-354a95811f71>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-corpus/file/aad28cd5-cfb7-4cba-bf0c-354a95811f71>`
-
 
 
 ----
@@ -8554,15 +9624,11 @@ invalid_1.2_no_IHDR.png
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049>`
-
 * :ref:`PNGcheck 4.0.0 <PNGcheck-4.0.0-corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049>`
-
 
 
 ----
@@ -8600,15 +9666,11 @@ invalid_1.2_wrong_CRC.png
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82>`
-
 * :ref:`PNGcheck 4.0.0 <PNGcheck-4.0.0-file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82>`
-
 
 
 ----
@@ -8654,8 +9716,7 @@ valid_1.2_LA.png
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8702,8 +9763,7 @@ valid_1.2.png
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8745,8 +9805,7 @@ invalid_1.2_wrong_header.png
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8785,8 +9844,7 @@ invalid__empty.png
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8800,6 +9858,317 @@ image/tiff
    :depth: 2
 
 
+6.0
+---
+
+.. _corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8:
+
+invalid_6.0_payload_altered.tif
+...............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/invalid_6.0_payload_altered.tif>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - d189ad558602f9c9d18a87461cc95b57
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "image/tiff",
+           "stream_type": "image",
+           "version": "6.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8>`
+* :ref:`Pillow 10.0.1 <Pillow-10.0.1-corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8>`
+* :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8>`
+
+
+----
+
+.. _file-scraper/8074fe00-9583-4d2a-a2ee-a61433bd12d6:
+
+valid_6.0_latin1_exif_field.tif
+...............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_latin1_exif_field.tif>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - d99643aceb4173f9b249daa71d2f1735
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "image/tiff",
+           "stream_type": "image",
+           "version": "6.0",
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "rgb",
+           "compression": "zip",
+           "height": "6",
+           "samples_per_pixel": "3",
+           "width": "10",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/7d3fe13f-2444-41c3-b878-10228afde5a8:
+
+valid_6.0_multiple_pages_and_modes.tif
+......................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_multiple_pages_and_modes.tif>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 67243068041c97379457fc891c0cd039
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "image/tiff",
+           "stream_type": "image",
+           "version": "6.0",
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "gray",
+           "compression": "lzw",
+           "height": "100",
+           "samples_per_pixel": "1",
+           "width": "100",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       },
+       "1": {
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "gray",
+           "compression": "no",
+           "height": "100",
+           "index": 1,
+           "mimetype": "image/tiff",
+           "samples_per_pixel": "2",
+           "stream_type": "image",
+           "version": "(:unav)",
+           "width": "100",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       },
+       "2": {
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "rgb",
+           "compression": "lzw",
+           "height": "100",
+           "index": 2,
+           "mimetype": "image/tiff",
+           "samples_per_pixel": "3",
+           "stream_type": "image",
+           "version": "(:unav)",
+           "width": "100",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       },
+       "3": {
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "rgb",
+           "compression": "lzw",
+           "height": "100",
+           "index": 3,
+           "mimetype": "image/tiff",
+           "samples_per_pixel": "4",
+           "stream_type": "image",
+           "version": "(:unav)",
+           "width": "100",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/7ea898b1-eac3-44af-b4e1-2a0447cf1e6c:
+
+valid_6.0_multiple_tiffs.tif
+............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_multiple_tiffs.tif>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 75871144ed73215df0a810e09177162a
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "image/tiff",
+           "stream_type": "image",
+           "version": "6.0",
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "rgb",
+           "compression": "zip",
+           "height": "6",
+           "samples_per_pixel": "3",
+           "width": "10",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       },
+       "1": {
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "rgb",
+           "compression": "zip",
+           "height": "6",
+           "index": 1,
+           "mimetype": "image/tiff",
+           "samples_per_pixel": "3",
+           "stream_type": "image",
+           "version": "(:unav)",
+           "width": "10",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       },
+       "2": {
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "rgb",
+           "compression": "zip",
+           "height": "6",
+           "index": 2,
+           "mimetype": "image/tiff",
+           "samples_per_pixel": "3",
+           "stream_type": "image",
+           "version": "(:unav)",
+           "width": "10",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/e6bb54fe-953d-4903-9c4a-278b73751999:
+
+valid_6.0.tif
+.............
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0.tif>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 1559aa902da28ffe2cb55f6319c963f3
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "image/tiff",
+           "stream_type": "image",
+           "version": "6.0",
+           "bps_unit": "integer",
+           "bps_value": "8",
+           "colorspace": "rgb",
+           "compression": "zip",
+           "height": "6",
+           "samples_per_pixel": "3",
+           "width": "10",
+           "byte_order": "little endian",
+           "icc_profile_name": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
 
 (:unav)
 -------
@@ -8837,8 +10206,7 @@ invalid_6.0_wrong_byte_order.tif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8877,8 +10245,7 @@ invalid__empty.tif
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8890,7 +10257,6 @@ image/vnd.microsoft.icon
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unav)
@@ -8929,8 +10295,7 @@ invalid__no_scraper_found.ico
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -8942,7 +10307,6 @@ image/webp
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -8989,8 +10353,7 @@ valid__lossless.webp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9037,8 +10400,7 @@ valid__lossy.webp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9080,8 +10442,7 @@ invalid__empty.webp
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9113,13 +10474,10 @@ invalid__lossless_with_lossy_header.webp
 
    {}
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f>`
-
 
 
 ----
@@ -9150,13 +10508,10 @@ invalid__missing_bitstream.webp
 
    {}
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b>`
-
 
 
 ----
@@ -9187,13 +10542,10 @@ invalid__missing_icc_profile.webp
 
    {}
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd>`
-
 
 
 ----
@@ -9224,13 +10576,10 @@ invalid__missing_image_data.webp
 
    {}
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea>`
-
 
 
 ----
@@ -9241,7 +10590,6 @@ image/x-adobe-dng
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.4
@@ -9281,15 +10629,11 @@ invalid_1.4_edited_header.dng
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
-
 * :ref:`Pillow 10.0.1 <Pillow-10.0.1-corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
-
 * :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
-
 
 
 ----
@@ -9336,8 +10680,7 @@ valid_1.4.dng
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9379,8 +10722,7 @@ invalid__empty.dng
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9392,7 +10734,6 @@ image/x-dpx
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1.0
@@ -9431,8 +10772,7 @@ valid_1.0_just_version_change_from_2.0.dpx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9474,8 +10814,7 @@ valid_2.0.dpx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9517,11 +10856,9 @@ invalid_2.0_file_size_error.dpx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`dpx-validator 1.0.1 <dpx-validator-1.0.1-file-scraper/f6c478bf-41c7-4e54-a85c-879b4c7edf66>`
-
 
 
 ----
@@ -9559,11 +10896,9 @@ invalid_2.0_missing_data.dpx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`dpx-validator 1.0.1 <dpx-validator-1.0.1-corpus/file/3dadcb0e-8424-4127-a9a9-69b4f3e868a8>`
-
 
 
 ----
@@ -9601,11 +10936,9 @@ invalid_2.0_wrong_endian.dpx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`dpx-validator 1.0.1 <dpx-validator-1.0.1-corpus/file/4d39f111-3166-4602-a6f3-148471c2086b>`
-
 
 
 ----
@@ -9643,8 +10976,7 @@ invalid__empty_file.dpx
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9656,7 +10988,6 @@ text/csv
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -9706,8 +11037,7 @@ invalid__missing_end_quote.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9757,8 +11087,7 @@ valid__ascii.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9808,8 +11137,7 @@ valid__ascii_header.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9849,8 +11177,7 @@ valid__header_only.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9900,8 +11227,7 @@ valid__iso8859-15.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9951,8 +11277,7 @@ valid__iso8859-15_header.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -9992,8 +11317,7 @@ valid__quotechar.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10043,8 +11367,7 @@ valid__utf8.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10094,8 +11417,7 @@ valid__utf8_header.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10137,8 +11459,7 @@ invalid__empty.csv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10150,7 +11471,6 @@ text/html
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 4.01
@@ -10190,11 +11510,9 @@ invalid_4.01_illegal_tags.html
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/e9cd0c98-bbc4-4a5d-b17d-6d073775a95c>`
-
 
 
 ----
@@ -10233,8 +11551,171 @@ valid_4.01.html
        }
    }
 
-**Outputs:**
+**Error messages:**
 
+
+
+----
+
+5
+-
+
+.. _file-scraper/c45812d5-67b4-4ef5-8645-45aaefb7e6e2:
+
+invalid_5_illegal_tags.html
+...........................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/invalid_5_illegal_tags.html>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 7255c016185de6b1d0594a0b2e2be93a
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/html",
+           "stream_type": "text",
+           "version": "5"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`Validator.nu 20.6.30 <Validator.nu-20.6.30-file-scraper/c45812d5-67b4-4ef5-8645-45aaefb7e6e2>`
+
+
+----
+
+.. _file-scraper/85ec6bde-3e2f-4a68-9c74-7c4b30e55810:
+
+valid_5.html
+............
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/valid_5.html>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - be0f4a19e6b3bf3d0f66083b00d91226
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/html",
+           "stream_type": "text",
+           "version": "5"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/a48a7dc3-fb18-479a-b163-a72d7895ce22:
+
+valid_5_language_warning.html
+.............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/valid_5_language_warning.html>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - a9a9b5ff3b72255f8cf15e17379ace5e
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/html",
+           "stream_type": "text",
+           "version": "5"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/7c0bace1-4107-44d3-adf8-919b52e78426:
+
+valid_5_unicode_normalization_warning.html
+..........................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/valid_5_unicode_normalization_warning.html>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - b44411e53741e6ed72ceaa25a403a092
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/html",
+           "stream_type": "text",
+           "version": "5"
+       }
+   }
+
+**Error messages:**
 
 
 
@@ -10277,13 +11758,10 @@ invalid_4.01_nodoctype.html
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/65e97681-3a6c-4416-b4ff-b501a4f8a06b>`
-
 * :ref:`Validator.nu 20.6.30 <Validator.nu-20.6.30-file-scraper/65e97681-3a6c-4416-b4ff-b501a4f8a06b>`
-
 
 
 ----
@@ -10322,13 +11800,10 @@ invalid_5_nodoctype.html
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-file-scraper/fa318d1f-0d26-40a3-b35c-16b979943a72>`
-
 * :ref:`Validator.nu 20.6.30 <Validator.nu-20.6.30-file-scraper/fa318d1f-0d26-40a3-b35c-16b979943a72>`
-
 
 
 ----
@@ -10366,8 +11841,7 @@ invalid__empty.html
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10379,7 +11853,6 @@ text/plain
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -10419,8 +11892,7 @@ invalid__unknown_encoding_cp437.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10460,8 +11932,7 @@ valid__ascii.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10501,49 +11972,7 @@ valid__iso8859.txt
        }
    }
 
-**Outputs:**
-
-
-
-
-----
-
-.. _file-scraper/d90a686a-c5f4-4af4-ab89-7847b1c662ce:
-
-valid__should_scrape_as_plain_text.json
-.......................................
-
-
-**Info:**
-
-.. list-table::
-
-   * - Location
-     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_plain/valid__should_scrape_as_plain_text.json>`__
-   * - Description
-     - 
-   * - Well-formed
-     - True
-   * - MD5
-     - 5095125bd458ba48154e11b28ac61e98
-
-
-**Streams:**
-
-.. code:: json
-
-   {
-       "0": {
-           "charset": "UTF-8",
-           "index": 0,
-           "mimetype": "text/plain",
-           "stream_type": "text",
-           "version": "(:unap)"
-       }
-   }
-
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10583,8 +12012,7 @@ valid__utf16be_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10624,8 +12052,7 @@ valid__utf16le_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10665,8 +12092,7 @@ valid__utf32be_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10706,8 +12132,7 @@ valid__utf32le_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10747,8 +12172,7 @@ valid__utf8_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10788,8 +12212,7 @@ valid__utf8_multibyte.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10829,8 +12252,7 @@ valid__utf8_without_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10872,8 +12294,7 @@ invalid__binary_data.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10912,8 +12333,7 @@ invalid__control_character.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10952,8 +12372,7 @@ invalid__empty.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -10992,8 +12411,7 @@ invalid__utf8_just_c3.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11032,8 +12450,7 @@ valid__utf16be_multibyte.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11072,8 +12489,7 @@ valid__utf16be_without_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11112,8 +12528,7 @@ valid__utf16le_multibyte.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11152,8 +12567,7 @@ valid__utf16le_without_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11192,8 +12606,7 @@ valid__utf32be_without_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11232,8 +12645,7 @@ valid__utf32le_without_bom.txt
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11247,6 +12659,823 @@ text/xml
    :depth: 2
 
 
+1.0
+---
+
+.. _file-scraper/d4df5045-85ab-4476-810d-71e883cc2673:
+
+invalid_1.0_addml.xml
+.....................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_addml.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 1b0ffe664bd23303e78c4b8d4bc77423
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/d4df5045-85ab-4476-810d-71e883cc2673>`
+
+
+----
+
+.. _file-scraper/84eb4623-b43b-4c53-9c40-fa9d942d2484:
+
+invalid_1.0_catalog.xml
+.......................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_catalog.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 0e37e449dab118ae233b3b54b5de5860
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/84eb4623-b43b-4c53-9c40-fa9d942d2484>`
+
+
+----
+
+.. _file-scraper/a818c599-222f-412f-be9b-5381b8adac65:
+
+invalid_1.0_diacritics_in_schema_path.xml
+.........................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_diacritics_in_schema_path.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 034f1760a645ee2f22e2e61f64227fef
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/a818c599-222f-412f-be9b-5381b8adac65>`
+
+
+----
+
+.. _file-scraper/55596b35-c3d9-447c-ac9d-25df3f6dda30:
+
+invalid_1.0_dtd.xml
+...................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_dtd.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - afa5072443129d110eafcb32a3f99615
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/55596b35-c3d9-447c-ac9d-25df3f6dda30>`
+
+
+----
+
+.. _file-scraper/0a7c133f-07fe-4d8b-b162-c90513ffaec3:
+
+invalid_1.0_incorrect_encoding.xml
+..................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_incorrect_encoding.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - b769a876ec6b4feaeb3f71c7433591c8
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "ISO-8859-15",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/0a7c133f-07fe-4d8b-b162-c90513ffaec3>`
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/0a7c133f-07fe-4d8b-b162-c90513ffaec3>`
+
+
+----
+
+.. _file-scraper/566f91ce-9e55-4cc8-83d7-7d8cad3077ba:
+
+invalid_1.0_local_xsd.xml
+.........................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_local_xsd.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 23d1cd75dc0394318ff01448c0f10171
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/566f91ce-9e55-4cc8-83d7-7d8cad3077ba>`
+
+
+----
+
+.. _file-scraper/8f694f62-c3a5-426e-8913-f98985306fc6:
+
+invalid_1.0_no_closing_tag.xml
+..............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_no_closing_tag.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - e8978be7fba4992d3e68bd270701ff5a
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/8f694f62-c3a5-426e-8913-f98985306fc6>`
+
+
+----
+
+.. _file-scraper/ff8c8ec1-9468-44da-bf85-3ac9b6580b72:
+
+invalid_1.0_no_namespace_xsd.xml
+................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_no_namespace_xsd.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - fe3d2a3aa1fcb0ce42876e8bddc03ff3
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/ff8c8ec1-9468-44da-bf85-3ac9b6580b72>`
+
+
+----
+
+.. _file-scraper/1b8d91f5-3c34-4cc7-87db-416748ad6d38:
+
+invalid_1.0_xsd.xml
+...................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_1.0_xsd.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 97a47e8db5a00611a0f84343bf059574
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/1b8d91f5-3c34-4cc7-87db-416748ad6d38>`
+
+
+----
+
+.. _file-scraper/5563b5fe-a58e-42b2-906a-cee18aa5c955:
+
+invalid_local.xsd
+.................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/invalid_local.xsd>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - dddf2bd01f0834e4878cc87cfb935d36
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/5563b5fe-a58e-42b2-906a-cee18aa5c955>`
+
+
+----
+
+.. _file-scraper/0880eabc-4c34-47a0-9b8d-fda3a8515145:
+
+valid_1.0_addml.xml
+...................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_addml.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - e92ac053ade0d3fe7962b076ec1ce14c
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/fa95392b-5965-4ee2-a76c-23c730d49ae8:
+
+valid_1.0_catalog.xml
+.....................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_catalog.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - d30c71861bad2cb666cf58a1cf4c9827
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/fa95392b-5965-4ee2-a76c-23c730d49ae8>`
+
+
+----
+
+.. _file-scraper/4f55c522-959e-4381-a358-27f66bce0e32:
+
+valid_1.0_containing_gml.xml
+............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_containing_gml.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 52dd0a3a12afd7d72d66f3180ea5437c
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/80ea3b41-7d8f-4071-b8ff-ec99cc2f2570:
+
+valid_1.0_dtd.xml
+.................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_dtd.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 693e741a5c480585c1b499a1b6260cf3
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _corpus/file/d6212bc1-c00a-423b-be01-7a114b2230e9:
+
+valid_1.0_gpx_1.0.xml
+.....................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_gpx_1.0.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 82810806c8ba2879a83e9d27dba4c6ec
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/5e9d7734-ce84-48cd-97c7-89d28dfdc00c:
+
+valid_1.0_local_xsd.xml
+.......................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_local_xsd.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 6384bca55ff984211960a4e0bff123ad
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/5e9d7734-ce84-48cd-97c7-89d28dfdc00c>`
+
+
+----
+
+.. _file-scraper/22497350-66fb-48e7-a74a-f17591ef8055:
+
+valid_1.0_no_namespace_catalog.xml
+..................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_no_namespace_catalog.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - a52a59b9cabe2104936a006bfe690bd2
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/22497350-66fb-48e7-a74a-f17591ef8055>`
+
+
+----
+
+.. _file-scraper/6189c18e-9432-4305-807e-e216969d9525:
+
+valid_1.0_no_namespace_xsd.xml
+..............................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_no_namespace_xsd.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 95901abc1bbf403faf95419f7773074f
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/94117ece-32be-42bf-a56a-45e565ed7857:
+
+valid_1.0_well_formed.xml
+.........................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_well_formed.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - e59a741c39eebe5a39e67721257c3678
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+.. _file-scraper/aa0d17fe-3d6e-49d6-94d0-f82f0b0243ab:
+
+valid_1.0_xsd.xml
+.................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - `github.com <https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_xsd.xml>`__
+   * - Description
+     - 
+   * - Well-formed
+     - False
+   * - MD5
+     - 1f432e68c46a2e930c30d0027121e246
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "charset": "UTF-8",
+           "index": 0,
+           "mimetype": "text/xml",
+           "stream_type": "text",
+           "version": "1.0"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`lxml 4.6.5.0 <lxml-4.6.5.0-file-scraper/aa0d17fe-3d6e-49d6-94d0-f82f0b0243ab>`
+
+
+----
 
 (:unap)
 -------
@@ -11285,8 +13514,7 @@ valid_1.0_mets_noheader.xml
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11328,8 +13556,7 @@ invalid__empty.xml
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11341,7 +13568,6 @@ video/avi
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -11423,8 +13649,7 @@ valid__mpeg2_mp3.avi
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11436,6 +13661,8 @@ video/dv
 .. contents:: Versions
    :local:
    :depth: 2
+
+
 
 
 
@@ -11492,11 +13719,9 @@ invalid__missing_data.dv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/718c6593-6197-49f6-b2c3-6247e4b0e08d>`
-
 
 
 ----
@@ -11551,8 +13776,7 @@ valid__pal_lossy.dv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11594,8 +13818,7 @@ invalid__empty.dv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11607,7 +13830,6 @@ video/MP1S
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -11689,8 +13911,7 @@ valid__mpeg1_mp3.mpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11732,8 +13953,7 @@ invalid__empty.mpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11745,7 +13965,6 @@ video/MP2P
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -11827,8 +14046,7 @@ invalid__mpeg2_ac3.mpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11910,8 +14128,7 @@ valid__mpeg2_mp3.mpg
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -11923,7 +14140,6 @@ video/MP2T
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -12005,8 +14221,7 @@ valid__h265_aac.ts
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12088,8 +14303,7 @@ valid__mpeg2_mp3.ts
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12131,8 +14345,7 @@ invalid__empty.ts
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12183,13 +14396,10 @@ invalid__missing_data.ts
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/5a9a84c1-c73f-4051-98c8-92772cc30863>`
-
 * :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-corpus/file/5a9a84c1-c73f-4051-98c8-92772cc30863>`
-
 
 
 ----
@@ -12227,8 +14437,7 @@ invalid__missing_sync_byte.ts
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12240,7 +14449,6 @@ video/mp4
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -12322,11 +14530,9 @@ invalid__h265_aac_invalid_data.mp4
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-file-scraper/5fc90433-2a60-4b05-a565-caa392ea4b48>`
-
 
 
 ----
@@ -12407,8 +14613,7 @@ valid__h264_aac.mp4
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12490,8 +14695,7 @@ valid__h264_aac_mp42.mp4
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12573,8 +14777,7 @@ valid__h265_aac.mp4
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12656,8 +14859,7 @@ valid__too_many_packets_buffered.mp4
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12699,8 +14901,7 @@ invalid__empty.mp4
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12732,13 +14933,10 @@ invalid__h264_aac_missing_data.mp4
 
    {}
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/23e0ece3-63a9-41db-9c73-6bdfa4ce7adf>`
-
 * :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-corpus/file/23e0ece3-63a9-41db-9c73-6bdfa4ce7adf>`
-
 
 
 ----
@@ -12749,7 +14947,6 @@ video/mpeg
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 1
@@ -12805,11 +15002,9 @@ invalid_1_missing_data.m1v
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/a4685bc5-ebe6-4a23-b97b-f6b482541e17>`
-
 
 
 ----
@@ -12864,8 +15059,7 @@ valid_1.m1v
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -12924,11 +15118,9 @@ invalid_2_missing_data.m2v
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/07d52e02-50d2-4c4d-ba9f-78adfda1efcf>`
-
 
 
 ----
@@ -12983,8 +15175,7 @@ valid_2.m2v
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13026,8 +15217,7 @@ invalid_1_empty.m1v
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13066,8 +15256,7 @@ invalid_2_empty.m2v
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13079,6 +15268,8 @@ video/quicktime
 .. contents:: Versions
    :local:
    :depth: 2
+
+
 
 
 
@@ -13161,8 +15352,7 @@ invalid__cinepak_lpcm8.mov
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13244,8 +15434,7 @@ invalid__prores_lpcm8.mov
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13327,8 +15516,7 @@ valid__dv_lpcm8.mov
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13410,8 +15598,7 @@ valid__h264_aac.mov
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13493,8 +15680,7 @@ valid__h264_aac_no_ftyp_atom.mov
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13576,8 +15762,7 @@ valid__h265_aac.mov
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13589,7 +15774,6 @@ video/x-matroska
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 4
@@ -13671,8 +15855,7 @@ invalid_4_ffv1_aac.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13737,8 +15920,7 @@ invalid_4_ffv1_wrong_duration.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13803,8 +15985,7 @@ invalid_4_mp1.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13886,8 +16067,7 @@ valid_4_ffv1_flac.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -13969,8 +16149,7 @@ valid_4_ffv1_lpcm8.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -14035,8 +16214,7 @@ valid_4_ffv1.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -14101,8 +16279,7 @@ valid_4_h265.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -14150,13 +16327,10 @@ invalid_4_ffv1_missing_data.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-file-scraper/688c187d-6767-46bd-ad9d-bbef1df69d53>`
-
 * :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-file-scraper/688c187d-6767-46bd-ad9d-bbef1df69d53>`
-
 
 
 ----
@@ -14194,8 +16368,7 @@ invalid__empty.mkv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -14207,7 +16380,6 @@ video/x-ms-asf
 .. contents:: Versions
    :local:
    :depth: 2
-
 
 
 (:unap)
@@ -14272,11 +16444,9 @@ invalid__vc1_missing_data.wmv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 * :ref:`ffmpeg 6.0 <ffmpeg-6.0-file-scraper/ac3c1814-3216-4865-9f15-b840f7103b0a>`
-
 
 
 ----
@@ -14357,8 +16527,7 @@ invalid__vc1_mp3.wmv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -14417,8 +16586,7 @@ invalid__wma7.wma
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -14500,8 +16668,7 @@ valid__vc1_wma9.wmv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -14566,8 +16733,7 @@ valid__vc1.wmv
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 
@@ -14626,8 +16792,7 @@ valid__wma9.wma
        }
    }
 
-**Outputs:**
-
+**Error messages:**
 
 
 

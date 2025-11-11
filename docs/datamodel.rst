@@ -35,7 +35,6 @@ notes : array
     Additional information on the error.
 
 
-
 2. Analysis
 -----------
 
@@ -62,7 +61,6 @@ significantProperties : array of string
 
 fixable : ['yes', 'no', '']
     Should a fix be determined for the error based on this analysis?
-
 
 
 3. Repair
@@ -94,7 +92,6 @@ justification : string
 
 files : array of string
     Knowledge base file object identifiers that refer to file that were normalised using this solution.
-
 4. File
 -------
 
@@ -123,7 +120,6 @@ location : array of string
     List of free form descriptions of the file locations to the source. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.
 
 
-
 5. Format
 ---------
 
@@ -147,5 +143,4 @@ profile : string
 
 description : string
     Free form description.
-
 
