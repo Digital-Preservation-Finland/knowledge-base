@@ -32,18 +32,48 @@ ImageMagick
 JHOVE
 -----
 
+ - `CSS 001 ERROR <database/solutions/JHOVE/CSS-001-ERROR/index.html>`_
  - `Chunk ID character outside printable ASCII range <database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/index.html>`_
  - `Chunk ID contains space before printable characters BKj <database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/index.html>`_
+ - `Document catalog dictionary object number and trailer root ref number are inconsistent <database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/index.html>`_
  - `File does not begin with SPIFF Exif or JFIF segment <database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/index.html>`_
  - `File does not start with RIFF header <database/solutions/JHOVE/File-does-not-start-with-RIFF-header/index.html>`_
+ - `IFD offset not word aligned <database/solutions/JHOVE/IFD-offset-not-word-aligned/index.html>`_
+ - `Improperly formed date <database/solutions/JHOVE/Improperly-formed-date/index.html>`_
  - `Improperly nested array delimiters <database/solutions/JHOVE/Improperly-nested-array-delimiters/index.html>`_
+ - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
  - `Invalid Checksum <database/solutions/JHOVE/Invalid-Checksum/index.html>`_
+ - `Invalid GIF header <database/solutions/JHOVE/Invalid-GIF-header/index.html>`_
  - `Invalid character in hex string <database/solutions/JHOVE/Invalid-character-in-hex-string/index.html>`_
  - `Invalid chunk size <database/solutions/JHOVE/Invalid-chunk-size/index.html>`_
+ - `Invalid cross reference table <database/solutions/JHOVE/Invalid-cross-reference-table/index.html>`_
+ - `Invalid destination object <database/solutions/JHOVE/Invalid-destination-object/index.html>`_
+ - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
+ - `JPEGProc not defined for JPEG compression <database/solutions/JHOVE/JPEGProc-not-defined-for-JPEG-compression/index.html>`_
  - `Lexical error <database/solutions/JHOVE/Lexical-error/index.html>`_
  - `Malformed dictionary Vector must contain an even number of objects but has 17 <database/solutions/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17/index.html>`_
+ - `Missing startxref keyword or value <database/solutions/JHOVE/Missing-startxref-keyword-or-value/index.html>`_
+ - `No Format chunk found <database/solutions/JHOVE/No-Format-chunk-found/index.html>`_
  - `No PDF trailer <database/solutions/JHOVE/No-PDF-trailer/index.html>`_
+ - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
+ - `No file trailer <database/solutions/JHOVE/No-file-trailer/index.html>`_
+ - `PDF minor version number is greater than <database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/index.html>`_
+ - `PKG 006 ERROR <database/solutions/JHOVE/PKG-006-ERROR/index.html>`_
+ - `Premature EOF <database/solutions/JHOVE/Premature-EOF/index.html>`_
+ - `RSC 005 ERROR <database/solutions/JHOVE/RSC-005-ERROR/index.html>`_
+ - `RSC 017 WARN <database/solutions/JHOVE/RSC-017-WARN/index.html>`_
+ - `SAXParseException Element type must be declared <database/solutions/JHOVE/SAXParseException-Element-type-must-be-declared/index.html>`_
+ - `SAXParseException The content of element type html must match headbody <database/solutions/JHOVE/SAXParseException-The-content-of-element-type-html-must-match-headbody/index.html>`_
+ - `SAXParseException The element type body must be terminated by the matching end tag body <database/solutions/JHOVE/SAXParseException-The-element-type-body-must-be-terminated-by-the-matching-end-tag-body/index.html>`_
+ - `Tag out of sequence <database/solutions/JHOVE/Tag-out-of-sequence/index.html>`_
+ - `Unexpected end of file <database/solutions/JHOVE/Unexpected-end-of-file/index.html>`_
+ - `Unexpected exception java <database/solutions/JHOVE/Unexpected-exception-java/index.html>`_
  - `Unexpected exception javalangNullPointerException <database/solutions/JHOVE/Unexpected-exception-javalangNullPointerException/index.html>`_
+ - `Unknown data block type <database/solutions/JHOVE/Unknown-data-block-type/index.html>`_
+ - `Unknown data type <database/solutions/JHOVE/Unknown-data-type/index.html>`_
+ - `Unknown tag <database/solutions/JHOVE/Unknown-tag/index.html>`_
+ - `Unrecognized or missing DOCTYPE declaration validation continuing as HTML 32 <database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/index.html>`_
+ - `Value offset not word aligned <database/solutions/JHOVE/Value-offset-not-word-aligned/index.html>`_
 
 Validator.nu
 ------------

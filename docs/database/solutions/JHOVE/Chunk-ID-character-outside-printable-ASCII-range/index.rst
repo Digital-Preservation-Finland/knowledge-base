@@ -19,8 +19,8 @@ Classification
    * - **Validator**
      - **Validator version**
      - **Error message type**
-   * - jhove
-     - 
+   * - JHOVE
+     - 1.32.1
      - 
 
 
@@ -32,9 +32,9 @@ Classification
      - **Description**
      - **Location**
    * - audio/x-wav
+     - (:unav)
      - 
-     - audio/x-wav  : Virtual file object connecting error message to a file format specification and without a file location.
-     - 
+     - :ref:`corpus <corpus/file/406e5d9c-da24-479b-a38f-be6d9cb8603a>`
 
 --------
 Analyses
@@ -63,23 +63,117 @@ Output example
 ::
 
 
-	"<?xml version=\""1.0\"" encoding=\""UTF-8\""?>
-	<jhove xmlns:xsi=\""http://www.w3.org/2001/XMLSchema-instance\"" xmlns=\""http://schema.openpreservation.org/ois/xml/ns/jhove\"" xsi:schemaLocation=\""http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd\"" name=\""Jhove\"" release=\""1.24.1\"" date=\""2020-03-16\"">
-	<date>2023-01-25T17:41:19+02:00</date>
-	<repInfo uri=\""_/354/354Kn/354Kn14/354Kn14_1.wav\"">
-	<reportingModule release=\""1.8.1\"" date=\""2019-12-10\"">WAVE-hul</reportingModule>
-	<lastModified>2013-05-20T13:37:16+03:00</lastModified>
-	<size>98617097</size>
-	<format>WAVE</format>
-	<status>Not well-formed</status>
-	<sigMatch>
-	<module>WAVE-hul</module>
-	</sigMatch>
-	<messages>
-	<message offset=\""98360322\"" severity=\""info\"" id=\""WAVE-HUL-7\"">Ignored unrecognized chunk: \""ext\\\""</message>
-	<message subMessage=\""Character = 0x01\"" offset=\""98360333\"" severity=\""error\"" id=\""IFF-HUL-1\"">Chunk ID character outside printable ASCII range</message>
-	<message subMessage=\""Chunk = &quot
-
+	Validator returned error.
+	<?xml version="1.0" encoding="UTF-8"?>
+	<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
+	 <date>2025-10-29T17:25:01+02:00</date>
+	 <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_data_bytes_missing.wav">
+	  <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
+	  <lastModified>2025-10-28T08:43:04+02:00</lastModified>
+	  <size>76717</size>
+	  <format>WAVE</format>
+	  <status>Not well-formed</status>
+	  <sigMatch>
+	  <module>WAVE-hul</module>
+	  </sigMatch>
+	  <messages>
+	   <message subMessage="Character = 0x03" offset="75856" severity="error" id="IFF-HUL-1" infoLink="https://github.com/openpreserve/jhove/wiki/WAVE-hul-Messages#iff-hul-1">Chunk ID character outside printable ASCII range</message>
+	   <message subMessage="Chunk = &quot;RIFF&quot;; Bytes = 860; Null = false" offset="75857" severity="info" id="WAVE-HUL-26" infoLink="https://github.com/openpreserve/jhove/wiki/WAVE-hul-Messages#wave-hul-26">Ignored unrecognized data remaining in chunk</message>
+	  </messages>
+	  <mimeType>audio/vnd.wave; codec=1</mimeType>
+	  <profiles>
+	   <profile>PCMWAVEFORMAT</profile>
+	  </profiles>
+	  <properties>
+	   <property>
+	    <name>WAVEMetadata</name>
+	    <values arity="List" type="Property">
+	    <property>
+	     <name>AESAudioMetadata</name>
+	     <values arity="Scalar" type="AESAudioMetadata">
+	      <value>
+	      <aes:audioObject xmlns:aes="http://www.aes.org/audioObject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="J4" analogDigitalFlag="FILE_DIGITAL" disposition="Validated by JHOVE" schemaVersion="1.0.0">
+	       <aes:format specificationVersion="">WAVE</aes:format>
+	       <aes:audioDataEncoding>PCM audio in integer format</aes:audioDataEncoding>
+	       <aes:byteOrder>LITTLE_ENDIAN</aes:byteOrder>
+	       <aes:firstSampleOffset>78</aes:firstSampleOffset>
+	       <aes:use useType="OTHER" otherType="JHOVE_validation"/>
+	       <aes:primaryIdentifier identifierType="FILE_NAME">/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_data_bytes_missing.wav</aes:primaryIdentifier>
+	       <aes:face direction="NONE" ID="J3" audioObjectRef="J4" label="Face">
+	        <aes:timeline>
+	         <aes:startTime editRate="44100" factorNumerator="1" factorDenominator="1">0</aes:startTime>
+	         <aes:duration editRate="44100" factorNumerator="1" factorDenominator="1">37888</aes:duration>
+	        </aes:timeline>
+	        <aes:region ID="J2" formatRef="J1" faceRef="J3" label="BuiltByJHOVE">
+	         <aes:timeRange>
+	          <aes:startTime editRate="44100" factorNumerator="1" factorDenominator="1">0</aes:startTime>
+	          <aes:duration editRate="44100" factorNumerator="1" factorDenominator="1">37888</aes:duration>
+	         </aes:timeRange>
+	         <aes:numChannels>2</aes:numChannels>
+	         <aes:stream ID="J90" label="JHOVE" faceRegionRef="J2">
+	          <aes:channelAssignment channelNum="0"/>
+	         </aes:stream>
+	         <aes:stream ID="J91" label="JHOVE" faceRegionRef="J2">
+	          <aes:channelAssignment channelNum="1"/>
+	         </aes:stream>
+	        </aes:region>
+	       </aes:face>
+	       <aes:formatList>
+	        <aes:formatRegion ID="J1" xsi:type="aes:formatRegionType" ownerRef="J2" label="JHOVE">
+	         <aes:bitDepth>8</aes:bitDepth>
+	         <aes:sampleRate>44100</aes:sampleRate>
+	        </aes:formatRegion>
+	       </aes:formatList>
+	      </aes:audioObject>
+	      </value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>CompressionCode</name>
+	     <values arity="Scalar" type="String">
+	      <value>PCM audio in integer format</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>AverageBytesPerSecond</name>
+	     <values arity="Scalar" type="Long">
+	      <value>88200</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>BlockAlign</name>
+	     <values arity="Scalar" type="Integer">
+	      <value>2</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>ListInfo</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>Software</name>
+	      <values arity="Scalar" type="String">
+	       <value>Lavf56.40.101</value>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Data</name>
+	     <values arity="Scalar" type="Property">
+	     <property>
+	      <name>DataLength</name>
+	      <values arity="Scalar" type="Long">
+	       <value>75776</value>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    </values>
+	   </property>
+	  </properties>
+	 </repInfo>
+	</jhove>
+	
 
 
 ------------------
@@ -95,13 +189,5 @@ Related errors by source files
 
 ::
 
-	ffmpeg:	Error while decoding stream #0:0: Invalid data found when processing input
-	ffprobe:	Error opening filters!
-	ffprobe:	Invalid data found when processing input
-	jhove:	Chunk ID character outside printable ASCII range
-	jhove:	"Chunk ID contains space before printable characters: \"""" BKj\"""""
-	jhove:	File does not start with RIFF header
-	jhove:	Invalid chunk size
-	mediainfo:	No audio or video tracks found.
-	unknown:	Unknown list type in Associated Data List chunk: Type = "INFO"
+	JHOVE:	Chunk ID character outside printable ASCII range
 

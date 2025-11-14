@@ -21,7 +21,6 @@
       2       2    1185 database/files/application_pdf/A-2b
       1       1     589 database/files/application_pdf/A-2u
       2       2    1316 database/files/application_pdf/A-3b
-      1      18     318 database/files/application_pdf/generic
       1       1     594 database/files/application_vnd.ms-excel/8X
       1       1     615 database/files/application_vnd.ms-excel/generic
       4       5    2381 database/files/application_vnd.ms-powerpoint/97-2003
@@ -76,7 +75,7 @@
       1       1     868 database/files/audio_x-aiff/generic
       1      18     316 database/files/audio_x-ms-wma/generic
       1       1     854 database/files/audio_x-wav/2
-      7      24    4690 database/files/audio_x-wav/generic
+      6       6    4380 database/files/audio_x-wav/generic
       2       2    1305 database/files/image_gif/1987a
       2       2    1775 database/files/image_gif/1989a
       2      12    1202 database/files/image_gif/GIF image data 10 x 6
@@ -136,18 +135,48 @@
       1      15     353 database/solutions/Ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu/error
       1      14     508 database/solutions/ImageMagick/Incompatible-type-for-RichTIFFIPTC/error
       1      11     300 database/solutions/ImageMagick/Read-error-on-strip/error
-      1      55    1553 database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/error
+      1     230    5259 database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/error
       1      62    1699 database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/error
+      1     176    3504 database/solutions/JHOVE/CSS-001-ERROR/error
+      1     175    3606 database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/error
       1     220    6053 database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/error
       1      39    1216 database/solutions/JHOVE/File-does-not-start-with-RIFF-header/error
+      1      47    1477 database/solutions/JHOVE/IFD-offset-not-word-aligned/error
+      1   10074  208963 database/solutions/JHOVE/Improperly-formed-date/error
       1       4     273 database/solutions/JHOVE/Improperly-nested-array-delimiters/error
+      1      41    2093 database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/error
       1       5     267 database/solutions/JHOVE/Invalid-character-in-hex-string/error
       1       2     236 database/solutions/JHOVE/Invalid-Checksum/error
       1      56    1599 database/solutions/JHOVE/Invalid-chunk-size/error
+      1      47    1670 database/solutions/JHOVE/Invalid-cross-reference-table/error
+      1   20333  452358 database/solutions/JHOVE/Invalid-destination-object/error
+      1      36    1267 database/solutions/JHOVE/Invalid-GIF-header/error
+      1      47    5859 database/solutions/JHOVE/Invalid-object-definition/error
+      1     435   11812 database/solutions/JHOVE/JPEGProc-not-defined-for-JPEG-compression/error
       1       2     231 database/solutions/JHOVE/Lexical-error/error
       1      13     365 database/solutions/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17/error
-      1       3     237 database/solutions/JHOVE/No-PDF-trailer/error
+      1      43    1485 database/solutions/JHOVE/Missing-startxref-keyword-or-value/error
+      1      48    4641 database/solutions/JHOVE/No-document-catalog-dictionary/error
+      1      39    1275 database/solutions/JHOVE/No-file-trailer/error
+      1      66    1782 database/solutions/JHOVE/No-Format-chunk-found/error
+      1      39    1384 database/solutions/JHOVE/No-PDF-trailer/error
+      1     388    8700 database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/error
+      1     156    3594 database/solutions/JHOVE/PKG-006-ERROR/error
+      1      45    1463 database/solutions/JHOVE/Premature-EOF/error
+      1     161    3322 database/solutions/JHOVE/RSC-005-ERROR/error
+      1     165    3482 database/solutions/JHOVE/RSC-017-WARN/error
+      1    5117   52573 database/solutions/JHOVE/SAXParseException-Element-type-must-be-declared/error
+      1    5120   52604 database/solutions/JHOVE/SAXParseException-The-content-of-element-type-html-must-match-headbody/error
+      1      83    1709 database/solutions/JHOVE/SAXParseException-The-element-type-body-must-be-terminated-by-the-matching-end-tag-body/error
+      1    3853   67898 database/solutions/JHOVE/Tag-out-of-sequence/error
+      1     210    5013 database/solutions/JHOVE/Unexpected-end-of-file/error
+      1     385   11814 database/solutions/JHOVE/Unexpected-exception-java/error
       1       3     309 database/solutions/JHOVE/Unexpected-exception-javalangNullPointerException/error
+      1      49    1442 database/solutions/JHOVE/Unknown-data-block-type/error
+      1    3851   67893 database/solutions/JHOVE/Unknown-data-type/error
+      1      85    1871 database/solutions/JHOVE/Unknown-tag/error
+      1     102    2122 database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/error
+      1    3852   67906 database/solutions/JHOVE/Value-offset-not-word-aligned/error
       1      36     695 database/solutions/libreoffice/E-ltstringvalue-assertion-string-void-failed/error
       1      16     359 database/solutions/lxml/Schema-definition-probably-missing-from-XML-catalog/error
       1      13     343 database/solutions/mediainfo/File-contains-a-truncated-track/error
@@ -214,4 +243,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1516   34701 1142587 yhteensä
+   1544   90105 2202010 yhteensä

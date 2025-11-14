@@ -31,10 +31,6 @@ Classification
      - **Version**
      - **Description**
      - **Location**
-   * - audio/x-wav
-     - 
-     - audio/x-wav  : Virtual file object connecting error message to a file format specification and without a file location.
-     - 
 
 --------
 Analyses
@@ -103,7 +99,6 @@ Related errors by source files
 	ffmpeg:	Error while decoding stream #0:0: Invalid data found when processing input
 	ffprobe:	Error opening filters!
 	ffprobe:	Invalid data found when processing input
-	jhove:	Chunk ID character outside printable ASCII range
 	jhove:	"Chunk ID contains space before printable characters: \"""" BKj\"""""
 	jhove:	File does not start with RIFF header
 	jhove:	Invalid chunk size

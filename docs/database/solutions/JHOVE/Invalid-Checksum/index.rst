@@ -31,10 +31,6 @@ Classification
      - **Version**
      - **Description**
      - **Location**
-   * - application/pdf
-     - 
-     - application/pdf  : Virtual file object connecting error message to a file format specification and without a file location.
-     - 
 
 --------
 Analyses
@@ -78,6 +74,5 @@ Related errors by source files
 
 	jhove:	Invalid Checksum
 	jhove:	Malformed dictionary: Vector must contain an even number of objects, but has 17
-	jhove:	No PDF trailer
 	jhove:	Unexpected exception java.lang.NullPointerException
 

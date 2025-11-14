@@ -68,7 +68,6 @@ Output example
 	MIME type (:unav) with version (:unav) is not supported.
 
 
-
 ------------------
 Notes on the error
 ------------------

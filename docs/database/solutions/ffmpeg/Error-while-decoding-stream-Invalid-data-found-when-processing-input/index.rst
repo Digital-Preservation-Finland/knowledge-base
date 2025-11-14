@@ -31,10 +31,6 @@ Classification
      - **Version**
      - **Description**
      - **Location**
-   * - audio/x-wav
-     - 
-     - audio/x-wav  : Virtual file object connecting error message to a file format specification and without a file location.
-     - 
 
 --------
 Analyses
@@ -63,9 +59,7 @@ Output example
 ::
 
 
-	[pcm_s16le @ 0x737200] Invalid PCM packet, data has size 2 but at least a size of 4 was expected
-	Error while decoding stream #0:0: Invalid data found when processing input
-
+	[pcm_s16le @ 0x737200] Invalid PCM packet, data has size 2 but at least a size of 4 was expected\nError while decoding stream #0:0: Invalid data found when processing input
 
 
 ------------------
@@ -84,7 +78,6 @@ Related errors by source files
 	ffmpeg:	Error while decoding stream #0:0: Invalid data found when processing input
 	ffprobe:	Error opening filters!
 	ffprobe:	Invalid data found when processing input
-	jhove:	Chunk ID character outside printable ASCII range
 	jhove:	"Chunk ID contains space before printable characters: \"""" BKj\"""""
 	jhove:	File does not start with RIFF header
 	jhove:	Invalid chunk size
