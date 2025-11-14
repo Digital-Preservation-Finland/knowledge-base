@@ -52,6 +52,15 @@ Classification
 Analyses
 --------
 
+Analysis
+========
+
+
+
+See JHOVE documentation: https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#PDF-HUL-139
+
+Is it a bug in the validating software? - 
+
 
 ------------------
 Possible solutions

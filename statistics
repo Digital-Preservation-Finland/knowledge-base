@@ -139,28 +139,28 @@
       1      62    1699 database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/error
       1     176    3504 database/solutions/JHOVE/CSS-001-ERROR/error
       1     175    3606 database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/error
-      1     220    6053 database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/error
+      1     226    7387 database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/error
       1      39    1216 database/solutions/JHOVE/File-does-not-start-with-RIFF-header/error
       1      47    1477 database/solutions/JHOVE/IFD-offset-not-word-aligned/error
-      1   10074  208963 database/solutions/JHOVE/Improperly-formed-date/error
+      1   10074  209013 database/solutions/JHOVE/Improperly-formed-date/error
       1       4     273 database/solutions/JHOVE/Improperly-nested-array-delimiters/error
-      1      41    2093 database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/error
+      1      41    2143 database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/error
       1       5     267 database/solutions/JHOVE/Invalid-character-in-hex-string/error
       1       2     236 database/solutions/JHOVE/Invalid-Checksum/error
       1      56    1599 database/solutions/JHOVE/Invalid-chunk-size/error
-      1      47    1670 database/solutions/JHOVE/Invalid-cross-reference-table/error
-      1   20333  452358 database/solutions/JHOVE/Invalid-destination-object/error
+      1      47    1720 database/solutions/JHOVE/Invalid-cross-reference-table/error
+      1   20333  452408 database/solutions/JHOVE/Invalid-destination-object/error
       1      36    1267 database/solutions/JHOVE/Invalid-GIF-header/error
-      1      47    5859 database/solutions/JHOVE/Invalid-object-definition/error
+      1      47    5909 database/solutions/JHOVE/Invalid-object-definition/error
       1     435   11812 database/solutions/JHOVE/JPEGProc-not-defined-for-JPEG-compression/error
       1       2     231 database/solutions/JHOVE/Lexical-error/error
       1      13     365 database/solutions/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17/error
-      1      43    1485 database/solutions/JHOVE/Missing-startxref-keyword-or-value/error
-      1      48    4641 database/solutions/JHOVE/No-document-catalog-dictionary/error
-      1      39    1275 database/solutions/JHOVE/No-file-trailer/error
+      1      43    1535 database/solutions/JHOVE/Missing-startxref-keyword-or-value/error
+      1      48    4691 database/solutions/JHOVE/No-document-catalog-dictionary/error
+      1      39    1325 database/solutions/JHOVE/No-file-trailer/error
       1      66    1782 database/solutions/JHOVE/No-Format-chunk-found/error
-      1      39    1384 database/solutions/JHOVE/No-PDF-trailer/error
-      1     388    8700 database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/error
+      1      39    1438 database/solutions/JHOVE/No-PDF-trailer/error
+      1     388    8750 database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/error
       1     156    3594 database/solutions/JHOVE/PKG-006-ERROR/error
       1      45    1463 database/solutions/JHOVE/Premature-EOF/error
       1     161    3322 database/solutions/JHOVE/RSC-005-ERROR/error
@@ -170,7 +170,7 @@
       1      83    1709 database/solutions/JHOVE/SAXParseException-The-element-type-body-must-be-terminated-by-the-matching-end-tag-body/error
       1    3853   67898 database/solutions/JHOVE/Tag-out-of-sequence/error
       1     210    5013 database/solutions/JHOVE/Unexpected-end-of-file/error
-      1     385   11814 database/solutions/JHOVE/Unexpected-exception-java/error
+      1     385   11864 database/solutions/JHOVE/Unexpected-exception-java/error
       1       3     309 database/solutions/JHOVE/Unexpected-exception-javalangNullPointerException/error
       1      49    1442 database/solutions/JHOVE/Unknown-data-block-type/error
       1    3851   67893 database/solutions/JHOVE/Unknown-data-type/error
@@ -215,13 +215,23 @@
       1      18     296 database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/analysis
       1       1     273 database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/analysis
       1       1     171 database/solutions/JHOVE/File-does-not-start-with-RIFF-header/analysis
+      1       4     245 database/solutions/JHOVE/Improperly-formed-date/analysis
       1      15     368 database/solutions/JHOVE/Improperly-nested-array-delimiters/analysis
+      1       4     244 database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/analysis
       1       8     349 database/solutions/JHOVE/Invalid-character-in-hex-string/analysis
       1      30     337 database/solutions/JHOVE/Invalid-Checksum/analysis
       1      31     312 database/solutions/JHOVE/Invalid-chunk-size/analysis
+      1       4     244 database/solutions/JHOVE/Invalid-cross-reference-table/analysis
+      1       4     243 database/solutions/JHOVE/Invalid-destination-object/analysis
+      1       4     244 database/solutions/JHOVE/Invalid-object-definition/analysis
       1      26     446 database/solutions/JHOVE/Lexical-error/analysis
       1      39     459 database/solutions/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17/analysis
-      1      47     427 database/solutions/JHOVE/No-PDF-trailer/analysis
+      1       4     245 database/solutions/JHOVE/Missing-startxref-keyword-or-value/analysis
+      1       4     244 database/solutions/JHOVE/No-document-catalog-dictionary/analysis
+      1       4     244 database/solutions/JHOVE/No-file-trailer/analysis
+      1      50     526 database/solutions/JHOVE/No-PDF-trailer/analysis
+      1       4     245 database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/analysis
+      1       4     245 database/solutions/JHOVE/Unexpected-exception-java/analysis
       1      26     347 database/solutions/JHOVE/Unexpected-exception-javalangNullPointerException/analysis
       1      14     384 database/solutions/libreoffice/E-ltstringvalue-assertion-string-void-failed/analysis
       1      23     313 database/solutions/lxml/Schema-definition-probably-missing-from-XML-catalog/analysis
@@ -243,4 +253,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1544   90105 2202010 yhteensä
+   1554   90154 2206440 yhteensä
