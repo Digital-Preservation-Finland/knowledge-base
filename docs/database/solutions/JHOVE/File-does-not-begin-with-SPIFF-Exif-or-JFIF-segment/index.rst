@@ -87,14 +87,159 @@ Output example
 ::
 
 
-	"<?xml version=\""1.0\"" encoding=\""UTF-8\""?>\n<jhove xmlns:xsi=\""http://www.w3.org/2001/XMLSchema-instance\"" xmlns=\""http://schema.openpreservation.org/ois/xml/ns/jhove\"" xsi:schemaLocation=\""http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd\"" name=\""Jhove\"" release=\""1.24.1\"" date=\""2020-03-16\"">\n <date>2023-01-25T14:01:57+02:00</date>\n <repInfo uri=\""_/110/110Vk/110Vk7/110Vk7_1.jpg\"">\n  <reportingModule release=\""1.5.2\"" date=\""2019-11-05\"">JPEG-hul</reportingModule>\n  <lastModified>2017-05-24T04:07:12+03:00</lastModified>\n  <size>10027824</size>\n  <format>JPEG</format>\n  <status>Well-Formed, but not valid</status>\n  <messages>\n   <message offset=\""138\"" severity=\""error\"" id=\""JPEG-HUL-9\"">File does not begin with SPIFF, Exif or JFIF segment</message>\n  </messages>\n  <mimeType>image/jpeg</mimeType>\n  <profiles>\n   <profile>Adobe JPEG</profile>\n  </profiles>\n  <properties>\n   <property>\n    <name>JPEGMetadata</name>\n    <values arity=\""List\"" type=\""Property\"">\n    <property>\n     <name>CompressionType</name>\n     <values arity=\""Scalar\"" type=\""String\"">\n      <value>Huffman coding, Baseline DCT</value>\n     </values>\n    </property>\n    <property>\n     <name>Images</name>\n     <values arity=\""List\"" type=\""Property\"">\n     <property>\n      <name>Number</name>\n      <values arity=\""Scalar\"" type=\""Integer\"">\n       <value>1</value>\n      </values>\n     </property>\n     <property>\n      <name>Image</name>\n      <values arity=\""List\"" type=\""Property\"">\n      <property>\n       <name>NisoImageMetadata</name>\n       <values arity=\""Scalar\"" type=\""NISOImageMetadata\"">\n        <value>\n      <mix:mix xmlns:mix=\""http://www.loc.gov/mix/v20\"" xmlns:xsi=\""http://www.w3.org/2001/XMLSchema-instance\"" xsi:schemaLocation=\""http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd\"">\n       <mix:BasicDigitalObjectInformation>\n        <mix:ObjectIdentifier>\n         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>\n        </mix:ObjectIdentifier>\n        <mix:FormatDesignation>\n         <mix:formatName>image/jpeg</mix:formatName>\n        </mix:FormatDesignation>\n        <mix:byteOrder>big endian</mix:byteOrder>\n        <mix:Compression>\n         <mix:compressionScheme>JPEG</mix:compressionScheme>\n        </mix:Compression>\n       </mix:BasicDigitalObjectInformation>\n       <mix:BasicImageInformation>\n        <mix:BasicImageCharacteristics>\n         <mix:imageWidth>2336</mix:imageWidth>\n         <mix:imageHeight>3504</mix:imageHeight>\n         <mix:PhotometricInterpretation>\n          <mix:colorSpace>YCbCr</mix:colorSpace>\n         </mix:PhotometricInterpretation>\n        </mix:BasicImageCharacteristics>\n       </mix:BasicImageInformation>\n       <mix:ImageAssessmentMetadata>\n        <mix:ImageColorEncoding>\n         <mix:BitsPerSample>\n          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>\n          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>\n          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>\n          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>\n         </mix:BitsPerSample>\n         <mix:samplesPerPixel>3</mix:samplesPerPixel>\n        </mix:ImageColorEncoding>\n       </mix:ImageAssessmentMetadata>\n      </mix:mix>\n        </value>\n       </values>\n      </property>\n      <property>\n       <name>PixelAspectRatio</name>\n       <values arity=\""List\"" type=\""Property\"">\n       <property>\n        <name>PixelAspectRatioX</name>\n        <values arity=\""Scalar\"" type=\""Integer\"">\n         <value>0</value>\n        </values>\n       </property>\n       <property>\n        <name>PixelAspectRatioY</name>\n        <values arity=\""Scalar\"" type=\""Integer\"">\n         <value>0</value>\n        </values>\n       </property>\n       </values>\n      </property>\n      <property>\n       <name>RestartInterval</name>\n       <values arity=\""Scalar\"" type=\""Integer\"">\n        <value>292</value>\n       </values>\n      </property>\n      <property>\n       <name>Scans</name>\n       <values arity=\""Scalar\"" type=\""Integer\"">\n        <value>1</value>\n       </values>\n      </property>\n      <property>\n       <name>QuantizationTables</name>\n       <values arity=\""List\"" type=\""Property\"">\n       <property>\n        <name>QuantizationTable</name>\n        <values arity=\""Array\"" type=\""Property\"">\n        <property>\n         <name>Precision</name>\n         <values arity=\""Scalar\"" type=\""String\"">\n          <value>8-bit</value>\n         </values>\n        </property>\n        <property>\n         <name>DestinationIdentifier</name>\n         <values arity=\""Scalar\"" type=\""Integer\"">\n          <value>0</value>\n         </values>\n        </property>\n        </values>\n       </property>\n       </values>\n      </property>\n      </values>\n     </property>\n     </values>\n    </property>\n    <property>\n     <name>ApplicationSegments</name>\n     <values arity=\""List\"" type=\""String\"">\n      <value>APP14</value>\n     </values>\n    </property>\n    </values>\n   </property>\n  </properties>\n </repInfo>\n</jhove>\n"
+	<?xml version="1.0" encoding="UTF-8"?>
+	<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.8/jhove.xsd" name="Jhove" release="1.24.1" date="2020-03-16">
+	  <date>2023-01-25T14:01:57+02:00</date>
+	  <repInfo uri="_/110/110Vk/110Vk7/110Vk7_1.jpg">
+	    <reportingModule release="1.5.2" date="2019-11-05">JPEG-hul</reportingModule>
+	    <lastModified>2017-05-24T04:07:12+03:00</lastModified>
+	    <size>10027824</size>
+	    <format>JPEG</format>
+	    <status>Well-Formed, but not valid</status>
+	    <messages>
+	      <message offset="138" severity="error" id="JPEG-HUL-9">File does not begin with SPIFF, Exif or JFIF segment</message>
+	    </messages>
+	    <mimeType>image/jpeg</mimeType>
+	    <profiles>
+	      <profile>Adobe JPEG</profile>
+	    </profiles>
+	    <properties>
+	      <property>
+	        <name>JPEGMetadata</name>
+	        <values arity="List" type="Property">
+	          <property>
+	            <name>CompressionType</name>
+	            <values arity="Scalar" type="String">
+	              <value>Huffman coding, Baseline DCT</value>
+	            </values>
+	          </property>
+	          <property>
+	            <name>Images</name>
+	            <values arity="List" type="Property">
+	              <property>
+	                <name>Number</name>
+	                <values arity="Scalar" type="Integer">
+	                  <value>1</value>
+	                </values>
+	              </property>
+	              <property>
+	                <name>Image</name>
+	                <values arity="List" type="Property">
+	                  <property>
+	                    <name>NisoImageMetadata</name>
+	                    <values arity="Scalar" type="NISOImageMetadata">
+	                      <value>
+	                        <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+	                          <mix:BasicDigitalObjectInformation>
+	                            <mix:ObjectIdentifier>
+	                              <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+	                            </mix:ObjectIdentifier>
+	                            <mix:FormatDesignation>
+	                              <mix:formatName>image/jpeg</mix:formatName>
+	                            </mix:FormatDesignation>
+	                            <mix:byteOrder>big endian</mix:byteOrder>
+	                            <mix:Compression>
+	                              <mix:compressionScheme>JPEG</mix:compressionScheme>
+	                            </mix:Compression>
+	                          </mix:BasicDigitalObjectInformation>
+	                          <mix:BasicImageInformation>
+	                            <mix:BasicImageCharacteristics>
+	                              <mix:imageWidth>2336</mix:imageWidth>
+	                              <mix:imageHeight>3504</mix:imageHeight>
+	                              <mix:PhotometricInterpretation>
+	                                <mix:colorSpace>YCbCr</mix:colorSpace>
+	                              </mix:PhotometricInterpretation>
+	                            </mix:BasicImageCharacteristics>
+	                          </mix:BasicImageInformation>
+	                          <mix:ImageAssessmentMetadata>
+	                            <mix:ImageColorEncoding>
+	                              <mix:BitsPerSample>
+	                                <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	                                <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	                                <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	                                <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+	                              </mix:BitsPerSample>
+	                              <mix:samplesPerPixel>3</mix:samplesPerPixel>
+	                            </mix:ImageColorEncoding>
+	                          </mix:ImageAssessmentMetadata>
+	                        </mix:mix>
+	                      </value>
+	                    </values>
+	                  </property>
+	                  <property>
+	                    <name>PixelAspectRatio</name>
+	                    <values arity="List" type="Property">
+	                      <property>
+	                        <name>PixelAspectRatioX</name>
+	                        <values arity="Scalar" type="Integer">
+	                          <value>0</value>
+	                        </values>
+	                      </property>
+	                      <property>
+	                        <name>PixelAspectRatioY</name>
+	                        <values arity="Scalar" type="Integer">
+	                          <value>0</value>
+	                        </values>
+	                      </property>
+	                    </values>
+	                  </property>
+	                  <property>
+	                    <name>RestartInterval</name>
+	                    <values arity="Scalar" type="Integer">
+	                      <value>292</value>
+	                    </values>
+	                  </property>
+	                  <property>
+	                    <name>Scans</name>
+	                    <values arity="Scalar" type="Integer">
+	                      <value>1</value>
+	                    </values>
+	                  </property>
+	                  <property>
+	                    <name>QuantizationTables</name>
+	                    <values arity="List" type="Property">
+	                      <property>
+	                        <name>QuantizationTable</name>
+	                        <values arity="Array" type="Property">
+	                          <property>
+	                            <name>Precision</name>
+	                            <values arity="Scalar" type="String">
+	                              <value>8-bit</value>
+	                            </values>
+	                          </property>
+	                          <property>
+	                            <name>DestinationIdentifier</name>
+	                            <values arity="Scalar" type="Integer">
+	                              <value>0</value>
+	                            </values>
+	                          </property>
+	                        </values>
+	                      </property>
+	                    </values>
+	                  </property>
+	                </values>
+	              </property>
+	            </values>
+	          </property>
+	          <property>
+	            <name>ApplicationSegments</name>
+	            <values arity="List" type="String">
+	              <value>APP14</value>
+	            </values>
+	          </property>
+	        </values>
+	      </property>
+	    </properties>
+	  </repInfo>
+	</jhove>
+	
 
 
 ------------------
 Notes on the error
 ------------------
 
-
+The example output is formatted with xmllint.
 
 
 ------------------------------
