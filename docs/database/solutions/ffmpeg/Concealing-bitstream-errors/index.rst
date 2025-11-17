@@ -31,23 +31,10 @@ Classification
      - **Version**
      - **Description**
      - **Location**
-   * - video/dv
-     - 
-     - video/dv  : Virtual file object connecting error message to a file format specification and without a file location.
-     - 
 
 --------
 Analyses
 --------
-
-Analysis
-========
-
-
-
-
-
-Is it a bug in the validating software? - no
 
 
 ------------------
@@ -79,6 +66,5 @@ Related errors by source files
 
 ::
 
-	ffmpeg:	AC EOB marker is absent pos=
 	ffmpeg:	Concealing bitstream errors
 

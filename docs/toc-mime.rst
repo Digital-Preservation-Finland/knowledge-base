@@ -18,8 +18,22 @@ JHOVE
  - `PKG 006 ERROR <database/solutions/JHOVE/PKG-006-ERROR/index.html>`_
  - `RSC 017 WARN <database/solutions/JHOVE/RSC-017-WARN/index.html>`_
 
+application/mxf
+---------------
+
+
+ffmpeg
+~~~~~~
+
+ - `bpno became invalid <database/solutions/ffmpeg/bpno-became-invalid/index.html>`_
+ - `local tag 0x3c0a with 0 size <database/solutions/ffmpeg/local-tag-0x3c0a-with-0-size/index.html>`_
+
 application/pdf
 ---------------
+
+
+JHOVE
+~~~~~
 
  - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
  - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
@@ -243,27 +257,63 @@ DBPTK-Developer
  - `Requirements for table data <database/solutions/DBPTK-Developer/Requirements-for-table-data/index.html>`_
  - `The data type information on the column definitions in metadataxml must be identical to that in the corresponding tablenumberxsd file <database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/index.html>`_
 
+audio/flac
+----------
+
+
+ffmpeg
+~~~~~~
+
+ - `decodeframe failed <database/solutions/ffmpeg/decodeframe-failed/index.html>`_
+ - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `invalid frame header <database/solutions/ffmpeg/invalid-frame-header/index.html>`_
+ - `invalid residual <database/solutions/ffmpeg/invalid-residual/index.html>`_
+ - `invalid sync code <database/solutions/ffmpeg/invalid-sync-code/index.html>`_
+
 audio/mpeg
 ----------
 
+ - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
+ - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
+ - `Header missing <database/solutions/ffmpeg/Header-missing/index.html>`_
+ - `Header missing <database/solutions/ffmpeg/Header-missing/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
 
 file-scraper
 ~~~~~~~~~~~~
 
  - `invalid videocontainer stream <database/solutions/file-scraper/invalid-videocontainer-stream/index.html>`_
 
-audio/x-ms-wma
---------------
-
-
 ffmpeg
 ~~~~~~
+
+ - `invalid new backstep <database/solutions/ffmpeg/invalid-new-backstep/index.html>`_
+
+audio/x-aiff
+------------
+
+ - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid PCM packet data has size but at least a size of was expected <database/solutions/ffmpeg/Invalid-PCM-packet-data-has-size-but-at-least-a-size-of-was-expected/index.html>`_
+
+audio/x-ms-wma
+--------------
 
  - `Application provided invalid non monotonically increasing dts to muxer in stream <database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/index.html>`_
 
 audio/x-wav
 -----------
 
+ - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid PCM packet data has size but at least a size of was expected <database/solutions/ffmpeg/Invalid-PCM-packet-data-has-size-but-at-least-a-size-of-was-expected/index.html>`_
+ - `Invalid sample rate <database/solutions/ffmpeg/Invalid-sample-rate/index.html>`_
+ - `no data tag found <database/solutions/ffmpeg/no-data-tag-found/index.html>`_
+ - `PCM A law G711 A law does not seem to be LPCM format <database/solutions/ffmpeg/PCM-A-law-G711-A-law-does-not-seem-to-be-LPCM-format/index.html>`_
 
 JHOVE
 ~~~~~
@@ -369,7 +419,27 @@ ffmpeg
 ~~~~~~
 
  - `AC EOB marker is absent pos <database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/index.html>`_
- - `Concealing bitstream errors <database/solutions/ffmpeg/Concealing-bitstream-errors/index.html>`_
+
+video/MP2T
+----------
+
+ - `invalid new backstep <database/solutions/ffmpeg/invalid-new-backstep/index.html>`_
+
+video/mp4
+---------
+
+ - `Could not find ref with POC <database/solutions/ffmpeg/Could-not-find-ref-with-POC/index.html>`_
+ - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `moov atom not found <database/solutions/ffmpeg/moov-atom-not-found/index.html>`_
+ - `offsetlen is invalid <database/solutions/ffmpeg/offsetlen-is-invalid/index.html>`_
+
+video/mpeg
+----------
+
+ - `Warning MVs not available <database/solutions/ffmpeg/Warning-MVs-not-available/index.html>`_
+ - `Warning MVs not available <database/solutions/ffmpeg/Warning-MVs-not-available/index.html>`_
 
 video/quicktime
 ---------------
@@ -381,3 +451,17 @@ mediainfo
 ~~~~~~~~~
 
  - `File contains a truncated track <database/solutions/mediainfo/File-contains-a-truncated-track/index.html>`_
+
+video/x-matroska
+----------------
+
+
+ffmpeg
+~~~~~~
+
+ - `Truncating packet of size to <database/solutions/ffmpeg/Truncating-packet-of-size-to/index.html>`_
+
+video/x-ms-asf
+--------------
+
+ - `Bits overconsumption at <database/solutions/ffmpeg/Bits-overconsumption-at/index.html>`_

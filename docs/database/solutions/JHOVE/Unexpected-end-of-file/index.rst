@@ -183,5 +183,8 @@ Related errors by source files
 
 ::
 
+	ffmpeg:	Error while decoding stream .* Invalid data found when processing input
+	ffmpeg:	Invalid data found when processing input
+	ffmpeg:	Invalid PCM packet, data has size .* but at least a size of .* was expected
 	JHOVE:	Unexpected end of file
 

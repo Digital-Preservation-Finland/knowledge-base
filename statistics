@@ -104,7 +104,7 @@
      40      49   23358 database/files/text_xml/1.0
       1       1     600 database/files/text_xml/generic
       1       4    1495 database/files/video_avi/generic
-      3      20    2145 database/files/video_dv/generic
+      2       2    1841 database/files/video_dv/generic
       1       4    1482 database/files/video_MP1S/generic
       2       6    2952 database/files/video_MP2P/generic
       4       7    4293 database/files/video_MP2T/generic
@@ -121,11 +121,30 @@
       1    1468   13685 database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/error
       1      35     621 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/error
       1      36     509 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/error
-      1    1499   12274 database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/error
+      1      55     594 database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/error
       1      47     665 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/error
-      1     135    1295 database/solutions/ffmpeg/Concealing-bitstream-errors/error
-      1      39     520 database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/error
+      1      33     397 database/solutions/ffmpeg/Bits-overconsumption-at/error
+      1      21     333 database/solutions/ffmpeg/bpno-became-invalid/error
+      1     135    1234 database/solutions/ffmpeg/Concealing-bitstream-errors/error
+      1      36     419 database/solutions/ffmpeg/Could-not-find-ref-with-POC/error
+      1      58     678 database/solutions/ffmpeg/decodeframe-failed/error
+      1      67     897 database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/error
+      1      16     363 database/solutions/ffmpeg/Header-missing/error
+      1     115    1640 database/solutions/ffmpeg/Invalid-data-found-when-processing-input/error
+      1      59     677 database/solutions/ffmpeg/invalid-frame-header/error
+      1       9     302 database/solutions/ffmpeg/invalid-new-backstep/error
+      1      44     482 database/solutions/ffmpeg/Invalid-PCM-packet-data-has-size-but-at-least-a-size-of-was-expected/error
+      1      58     673 database/solutions/ffmpeg/invalid-residual/error
+      1     112    1232 database/solutions/ffmpeg/Invalid-sample-rate/error
+      1      59     674 database/solutions/ffmpeg/invalid-sync-code/error
+      1      24     342 database/solutions/ffmpeg/local-tag-0x3c0a-with-0-size/error
+      1     113    1277 database/solutions/ffmpeg/moov-atom-not-found/error
+      1     113    1208 database/solutions/ffmpeg/no-data-tag-found/error
+      1      34     416 database/solutions/ffmpeg/offsetlen-is-invalid/error
+      1      23     295 database/solutions/ffmpeg/PCM-A-law-G711-A-law-does-not-seem-to-be-LPCM-format/error
       1      38     633 database/solutions/ffmpeg/Referenced-QT-chapter-track-not-found/error
+      1      13     254 database/solutions/ffmpeg/Truncating-packet-of-size-to/error
+      1      10     311 database/solutions/ffmpeg/Warning-MVs-not-available/error
       1     221    2684 database/solutions/ffprobe/Error-opening-filters/error
       1      86     946 database/solutions/ffprobe/Invalid-data-found-when-processing-input/error
       1      12     312 database/solutions/file-scraper/invalid-videocontainer-stream/error
@@ -197,10 +216,7 @@
       1      98    2100 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/error
       1      49     420 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/analysis
       1      62     476 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/analysis
-      1       1     160 database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/analysis
       1      73     749 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/analysis
-      1       1     160 database/solutions/ffmpeg/Concealing-bitstream-errors/analysis
-      1       1     204 database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/analysis
       1      39     506 database/solutions/ffmpeg/Referenced-QT-chapter-track-not-found/analysis
       1      24     293 database/solutions/ffprobe/Error-opening-filters/analysis
       1       1     177 database/solutions/ffprobe/Invalid-data-found-when-processing-input/analysis
@@ -253,4 +269,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1554   90154 2206440 yhteensä
+   1569   89667 2206221 yhteensä

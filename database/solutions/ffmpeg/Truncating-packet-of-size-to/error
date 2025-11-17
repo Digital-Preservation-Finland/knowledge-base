@@ -1,0 +1,1 @@
+{"files":["file-scraper/688c187d-6767-46bd-ad9d-bbef1df69d53"],"analyses":[],"validator":"ffmpeg","validatorVersion":"6.0","errorMessage":"Truncating packet of size .* to .*","type":"","outputExample":["Truncating packet of size 55 to 40\n"],"notes":[]}

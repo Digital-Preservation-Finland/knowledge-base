@@ -101,9 +101,28 @@ ffmpeg
 
  - `AC EOB marker is absent pos <database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/index.html>`_
  - `Application provided invalid non monotonically increasing dts to muxer in stream <database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/index.html>`_
+ - `Bits overconsumption at <database/solutions/ffmpeg/Bits-overconsumption-at/index.html>`_
  - `Concealing bitstream errors <database/solutions/ffmpeg/Concealing-bitstream-errors/index.html>`_
+ - `Could not find ref with POC <database/solutions/ffmpeg/Could-not-find-ref-with-POC/index.html>`_
  - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
+ - `Header missing <database/solutions/ffmpeg/Header-missing/index.html>`_
+ - `Invalid PCM packet data has size but at least a size of was expected <database/solutions/ffmpeg/Invalid-PCM-packet-data-has-size-but-at-least-a-size-of-was-expected/index.html>`_
+ - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
+ - `Invalid sample rate <database/solutions/ffmpeg/Invalid-sample-rate/index.html>`_
+ - `PCM A law G711 A law does not seem to be LPCM format <database/solutions/ffmpeg/PCM-A-law-G711-A-law-does-not-seem-to-be-LPCM-format/index.html>`_
  - `Referenced QT chapter track not found <database/solutions/ffmpeg/Referenced-QT-chapter-track-not-found/index.html>`_
+ - `Truncating packet of size to <database/solutions/ffmpeg/Truncating-packet-of-size-to/index.html>`_
+ - `Warning MVs not available <database/solutions/ffmpeg/Warning-MVs-not-available/index.html>`_
+ - `bpno became invalid <database/solutions/ffmpeg/bpno-became-invalid/index.html>`_
+ - `decodeframe failed <database/solutions/ffmpeg/decodeframe-failed/index.html>`_
+ - `invalid frame header <database/solutions/ffmpeg/invalid-frame-header/index.html>`_
+ - `invalid new backstep <database/solutions/ffmpeg/invalid-new-backstep/index.html>`_
+ - `invalid residual <database/solutions/ffmpeg/invalid-residual/index.html>`_
+ - `invalid sync code <database/solutions/ffmpeg/invalid-sync-code/index.html>`_
+ - `local tag 0x3c0a with 0 size <database/solutions/ffmpeg/local-tag-0x3c0a-with-0-size/index.html>`_
+ - `moov atom not found <database/solutions/ffmpeg/moov-atom-not-found/index.html>`_
+ - `no data tag found <database/solutions/ffmpeg/no-data-tag-found/index.html>`_
+ - `offsetlen is invalid <database/solutions/ffmpeg/offsetlen-is-invalid/index.html>`_
 
 ffprobe
 -------

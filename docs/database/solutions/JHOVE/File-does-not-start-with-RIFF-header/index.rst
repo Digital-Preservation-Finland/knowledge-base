@@ -75,7 +75,7 @@ Related errors by source files
 
 ::
 
-	ffmpeg:	Error while decoding stream #0:0: Invalid data found when processing input
+	ffmpeg:	Error while decoding stream .* Invalid data found when processing input
 	ffprobe:	Error opening filters!
 	ffprobe:	Invalid data found when processing input
 	jhove:	"Chunk ID contains space before printable characters: \"""" BKj\"""""

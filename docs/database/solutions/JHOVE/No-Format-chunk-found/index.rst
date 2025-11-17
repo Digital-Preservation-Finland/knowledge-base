@@ -95,5 +95,8 @@ Related errors by source files
 
 ::
 
+	ffmpeg:	Invalid data found when processing input
+	ffmpeg:	Invalid sample rate
+	ffmpeg:	no 'data' tag found
 	JHOVE:	No Format chunk found
 
