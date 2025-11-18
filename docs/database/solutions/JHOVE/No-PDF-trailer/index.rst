@@ -109,4 +109,5 @@ Related errors by source files
 ::
 
 	JHOVE:	No PDF trailer
+	veraPDF:	can not locate xref table
 

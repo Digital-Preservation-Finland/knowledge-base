@@ -346,4 +346,13 @@ Related errors by source files
 	JHOVE:	Invalid cross-reference table
 	JHOVE:	Invalid object definition
 	JHOVE:	No document catalog dictionary
+	veraPDF:	Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))
+	veraPDF:	can not locate xref table
+	veraPDF:	DeviceGray colour space is used without output intent profile
+	veraPDF:	Extra spacings or missing EOL characters around indirect object/generation number or keywords 'obj' and 'endobj'
+	veraPDF:	File header .*%PDF-*.* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-n.m
+	veraPDF:	Missing ID in the document trailer
+	veraPDF:	Real value .* out of range
+	veraPDF:	The document catalog dictionary doesn't contain metadata key or metadata stream dictionary does not contain either entry Type with value /Metadata or entry Subtype with value /XML
+	veraPDF:	The font program is not embedded
 

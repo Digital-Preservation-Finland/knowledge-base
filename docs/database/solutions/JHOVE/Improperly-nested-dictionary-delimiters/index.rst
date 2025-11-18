@@ -159,4 +159,5 @@ Related errors by source files
 ::
 
 	JHOVE:	Improperly nested dictionary delimiters
+	veraPDF:	End of file is reached
 

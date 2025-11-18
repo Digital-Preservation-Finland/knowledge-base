@@ -36,187 +36,85 @@ JHOVE
 ~~~~~
 
  - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
  - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
  - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
  - `Improperly formed date <database/solutions/JHOVE/Improperly-formed-date/index.html>`_
- - `Improperly formed date <database/solutions/JHOVE/Improperly-formed-date/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
  - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
  - `Invalid destination object <database/solutions/JHOVE/Invalid-destination-object/index.html>`_
  - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
  - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
+
+veraPDF
+~~~~~~~
+
+ - `DeviceRGB colour space is used without RGB output intent profile <database/solutions/veraPDF/DeviceRGB-colour-space-is-used-without-RGB-output-intent-profile/index.html>`_
+ - `Extra spacings or missing EOL characters around indirect objectgeneration number or keywords obj and endobj <database/solutions/veraPDF/Extra-spacings-or-missing-EOL-characters-around-indirect-objectgeneration-number-or-keywords-obj-and-endobj/index.html>`_
+ - `The value of CreationDate entry from the document Info dictionary and its matching XMP property xmpCreateDate are not equivalent Info CreationDate D XMP xmpCreateDate <database/solutions/veraPDF/The-value-of-CreationDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpCreateDate-are-not-equivalent-Info-CreationDate-D-XMP-xmpCreateDate/index.html>`_
+ - `The value of ModDate entry from the document Info dictionary and its matching XMP property xmpModifyDate are not equivalent Info ModDate D XMP xmpModifyDate <database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/index.html>`_
+
+JHOVE
+~~~~~
+
  - `Document catalog dictionary object number and trailer root ref number are inconsistent <database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/index.html>`_
  - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Invalid cross reference table <database/solutions/JHOVE/Invalid-cross-reference-table/index.html>`_
- - `Invalid cross reference table <database/solutions/JHOVE/Invalid-cross-reference-table/index.html>`_
- - `Invalid cross reference table <database/solutions/JHOVE/Invalid-cross-reference-table/index.html>`_
  - `Invalid cross reference table <database/solutions/JHOVE/Invalid-cross-reference-table/index.html>`_
  - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
  - `Missing startxref keyword or value <database/solutions/JHOVE/Missing-startxref-keyword-or-value/index.html>`_
- - `Missing startxref keyword or value <database/solutions/JHOVE/Missing-startxref-keyword-or-value/index.html>`_
- - `Missing startxref keyword or value <database/solutions/JHOVE/Missing-startxref-keyword-or-value/index.html>`_
- - `Missing startxref keyword or value <database/solutions/JHOVE/Missing-startxref-keyword-or-value/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
  - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
  - `No file trailer <database/solutions/JHOVE/No-file-trailer/index.html>`_
  - `No PDF trailer <database/solutions/JHOVE/No-PDF-trailer/index.html>`_
- - `No PDF trailer <database/solutions/JHOVE/No-PDF-trailer/index.html>`_
- - `No PDF trailer <database/solutions/JHOVE/No-PDF-trailer/index.html>`_
+
+veraPDF
+~~~~~~~
+
+ - `Actual length of the stream bytes does not match the value of the Length key in the Stream dictionary bytes <database/solutions/veraPDF/Actual-length-of-the-stream-bytes-does-not-match-the-value-of-the-Length-key-in-the-Stream-dictionary-bytes/index.html>`_
+ - `can not locate xref table <database/solutions/veraPDF/can-not-locate-xref-table/index.html>`_
+ - `DeviceGray colour space is used without output intent profile <database/solutions/veraPDF/DeviceGray-colour-space-is-used-without-output-intent-profile/index.html>`_
+ - `End of file is reached <database/solutions/veraPDF/End-of-file-is-reached/index.html>`_
+ - `Extra spacings or missing EOL characters around indirect objectgeneration number or keywords obj and endobj <database/solutions/veraPDF/Extra-spacings-or-missing-EOL-characters-around-indirect-objectgeneration-number-or-keywords-obj-and-endobj/index.html>`_
+ - `File header PDF  offset starts at non zero offset or does not match the pattern PDF nm <database/solutions/veraPDF/File-header-PDF--offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-nm/index.html>`_
+ - `Missing ID in the document trailer <database/solutions/veraPDF/Missing-ID-in-the-document-trailer/index.html>`_
+ - `Pages not found <database/solutions/veraPDF/Pages-not-found/index.html>`_
+ - `Real value out of range <database/solutions/veraPDF/Real-value-out-of-range/index.html>`_
+ - `The document catalog dictionary doesnt contain metadata key or metadata stream dictionary does not contain either entry Type with value Metadata or entry Subtype with value XML <database/solutions/veraPDF/The-document-catalog-dictionary-doesnt-contain-metadata-key-or-metadata-stream-dictionary-does-not-contain-either-entry-Type-with-value-Metadata-or-entry-Subtype-with-value-XML/index.html>`_
+ - `The font program is not embedded <database/solutions/veraPDF/The-font-program-is-not-embedded/index.html>`_
+
+JHOVE
+~~~~~
+
  - `Document catalog dictionary object number and trailer root ref number are inconsistent <database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/index.html>`_
  - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
  - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
+ - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
+ - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
+
+veraPDF
+~~~~~~~
+
+ - `A CIDSet entry in the Font descriptor is missing or does not correctly identify all glyphs present in the embedded font subset and used for rendering <database/solutions/veraPDF/A-CIDSet-entry-in-the-Font-descriptor-is-missing-or-does-not-correctly-identify-all-glyphs-present-in-the-embedded-font-subset-and-used-for-rendering/index.html>`_
+ - `Annotation flags are either missing or set the annotation to be hiddeninvisible or non printable F null Print null Hidden null Invisible null NoView null <database/solutions/veraPDF/Annotation-flags-are-either-missing-or-set-the-annotation-to-be-hiddeninvisible-or-non-printable-F-null-Print-null-Hidden-null-Invisible-null-NoView-null/index.html>`_
+ - `Annotations color C present true or interior color IC present false is used without specifying RGB based destination output profile <database/solutions/veraPDF/Annotations-color-C-present-true-or-interior-color-IC-present-false-is-used-without-specifying-RGB-based-destination-output-profile/index.html>`_
+ - `A property is either not defined in XMP Specification or is not defined in any of the extension schemas <database/solutions/veraPDF/A-property-is-either-not-defined-in-XMP-Specification-or-is-not-defined-in-any-of-the-extension-schemas/index.html>`_
+ - `DeviceGray colour space is used without output intent profile <database/solutions/veraPDF/DeviceGray-colour-space-is-used-without-output-intent-profile/index.html>`_
+ - `The font program is not embedded <database/solutions/veraPDF/The-font-program-is-not-embedded/index.html>`_
+ - `XMP property does not correspond to type null <database/solutions/veraPDF/XMP-property-does-not-correspond-to-type-null/index.html>`_
+
+JHOVE
+~~~~~
+
  - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
  - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
  - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Improperly nested dictionary delimiters <database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/index.html>`_
- - `Invalid object definition <database/solutions/JHOVE/Invalid-object-definition/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `No document catalog dictionary <database/solutions/JHOVE/No-document-catalog-dictionary/index.html>`_
- - `PDF minor version number is greater than <database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/index.html>`_
+
+veraPDF
+~~~~~~~
+
+ - `can not locate xref table <database/solutions/veraPDF/can-not-locate-xref-table/index.html>`_
+ - `End of file is reached <database/solutions/veraPDF/End-of-file-is-reached/index.html>`_
+
+JHOVE
+~~~~~
+
  - `PDF minor version number is greater than <database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/index.html>`_
  - `Unexpected exception java <database/solutions/JHOVE/Unexpected-exception-java/index.html>`_
 
@@ -275,10 +173,7 @@ audio/mpeg
 ----------
 
  - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
- - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
  - `Header missing <database/solutions/ffmpeg/Header-missing/index.html>`_
- - `Header missing <database/solutions/ffmpeg/Header-missing/index.html>`_
- - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
  - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
 
 file-scraper
@@ -308,8 +203,6 @@ audio/x-wav
 
  - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
  - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
- - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
- - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
  - `Invalid PCM packet data has size but at least a size of was expected <database/solutions/ffmpeg/Invalid-PCM-packet-data-has-size-but-at-least-a-size-of-was-expected/index.html>`_
  - `Invalid sample rate <database/solutions/ffmpeg/Invalid-sample-rate/index.html>`_
  - `no data tag found <database/solutions/ffmpeg/no-data-tag-found/index.html>`_
@@ -320,7 +213,6 @@ JHOVE
 
  - `Chunk ID character outside printable ASCII range <database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/index.html>`_
  - `No Format chunk found <database/solutions/JHOVE/No-Format-chunk-found/index.html>`_
- - `No Format chunk found <database/solutions/JHOVE/No-Format-chunk-found/index.html>`_
  - `Unexpected end of file <database/solutions/JHOVE/Unexpected-end-of-file/index.html>`_
 
 image/gif
@@ -328,7 +220,6 @@ image/gif
 
  - `Unknown data block type <database/solutions/JHOVE/Unknown-data-block-type/index.html>`_
  - `Unknown data block type <database/solutions/JHOVE/Unknown-data-block-type/index.html>`_
- - `Invalid GIF header <database/solutions/JHOVE/Invalid-GIF-header/index.html>`_
  - `Invalid GIF header <database/solutions/JHOVE/Invalid-GIF-header/index.html>`_
 
 image/jpeg
@@ -368,8 +259,6 @@ dpx-validator
 ~~~~~~~~~~~~~
 
  - `Different file sizes from header and filesystem <database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/index.html>`_
- - `Different file sizes from header and filesystem <database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/index.html>`_
- - `Different file sizes from header and filesystem <database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/index.html>`_
  - `Offset to image is more than file size <database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/index.html>`_
 
 text/html
@@ -400,7 +289,6 @@ JHOVE
 ~~~~~
 
  - `Unrecognized or missing DOCTYPE declaration validation continuing as HTML 32 <database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/index.html>`_
- - `Unrecognized or missing DOCTYPE declaration validation continuing as HTML 32 <database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/index.html>`_
 
 text/xml
 --------
@@ -430,7 +318,6 @@ video/mp4
 
  - `Could not find ref with POC <database/solutions/ffmpeg/Could-not-find-ref-with-POC/index.html>`_
  - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
- - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
  - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
  - `moov atom not found <database/solutions/ffmpeg/moov-atom-not-found/index.html>`_
  - `offsetlen is invalid <database/solutions/ffmpeg/offsetlen-is-invalid/index.html>`_

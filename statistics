@@ -213,7 +213,27 @@
       1      13     360 database/solutions/Validator.nu/error-The-cellpadding-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/error
       1      13     360 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/error
       1      16     372 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/error
+      1    9729  118065 database/solutions/veraPDF/A-CIDSet-entry-in-the-Font-descriptor-is-missing-or-does-not-correctly-identify-all-glyphs-present-in-the-embedded-font-subset-and-used-for-rendering/error
+      1     685    8547 database/solutions/veraPDF/Actual-length-of-the-stream-bytes-does-not-match-the-value-of-the-Length-key-in-the-Stream-dictionary-bytes/error
+      1    9732  118086 database/solutions/veraPDF/Annotation-flags-are-either-missing-or-set-the-annotation-to-be-hiddeninvisible-or-non-printable-F-null-Print-null-Hidden-null-Invisible-null-NoView-null/error
+      1    9724  118056 database/solutions/veraPDF/Annotations-color-C-present-true-or-interior-color-IC-present-false-is-used-without-specifying-RGB-based-destination-output-profile/error
+      1    9722  118020 database/solutions/veraPDF/A-property-is-either-not-defined-in-XMP-Specification-or-is-not-defined-in-any-of-the-extension-schemas/error
+      1      78    2671 database/solutions/veraPDF/can-not-locate-xref-table/error
+      1     672    8538 database/solutions/veraPDF/DeviceGray-colour-space-is-used-without-output-intent-profile/error
+      1     536    7564 database/solutions/veraPDF/DeviceRGB-colour-space-is-used-without-RGB-output-intent-profile/error
+      1      78    1845 database/solutions/veraPDF/End-of-file-is-reached/error
+      1     541    7714 database/solutions/veraPDF/Extra-spacings-or-missing-EOL-characters-around-indirect-objectgeneration-number-or-keywords-obj-and-endobj/error
+      1     181    2622 database/solutions/veraPDF/File-header-PDF-1-offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-1n-where-n-is-a-single-digit-number-between-0-and-7/error
+      1     680    8527 database/solutions/veraPDF/File-header-PDF--offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-nm/error
+      1     669    8460 database/solutions/veraPDF/Missing-ID-in-the-document-trailer/error
       1      98    2100 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/error
+      1      74    1719 database/solutions/veraPDF/Pages-not-found/error
+      1     709    9019 database/solutions/veraPDF/Real-value-out-of-range/error
+      1     690    8605 database/solutions/veraPDF/The-document-catalog-dictionary-doesnt-contain-metadata-key-or-metadata-stream-dictionary-does-not-contain-either-entry-Type-with-value-Metadata-or-entry-Subtype-with-value-XML/error
+      1     669    8509 database/solutions/veraPDF/The-font-program-is-not-embedded/error
+      1     553    7686 database/solutions/veraPDF/The-value-of-CreationDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpCreateDate-are-not-equivalent-Info-CreationDate-D-XMP-xmpCreateDate/error
+      1     553    7676 database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/error
+      1    9711  117961 database/solutions/veraPDF/XMP-property-does-not-correspond-to-type-null/error
       1      49     420 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/analysis
       1      62     476 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/analysis
       1      73     749 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/analysis
@@ -269,4 +289,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1569   89667 2206221 yhteensä
+   1589  145653 2896111 yhteensä

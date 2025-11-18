@@ -441,4 +441,5 @@ Related errors by source files
 
 	JHOVE:	Invalid object definition
 	JHOVE:	No document catalog dictionary
+	veraPDF:	can not locate xref table
 

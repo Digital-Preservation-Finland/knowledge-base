@@ -151,4 +151,5 @@ Related errors by source files
 ::
 
 	JHOVE:	Document catalog dictionary object number and trailer root ref number are inconsistent
+	veraPDF:	Pages not found
 

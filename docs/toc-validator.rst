@@ -164,4 +164,24 @@ unknown
 veraPDF
 -------
 
+ - `A CIDSet entry in the Font descriptor is missing or does not correctly identify all glyphs present in the embedded font subset and used for rendering <database/solutions/veraPDF/A-CIDSet-entry-in-the-Font-descriptor-is-missing-or-does-not-correctly-identify-all-glyphs-present-in-the-embedded-font-subset-and-used-for-rendering/index.html>`_
+ - `A property is either not defined in XMP Specification or is not defined in any of the extension schemas <database/solutions/veraPDF/A-property-is-either-not-defined-in-XMP-Specification-or-is-not-defined-in-any-of-the-extension-schemas/index.html>`_
+ - `Actual length of the stream bytes does not match the value of the Length key in the Stream dictionary bytes <database/solutions/veraPDF/Actual-length-of-the-stream-bytes-does-not-match-the-value-of-the-Length-key-in-the-Stream-dictionary-bytes/index.html>`_
+ - `Annotation flags are either missing or set the annotation to be hiddeninvisible or non printable F null Print null Hidden null Invisible null NoView null <database/solutions/veraPDF/Annotation-flags-are-either-missing-or-set-the-annotation-to-be-hiddeninvisible-or-non-printable-F-null-Print-null-Hidden-null-Invisible-null-NoView-null/index.html>`_
+ - `Annotations color C present true or interior color IC present false is used without specifying RGB based destination output profile <database/solutions/veraPDF/Annotations-color-C-present-true-or-interior-color-IC-present-false-is-used-without-specifying-RGB-based-destination-output-profile/index.html>`_
+ - `DeviceGray colour space is used without output intent profile <database/solutions/veraPDF/DeviceGray-colour-space-is-used-without-output-intent-profile/index.html>`_
+ - `DeviceRGB colour space is used without RGB output intent profile <database/solutions/veraPDF/DeviceRGB-colour-space-is-used-without-RGB-output-intent-profile/index.html>`_
+ - `End of file is reached <database/solutions/veraPDF/End-of-file-is-reached/index.html>`_
+ - `Extra spacings or missing EOL characters around indirect objectgeneration number or keywords obj and endobj <database/solutions/veraPDF/Extra-spacings-or-missing-EOL-characters-around-indirect-objectgeneration-number-or-keywords-obj-and-endobj/index.html>`_
+ - `File header PDF  offset starts at non zero offset or does not match the pattern PDF nm <database/solutions/veraPDF/File-header-PDF--offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-nm/index.html>`_
+ - `File header PDF 1 offset starts at non zero offset or does not match the pattern PDF 1n where n is a single digit number between 0 and 7 <database/solutions/veraPDF/File-header-PDF-1-offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-1n-where-n-is-a-single-digit-number-between-0-and-7/index.html>`_
+ - `Missing ID in the document trailer <database/solutions/veraPDF/Missing-ID-in-the-document-trailer/index.html>`_
+ - `Pages not found <database/solutions/veraPDF/Pages-not-found/index.html>`_
+ - `Real value out of range <database/solutions/veraPDF/Real-value-out-of-range/index.html>`_
+ - `The document catalog dictionary doesnt contain metadata key or metadata stream dictionary does not contain either entry Type with value Metadata or entry Subtype with value XML <database/solutions/veraPDF/The-document-catalog-dictionary-doesnt-contain-metadata-key-or-metadata-stream-dictionary-does-not-contain-either-entry-Type-with-value-Metadata-or-entry-Subtype-with-value-XML/index.html>`_
+ - `The font program is not embedded <database/solutions/veraPDF/The-font-program-is-not-embedded/index.html>`_
+ - `The value of CreationDate entry from the document Info dictionary and its matching XMP property xmpCreateDate are not equivalent Info CreationDate D XMP xmpCreateDate <database/solutions/veraPDF/The-value-of-CreationDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpCreateDate-are-not-equivalent-Info-CreationDate-D-XMP-xmpCreateDate/index.html>`_
+ - `The value of ModDate entry from the document Info dictionary and its matching XMP property xmpModifyDate are not equivalent Info ModDate D XMP xmpModifyDate <database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/index.html>`_
+ - `XMP property does not correspond to type null <database/solutions/veraPDF/XMP-property-does-not-correspond-to-type-null/index.html>`_
+ - `can not locate xref table <database/solutions/veraPDF/can-not-locate-xref-table/index.html>`_
  - `orgverapdfpdfontcmapCMapParser getBfrangeEndFromBytes WARNING Incorrect bfrange in toUnicode CMap bfrange contains more than code <database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/index.html>`_
