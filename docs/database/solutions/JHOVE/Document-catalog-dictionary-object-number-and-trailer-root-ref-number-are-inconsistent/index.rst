@@ -150,6 +150,9 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	ignoring zlib error: incorrect data check
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	xref table was repaired
 	JHOVE:	Document catalog dictionary object number and trailer root ref number are inconsistent
 	veraPDF:	Pages not found
 

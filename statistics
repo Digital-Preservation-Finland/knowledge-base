@@ -148,10 +148,68 @@
       1     221    2684 database/solutions/ffprobe/Error-opening-filters/error
       1      86     946 database/solutions/ffprobe/Invalid-data-found-when-processing-input/error
       1      12     312 database/solutions/file-scraper/invalid-videocontainer-stream/error
+      1     206    2450 database/solutions/Ghostscript/A-closing-mark-or-had-no-matching-mark-ignoring-the-closing-mark/error
+      1     106    1086 database/solutions/Ghostscript/A-dictionary-is-missing-a-required-Type-key/error
+      1     723    6668 database/solutions/Ghostscript/A-Form-XObject-had-a-BBox-with-a-width-or-height-of-0/error
+      1     895   10014 database/solutions/Ghostscript/An-embedded-font-is-invalid/error
       1      10     326 database/solutions/Ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/error
+      1     129    2386 database/solutions/Ghostscript/A-page-ended-after-a-BT-had-been-executed-and-without-a-mtching-ET/error
+      1     256    2512 database/solutions/Ghostscript/badly-escaped-name/error
+      1     110    1357 database/solutions/Ghostscript/bad-trailer-dictionary/error
+      1     744   10357 database/solutions/Ghostscript/BT-found-inside-a-text-block/error
+      1     878   10117 database/solutions/Ghostscript/cannot-process-embedded-stream-for-font-object/error
+      1     108    1307 database/solutions/Ghostscript/Cant-repair-xref-repair-already-performed/error
+      1      62     663 database/solutions/Ghostscript/Catalog-dictionary-not-located-in-file-unable-to-proceed/error
+      1     291    3277 database/solutions/Ghostscript/circular-reference-to-indirect-object/error
+      1     111    1747 database/solutions/Ghostscript/Couldnt-find-a-named-resource/error
+      1     135    1271 database/solutions/Ghostscript/Couldnt-retrieve-MediaBox-for-page-using-current-media-size/error
+      1     741   10198 database/solutions/Ghostscript/degenerate-text-matrix/error
+      1     100    1017 database/solutions/Ghostscript/Document-Catalog-has-incorrect-Type/error
+      1     743   10509 database/solutions/Ghostscript/encountered-more-q-than-Q/error
+      1     743   10303 database/solutions/Ghostscript/encountered-more-Q-than-q/error
+      1     172    3831 database/solutions/Ghostscript/error-executing-PDF-token/error
+      1     172    2908 database/solutions/Ghostscript/error-reading-a-stream/error
+      1     743   10458 database/solutions/Ghostscript/ET-found-outside-text-block/error
+      1     744   10059 database/solutions/Ghostscript/found-real-number-when-expecting-int/error
+      1     172    3058 database/solutions/Ghostscript/garbage-left-on-stack/error
+      1     174    3283 database/solutions/Ghostscript/ignoring-zlib-error-incorrect-data-check/error
+      1      96    5061 database/solutions/Ghostscript/Incorrect-Length-for-stream-object/error
+      1     170    2288 database/solutions/Ghostscript/integer-overflowed/error
+      1     877   10114 database/solutions/Ghostscript/Invalid-ICC-colour-profile-using-alternate/error
+      1     173    2006 database/solutions/Ghostscript/Invalid-number-format-scientific-notation/error
+      1     105    1131 database/solutions/Ghostscript/invalid-object-number/error
+      1     744   11027 database/solutions/Ghostscript/invalid-operator-used-in-text-block/error
+      1     123    1500 database/solutions/Ghostscript/Invalid-xref-entry-incorrect-format/error
+      1     540    6715 database/solutions/Ghostscript/loca-length-is-greater-than-numGlyphs-in-the-font/error
+      1     170    3002 database/solutions/Ghostscript/malformed-number/error
+      1     173    3222 database/solutions/Ghostscript/missing-white-space-after-number/error
+      1     744   10367 database/solutions/Ghostscript/non-standard-operator-found---ignoring/error
+      1     111    1104 database/solutions/Ghostscript/no-startxref-token-found/error
+      1     197    2459 database/solutions/Ghostscript/number-uses-illegal-exponent-form/error
+      1     100    1013 database/solutions/Ghostscript/Object-has-an-unrecognised-Subtype/error
+      1      93     875 database/solutions/Ghostscript/object-lacks-an-endobj/error
+      1     100    1058 database/solutions/Ghostscript/object-lacks-a-required-Subtype/error
+      1     257    3137 database/solutions/Ghostscript/Page-drawing-error-occurred/error
+      1     147    1513 database/solutions/Ghostscript/Page-has-an-invalid-MediaBox-attribute-Using-the-current-page-size/error
+      1     136    1271 database/solutions/Ghostscript/Page-has-no-MediaBox-attribute-Using-the-current-page-size/error
+      1     105    1176 database/solutions/Ghostscript/page-not-found/error
+      1     104    1017 database/solutions/Ghostscript/Page-object-does-not-have-Page-type/error
+      1     122    1105 database/solutions/Ghostscript/page-tree-root-node-Count-did-not-match-the-actual-number-of-pages-in-the-tree/error
+      1     174    2879 database/solutions/Ghostscript/Possible-missing-white-space-between-operators/error
       1       2     251 database/solutions/Ghostscript/Quartz-PDFContext/error
+      1     893    9959 database/solutions/Ghostscript/recoverable-image-error/error
+      1     194    1829 database/solutions/Ghostscript/stack-underflow/error
+      1     171    3167 database/solutions/Ghostscript/startxref-offset-invalid/error
+      1     197    2407 database/solutions/Ghostscript/text-operator-outside-text-block/error
       1     111    1061 database/solutions/Ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/error
       1      15     353 database/solutions/Ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu/error
+      1     884   10143 database/solutions/Ghostscript/The-string-data-prameter-for-a-Indexed-colour-space-lookup-is-too-short/error
+      1     199    2524 database/solutions/Ghostscript/unbalanced-or-unescaped-character-in-string/error
+      1     139    1468 database/solutions/Ghostscript/undefined-in---runpdf--/error
+      1     253    2183 database/solutions/Ghostscript/used-invalid-operator-in-CharProc/error
+      1     124    1494 database/solutions/Ghostscript/xref-entry-not-exactly-bytes/error
+      1     123    1490 database/solutions/Ghostscript/xref-entry-not-valid-format/error
+      1      95    6643 database/solutions/Ghostscript/xref-table-was-repaired/error
       1      14     508 database/solutions/ImageMagick/Incompatible-type-for-RichTIFFIPTC/error
       1      11     300 database/solutions/ImageMagick/Read-error-on-strip/error
       1     230    5259 database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/error
@@ -289,4 +347,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1589  145653 2896111 yhteensä
+   1647  163744 3135294 yhteensä

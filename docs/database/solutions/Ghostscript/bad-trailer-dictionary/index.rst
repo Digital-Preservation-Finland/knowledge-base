@@ -1,0 +1,122 @@
+======================
+bad trailer dictionary
+======================
+
+.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+
+.. contents::
+   :depth: 2
+
+.. section-numbering::
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - Ghostscript
+     - 10.06.0
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Description**
+     - **Location**
+   * - application/pdf
+     - 1.4
+     - 
+     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_017_trailer-no-startxref-keyword.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_010_trailer-no-closing-brackets.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_009_trailer-no-opening-brackets.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_013_trailer-root-invalid-indirect-reference.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_012_trailer-root-no-indirect-reference.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_008_trailer-no-trailer-keyword.pdf>`__
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+--------------
+Output example
+--------------
+
+::
+
+
+	
+	The following errors were encountered at least once while processing this file:
+		no startxref token found
+		xref table was repaired
+		Incorrect /Length for stream object
+	
+	   **** This file had errors that were repaired or ignored.
+	   **** Please notify the author of the software that produced this
+	   **** file that it does not conform to Adobe's published PDF
+	   **** specification.
+	
+	
+	GPL Ghostscript 10.06.0 (2025-09-09)
+	Copyright (C) 2025 Artifex Software, Inc.  All rights reserved.
+	This software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:
+	see the file COPYING for details.
+	Processing pages 1 through 1.
+	Page 1
+	Loading font Times-Italic (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusRoman-Italic
+	
+	The following warnings were encountered at least once while processing this file:
+		bad trailer dictionary
+	
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	Ghostscript:	bad trailer dictionary
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	no startxref token found
+	Ghostscript:	xref table was repaired
+	JHOVE:	Invalid object definition
+	JHOVE:	Missing startxref keyword or value
+	JHOVE:	No document catalog dictionary
+

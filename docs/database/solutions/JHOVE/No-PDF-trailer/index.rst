@@ -108,6 +108,8 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	xref table was repaired
 	JHOVE:	No PDF trailer
 	veraPDF:	can not locate xref table
 

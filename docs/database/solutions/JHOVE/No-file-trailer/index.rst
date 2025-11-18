@@ -98,5 +98,13 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	A page ended after a BT had been executed and without a mtching ET
+	Ghostscript:	error executing PDF token
+	Ghostscript:	error reading a stream
+	Ghostscript:	ignoring zlib error: incorrect data check
+	Ghostscript:	Page drawing error occurred.
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	unbalanced or unescaped character '(' in string
+	Ghostscript:	xref table was repaired
 	JHOVE:	No file trailer
 

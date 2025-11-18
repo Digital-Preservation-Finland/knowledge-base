@@ -18,10 +18,68 @@ DBPTK-Developer
 Ghostscript
 -----------
 
+ - `A Form XObject had a BBox with a width or height of 0 <database/solutions/Ghostscript/A-Form-XObject-had-a-BBox-with-a-width-or-height-of-0/index.html>`_
+ - `A closing mark or had no matching mark ignoring the closing mark <database/solutions/Ghostscript/A-closing-mark-or-had-no-matching-mark-ignoring-the-closing-mark/index.html>`_
+ - `A dictionary is missing a required Type key <database/solutions/Ghostscript/A-dictionary-is-missing-a-required-Type-key/index.html>`_
+ - `A page ended after a BT had been executed and without a mtching ET <database/solutions/Ghostscript/A-page-ended-after-a-BT-had-been-executed-and-without-a-mtching-ET/index.html>`_
+ - `An embedded font is invalid <database/solutions/Ghostscript/An-embedded-font-is-invalid/index.html>`_
  - `Annotation has scale factor of zero and was ignored <database/solutions/Ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/index.html>`_
+ - `BT found inside a text block <database/solutions/Ghostscript/BT-found-inside-a-text-block/index.html>`_
+ - `Cant repair xref repair already performed <database/solutions/Ghostscript/Cant-repair-xref-repair-already-performed/index.html>`_
+ - `Catalog dictionary not located in file unable to proceed <database/solutions/Ghostscript/Catalog-dictionary-not-located-in-file-unable-to-proceed/index.html>`_
+ - `Couldnt find a named resource <database/solutions/Ghostscript/Couldnt-find-a-named-resource/index.html>`_
+ - `Couldnt retrieve MediaBox for page using current media size <database/solutions/Ghostscript/Couldnt-retrieve-MediaBox-for-page-using-current-media-size/index.html>`_
+ - `Document Catalog has incorrect Type <database/solutions/Ghostscript/Document-Catalog-has-incorrect-Type/index.html>`_
+ - `ET found outside text block <database/solutions/Ghostscript/ET-found-outside-text-block/index.html>`_
+ - `Incorrect Length for stream object <database/solutions/Ghostscript/Incorrect-Length-for-stream-object/index.html>`_
+ - `Invalid ICC colour profile using alternate <database/solutions/Ghostscript/Invalid-ICC-colour-profile-using-alternate/index.html>`_
+ - `Invalid number format scientific notation <database/solutions/Ghostscript/Invalid-number-format-scientific-notation/index.html>`_
+ - `Invalid xref entry incorrect format <database/solutions/Ghostscript/Invalid-xref-entry-incorrect-format/index.html>`_
+ - `Object has an unrecognised Subtype <database/solutions/Ghostscript/Object-has-an-unrecognised-Subtype/index.html>`_
+ - `Page drawing error occurred <database/solutions/Ghostscript/Page-drawing-error-occurred/index.html>`_
+ - `Page has an invalid MediaBox attribute Using the current page size <database/solutions/Ghostscript/Page-has-an-invalid-MediaBox-attribute-Using-the-current-page-size/index.html>`_
+ - `Page has no MediaBox attribute Using the current page size <database/solutions/Ghostscript/Page-has-no-MediaBox-attribute-Using-the-current-page-size/index.html>`_
+ - `Page object does not have Page type <database/solutions/Ghostscript/Page-object-does-not-have-Page-type/index.html>`_
+ - `Possible missing white space between operators <database/solutions/Ghostscript/Possible-missing-white-space-between-operators/index.html>`_
  - `Quartz PDFContext <database/solutions/Ghostscript/Quartz-PDFContext/index.html>`_
  - `The file was produced by macOS Versio Build G Quartz PDFContext <database/solutions/Ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/index.html>`_
  - `The file was produced by n Adobe PSL e for Canonu <database/solutions/Ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu/index.html>`_
+ - `The string data prameter for a Indexed colour space lookup is too short <database/solutions/Ghostscript/The-string-data-prameter-for-a-Indexed-colour-space-lookup-is-too-short/index.html>`_
+ - `bad trailer dictionary <database/solutions/Ghostscript/bad-trailer-dictionary/index.html>`_
+ - `badly escaped name <database/solutions/Ghostscript/badly-escaped-name/index.html>`_
+ - `cannot process embedded stream for font object <database/solutions/Ghostscript/cannot-process-embedded-stream-for-font-object/index.html>`_
+ - `circular reference to indirect object <database/solutions/Ghostscript/circular-reference-to-indirect-object/index.html>`_
+ - `degenerate text matrix <database/solutions/Ghostscript/degenerate-text-matrix/index.html>`_
+ - `encountered more Q than q <database/solutions/Ghostscript/encountered-more-Q-than-q/index.html>`_
+ - `encountered more q than Q <database/solutions/Ghostscript/encountered-more-q-than-Q/index.html>`_
+ - `error executing PDF token <database/solutions/Ghostscript/error-executing-PDF-token/index.html>`_
+ - `error reading a stream <database/solutions/Ghostscript/error-reading-a-stream/index.html>`_
+ - `found real number when expecting int <database/solutions/Ghostscript/found-real-number-when-expecting-int/index.html>`_
+ - `garbage left on stack <database/solutions/Ghostscript/garbage-left-on-stack/index.html>`_
+ - `ignoring zlib error incorrect data check <database/solutions/Ghostscript/ignoring-zlib-error-incorrect-data-check/index.html>`_
+ - `integer overflowed <database/solutions/Ghostscript/integer-overflowed/index.html>`_
+ - `invalid object number <database/solutions/Ghostscript/invalid-object-number/index.html>`_
+ - `invalid operator used in text block <database/solutions/Ghostscript/invalid-operator-used-in-text-block/index.html>`_
+ - `loca length is greater than numGlyphs in the font <database/solutions/Ghostscript/loca-length-is-greater-than-numGlyphs-in-the-font/index.html>`_
+ - `malformed number <database/solutions/Ghostscript/malformed-number/index.html>`_
+ - `missing white space after number <database/solutions/Ghostscript/missing-white-space-after-number/index.html>`_
+ - `no startxref token found <database/solutions/Ghostscript/no-startxref-token-found/index.html>`_
+ - `non standard operator found   ignoring <database/solutions/Ghostscript/non-standard-operator-found---ignoring/index.html>`_
+ - `number uses illegal exponent form <database/solutions/Ghostscript/number-uses-illegal-exponent-form/index.html>`_
+ - `object lacks a required Subtype <database/solutions/Ghostscript/object-lacks-a-required-Subtype/index.html>`_
+ - `object lacks an endobj <database/solutions/Ghostscript/object-lacks-an-endobj/index.html>`_
+ - `page not found <database/solutions/Ghostscript/page-not-found/index.html>`_
+ - `page tree root node Count did not match the actual number of pages in the tree <database/solutions/Ghostscript/page-tree-root-node-Count-did-not-match-the-actual-number-of-pages-in-the-tree/index.html>`_
+ - `recoverable image error <database/solutions/Ghostscript/recoverable-image-error/index.html>`_
+ - `stack underflow <database/solutions/Ghostscript/stack-underflow/index.html>`_
+ - `startxref offset invalid <database/solutions/Ghostscript/startxref-offset-invalid/index.html>`_
+ - `text operator outside text block <database/solutions/Ghostscript/text-operator-outside-text-block/index.html>`_
+ - `unbalanced or unescaped character in string <database/solutions/Ghostscript/unbalanced-or-unescaped-character-in-string/index.html>`_
+ - `undefined in   runpdf   <database/solutions/Ghostscript/undefined-in---runpdf--/index.html>`_
+ - `used invalid operator in CharProc <database/solutions/Ghostscript/used-invalid-operator-in-CharProc/index.html>`_
+ - `xref entry not exactly bytes <database/solutions/Ghostscript/xref-entry-not-exactly-bytes/index.html>`_
+ - `xref entry not valid format <database/solutions/Ghostscript/xref-entry-not-valid-format/index.html>`_
+ - `xref table was repaired <database/solutions/Ghostscript/xref-table-was-repaired/index.html>`_
 
 ImageMagick
 -----------

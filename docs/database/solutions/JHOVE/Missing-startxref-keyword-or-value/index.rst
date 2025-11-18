@@ -110,5 +110,10 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	bad trailer dictionary
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	no startxref token found
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	xref table was repaired
 	JHOVE:	Missing startxref keyword or value
 

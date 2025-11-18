@@ -7571,6 +7571,11 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	A page ended after a BT had been executed and without a mtching ET
+	Ghostscript:	encountered more q than Q
+	Ghostscript:	error reading a stream
+	Ghostscript:	'loca' length .* is greater than numGlyphs .* in the font .*
+	Ghostscript:	Page drawing error occurred.
 	JHOVE:	Improperly formed date
 	JHOVE:	Invalid destination object
 

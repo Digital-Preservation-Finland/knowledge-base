@@ -314,5 +314,10 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	Can't repair xref, repair already performed
+	Ghostscript:	Couldn't find a named resource
+	Ghostscript:	error executing PDF token
+	Ghostscript:	invalid object number
+	Ghostscript:	xref table was repaired
 	JHOVE:	Unexpected exception java.*
 

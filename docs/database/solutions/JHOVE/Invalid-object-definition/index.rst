@@ -439,6 +439,53 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	A closing mark (] or >>) had no matching mark, ignoring the closing mark
+	Ghostscript:	A dictionary is missing a required /Type key.
+	Ghostscript:	A Form XObject had a BBox with a width or height of 0
+	Ghostscript:	An embedded font is invalid
+	Ghostscript:	A page ended after a BT had been executed and without a mtching ET
+	Ghostscript:	badly escaped name
+	Ghostscript:	bad trailer dictionary
+	Ghostscript:	BT found inside a text block
+	Ghostscript:	Can't repair xref, repair already performed
+	Ghostscript:	Catalog dictionary not located in file, unable to proceed
+	Ghostscript:	circular reference to indirect object
+	Ghostscript:	Couldn't find a named resource
+	Ghostscript:	Couldn't retrieve MediaBox for page, using current media size
+	Ghostscript:	degenerate text matrix
+	Ghostscript:	Document Catalog has incorrect /Type
+	Ghostscript:	encountered more q than Q
+	Ghostscript:	encountered more Q than q
+	Ghostscript:	error executing PDF token
+	Ghostscript:	error reading a stream
+	Ghostscript:	ET found outside text block
+	Ghostscript:	garbage left on stack
+	Ghostscript:	ignoring zlib error: incorrect data check
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	integer overflowed
+	Ghostscript:	invalid object number
+	Ghostscript:	invalid operator used in text block
+	Ghostscript:	malformed number
+	Ghostscript:	missing white space after number
+	Ghostscript:	non standard operator found - ignoring
+	Ghostscript:	number uses illegal exponent form
+	Ghostscript:	Object has an unrecognised Subtype
+	Ghostscript:	object lacks an endobj
+	Ghostscript:	object lacks a required Subtype
+	Ghostscript:	Page drawing error occurred.
+	Ghostscript:	Page has an invalid /MediaBox attribute. Using the current page size.
+	Ghostscript:	Page has no /MediaBox attribute. Using the current page size.
+	Ghostscript:	page not found.
+	Ghostscript:	Page object does not have /Page type
+	Ghostscript:	page tree root node /Count did not match the actual number of pages in the tree.
+	Ghostscript:	Possible missing white space between operators
+	Ghostscript:	recoverable image error
+	Ghostscript:	stack underflow
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	text operator outside text block
+	Ghostscript:	unbalanced or unescaped character '(' in string
+	Ghostscript:	/undefined in --runpdf--
+	Ghostscript:	xref table was repaired
 	JHOVE:	Invalid object definition
 	JHOVE:	No document catalog dictionary
 	veraPDF:	can not locate xref table

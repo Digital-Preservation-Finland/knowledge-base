@@ -158,6 +158,38 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	A closing mark (] or >>) had no matching mark, ignoring the closing mark
+	Ghostscript:	An embedded font is invalid
+	Ghostscript:	A page ended after a BT had been executed and without a mtching ET
+	Ghostscript:	BT found inside a text block
+	Ghostscript:	Couldn't find a named resource
+	Ghostscript:	degenerate text matrix
+	Ghostscript:	encountered more q than Q
+	Ghostscript:	encountered more Q than q
+	Ghostscript:	error executing PDF token
+	Ghostscript:	error reading a stream
+	Ghostscript:	ET found outside text block
+	Ghostscript:	garbage left on stack
+	Ghostscript:	ignoring zlib error: incorrect data check
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	integer overflowed
+	Ghostscript:	Invalid number format: scientific notation
+	Ghostscript:	invalid operator used in text block
+	Ghostscript:	Invalid xref entry, incorrect format.
+	Ghostscript:	malformed number
+	Ghostscript:	missing white space after number
+	Ghostscript:	non standard operator found - ignoring
+	Ghostscript:	number uses illegal exponent form
+	Ghostscript:	Page drawing error occurred.
+	Ghostscript:	Possible missing white space between operators
+	Ghostscript:	stack underflow
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	text operator outside text block
+	Ghostscript:	unbalanced or unescaped character '(' in string
+	Ghostscript:	used invalid operator in CharProc
+	Ghostscript:	xref entry not exactly .* bytes
+	Ghostscript:	xref entry not valid format
+	Ghostscript:	xref table was repaired
 	JHOVE:	Improperly nested dictionary delimiters
 	veraPDF:	End of file is reached
 
