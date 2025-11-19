@@ -264,6 +264,12 @@
       1      85    1871 database/solutions/JHOVE/Unknown-tag/error
       1     102    2122 database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/error
       1    3852   67906 database/solutions/JHOVE/Value-offset-not-word-aligned/error
+      1      19    1548 database/solutions/jpylyzer/containsColourSpecificationBoxFalse/error
+      1      19    1549 database/solutions/jpylyzer/containsContiguousCodestreamBoxFalse/error
+      1      19    1540 database/solutions/jpylyzer/containsImageHeaderBoxFalse/error
+      1      19    1551 database/solutions/jpylyzer/firstJP2HeaderBoxIsImageHeaderBoxFalse/error
+      1      19    1545 database/solutions/jpylyzer/locationJP2HeaderBoxIsValidFalse/error
+      1      21    1540 database/solutions/jpylyzer/warningignoring-unknown-box/error
       1      36     695 database/solutions/libreoffice/E-ltstringvalue-assertion-string-void-failed/error
       1       5     431 database/solutions/lxml/Corrupted-ZIP-archive/error
       1      28     536 database/solutions/lxml/Element-Missing-child-elements-Expected-is/error
@@ -376,4 +382,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1676  164919 3160229 yhteensä
+   1682  165035 3169502 yhteensä

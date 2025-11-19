@@ -553,6 +553,16 @@ ImageMagick
 
  - `Stream error while reading JP2 Header box box length is inconsistent <database/solutions/ImageMagick/Stream-error-while-reading-JP2-Header-box-box-length-is-inconsistent/index.html>`_
 
+jpylyzer
+~~~~~~~~
+
+ - `containsColourSpecificationBoxFalse <database/solutions/jpylyzer/containsColourSpecificationBoxFalse/index.html>`_
+ - `containsContiguousCodestreamBoxFalse <database/solutions/jpylyzer/containsContiguousCodestreamBoxFalse/index.html>`_
+ - `containsImageHeaderBoxFalse <database/solutions/jpylyzer/containsImageHeaderBoxFalse/index.html>`_
+ - `firstJP2HeaderBoxIsImageHeaderBoxFalse <database/solutions/jpylyzer/firstJP2HeaderBoxIsImageHeaderBoxFalse/index.html>`_
+ - `locationJP2HeaderBoxIsValidFalse <database/solutions/jpylyzer/locationJP2HeaderBoxIsValidFalse/index.html>`_
+ - `warningignoring unknown box <database/solutions/jpylyzer/warningignoring-unknown-box/index.html>`_
+
 Pillow
 ~~~~~~
 
