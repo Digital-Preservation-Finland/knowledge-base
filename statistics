@@ -209,11 +209,22 @@
       1     124    1494 database/solutions/Ghostscript/xref-entry-not-exactly-bytes/error
       1     123    1490 database/solutions/Ghostscript/xref-entry-not-valid-format/error
       1      95    6643 database/solutions/Ghostscript/xref-table-was-repaired/error
+      1      11     370 database/solutions/ImageMagick/Bogus-marker-length/error
+      1       9     400 database/solutions/ImageMagick/corrupt-image/error
+      1      35     493 database/solutions/ImageMagick/Failed-to-allocate-memory-for-to-read-TIFF-directory-elements-of-bytes-each/error
+      1      11     411 database/solutions/ImageMagick/IHDR-CRC-error/error
+      1      11     421 database/solutions/ImageMagick/improper-image-header/error
       1      14     508 database/solutions/ImageMagick/Incompatible-type-for-RichTIFFIPTC/error
+      1       9     369 database/solutions/ImageMagick/Inputoutput-error/error
+      1      15     497 database/solutions/ImageMagick/insufficient-image-data-in-file/error
+      1      15     378 database/solutions/ImageMagick/negative-or-zero-image-size/error
+      1      45     472 database/solutions/ImageMagick/Not-enough-data-for-scanline-expected-a-request-for-at-most-bytes-got-a-request-for-bytes/error
       1      11     300 database/solutions/ImageMagick/Read-error-on-strip/error
+      1       9     357 database/solutions/ImageMagick/Read-Exception/error
+      1      27     407 database/solutions/ImageMagick/Stream-error-while-reading-JP2-Header-box-box-length-is-inconsistent/error
       1     230    5259 database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/error
-      1      62    1699 database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/error
-      1     176    3504 database/solutions/JHOVE/CSS-001-ERROR/error
+      1      63    1699 database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/error
+      1     176    3555 database/solutions/JHOVE/CSS-001-ERROR/error
       1     175    3606 database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/error
       1     226    7387 database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/error
       1      39    1216 database/solutions/JHOVE/File-does-not-start-with-RIFF-header/error
@@ -271,6 +282,10 @@
       1     144    2585 database/solutions/lxml/WXS-schema-failed-to-compile/error
       1      13     343 database/solutions/mediainfo/File-contains-a-truncated-track/error
       1       6     270 database/solutions/mediainfo/No-audio-or-video-tracks-found/error
+      1      11     692 database/solutions/Pillow/cannot-identify-image-file/error
+      1      12     432 database/solutions/Pillow/could-not-create-decoder-object/error
+      1      32     408 database/solutions/Pillow/Image-size-pixels-exceeds-limit-of-pixels-could-be-decompression-bomb-DOS-attack/error
+      1       8     252 database/solutions/Pillow/Truncated-File-Read/error
       1      11     346 database/solutions/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/error
       1      11     318 database/solutions/unknown/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO/error
       1      26     518 database/solutions/Validator.nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute/error
@@ -361,4 +376,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1661  164658 3153819 yhteensä
+   1676  164919 3160229 yhteensä

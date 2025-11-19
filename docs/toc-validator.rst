@@ -144,6 +144,14 @@ JHOVE
  - `Unrecognized or missing DOCTYPE declaration validation continuing as HTML 32 <database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/index.html>`_
  - `Value offset not word aligned <database/solutions/JHOVE/Value-offset-not-word-aligned/index.html>`_
 
+Pillow
+------
+
+ - `Image size pixels exceeds limit of pixels could be decompression bomb DOS attack <database/solutions/Pillow/Image-size-pixels-exceeds-limit-of-pixels-could-be-decompression-bomb-DOS-attack/index.html>`_
+ - `Truncated File Read <database/solutions/Pillow/Truncated-File-Read/index.html>`_
+ - `cannot identify image file <database/solutions/Pillow/cannot-identify-image-file/index.html>`_
+ - `could not create decoder object <database/solutions/Pillow/could-not-create-decoder-object/index.html>`_
+
 Validator.nu
 ------------
 

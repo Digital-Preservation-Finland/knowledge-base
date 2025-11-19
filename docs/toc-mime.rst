@@ -509,6 +509,11 @@ JHOVE
 
  - `Unknown data block type <database/solutions/JHOVE/Unknown-data-block-type/index.html>`_
 
+Pillow
+~~~~~~
+
+ - `Image size pixels exceeds limit of pixels could be decompression bomb DOS attack <database/solutions/Pillow/Image-size-pixels-exceeds-limit-of-pixels-could-be-decompression-bomb-DOS-attack/index.html>`_
+
 ImageMagick
 ~~~~~~~~~~~
 
@@ -518,6 +523,11 @@ JHOVE
 ~~~~~
 
  - `Unknown data block type <database/solutions/JHOVE/Unknown-data-block-type/index.html>`_
+
+Pillow
+~~~~~~
+
+ - `cannot identify image file <database/solutions/Pillow/cannot-identify-image-file/index.html>`_
 
 ImageMagick
 ~~~~~~~~~~~
@@ -529,6 +539,11 @@ JHOVE
 
  - `Invalid GIF header <database/solutions/JHOVE/Invalid-GIF-header/index.html>`_
 
+Pillow
+~~~~~~
+
+ - `cannot identify image file <database/solutions/Pillow/cannot-identify-image-file/index.html>`_
+
 image/jp2
 ---------
 
@@ -538,8 +553,17 @@ ImageMagick
 
  - `Stream error while reading JP2 Header box box length is inconsistent <database/solutions/ImageMagick/Stream-error-while-reading-JP2-Header-box-box-length-is-inconsistent/index.html>`_
 
+Pillow
+~~~~~~
+
+ - `cannot identify image file <database/solutions/Pillow/cannot-identify-image-file/index.html>`_
+
 image/jpeg
 ----------
+
+
+ImageMagick
+~~~~~~~~~~~
 
  - `Bogus marker length <database/solutions/ImageMagick/Bogus-marker-length/index.html>`_
 
@@ -547,6 +571,15 @@ JHOVE
 ~~~~~
 
  - `Unexpected end of file <database/solutions/JHOVE/Unexpected-end-of-file/index.html>`_
+
+Pillow
+~~~~~~
+
+ - `Truncated File Read <database/solutions/Pillow/Truncated-File-Read/index.html>`_
+
+JHOVE
+~~~~~
+
  - `File does not begin with SPIFF Exif or JFIF segment <database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/index.html>`_
 
 python-image-library
@@ -564,8 +597,17 @@ ImageMagick
  - `IHDR CRC error <database/solutions/ImageMagick/IHDR-CRC-error/index.html>`_
  - `Read Exception <database/solutions/ImageMagick/Read-Exception/index.html>`_
 
+Pillow
+~~~~~~
+
+ - `cannot identify image file <database/solutions/Pillow/cannot-identify-image-file/index.html>`_
+
 image/tiff
 ----------
+
+
+ImageMagick
+~~~~~~~~~~~
 
  - `Failed to allocate memory for to read TIFF directory elements of bytes each <database/solutions/ImageMagick/Failed-to-allocate-memory-for-to-read-TIFF-directory-elements-of-bytes-each/index.html>`_
  - `Not enough data for scanline expected a request for at most bytes got a request for bytes <database/solutions/ImageMagick/Not-enough-data-for-scanline-expected-a-request-for-at-most-bytes-got-a-request-for-bytes/index.html>`_
@@ -577,6 +619,11 @@ JHOVE
  - `JPEGProc not defined for JPEG compression <database/solutions/JHOVE/JPEGProc-not-defined-for-JPEG-compression/index.html>`_
  - `Premature EOF <database/solutions/JHOVE/Premature-EOF/index.html>`_
 
+Pillow
+~~~~~~
+
+ - `cannot identify image file <database/solutions/Pillow/cannot-identify-image-file/index.html>`_
+
 image/webp
 ----------
 
@@ -587,8 +634,17 @@ ImageMagick
  - `corrupt image <database/solutions/ImageMagick/corrupt-image/index.html>`_
  - `insufficient image data in file <database/solutions/ImageMagick/insufficient-image-data-in-file/index.html>`_
 
+Pillow
+~~~~~~
+
+ - `could not create decoder object <database/solutions/Pillow/could-not-create-decoder-object/index.html>`_
+
 image/x-adobe-dng
 -----------------
+
+
+ImageMagick
+~~~~~~~~~~~
 
  - `Inputoutput error <database/solutions/ImageMagick/Inputoutput-error/index.html>`_
 
@@ -598,6 +654,11 @@ JHOVE
  - `Tag out of sequence <database/solutions/JHOVE/Tag-out-of-sequence/index.html>`_
  - `Unknown data type <database/solutions/JHOVE/Unknown-data-type/index.html>`_
  - `Value offset not word aligned <database/solutions/JHOVE/Value-offset-not-word-aligned/index.html>`_
+
+Pillow
+~~~~~~
+
+ - `cannot identify image file <database/solutions/Pillow/cannot-identify-image-file/index.html>`_
 
 image/x-dpx
 -----------
