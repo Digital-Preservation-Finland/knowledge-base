@@ -1,0 +1,83 @@
+===============================
+insufficient image data in file
+===============================
+
+.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+
+.. contents::
+   :depth: 2
+
+.. section-numbering::
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - ImageMagick
+     - 6.9.13-25
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Description**
+     - **Location**
+   * - image/webp
+     - (:unav)
+     - 
+     - :ref:`corpus <file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b>`
+   * - image/webp
+     - (:unav)
+     - 
+     - :ref:`corpus <file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd>`
+   * - image/webp
+     - (:unav)
+     - 
+     - :ref:`corpus <file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea>`
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+--------------
+Output example
+--------------
+
+::
+
+
+	Error in analyzing file
+	insufficient image data in file `/corpus/file-scraper/tests/data/image_webp/invalid__missing_bitstream.webp' @ error/webp.c/ReadWEBPImage/590
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ImageMagick:	insufficient image data in file
+

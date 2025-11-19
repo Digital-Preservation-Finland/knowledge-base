@@ -1,0 +1,1 @@
+{"files":["corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e"],"analyses":[],"validator":"ImageMagick","validatorVersion":"6.9.13-25","errorMessage":"Input/output error","type":"","outputExample":["Error in analyzing file","Input/output error `/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng' @ error/dng.c/ReadDNGImage/499"],"notes":[]}

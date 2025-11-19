@@ -1,0 +1,1 @@
+{"files":["file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b"],"analyses":[],"validator":"ImageMagick","validatorVersion":"6.9.13-25","errorMessage":"Bogus marker length","type":"","outputExample":["Error in analyzing file","Bogus marker length `/corpus/file-scraper/tests/data/image_jpeg/invalid_1.01_data_changed.jpg' @ error/jpeg.c/JPEGErrorHandler/343"],"notes":[]}

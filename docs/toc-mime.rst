@@ -498,12 +498,53 @@ JHOVE
 image/gif
 ---------
 
+
+ImageMagick
+~~~~~~~~~~~
+
+ - `corrupt image <database/solutions/ImageMagick/corrupt-image/index.html>`_
+
+JHOVE
+~~~~~
+
  - `Unknown data block type <database/solutions/JHOVE/Unknown-data-block-type/index.html>`_
+
+ImageMagick
+~~~~~~~~~~~
+
+ - `negative or zero image size <database/solutions/ImageMagick/negative-or-zero-image-size/index.html>`_
+
+JHOVE
+~~~~~
+
  - `Unknown data block type <database/solutions/JHOVE/Unknown-data-block-type/index.html>`_
+
+ImageMagick
+~~~~~~~~~~~
+
+ - `improper image header <database/solutions/ImageMagick/improper-image-header/index.html>`_
+
+JHOVE
+~~~~~
+
  - `Invalid GIF header <database/solutions/JHOVE/Invalid-GIF-header/index.html>`_
+
+image/jp2
+---------
+
+
+ImageMagick
+~~~~~~~~~~~
+
+ - `Stream error while reading JP2 Header box box length is inconsistent <database/solutions/ImageMagick/Stream-error-while-reading-JP2-Header-box-box-length-is-inconsistent/index.html>`_
 
 image/jpeg
 ----------
+
+ - `Bogus marker length <database/solutions/ImageMagick/Bogus-marker-length/index.html>`_
+
+JHOVE
+~~~~~
 
  - `Unexpected end of file <database/solutions/JHOVE/Unexpected-end-of-file/index.html>`_
  - `File does not begin with SPIFF Exif or JFIF segment <database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/index.html>`_
@@ -513,9 +554,21 @@ python-image-library
 
  - `SyntaxError not a TIFF file header bExifxaII not valid <database/solutions/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/index.html>`_
 
+image/png
+---------
+
+
+ImageMagick
+~~~~~~~~~~~
+
+ - `IHDR CRC error <database/solutions/ImageMagick/IHDR-CRC-error/index.html>`_
+ - `Read Exception <database/solutions/ImageMagick/Read-Exception/index.html>`_
+
 image/tiff
 ----------
 
+ - `Failed to allocate memory for to read TIFF directory elements of bytes each <database/solutions/ImageMagick/Failed-to-allocate-memory-for-to-read-TIFF-directory-elements-of-bytes-each/index.html>`_
+ - `Not enough data for scanline expected a request for at most bytes got a request for bytes <database/solutions/ImageMagick/Not-enough-data-for-scanline-expected-a-request-for-at-most-bytes-got-a-request-for-bytes/index.html>`_
 
 JHOVE
 ~~~~~
@@ -524,8 +577,23 @@ JHOVE
  - `JPEGProc not defined for JPEG compression <database/solutions/JHOVE/JPEGProc-not-defined-for-JPEG-compression/index.html>`_
  - `Premature EOF <database/solutions/JHOVE/Premature-EOF/index.html>`_
 
+image/webp
+----------
+
+
+ImageMagick
+~~~~~~~~~~~
+
+ - `corrupt image <database/solutions/ImageMagick/corrupt-image/index.html>`_
+ - `insufficient image data in file <database/solutions/ImageMagick/insufficient-image-data-in-file/index.html>`_
+
 image/x-adobe-dng
 -----------------
+
+ - `Inputoutput error <database/solutions/ImageMagick/Inputoutput-error/index.html>`_
+
+JHOVE
+~~~~~
 
  - `Tag out of sequence <database/solutions/JHOVE/Tag-out-of-sequence/index.html>`_
  - `Unknown data type <database/solutions/JHOVE/Unknown-data-type/index.html>`_

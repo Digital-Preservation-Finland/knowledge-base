@@ -1,0 +1,1 @@
+{"files":["corpus/file/aad28cd5-cfb7-4cba-bf0c-354a95811f71"],"analyses":[],"validator":"ImageMagick","validatorVersion":"6.9.13-25","errorMessage":"Read Exception","type":"","outputExample":["Error in analyzing file","Read Exception `/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IEND.png' @ error/png.c/MagickPNGErrorHandler/1643"],"notes":[]}

@@ -84,8 +84,19 @@ Ghostscript
 ImageMagick
 -----------
 
+ - `Bogus marker length <database/solutions/ImageMagick/Bogus-marker-length/index.html>`_
+ - `Failed to allocate memory for to read TIFF directory elements of bytes each <database/solutions/ImageMagick/Failed-to-allocate-memory-for-to-read-TIFF-directory-elements-of-bytes-each/index.html>`_
+ - `IHDR CRC error <database/solutions/ImageMagick/IHDR-CRC-error/index.html>`_
  - `Incompatible type for RichTIFFIPTC <database/solutions/ImageMagick/Incompatible-type-for-RichTIFFIPTC/index.html>`_
+ - `Inputoutput error <database/solutions/ImageMagick/Inputoutput-error/index.html>`_
+ - `Not enough data for scanline expected a request for at most bytes got a request for bytes <database/solutions/ImageMagick/Not-enough-data-for-scanline-expected-a-request-for-at-most-bytes-got-a-request-for-bytes/index.html>`_
+ - `Read Exception <database/solutions/ImageMagick/Read-Exception/index.html>`_
  - `Read error on strip <database/solutions/ImageMagick/Read-error-on-strip/index.html>`_
+ - `Stream error while reading JP2 Header box box length is inconsistent <database/solutions/ImageMagick/Stream-error-while-reading-JP2-Header-box-box-length-is-inconsistent/index.html>`_
+ - `corrupt image <database/solutions/ImageMagick/corrupt-image/index.html>`_
+ - `improper image header <database/solutions/ImageMagick/improper-image-header/index.html>`_
+ - `insufficient image data in file <database/solutions/ImageMagick/insufficient-image-data-in-file/index.html>`_
+ - `negative or zero image size <database/solutions/ImageMagick/negative-or-zero-image-size/index.html>`_
 
 JHOVE
 -----

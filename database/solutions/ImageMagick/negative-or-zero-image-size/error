@@ -1,0 +1,1 @@
+{"files":["corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017"],"analyses":[],"validator":"ImageMagick","validatorVersion":"6.9.13-25","errorMessage":"negative or zero image size","type":"","outputExample":["Error in analyzing file","negative or zero image size `/corpus/file-scraper/tests/data/image_gif/invalid_1989a_truncated.gif' @ error/gif.c/ReadGIFImage/1424"],"notes":[]}
