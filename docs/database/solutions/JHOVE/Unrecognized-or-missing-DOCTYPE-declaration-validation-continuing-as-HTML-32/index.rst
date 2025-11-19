@@ -108,4 +108,5 @@ Related errors by source files
 ::
 
 	JHOVE:	Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2
+	Validator.nu:	Start tag seen without seeing a doctype first. Expected ..!DOCTYPE html
 

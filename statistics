@@ -294,6 +294,7 @@
       1       8     252 database/solutions/Pillow/Truncated-File-Read/error
       1      11     346 database/solutions/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/error
       1      11     318 database/solutions/unknown/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO/error
+      1      55     755 database/solutions/Validator.nu/Element-not-allowed-as-child-of-element-in-this-context/error
       1      26     518 database/solutions/Validator.nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute/error
       1      29     524 database/solutions/Validator.nu/error-An-img-element-which-has-an-alt-attribute-whose-value-is-the-empty-string-must-not-have-a-role-attribute-with-any-value-other-than-none-or-presentation/error
       1      11     327 database/solutions/Validator.nu/error-Attribute-caption-not-allowed-on-element-img-at-this-point/error
@@ -305,6 +306,7 @@
       1      13     360 database/solutions/Validator.nu/error-The-cellpadding-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/error
       1      13     360 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/error
       1      16     372 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/error
+      1      40     707 database/solutions/Validator.nu/Start-tag-seen-without-seeing-a-doctype-first-Expected-DOCTYPE-html/error
       1    9729  118065 database/solutions/veraPDF/A-CIDSet-entry-in-the-Font-descriptor-is-missing-or-does-not-correctly-identify-all-glyphs-present-in-the-embedded-font-subset-and-used-for-rendering/error
       1     685    8547 database/solutions/veraPDF/Actual-length-of-the-stream-bytes-does-not-match-the-value-of-the-Length-key-in-the-Stream-dictionary-bytes/error
       1    9732  118086 database/solutions/veraPDF/Annotation-flags-are-either-missing-or-set-the-annotation-to-be-hiddeninvisible-or-non-printable-F-null-Print-null-Hidden-null-Invisible-null-NoView-null/error
@@ -382,4 +384,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1682  165035 3169502 yhteensä
+   1684  165130 3170964 yhteensä

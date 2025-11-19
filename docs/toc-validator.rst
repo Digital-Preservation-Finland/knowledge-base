@@ -155,6 +155,8 @@ Pillow
 Validator.nu
 ------------
 
+ - `Element not allowed as child of element in this context <database/solutions/Validator.nu/Element-not-allowed-as-child-of-element-in-this-context/index.html>`_
+ - `Start tag seen without seeing a doctype first Expected DOCTYPE html <database/solutions/Validator.nu/Start-tag-seen-without-seeing-a-doctype-first-Expected-DOCTYPE-html/index.html>`_
  - `error A document must not include both a meta element with an httpequiv attribute whose value is contenttype and a meta element with a charset attribute <database/solutions/Validator.nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute/index.html>`_
  - `error An img element which has an alt attribute whose value is the empty string must not have a role attribute with any value other than none or presentation <database/solutions/Validator.nu/error-An-img-element-which-has-an-alt-attribute-whose-value-is-the-empty-string-must-not-have-a-role-attribute-with-any-value-other-than-none-or-presentation/index.html>`_
  - `error Attribute caption not allowed on element img at this point <database/solutions/Validator.nu/error-Attribute-caption-not-allowed-on-element-img-at-this-point/index.html>`_

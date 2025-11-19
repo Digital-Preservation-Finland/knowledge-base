@@ -1,0 +1,2 @@
+Start tag seen without seeing a doctype first. Expected ..!DOCTYPE html
+Element .* not allowed as child of element .* in this context
