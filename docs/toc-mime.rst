@@ -15,6 +15,7 @@ JHOVE
 ~~~~~
 
  - `RSC 005 ERROR <database/solutions/JHOVE/RSC-005-ERROR/index.html>`_
+ - `CSS 001 ERROR <database/solutions/JHOVE/CSS-001-ERROR/index.html>`_
  - `PKG 006 ERROR <database/solutions/JHOVE/PKG-006-ERROR/index.html>`_
  - `RSC 017 WARN <database/solutions/JHOVE/RSC-017-WARN/index.html>`_
 

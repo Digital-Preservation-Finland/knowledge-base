@@ -31,6 +31,10 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+   * - application/epub+zip
+     - 3
+     - 
+     - :ref:`corpus <file-scraper/cc3ebd39-d7b0-498d-8398-86bbb6b971e7>`
 
 --------
 Analyses
@@ -139,4 +143,9 @@ The "direction" property must not be included in an EPUB Style Sheet
 ------------------------------
 Related errors by source files
 ------------------------------
+
+::
+
+	JHOVE:	CSS-001, ERROR
+	JHOVE:	RSC-017, WARN
 
