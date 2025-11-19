@@ -146,5 +146,6 @@ Related errors by source files
 
 ::
 
+	JHOVE:	CSS-001, ERROR
 	JHOVE:	RSC-017, WARN
 

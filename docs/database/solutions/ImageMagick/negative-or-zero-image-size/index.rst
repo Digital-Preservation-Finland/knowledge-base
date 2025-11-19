@@ -73,4 +73,5 @@ Related errors by source files
 
 	ImageMagick:	negative or zero image size
 	JHOVE:	Unknown data block type
+	Pillow:	cannot identify image file
 

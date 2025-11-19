@@ -75,4 +75,5 @@ Related errors by source files
 	JHOVE:	Tag .* out of sequence
 	JHOVE:	Unknown data type
 	JHOVE:	Value offset not word-aligned:
+	Pillow:	cannot identify image file
 

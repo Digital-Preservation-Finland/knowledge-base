@@ -77,4 +77,6 @@ Related errors by source files
 
 	ImageMagick:	corrupt image
 	JHOVE:	Unknown data block type
+	Pillow:	could not create decoder object
+	Pillow:	Image size (.* pixels) exceeds limit of .* pixels, could be decompression bomb DOS attack.
 

@@ -99,7 +99,7 @@ Related errors by source files
 	ffmpeg:	Error while decoding stream .* Invalid data found when processing input
 	ffprobe:	Error opening filters!
 	ffprobe:	Invalid data found when processing input
-	jhove:	"Chunk ID contains space before printable characters: \"""" BKj\"""""
+	jhove:	Chunk ID contains space before printable characters
 	jhove:	File does not start with RIFF header
 	jhove:	Invalid chunk size
 	mediainfo:	No audio or video tracks found.

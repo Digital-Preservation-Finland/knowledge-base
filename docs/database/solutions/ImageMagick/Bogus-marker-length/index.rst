@@ -73,4 +73,5 @@ Related errors by source files
 
 	ImageMagick:	Bogus marker length
 	JHOVE:	Unexpected end of file
+	Pillow:	Truncated File Read
 

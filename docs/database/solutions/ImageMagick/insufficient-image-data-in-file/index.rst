@@ -80,4 +80,5 @@ Related errors by source files
 ::
 
 	ImageMagick:	insufficient image data in file
+	Pillow:	could not create decoder object
 

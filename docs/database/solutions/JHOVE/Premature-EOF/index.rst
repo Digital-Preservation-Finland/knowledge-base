@@ -90,6 +90,8 @@ Related errors by source files
 
 ::
 
+	ImageMagick:	Failed to allocate memory for to read TIFF directory (.* elements of .* bytes each)
 	JHOVE:	IFD offset not word-aligned
 	JHOVE:	Premature EOF
+	Pillow:	cannot identify image file
 

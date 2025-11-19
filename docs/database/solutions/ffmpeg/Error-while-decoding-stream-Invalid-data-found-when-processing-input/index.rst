@@ -104,7 +104,7 @@ Related errors by source files
 	ffmpeg:	offset_len .* is invalid
 	ffprobe:	Error opening filters!
 	ffprobe:	Invalid data found when processing input
-	jhove:	"Chunk ID contains space before printable characters: \"""" BKj\"""""
+	jhove:	Chunk ID contains space before printable characters
 	jhove:	File does not start with RIFF header
 	jhove:	Invalid chunk size
 	JHOVE:	Unexpected end of file

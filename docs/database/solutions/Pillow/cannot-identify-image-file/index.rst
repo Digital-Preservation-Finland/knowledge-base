@@ -112,5 +112,11 @@ Related errors by source files
 	JHOVE:	Unknown data block type
 	JHOVE:	Unknown data type
 	JHOVE:	Value offset not word-aligned:
+	jpylyzer:	<containsColourSpecificationBox>False
+	jpylyzer:	<containsContiguousCodestreamBox>False
+	jpylyzer:	<containsImageHeaderBox>False
+	jpylyzer:	<firstJP2HeaderBoxIsImageHeaderBox>False
+	jpylyzer:	<locationJP2HeaderBoxIsValid>False
+	jpylyzer:	<warning>ignoring unknown box
 	Pillow:	cannot identify image file
 

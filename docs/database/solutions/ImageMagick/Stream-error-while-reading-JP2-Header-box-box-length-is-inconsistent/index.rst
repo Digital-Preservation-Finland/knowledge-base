@@ -73,4 +73,11 @@ Related errors by source files
 ::
 
 	ImageMagick:	Stream error while reading JP2 Header box: box length is inconsistent.
+	jpylyzer:	<containsColourSpecificationBox>False
+	jpylyzer:	<containsContiguousCodestreamBox>False
+	jpylyzer:	<containsImageHeaderBox>False
+	jpylyzer:	<firstJP2HeaderBoxIsImageHeaderBox>False
+	jpylyzer:	<locationJP2HeaderBoxIsValid>False
+	jpylyzer:	<warning>ignoring unknown box
+	Pillow:	cannot identify image file
 

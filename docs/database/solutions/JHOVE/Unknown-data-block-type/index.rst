@@ -97,5 +97,9 @@ Related errors by source files
 
 ::
 
+	ImageMagick:	corrupt image
+	ImageMagick:	negative or zero image size
 	JHOVE:	Unknown data block type
+	Pillow:	cannot identify image file
+	Pillow:	Image size (.* pixels) exceeds limit of .* pixels, could be decompression bomb DOS attack.
 

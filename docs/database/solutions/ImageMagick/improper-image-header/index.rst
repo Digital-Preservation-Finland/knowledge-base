@@ -77,4 +77,5 @@ Related errors by source files
 
 	ImageMagick:	improper image header
 	JHOVE:	Invalid GIF header
+	Pillow:	cannot identify image file
 

@@ -412,7 +412,9 @@ Related errors by source files
 
 ::
 
+	ImageMagick:	Input/output error
 	JHOVE:	Tag .* out of sequence
 	JHOVE:	Unknown data type
 	JHOVE:	Value offset not word-aligned:
+	Pillow:	cannot identify image file
 

@@ -76,4 +76,5 @@ Related errors by source files
 ::
 
 	ImageMagick:	IHDR: CRC error
+	Pillow:	cannot identify image file
 
