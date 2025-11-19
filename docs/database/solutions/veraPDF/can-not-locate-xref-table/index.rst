@@ -169,6 +169,20 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	A closing mark (] or >>) had no matching mark, ignoring the closing mark
+	Ghostscript:	A page ended after a BT had been executed and without a mtching ET
+	Ghostscript:	Can't repair xref, repair already performed
+	Ghostscript:	Catalog dictionary not located in file, unable to proceed
+	Ghostscript:	Couldn't find a named resource
+	Ghostscript:	error executing PDF token
+	Ghostscript:	error reading a stream
+	Ghostscript:	ET found outside text block
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	object lacks an endobj
+	Ghostscript:	Page drawing error occurred.
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	text operator outside text block
+	Ghostscript:	xref table was repaired
 	JHOVE:	Invalid object definition
 	JHOVE:	No document catalog dictionary
 	JHOVE:	No PDF trailer

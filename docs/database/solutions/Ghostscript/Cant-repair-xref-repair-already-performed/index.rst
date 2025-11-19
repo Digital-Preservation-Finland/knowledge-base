@@ -127,4 +127,5 @@ Related errors by source files
 	JHOVE:	Invalid object definition
 	JHOVE:	No document catalog dictionary
 	JHOVE:	Unexpected exception java.*
+	veraPDF:	can not locate xref table
 

@@ -33,23 +33,23 @@ Classification
      - **Location**
    * - application/pdf
      - 1.6
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/033689.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/509284.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/392154.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/477139.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507618.pdf>`__
    * - application/pdf
      - 1.4
@@ -57,7 +57,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/corruptionOneByteMissing.pdf>`__
    * - application/pdf
      - 1.5
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/150277.pdf>`__
    * - application/pdf
      - 1.4
@@ -65,19 +65,19 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_005_page-object-parent-contains-array.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020747.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/427669.pdf>`__
    * - application/pdf
      - 1.6
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/504076.pdf>`__
    * - application/pdf
      - 1.4
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/050734.pdf>`__
    * - application/pdf
      - 1.4
@@ -85,7 +85,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_015_invalid-stream-length-in-dictionary.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/073439.pdf>`__
    * - application/pdf
      - 1.4
@@ -101,11 +101,11 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_018_trailer-no-xref-byte-offset.pdf>`__
    * - application/pdf
      - 1.4
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/435321.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/226387.pdf>`__
    * - application/pdf
      - 1.4
@@ -113,7 +113,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_001_no-cross-reference-table.pdf>`__
    * - application/pdf
      - 1.5
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/498264.pdf>`__
    * - application/pdf
      - 1.3
@@ -252,4 +252,14 @@ Related errors by source files
 	JHOVE:	Missing startxref keyword or value
 	JHOVE:	No document catalog dictionary
 	JHOVE:	No file trailer
+	veraPDF:	Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))
+	veraPDF:	can not locate xref table
+	veraPDF:	DeviceGray colour space is used without output intent profile
+	veraPDF:	Extra spacings or missing EOL characters around indirect object/generation number or keywords 'obj' and 'endobj'
+	veraPDF:	File header .*%PDF-*.* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-n.m
+	veraPDF:	Missing ID in the document trailer
+	veraPDF:	Pages not found
+	veraPDF:	Real value .* out of range
+	veraPDF:	The document catalog dictionary doesn't contain metadata key or metadata stream dictionary does not contain either entry Type with value /Metadata or entry Subtype with value /XML
+	veraPDF:	The font program is not embedded
 

@@ -130,4 +130,5 @@ Related errors by source files
 	Ghostscript:	xref entry not valid format
 	Ghostscript:	xref table was repaired
 	JHOVE:	Improperly nested dictionary delimiters
+	veraPDF:	End of file is reached
 

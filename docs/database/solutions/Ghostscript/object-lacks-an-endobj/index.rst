@@ -92,4 +92,5 @@ Related errors by source files
 	Ghostscript:	object lacks an endobj
 	Ghostscript:	xref table was repaired
 	JHOVE:	Invalid object definition
+	veraPDF:	can not locate xref table
 

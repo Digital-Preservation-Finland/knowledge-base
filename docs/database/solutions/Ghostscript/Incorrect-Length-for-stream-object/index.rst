@@ -57,7 +57,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_002_resources-basefont-wrong-font.pdf>`__
    * - application/pdf
      - 1.6
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/033689.pdf>`__
    * - application/pdf
      - 1.4
@@ -65,11 +65,11 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_007_offset_wrong.pdf>`__
    * - application/pdf
      - 1.4
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/268346.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/509284.pdf>`__
    * - application/pdf
      - 1.4
@@ -137,11 +137,11 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_016_trailer-wrong-size-key-value-pair.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/477139.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507618.pdf>`__
    * - application/pdf
      - 1.4
@@ -161,7 +161,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_009_trailer-no-opening-brackets.pdf>`__
    * - application/pdf
      - 1.5
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/150277.pdf>`__
    * - application/pdf
      - 1.4
@@ -177,7 +177,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_001_Stream-BT-missing.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020747.pdf>`__
    * - application/pdf
      - 1.4
@@ -201,7 +201,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_013_trailer-root-invalid-indirect-reference.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/027613.pdf>`__
    * - application/pdf
      - 1.4
@@ -217,7 +217,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_004_page-object-wrong-parent.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/303226.pdf>`__
    * - application/pdf
      - 1.4
@@ -225,7 +225,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_001_resources-basefont-missing.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/073439.pdf>`__
    * - application/pdf
      - 1.4
@@ -269,7 +269,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_007_page-tree-wrong-count.pdf>`__
    * - application/pdf
      - 1.4
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/435321.pdf>`__
    * - application/pdf
      - 1.4
@@ -289,7 +289,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_009_invalid-keyword-entry.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/226387.pdf>`__
    * - application/pdf
      - 1.4
@@ -309,11 +309,11 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_001_no-cross-reference-table.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/492484.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507676.pdf>`__
    * - application/pdf
      - 1.4
@@ -321,7 +321,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_010_wrong-generation-number.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020806.pdf>`__
    * - application/pdf
      - 1.4
@@ -329,7 +329,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_006_document-catalog-wrong-type-key.pdf>`__
    * - application/pdf
      - 1.5
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/498264.pdf>`__
    * - application/pdf
      - 1.4
@@ -458,4 +458,12 @@ Related errors by source files
 	JHOVE:	Missing startxref keyword or value
 	JHOVE:	No document catalog dictionary
 	JHOVE:	No PDF trailer
+	veraPDF:	Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))
+	veraPDF:	can not locate xref table
+	veraPDF:	DeviceGray colour space is used without output intent profile
+	veraPDF:	Extra spacings or missing EOL characters around indirect object/generation number or keywords 'obj' and 'endobj'
+	veraPDF:	File header .*%PDF-*.* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-n.m
+	veraPDF:	Missing ID in the document trailer
+	veraPDF:	The document catalog dictionary doesn't contain metadata key or metadata stream dictionary does not contain either entry Type with value /Metadata or entry Subtype with value /XML
+	veraPDF:	The font program is not embedded
 

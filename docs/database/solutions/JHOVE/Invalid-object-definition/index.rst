@@ -65,7 +65,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_007_offset_wrong.pdf>`__
    * - application/pdf
      - 1.4
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/268346.pdf>`__
    * - application/pdf
      - 1.4
@@ -145,7 +145,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_016_trailer-wrong-size-key-value-pair.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/392154.pdf>`__
    * - application/pdf
      - 1.4
@@ -169,7 +169,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_009_trailer-no-opening-brackets.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/040669.pdf>`__
    * - application/pdf
      - 1.4
@@ -185,7 +185,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_001_Stream-BT-missing.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/427669.pdf>`__
    * - application/pdf
      - 1.4
@@ -209,7 +209,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_013_trailer-root-invalid-indirect-reference.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/027613.pdf>`__
    * - application/pdf
      - 1.4
@@ -233,7 +233,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_004_page-object-wrong-parent.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/303226.pdf>`__
    * - application/pdf
      - 1.4
@@ -309,7 +309,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_003_document-catalog-indirecte-pages-reference-missing.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/492484.pdf>`__
    * - application/pdf
      - 1.4
@@ -317,7 +317,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_013_stream-keyword-missing.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507676.pdf>`__
    * - application/pdf
      - 1.4
@@ -325,7 +325,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_010_wrong-generation-number.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020806.pdf>`__
    * - application/pdf
      - 1.4
@@ -337,7 +337,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_002_page-tree-kids-links-recursive.pdf>`__
    * - application/pdf
      - 1.2
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/189478.pdf>`__
    * - application/pdf
      - 1.4

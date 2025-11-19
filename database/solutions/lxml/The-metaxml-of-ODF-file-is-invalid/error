@@ -1,0 +1,1 @@
+{"files":["file-scraper/23d70128-b0f7-443e-b628-a4417d04636d"],"analyses":[],"validator":"lxml","validatorVersion":"4.6.5.0","errorMessage":"The meta.xml of ODF file is invalid","type":"","outputExample":["The meta.xml of ODF file is invalid"],"notes":[]}

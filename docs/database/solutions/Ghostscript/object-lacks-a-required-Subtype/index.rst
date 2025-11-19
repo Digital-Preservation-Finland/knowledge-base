@@ -37,7 +37,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_005_resources-subtype-missing.pdf>`__
    * - application/pdf
      - 1.3
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/392154.pdf>`__
 
 --------

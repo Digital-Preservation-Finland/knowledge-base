@@ -180,6 +180,9 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	xref table was repaired
 	JHOVE:	Invalid cross-reference table
 	JHOVE:	No document catalog dictionary
 	veraPDF:	Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))

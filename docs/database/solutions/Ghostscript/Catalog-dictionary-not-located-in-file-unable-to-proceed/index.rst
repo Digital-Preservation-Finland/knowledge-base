@@ -81,4 +81,5 @@ Related errors by source files
 
 	Ghostscript:	Catalog dictionary not located in file, unable to proceed
 	JHOVE:	Invalid object definition
+	veraPDF:	can not locate xref table
 

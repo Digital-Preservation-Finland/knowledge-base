@@ -37,7 +37,7 @@ Classification
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_017_bytes-between-endstream-endobj.pdf>`__
    * - application/pdf
      - 1.6
-     - 
+     - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_1/499039.pdf>`__
    * - application/pdf
      - 1.4
@@ -184,6 +184,9 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	xref table was repaired
 	JHOVE:	Invalid cross-reference table
 	JHOVE:	No document catalog dictionary
 	veraPDF:	A CIDSet entry in the Font descriptor is missing or does not correctly identify all glyphs present in the embedded font subset and used for rendering

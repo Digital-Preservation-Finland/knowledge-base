@@ -201,7 +201,21 @@ libreoffice
 lxml
 ----
 
+ - `Corrupted ZIP archive <database/solutions/lxml/Corrupted-ZIP-archive/index.html>`_
+ - `Element Missing child elements Expected is <database/solutions/lxml/Element-Missing-child-elements-Expected-is/index.html>`_
+ - `Failed document is not well formed <database/solutions/lxml/Failed-document-is-not-well-formed/index.html>`_
+ - `Failed to locate a schema at location <database/solutions/lxml/Failed-to-locate-a-schema-at-location/index.html>`_
+ - `Found encoding declaration ASCII from the file but UTF 8 was expected <database/solutions/lxml/Found-encoding-declaration-ASCII-from-the-file-but-UTF-8-was-expected/index.html>`_
+ - `Input is not proper UTF 8 indicate encoding <database/solutions/lxml/Input-is-not-proper-UTF-8-indicate-encoding/index.html>`_
+ - `Namespace prefix xsd on is not defined <database/solutions/lxml/Namespace-prefix-xsd-on-is-not-defined/index.html>`_
+ - `No matching global declaration available for the validation root <database/solutions/lxml/No-matching-global-declaration-available-for-the-validation-root/index.html>`_
+ - `Opening and ending tag mismatch <database/solutions/lxml/Opening-and-ending-tag-mismatch/index.html>`_
  - `Schema definition probably missing from XML catalog <database/solutions/lxml/Schema-definition-probably-missing-from-XML-catalog/index.html>`_
+ - `The XML document is not a schema document <database/solutions/lxml/The-XML-document-is-not-a-schema-document/index.html>`_
+ - `The metaxml of ODF file is invalid <database/solutions/lxml/The-metaxml-of-ODF-file-is-invalid/index.html>`_
+ - `This element is not expected Expected is one of <database/solutions/lxml/This-element-is-not-expected-Expected-is-one-of/index.html>`_
+ - `WXS schema failed to compile <database/solutions/lxml/WXS-schema-failed-to-compile/index.html>`_
+ - `failed to load external entity <database/solutions/lxml/failed-to-load-external-entity/index.html>`_
 
 mediainfo
 ---------
@@ -243,3 +257,8 @@ veraPDF
  - `XMP property does not correspond to type null <database/solutions/veraPDF/XMP-property-does-not-correspond-to-type-null/index.html>`_
  - `can not locate xref table <database/solutions/veraPDF/can-not-locate-xref-table/index.html>`_
  - `orgverapdfpdfontcmapCMapParser getBfrangeEndFromBytes WARNING Incorrect bfrange in toUnicode CMap bfrange contains more than code <database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/index.html>`_
+
+warctools
+---------
+
+ - `Compressed file ended before the end of stream marker was reached <database/solutions/warctools/Compressed-file-ended-before-the-end-of-stream-marker-was-reached/index.html>`_

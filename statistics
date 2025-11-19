@@ -100,7 +100,6 @@
       5      23    2652 database/files/text_html/5
       2       2    1199 database/files/text_html/generic
      20      20   12044 database/files/text_plain/generic
-      1      19     299 database/files/text_xml/1
      40      49   23358 database/files/text_xml/1.0
       1       1     600 database/files/text_xml/generic
       1       4    1495 database/files/video_avi/generic
@@ -255,7 +254,21 @@
       1     102    2122 database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/error
       1    3852   67906 database/solutions/JHOVE/Value-offset-not-word-aligned/error
       1      36     695 database/solutions/libreoffice/E-ltstringvalue-assertion-string-void-failed/error
-      1      16     359 database/solutions/lxml/Schema-definition-probably-missing-from-XML-catalog/error
+      1       5     431 database/solutions/lxml/Corrupted-ZIP-archive/error
+      1      28     536 database/solutions/lxml/Element-Missing-child-elements-Expected-is/error
+      1      27     503 database/solutions/lxml/Failed-document-is-not-well-formed/error
+      1      58    1502 database/solutions/lxml/failed-to-load-external-entity/error
+      1      60    1509 database/solutions/lxml/Failed-to-locate-a-schema-at-location/error
+      1      23    1007 database/solutions/lxml/Found-encoding-declaration-ASCII-from-the-file-but-UTF-8-was-expected/error
+      1      30     409 database/solutions/lxml/Input-is-not-proper-UTF-8-indicate-encoding/error
+      1     146    2595 database/solutions/lxml/Namespace-prefix-xsd-on-is-not-defined/error
+      1      62    1588 database/solutions/lxml/No-matching-global-declaration-available-for-the-validation-root/error
+      1      25     368 database/solutions/lxml/Opening-and-ending-tag-mismatch/error
+      1      60    1419 database/solutions/lxml/Schema-definition-probably-missing-from-XML-catalog/error
+      1      13     256 database/solutions/lxml/The-metaxml-of-ODF-file-is-invalid/error
+      1     147    2599 database/solutions/lxml/The-XML-document-is-not-a-schema-document/error
+      1      36     781 database/solutions/lxml/This-element-is-not-expected-Expected-is-one-of/error
+      1     144    2585 database/solutions/lxml/WXS-schema-failed-to-compile/error
       1      13     343 database/solutions/mediainfo/File-contains-a-truncated-track/error
       1       6     270 database/solutions/mediainfo/No-audio-or-video-tracks-found/error
       1      11     346 database/solutions/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/error
@@ -292,6 +305,7 @@
       1     553    7686 database/solutions/veraPDF/The-value-of-CreationDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpCreateDate-are-not-equivalent-Info-CreationDate-D-XMP-xmpCreateDate/error
       1     553    7676 database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/error
       1    9711  117961 database/solutions/veraPDF/XMP-property-does-not-correspond-to-type-null/error
+      1      32     459 database/solutions/warctools/Compressed-file-ended-before-the-end-of-stream-marker-was-reached/error
       1      49     420 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/analysis
       1      62     476 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/analysis
       1      73     749 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/analysis
@@ -347,4 +361,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     354   23096  373901 corpus/errors.jsonl
     355     489  252689 corpus/files.jsonl
-   1647  163797 3135930 yhteensä
+   1661  164658 3153819 yhteensä
