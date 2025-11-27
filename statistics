@@ -44,12 +44,12 @@
       1       1     626 database/files/application_vnd.oasis.opendocument.text/1.2
       2       2    1265 database/files/application_vnd.oasis.opendocument.text/1.3
       2       2    1244 database/files/application_vnd.oasis.opendocument.text/generic
-      2       6    1439 database/files/application_vnd.openxmlformats-officedocument.presentationml.presentation/2007 onwards
-      1       2     666 database/files/application_vnd.openxmlformats-officedocument.presentationml.presentation/generic
-      2       6    1407 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/2007 onwards
-      1       2     658 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/generic
-      3       9    2155 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/2007 onwards
-      2      20    1094 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/generic
+      2       4    1443 database/files/application_vnd.openxmlformats-officedocument.presentationml.presentation/2007 onwards
+      1       1     668 database/files/application_vnd.openxmlformats-officedocument.presentationml.presentation/generic
+      2       4    1411 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/2007 onwards
+      1       1     660 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/generic
+      3       6    2161 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/2007 onwards
+      2      19    1096 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/generic
       2       2    1224 database/files/application_vnd.rn-realmedia/generic
       1       1     583 database/files/application_warc/0.17
       1       1     583 database/files/application_warc/0.18
@@ -382,6 +382,6 @@
       1       1     212 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/analysis
       1       1     220 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
-    354   23096  373901 corpus/errors.jsonl
-    355     489  252689 corpus/files.jsonl
-   1684  165130 3170964 yhteensä
+    342   22445  360138 corpus/errors.jsonl
+    346     480  247388 corpus/files.jsonl
+   1663  164460 3151920 yhteensä
