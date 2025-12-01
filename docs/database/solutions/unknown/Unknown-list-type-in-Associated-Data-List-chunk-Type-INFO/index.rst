@@ -76,6 +76,9 @@ Execution example
 
 	ffmpeg -i INPUT.WAV -vn -c:a copy -map_metadata 0 OUTPUT.WAV
 
+Repaired files
+~~~~~~~~~~~~~~
+
 --------------
 Output example
 --------------

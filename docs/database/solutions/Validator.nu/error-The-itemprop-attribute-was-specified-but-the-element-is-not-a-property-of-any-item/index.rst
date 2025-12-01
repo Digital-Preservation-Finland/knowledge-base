@@ -33,7 +33,7 @@ Classification
      - **Location**
    * - text/html
      - 5
-     - text/html 5 : Virtual file object connecting error message to a file format specification and without a file location.
+     - 
      - 
 
 --------

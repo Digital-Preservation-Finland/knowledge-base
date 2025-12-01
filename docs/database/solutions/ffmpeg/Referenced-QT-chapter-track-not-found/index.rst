@@ -33,7 +33,7 @@ Classification
      - **Location**
    * - video/quicktime
      - 
-     - video/quicktime  : Virtual file object connecting error message to a file format specification and without a file location.
+     - 
      - 
 
 --------
@@ -79,6 +79,9 @@ Execution example
 ~~~~~~~~~~~~~~~~~
 
 	ffmpeg -i INPUT.MOV -c:v copy -c:a copy -map_metadata 0 OUTPUT.MOV
+
+Repaired files
+~~~~~~~~~~~~~~
 
 --------------
 Output example

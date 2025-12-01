@@ -596,6 +596,15 @@ python-image-library
 
  - `SyntaxError not a TIFF file header bExifxaII not valid <database/solutions/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/index.html>`_
 
+image/mpo
+---------
+
+
+file-scraper
+~~~~~~~~~~~~
+
+ - `Conflict with values imagejpeg and imagempo <database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/index.html>`_
+
 image/png
 ---------
 

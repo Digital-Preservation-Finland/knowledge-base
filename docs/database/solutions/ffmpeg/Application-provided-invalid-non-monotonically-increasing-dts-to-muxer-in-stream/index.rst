@@ -33,11 +33,11 @@ Classification
      - **Location**
    * - video/quicktime
      - 
-     - video/quicktime  : Virtual file object connecting error message to a file format specification and without a file location.
+     - 
      - 
    * - audio/x-ms-wma
      - 
-     - audio/x-ms-wma  : Virtual file object connecting error message to a file format specification and without a file location.
+     - 
      - 
 
 --------
@@ -85,6 +85,9 @@ Execution example
 ~~~~~~~~~~~~~~~~~
 
 	ffmpeg -i <problematic WMA file> <converted WAV file>
+
+Repaired files
+~~~~~~~~~~~~~~
 
 --------------
 Output example

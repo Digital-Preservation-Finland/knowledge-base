@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://digitalpreservation.fi/schemas/2025-09/source.schema.ld.json",
+  "$id": "http://digitalpreservation.fi/schemas/2025-12/source.schema.ld.json",
   "title": "Format",
   "description": "Description of a file format. The file format classifies file objects and determines the valid form for the data.",
   "type": "object",
@@ -30,6 +30,10 @@
     },
     "description": {
       "description": "Free form description.",
+      "type": "string"
+    },
+    "specification": {
+      "description": "Location, name or other description of the specification.",
       "type": "string"
     }
   },

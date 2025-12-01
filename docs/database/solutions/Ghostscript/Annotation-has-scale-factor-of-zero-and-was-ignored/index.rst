@@ -76,6 +76,9 @@ Execution example
 
 	gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf
 
+Repaired files
+~~~~~~~~~~~~~~
+
 --------------
 Output example
 --------------

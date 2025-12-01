@@ -211,6 +211,7 @@ ffprobe
 file-scraper
 ------------
 
+ - `Conflict with values imagejpeg and imagempo <database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/index.html>`_
  - `invalid videocontainer stream <database/solutions/file-scraper/invalid-videocontainer-stream/index.html>`_
 
 jpylyzer

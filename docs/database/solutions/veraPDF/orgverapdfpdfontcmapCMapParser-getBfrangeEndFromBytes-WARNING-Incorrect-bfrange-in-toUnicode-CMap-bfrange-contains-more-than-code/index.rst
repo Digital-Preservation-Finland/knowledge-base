@@ -33,7 +33,7 @@ Classification
      - **Location**
    * - application/pdf
      - A1-b
-     - application/pdf A1-b : Virtual file object connecting error message to a file format specification and without a file location.
+     - 
      - 
 
 --------

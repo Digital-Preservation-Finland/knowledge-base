@@ -33,7 +33,7 @@ Classification
      - **Location**
    * - audio/mpeg
      - 1
-     - audio/mpeg 1 : Virtual file object connecting error message to a file format specification and without a file location.
+     - 
      - 
 
 --------
@@ -79,6 +79,9 @@ Execution example
 ~~~~~~~~~~~~~~~~~
 
 	ffmpeg -i <input>.mp3 -c:a copy -map 0 <output>.mp3
+
+Repaired files
+~~~~~~~~~~~~~~
 
 --------------
 Output example

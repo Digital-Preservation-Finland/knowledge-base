@@ -33,7 +33,7 @@ Classification
      - **Location**
    * - image/jpeg
      - 
-     - image/jpeg  : Virtual file object connecting error message to a file format specification and without a file location.
+     - 
      - 
 
 --------
@@ -79,6 +79,9 @@ Execution example
 ~~~~~~~~~~~~~~~~~
 
 	ImageMagick: convert <input> <output>
+
+Repaired files
+~~~~~~~~~~~~~~
 
 --------------
 Output example

@@ -1,5 +1,5 @@
-    139     147   19948 database/formats.jsonl
-      8     238    2957 database/repairs.jsonl
+    140     191   23502 database/formats.jsonl
+      9     322    3643 database/repairs.jsonl
       2       2    1209 database/files/application_epub+zip/2.0.1
       5       5    3000 database/files/application_epub+zip/3
       8       8    4860 database/files/application_json/generic
@@ -16,7 +16,7 @@
      26      28   15059 database/files/application_pdf/1.7
       2       2    1192 database/files/application_pdf/1.8
       8      12    4750 database/files/application_pdf/A-1a
-      1      19     319 database/files/application_pdf/A1-b
+      1       1     192 database/files/application_pdf/A1-b
       5       5    2856 database/files/application_pdf/A-1b
       2       2    1185 database/files/application_pdf/A-2b
       1       1     589 database/files/application_pdf/A-2u
@@ -49,7 +49,7 @@
       2       4    1411 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/2007 onwards
       1       1     660 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/generic
       3       6    2161 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/2007 onwards
-      2      19    1096 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/generic
+      2       2     917 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/generic
       2       2    1224 database/files/application_vnd.rn-realmedia/generic
       1       1     583 database/files/application_warc/0.17
       1       1     583 database/files/application_warc/0.18
@@ -69,11 +69,11 @@
       1       1     864 database/files/audio_ac3/generic
       3       3    2345 database/files/audio_flac/generic
       1       1    1028 database/files/audio_mp4/generic
-      6      36    5178 database/files/audio_mpeg/1
+      6      18    5059 database/files/audio_mpeg/1
       1       1     583 database/files/audio_mpeg/generic
       2       2    1445 database/files/audio_x-aiff/1.3
       1       1     868 database/files/audio_x-aiff/generic
-      1      18     316 database/files/audio_x-ms-wma/generic
+      1       1     194 database/files/audio_x-ms-wma/generic
       1       1     854 database/files/audio_x-wav/2
       6       6    4380 database/files/audio_x-wav/generic
       2       2    1305 database/files/image_gif/1987a
@@ -83,7 +83,8 @@
       7      15    5055 database/files/image_jpeg/1.01
       1       1     714 database/files/image_jpeg/1.02
       2       2    1481 database/files/image_jpeg/2.2.1
-      2      19     914 database/files/image_jpeg/generic
+      2       2     796 database/files/image_jpeg/generic
+      1       1     194 database/files/image_mpo/generic
      23      43   16516 database/files/image_png/1.2
       1       1     601 database/files/image_png/generic
       9      22    7915 database/files/image_tiff/6.0
@@ -97,7 +98,7 @@
       1       1    5321 database/files/none/emptyfile
       9      13    6120 database/files/text_csv/generic
       2       2    1186 database/files/text_html/4.01
-      5      23    2652 database/files/text_html/5
+      5       5    2534 database/files/text_html/5
       2       2    1199 database/files/text_html/generic
      20      20   12044 database/files/text_plain/generic
      40      49   23358 database/files/text_xml/1.0
@@ -110,7 +111,7 @@
       6       6    8014 database/files/video_mp4/generic
       2       4    1849 database/files/video_mpeg/1
       2       4    1849 database/files/video_mpeg/2
-      7      24    9381 database/files/video_quicktime/generic
+      7       7    9258 database/files/video_quicktime/generic
       7       8    9030 database/files/video_x-matroska/4
       1       1     676 database/files/video_x-matroska/generic
       6      14    7286 database/files/video_x-ms-asf/generic
@@ -145,6 +146,7 @@
       1      10     311 database/solutions/ffmpeg/Warning-MVs-not-available/error
       1     221    2684 database/solutions/ffprobe/Error-opening-filters/error
       1      86     946 database/solutions/ffprobe/Invalid-data-found-when-processing-input/error
+      1       6     274 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/error
       1      12     312 database/solutions/file-scraper/invalid-videocontainer-stream/error
       1     206    2450 database/solutions/Ghostscript/A-closing-mark-or-had-no-matching-mark-ignoring-the-closing-mark/error
       1     106    1086 database/solutions/Ghostscript/A-dictionary-is-missing-a-required-Type-key/error
@@ -334,6 +336,7 @@
       1      39     506 database/solutions/ffmpeg/Referenced-QT-chapter-track-not-found/analysis
       1      24     293 database/solutions/ffprobe/Error-opening-filters/analysis
       1       1     177 database/solutions/ffprobe/Invalid-data-found-when-processing-input/analysis
+      1      94     749 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/analysis
       1      79     755 database/solutions/file-scraper/invalid-videocontainer-stream/analysis
       1      37     526 database/solutions/Ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/analysis
       1      26     295 database/solutions/Ghostscript/Quartz-PDFContext/analysis
@@ -383,4 +386,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     342   22445  360138 corpus/errors.jsonl
     346     480  247388 corpus/files.jsonl
-   1662  163020 3138461 yhteensä
+   1667  163127 3143012 yhteensä
