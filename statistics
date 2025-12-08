@@ -114,9 +114,8 @@
       7       8    9030 database/files/video_x-matroska/4
       1       1     676 database/files/video_x-matroska/generic
       6      14    7286 database/files/video_x-ms-asf/generic
-      1    1443   13487 database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/error
+      1    1444   13496 database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/error
       1    1451   13522 database/solutions/DBPTK-Developer/Data-type-invalid---is-not-in-conformity-with-INTEGER-type-in-contentxml/error
-      1    1441   13468 database/solutions/DBPTK-Developer/Requirements-for-table-data/error
       1    1468   13685 database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/error
       1      35     621 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/error
       1      36     509 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/error
@@ -384,4 +383,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     342   22445  360138 corpus/errors.jsonl
     346     480  247388 corpus/files.jsonl
-   1663  164460 3151920 yhteensä
+   1662  163020 3138461 yhteensä
