@@ -1,1 +1,1 @@
-{"files":["database/sources/application_pdf/general"],"analyses":["database/image_jpeg/jhove/Invalid-Checksum.repair"],"validator":"jhove","validatorVersion":"","errorMessage":"Invalid Checksum","type":"","outputExample":[],"notes":[]}
+{"files":["database/sources/application_pdf/general"],"analyses":["database/image_jpeg/jhove/Invalid-Checksum.repair"],"validator":"jhove","validatorVersion":[""],"errorMessage":"Invalid Checksum","type":"","outputExample":[],"notes":[]}

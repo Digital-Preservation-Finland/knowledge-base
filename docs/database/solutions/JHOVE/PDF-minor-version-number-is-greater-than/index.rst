@@ -326,5 +326,6 @@ Related errors by source files
 ::
 
 	JHOVE:	PDF minor version number is greater than .*
+	veraPDF:	File header .*%PDF-1..* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-1.n, where 'n' is a single digit number between 0 and 7
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

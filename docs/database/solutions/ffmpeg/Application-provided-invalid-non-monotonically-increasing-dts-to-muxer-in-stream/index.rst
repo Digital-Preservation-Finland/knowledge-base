@@ -16,7 +16,7 @@ Classification
      - **Validator version**
      - **Error message type**
    * - ffmpeg
-     - 
+     - 6.0
      - general
 
 
@@ -35,6 +35,10 @@ Classification
      - 
      - 
      - 
+   * - video/x-ms-asf
+     - (:unap)
+     - 
+     - :ref:`corpus <file-scraper/ac3c1814-3216-4865-9f15-b840f7103b0a>`
 
 --------
 Analyses
@@ -109,6 +113,7 @@ Related errors by source files
 ::
 
 	ffmpeg:	Application provided invalid, non monotonically increasing dts to muxer in stream 0: 
+	ffmpeg:	Bits overconsumption: .* > .* at .*
 	ffmpeg:	Referenced QT chapter track not found
 	mediainfo:	File contains a truncated track
 

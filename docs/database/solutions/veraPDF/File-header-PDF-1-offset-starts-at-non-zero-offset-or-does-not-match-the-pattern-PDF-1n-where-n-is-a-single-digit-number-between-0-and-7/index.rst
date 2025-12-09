@@ -27,6 +27,14 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+   * - application/pdf
+     - 1.8
+     - 
+     - :ref:`corpus <file-scraper/605fba04-371d-4de8-a1cc-a07bd4c80660>`
+   * - application/pdf
+     - 1.8
+     - 
+     - :ref:`corpus <file-scraper/467e9ad2-a091-4af1-b364-fee4ce6fa320>`
 
 --------
 Analyses
@@ -96,3 +104,9 @@ Notes on the error
 Related errors by source files
 ------------------------------
 
+::
+
+	JHOVE:	PDF minor version number is greater than .*
+	veraPDF:	File header .*%PDF-1..* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-1.n, where 'n' is a single digit number between 0 and 7
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

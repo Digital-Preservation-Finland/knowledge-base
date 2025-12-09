@@ -337,6 +337,11 @@ JHOVE
 
  - `PDF minor version number is greater than <database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/index.html>`_
 
+veraPDF
+~~~~~~~
+
+ - `File header PDF 1 offset starts at non zero offset or does not match the pattern PDF 1n where n is a single digit number between 0 and 7 <database/solutions/veraPDF/File-header-PDF-1-offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-1n-where-n-is-a-single-digit-number-between-0-and-7/index.html>`_
+
 Ghostscript
 ~~~~~~~~~~~
 
@@ -407,6 +412,21 @@ application/warc
 ----------------
 
 
+Warchaeology
+~~~~~~~~~~~~
+
+ - `payload wrong digest expected computed <database/solutions/Warchaeology/payload-wrong-digest-expected-computed/index.html>`_
+
+JHOVE
+~~~~~
+
+ - `Unrecognized or missing DOCTYPE declaration validation continuing as HTML 32 <database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/index.html>`_
+
+Warchaeology
+~~~~~~~~~~~~
+
+ - `missing line separator at end of http headers <database/solutions/Warchaeology/missing-line-separator-at-end-of-http-headers/index.html>`_
+
 warctools
 ~~~~~~~~~
 
@@ -433,6 +453,8 @@ DBPTK-Developer
  - `Correspondence between metadata and table data <database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/index.html>`_
  - `Data type invalid   is not in conformity with INTEGER type in contentxml <database/solutions/DBPTK-Developer/Data-type-invalid---is-not-in-conformity-with-INTEGER-type-in-contentxml/index.html>`_
  - `The data type information on the column definitions in metadataxml must be identical to that in the corresponding tablenumberxsd file <database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/index.html>`_
+ - `Correspondence between metadata and table data <database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/index.html>`_
+ - `Data type invalid   is not in conformity with INTEGER type in contentxml <database/solutions/DBPTK-Developer/Data-type-invalid---is-not-in-conformity-with-INTEGER-type-in-contentxml/index.html>`_
 
 audio/flac
 ----------
@@ -491,6 +513,7 @@ JHOVE
 ~~~~~
 
  - `Chunk ID character outside printable ASCII range <database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/index.html>`_
+ - `Invalid chunk size <database/solutions/JHOVE/Invalid-chunk-size/index.html>`_
  - `No Format chunk found <database/solutions/JHOVE/No-Format-chunk-found/index.html>`_
  - `Unexpected end of file <database/solutions/JHOVE/Unexpected-end-of-file/index.html>`_
 
@@ -752,6 +775,7 @@ ffmpeg
 ~~~~~~
 
  - `AC EOB marker is absent pos <database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/index.html>`_
+ - `Concealing bitstream errors <database/solutions/ffmpeg/Concealing-bitstream-errors/index.html>`_
 
 video/MP2T
 ----------
@@ -796,4 +820,5 @@ ffmpeg
 video/x-ms-asf
 --------------
 
+ - `Application provided invalid non monotonically increasing dts to muxer in stream <database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/index.html>`_
  - `Bits overconsumption at <database/solutions/ffmpeg/Bits-overconsumption-at/index.html>`_

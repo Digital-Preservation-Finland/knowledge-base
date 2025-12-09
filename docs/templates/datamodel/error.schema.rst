@@ -16,6 +16,9 @@ analyses : {properties[analyses][type]} of {properties[analyses][items][type]}
 validator : {properties[validator][type]}
     {properties[validator][description]}
 
+validatorVersion : {properties[validatorVersion][type]} of {properties[validatorVersion][items][type]}
+    {properties[validatorVersion][description]}
+
 errorMessage : {properties[errorMessage][type]}
     {properties[errorMessage][description]}
 

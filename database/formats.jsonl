@@ -138,3 +138,4 @@
 {"@id":"corpus/format/a7375157-9bb3-4254-97f8-f5b606d5a5f8","fileFormat":"application/json","version":"(:unap)","profile":"","description":"","specification":""}
 {"@id":"corpus/format/4a7887c1-6d6c-435f-8d52-f848e3fec5bc","fileFormat":"application/warc","version":"1.1","profile":"","description":"","specification":""}
 {"@id":"corpus/format/5a7887c1-6d6c-435f-8d52-f848e3fec6cd","fileFormat":"image/mpo","version":"","profile":"","description":"Multi-Picture Object file format, also know MPF; Multi-Picture Format. Further reading: https://www.cipa.jp/std/documents/e/DC-X007-KEY_E.pdf", "specification": "https://www.cipa.jp/std/documents/download_e.html?CIPA_DC-007-2025_E"}
+{"@id":"corpus/format/e0f75c3f-3a5c-43a0-ab79-3702a43abdbb","fileFormat":"application/x-siard","version":"2.2","profile":"","description":""}

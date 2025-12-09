@@ -7,9 +7,9 @@ The knowledge base consists of information that enable identification and classi
 1. Error
 --------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-09/error.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-12/error.schema.ld.json``
 
-Description of an error. An error may have many analyses and it may rise from many files. Output example from the validating software may and should present context for the error message and the error message is also most likely found in the output example. Validator, validator version and error message fields should define unique error objects.
+Description of an error. An error may have many analyses and it may rise from many files. Output example from the validating software may and should present context for the error message and the error message is also most likely found in the output example. Validator, validator version and error message fields should define unique error objects. Objects without set error message are preliminary errors and they are undefined.
 
 Index fields: ['validator', 'validatorVersion', 'errorMessage']
 
@@ -21,6 +21,9 @@ analyses : array of string
 
 validator : string
     Name of the validating software reporting the error.
+
+validatorVersion : array of string
+    List of versions of the validating software that produce the error message for the set of the referred files.
 
 errorMessage : string
     The message reported and identified by the validating software. The message can be (should be) exact match but may contain regular expressions if the message contains varying data in the middle of the string, such as a file name or an offset. A certain amount of uncertainty inevitably hovers around when raisin-picking the error message from validator output. The output example field may be used to provide implicit reasoning for the picked string or pattern. Notes field may be used for explicit reasoning.

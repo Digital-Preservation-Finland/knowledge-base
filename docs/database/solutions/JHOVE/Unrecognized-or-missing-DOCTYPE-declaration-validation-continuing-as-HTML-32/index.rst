@@ -35,6 +35,14 @@ Classification
      - (:unav)
      - 
      - :ref:`corpus <file-scraper/fa318d1f-0d26-40a3-b35c-16b979943a72>`
+   * - application/warc
+     - (:unav)
+     - 
+     - :ref:`corpus <corpus/file/9821c146-4b93-4d55-9013-3b8b6aee718e>`
+   * - application/warc
+     - (:unav)
+     - 
+     - :ref:`corpus <corpus/file/3b5e39f7-d60c-4249-bb75-aa9101766866>`
 
 --------
 Analyses

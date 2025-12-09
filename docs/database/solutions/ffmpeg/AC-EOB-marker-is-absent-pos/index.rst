@@ -74,5 +74,6 @@ Related errors by source files
 ::
 
 	ffmpeg:	AC EOB marker is absent pos=
+	ffmpeg:	Concealing bitstream errors
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

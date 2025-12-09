@@ -89,6 +89,7 @@ Related errors by source files
 
 	ffmpeg:	Invalid data found when processing input
 	ffmpeg:	no 'data' tag found
+	jhove:	Invalid chunk size
 	JHOVE:	No Format chunk found
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

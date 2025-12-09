@@ -168,6 +168,12 @@ Validator.nu
  - `error The itemprop attribute was specified but the element is not a property of any item <database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/index.html>`_
  - `error fatal Cannot recover after last error Any further errors will be ignored <database/solutions/Validator.nu/error-fatal-Cannot-recover-after-last-error-Any-further-errors-will-be-ignored/index.html>`_
 
+Warchaeology
+------------
+
+ - `missing line separator at end of http headers <database/solutions/Warchaeology/missing-line-separator-at-end-of-http-headers/index.html>`_
+ - `payload wrong digest expected computed <database/solutions/Warchaeology/payload-wrong-digest-expected-computed/index.html>`_
+
 dpx-validator
 -------------
 

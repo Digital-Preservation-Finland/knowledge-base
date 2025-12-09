@@ -16,7 +16,7 @@ Classification
      - **Validator version**
      - **Error message type**
    * - ffmpeg
-     - 
+     - 6.0
      - 
 
 
@@ -27,6 +27,10 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+   * - video/dv
+     - (:unap)
+     - 
+     - :ref:`corpus <corpus/file/718c6593-6197-49f6-b2c3-6247e4b0e08d>`
 
 --------
 Analyses
@@ -62,6 +66,7 @@ Related errors by source files
 
 ::
 
+	ffmpeg:	AC EOB marker is absent pos=
 	ffmpeg:	Concealing bitstream errors
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

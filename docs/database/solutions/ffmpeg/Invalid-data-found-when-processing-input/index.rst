@@ -132,6 +132,7 @@ Related errors by source files
 	ffmpeg:	moov atom not found
 	ffmpeg:	no 'data' tag found
 	ffmpeg:	offset_len .* is invalid
+	jhove:	Invalid chunk size
 	JHOVE:	No Format chunk found
 	JHOVE:	Unexpected end of file
 

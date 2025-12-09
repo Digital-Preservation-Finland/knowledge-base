@@ -16,7 +16,7 @@ Classification
      - **Validator version**
      - **Error message type**
    * - jhove
-     - 
+     - 1.32.1
      - 
 
 
@@ -27,6 +27,14 @@ Classification
      - **Version**
      - **Description**
      - **Location**
+   * - audio/x-wav
+     - (:unap)
+     - 
+     - :ref:`corpus <corpus/file/1e21bb99-c686-4e5f-858f-f5a857a29c86>`
+   * - audio/x-wav
+     - (:unav)
+     - 
+     - :ref:`corpus <corpus/file/7b474fe4-ceba-46c0-9605-583dd8b56783>`
 
 --------
 Analyses
@@ -72,11 +80,15 @@ Related errors by source files
 ::
 
 	ffmpeg:	Error while decoding stream .* Invalid data found when processing input
+	ffmpeg:	Invalid data found when processing input
+	ffmpeg:	Invalid sample rate
+	ffmpeg:	no 'data' tag found
 	ffprobe:	Error opening filters!
 	ffprobe:	Invalid data found when processing input
 	jhove:	Chunk ID contains space before printable characters
 	jhove:	File does not start with RIFF header
 	jhove:	Invalid chunk size
+	JHOVE:	No Format chunk found
 	mediainfo:	No audio or video tracks found.
 	unknown:	Unknown list type in Associated Data List chunk: Type = "INFO"
 

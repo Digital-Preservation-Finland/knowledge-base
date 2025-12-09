@@ -16,7 +16,7 @@ Classification
      - **Validator version**
      - **Error message type**
    * - DBPTK Developer
-     - 2.11.1-DPRES
+     - 2.11.1-DPRES, 4.0.0-DPRES
      - 
 
 
@@ -31,6 +31,10 @@ Classification
      - 2.1.1
      - 
      - :ref:`corpus <file-scraper/cdbc63c6-b217-4a0a-bcd6-06fc045a2f6c>`
+   * - application/x-siard
+     - 2.2
+     - 
+     - :ref:`corpus <corpus/file/fd931350-2e74-43bd-9e50-bd5e731fc07f>`
 
 --------
 Analyses

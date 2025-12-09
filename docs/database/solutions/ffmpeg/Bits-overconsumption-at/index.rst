@@ -68,6 +68,7 @@ Related errors by source files
 
 ::
 
+	ffmpeg:	Application provided invalid, non monotonically increasing dts to muxer in stream 0: 
 	ffmpeg:	Bits overconsumption: .* > .* at .*
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
