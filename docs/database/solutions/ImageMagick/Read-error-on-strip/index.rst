@@ -2,12 +2,8 @@
 Read error on strip 525
 =======================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -78,3 +74,4 @@ Related errors by source files
 	imagemagick (wand):	"Incompatible type for ""RichTIFFIPTC"""
 	imagemagick (wand):	Read error on strip 525
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

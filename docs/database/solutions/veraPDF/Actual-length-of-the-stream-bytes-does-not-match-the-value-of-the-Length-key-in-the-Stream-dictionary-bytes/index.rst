@@ -2,12 +2,8 @@
 Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))
 =========================================================================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -194,3 +190,4 @@ Related errors by source files
 	veraPDF:	The document catalog dictionary doesn't contain metadata key or metadata stream dictionary does not contain either entry Type with value /Metadata or entry Subtype with value /XML
 	veraPDF:	The font program is not embedded
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

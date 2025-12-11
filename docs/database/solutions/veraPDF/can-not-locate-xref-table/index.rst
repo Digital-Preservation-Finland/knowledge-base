@@ -2,12 +2,8 @@
 can not locate xref table
 =========================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -188,3 +184,4 @@ Related errors by source files
 	JHOVE:	No PDF trailer
 	veraPDF:	can not locate xref table
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

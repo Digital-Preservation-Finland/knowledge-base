@@ -2,12 +2,8 @@
 Offset to image (.*) is more than file size (.*)
 ================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -84,3 +80,4 @@ Related errors by source files
 	dpx-validator:	Different file sizes from header (.*) and filesystem (.*)
 	dpx-validator:	Offset to image (.*) is more than file size (.*)
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

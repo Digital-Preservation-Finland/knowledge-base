@@ -2,12 +2,8 @@
 DeviceRGB colour space is used without RGB output intent profile
 ================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -174,3 +170,4 @@ Related errors by source files
 	veraPDF:	The value of CreationDate entry from the document Info dictionary and its matching XMP property .*xmp:CreateDate.* are not equivalent (Info /CreationDate = D:.*, XMP xmp:CreateDate = .*)
 	veraPDF:	The value of ModDate entry from the document Info dictionary and its matching XMP property .*xmp:ModifyDate.* are not equivalent (Info /ModDate = D:.*, XMP xmp:ModifyDate = .*)
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

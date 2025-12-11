@@ -2,12 +2,8 @@
 A closing mark (] or >>) had no matching mark, ignoring the closing mark
 ========================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -216,3 +212,4 @@ Related errors by source files
 	JHOVE:	No document catalog dictionary
 	veraPDF:	can not locate xref table
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

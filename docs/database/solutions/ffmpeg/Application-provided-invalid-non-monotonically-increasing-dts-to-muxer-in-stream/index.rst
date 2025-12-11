@@ -2,12 +2,8 @@
 Application provided invalid, non monotonically increasing dts to muxer in stream 0: 
 =====================================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -116,3 +112,4 @@ Related errors by source files
 	ffmpeg:	Referenced QT chapter track not found
 	mediainfo:	File contains a truncated track
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

@@ -2,12 +2,8 @@
 Unknown data block type
 =======================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -103,3 +99,4 @@ Related errors by source files
 	Pillow:	cannot identify image file
 	Pillow:	Image size (.* pixels) exceeds limit of .* pixels, could be decompression bomb DOS attack.
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

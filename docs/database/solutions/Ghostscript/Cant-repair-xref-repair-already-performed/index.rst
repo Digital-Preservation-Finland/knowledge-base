@@ -2,12 +2,8 @@
 Can't repair xref, repair already performed
 ===========================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -129,3 +125,4 @@ Related errors by source files
 	JHOVE:	Unexpected exception java.*
 	veraPDF:	can not locate xref table
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

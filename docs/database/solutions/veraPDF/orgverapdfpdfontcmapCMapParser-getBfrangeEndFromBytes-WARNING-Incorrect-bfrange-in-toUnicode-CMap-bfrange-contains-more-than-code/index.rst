@@ -2,12 +2,8 @@
 org.verapdf.pd.font.cmap.CMapParser getBfrangeEndFromBytes WARNING: Incorrect bfrange in toUnicode CMap: bfrange contains more than 256 code.
 =============================================================================================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -81,3 +77,4 @@ Related errors by source files
 
 	verapdf:	org.verapdf.pd.font.cmap.CMapParser getBfrangeEndFromBytes WARNING: Incorrect bfrange in toUnicode CMap: bfrange contains more than 256 code.
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

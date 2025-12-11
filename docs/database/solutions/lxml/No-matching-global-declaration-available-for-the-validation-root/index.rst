@@ -2,12 +2,8 @@
 No matching global declaration available for the validation root
 ================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -119,3 +115,4 @@ Related errors by source files
 	lxml:	No matching global declaration available for the validation root
 	lxml:	Schema definition probably missing from XML catalog
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

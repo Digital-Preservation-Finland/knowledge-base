@@ -2,12 +2,8 @@
 Unknown list type in Associated Data List chunk: Type = "INFO"
 ==============================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -108,3 +104,4 @@ Related errors by source files
 	mediainfo:	No audio or video tracks found.
 	unknown:	Unknown list type in Associated Data List chunk: Type = "INFO"
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

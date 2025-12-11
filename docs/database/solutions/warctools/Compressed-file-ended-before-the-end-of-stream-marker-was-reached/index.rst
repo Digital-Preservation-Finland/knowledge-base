@@ -2,12 +2,8 @@
 Compressed file ended before the end-of-stream marker was reached
 =================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -76,3 +72,4 @@ Related errors by source files
 
 	warctools:	Compressed file ended before the end-of-stream marker was reached
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

@@ -2,12 +2,8 @@
 Invalid ICC colour profile, using alternate
 ===========================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -249,3 +245,4 @@ Related errors by source files
 	Ghostscript:	text operator outside text block
 	Ghostscript:	The string data prameter for a /Indexed colour space lookup is too short
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

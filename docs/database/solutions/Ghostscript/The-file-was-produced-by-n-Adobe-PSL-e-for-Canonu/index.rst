@@ -2,12 +2,8 @@
 **** The file was produced by: \\n   **** >>>> Adobe PSL 1.2e for Canon\\u0000 <<<<
 ===================================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -77,3 +73,4 @@ Related errors by source files
 	jhove:	Invalid character in hex string
 	jhove:	Lexical error
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

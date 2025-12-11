@@ -2,12 +2,8 @@
 no 'data' tag found
 ===================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -95,3 +91,4 @@ Related errors by source files
 	ffmpeg:	no 'data' tag found
 	JHOVE:	No Format chunk found
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

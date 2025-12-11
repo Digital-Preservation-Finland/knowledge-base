@@ -2,12 +2,8 @@
 Annotation.s color (C present = true) or interior color (IC present = false) is used without specifying RGB-based destination output profile
 ============================================================================================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -1412,3 +1408,4 @@ Related errors by source files
 	veraPDF:	The font program is not embedded
 	veraPDF:	XMP property does not correspond to type null
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

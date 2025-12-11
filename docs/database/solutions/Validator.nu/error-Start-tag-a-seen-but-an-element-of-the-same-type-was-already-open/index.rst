@@ -2,12 +2,8 @@
 error: Start tag "a" seen but an element of the same type was already open.
 ===========================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -88,3 +84,4 @@ Related errors by source files
 	v.Nu:	error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
 	v.Nu:	error: The "itemprop" attribute was specified, but the element is not a property of any item.
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

@@ -2,12 +2,8 @@
 Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2
 ==============================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -110,3 +106,4 @@ Related errors by source files
 	JHOVE:	Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2
 	Validator.nu:	Start tag seen without seeing a doctype first. Expected ..!DOCTYPE html
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

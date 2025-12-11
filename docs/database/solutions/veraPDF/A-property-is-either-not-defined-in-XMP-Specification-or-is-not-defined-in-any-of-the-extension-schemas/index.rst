@@ -2,12 +2,8 @@
 A property is either not defined in XMP Specification, or is not defined in any of the extension schemas
 ========================================================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -1412,3 +1408,4 @@ Related errors by source files
 	veraPDF:	The font program is not embedded
 	veraPDF:	XMP property does not correspond to type null
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

@@ -2,12 +2,8 @@
 Failed to allocate memory for to read TIFF directory (.* elements of .* bytes each)
 ===================================================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -76,3 +72,4 @@ Related errors by source files
 	JHOVE:	Premature EOF
 	Pillow:	cannot identify image file
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

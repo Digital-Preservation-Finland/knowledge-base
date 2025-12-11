@@ -2,12 +2,8 @@
 SAXParseException: Element type .* must be declared
 ===================================================
 
-.. footer:: Any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
-
 .. contents::
    :depth: 2
-
-.. section-numbering::
 
 --------------
 Classification
@@ -1184,3 +1180,4 @@ Related errors by source files
 	JHOVE:	SAXParseException: Element type .* must be declared
 	JHOVE:	SAXParseException: The content of element type ..html.. must match ..(head,body)..
 
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
