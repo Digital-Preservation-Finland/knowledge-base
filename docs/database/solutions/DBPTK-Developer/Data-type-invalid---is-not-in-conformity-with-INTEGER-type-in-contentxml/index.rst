@@ -413,6 +413,6 @@ Related errors by source files
 
 	DBPTK Developer:	Correspondence between metadata and table data .FAILED.
 	DBPTK Developer:	Data type invalid - .* is not in conformity with 'INTEGER' type in content/.*.xml
-	DBPTK Developer:	The data type information on the column definitions in metadata.xml must be identical to that in the corresponding table[number].xsd file
+	DBPTK Developer:	The data type information on the column definitions in metadata.xml must be identical to that in the corresponding table\[number\].xsd file
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
