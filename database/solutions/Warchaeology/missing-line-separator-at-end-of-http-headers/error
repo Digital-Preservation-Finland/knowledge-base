@@ -1,1 +1,16 @@
-{"files":["corpus/file/29bf4fa6-d087-42e0-8ba1-8b7c6f8b4baf"],"analyses":[],"validator":"Warchaeology","validatorVersion":["4.1.4"],"errorMessage":"missing line separator at end of http headers","type":"","outputExample":["missing line separator at end of http headers"],"notes":[]}
+{
+  "files": [
+    "corpus/file/29bf4fa6-d087-42e0-8ba1-8b7c6f8b4baf"
+  ],
+  "analyses": [],
+  "validator": "Warchaeology",
+  "validatorVersion": [
+    "4.1.4"
+  ],
+  "errorMessage": "missing line separator at end of http headers",
+  "type": "",
+  "outputExample": [
+    "missing line separator at end of http headers"
+  ],
+  "notes": []
+}

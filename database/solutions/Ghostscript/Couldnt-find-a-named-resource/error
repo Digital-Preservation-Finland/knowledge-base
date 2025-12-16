@@ -1,1 +1,30 @@
-{"files":["corpus/file/10bc3d94-18d8-47ed-83d2-6cadeb83f8fb","corpus/file/3ef346da-5393-4a5e-851e-57547ae878b0","corpus/file/485e105f-1d56-45db-bcb3-761b0c912a3e","corpus/file/662d757f-54fe-46df-8ea4-6d0633366931","corpus/file/93569ade-83e0-4027-a8c5-d5ad013c4875","corpus/file/a521745c-531b-4a63-a755-96e70ed39e67","corpus/file/df014d39-2d6f-4a37-8e46-5f91221fa005","corpus/file/ed0d1b46-013e-40dd-baae-2613182ea736","corpus/file/f08290a4-ed16-4777-941f-761f2119af35","corpus/file/f448123f-c002-40aa-b463-c4cdcee0dca3","file-scraper/07f8f586-1d9d-4f8e-8486-c4cb94dca022","file-scraper/49a97c44-37c5-4855-b10f-7f1c031a2eff","file-scraper/50dd48e8-de3b-4e46-aa8e-2ec6f698c56e","file-scraper/fd536f85-6f7d-4cbb-aa65-a7d251d77cb2"],"analyses":[],"validator":"Ghostscript","validatorVersion":["10.06.0"],"errorMessage":"Couldn't find a named resource","type":"","outputExample":["\nThe following errors were encountered at least once while processing this file:\n\txref table was repaired\n\tIncorrect /Length for stream object\n\n   **** This file had errors that were repaired or ignored.\n   **** Please notify the author of the software that produced this\n   **** file that it does not conform to Adobe's published PDF\n   **** specification.\n\n","GPL Ghostscript 10.06.0 (2025-09-09)\nCopyright (C) 2025 Artifex Software, Inc.  All rights reserved.\nThis software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:\nsee the file COPYING for details.\nProcessing pages 1 through 1.\nPage 1\nLoading font F0 (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\n\nThe following warnings were encountered at least once while processing this file:\n\tCouldn't find a named resource\n"],"notes":[]}
+{
+  "files": [
+    "corpus/file/10bc3d94-18d8-47ed-83d2-6cadeb83f8fb",
+    "corpus/file/3ef346da-5393-4a5e-851e-57547ae878b0",
+    "corpus/file/485e105f-1d56-45db-bcb3-761b0c912a3e",
+    "corpus/file/662d757f-54fe-46df-8ea4-6d0633366931",
+    "corpus/file/93569ade-83e0-4027-a8c5-d5ad013c4875",
+    "corpus/file/a521745c-531b-4a63-a755-96e70ed39e67",
+    "corpus/file/df014d39-2d6f-4a37-8e46-5f91221fa005",
+    "corpus/file/ed0d1b46-013e-40dd-baae-2613182ea736",
+    "corpus/file/f08290a4-ed16-4777-941f-761f2119af35",
+    "corpus/file/f448123f-c002-40aa-b463-c4cdcee0dca3",
+    "file-scraper/07f8f586-1d9d-4f8e-8486-c4cb94dca022",
+    "file-scraper/49a97c44-37c5-4855-b10f-7f1c031a2eff",
+    "file-scraper/50dd48e8-de3b-4e46-aa8e-2ec6f698c56e",
+    "file-scraper/fd536f85-6f7d-4cbb-aa65-a7d251d77cb2"
+  ],
+  "analyses": [],
+  "validator": "Ghostscript",
+  "validatorVersion": [
+    "10.06.0"
+  ],
+  "errorMessage": "Couldn't find a named resource",
+  "type": "",
+  "outputExample": [
+    "\nThe following errors were encountered at least once while processing this file:\n\txref table was repaired\n\tIncorrect /Length for stream object\n\n   **** This file had errors that were repaired or ignored.\n   **** Please notify the author of the software that produced this\n   **** file that it does not conform to Adobe's published PDF\n   **** specification.\n\n",
+    "GPL Ghostscript 10.06.0 (2025-09-09)\nCopyright (C) 2025 Artifex Software, Inc.  All rights reserved.\nThis software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:\nsee the file COPYING for details.\nProcessing pages 1 through 1.\nPage 1\nLoading font F0 (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\n\nThe following warnings were encountered at least once while processing this file:\n\tCouldn't find a named resource\n"
+  ],
+  "notes": []
+}

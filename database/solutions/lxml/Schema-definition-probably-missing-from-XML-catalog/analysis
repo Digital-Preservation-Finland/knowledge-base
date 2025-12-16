@@ -1,1 +1,10 @@
-{"repairs":[],"analysis":["The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog."],"softwareProblem":"no","@id":"database/text_xml/xmllint-kai/Schema-definition-probably-missing-from-XML-catalog.repair","significantProperties":[],"fixable":""}
+{
+  "repairs": [],
+  "analysis": [
+    "The schema for the document is missing from the schema catalog. A known repair is to add the schema to the schema catalog."
+  ],
+  "softwareProblem": "no",
+  "@id": "database/text_xml/xmllint-kai/Schema-definition-probably-missing-from-XML-catalog.repair",
+  "significantProperties": [],
+  "fixable": ""
+}

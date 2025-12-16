@@ -1,1 +1,22 @@
-{"files":["corpus/file/28eb484d-f500-4694-b253-68c6a28b5901","corpus/file/c3b9a5cc-7672-4568-85f7-1a8e3e6f5f11","corpus/file/c752bf2e-936e-4091-83e6-7f8e71d78bc9","corpus/file/f28dddcd-6535-47f5-9408-b46b6f508309"],"analyses":["kb/analysis/274ea33c-5b68-4d13-8aa0-9633cd382702"],"validator":"JHOVE","validatorVersion":["1.32.1"],"errorMessage":"Missing startxref keyword or value","type":"","outputExample":["Validator returned error.","<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jhove xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schema.openpreservation.org/ois/xml/ns/jhove\" xsi:schemaLocation=\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd\" name=\"Jhove\" release=\"1.32.1\" date=\"2025-02-06\">\n <date>2025-11-03T14:37:07+02:00</date>\n <repInfo uri=\"/corpus/format-corpus/pdf-handbuilt-test-corpus/T04_017_trailer-no-startxref-keyword.pdf\">\n  <reportingModule release=\"1.12.7\" date=\"2024-08-22\">PDF-hul</reportingModule>\n  <lastModified>2025-10-22T10:46:06+03:00</lastModified>\n  <size>621</size>\n  <format>PDF</format>\n  <status>Not well-formed</status>\n  <sigMatch>\n  <module>PDF-hul</module>\n  </sigMatch>\n  <messages>\n   <message offset=\"15\" severity=\"error\" id=\"PDF-HUL-139\" infoLink=\"https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-139\">Missing startxref keyword or value</message>\n  </messages>\n  <mimeType>application/pdf</mimeType>\n </repInfo>\n</jhove>\n"],"notes":[]}
+{
+  "files": [
+    "corpus/file/28eb484d-f500-4694-b253-68c6a28b5901",
+    "corpus/file/c3b9a5cc-7672-4568-85f7-1a8e3e6f5f11",
+    "corpus/file/c752bf2e-936e-4091-83e6-7f8e71d78bc9",
+    "corpus/file/f28dddcd-6535-47f5-9408-b46b6f508309"
+  ],
+  "analyses": [
+    "kb/analysis/274ea33c-5b68-4d13-8aa0-9633cd382702"
+  ],
+  "validator": "JHOVE",
+  "validatorVersion": [
+    "1.32.1"
+  ],
+  "errorMessage": "Missing startxref keyword or value",
+  "type": "",
+  "outputExample": [
+    "Validator returned error.",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jhove xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schema.openpreservation.org/ois/xml/ns/jhove\" xsi:schemaLocation=\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd\" name=\"Jhove\" release=\"1.32.1\" date=\"2025-02-06\">\n <date>2025-11-03T14:37:07+02:00</date>\n <repInfo uri=\"/corpus/format-corpus/pdf-handbuilt-test-corpus/T04_017_trailer-no-startxref-keyword.pdf\">\n  <reportingModule release=\"1.12.7\" date=\"2024-08-22\">PDF-hul</reportingModule>\n  <lastModified>2025-10-22T10:46:06+03:00</lastModified>\n  <size>621</size>\n  <format>PDF</format>\n  <status>Not well-formed</status>\n  <sigMatch>\n  <module>PDF-hul</module>\n  </sigMatch>\n  <messages>\n   <message offset=\"15\" severity=\"error\" id=\"PDF-HUL-139\" infoLink=\"https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-139\">Missing startxref keyword or value</message>\n  </messages>\n  <mimeType>application/pdf</mimeType>\n </repInfo>\n</jhove>\n"
+  ],
+  "notes": []
+}

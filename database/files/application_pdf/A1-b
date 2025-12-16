@@ -1,1 +1,11 @@
-{"@id":"database/sources/application_pdf/A1-b","source":"source/029e4b0d-5525-4121-b0cf-b7a680a7a499","wellFormed":"virtual","description":"","checksum":{"md5":"","blake2b":""},"location":[]}
+{
+  "@id": "database/sources/application_pdf/A1-b",
+  "source": "source/029e4b0d-5525-4121-b0cf-b7a680a7a499",
+  "wellFormed": "virtual",
+  "description": "",
+  "checksum": {
+    "md5": "",
+    "blake2b": ""
+  },
+  "location": []
+}

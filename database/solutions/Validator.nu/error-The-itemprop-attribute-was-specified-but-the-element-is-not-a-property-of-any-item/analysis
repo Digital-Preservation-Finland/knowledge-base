@@ -1,1 +1,8 @@
-{"repairs":[],"analysis":[],"softwareProblem":"no","@id":"database/text_html/v.Nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item.repair","significantProperties":[],"fixable":""}
+{
+  "repairs": [],
+  "analysis": [],
+  "softwareProblem": "no",
+  "@id": "database/text_html/v.Nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item.repair",
+  "significantProperties": [],
+  "fixable": ""
+}

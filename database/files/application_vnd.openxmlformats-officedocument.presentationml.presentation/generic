@@ -1,1 +1,21 @@
-{"@id":"corpus/file/6bc35440-424f-4ab6-ad16-b2eb3ee81255","source":"corpus/format/a05a4761-4e1e-4e7c-9a27-47b99d9f1d81","wellFormed":false,"description":"","checksum":{"md5":"9116fe657e0c03946a38b0355f790510","blake2b":"732a7803fe736415133fd23b214a6d2f900cf9e2d2af9afb5c672343914e2cadf887100796edb891b6676a51f1cace620296cbeaa83cba052552eaee45cfc3d9"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/invalid_2007%20onwards_missing_data.pptx"],"metadata":{"0":{"index":0,"mimetype":"application/zip","stream_type":"(:unav)","version":"(:unav)"}}}
+{
+  "@id": "corpus/file/6bc35440-424f-4ab6-ad16-b2eb3ee81255",
+  "source": "corpus/format/a05a4761-4e1e-4e7c-9a27-47b99d9f1d81",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "9116fe657e0c03946a38b0355f790510",
+    "blake2b": "732a7803fe736415133fd23b214a6d2f900cf9e2d2af9afb5c672343914e2cadf887100796edb891b6676a51f1cace620296cbeaa83cba052552eaee45cfc3d9"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.presentationml.presentation/invalid_2007%20onwards_missing_data.pptx"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/zip",
+      "stream_type": "(:unav)",
+      "version": "(:unav)"
+    }
+  }
+}

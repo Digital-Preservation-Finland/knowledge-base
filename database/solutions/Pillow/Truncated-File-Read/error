@@ -1,1 +1,17 @@
-{"files":["file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b"],"analyses":[],"validator":"Pillow","validatorVersion":["10.0.1"],"errorMessage":"Truncated File Read","type":"","outputExample":["Error in analyzing file.","Truncated File Read"],"notes":[]}
+{
+  "files": [
+    "file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b"
+  ],
+  "analyses": [],
+  "validator": "Pillow",
+  "validatorVersion": [
+    "10.0.1"
+  ],
+  "errorMessage": "Truncated File Read",
+  "type": "",
+  "outputExample": [
+    "Error in analyzing file.",
+    "Truncated File Read"
+  ],
+  "notes": []
+}

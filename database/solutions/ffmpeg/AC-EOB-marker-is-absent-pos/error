@@ -1,1 +1,16 @@
-{"files":["corpus/file/718c6593-6197-49f6-b2c3-6247e4b0e08d"],"analyses":[],"validator":"ffmpeg","validatorVersion":["6.0"],"errorMessage":"AC EOB marker is absent pos=","type":"","outputExample":["[dvvideo @ 0x26a65c0] AC EOB marker is absent pos=72\n[dvvideo @ 0x26a65c0] Concealing bitstream errors\n    Last message repeated 9 times\n[dvvideo @ 0x26a65c0] AC EOB marker is absent pos=88\n[dvvideo @ 0x26a65c0] Concealing bitstream errors\n[dvvideo @ 0x26a65c0] AC EOB marker is absent pos=88\n[dvvideo @ 0x26a65c0] Concealing bitstream errors\n    Last message repeated 4 times"],"notes":[]}
+{
+  "files": [
+    "corpus/file/718c6593-6197-49f6-b2c3-6247e4b0e08d"
+  ],
+  "analyses": [],
+  "validator": "ffmpeg",
+  "validatorVersion": [
+    "6.0"
+  ],
+  "errorMessage": "AC EOB marker is absent pos=",
+  "type": "",
+  "outputExample": [
+    "[dvvideo @ 0x26a65c0] AC EOB marker is absent pos=72\n[dvvideo @ 0x26a65c0] Concealing bitstream errors\n    Last message repeated 9 times\n[dvvideo @ 0x26a65c0] AC EOB marker is absent pos=88\n[dvvideo @ 0x26a65c0] Concealing bitstream errors\n[dvvideo @ 0x26a65c0] AC EOB marker is absent pos=88\n[dvvideo @ 0x26a65c0] Concealing bitstream errors\n    Last message repeated 4 times"
+  ],
+  "notes": []
+}

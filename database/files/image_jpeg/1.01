@@ -1,7 +1,195 @@
-{"@id":"corpus/file/4855d117-3e02-4a4d-829d-6966def16596","source":"corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987","wellFormed":true,"description":"","checksum":{"md5":"1954e1ed4fd4ec49d956664595af7644","blake2b":"db02e5a3263121b8a5bc3a4abe529545053ee658df4850f7227cf6a9412f9aa45582048d693aeb529c7429f6393ec14d6b7d0f27354851d15dcb68c18d420697"},"location":["https://github.com/openpreserve/format-corpus/tree/master/variations/variations/image/jpeg/lorem-ipsum.im.jpg"],"metadata":{"0":{"index":0,"mimetype":"image/jpeg","stream_type":"image","version":"1.01","bps_unit":"integer","bps_value":"8","colorspace":"rgb","compression":"jpeg","height":"855","samples_per_pixel":"3","width":"600","icc_profile_name":"(:unav)"}}}
-{"@id":"corpus/file/82396d5a-ffbb-4389-a13a-c485431e9e17","source":"corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987","wellFormed":true,"description":"","checksum":{"md5":"67feb6fd78c8df42acc575bcc313ef7c","blake2b":"1ab747ac09918e737cf361207a7fcb19595238db4551a795972eb67c49546dfb38f7cd7e374512c6d7fd77bbaa0388b9a068d2906e2f1b02b416e37aa81a4d68"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_121_APP2_segments.jpg"],"metadata":{"0":{"index":0,"mimetype":"image/jpeg","stream_type":"image","version":"1.01","bps_unit":"integer","bps_value":"8","colorspace":"rgb","compression":"jpeg","height":"6","samples_per_pixel":"3","width":"10","icc_profile_name":"(:unav)"}}}
-{"@id":"corpus/file/d9972833-5ee1-42f5-aee2-fa10c1e4af85","source":"corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987","wellFormed":true,"description":"","checksum":{"md5":"8a74a6022e13c8bfda056535a617df21","blake2b":"eb6256a6361bfa780916fd5745831de76856011927edeccf9300229521bbbc76916acc0a701ca9e768f28f3912703b98847456cd04661ea681d5688255df9e95"},"location":["https://github.com/openpreserve/format-corpus/tree/master/variations/variations/image/jpeg/lorem-ipsum.im.png.im.jpg"],"metadata":{"0":{"index":0,"mimetype":"image/jpeg","stream_type":"image","version":"1.01","bps_unit":"integer","bps_value":"8","colorspace":"gray","compression":"jpeg","height":"855","samples_per_pixel":"1","width":"600","icc_profile_name":"(:unav)"}}}
-{"@id":"file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b","source":"corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987","wellFormed":false,"description":"","checksum":{"md5":"a04da29f8a834f797927a313988816aa","blake2b":"218144defd7da15af34cecf9165751eeb7a5c665708868299ddba96db22199b0cc68ac2016dc439739375ba1b2e3835849feae49a1a969fc1d4d4af5a4cec50a"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/invalid_1.01_data_changed.jpg"],"metadata":{"0":{"index":0,"mimetype":"image/jpeg","stream_type":"image","version":"1.01"}}}
-{"@id":"file-scraper/16a6bc4c-8bfe-4644-818c-a2a06ff892e4","source":"corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987","wellFormed":true,"description":"","checksum":{"md5":"b32afc47687961ac9de853fe3703813b","blake2b":"3f014abe0fe955eb478c23cd864ed4373c3e3680643a773d367a54d8e3d421b4c505c4635fa8e8d462a3db4759b97227d10ec84af6027ced5167753dc0721e62"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_many_jpeg_segments.jpg"],"metadata":{"0":{"index":0,"mimetype":"image/jpeg","stream_type":"image","version":"1.01","bps_unit":"integer","bps_value":"8","colorspace":"srgb","compression":"jpeg","height":"25","samples_per_pixel":"3","width":"25","icc_profile_name":"XF270HU #1 2022-08-23 19-42 0.3127x 0.329y sRGB F-S XYZLUT+MTX"}}}
-{"@id":"file-scraper/18be37fb-2abb-4f45-b7a8-3a3f6c382fde","source":"corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987","wellFormed":true,"description":"","checksum":{"md5":"11d81a68eb9a36c08246c9e1f48e3d8e","blake2b":"ddb5cf84cea1dd29b88d13c3bc4b7e94b3b2d6f445fd0996d4f91e7868b9b89ead865dea6bfcb79adf55c87674a66a9d531daa1fc3e81bccdce7d1aea738f2c3"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01.jpg"],"metadata":{"0":{"index":0,"mimetype":"image/jpeg","stream_type":"image","version":"1.01","bps_unit":"integer","bps_value":"8","colorspace":"rgb","compression":"jpeg","height":"6","samples_per_pixel":"3","width":"10","icc_profile_name":"(:unav)"}}}
-{"@id":"file-scraper/862aa4f9-db88-4759-941f-e3d5d194678e","source":"corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987","wellFormed":true,"description":"","checksum":{"md5":"52ee96ce27a07f4f66f9c3df9055f97d","blake2b":"49436b85261c5c78672a17d461dacff76cbaa1fe4f0d217f172a11bb156eb18b320a0ec9b0722ac0d6cbe44d2bd24a77193ae2b919c61cdbd8f0c4fa05e6f4ec"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_icc_sRGB_profile.jpg"],"metadata":{"0":{"index":0,"mimetype":"image/jpeg","stream_type":"image","version":"1.01","bps_unit":"integer","bps_value":"8","colorspace":"srgb","compression":"jpeg","height":"6","samples_per_pixel":"3","width":"10","icc_profile_name":"sRGB"}}}
+{
+  "@id": "corpus/file/4855d117-3e02-4a4d-829d-6966def16596",
+  "source": "corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "1954e1ed4fd4ec49d956664595af7644",
+    "blake2b": "db02e5a3263121b8a5bc3a4abe529545053ee658df4850f7227cf6a9412f9aa45582048d693aeb529c7429f6393ec14d6b7d0f27354851d15dcb68c18d420697"
+  },
+  "location": [
+    "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/image/jpeg/lorem-ipsum.im.jpg"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "stream_type": "image",
+      "version": "1.01",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "rgb",
+      "compression": "jpeg",
+      "height": "855",
+      "samples_per_pixel": "3",
+      "width": "600",
+      "icc_profile_name": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/82396d5a-ffbb-4389-a13a-c485431e9e17",
+  "source": "corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "67feb6fd78c8df42acc575bcc313ef7c",
+    "blake2b": "1ab747ac09918e737cf361207a7fcb19595238db4551a795972eb67c49546dfb38f7cd7e374512c6d7fd77bbaa0388b9a068d2906e2f1b02b416e37aa81a4d68"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_121_APP2_segments.jpg"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "stream_type": "image",
+      "version": "1.01",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "rgb",
+      "compression": "jpeg",
+      "height": "6",
+      "samples_per_pixel": "3",
+      "width": "10",
+      "icc_profile_name": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/d9972833-5ee1-42f5-aee2-fa10c1e4af85",
+  "source": "corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "8a74a6022e13c8bfda056535a617df21",
+    "blake2b": "eb6256a6361bfa780916fd5745831de76856011927edeccf9300229521bbbc76916acc0a701ca9e768f28f3912703b98847456cd04661ea681d5688255df9e95"
+  },
+  "location": [
+    "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/image/jpeg/lorem-ipsum.im.png.im.jpg"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "stream_type": "image",
+      "version": "1.01",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "gray",
+      "compression": "jpeg",
+      "height": "855",
+      "samples_per_pixel": "1",
+      "width": "600",
+      "icc_profile_name": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b",
+  "source": "corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "a04da29f8a834f797927a313988816aa",
+    "blake2b": "218144defd7da15af34cecf9165751eeb7a5c665708868299ddba96db22199b0cc68ac2016dc439739375ba1b2e3835849feae49a1a969fc1d4d4af5a4cec50a"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/invalid_1.01_data_changed.jpg"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "stream_type": "image",
+      "version": "1.01"
+    }
+  }
+}
+{
+  "@id": "file-scraper/16a6bc4c-8bfe-4644-818c-a2a06ff892e4",
+  "source": "corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "b32afc47687961ac9de853fe3703813b",
+    "blake2b": "3f014abe0fe955eb478c23cd864ed4373c3e3680643a773d367a54d8e3d421b4c505c4635fa8e8d462a3db4759b97227d10ec84af6027ced5167753dc0721e62"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_many_jpeg_segments.jpg"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "stream_type": "image",
+      "version": "1.01",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "srgb",
+      "compression": "jpeg",
+      "height": "25",
+      "samples_per_pixel": "3",
+      "width": "25",
+      "icc_profile_name": "XF270HU #1 2022-08-23 19-42 0.3127x 0.329y sRGB F-S XYZLUT+MTX"
+    }
+  }
+}
+{
+  "@id": "file-scraper/18be37fb-2abb-4f45-b7a8-3a3f6c382fde",
+  "source": "corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "11d81a68eb9a36c08246c9e1f48e3d8e",
+    "blake2b": "ddb5cf84cea1dd29b88d13c3bc4b7e94b3b2d6f445fd0996d4f91e7868b9b89ead865dea6bfcb79adf55c87674a66a9d531daa1fc3e81bccdce7d1aea738f2c3"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01.jpg"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "stream_type": "image",
+      "version": "1.01",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "rgb",
+      "compression": "jpeg",
+      "height": "6",
+      "samples_per_pixel": "3",
+      "width": "10",
+      "icc_profile_name": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "file-scraper/862aa4f9-db88-4759-941f-e3d5d194678e",
+  "source": "corpus/format/4aed5eb6-aa83-4afa-880d-b73d3acd8987",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "52ee96ce27a07f4f66f9c3df9055f97d",
+    "blake2b": "49436b85261c5c78672a17d461dacff76cbaa1fe4f0d217f172a11bb156eb18b320a0ec9b0722ac0d6cbe44d2bd24a77193ae2b919c61cdbd8f0c4fa05e6f4ec"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_jpeg/valid_1.01_icc_sRGB_profile.jpg"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "stream_type": "image",
+      "version": "1.01",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "srgb",
+      "compression": "jpeg",
+      "height": "6",
+      "samples_per_pixel": "3",
+      "width": "10",
+      "icc_profile_name": "sRGB"
+    }
+  }
+}

@@ -1,3 +1,85 @@
-{"@id":"file-scraper/1fdb1fd3-72c9-4440-8077-2b561ffeefe6","source":"corpus/format/4aa472a9-697c-4346-b8bb-3b0398a3adc2","wellFormed":true,"description":"","checksum":{"md5":"e00398f7d9d4a7af0e4b416b2397a2b8","blake2b":"a5b392fcee2ee5bf61faa6aa2abc28fa5f9572b5d8b8c5f4a0dd07177a7c323233858103c825230acfa4d632c4be418eac12182b349ae1619fdbb2bde7a7b6bf"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/valid__flac.flac"],"metadata":{"0":{"index":0,"mimetype":"audio/flac","stream_type":"audio","version":"(:unap)","audio_data_encoding":"FLAC","bits_per_sample":"24","codec_creator_app":"Lavf59.27.100","codec_creator_app_version":"59.27.100","codec_name":"FLAC","codec_quality":"lossless","data_rate":"67.79","data_rate_mode":"Variable","duration":"PT0.86S","num_channels":"2","sampling_frequency":"44.1"}}}
-{"@id":"file-scraper/690d68cf-7aeb-4257-bd66-ad62b218d1d8","source":"corpus/format/4aa472a9-697c-4346-b8bb-3b0398a3adc2","wellFormed":false,"description":"","checksum":{"md5":"f97b998005876c3015e85fd5cf13fe85","blake2b":"aa5803415aac39f8a9a029dfd899f5c3b105d4c7b0ada0b632acf0aba5ec769ffd092a55eff0c4d10d69eb72e2c850e1b3594afdfa7836ee056db3b2081c18b3"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__bytes_missing.flac"],"metadata":{"0":{"index":0,"mimetype":"audio/flac","stream_type":"audio","version":"(:unap)","audio_data_encoding":"FLAC","bits_per_sample":"24","codec_creator_app":"Lavf59.27.100","codec_creator_app_version":"59.27.100","codec_name":"FLAC","codec_quality":"lossless","data_rate":"65.565","data_rate_mode":"Variable","duration":"PT0.86S","num_channels":"2","sampling_frequency":"44.1"}}}
-{"@id":"file-scraper/99b576cd-4ddb-45ba-b5d9-802fb9a88037","source":"corpus/format/3e52d469-c933-4a68-bf23-743f15a82953","wellFormed":false,"description":"","checksum":{"md5":"550083856c4faa8d5c64f536a0958c24","blake2b":"ed663032dcf3b74fa920a43f785f088de12a1150e32443eb2428b4de2c4a496488489f8052bbcc29f00c5f594c70ee876d3ddffd7fd16fc0ed45c6b917f0fb06"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__header_edited.flac"],"metadata":{"0":{"index":0,"mimetype":"application/octet-stream","stream_type":"(:unav)","version":"(:unav)"}}}
+{
+  "@id": "file-scraper/1fdb1fd3-72c9-4440-8077-2b561ffeefe6",
+  "source": "corpus/format/4aa472a9-697c-4346-b8bb-3b0398a3adc2",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "e00398f7d9d4a7af0e4b416b2397a2b8",
+    "blake2b": "a5b392fcee2ee5bf61faa6aa2abc28fa5f9572b5d8b8c5f4a0dd07177a7c323233858103c825230acfa4d632c4be418eac12182b349ae1619fdbb2bde7a7b6bf"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/valid__flac.flac"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "audio/flac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "FLAC",
+      "bits_per_sample": "24",
+      "codec_creator_app": "Lavf59.27.100",
+      "codec_creator_app_version": "59.27.100",
+      "codec_name": "FLAC",
+      "codec_quality": "lossless",
+      "data_rate": "67.79",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.86S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "file-scraper/690d68cf-7aeb-4257-bd66-ad62b218d1d8",
+  "source": "corpus/format/4aa472a9-697c-4346-b8bb-3b0398a3adc2",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "f97b998005876c3015e85fd5cf13fe85",
+    "blake2b": "aa5803415aac39f8a9a029dfd899f5c3b105d4c7b0ada0b632acf0aba5ec769ffd092a55eff0c4d10d69eb72e2c850e1b3594afdfa7836ee056db3b2081c18b3"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__bytes_missing.flac"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "audio/flac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "FLAC",
+      "bits_per_sample": "24",
+      "codec_creator_app": "Lavf59.27.100",
+      "codec_creator_app_version": "59.27.100",
+      "codec_name": "FLAC",
+      "codec_quality": "lossless",
+      "data_rate": "65.565",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.86S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "file-scraper/99b576cd-4ddb-45ba-b5d9-802fb9a88037",
+  "source": "corpus/format/3e52d469-c933-4a68-bf23-743f15a82953",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "550083856c4faa8d5c64f536a0958c24",
+    "blake2b": "ed663032dcf3b74fa920a43f785f088de12a1150e32443eb2428b4de2c4a496488489f8052bbcc29f00c5f594c70ee876d3ddffd7fd16fc0ed45c6b917f0fb06"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__header_edited.flac"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "stream_type": "(:unav)",
+      "version": "(:unav)"
+    }
+  }
+}

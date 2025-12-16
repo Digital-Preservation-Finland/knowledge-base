@@ -1,1 +1,29 @@
-{"@id":"corpus/file/75f9a696-dc85-44fc-9607-7e4e4ef7eace","source":"corpus/format/403f9f67-cc15-4a43-a4d2-8ee11c075082","wellFormed":true,"description":"","checksum":{"md5":"56def9734617969d6dc50221e96dd30e","blake2b":"7fd33a03f8565be0131fdaa41463d35c70043938830ff39ecc94707a32888f746cff2dc0250b035e7cca0d14d3e31a8d043de99d5e0d6fa3b615e6d4d0b96e6a"},"location":["https://github.com/openpreserve/format-corpus/tree/master/jp2k-test/byteCorruption/balloon.jpg"],"metadata":{"0":{"index":0,"mimetype":"image/jpeg","stream_type":"image","version":"1.02","bps_unit":"integer","bps_value":"8","colorspace":"rgb","compression":"jpeg","height":"3701","samples_per_pixel":"4","width":"2717","icc_profile_name":"(:unav)"}}}
+{
+  "@id": "corpus/file/75f9a696-dc85-44fc-9607-7e4e4ef7eace",
+  "source": "corpus/format/403f9f67-cc15-4a43-a4d2-8ee11c075082",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "56def9734617969d6dc50221e96dd30e",
+    "blake2b": "7fd33a03f8565be0131fdaa41463d35c70043938830ff39ecc94707a32888f746cff2dc0250b035e7cca0d14d3e31a8d043de99d5e0d6fa3b615e6d4d0b96e6a"
+  },
+  "location": [
+    "https://github.com/openpreserve/format-corpus/tree/master/jp2k-test/byteCorruption/balloon.jpg"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "stream_type": "image",
+      "version": "1.02",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "rgb",
+      "compression": "jpeg",
+      "height": "3701",
+      "samples_per_pixel": "4",
+      "width": "2717",
+      "icc_profile_name": "(:unav)"
+    }
+  }
+}

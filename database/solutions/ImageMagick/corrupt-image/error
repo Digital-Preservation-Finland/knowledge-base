@@ -1,1 +1,18 @@
-{"files":["corpus/file/79f4b2b7-9eac-4352-a188-91c1e50ceeab","file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f"],"analyses":[],"validator":"ImageMagick","validatorVersion":["6.9.13-25"],"errorMessage":"corrupt image","type":"","outputExample":["Error in analyzing file","corrupt image `/corpus/file-scraper/tests/data/image_gif/invalid_1987a_truncated.gif' @ error/gif.c/DecodeImage/426"],"notes":[]}
+{
+  "files": [
+    "corpus/file/79f4b2b7-9eac-4352-a188-91c1e50ceeab",
+    "file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f"
+  ],
+  "analyses": [],
+  "validator": "ImageMagick",
+  "validatorVersion": [
+    "6.9.13-25"
+  ],
+  "errorMessage": "corrupt image",
+  "type": "",
+  "outputExample": [
+    "Error in analyzing file",
+    "corrupt image `/corpus/file-scraper/tests/data/image_gif/invalid_1987a_truncated.gif' @ error/gif.c/DecodeImage/426"
+  ],
+  "notes": []
+}

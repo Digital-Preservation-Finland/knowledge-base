@@ -1,1 +1,32 @@
-{"@id":"corpus/file/d486aacb-afeb-4cdb-880c-2086d12381ab","source":"corpus/format/7e848444-6b44-4b30-ab0f-81c714dd6915","wellFormed":null,"description":"","checksum":{"md5":"d148f84346c44bc7f8505ec3cd8ffa4a","blake2b":"a45764756c1d390da3832d988e1d2b4d30f81600c53d293535e4ab2b20bb2e55de8feef4016e830456c785cae5d14a21d63b33c4be20330dd0fce14a99b0b863"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_ac3/invalid__bit_level_format.ac3"],"metadata":{"0":{"index":0,"mimetype":"audio/ac3","stream_type":"audio","version":"(:unap)","audio_data_encoding":"AC-3","bits_per_sample":"(:unav)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"AC-3","codec_quality":"lossy","data_rate":"192","data_rate_mode":"Fixed","duration":"PT0.87S","num_channels":"2","sampling_frequency":"44.1"}}}
+{
+  "@id": "corpus/file/d486aacb-afeb-4cdb-880c-2086d12381ab",
+  "source": "corpus/format/7e848444-6b44-4b30-ab0f-81c714dd6915",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "d148f84346c44bc7f8505ec3cd8ffa4a",
+    "blake2b": "a45764756c1d390da3832d988e1d2b4d30f81600c53d293535e4ab2b20bb2e55de8feef4016e830456c785cae5d14a21d63b33c4be20330dd0fce14a99b0b863"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_ac3/invalid__bit_level_format.ac3"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "audio/ac3",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "AC-3",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "AC-3",
+      "codec_quality": "lossy",
+      "data_rate": "192",
+      "data_rate_mode": "Fixed",
+      "duration": "PT0.87S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}

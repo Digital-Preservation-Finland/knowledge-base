@@ -1,1 +1,12 @@
-{"repairs":["database/application_pdf/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/analysis"],"analysis":["There have been cases where tools like PyMuPDF do not find any annotations in the file, but Ghostscript still prints this warning. In other cases the files have actual annotations, which are broken. Further analysis is needed."],"softwareProblem":"no","@id":"database/application_pdf/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored.repair","significantProperties":[],"fixable":"yes"}
+{
+  "repairs": [
+    "database/application_pdf/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/analysis"
+  ],
+  "analysis": [
+    "There have been cases where tools like PyMuPDF do not find any annotations in the file, but Ghostscript still prints this warning. In other cases the files have actual annotations, which are broken. Further analysis is needed."
+  ],
+  "softwareProblem": "no",
+  "@id": "database/application_pdf/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored.repair",
+  "significantProperties": [],
+  "fixable": "yes"
+}

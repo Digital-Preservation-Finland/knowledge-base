@@ -1,1 +1,24 @@
-{"files":["corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049","corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e","corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017","corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309","corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8","corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80","file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84","file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82"],"analyses":[],"validator":"Pillow","validatorVersion":["10.0.1"],"errorMessage":"cannot identify image file","type":"","outputExample":["Error in analyzing file.","cannot identify image file '/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IHDR.png'"],"notes":[]}
+{
+  "files": [
+    "corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049",
+    "corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e",
+    "corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017",
+    "corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309",
+    "corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8",
+    "corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80",
+    "file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84",
+    "file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82"
+  ],
+  "analyses": [],
+  "validator": "Pillow",
+  "validatorVersion": [
+    "10.0.1"
+  ],
+  "errorMessage": "cannot identify image file",
+  "type": "",
+  "outputExample": [
+    "Error in analyzing file.",
+    "cannot identify image file '/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IHDR.png'"
+  ],
+  "notes": []
+}

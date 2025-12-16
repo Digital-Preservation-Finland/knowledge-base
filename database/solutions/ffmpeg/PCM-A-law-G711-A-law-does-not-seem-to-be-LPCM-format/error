@@ -1,1 +1,16 @@
-{"files":["file-scraper/f37d1e1e-1161-4f70-9894-2cf40bc08119"],"analyses":[],"validator":"ffmpeg","validatorVersion":["6.0"],"errorMessage":"PCM A-law / G.711 A-law does not seem to be LPCM format","type":"","outputExample":["PCM A-law / G.711 A-law does not seem to be LPCM format."],"notes":[]}
+{
+  "files": [
+    "file-scraper/f37d1e1e-1161-4f70-9894-2cf40bc08119"
+  ],
+  "analyses": [],
+  "validator": "ffmpeg",
+  "validatorVersion": [
+    "6.0"
+  ],
+  "errorMessage": "PCM A-law / G.711 A-law does not seem to be LPCM format",
+  "type": "",
+  "outputExample": [
+    "PCM A-law / G.711 A-law does not seem to be LPCM format."
+  ],
+  "notes": []
+}

@@ -1,1 +1,16 @@
-{"files":["database/sources/application_pdf/general"],"analyses":["database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair"],"validator":"jhove","validatorVersion":[""],"errorMessage":"Unexpected exception java.lang.NullPointerException","type":"","outputExample":[],"notes":[]}
+{
+  "files": [
+    "database/sources/application_pdf/general"
+  ],
+  "analyses": [
+    "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair"
+  ],
+  "validator": "jhove",
+  "validatorVersion": [
+    ""
+  ],
+  "errorMessage": "Unexpected exception java.lang.NullPointerException",
+  "type": "",
+  "outputExample": [],
+  "notes": []
+}

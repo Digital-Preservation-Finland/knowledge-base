@@ -1,1 +1,11 @@
-{"@id":"database/sources/audio_x-ms-wma/general","source":"source/1e475730-6435-4904-83fb-3f4cf12292b4","wellFormed":"virtual","description":"","checksum":{"md5":"","blake2b":""},"location":[]}
+{
+  "@id": "database/sources/audio_x-ms-wma/general",
+  "source": "source/1e475730-6435-4904-83fb-3f4cf12292b4",
+  "wellFormed": "virtual",
+  "description": "",
+  "checksum": {
+    "md5": "",
+    "blake2b": ""
+  },
+  "location": []
+}

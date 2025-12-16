@@ -1,6 +1,304 @@
-{"@id":"file-scraper/17f5ca5b-3f7a-427c-9433-7e32b5682523","source":"corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247","wellFormed":true,"description":"","checksum":{"md5":"00e15494d121933220ae0794066d5e76","blake2b":"2676692165898b6364b683becfcdac41bf9a18e4d842ca7254b9903cd7397534123756db4cecfebb94836d46d7508437501cfe23da2887d5074ef6df8c21658f"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__vc1_wma9.wmv"],"metadata":{"0":{"index":0,"mimetype":"video/x-ms-asf","stream_type":"videocontainer","version":"(:unap)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"Windows Media"},"1":{"index":1,"mimetype":"video/x-ms-wmv","stream_type":"video","version":"9","bits_per_sample":"8","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"VC-1","codec_quality":"lossy","color":"Color","dar":"1.778","data_rate":"9","data_rate_mode":"Fixed","duration":"PT1.03S","frame_rate":"29.97","height":"720","par":"1","sampling":"4:2:0","signal_format":"(:unap)","sound":"Yes","width":"1280"},"2":{"index":2,"mimetype":"audio/x-ms-wma","stream_type":"audio","version":"9","audio_data_encoding":"WMA","bits_per_sample":"16","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"WMA","codec_quality":"lossy","data_rate":"192","data_rate_mode":"Fixed","duration":"PT1.04S","num_channels":"2","sampling_frequency":"48"}}}
-{"@id":"file-scraper/2e6b9dd8-9530-4bc5-bc89-668e8f0c09d1","source":"corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247","wellFormed":true,"description":"","checksum":{"md5":"e5042d003daa5e29340e463f7ad87620","blake2b":"adea587a37a3c2e3b26209674cc8c08bd6f0f82072c4c448aaf288f17457cba9a1683723697beb722de2918b6ed201b987bab1f6f8c3fca7e670681c7116f081"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__vc1.wmv"],"metadata":{"0":{"index":0,"mimetype":"video/x-ms-asf","stream_type":"videocontainer","version":"(:unap)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"Windows Media"},"1":{"index":1,"mimetype":"video/x-ms-wmv","stream_type":"video","version":"9","bits_per_sample":"8","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"VC-1","codec_quality":"lossy","color":"Color","dar":"1.778","data_rate":"(:unav)","data_rate_mode":"Fixed","duration":"PT0.97S","frame_rate":"29.97","height":"720","par":"1","sampling":"4:2:0","signal_format":"(:unap)","sound":"No","width":"1280"}}}
-{"@id":"file-scraper/65603e72-4f04-49f3-a306-bbc3b59147ed","source":"corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247","wellFormed":null,"description":"","checksum":{"md5":"f0e607e102f63b07f16b0daf6e85efec","blake2b":"b98921d8364068b9df2e32d35c72ba6a3e0f7bd03e98ff41c9300236f52989f58fb18bfd982fb61c0cd3b054118cec66ff2cd17c0f547cde20ee4cd884568b59"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__vc1_mp3.wmv"],"metadata":{"0":{"index":0,"mimetype":"video/x-ms-asf","stream_type":"videocontainer","version":"(:unap)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"Windows Media"},"1":{"index":1,"mimetype":"video/x-ms-wmv","stream_type":"video","version":"9","bits_per_sample":"8","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"VC-1","codec_quality":"lossy","color":"Color","dar":"1.778","data_rate":"9","data_rate_mode":"(:unav)","duration":"PT1.03S","frame_rate":"29.97","height":"720","par":"1","sampling":"4:2:0","signal_format":"(:unap)","sound":"Yes","width":"1280"},"2":{"index":2,"mimetype":"audio/mpeg","stream_type":"audio","version":"1","audio_data_encoding":"MPEG Audio","bits_per_sample":"(:unav)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"MPEG Audio","codec_quality":"lossy","data_rate":"128","data_rate_mode":"Fixed","duration":"PT1.04S","num_channels":"2","sampling_frequency":"48"}}}
-{"@id":"file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798","source":"corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247","wellFormed":true,"description":"","checksum":{"md5":"fbd0147ca50e1f1fa400fa3727e6123b","blake2b":"3d5de2234c1712f7c565cae9cfa7f53a2e43fbb4bc4584d23a4173311da3c3c8c84e3489bfa87cb1b7e7b29f2502f32768da51837955f4ad22b5e6c9bab27dfd"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__wma9.wma"],"metadata":{"0":{"index":0,"mimetype":"video/x-ms-asf","stream_type":"videocontainer","version":"(:unap)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"Windows Media"},"1":{"index":1,"mimetype":"audio/x-ms-wma","stream_type":"audio","version":"9","audio_data_encoding":"WMA","bits_per_sample":"16","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"WMA","codec_quality":"lossy","data_rate":"192","data_rate_mode":"Fixed","duration":"PT0.85S","num_channels":"2","sampling_frequency":"48"}}}
-{"@id":"file-scraper/ac3c1814-3216-4865-9f15-b840f7103b0a","source":"corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247","wellFormed":false,"description":"","checksum":{"md5":"2a2ba3de4b00b66b2ff86b2ec6283a65","blake2b":"d3594c9264cb54dc5c265e30b9a10dca9189c791b6573812167fe355055c8c4acb2fb503fe947317ed7bf09158605706e31358ea7cd997c6d1dccc9e320ef4aa"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__vc1_missing_data.wmv"],"metadata":{"0":{"index":0,"mimetype":"video/x-ms-asf","stream_type":"videocontainer","version":"(:unap)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"Windows Media"},"1":{"index":1,"mimetype":"video/x-ms-wmv","stream_type":"video","version":"9","bits_per_sample":"8","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"VC-1","codec_quality":"lossy","color":"Color","dar":"1.778","data_rate":"(:unav)","data_rate_mode":"Fixed","duration":"PT0.97S","frame_rate":"29.97","height":"720","par":"1","sampling":"4:2:0","signal_format":"(:unap)","sound":"No","width":"1280"}}}
-{"@id":"file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f","source":"corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247","wellFormed":null,"description":"","checksum":{"md5":"121bf58662080911a42783c26a24d9af","blake2b":"178e99109a1fa5ddceddccdd8948bf4f5536366b1ee7cd7498c9df6c10a8eb94e92d29b920e08a4f8e3c8b9da1f7ba32fd44e79283b0af530547b341624ded42"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__wma7.wma"],"metadata":{"0":{"index":0,"mimetype":"video/x-ms-asf","stream_type":"videocontainer","version":"(:unap)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"Windows Media"},"1":{"index":1,"mimetype":"audio/x-ms-wma","stream_type":"audio","version":"7","audio_data_encoding":"WMA","bits_per_sample":"16","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"WMA","codec_quality":"lossy","data_rate":"128","data_rate_mode":"(:unav)","duration":"PT0.88S","num_channels":"2","sampling_frequency":"44.1"}}}
+{
+  "@id": "file-scraper/17f5ca5b-3f7a-427c-9433-7e32b5682523",
+  "source": "corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "00e15494d121933220ae0794066d5e76",
+    "blake2b": "2676692165898b6364b683becfcdac41bf9a18e4d842ca7254b9903cd7397534123756db4cecfebb94836d46d7508437501cfe23da2887d5074ef6df8c21658f"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__vc1_wma9.wmv"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-ms-asf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "Windows Media"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ms-wmv",
+      "stream_type": "video",
+      "version": "9",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "VC-1",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "9",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1.03S",
+      "frame_rate": "29.97",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "1280"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/x-ms-wma",
+      "stream_type": "audio",
+      "version": "9",
+      "audio_data_encoding": "WMA",
+      "bits_per_sample": "16",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "WMA",
+      "codec_quality": "lossy",
+      "data_rate": "192",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1.04S",
+      "num_channels": "2",
+      "sampling_frequency": "48"
+    }
+  }
+}
+{
+  "@id": "file-scraper/2e6b9dd8-9530-4bc5-bc89-668e8f0c09d1",
+  "source": "corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "e5042d003daa5e29340e463f7ad87620",
+    "blake2b": "adea587a37a3c2e3b26209674cc8c08bd6f0f82072c4c448aaf288f17457cba9a1683723697beb722de2918b6ed201b987bab1f6f8c3fca7e670681c7116f081"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__vc1.wmv"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-ms-asf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "Windows Media"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ms-wmv",
+      "stream_type": "video",
+      "version": "9",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "VC-1",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Fixed",
+      "duration": "PT0.97S",
+      "frame_rate": "29.97",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "file-scraper/65603e72-4f04-49f3-a306-bbc3b59147ed",
+  "source": "corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "f0e607e102f63b07f16b0daf6e85efec",
+    "blake2b": "b98921d8364068b9df2e32d35c72ba6a3e0f7bd03e98ff41c9300236f52989f58fb18bfd982fb61c0cd3b054118cec66ff2cd17c0f547cde20ee4cd884568b59"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__vc1_mp3.wmv"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-ms-asf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "Windows Media"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ms-wmv",
+      "stream_type": "video",
+      "version": "9",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "VC-1",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "9",
+      "data_rate_mode": "(:unav)",
+      "duration": "PT1.03S",
+      "frame_rate": "29.97",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "1280"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/mpeg",
+      "stream_type": "audio",
+      "version": "1",
+      "audio_data_encoding": "MPEG Audio",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Audio",
+      "codec_quality": "lossy",
+      "data_rate": "128",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1.04S",
+      "num_channels": "2",
+      "sampling_frequency": "48"
+    }
+  }
+}
+{
+  "@id": "file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798",
+  "source": "corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "fbd0147ca50e1f1fa400fa3727e6123b",
+    "blake2b": "3d5de2234c1712f7c565cae9cfa7f53a2e43fbb4bc4584d23a4173311da3c3c8c84e3489bfa87cb1b7e7b29f2502f32768da51837955f4ad22b5e6c9bab27dfd"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/valid__wma9.wma"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-ms-asf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "Windows Media"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "audio/x-ms-wma",
+      "stream_type": "audio",
+      "version": "9",
+      "audio_data_encoding": "WMA",
+      "bits_per_sample": "16",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "WMA",
+      "codec_quality": "lossy",
+      "data_rate": "192",
+      "data_rate_mode": "Fixed",
+      "duration": "PT0.85S",
+      "num_channels": "2",
+      "sampling_frequency": "48"
+    }
+  }
+}
+{
+  "@id": "file-scraper/ac3c1814-3216-4865-9f15-b840f7103b0a",
+  "source": "corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "2a2ba3de4b00b66b2ff86b2ec6283a65",
+    "blake2b": "d3594c9264cb54dc5c265e30b9a10dca9189c791b6573812167fe355055c8c4acb2fb503fe947317ed7bf09158605706e31358ea7cd997c6d1dccc9e320ef4aa"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__vc1_missing_data.wmv"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-ms-asf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "Windows Media"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ms-wmv",
+      "stream_type": "video",
+      "version": "9",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "VC-1",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Fixed",
+      "duration": "PT0.97S",
+      "frame_rate": "29.97",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f",
+  "source": "corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "121bf58662080911a42783c26a24d9af",
+    "blake2b": "178e99109a1fa5ddceddccdd8948bf4f5536366b1ee7cd7498c9df6c10a8eb94e92d29b920e08a4f8e3c8b9da1f7ba32fd44e79283b0af530547b341624ded42"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-ms-asf/invalid__wma7.wma"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-ms-asf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "Windows Media"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "audio/x-ms-wma",
+      "stream_type": "audio",
+      "version": "7",
+      "audio_data_encoding": "WMA",
+      "bits_per_sample": "16",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "WMA",
+      "codec_quality": "lossy",
+      "data_rate": "128",
+      "data_rate_mode": "(:unav)",
+      "duration": "PT0.88S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}

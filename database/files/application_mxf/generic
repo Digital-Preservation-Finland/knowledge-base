@@ -1,6 +1,261 @@
-{"@id":"file-scraper/22308a76-6fb7-4987-aa5a-c790b27e93b6","source":"corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d","wellFormed":true,"description":"","checksum":{"md5":"ec8b3221d8b2540a36847a3d917416b7","blake2b":"4828de1fbbf2adc1d14cd64ecd0160b09e0345a1df14029292d73cc7f23a0c396ebfd3c557df28a38ed42305491cd552882c39af3f7ab8998aac28eeefa863a6"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_lossless-wavelet_lossy-subsampling.mxf"],"metadata":{"0":{"codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"MXF (Material eXchange Format)","duration":"PT1.03S","index":0,"mimetype":"application/mxf","stream_type":"videocontainer","version":"(:unap)"},"1":{"bits_per_sample":"8","codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"JPEG 2000","codec_quality":"lossless","color":"Color","dar":"(:unav)","data_rate":"3.683156","data_rate_mode":"Variable","duration":"PT1.03S","frame_rate":"29.97","height":"180","index":1,"mimetype":"video/jpeg2000","par":"(:unav)","sampling":"4:2:0","signal_format":"(:unap)","sound":"No","stream_type":"video","version":"(:unap)","width":"320"}}}
-{"@id":"file-scraper/2d88bca1-a4b2-448e-846b-6870e70ec6af","source":"corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d","wellFormed":true,"description":"","checksum":{"md5":"80885cf00065e166de08243cf1244c5c","blake2b":"c737d3acba4c8a33b3f9354aa8fed7e57d0ab0f8a82cdd741223152229393b06a91bed217f3f7cdb4b9bb57ece472c81ce58dc8966d9e137dd5957db665fea28"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_grayscale.mxf"],"metadata":{"0":{"codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"MXF (Material eXchange Format)","duration":"PT1.03S","index":0,"mimetype":"application/mxf","stream_type":"videocontainer","version":"(:unap)"},"1":{"bits_per_sample":"8","codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"JPEG 2000","codec_quality":"lossy","color":"Grayscale","dar":"(:unav)","data_rate":"2.21007","data_rate_mode":"Variable","duration":"PT1.03S","frame_rate":"29.97","height":"180","index":1,"mimetype":"video/jpeg2000","par":"(:unav)","sampling":"(:unap)","signal_format":"(:unap)","sound":"No","stream_type":"video","version":"(:unap)","width":"320"}}}
-{"@id":"file-scraper/475d76f1-4fb0-478d-a61c-b9dc4b0b1e4e","source":"corpus/format/87b761fb-38d9-47df-a4e6-4eada6e4dc7f","wellFormed":false,"description":"","checksum":{"md5":"9ae416c9c7ebe95b5614631f4e4de699","blake2b":"08305c98ee66a833f802c65911c0cbd983694685157774d3ac51f57798956d8e5b9974036904142d7e85fb72a4144a17aaf8532f9635375c7e7eeff8a236827c"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/invalid__jpeg2000_wrong_signature.mxf"],"metadata":{"0":{"index":0,"mimetype":"application/octet-stream","stream_type":"(:unav)","version":"(:unav)"}}}
-{"@id":"file-scraper/ad1806b2-5da6-4e13-9f7f-2c281bdc3f33","source":"corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d","wellFormed":true,"description":"","checksum":{"md5":"4cf9aa048b2f706b9bb976411af5395f","blake2b":"5abde9e28e95dce0551699f2cfb29f72502697694d60d46e938f2a22cd9c69a70631faac2c87de5a8cce51e3aed027e0055271c00e7231dfcbf87b36a406dc75"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000.mxf"],"metadata":{"0":{"codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"MXF (Material eXchange Format)","duration":"PT1.03S","index":0,"mimetype":"application/mxf","stream_type":"videocontainer","version":"(:unap)"},"1":{"bits_per_sample":"8","codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"JPEG 2000","codec_quality":"lossy","color":"Color","dar":"(:unav)","data_rate":"1.928916","data_rate_mode":"Variable","duration":"PT1.03S","frame_rate":"29.97","height":"180","index":1,"mimetype":"video/jpeg2000","par":"(:unav)","sampling":"4:2:0","signal_format":"(:unap)","sound":"No","stream_type":"video","version":"(:unap)","width":"320"}}}
-{"@id":"file-scraper/c8d6dbdf-cd5c-4283-b897-d999608a7c6f","source":"corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d","wellFormed":false,"description":"","checksum":{"md5":"e2d76c1a597e7ee84270328ab5660d54","blake2b":"2e0926625cc2a496a6e7b2ea4c1833261c02a1d73ffac72d8b73d119ed2201039894a37218cf309092013a7a594a87ca072d33e8555fc47817076f2581e8b693"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/invalid__jpeg2000_truncated.mxf"],"metadata":{"0":{"codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"MXF (Material eXchange Format)","duration":"PT1.03S","index":0,"mimetype":"application/mxf","stream_type":"videocontainer","version":"(:unap)"},"1":{"bits_per_sample":"8","codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"JPEG 2000","codec_quality":"lossy","color":"Color","dar":"(:unav)","data_rate":"1.924678","data_rate_mode":"Variable","duration":"PT1.03S","frame_rate":"29.97","height":"180","index":1,"mimetype":"video/jpeg2000","par":"(:unav)","sampling":"4:2:0","signal_format":"(:unap)","sound":"No","stream_type":"video","version":"(:unap)","width":"320"}}}
-{"@id":"file-scraper/d8c37749-9812-47e8-8a75-42cd057fa3ab","source":"corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d","wellFormed":true,"description":"","checksum":{"md5":"930241185de4e59608570a0815f56a2a","blake2b":"e1dfbf0daa74dc5b1fa31de53d30bdb55e1ae5048905ecf766e6b3af4c83086e84f884fae63b6edf5f2c5c4073e372046c997d6a94d8365d71431dd99f1af71e"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_lossless.mxf"],"metadata":{"0":{"codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"MXF (Material eXchange Format)","duration":"PT1.03S","index":0,"mimetype":"application/mxf","stream_type":"videocontainer","version":"(:unap)"},"1":{"bits_per_sample":"8","codec_creator_app":"FFmpeg OP1a Muxer","codec_creator_app_version":"56.40.101","codec_name":"JPEG 2000","codec_quality":"lossless","color":"Color","dar":"(:unav)","data_rate":"10.030892","data_rate_mode":"Variable","duration":"PT1.03S","frame_rate":"29.97","height":"180","index":1,"mimetype":"video/jpeg2000","par":"(:unav)","sampling":"(:unap)","signal_format":"(:unap)","sound":"No","stream_type":"video","version":"(:unap)","width":"320"}}}
+{
+  "@id": "file-scraper/22308a76-6fb7-4987-aa5a-c790b27e93b6",
+  "source": "corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "ec8b3221d8b2540a36847a3d917416b7",
+    "blake2b": "4828de1fbbf2adc1d14cd64ecd0160b09e0345a1df14029292d73cc7f23a0c396ebfd3c557df28a38ed42305491cd552882c39af3f7ab8998aac28eeefa863a6"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_lossless-wavelet_lossy-subsampling.mxf"
+  ],
+  "metadata": {
+    "0": {
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "MXF (Material eXchange Format)",
+      "duration": "PT1.03S",
+      "index": 0,
+      "mimetype": "application/mxf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)"
+    },
+    "1": {
+      "bits_per_sample": "8",
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "JPEG 2000",
+      "codec_quality": "lossless",
+      "color": "Color",
+      "dar": "(:unav)",
+      "data_rate": "3.683156",
+      "data_rate_mode": "Variable",
+      "duration": "PT1.03S",
+      "frame_rate": "29.97",
+      "height": "180",
+      "index": 1,
+      "mimetype": "video/jpeg2000",
+      "par": "(:unav)",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "file-scraper/2d88bca1-a4b2-448e-846b-6870e70ec6af",
+  "source": "corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "80885cf00065e166de08243cf1244c5c",
+    "blake2b": "c737d3acba4c8a33b3f9354aa8fed7e57d0ab0f8a82cdd741223152229393b06a91bed217f3f7cdb4b9bb57ece472c81ce58dc8966d9e137dd5957db665fea28"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_grayscale.mxf"
+  ],
+  "metadata": {
+    "0": {
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "MXF (Material eXchange Format)",
+      "duration": "PT1.03S",
+      "index": 0,
+      "mimetype": "application/mxf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)"
+    },
+    "1": {
+      "bits_per_sample": "8",
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "JPEG 2000",
+      "codec_quality": "lossy",
+      "color": "Grayscale",
+      "dar": "(:unav)",
+      "data_rate": "2.21007",
+      "data_rate_mode": "Variable",
+      "duration": "PT1.03S",
+      "frame_rate": "29.97",
+      "height": "180",
+      "index": 1,
+      "mimetype": "video/jpeg2000",
+      "par": "(:unav)",
+      "sampling": "(:unap)",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "file-scraper/475d76f1-4fb0-478d-a61c-b9dc4b0b1e4e",
+  "source": "corpus/format/87b761fb-38d9-47df-a4e6-4eada6e4dc7f",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "9ae416c9c7ebe95b5614631f4e4de699",
+    "blake2b": "08305c98ee66a833f802c65911c0cbd983694685157774d3ac51f57798956d8e5b9974036904142d7e85fb72a4144a17aaf8532f9635375c7e7eeff8a236827c"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/invalid__jpeg2000_wrong_signature.mxf"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "stream_type": "(:unav)",
+      "version": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "file-scraper/ad1806b2-5da6-4e13-9f7f-2c281bdc3f33",
+  "source": "corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "4cf9aa048b2f706b9bb976411af5395f",
+    "blake2b": "5abde9e28e95dce0551699f2cfb29f72502697694d60d46e938f2a22cd9c69a70631faac2c87de5a8cce51e3aed027e0055271c00e7231dfcbf87b36a406dc75"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000.mxf"
+  ],
+  "metadata": {
+    "0": {
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "MXF (Material eXchange Format)",
+      "duration": "PT1.03S",
+      "index": 0,
+      "mimetype": "application/mxf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)"
+    },
+    "1": {
+      "bits_per_sample": "8",
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "JPEG 2000",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "(:unav)",
+      "data_rate": "1.928916",
+      "data_rate_mode": "Variable",
+      "duration": "PT1.03S",
+      "frame_rate": "29.97",
+      "height": "180",
+      "index": 1,
+      "mimetype": "video/jpeg2000",
+      "par": "(:unav)",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "file-scraper/c8d6dbdf-cd5c-4283-b897-d999608a7c6f",
+  "source": "corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "e2d76c1a597e7ee84270328ab5660d54",
+    "blake2b": "2e0926625cc2a496a6e7b2ea4c1833261c02a1d73ffac72d8b73d119ed2201039894a37218cf309092013a7a594a87ca072d33e8555fc47817076f2581e8b693"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/invalid__jpeg2000_truncated.mxf"
+  ],
+  "metadata": {
+    "0": {
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "MXF (Material eXchange Format)",
+      "duration": "PT1.03S",
+      "index": 0,
+      "mimetype": "application/mxf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)"
+    },
+    "1": {
+      "bits_per_sample": "8",
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "JPEG 2000",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "(:unav)",
+      "data_rate": "1.924678",
+      "data_rate_mode": "Variable",
+      "duration": "PT1.03S",
+      "frame_rate": "29.97",
+      "height": "180",
+      "index": 1,
+      "mimetype": "video/jpeg2000",
+      "par": "(:unav)",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "file-scraper/d8c37749-9812-47e8-8a75-42cd057fa3ab",
+  "source": "corpus/format/ec94f3f2-9a92-410a-9cc4-88d4bda9f66d",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "930241185de4e59608570a0815f56a2a",
+    "blake2b": "e1dfbf0daa74dc5b1fa31de53d30bdb55e1ae5048905ecf766e6b3af4c83086e84f884fae63b6edf5f2c5c4073e372046c997d6a94d8365d71431dd99f1af71e"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_mxf/valid__jpeg2000_lossless.mxf"
+  ],
+  "metadata": {
+    "0": {
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "MXF (Material eXchange Format)",
+      "duration": "PT1.03S",
+      "index": 0,
+      "mimetype": "application/mxf",
+      "stream_type": "videocontainer",
+      "version": "(:unap)"
+    },
+    "1": {
+      "bits_per_sample": "8",
+      "codec_creator_app": "FFmpeg OP1a Muxer",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "JPEG 2000",
+      "codec_quality": "lossless",
+      "color": "Color",
+      "dar": "(:unav)",
+      "data_rate": "10.030892",
+      "data_rate_mode": "Variable",
+      "duration": "PT1.03S",
+      "frame_rate": "29.97",
+      "height": "180",
+      "index": 1,
+      "mimetype": "video/jpeg2000",
+      "par": "(:unav)",
+      "sampling": "(:unap)",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "width": "320"
+    }
+  }
+}

@@ -1,1 +1,18 @@
-{"files":["corpus/file/1e21bb99-c686-4e5f-858f-f5a857a29c86","corpus/file/7b474fe4-ceba-46c0-9605-583dd8b56783"],"analyses":[],"validator":"JHOVE","validatorVersion":["1.32.1"],"errorMessage":"No Format chunk found","type":"","outputExample":["Validator returned error.","<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jhove xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schema.openpreservation.org/ois/xml/ns/jhove\" xsi:schemaLocation=\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd\" name=\"Jhove\" release=\"1.32.1\" date=\"2025-02-06\">\n <date>2025-10-29T17:25:02+02:00</date>\n <repInfo uri=\"/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav\">\n  <reportingModule release=\"1.8.3\" date=\"2024-03-05\">WAVE-hul</reportingModule>\n  <lastModified>2025-10-28T08:43:04+02:00</lastModified>\n  <size>76720</size>\n  <format>WAVE</format>\n  <status>Not well-formed</status>\n  <sigMatch>\n  <module>WAVE-hul</module>\n  </sigMatch>\n  <messages>\n   <message severity=\"error\" id=\"WAVE-HUL-5\" infoLink=\"https://github.com/openpreserve/jhove/wiki/WAVE-hul-Messages#wave-hul-5\">No Format chunk found</message>\n   <message offset=\"16\" severity=\"error\" id=\"WAVE-HUL-6\" infoLink=\"https://github.com/openpreserve/jhove/wiki/WAVE-hul-Messages#wave-hul-6\">Invalid chunk size</message>\n   <message subMessage=\"Chunk = &quot;RIFF&quot;; Bytes = 76700; Null = false\" offset=\"20\" severity=\"info\" id=\"WAVE-HUL-26\" infoLink=\"https://github.com/openpreserve/jhove/wiki/WAVE-hul-Messages#wave-hul-26\">Ignored unrecognized data remaining in chunk</message>\n  </messages>\n  <mimeType>audio/vnd.wave</mimeType>\n </repInfo>\n</jhove>\n"],"notes":[]}
+{
+  "files": [
+    "corpus/file/1e21bb99-c686-4e5f-858f-f5a857a29c86",
+    "corpus/file/7b474fe4-ceba-46c0-9605-583dd8b56783"
+  ],
+  "analyses": [],
+  "validator": "JHOVE",
+  "validatorVersion": [
+    "1.32.1"
+  ],
+  "errorMessage": "No Format chunk found",
+  "type": "",
+  "outputExample": [
+    "Validator returned error.",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jhove xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schema.openpreservation.org/ois/xml/ns/jhove\" xsi:schemaLocation=\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd\" name=\"Jhove\" release=\"1.32.1\" date=\"2025-02-06\">\n <date>2025-10-29T17:25:02+02:00</date>\n <repInfo uri=\"/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav\">\n  <reportingModule release=\"1.8.3\" date=\"2024-03-05\">WAVE-hul</reportingModule>\n  <lastModified>2025-10-28T08:43:04+02:00</lastModified>\n  <size>76720</size>\n  <format>WAVE</format>\n  <status>Not well-formed</status>\n  <sigMatch>\n  <module>WAVE-hul</module>\n  </sigMatch>\n  <messages>\n   <message severity=\"error\" id=\"WAVE-HUL-5\" infoLink=\"https://github.com/openpreserve/jhove/wiki/WAVE-hul-Messages#wave-hul-5\">No Format chunk found</message>\n   <message offset=\"16\" severity=\"error\" id=\"WAVE-HUL-6\" infoLink=\"https://github.com/openpreserve/jhove/wiki/WAVE-hul-Messages#wave-hul-6\">Invalid chunk size</message>\n   <message subMessage=\"Chunk = &quot;RIFF&quot;; Bytes = 76700; Null = false\" offset=\"20\" severity=\"info\" id=\"WAVE-HUL-26\" infoLink=\"https://github.com/openpreserve/jhove/wiki/WAVE-hul-Messages#wave-hul-26\">Ignored unrecognized data remaining in chunk</message>\n  </messages>\n  <mimeType>audio/vnd.wave</mimeType>\n </repInfo>\n</jhove>\n"
+  ],
+  "notes": []
+}

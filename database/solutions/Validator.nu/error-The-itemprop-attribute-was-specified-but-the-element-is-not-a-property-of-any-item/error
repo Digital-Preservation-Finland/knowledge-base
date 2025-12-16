@@ -1,1 +1,16 @@
-{"files":["database/sources/text_html/5"],"analyses":["database/text_html/v.Nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item.repair"],"validator":"v.Nu","validatorVersion":[""],"errorMessage":"error: The \"itemprop\" attribute was specified, but the element is not a property of any item.","type":"","outputExample":[],"notes":[]}
+{
+  "files": [
+    "database/sources/text_html/5"
+  ],
+  "analyses": [
+    "database/text_html/v.Nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item.repair"
+  ],
+  "validator": "v.Nu",
+  "validatorVersion": [
+    ""
+  ],
+  "errorMessage": "error: The \"itemprop\" attribute was specified, but the element is not a property of any item.",
+  "type": "",
+  "outputExample": [],
+  "notes": []
+}

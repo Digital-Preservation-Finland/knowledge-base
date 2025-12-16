@@ -1,1 +1,17 @@
-{"files":["corpus/file/cc3faaa7-2e52-4e30-b79f-52416ee29ff4"],"analyses":[],"validator":"Ghostscript","validatorVersion":["10.06.0"],"errorMessage":"page tree root node /Count did not match the actual number of pages in the tree.","type":"","outputExample":["\nThe following errors were encountered at least once while processing this file:\n\txref table was repaired\n\tpage tree root node /Count did not match the actual number of pages in the tree.\n\tIncorrect /Length for stream object\n\n   **** This file had errors that were repaired or ignored.\n   **** Please notify the author of the software that produced this\n   **** file that it does not conform to Adobe's published PDF\n   **** specification.\n\n","GPL Ghostscript 10.06.0 (2025-09-09)\nCopyright (C) 2025 Artifex Software, Inc.  All rights reserved.\nThis software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:\nsee the file COPYING for details.\nProcessing pages 1 through 1.\nPage 1\nLoading font Times-Italic (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusRoman-Italic\n"],"notes":[]}
+{
+  "files": [
+    "corpus/file/cc3faaa7-2e52-4e30-b79f-52416ee29ff4"
+  ],
+  "analyses": [],
+  "validator": "Ghostscript",
+  "validatorVersion": [
+    "10.06.0"
+  ],
+  "errorMessage": "page tree root node /Count did not match the actual number of pages in the tree.",
+  "type": "",
+  "outputExample": [
+    "\nThe following errors were encountered at least once while processing this file:\n\txref table was repaired\n\tpage tree root node /Count did not match the actual number of pages in the tree.\n\tIncorrect /Length for stream object\n\n   **** This file had errors that were repaired or ignored.\n   **** Please notify the author of the software that produced this\n   **** file that it does not conform to Adobe's published PDF\n   **** specification.\n\n",
+    "GPL Ghostscript 10.06.0 (2025-09-09)\nCopyright (C) 2025 Artifex Software, Inc.  All rights reserved.\nThis software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:\nsee the file COPYING for details.\nProcessing pages 1 through 1.\nPage 1\nLoading font Times-Italic (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusRoman-Italic\n"
+  ],
+  "notes": []
+}

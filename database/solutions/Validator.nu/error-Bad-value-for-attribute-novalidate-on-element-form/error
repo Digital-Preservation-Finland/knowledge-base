@@ -1,1 +1,16 @@
-{"files":["database/sources/text_html/5"],"analyses":["database/text_html/v.Nu/error-Bad-value-for-attribute-novalidate-on-element-form.repair"],"validator":"v.Nu","validatorVersion":[""],"errorMessage":"error: Bad value \"1\" for attribute \"novalidate\" on element \"form\".","type":"","outputExample":[],"notes":[]}
+{
+  "files": [
+    "database/sources/text_html/5"
+  ],
+  "analyses": [
+    "database/text_html/v.Nu/error-Bad-value-for-attribute-novalidate-on-element-form.repair"
+  ],
+  "validator": "v.Nu",
+  "validatorVersion": [
+    ""
+  ],
+  "errorMessage": "error: Bad value \"1\" for attribute \"novalidate\" on element \"form\".",
+  "type": "",
+  "outputExample": [],
+  "notes": []
+}

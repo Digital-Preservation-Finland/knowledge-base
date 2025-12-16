@@ -1,1 +1,8 @@
-{"repairs":[],"analysis":[],"softwareProblem":"no","@id":"database/text_html/v.Nu/error-Bad-value-for-attribute-novalidate-on-element-form.repair","significantProperties":[],"fixable":""}
+{
+  "repairs": [],
+  "analysis": [],
+  "softwareProblem": "no",
+  "@id": "database/text_html/v.Nu/error-Bad-value-for-attribute-novalidate-on-element-form.repair",
+  "significantProperties": [],
+  "fixable": ""
+}

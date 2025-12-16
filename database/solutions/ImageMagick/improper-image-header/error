@@ -1,1 +1,18 @@
-{"files":["corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309","corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80"],"analyses":[],"validator":"ImageMagick","validatorVersion":["6.9.13-25"],"errorMessage":"improper image header","type":"","outputExample":["Error in analyzing file","improper image header `/corpus/file-scraper/tests/data/image_gif/invalid_1987a_broken_header.gif' @ error/gif.c/ReadGIFImage/1045"],"notes":[]}
+{
+  "files": [
+    "corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309",
+    "corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80"
+  ],
+  "analyses": [],
+  "validator": "ImageMagick",
+  "validatorVersion": [
+    "6.9.13-25"
+  ],
+  "errorMessage": "improper image header",
+  "type": "",
+  "outputExample": [
+    "Error in analyzing file",
+    "improper image header `/corpus/file-scraper/tests/data/image_gif/invalid_1987a_broken_header.gif' @ error/gif.c/ReadGIFImage/1045"
+  ],
+  "notes": []
+}

@@ -1,1 +1,21 @@
-{"@id":"corpus/file/703c3532-6341-421a-b4b2-a2a3ab7fab89","source":"corpus/format/a41e59d1-4671-4c74-b524-6fee0408c726","wellFormed":false,"description":"","checksum":{"md5":"44514528a08b924deca2ea8646a0e10b","blake2b":"2ac05ad319a8565940ef6a8320ca621c379428f3c5c35060c7871e74b1ef9ecc120568a9977632554ff9746ce2859b0d2d5607dffe18a06562d8d7248f2eb418"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_missing_data.mp3"],"metadata":{"0":{"index":0,"mimetype":"(:unav)","stream_type":"(:unav)","version":"(:unav)"}}}
+{
+  "@id": "corpus/file/703c3532-6341-421a-b4b2-a2a3ab7fab89",
+  "source": "corpus/format/a41e59d1-4671-4c74-b524-6fee0408c726",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "44514528a08b924deca2ea8646a0e10b",
+    "blake2b": "2ac05ad319a8565940ef6a8320ca621c379428f3c5c35060c7871e74b1ef9ecc120568a9977632554ff9746ce2859b0d2d5607dffe18a06562d8d7248f2eb418"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_missing_data.mp3"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "(:unav)",
+      "stream_type": "(:unav)",
+      "version": "(:unav)"
+    }
+  }
+}

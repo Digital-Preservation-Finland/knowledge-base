@@ -1,1 +1,16 @@
-{"files":["database/sources/application_pdf/1.4"],"analyses":["database/application_pdf/JHOVE/Lexical-error.repair"],"validator":"jhove","validatorVersion":[""],"errorMessage":"Lexical error","type":"","outputExample":[],"notes":[]}
+{
+  "files": [
+    "database/sources/application_pdf/1.4"
+  ],
+  "analyses": [
+    "database/application_pdf/JHOVE/Lexical-error.repair"
+  ],
+  "validator": "jhove",
+  "validatorVersion": [
+    ""
+  ],
+  "errorMessage": "Lexical error",
+  "type": "",
+  "outputExample": [],
+  "notes": []
+}

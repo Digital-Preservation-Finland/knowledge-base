@@ -1,1 +1,17 @@
-{"files":["corpus/file/47e3c01c-0c09-414f-96de-f7ef63ee2677"],"analyses":[],"validator":"ImageMagick","validatorVersion":["6.9.13-25"],"errorMessage":"Not enough data for scanline .*, expected a request for at most .* bytes, got a request for .* bytes","type":"","outputExample":["Error in analyzing file","Not enough data for scanline 0, expected a request for at most 6850 bytes, got a request for 13700 bytes. `DumpModeDecode' @ error/tiff.c/TIFFErrors/528"],"notes":[]}
+{
+  "files": [
+    "corpus/file/47e3c01c-0c09-414f-96de-f7ef63ee2677"
+  ],
+  "analyses": [],
+  "validator": "ImageMagick",
+  "validatorVersion": [
+    "6.9.13-25"
+  ],
+  "errorMessage": "Not enough data for scanline .*, expected a request for at most .* bytes, got a request for .* bytes",
+  "type": "",
+  "outputExample": [
+    "Error in analyzing file",
+    "Not enough data for scanline 0, expected a request for at most 6850 bytes, got a request for 13700 bytes. `DumpModeDecode' @ error/tiff.c/TIFFErrors/528"
+  ],
+  "notes": []
+}

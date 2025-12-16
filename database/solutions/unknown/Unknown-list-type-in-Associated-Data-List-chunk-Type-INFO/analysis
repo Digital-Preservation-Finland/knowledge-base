@@ -1,1 +1,12 @@
-{"repairs":["database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO/analysis"],"analysis":["The repair specified here probably removes the unknown type, referring to the error message. The newly created file is only a tens of bytes smaller than the original."],"softwareProblem":"","@id":"database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair","significantProperties":[],"fixable":""}
+{
+  "repairs": [
+    "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO/analysis"
+  ],
+  "analysis": [
+    "The repair specified here probably removes the unknown type, referring to the error message. The newly created file is only a tens of bytes smaller than the original."
+  ],
+  "softwareProblem": "",
+  "@id": "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair",
+  "significantProperties": [],
+  "fixable": ""
+}

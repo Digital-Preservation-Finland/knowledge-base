@@ -1,2 +1,76 @@
-{"@id":"corpus/file/07d52e02-50d2-4c4d-ba9f-78adfda1efcf","source":"corpus/format/e107ebf5-35be-42bc-a9ac-f36a0b3f1fa6","wellFormed":false,"description":"","checksum":{"md5":"ab4b684d2b4e25b81509e27f71a63ae6","blake2b":"262264df6c6b794246209558747a0f52ab30c292cc3487058098e12efa3b94971a8e66592911e57569881ecc6afe41745ddec34fb8ef3e25065248e66f57ac4e"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/invalid_2_missing_data.m2v"],"metadata":{"0":{"index":0,"mimetype":"video/mpeg","stream_type":"video","version":"2","bits_per_sample":"8","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"MPEG Video","codec_quality":"lossy","color":"Color","dar":"1.778","data_rate":"0.185656","data_rate_mode":"Variable","duration":"PT1S","frame_rate":"30","height":"180","par":"1","sampling":"4:2:0","signal_format":"(:unap)","sound":"No","width":"320"}}}
-{"@id":"file-scraper/379b2586-9223-4324-9fc6-175e18a85ece","source":"corpus/format/e107ebf5-35be-42bc-a9ac-f36a0b3f1fa6","wellFormed":true,"description":"","checksum":{"md5":"223c288e3612c4302fb6580ee00345c0","blake2b":"08a302e340ddfb6c7c3e24af2e47c142b53bf43fca6e96cee993f9c4f601f1cb2cfcb808dca4d4af74ae7f301a92cd1252aeff10943230921cf7c613a2afbb3e"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/valid_2.m2v"],"metadata":{"0":{"index":0,"mimetype":"video/mpeg","stream_type":"video","version":"2","bits_per_sample":"8","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"MPEG Video","codec_quality":"lossy","color":"Color","dar":"1.778","data_rate":"0.185784","data_rate_mode":"Variable","duration":"PT1S","frame_rate":"30","height":"180","par":"1","sampling":"4:2:0","signal_format":"(:unap)","sound":"No","width":"320"}}}
+{
+  "@id": "corpus/file/07d52e02-50d2-4c4d-ba9f-78adfda1efcf",
+  "source": "corpus/format/e107ebf5-35be-42bc-a9ac-f36a0b3f1fa6",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "ab4b684d2b4e25b81509e27f71a63ae6",
+    "blake2b": "262264df6c6b794246209558747a0f52ab30c292cc3487058098e12efa3b94971a8e66592911e57569881ecc6afe41745ddec34fb8ef3e25065248e66f57ac4e"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/invalid_2_missing_data.m2v"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "0.185656",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "30",
+      "height": "180",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "file-scraper/379b2586-9223-4324-9fc6-175e18a85ece",
+  "source": "corpus/format/e107ebf5-35be-42bc-a9ac-f36a0b3f1fa6",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "223c288e3612c4302fb6580ee00345c0",
+    "blake2b": "08a302e340ddfb6c7c3e24af2e47c142b53bf43fca6e96cee993f9c4f601f1cb2cfcb808dca4d4af74ae7f301a92cd1252aeff10943230921cf7c613a2afbb3e"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mpeg/valid_2.m2v"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "0.185784",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "30",
+      "height": "180",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}

@@ -1,1 +1,21 @@
-{"@id":"file-scraper/67c34a57-ced4-42f7-b382-0988777bc336","source":"corpus/format/6e02df30-e065-44c4-a97e-07bf30438209","wellFormed":true,"description":"","checksum":{"md5":"2b774d8e8822253a35eb3c91371139ce","blake2b":"0f8a428e49048a7eec2c9157972b98ea3bf8cfe8baa045ddcc56e1925420847574c968d2f85cd3abb9d8e97e336bf951d10be45f4c714f11cc21b2dfe0ba7aab"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-excel/valid_8X.xls"],"metadata":{"0":{"index":0,"mimetype":"application/vnd.ms-excel","stream_type":"binary","version":"8X"}}}
+{
+  "@id": "file-scraper/67c34a57-ced4-42f7-b382-0988777bc336",
+  "source": "corpus/format/6e02df30-e065-44c4-a97e-07bf30438209",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "2b774d8e8822253a35eb3c91371139ce",
+    "blake2b": "0f8a428e49048a7eec2c9157972b98ea3bf8cfe8baa045ddcc56e1925420847574c968d2f85cd3abb9d8e97e336bf951d10be45f4c714f11cc21b2dfe0ba7aab"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-excel/valid_8X.xls"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/vnd.ms-excel",
+      "stream_type": "binary",
+      "version": "8X"
+    }
+  }
+}

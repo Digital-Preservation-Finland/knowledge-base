@@ -1,1 +1,10 @@
-{"repairs":["database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/analysis"],"analysis":[],"softwareProblem":"no","@id":"database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment.repair","significantProperties":[],"fixable":""}
+{
+  "repairs": [
+    "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/analysis"
+  ],
+  "analysis": [],
+  "softwareProblem": "no",
+  "@id": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment.repair",
+  "significantProperties": [],
+  "fixable": ""
+}

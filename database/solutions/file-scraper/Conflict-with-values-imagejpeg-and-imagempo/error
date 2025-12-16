@@ -1,1 +1,16 @@
-{"files":["database/files/image_mpo/generic"],"analyses":["database/normalisation/analysis/mpo-to-jpeg"],"validator":"file-scraper","validatorVersion":["2.5.0"],"errorMessage":"Conflict with values 'image/jpeg' and 'image/mpo'","type":"general","outputExample":[],"notes":[]}
+{
+  "files": [
+    "database/files/image_mpo/generic"
+  ],
+  "analyses": [
+    "database/normalisation/analysis/mpo-to-jpeg"
+  ],
+  "validator": "file-scraper",
+  "validatorVersion": [
+    "2.5.0"
+  ],
+  "errorMessage": "Conflict with values 'image/jpeg' and 'image/mpo'",
+  "type": "general",
+  "outputExample": [],
+  "notes": []
+}

@@ -1,1 +1,16 @@
-{"files":["database/sources/audio_x-wav/general"],"analyses":["database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair"],"validator":"unknown","validatorVersion":[""],"errorMessage":"Unknown list type in Associated Data List chunk: Type = \"INFO\"","type":"","outputExample":[],"notes":[]}
+{
+  "files": [
+    "database/sources/audio_x-wav/general"
+  ],
+  "analyses": [
+    "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair"
+  ],
+  "validator": "unknown",
+  "validatorVersion": [
+    ""
+  ],
+  "errorMessage": "Unknown list type in Associated Data List chunk: Type = \"INFO\"",
+  "type": "",
+  "outputExample": [],
+  "notes": []
+}

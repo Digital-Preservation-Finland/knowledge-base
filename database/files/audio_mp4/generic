@@ -1,1 +1,41 @@
-{"@id":"file-scraper/308be4ec-b391-4132-a5a9-ce6de99fec52","source":"corpus/format/3a58d0f1-6c8f-4258-940c-633a4e6435c2","wellFormed":true,"description":"","checksum":{"md5":"512ba4cbbbc2804e411bde7f0acae17c","blake2b":"861ea52f35026aad05d8ead8a08ff15a078d3fcb12619d935be4e12ece9f821982cc22fd062e3b663feb621bfad516667d3d0f22f2e524574bdfbe6b9309b7e9"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mp4/valid__aac.m4a"],"metadata":{"0":{"index":0,"mimetype":"audio/mp4","stream_type":"videocontainer","version":"(:unap)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"MPEG-4"},"1":{"index":1,"mimetype":"audio/aac","stream_type":"audio","version":"(:unap)","audio_data_encoding":"AAC","bits_per_sample":"(:unav)","codec_creator_app":"(:unav)","codec_creator_app_version":"(:unav)","codec_name":"AAC","codec_quality":"lossy","data_rate":"144","data_rate_mode":"Fixed","duration":"PT1.67S","num_channels":"2","sampling_frequency":"44.1"}}}
+{
+  "@id": "file-scraper/308be4ec-b391-4132-a5a9-ce6de99fec52",
+  "source": "corpus/format/3a58d0f1-6c8f-4258-940c-633a4e6435c2",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "512ba4cbbbc2804e411bde7f0acae17c",
+    "blake2b": "861ea52f35026aad05d8ead8a08ff15a078d3fcb12619d935be4e12ece9f821982cc22fd062e3b663feb621bfad516667d3d0f22f2e524574bdfbe6b9309b7e9"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mp4/valid__aac.m4a"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "audio/mp4",
+      "stream_type": "videocontainer",
+      "version": "(:unap)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "audio/aac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "AAC",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "AAC",
+      "codec_quality": "lossy",
+      "data_rate": "144",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1.67S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}

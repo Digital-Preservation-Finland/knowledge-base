@@ -1,2 +1,44 @@
-{"@id":"file-scraper/e01adcd1-55ea-4a6b-ba75-bde7fc2c90ad","source":"corpus/format/7c9dd7e1-37aa-43c1-a5fd-8cad55e4c0b2","wellFormed":true,"description":"","checksum":{"md5":"526ed38a821f7a3c5ea7d3e384c3b10a","blake2b":"7a58c213da3a1b586494be026f9ec2eaa0954279df20787030b31d1f4ecf5c95f3be9bea8c094cc819875ed90cbe909bbc22db2ebb96d5613dca0dbf970bfc16"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/valid_4.01.html"],"metadata":{"0":{"charset":"UTF-8","index":0,"mimetype":"text/html","stream_type":"text","version":"4.01"}}}
-{"@id":"file-scraper/e9cd0c98-bbc4-4a5d-b17d-6d073775a95c","source":"corpus/format/7c9dd7e1-37aa-43c1-a5fd-8cad55e4c0b2","wellFormed":false,"description":"","checksum":{"md5":"f683aa05590916906ad60ac3f65e9ca5","blake2b":"48e0886e2c2c87a286fa1661033812d2f36ccfc5d6124b7c1405549334af919829ea3cf6aefed63ff21f13d7ef8f39780ff9e9fac78423270259e190d8af449c"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/invalid_4.01_illegal_tags.html"],"metadata":{"0":{"charset":"UTF-8","index":0,"mimetype":"text/html","stream_type":"text","version":"4.01"}}}
+{
+  "@id": "file-scraper/e01adcd1-55ea-4a6b-ba75-bde7fc2c90ad",
+  "source": "corpus/format/7c9dd7e1-37aa-43c1-a5fd-8cad55e4c0b2",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "526ed38a821f7a3c5ea7d3e384c3b10a",
+    "blake2b": "7a58c213da3a1b586494be026f9ec2eaa0954279df20787030b31d1f4ecf5c95f3be9bea8c094cc819875ed90cbe909bbc22db2ebb96d5613dca0dbf970bfc16"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/valid_4.01.html"
+  ],
+  "metadata": {
+    "0": {
+      "charset": "UTF-8",
+      "index": 0,
+      "mimetype": "text/html",
+      "stream_type": "text",
+      "version": "4.01"
+    }
+  }
+}
+{
+  "@id": "file-scraper/e9cd0c98-bbc4-4a5d-b17d-6d073775a95c",
+  "source": "corpus/format/7c9dd7e1-37aa-43c1-a5fd-8cad55e4c0b2",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "f683aa05590916906ad60ac3f65e9ca5",
+    "blake2b": "48e0886e2c2c87a286fa1661033812d2f36ccfc5d6124b7c1405549334af919829ea3cf6aefed63ff21f13d7ef8f39780ff9e9fac78423270259e190d8af449c"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_html/invalid_4.01_illegal_tags.html"
+  ],
+  "metadata": {
+    "0": {
+      "charset": "UTF-8",
+      "index": 0,
+      "mimetype": "text/html",
+      "stream_type": "text",
+      "version": "4.01"
+    }
+  }
+}

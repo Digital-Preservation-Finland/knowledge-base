@@ -1,1 +1,10 @@
-{"@id":"kb/analysis/be70f206-fd08-421d-9eec-4b0fa2d50eb1","repairs":[],"analysis":["See JHOVE documentation: https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#PDF-HUL-33"],"softwareProblem":"","significantProperties":[],"fixable":""}
+{
+  "@id": "kb/analysis/be70f206-fd08-421d-9eec-4b0fa2d50eb1",
+  "repairs": [],
+  "analysis": [
+    "See JHOVE documentation: https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#PDF-HUL-33"
+  ],
+  "softwareProblem": "",
+  "significantProperties": [],
+  "fixable": ""
+}

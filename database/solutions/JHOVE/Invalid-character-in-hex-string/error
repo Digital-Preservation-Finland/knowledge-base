@@ -1,1 +1,16 @@
-{"files":["database/sources/application_pdf/1.4"],"analyses":["database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair"],"validator":"jhove","validatorVersion":[""],"errorMessage":"Invalid character in hex string","type":"","outputExample":[],"notes":[]}
+{
+  "files": [
+    "database/sources/application_pdf/1.4"
+  ],
+  "analyses": [
+    "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair"
+  ],
+  "validator": "jhove",
+  "validatorVersion": [
+    ""
+  ],
+  "errorMessage": "Invalid character in hex string",
+  "type": "",
+  "outputExample": [],
+  "notes": []
+}

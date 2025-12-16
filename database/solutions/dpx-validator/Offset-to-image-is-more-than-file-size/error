@@ -1,1 +1,20 @@
-{"files":["corpus/file/4d39f111-3166-4602-a6f3-148471c2086b"],"analyses":["analysis/f9e66ede-4fa4-4cd5-9e0e-af7b9d106b18"],"validator":"dpx-validator","validatorVersion":["1.0.1"],"errorMessage":"Offset to image (.*) is more than file size (","type":"exact","outputExample":["InvalidField('Offset to image (2097152) is more than file size (8432) ')","InvalidField('Different file sizes from header (4028628992) and filesystem (8432)')","MIME type (:unav) with version (:unav) is not supported."],"notes":[]}
+{
+  "files": [
+    "corpus/file/4d39f111-3166-4602-a6f3-148471c2086b"
+  ],
+  "analyses": [
+    "analysis/f9e66ede-4fa4-4cd5-9e0e-af7b9d106b18"
+  ],
+  "validator": "dpx-validator",
+  "validatorVersion": [
+    "1.0.1"
+  ],
+  "errorMessage": "Offset to image (.*) is more than file size (",
+  "type": "exact",
+  "outputExample": [
+    "InvalidField('Offset to image (2097152) is more than file size (8432) ')",
+    "InvalidField('Different file sizes from header (4028628992) and filesystem (8432)')",
+    "MIME type (:unav) with version (:unav) is not supported."
+  ],
+  "notes": []
+}

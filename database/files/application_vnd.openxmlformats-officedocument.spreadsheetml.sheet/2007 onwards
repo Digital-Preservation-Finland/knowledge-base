@@ -1,2 +1,42 @@
-{"@id":"file-scraper/cc8dcebe-201c-43f0-9f99-84217ad8eeb6","source":"corpus/format/c4a8e685-395b-4f1f-bee2-612d3ad8c48f","wellFormed":false,"description":"","checksum":{"md5":"f2a734acd41e7210f9422b5f103d270f","blake2b":"2935ee019a20d5dc2daa5483779241a3295d33ef256e76ea83fe14f0e83c36c00ba02ea8ff9720af05322cc476343c2aebaf1b86129995b0ff5d8c1ffb65cf99"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid_2007%20onwards_corrupted.xlsx"],"metadata":{"0":{"index":0,"mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","stream_type":"binary","version":"2007 onwards"}}}
-{"@id":"file-scraper/d91177a7-1093-497f-8947-62b533d78cc6","source":"corpus/format/c4a8e685-395b-4f1f-bee2-612d3ad8c48f","wellFormed":true,"description":"","checksum":{"md5":"b0fd7a9e1de1731176edd305123f3665","blake2b":"f17b00b3c8e4174334eea3538ea69da8a84b8ad028eb63a9a0721f90cdb3a932993f20c7e096f354661423e54e6309b79dc043102e57738f49c03d0a968ab7c7"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/valid_2007%20onwards.xlsx"],"metadata":{"0":{"index":0,"mimetype":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","stream_type":"binary","version":"2007 onwards"}}}
+{
+  "@id": "file-scraper/cc8dcebe-201c-43f0-9f99-84217ad8eeb6",
+  "source": "corpus/format/c4a8e685-395b-4f1f-bee2-612d3ad8c48f",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "f2a734acd41e7210f9422b5f103d270f",
+    "blake2b": "2935ee019a20d5dc2daa5483779241a3295d33ef256e76ea83fe14f0e83c36c00ba02ea8ff9720af05322cc476343c2aebaf1b86129995b0ff5d8c1ffb65cf99"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid_2007%20onwards_corrupted.xlsx"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "stream_type": "binary",
+      "version": "2007 onwards"
+    }
+  }
+}
+{
+  "@id": "file-scraper/d91177a7-1093-497f-8947-62b533d78cc6",
+  "source": "corpus/format/c4a8e685-395b-4f1f-bee2-612d3ad8c48f",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "b0fd7a9e1de1731176edd305123f3665",
+    "blake2b": "f17b00b3c8e4174334eea3538ea69da8a84b8ad028eb63a9a0721f90cdb3a932993f20c7e096f354661423e54e6309b79dc043102e57738f49c03d0a968ab7c7"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/valid_2007%20onwards.xlsx"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "stream_type": "binary",
+      "version": "2007 onwards"
+    }
+  }
+}

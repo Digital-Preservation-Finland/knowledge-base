@@ -1,1 +1,64 @@
-{"@id":"file-scraper/5a51ece6-467f-4a40-89bf-e379dd837e03","source":"corpus/format/9a698d1c-0ebc-439a-9f44-4846c7ce5b34","wellFormed":true,"description":"","checksum":{"md5":"3ecb7cef7b82038739cefda2689c5e22","blake2b":"a8cab0576b3169d4aff1b6897028b4de524810ea72836f4318bc88d7160fcd3de64481ae99a077161066a035d0cc7c4907a715e72b7a513f40e3740d11f57436"},"location":["https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_avi/valid__mpeg2_mp3.avi"],"metadata":{"0":{"index":0,"mimetype":"video/avi","stream_type":"videocontainer","version":"(:unap)","codec_creator_app":"Lavf56.40.101","codec_creator_app_version":"56.40.101","codec_name":"AVI"},"1":{"index":1,"mimetype":"video/mpeg","stream_type":"video","version":"2","bits_per_sample":"8","codec_creator_app":"Lavf56.40.101","codec_creator_app_version":"56.40.101","codec_name":"MPEG Video","codec_quality":"lossy","color":"Color","dar":"1.778","data_rate":"0.190368","data_rate_mode":"Variable","duration":"PT1S","frame_rate":"60","height":"180","par":"1","sampling":"4:2:0","signal_format":"(:unap)","sound":"Yes","width":"320"},"2":{"index":2,"mimetype":"audio/mpeg","stream_type":"audio","version":"1","audio_data_encoding":"MPEG Audio","bits_per_sample":"(:unav)","codec_creator_app":"Lavf56.40.101","codec_creator_app_version":"56.40.101","codec_name":"MPEG Audio","codec_quality":"lossy","data_rate":"128","data_rate_mode":"Fixed","duration":"PT1.07S","num_channels":"2","sampling_frequency":"44.1"}}}
+{
+  "@id": "file-scraper/5a51ece6-467f-4a40-89bf-e379dd837e03",
+  "source": "corpus/format/9a698d1c-0ebc-439a-9f44-4846c7ce5b34",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "3ecb7cef7b82038739cefda2689c5e22",
+    "blake2b": "a8cab0576b3169d4aff1b6897028b4de524810ea72836f4318bc88d7160fcd3de64481ae99a077161066a035d0cc7c4907a715e72b7a513f40e3740d11f57436"
+  },
+  "location": [
+    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_avi/valid__mpeg2_mp3.avi"
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/avi",
+      "stream_type": "videocontainer",
+      "version": "(:unap)",
+      "codec_creator_app": "Lavf56.40.101",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "AVI"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "Lavf56.40.101",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "0.190368",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "60",
+      "height": "180",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "320"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/mpeg",
+      "stream_type": "audio",
+      "version": "1",
+      "audio_data_encoding": "MPEG Audio",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "Lavf56.40.101",
+      "codec_creator_app_version": "56.40.101",
+      "codec_name": "MPEG Audio",
+      "codec_quality": "lossy",
+      "data_rate": "128",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1.07S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}

@@ -1,1 +1,12 @@
-{"repairs":["database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"],"analysis":["PDF-HUL-65, PDF-HUL-66. Unsupported character or insufficiently built dictionary object in the document. The exception is of a general kind and the problem case needs more inspection."],"softwareProblem":"","@id":"database/application_pdf/JHOVE/Lexical-error.repair","significantProperties":[],"fixable":""}
+{
+  "repairs": [
+    "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis"
+  ],
+  "analysis": [
+    "PDF-HUL-65, PDF-HUL-66. Unsupported character or insufficiently built dictionary object in the document. The exception is of a general kind and the problem case needs more inspection."
+  ],
+  "softwareProblem": "",
+  "@id": "database/application_pdf/JHOVE/Lexical-error.repair",
+  "significantProperties": [],
+  "fixable": ""
+}
