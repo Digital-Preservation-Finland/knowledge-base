@@ -1,6 +1,6 @@
-======================
-Tag .* out of sequence
-======================
+====================================================
+Document must have implicit or explicit HEAD element
+====================================================
 
 .. contents::
    :depth: 2
@@ -27,10 +27,14 @@ Classification
      - **Version**
      - **Description**
      - **Location**
-   * - image/x-adobe-dng
-     - 1.4
+   * - application/warc
+     - (:unav)
      - 
-     - :ref:`corpus <corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
+     - :ref:`corpus <corpus/file/9821c146-4b93-4d55-9013-3b8b6aee718e>`
+   * - application/warc
+     - (:unav)
+     - 
+     - :ref:`corpus <corpus/file/3b5e39f7-d60c-4249-bb75-aa9101766866>`
 
 --------
 Analyses
@@ -53,10 +57,10 @@ Output example
 	Validator returned error.
 	<?xml version="1.0" encoding="UTF-8"?>
 	<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-	 <date>2025-10-29T17:25:44+02:00</date>
+	 <date>2025-12-09T16:18:11+02:00</date>
 	 <repInfo uri="/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng">
 	  <reportingModule release="1.9.5" date="2024-08-22">TIFF-hul</reportingModule>
-	  <lastModified>2025-10-28T08:43:04+02:00</lastModified>
+	  <lastModified>2025-11-21T13:58:37+02:00</lastModified>
 	  <size>286677</size>
 	  <format>TIFF</format>
 	  <status>Not well-formed</status>
@@ -408,11 +412,14 @@ Related errors by source files
 
 ::
 
-	ImageMagick:	Input/output error
-	JHOVE:	Tag .* out of sequence
-	JHOVE:	Type mismatch for tag .*; expecting .* or .*, saw
-	JHOVE:	Unknown data type
-	JHOVE:	Value offset not word-aligned:
-	Pillow:	cannot identify image file
+	JHOVE:	Document must have implicit or explicit HEAD element
+	JHOVE:	Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2
+	Validator.nu:	error: Bad element name .*: Code point “U+003A” is not allowed
+	Validator.nu:	error: Element .* is missing a required instance of child element .*.
+	Validator.nu:	error: End tag for .* seen, but there were unclosed elements.
+	Validator.nu:	error: Non-space characters found without seeing a doctype first. Expected “<!DOCTYPE html>”.
+	Validator.nu:	error: Start tag .* seen but an element of the same type was already open.
+	Validator.nu:	error: Stray start tag .*.
+	Validator.nu:	error: Unclosed element .*.
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

@@ -228,6 +228,7 @@
       1      63    1701 database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/error
       1     176    3557 database/solutions/JHOVE/CSS-001-ERROR/error
       1     175    3608 database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/error
+      1    3856   67981 database/solutions/JHOVE/Document-must-have-implicit-or-explicit-HEAD-element/error
       1     226    7389 database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/error
       1      39    1218 database/solutions/JHOVE/File-does-not-start-with-RIFF-header/error
       1      47    1479 database/solutions/JHOVE/IFD-offset-not-word-aligned/error
@@ -258,6 +259,7 @@
       1    5120   52606 database/solutions/JHOVE/SAXParseException-The-content-of-element-type-html-must-match-headbody/error
       1      83    1711 database/solutions/JHOVE/SAXParseException-The-element-type-body-must-be-terminated-by-the-matching-end-tag-body/error
       1    3853   67900 database/solutions/JHOVE/Tag-out-of-sequence/error
+      1    3858   67927 database/solutions/JHOVE/Type-mismatch-for-tag-expecting-or-saw/error
       1     210    5015 database/solutions/JHOVE/Unexpected-end-of-file/error
       1     385   11866 database/solutions/JHOVE/Unexpected-exception-java/error
       1       3     311 database/solutions/JHOVE/Unexpected-exception-javalangNullPointerException/error
@@ -300,14 +302,21 @@
       1      26     520 database/solutions/Validator.nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute/error
       1      29     526 database/solutions/Validator.nu/error-An-img-element-which-has-an-alt-attribute-whose-value-is-the-empty-string-must-not-have-a-role-attribute-with-any-value-other-than-none-or-presentation/error
       1      11     329 database/solutions/Validator.nu/error-Attribute-caption-not-allowed-on-element-img-at-this-point/error
+      1     178    3470 database/solutions/Validator.nu/error-Bad-element-name-Code-point-U003A-is-not-allowed/error
       1      10     319 database/solutions/Validator.nu/error-Bad-value-for-attribute-novalidate-on-element-form/error
       1      19     434 database/solutions/Validator.nu/error-Element-div-not-allowed-as-child-of-element-span-in-this-context-Suppressing-further-errors-from-this-subtree/error
+      1     179    3473 database/solutions/Validator.nu/error-Element-is-missing-a-required-instance-of-child-element/error
       1       7     273 database/solutions/Validator.nu/error-End-tag-a-violates-nesting-rules/error
+      1     178    3465 database/solutions/Validator.nu/error-End-tag-for-seen-but-there-were-unclosed-elements/error
       1      13     350 database/solutions/Validator.nu/error-fatal-Cannot-recover-after-last-error-Any-further-errors-will-be-ignored/error
+      1     179    3501 database/solutions/Validator.nu/error-Non-space-characters-found-without-seeing-a-doctype-first-Expected-DOCTYPE-html/error
       1      15     339 database/solutions/Validator.nu/error-Start-tag-a-seen-but-an-element-of-the-same-type-was-already-open/error
+      1     182    3478 database/solutions/Validator.nu/error-Start-tag-seen-but-an-element-of-the-same-type-was-already-open/error
+      1     172    3430 database/solutions/Validator.nu/error-Stray-start-tag/error
       1      13     362 database/solutions/Validator.nu/error-The-cellpadding-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/error
       1      13     362 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/error
       1      16     374 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/error
+      1     171    3431 database/solutions/Validator.nu/error-Unclosed-element/error
       1      40     709 database/solutions/Validator.nu/Start-tag-seen-without-seeing-a-doctype-first-Expected-DOCTYPE-html/error
       1    9729  118067 database/solutions/veraPDF/A-CIDSet-entry-in-the-Font-descriptor-is-missing-or-does-not-correctly-identify-all-glyphs-present-in-the-embedded-font-subset-and-used-for-rendering/error
       1     685    8549 database/solutions/veraPDF/Actual-length-of-the-stream-bytes-does-not-match-the-value-of-the-Length-key-in-the-Stream-dictionary-bytes/error
@@ -331,7 +340,7 @@
       1     553    7678 database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/error
       1    9711  117963 database/solutions/veraPDF/XMP-property-does-not-correspond-to-type-null/error
       1      15     283 database/solutions/Warchaeology/missing-line-separator-at-end-of-http-headers/error
-      1      13     281 database/solutions/Warchaeology/payload-wrong-digest-expected-computed/error
+      1      12     370 database/solutions/Warchaeology/payload-wrong-digest-expected-computed/error
       1      32     461 database/solutions/warctools/Compressed-file-ended-before-the-end-of-stream-marker-was-reached/error
       1      49     420 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/analysis
       1      62     476 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/analysis
@@ -389,4 +398,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     357   24573  388466 corpus/errors.jsonl
     358     492  254648 corpus/files.jsonl
-   1702  165301 3183265 yhteensä
+   1711  174253 3343510 yhteensä

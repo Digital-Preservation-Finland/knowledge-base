@@ -111,7 +111,15 @@ Related errors by source files
 
 ::
 
+	JHOVE:	Document must have implicit or explicit HEAD element
 	JHOVE:	Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2
+	Validator.nu:	error: Bad element name .*: Code point “U+003A” is not allowed
+	Validator.nu:	error: Element .* is missing a required instance of child element .*.
+	Validator.nu:	error: End tag for .* seen, but there were unclosed elements.
+	Validator.nu:	error: Non-space characters found without seeing a doctype first. Expected “<!DOCTYPE html>”.
+	Validator.nu:	error: Start tag .* seen but an element of the same type was already open.
+	Validator.nu:	error: Stray start tag .*.
+	Validator.nu:	error: Unclosed element .*.
 	Validator.nu:	Start tag seen without seeing a doctype first. Expected ..!DOCTYPE html
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.

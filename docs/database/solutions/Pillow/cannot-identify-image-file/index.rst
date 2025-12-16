@@ -105,6 +105,7 @@ Related errors by source files
 	JHOVE:	Invalid GIF header
 	JHOVE:	Premature EOF
 	JHOVE:	Tag .* out of sequence
+	JHOVE:	Type mismatch for tag .*; expecting .* or .*, saw
 	JHOVE:	Unknown data block type
 	JHOVE:	Unknown data type
 	JHOVE:	Value offset not word-aligned:

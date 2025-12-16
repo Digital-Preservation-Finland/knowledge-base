@@ -104,6 +104,7 @@ JHOVE
  - `Chunk ID character outside printable ASCII range <database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/index.html>`_
  - `Chunk ID contains space before printable characters BKj <database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/index.html>`_
  - `Document catalog dictionary object number and trailer root ref number are inconsistent <database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/index.html>`_
+ - `Document must have implicit or explicit HEAD element <database/solutions/JHOVE/Document-must-have-implicit-or-explicit-HEAD-element/index.html>`_
  - `File does not begin with SPIFF Exif or JFIF segment <database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/index.html>`_
  - `File does not start with RIFF header <database/solutions/JHOVE/File-does-not-start-with-RIFF-header/index.html>`_
  - `IFD offset not word aligned <database/solutions/JHOVE/IFD-offset-not-word-aligned/index.html>`_
@@ -134,6 +135,7 @@ JHOVE
  - `SAXParseException The content of element type html must match headbody <database/solutions/JHOVE/SAXParseException-The-content-of-element-type-html-must-match-headbody/index.html>`_
  - `SAXParseException The element type body must be terminated by the matching end tag body <database/solutions/JHOVE/SAXParseException-The-element-type-body-must-be-terminated-by-the-matching-end-tag-body/index.html>`_
  - `Tag out of sequence <database/solutions/JHOVE/Tag-out-of-sequence/index.html>`_
+ - `Type mismatch for tag expecting or saw <database/solutions/JHOVE/Type-mismatch-for-tag-expecting-or-saw/index.html>`_
  - `Unexpected end of file <database/solutions/JHOVE/Unexpected-end-of-file/index.html>`_
  - `Unexpected exception java <database/solutions/JHOVE/Unexpected-exception-java/index.html>`_
  - `Unexpected exception javalangNullPointerException <database/solutions/JHOVE/Unexpected-exception-javalangNullPointerException/index.html>`_
@@ -159,13 +161,20 @@ Validator.nu
  - `error A document must not include both a meta element with an httpequiv attribute whose value is contenttype and a meta element with a charset attribute <database/solutions/Validator.nu/error-A-document-must-not-include-both-a-meta-element-with-an-httpequiv-attribute-whose-value-is-contenttype-and-a-meta-element-with-a-charset-attribute/index.html>`_
  - `error An img element which has an alt attribute whose value is the empty string must not have a role attribute with any value other than none or presentation <database/solutions/Validator.nu/error-An-img-element-which-has-an-alt-attribute-whose-value-is-the-empty-string-must-not-have-a-role-attribute-with-any-value-other-than-none-or-presentation/index.html>`_
  - `error Attribute caption not allowed on element img at this point <database/solutions/Validator.nu/error-Attribute-caption-not-allowed-on-element-img-at-this-point/index.html>`_
+ - `error Bad element name Code point U003A is not allowed <database/solutions/Validator.nu/error-Bad-element-name-Code-point-U003A-is-not-allowed/index.html>`_
  - `error Bad value for attribute novalidate on element form <database/solutions/Validator.nu/error-Bad-value-for-attribute-novalidate-on-element-form/index.html>`_
  - `error Element div not allowed as child of element span in this context Suppressing further errors from this subtree <database/solutions/Validator.nu/error-Element-div-not-allowed-as-child-of-element-span-in-this-context-Suppressing-further-errors-from-this-subtree/index.html>`_
+ - `error Element is missing a required instance of child element <database/solutions/Validator.nu/error-Element-is-missing-a-required-instance-of-child-element/index.html>`_
  - `error End tag a violates nesting rules <database/solutions/Validator.nu/error-End-tag-a-violates-nesting-rules/index.html>`_
+ - `error End tag for seen but there were unclosed elements <database/solutions/Validator.nu/error-End-tag-for-seen-but-there-were-unclosed-elements/index.html>`_
+ - `error Non space characters found without seeing a doctype first Expected DOCTYPE html <database/solutions/Validator.nu/error-Non-space-characters-found-without-seeing-a-doctype-first-Expected-DOCTYPE-html/index.html>`_
  - `error Start tag a seen but an element of the same type was already open <database/solutions/Validator.nu/error-Start-tag-a-seen-but-an-element-of-the-same-type-was-already-open/index.html>`_
+ - `error Start tag seen but an element of the same type was already open <database/solutions/Validator.nu/error-Start-tag-seen-but-an-element-of-the-same-type-was-already-open/index.html>`_
+ - `error Stray start tag <database/solutions/Validator.nu/error-Stray-start-tag/index.html>`_
  - `error The cellpadding attribute on the table element is obsolete Use CSS instead <database/solutions/Validator.nu/error-The-cellpadding-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/index.html>`_
  - `error The cellspacing attribute on the table element is obsolete Use CSS instead <database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/index.html>`_
  - `error The itemprop attribute was specified but the element is not a property of any item <database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/index.html>`_
+ - `error Unclosed element <database/solutions/Validator.nu/error-Unclosed-element/index.html>`_
  - `error fatal Cannot recover after last error Any further errors will be ignored <database/solutions/Validator.nu/error-fatal-Cannot-recover-after-last-error-Any-further-errors-will-be-ignored/index.html>`_
 
 Warchaeology

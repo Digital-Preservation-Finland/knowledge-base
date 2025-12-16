@@ -420,7 +420,19 @@ Warchaeology
 JHOVE
 ~~~~~
 
+ - `Document must have implicit or explicit HEAD element <database/solutions/JHOVE/Document-must-have-implicit-or-explicit-HEAD-element/index.html>`_
  - `Unrecognized or missing DOCTYPE declaration validation continuing as HTML 32 <database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/index.html>`_
+
+Validator.nu
+~~~~~~~~~~~~
+
+ - `error Bad element name Code point U003A is not allowed <database/solutions/Validator.nu/error-Bad-element-name-Code-point-U003A-is-not-allowed/index.html>`_
+ - `error Element is missing a required instance of child element <database/solutions/Validator.nu/error-Element-is-missing-a-required-instance-of-child-element/index.html>`_
+ - `error End tag for seen but there were unclosed elements <database/solutions/Validator.nu/error-End-tag-for-seen-but-there-were-unclosed-elements/index.html>`_
+ - `error Non space characters found without seeing a doctype first Expected DOCTYPE html <database/solutions/Validator.nu/error-Non-space-characters-found-without-seeing-a-doctype-first-Expected-DOCTYPE-html/index.html>`_
+ - `error Start tag seen but an element of the same type was already open <database/solutions/Validator.nu/error-Start-tag-seen-but-an-element-of-the-same-type-was-already-open/index.html>`_
+ - `error Stray start tag <database/solutions/Validator.nu/error-Stray-start-tag/index.html>`_
+ - `error Unclosed element <database/solutions/Validator.nu/error-Unclosed-element/index.html>`_
 
 Warchaeology
 ~~~~~~~~~~~~
@@ -693,6 +705,7 @@ JHOVE
 ~~~~~
 
  - `Tag out of sequence <database/solutions/JHOVE/Tag-out-of-sequence/index.html>`_
+ - `Type mismatch for tag expecting or saw <database/solutions/JHOVE/Type-mismatch-for-tag-expecting-or-saw/index.html>`_
  - `Unknown data type <database/solutions/JHOVE/Unknown-data-type/index.html>`_
  - `Value offset not word aligned <database/solutions/JHOVE/Value-offset-not-word-aligned/index.html>`_
 

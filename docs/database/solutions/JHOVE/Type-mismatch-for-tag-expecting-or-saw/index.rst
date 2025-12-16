@@ -1,6 +1,6 @@
-======================
-Tag .* out of sequence
-======================
+=================================================
+Type mismatch for tag .*; expecting .* or .*, saw
+=================================================
 
 .. contents::
    :depth: 2
@@ -53,10 +53,10 @@ Output example
 	Validator returned error.
 	<?xml version="1.0" encoding="UTF-8"?>
 	<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-	 <date>2025-10-29T17:25:44+02:00</date>
+	 <date>2025-12-09T16:18:11+02:00</date>
 	 <repInfo uri="/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng">
 	  <reportingModule release="1.9.5" date="2024-08-22">TIFF-hul</reportingModule>
-	  <lastModified>2025-10-28T08:43:04+02:00</lastModified>
+	  <lastModified>2025-11-21T13:58:37+02:00</lastModified>
 	  <size>286677</size>
 	  <format>TIFF</format>
 	  <status>Not well-formed</status>
