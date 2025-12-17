@@ -4,7 +4,24 @@
 # context lines.
 
 validator=${1}
-errorMessageList=database/solutions/"${validator}"/messages
-validatorOutputs=database/solutions/"${validator}"/list
+workdir=database/solutions/"${validator}"
+
+invalid_workpath () {
+	printf "Invalid working directory: %s\n" "${1}" >&2
+	exit 1
+}
+
+test -n "${validator}" || invalid_workpath "${workdir}"
+test -e "${workdir}" || invalid_workpath "${workdir}"
+
+errorMessages="${workdir}"/*/error
+errorMessageList="${workdir}"/messages
+preliminaryErrors="${workdir}"/pre
+validatorOutputs="${workdir}"/list
+
+test "${2}" = "reset" && {
+	jq -r '.errorMessage' ${errorMessages} > "${errorMessageList}"
+	jq -r '.outputExample[]' "${preliminaryErrors}" > "${validatorOutputs}"
+}
 
 grep --color=always -C100 -hf "${errorMessageList}" "${validatorOutputs}"
