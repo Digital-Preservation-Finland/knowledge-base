@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/jpeg
      - 1.01
+     - 
      - 
      - :ref:`corpus <file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b>`
 

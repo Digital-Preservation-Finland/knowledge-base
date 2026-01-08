@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/x-siard
      - 2.1.1
      - 
+     - 
      - :ref:`corpus <file-scraper/cdbc63c6-b217-4a0a-bcd6-06fc045a2f6c>`
    * - application/x-siard
      - 2.2
+     - 
      - 
      - :ref:`corpus <corpus/file/fd931350-2e74-43bd-9e50-bd5e731fc07f>`
 

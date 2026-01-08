@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - audio/x-wav
      - (:unav)
+     - 
      - 
      - :ref:`corpus <corpus/file/406e5d9c-da24-479b-a38f-be6d9cb8603a>`
 

@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/tiff
      - 6.0
+     - 
      - 
      - :ref:`corpus <corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8>`
 

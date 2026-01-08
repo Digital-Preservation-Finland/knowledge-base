@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/gif
      - GIF image data 10 x 6
      - 
+     - 
      - :ref:`corpus <corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309>`
    * - image/gif
      - GIF image data 10 x 6
+     - 
      - 
      - :ref:`corpus <corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80>`
 

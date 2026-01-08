@@ -25,18 +25,22 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/pdf
      - 1.3
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/balloon_a1b_jp2k.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_017_bytes-between-endstream-endobj.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_007_invalid-font-size-operator.pdf>`__
 

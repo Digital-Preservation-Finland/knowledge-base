@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - video/MP2T
      - (:unav)
      - 
+     - 
      - :ref:`corpus <corpus/file/5a9a84c1-c73f-4051-98c8-92772cc30863>`
    * - audio/mpeg
      - (:unav)
+     - 
      - 
      - :ref:`corpus <corpus/file/703c3532-6341-421a-b4b2-a2a3ab7fab89>`
 

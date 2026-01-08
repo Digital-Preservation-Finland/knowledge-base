@@ -25,18 +25,22 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - text/xml
      - 1.0
      - 
+     - 
      - :ref:`corpus <file-scraper/0a7c133f-07fe-4d8b-b162-c90513ffaec3>`
    * - text/xml
      - 1.0
      - 
+     - 
      - :ref:`corpus <file-scraper/5563b5fe-a58e-42b2-906a-cee18aa5c955>`
    * - text/xml
      - 1.0
+     - 
      - 
      - :ref:`corpus <file-scraper/8f694f62-c3a5-426e-8913-f98985306fc6>`
 

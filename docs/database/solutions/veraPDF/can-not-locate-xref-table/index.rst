@@ -25,82 +25,102 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_002_Stream-ET-missing.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_006_font-size-operator-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_014_endstream-keyword-missing.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_005_invalid-Font-name-operator.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_011_paranthesis-substituted-with-brackets.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_008_Font-set-operator-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_003_EOF-incomplete-EO.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_001_Stream-BT-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_012_text-show-operator-missing.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_004_Font-name-operator--missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_004_EOF-incomplete_EOF.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_003_Stream-BT-and-ET-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_010_Missing_closing_paranthesis.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_002_EOF-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_009_Missing_open_paranthesis.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_013_stream-keyword-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - :ref:`corpus <file-scraper/114f7207-5dc9-491b-a978-2394e6b8cc92>`
    * - application/pdf
      - 1.7
      - 
+     - 
      - :ref:`corpus <file-scraper/87af55ef-9b6e-4f05-8c04-3e146c310efe>`
    * - application/pdf
      - 1.7
+     - 
      - 
      - :ref:`corpus <file-scraper/a4992834-6697-48b5-a104-e70c7dee22eb>`
 

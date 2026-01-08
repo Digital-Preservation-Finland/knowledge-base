@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - video/x-ms-asf
      - (:unap)
+     - 
      - 
      - :ref:`corpus <file-scraper/ac3c1814-3216-4865-9f15-b840f7103b0a>`
 

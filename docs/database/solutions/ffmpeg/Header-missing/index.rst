@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - audio/mpeg
      - 1
      - 
+     - 
      - :ref:`corpus <corpus/file/9aef58b1-fb9a-4d2f-928d-ea4fcd1e26e8>`
    * - audio/mpeg
      - 1
+     - 
      - 
      - :ref:`corpus <corpus/file/d832b0e8-15dc-4802-89f3-3590752866da>`
 

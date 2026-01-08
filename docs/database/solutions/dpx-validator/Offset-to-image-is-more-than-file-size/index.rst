@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/x-dpx
      - (:unav)
+     - 
      - 
      - :ref:`corpus <corpus/file/4d39f111-3166-4602-a6f3-148471c2086b>`
 

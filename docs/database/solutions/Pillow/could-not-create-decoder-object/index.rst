@@ -25,22 +25,27 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/webp
      - (:unav)
      - 
+     - 
      - :ref:`corpus <file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f>`
    * - image/webp
      - (:unav)
+     - 
      - 
      - :ref:`corpus <file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b>`
    * - image/webp
      - (:unav)
      - 
+     - 
      - :ref:`corpus <file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd>`
    * - image/webp
      - (:unav)
+     - 
      - 
      - :ref:`corpus <file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea>`
 

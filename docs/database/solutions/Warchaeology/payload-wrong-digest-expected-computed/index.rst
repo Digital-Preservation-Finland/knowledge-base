@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/warc
      - 1.1
+     - 
      - 
      - :ref:`corpus <corpus/file/f1c70f29-d297-43a6-b57f-54b188a70124>`
 

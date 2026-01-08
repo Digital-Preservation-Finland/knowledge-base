@@ -25,18 +25,22 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_003_EOF-incomplete-EO.pdf>`__
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_004_EOF-incomplete_EOF.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_002_EOF-missing.pdf>`__
 

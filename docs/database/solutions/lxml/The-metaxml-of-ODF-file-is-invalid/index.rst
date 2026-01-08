@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/vnd.oasis.opendocument.text
      - (:unav)
+     - 
      - 
      - :ref:`corpus <file-scraper/23d70128-b0f7-443e-b628-a4417d04636d>`
 

@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - text/html
      - 4.01
+     - 
      - 
      - :ref:`corpus <file-scraper/e9cd0c98-bbc4-4a5d-b17d-6d073775a95c>`
 

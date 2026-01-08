@@ -25,18 +25,22 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/pdf
      - 1.7
      - 
+     - 
      - :ref:`corpus <file-scraper/0de7ba37-03da-4f5b-9928-404bdececd42>`
    * - application/pdf
      - 1.4
      - 
+     - 
      - :ref:`corpus <file-scraper/cc51790d-b251-4e1a-ac86-3980981d3ee6>`
    * - application/pdf
      - 1.7
+     - 
      - 
      - :ref:`corpus <file-scraper/f1856ee2-1690-43f1-8902-516dd6ba077e>`
 

@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/jp2
      - (:unap)
+     - 
      - 
      - :ref:`corpus <file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84>`
 

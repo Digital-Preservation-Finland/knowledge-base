@@ -25,62 +25,77 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/pdf
      - 1.4
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/268346.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/219789.pdf>`__
    * - application/pdf
      - 1.3
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/367594.pdf>`__
    * - application/pdf
      - 1.5
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/150277.pdf>`__
    * - application/pdf
      - 1.2
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020747.pdf>`__
    * - application/pdf
      - 1.2
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/027613.pdf>`__
    * - application/pdf
      - 1.4
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/455746.pdf>`__
    * - application/pdf
      - 1.3
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/073439.pdf>`__
    * - application/pdf
      - 1.2
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/226387.pdf>`__
    * - application/pdf
      - 1.2
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/492484.pdf>`__
    * - application/pdf
      - 1.3
+     - 
      - Govdocs1 set
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507676.pdf>`__
    * - application/pdf
      - 1.7
      - 
+     - 
      - :ref:`corpus <file-scraper/87af55ef-9b6e-4f05-8c04-3e146c310efe>`
    * - application/pdf
      - 1.6
      - 
+     - 
      - :ref:`corpus <file-scraper/9bec28c0-42f9-4556-ab46-f3457df5540a>`
    * - application/pdf
      - 1.4
+     - 
      - 
      - :ref:`corpus <file-scraper/c4399821-916e-4db9-a036-07f9b1c9d98e>`
 

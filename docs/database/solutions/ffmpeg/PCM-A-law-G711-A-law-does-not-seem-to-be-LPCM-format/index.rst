@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - audio/x-wav
      - (:unap)
+     - 
      - 
      - :ref:`corpus <file-scraper/f37d1e1e-1161-4f70-9894-2cf40bc08119>`
 

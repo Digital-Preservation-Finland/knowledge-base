@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/warc
      - (:unav)
+     - 
      - 
      - :ref:`corpus <corpus/file/7e3fd354-3fe9-4e8d-834e-c5e5781b3b75>`
 

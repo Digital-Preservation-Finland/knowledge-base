@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - video/mp4
      - (:unav)
+     - 
      - 
      - :ref:`corpus <corpus/file/23e0ece3-63a9-41db-9c73-6bdfa4ce7adf>`
 

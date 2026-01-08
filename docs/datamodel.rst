@@ -126,7 +126,7 @@ location : array of string
 5. Format
 ---------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-12/source.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-01/source.schema.ld.json``
 
 Description of a file format. The file format classifies file objects and determines the valid form for the data.
 
@@ -146,4 +146,8 @@ profile : string
 
 description : string
     Free form description.
+
+specification : array of objects
+    List of objects with location, name or other description of the specification as the value and name for the resource as a key.
+
 

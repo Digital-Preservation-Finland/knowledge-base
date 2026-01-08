@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - video/dv
      - (:unap)
+     - 
      - 
      - :ref:`corpus <corpus/file/718c6593-6197-49f6-b2c3-6247e4b0e08d>`
 

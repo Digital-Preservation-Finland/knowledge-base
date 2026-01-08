@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - audio/mpeg
      - 1
+     - 
      - 
      - 
 

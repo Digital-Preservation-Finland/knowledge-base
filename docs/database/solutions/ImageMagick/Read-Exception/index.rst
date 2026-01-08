@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/png
      - 1.2
+     - 
      - 
      - :ref:`corpus <corpus/file/aad28cd5-cfb7-4cba-bf0c-354a95811f71>`
 

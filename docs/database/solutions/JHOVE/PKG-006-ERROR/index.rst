@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/epub+zip
      - 3
+     - 
      - 
      - :ref:`corpus <file-scraper/1759ce1d-b7d7-47a2-90bf-a31b4032ea6a>`
 

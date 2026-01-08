@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - video/x-matroska
      - (:unav)
+     - 
      - 
      - :ref:`corpus <file-scraper/688c187d-6767-46bd-ad9d-bbef1df69d53>`
 

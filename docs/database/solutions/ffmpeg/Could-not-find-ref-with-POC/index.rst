@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - video/mp4
      - (:unap)
+     - 
      - 
      - :ref:`corpus <file-scraper/5fc90433-2a60-4b05-a565-caa392ea4b48>`
 

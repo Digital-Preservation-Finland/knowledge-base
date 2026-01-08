@@ -1,13 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://digitalpreservation.fi/schemas/2026-01/source.schema.ld.json",
+  "$id": "http://digitalpreservation.fi/schemas/2025-12/source.schema.ld.json",
   "title": "Format",
   "description": "Description of a file format. The file format classifies file objects and determines the valid form for the data.",
   "type": "object",
   "required": [
     "@id",
     "fileFormat",
-    "version"
+    "version",
+    "profile"
   ],
   "additionalProperties": false,
   "properties": {
@@ -32,12 +33,8 @@
       "type": "string"
     },
     "specification": {
-      "description": "List of objects with location, name or other description of the specification as the value and name for the resource as a key.",
-      "type": "array",
-      "items": {
-        "description": "A named resource for file format specification.",
-        "type": "object"
-      }
+      "description": "Location, name or other description of the specification.",
+      "type": "string"
     }
   },
   "index": [

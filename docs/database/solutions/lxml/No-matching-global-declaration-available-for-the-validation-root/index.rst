@@ -25,50 +25,62 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - text/xml
      - 1.0
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-open-nocopy-password.pdf.jhove.xml>`__
    * - text/xml
      - 1.0
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-open-password.pdf.jhove.xml>`__
    * - text/xml
      - 1.0
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple.pdf.jhove.xml>`__
    * - text/xml
      - 1.0
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/knowledge-management/Mind Manager/COPAC.UKNUC.xml>`__
    * - text/xml
      - 1.0
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-password-nocopy.pdf.jhove.xml>`__
    * - text/xml
      - 1.0
+     - 
      - 
      - :ref:`corpus <file-scraper/22497350-66fb-48e7-a74a-f17591ef8055>`
    * - text/xml
      - 1.0
      - 
+     - 
      - :ref:`corpus <file-scraper/566f91ce-9e55-4cc8-83d7-7d8cad3077ba>`
    * - text/xml
      - 1.0
+     - 
      - 
      - :ref:`corpus <file-scraper/5e9d7734-ce84-48cd-97c7-89d28dfdc00c>`
    * - text/xml
      - 1.0
      - 
+     - 
      - :ref:`corpus <file-scraper/84eb4623-b43b-4c53-9c40-fa9d942d2484>`
    * - text/xml
      - 1.0
      - 
+     - 
      - :ref:`corpus <file-scraper/a818c599-222f-412f-be9b-5381b8adac65>`
    * - text/xml
      - 1.0
+     - 
      - 
      - :ref:`corpus <file-scraper/fa95392b-5965-4ee2-a76c-23c730d49ae8>`
 

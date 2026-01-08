@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - text/xml
      - 1.0
      - 
+     - 
      - :ref:`corpus <file-scraper/1b8d91f5-3c34-4cc7-87db-416748ad6d38>`
    * - text/xml
      - 1.0
+     - 
      - 
      - :ref:`corpus <file-scraper/aa0d17fe-3d6e-49d6-94d0-f82f0b0243ab>`
 

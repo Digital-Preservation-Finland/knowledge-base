@@ -25,42 +25,52 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - audio/x-wav
      - (:unap)
      - 
+     - 
      - :ref:`corpus <corpus/file/1e21bb99-c686-4e5f-858f-f5a857a29c86>`
    * - video/mp4
      - (:unav)
+     - 
      - 
      - :ref:`corpus <corpus/file/23e0ece3-63a9-41db-9c73-6bdfa4ce7adf>`
    * - audio/x-wav
      - (:unav)
      - 
+     - 
      - :ref:`corpus <corpus/file/5e601373-3d79-4d3c-bf18-621440677296>`
    * - audio/x-wav
      - (:unav)
+     - 
      - 
      - :ref:`corpus <corpus/file/7b474fe4-ceba-46c0-9605-583dd8b56783>`
    * - audio/mpeg
      - 1
      - 
+     - 
      - :ref:`corpus <corpus/file/9aef58b1-fb9a-4d2f-928d-ea4fcd1e26e8>`
    * - audio/mpeg
      - 1
+     - 
      - 
      - :ref:`corpus <corpus/file/d832b0e8-15dc-4802-89f3-3590752866da>`
    * - video/mp4
      - (:unap)
      - 
+     - 
      - :ref:`corpus <file-scraper/5fc90433-2a60-4b05-a565-caa392ea4b48>`
    * - audio/flac
      - (:unap)
      - 
+     - 
      - :ref:`corpus <file-scraper/690d68cf-7aeb-4257-bd66-ad62b218d1d8>`
    * - audio/x-aiff
      - 1.3
+     - 
      - 
      - :ref:`corpus <file-scraper/d3d095af-df79-4427-be70-3392a0b1e672>`
 

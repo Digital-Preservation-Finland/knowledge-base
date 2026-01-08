@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/tiff
      - 6.0
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/NANETH_8bpp_grayscale/grayscale_8bpp_wrong_bpptag.tif>`__
 

@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/gif
      - 1989a
+     - 
      - 
      - :ref:`corpus <corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017>`
 

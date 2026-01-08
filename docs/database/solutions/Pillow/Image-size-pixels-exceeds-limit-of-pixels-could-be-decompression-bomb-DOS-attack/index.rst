@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/gif
      - 1987a
+     - 
      - 
      - :ref:`corpus <corpus/file/79f4b2b7-9eac-4352-a188-91c1e50ceeab>`
 

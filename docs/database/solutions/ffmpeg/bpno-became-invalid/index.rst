@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/mxf
      - (:unap)
+     - 
      - 
      - :ref:`corpus <file-scraper/c8d6dbdf-cd5c-4283-b897-d999608a7c6f>`
 

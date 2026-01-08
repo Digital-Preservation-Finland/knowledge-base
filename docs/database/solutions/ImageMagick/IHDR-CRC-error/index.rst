@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/png
      - 1.2
      - 
+     - 
      - :ref:`corpus <corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049>`
    * - image/png
      - 1.2
+     - 
      - 
      - :ref:`corpus <file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82>`
 

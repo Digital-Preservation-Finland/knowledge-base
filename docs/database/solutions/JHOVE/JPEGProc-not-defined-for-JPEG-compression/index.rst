@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/tiff
      - 6.0
+     - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/old-style-jpeg-compression/old-style-jpeg-compression.tif>`__
 

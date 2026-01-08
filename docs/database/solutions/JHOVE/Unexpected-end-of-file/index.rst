@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - audio/x-wav
      - (:unav)
      - 
+     - 
      - :ref:`corpus <corpus/file/5e601373-3d79-4d3c-bf18-621440677296>`
    * - image/jpeg
      - 1.01
+     - 
      - 
      - :ref:`corpus <file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b>`
 

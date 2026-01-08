@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - application/pdf
      - 1.4
      - 
+     - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/corruptionOneByteMissing.pdf>`__
    * - application/pdf
      - 1.5
+     - 
      - 
      - :ref:`corpus <file-scraper/42f24218-11c8-4a6f-bab2-fa58cc015d58>`
 

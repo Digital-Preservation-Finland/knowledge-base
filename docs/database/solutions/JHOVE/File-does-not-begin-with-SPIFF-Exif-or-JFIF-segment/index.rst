@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/jpeg
      - 
+     - `JPEG <https://jpeg.org/jpeg/index.html>`__
      - 
      - 
 

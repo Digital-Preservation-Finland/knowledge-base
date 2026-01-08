@@ -1,4 +1,4 @@
-    141     192   23644 database/formats.jsonl
+    141     190   23970 database/formats.jsonl
       9     322    3643 database/repairs.jsonl
       2       2    1209 database/files/application_epub+zip/2.0.1
       5       5    3000 database/files/application_epub+zip/3
@@ -398,4 +398,4 @@
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     357   24573  388466 corpus/errors.jsonl
     358     492  254648 corpus/files.jsonl
-   1711  174253 3343579 yhteensä
+   1711  174251 3343905 yhteensä

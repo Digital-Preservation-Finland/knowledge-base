@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/x-adobe-dng
      - 1.4
+     - 
      - 
      - :ref:`corpus <corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
 

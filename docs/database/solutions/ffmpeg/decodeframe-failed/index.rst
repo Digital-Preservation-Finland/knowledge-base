@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - audio/flac
      - (:unap)
+     - 
      - 
      - :ref:`corpus <file-scraper/690d68cf-7aeb-4257-bd66-ad62b218d1d8>`
 

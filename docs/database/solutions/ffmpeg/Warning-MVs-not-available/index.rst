@@ -25,14 +25,17 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - video/mpeg
      - 2
      - 
+     - 
      - :ref:`corpus <corpus/file/07d52e02-50d2-4c4d-ba9f-78adfda1efcf>`
    * - video/mpeg
      - 1
+     - 
      - 
      - :ref:`corpus <corpus/file/a4685bc5-ebe6-4a23-b97b-f6b482541e17>`
 

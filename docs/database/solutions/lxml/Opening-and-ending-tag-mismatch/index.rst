@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - text/xml
      - 1.0
+     - 
      - 
      - :ref:`corpus <file-scraper/8f694f62-c3a5-426e-8913-f98985306fc6>`
 

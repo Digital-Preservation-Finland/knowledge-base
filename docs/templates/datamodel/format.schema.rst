@@ -22,3 +22,7 @@ profile : {properties[profile][type]}
 description : {properties[description][type]}
     {properties[description][description]}
 
+specification : {properties[specification][type]} of {properties[specification][items][type]}s
+    {properties[specification][description]}
+
+

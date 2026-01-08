@@ -25,10 +25,12 @@ Classification
 
    * - **File format**
      - **Version**
+     - **Specification**
      - **Description**
      - **Location**
    * - image/mpo
      - 
+     - `CIPA <https://www.cipa.jp/std/documents/download_e.html?CIPA_DC-007-2025_E>`__
      - 
      - 
 
