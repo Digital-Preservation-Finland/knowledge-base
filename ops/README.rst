@@ -129,7 +129,7 @@ Files are the core of the corpus. Errors are included as preliminary errors for 
 1. List files for metadata extraction. Scrape the files and record the outputs.
 2. Write snapshot: write file-scraper outputs to error, file and format object JSONLs. Check for existing data (i) in the knowledge base, (ii) in the corpus and (iii) in the just scraped and use existing @id's.
 
-   - Use and update knowledge base's format objects in ``database/formats.jsonl``.
+   - Use and update knowledge base's format objects in ``database/format.objects``.
 
 3. Write documentation.
 
