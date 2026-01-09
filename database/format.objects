@@ -1138,3 +1138,10 @@
   "description": "",
   "specification": []
 }
+{
+  "@id": "corpus/format/d59f7f15-2879-4e91-9b18-148f9b264ddf",
+  "fileFormat": "image/jpeg",
+  "version": "2.2",
+  "profile": "",
+  "description": ""
+}

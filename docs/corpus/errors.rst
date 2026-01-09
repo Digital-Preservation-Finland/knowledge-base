@@ -41,7 +41,7 @@ DBPTK Developer 4.0.0-DPRES
    
    **Import module:** validate-siard
    - file = /corpus/file-scraper/tests/data/application_x-siard/invalid_2.1.1_schema_errors.siard
-   - report = /usr/share/java/dbptk-developer/dbptk-validation-reporter-invalid_2.1.1_schema_errors-20251209161631905.txt
+   - report = /usr/share/java/dbptk-developer/dbptk-validation-reporter-invalid_2.1.1_schema_errors-20260109125338221.txt
    
          Start validation
          Start validation of: 4.1 - Construction of the SIARD archive file
@@ -404,7 +404,7 @@ DBPTK Developer 4.0.0-DPRES
    
    **Import module:** validate-siard
    - file = /corpus/file-scraper/tests/data/application_x-siard/invalid_2.2_schema_errors.siard
-   - report = /usr/share/java/dbptk-developer/dbptk-validation-reporter-invalid_2.2_schema_errors-20251209161641160.txt
+   - report = /usr/share/java/dbptk-developer/dbptk-validation-reporter-invalid_2.2_schema_errors-20260109125346441.txt
    
          Start validation
          Start validation of: 4.1 - Construction of the SIARD archive file
@@ -815,6 +815,34 @@ dpx-validator 1.0.1
 
 ----
 
+.. _ExifTool 13.10:
+
+ExifTool 13.10
+--------------
+
+
+.. contents:: Files:
+   :local:
+   :depth: 1
+
+
+.. _ExifTool-13.10-corpus/file/6dcab94d-3470-4337-8818-56141811a190:
+
+:ref:`corpus/file/6dcab94d-3470-4337-8818-56141811a190`
+.......................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   ExifVersion '022' is not 4 characters long
+
+
+----
+
 .. _ffmpeg 6.0:
 
 ffmpeg 6.0
@@ -838,8 +866,8 @@ ffmpeg 6.0
 .. code::
 
 
-   [mxf @ 0x3465480] local tag 0x3c0a with 0 size
-   [jpeg2000 @ 0x346b680] bpno became invalid
+   [mxf @ 0x2e47480] local tag 0x3c0a with 0 size
+   [jpeg2000 @ 0x2e4d680] bpno became invalid
        Last message repeated 1007 times
 
 
@@ -857,15 +885,15 @@ ffmpeg 6.0
 .. code::
 
 
-   [flac @ 0x2b4c6c0] invalid sync code
-   [flac @ 0x2b4c6c0] invalid frame header
-   [flac @ 0x2b4c6c0] decode_frame() failed
-   [flac @ 0x2b50400] invalid sync code
-   [flac @ 0x2b50400] invalid frame header
-   [flac @ 0x2b50400] decode_frame() failed
+   [flac @ 0x29d96c0] invalid sync code
+   [flac @ 0x29d96c0] invalid frame header
+   [flac @ 0x29d96c0] decode_frame() failed
+   [flac @ 0x29dd400] invalid sync code
+   [flac @ 0x29dd400] invalid frame header
+   [flac @ 0x29dd400] decode_frame() failed
    Error while decoding stream #0:0: Invalid data found when processing input
-   [flac @ 0x2b50400] invalid residual
-   [flac @ 0x2b50400] decode_frame() failed
+   [flac @ 0x29dd400] invalid residual
+   [flac @ 0x29dd400] decode_frame() failed
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -883,7 +911,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mp3float @ 0x3ac2980] invalid new backstep -1
+   [mp3float @ 0x3235980] invalid new backstep -1
 
 
 ----
@@ -900,7 +928,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mp3float @ 0x2053840] Header missing
+   [mp3float @ 0x3cab840] Header missing
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -918,7 +946,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mp3float @ 0x2057bc0] Header missing
+   [mp3float @ 0x21a3bc0] Header missing
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -936,7 +964,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [pcm_s16be @ 0x2c424c0] Invalid PCM packet, data has size 3 but at least a size of 4 was expected
+   [pcm_s16be @ 0x22ec4c0] Invalid PCM packet, data has size 3 but at least a size of 4 was expected
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -965,13 +993,13 @@ ffmpeg 6.0
      libavfilter     9.  3.100 /  9.  3.100
      libswscale      7.  1.100 /  7.  1.100
      libswresample   4. 10.100 /  4. 10.100
-   [wav @ 0x1fc4d00] no 'data' tag found
+   [wav @ 0x2828d00] no 'data' tag found
    /corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav: Invalid data found when processing input
-   MIME type not supported by this extractor.
+   Extractor didn't produce any output streams.
    FFMpeg returned invalid return code: 1
-   [wav @ 0x2440480] no 'data' tag found
+   [wav @ 0x39c9480] no 'data' tag found
    /corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav: Invalid data found when processing input
-   [wav @ 0x2440480] no 'data' tag found
+   [wav @ 0x39c9480] no 'data' tag found
    /corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav: Invalid data found when processing input
 
 
@@ -989,7 +1017,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [pcm_u8 @ 0x391fb00] Invalid PCM packet, data has size 1 but at least a size of 2 was expected
+   [pcm_u8 @ 0x2747b00] Invalid PCM packet, data has size 1 but at least a size of 2 was expected
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -1035,13 +1063,13 @@ ffmpeg 6.0
      libavfilter     9.  3.100 /  9.  3.100
      libswscale      7.  1.100 /  7.  1.100
      libswresample   4. 10.100 /  4. 10.100
-   [wav @ 0x2ea4d00] Invalid sample rate: -2013265748
+   [wav @ 0x280fd00] Invalid sample rate: -2013265748
    /corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav: Invalid data found when processing input
-   MIME type not supported by this extractor.
+   Extractor didn't produce any output streams.
    FFMpeg returned invalid return code: 1
-   [wav @ 0x3a6c480] Invalid sample rate: -2013265748
+   [wav @ 0x35bc480] Invalid sample rate: -2013265748
    /corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav: Invalid data found when processing input
-   [wav @ 0x3a6c480] Invalid sample rate: -2013265748
+   [wav @ 0x35bc480] Invalid sample rate: -2013265748
    /corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav: Invalid data found when processing input
 
 
@@ -1059,361 +1087,361 @@ ffmpeg 6.0
 .. code::
 
 
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=88
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=88
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=88
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=88
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=74
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=69
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=74
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=69
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 19 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 8 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 7 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=95
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=95
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=95
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=95
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=88
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=73
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=88
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=73
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 13 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=71
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=71
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 24 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 27 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 25 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=89
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=89
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=69
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=69
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=73
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=73
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 12 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=80
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=80
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=74
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=74
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=73
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=73
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 8 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 43 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=93
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=93
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 7 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=70
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=70
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 12 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=67
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=67
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c265c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c265c0] Concealing bitstream errors
+   [dvvideo @ 0x31c55c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31c55c0] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=88
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=88
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=88
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=88
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=74
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=69
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=74
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=69
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 19 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 8 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 7 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=95
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=95
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=95
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=95
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=88
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=73
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=88
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=73
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 13 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=71
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=71
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 24 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 27 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 25 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=89
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=89
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=69
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=69
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=73
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=73
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 12 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=80
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=80
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=74
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=74
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=73
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=73
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 8 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 43 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=93
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=93
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 7 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=70
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=70
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 12 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=67
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=67
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 20 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 22 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 40 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=98
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=98
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 23 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 29 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 10 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 22 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=71
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=71
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=70
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=70
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=74
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=74
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=73
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=73
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 34 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=65
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=65
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=71
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=97
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=71
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=97
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=93
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=93
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=70
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=70
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 10 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=67
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=67
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=67
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=67
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=71
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=71
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x3c2bd00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x3c2bd00] Concealing bitstream errors
+   [dvvideo @ 0x31cad00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x31cad00] Concealing bitstream errors
 
 
 ----
@@ -1430,7 +1458,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mp3float @ 0x32d9ec0] invalid new backstep -1
+   [mp3float @ 0x2d6bec0] invalid new backstep -1
 
 
 ----
@@ -1458,13 +1486,13 @@ ffmpeg 6.0
      libavfilter     9.  3.100 /  9.  3.100
      libswscale      7.  1.100 /  7.  1.100
      libswresample   4. 10.100 /  4. 10.100
-   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x31d0d00] moov atom not found
+   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x35cad00] moov atom not found
    /corpus/file-scraper/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4: Invalid data found when processing input
-   MIME type not supported by this extractor.
+   Extractor didn't produce any output streams.
    FFMpeg returned invalid return code: 1
-   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x2320480] moov atom not found
+   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x3e4c480] moov atom not found
    /corpus/file-scraper/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4: Invalid data found when processing input
-   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x2320480] moov atom not found
+   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x3e4c480] moov atom not found
    /corpus/file-scraper/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4: Invalid data found when processing input
 
 
@@ -1482,9 +1510,9 @@ ffmpeg 6.0
 .. code::
 
 
-   [hevc @ 0x360f700] offset_len 108 is invalid
+   [hevc @ 0x3976700] offset_len 108 is invalid
    Error while decoding stream #0:0: Invalid data found when processing input
-   [hevc @ 0x360f700] Could not find ref with POC 6
+   [hevc @ 0x3976700] Could not find ref with POC 6
        Last message repeated 10 times
 
 
@@ -1502,7 +1530,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mpeg1video @ 0x254c880] Warning MVs not available
+   [mpeg1video @ 0x224c880] Warning MVs not available
 
 
 ----
@@ -1519,7 +1547,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mpeg2video @ 0x3a07d40] Warning MVs not available
+   [mpeg2video @ 0x39c2d40] Warning MVs not available
 
 
 ----
@@ -1553,8 +1581,8 @@ ffmpeg 6.0
 .. code::
 
 
-   [vc1 @ 0x24a2600] Bits overconsumption: 32677 > 32672 at 57x20
-   [null @ 0x24a3380] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 27 >= 27
+   [vc1 @ 0x3171600] Bits overconsumption: 32677 > 32672 at 57x20
+   [null @ 0x3172380] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 27 >= 27
 
 
 ----
@@ -2152,6 +2180,29 @@ Ghostscript 10.06.0
 
 ----
 
+.. _Ghostscript-10.06.0-corpus/file/aeba886f-4060-45f0-ab1b-fde9471cc63d:
+
+:ref:`corpus/file/aeba886f-4060-45f0-ab1b-fde9471cc63d`
+.......................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   
+      **** Warning: PDF document has no pages.
+   GPL Ghostscript 10.06.0 (2025-09-09)
+   Copyright (C) 2025 Artifex Software, Inc.  All rights reserved.
+   This software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:
+   see the file COPYING for details.
+      No pages will be processed (FirstPage > LastPage).
+
+
+----
+
 .. _Ghostscript-10.06.0-file-scraper/49a97c44-37c5-4855-b10f-7f1c031a2eff:
 
 :ref:`file-scraper/49a97c44-37c5-4855-b10f-7f1c031a2eff`
@@ -2686,7 +2737,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:09:18+02:00</date>
+    <date>2026-01-09T12:48:21+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_epub+zip/invalid_2.0.1_libreoffice.epub">
      <reportingModule release="1.3" date="2023-06-12">EPUB-ptc</reportingModule>
      <size>1899</size>
@@ -2776,7 +2827,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:09:31+02:00</date>
+    <date>2026-01-09T12:48:30+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_epub+zip/invalid_3_libreoffice.epub">
      <reportingModule release="1.3" date="2023-06-12">EPUB-ptc</reportingModule>
      <lastModified>0002-11-30T00:00:00+02:00</lastModified>
@@ -2868,7 +2919,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:09:46+02:00</date>
+    <date>2026-01-09T12:48:39+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_epub+zip/invalid_3_mimetype_not_first.epub">
      <reportingModule release="1.3" date="2023-06-12">EPUB-ptc</reportingModule>
      <lastModified>2022-03-25T13:44:14+02:00</lastModified>
@@ -2877,7 +2928,7 @@ JHOVE 1.32.1
      <version>3.3</version>
      <status>Not well-formed</status>
      <messages>
-      <message severity="error" id="PKG-006" infoLink="https://github.com/openpreserve/jhove/wiki/EPUB-ptc-Messages#pkg-006">PKG-006, ERROR, [Mimetype file entry is missing or is not the first file in the archive.], /tmp/epub16987179296809864238.epub</message>
+      <message severity="error" id="PKG-006" infoLink="https://github.com/openpreserve/jhove/wiki/EPUB-ptc-Messages#pkg-006">PKG-006, ERROR, [Mimetype file entry is missing or is not the first file in the archive.], /tmp/epub11818795423105430580.epub</message>
      </messages>
      <mimeType>application/epub+zip</mimeType>
      <properties>
@@ -2981,7 +3032,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:10+02:00</date>
+    <date>2026-01-09T12:49:36+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.2_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3017,7 +3068,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:12+02:00</date>
+    <date>2026-01-09T12:49:38+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.2_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3052,7 +3103,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:15+02:00</date>
+    <date>2026-01-09T12:49:40+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.3_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3100,7 +3151,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:17+02:00</date>
+    <date>2026-01-09T12:49:42+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.3_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3135,7 +3186,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:20+02:00</date>
+    <date>2026-01-09T12:49:44+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.4_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3183,7 +3234,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:22+02:00</date>
+    <date>2026-01-09T12:49:46+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.4_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3218,7 +3269,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:27+02:00</date>
+    <date>2026-01-09T12:49:49+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.5_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3253,7 +3304,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:30+02:00</date>
+    <date>2026-01-09T12:49:51+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.5_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3288,7 +3339,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:32+02:00</date>
+    <date>2026-01-09T12:49:53+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.6_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3336,7 +3387,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:35+02:00</date>
+    <date>2026-01-09T12:49:54+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.6_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3371,7 +3422,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:40+02:00</date>
+    <date>2026-01-09T12:49:58+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.7_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3406,7 +3457,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:43+02:00</date>
+    <date>2026-01-09T12:50:00+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.7_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3441,7 +3492,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:46+02:00</date>
+    <date>2026-01-09T12:50:02+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3477,7 +3528,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:11:54+02:00</date>
+    <date>2026-01-09T12:50:08+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3529,7 +3580,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:12:22+02:00</date>
+    <date>2026-01-09T12:50:34+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3564,7 +3615,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:12:29+02:00</date>
+    <date>2026-01-09T12:50:40+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3599,7 +3650,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:12:38+02:00</date>
+    <date>2026-01-09T12:50:46+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_wrong_version.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3861,7 +3912,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:12:57+02:00</date>
+    <date>2026-01-09T12:51:00+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3896,7 +3947,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:13:05+02:00</date>
+    <date>2026-01-09T12:51:06+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3931,7 +3982,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:13:14+02:00</date>
+    <date>2026-01-09T12:51:12+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_wrong_version.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -4193,7 +4244,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:15:58+02:00</date>
+    <date>2026-01-09T12:53:12+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_warc/invalid_1.0_missing_required_field.warc">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-12-09T13:10:01+02:00</lastModified>
@@ -4231,7 +4282,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:16:06+02:00</date>
+    <date>2026-01-09T12:53:18+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_warc/invalid_1.0_no_carriage_return.warc">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-12-09T13:10:01+02:00</lastModified>
@@ -4269,7 +4320,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:16:15+02:00</date>
+    <date>2026-01-09T12:53:25+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_illegal_tags.xhtml">
      <reportingModule release="1.5.5" date="2024-08-22">XML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5396,7 +5447,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:16:19+02:00</date>
+    <date>2026-01-09T12:53:28+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_missing_closing_tag.xhtml">
      <reportingModule release="1.5.5" date="2024-08-22">XML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5433,7 +5484,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:19+02:00</date>
+    <date>2026-01-09T12:54:16+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_data_bytes_missing.wav">
      <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5559,7 +5610,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:21+02:00</date>
+    <date>2026-01-09T12:54:17+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav">
      <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5596,7 +5647,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:23+02:00</date>
+    <date>2026-01-09T12:54:19+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid__data_bytes_missing.wav">
      <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5721,7 +5772,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:26+02:00</date>
+    <date>2026-01-09T12:54:22+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav">
      <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5758,7 +5809,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:32+02:00</date>
+    <date>2026-01-09T12:54:26+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_gif/invalid_1987a_broken_header.gif">
      <reportingModule release="1.4.3" date="2022-04-22">GIF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5790,7 +5841,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:34+02:00</date>
+    <date>2026-01-09T12:54:28+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_gif/invalid_1987a_truncated.gif">
      <reportingModule release="1.4.3" date="2022-04-22">GIF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5829,7 +5880,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:36+02:00</date>
+    <date>2026-01-09T12:54:29+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_gif/invalid_1989a_broken_header.gif">
      <reportingModule release="1.4.3" date="2022-04-22">GIF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5861,7 +5912,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:38+02:00</date>
+    <date>2026-01-09T12:54:31+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_gif/invalid_1989a_truncated.gif">
      <reportingModule release="1.4.3" date="2022-04-22">GIF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5900,7 +5951,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:44+02:00</date>
+    <date>2026-01-09T12:54:36+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_jpeg/invalid_1.01_data_changed.jpg">
      <reportingModule release="1.5.4" date="2023-03-16">JPEG-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5936,7 +5987,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:17:58+02:00</date>
+    <date>2026-01-09T12:54:51+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_tiff/invalid_6.0_payload_altered.tif">
      <reportingModule release="1.9.5" date="2024-08-22">TIFF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5972,7 +6023,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:18:11+02:00</date>
+    <date>2026-01-09T12:55:00+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng">
      <reportingModule release="1.9.5" date="2024-08-22">TIFF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6329,7 +6380,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:18:30+02:00</date>
+    <date>2026-01-09T12:55:13+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/text_html/invalid_4.01_illegal_tags.html">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6381,7 +6432,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:18:33+02:00</date>
+    <date>2026-01-09T12:55:16+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/text_html/invalid_4.01_nodoctype.html">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6430,7 +6481,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2025-12-09T16:18:47+02:00</date>
+    <date>2026-01-09T12:55:26+02:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/text_html/invalid_5_nodoctype.html">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6618,7 +6669,7 @@ lxml 4.6.5.0
 
 
    XML parsing failed: document information could not be gathered.
-   MIME type not supported by this extractor.
+   Extractor didn't produce any output streams.
 
 
 ----
@@ -6636,7 +6687,7 @@ lxml 4.6.5.0
 
 
    XML parsing failed: document information could not be gathered.
-   MIME type not supported by this extractor.
+   Extractor didn't produce any output streams.
 
 
 ----
@@ -6672,7 +6723,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "http://localhost/loucalll.xsd"
-   /tmp/file-scraper-21wtmpf5.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-hhrri6og.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/invalid_1.0_catalog.xml:3: element note: Schemas validity error : Element '{http://localhost/}note': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/invalid_1.0_catalog.xml fails to validate
    Schema definition probably missing from XML catalog
@@ -6768,7 +6819,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "/tmp/loucalll.xsd"
-   /tmp/file-scraper-gmy1w1xi.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location '/tmp/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-nnohwt6o.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location '/tmp/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/invalid_1.0_local_xsd.xml:3: element note: Schemas validity error : Element '{http://localhost/}note': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/invalid_1.0_local_xsd.xml fails to validate
 
@@ -6847,8 +6898,8 @@ lxml 4.6.5.0
    /corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd:11: namespace error : Namespace prefix xsd on element is not defined
                <xsd:element name="body" type="xsd:string"/>
                                                          ^
-   /tmp/file-scraper-n8ehwvua.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.
-   WXS schema /tmp/file-scraper-n8ehwvua.tmp failed to compile
+   /tmp/file-scraper-uytk1ba3.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.
+   WXS schema /tmp/file-scraper-uytk1ba3.tmp failed to compile
 
 
 ----
@@ -6884,7 +6935,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "http://localhost/loucalll.xsd"
-   /tmp/file-scraper-fxlfej_v.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-7job9mxi.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_catalog.xml:3: element note: Schemas validity error : Element '{http://localhost/}note': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_catalog.xml fails to validate
    Schema definition probably missing from XML catalog
@@ -6905,7 +6956,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "/tmp/loucalll.xsd"
-   /tmp/file-scraper-fkhra9ki.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location '/tmp/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-m901ql3o.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location '/tmp/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_local_xsd.xml:3: element note: Schemas validity error : Element '{http://localhost/}note': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_local_xsd.xml fails to validate
 
@@ -6925,7 +6976,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "http://localhost/loucalll.xsd"
-   /tmp/file-scraper-bskk02_w.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-p_95xswe.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_no_namespace_catalog.xml:3: element beginnersbook: Schemas validity error : Element 'beginnersbook': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_no_namespace_catalog.xml fails to validate
    Schema definition probably missing from XML catalog
@@ -6969,8 +7020,8 @@ lxml 4.6.5.0
    /corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd:11: namespace error : Namespace prefix xsd on element is not defined
                <xsd:element name="body" type="xsd:string"/>
                                                          ^
-   /tmp/file-scraper-tmdtgvr5.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.
-   WXS schema /tmp/file-scraper-tmdtgvr5.tmp failed to compile
+   /tmp/file-scraper-av0u0sti.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.
+   WXS schema /tmp/file-scraper-av0u0sti.tmp failed to compile
 
 
 ----
@@ -7626,17 +7677,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_payload_altered.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1765289510634" finish="1765289510797">00:00:00.163</duration>
+           <duration start="1767955805583" finish="1767955805730">00:00:00.147</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: can not locate xref table</exceptionMessage>
          </taskException>
-         <duration start="1765289510634" finish="1765289510797">00:00:00.163</duration>
+         <duration start="1767955805583" finish="1767955805730">00:00:00.147</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1765289510577" finish="1765289510855">00:00:00.278</duration>
+       <duration start="1767955805538" finish="1767955805772">00:00:00.234</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -7669,17 +7720,60 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_removed_xref.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1765289518952" finish="1765289519097">00:00:00.145</duration>
+           <duration start="1767955811602" finish="1767955811712">00:00:00.110</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: End of file is reached</exceptionMessage>
          </taskException>
-         <duration start="1765289518952" finish="1765289519097">00:00:00.145</duration>
+         <duration start="1767955811602" finish="1767955811712">00:00:00.110</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1765289518918" finish="1765289519131">00:00:00.213</duration>
+       <duration start="1767955811558" finish="1767955811737">00:00:00.179</duration>
+     </batchSummary>
+   </report>
+   MIME type (:unav) with version (:unav) is not supported.
+
+
+----
+
+.. _veraPDF-1.28.2-corpus/file/aeba886f-4060-45f0-ab1b-fde9471cc63d:
+
+:ref:`corpus/file/aeba886f-4060-45f0-ab1b-fde9471cc63d`
+.......................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   <?xml version="1.0" encoding="utf-8"?>
+   <report>
+     <buildInformation>
+       <releaseDetails id="core" version="1.28.2" buildDate="2025-07-15T16:07:00+03:00"></releaseDetails>
+       <releaseDetails id="validation-model" version="1.28.2" buildDate="2025-07-15T16:12:00+03:00"></releaseDetails>
+       <releaseDetails id="gui" version="1.28.2" buildDate="2025-07-15T16:59:00+03:00"></releaseDetails>
+     </buildInformation>
+     <jobs>
+       <job>
+         <item size="695">
+           <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-1b_compressed_metadata.pdf</name>
+         </item>
+         <taskException type="PARSE" isExecuted="true" isSuccess="false">
+           <duration start="1767955824830" finish="1767955824921">00:00:00.091</duration>
+           <exceptionMessage>Exception: Couldn't parse stream caused by exception: Pages not found</exceptionMessage>
+         </taskException>
+         <duration start="1767955824830" finish="1767955824921">00:00:00.091</duration>
+       </job>
+     </jobs>
+     <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
+       <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
+       <featureReports failedJobs="0">0</featureReports>
+       <repairReports failedJobs="0">0</repairReports>
+       <duration start="1767955824799" finish="1767955824959">00:00:00.160</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -7712,17 +7806,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_payload_altered.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1765289545758" finish="1765289545841">00:00:00.083</duration>
+           <duration start="1767955837439" finish="1767955837518">00:00:00.079</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: can not locate xref table</exceptionMessage>
          </taskException>
-         <duration start="1765289545758" finish="1765289545841">00:00:00.083</duration>
+         <duration start="1767955837439" finish="1767955837518">00:00:00.079</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1765289545704" finish="1765289545863">00:00:00.159</duration>
+       <duration start="1767955837400" finish="1767955837544">00:00:00.144</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -7755,17 +7849,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_removed_xref.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1765289553931" finish="1765289554150">00:00:00.219</duration>
+           <duration start="1767955843484" finish="1767955843578">00:00:00.094</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: End of file is reached</exceptionMessage>
          </taskException>
-         <duration start="1765289553931" finish="1765289554150">00:00:00.219</duration>
+         <duration start="1767955843484" finish="1767955843578">00:00:00.094</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1765289553860" finish="1765289554174">00:00:00.314</duration>
+       <duration start="1767955843440" finish="1767955843599">00:00:00.159</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -7810,14 +7904,14 @@ veraPDF 1.28.2
              </rule>
            </details>
          </validationReport>
-         <duration start="1765289562477" finish="1765289563690">00:00:01.213</duration>
+         <duration start="1767955849696" finish="1767955850586">00:00:00.890</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="1" failedJobs="0">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1765289562287" finish="1765289563757">00:00:01.470</duration>
+       <duration start="1767955849538" finish="1767955850629">00:00:01.091</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -7850,17 +7944,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_payload_altered.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1765289581509" finish="1765289581614">00:00:00.105</duration>
+           <duration start="1767955863292" finish="1767955863372">00:00:00.080</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: can not locate xref table</exceptionMessage>
          </taskException>
-         <duration start="1765289581509" finish="1765289581614">00:00:00.105</duration>
+         <duration start="1767955863292" finish="1767955863372">00:00:00.080</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1765289581399" finish="1765289581644">00:00:00.245</duration>
+       <duration start="1767955863254" finish="1767955863397">00:00:00.143</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -7893,17 +7987,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_removed_xref.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1765289589740" finish="1765289589859">00:00:00.119</duration>
+           <duration start="1767955869239" finish="1767955869333">00:00:00.094</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: End of file is reached</exceptionMessage>
          </taskException>
-         <duration start="1765289589740" finish="1765289589859">00:00:00.119</duration>
+         <duration start="1767955869239" finish="1767955869333">00:00:00.094</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1765289589687" finish="1765289589891">00:00:00.204</duration>
+       <duration start="1767955869213" finish="1767955869360">00:00:00.147</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -7948,14 +8042,14 @@ veraPDF 1.28.2
              </rule>
            </details>
          </validationReport>
-         <duration start="1765289598358" finish="1765289599539">00:00:01.181</duration>
+         <duration start="1767955875499" finish="1767955876358">00:00:00.859</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="1" failedJobs="0">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1765289598199" finish="1765289599659">00:00:01.460</duration>
+       <duration start="1767955875354" finish="1767955876409">00:00:01.055</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
