@@ -126,6 +126,7 @@ veraPDF
 
  - `DeviceRGB colour space is used without RGB output intent profile <database/solutions/veraPDF/DeviceRGB-colour-space-is-used-without-RGB-output-intent-profile/index.html>`_
  - `Extra spacings or missing EOL characters around indirect objectgeneration number or keywords obj and endobj <database/solutions/veraPDF/Extra-spacings-or-missing-EOL-characters-around-indirect-objectgeneration-number-or-keywords-obj-and-endobj/index.html>`_
+ - `Pages not found <database/solutions/veraPDF/Pages-not-found/index.html>`_
  - `The value of CreationDate entry from the document Info dictionary and its matching XMP property xmpCreateDate are not equivalent Info CreationDate D XMP xmpCreateDate <database/solutions/veraPDF/The-value-of-CreationDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpCreateDate-are-not-equivalent-Info-CreationDate-D-XMP-xmpCreateDate/index.html>`_
  - `The value of ModDate entry from the document Info dictionary and its matching XMP property xmpModifyDate are not equivalent Info ModDate D XMP xmpModifyDate <database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/index.html>`_
 

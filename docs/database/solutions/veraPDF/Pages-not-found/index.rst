@@ -33,6 +33,11 @@ Classification
      - 
      - 
      - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/corruptionOneByteMissing.pdf>`__
+   * - application/pdf
+     - 1.3
+     - 
+     - 
+     - :ref:`corpus <corpus/file/aeba886f-4060-45f0-ab1b-fde9471cc63d>`
 
 --------
 Analyses

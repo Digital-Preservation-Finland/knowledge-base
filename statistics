@@ -9,7 +9,7 @@
       2       2    1190 database/files/application_pdf/1.0
       3       3    1785 database/files/application_pdf/1.1
      14      25    8114 database/files/application_pdf/1.2
-     20      41   11416 database/files/application_pdf/1.3
+     21      42   12010 database/files/application_pdf/1.3
     123     164   71392 database/files/application_pdf/1.4
      10      16    5799 database/files/application_pdf/1.5
       8      14    4684 database/files/application_pdf/1.6
@@ -83,6 +83,7 @@
       4       4    2678 database/files/image_jp2/generic
       7      15    5055 database/files/image_jpeg/1.01
       1       1     714 database/files/image_jpeg/1.02
+      1       1     754 database/files/image_jpeg/2.2
       2       2    1481 database/files/image_jpeg/2.2.1
       2       2     796 database/files/image_jpeg/generic
       1       1     194 database/files/image_mpo/generic
@@ -101,7 +102,7 @@
       2       2    1186 database/files/text_html/4.01
       5       5    2534 database/files/text_html/5
       2       2    1199 database/files/text_html/generic
-     21      21   12644 database/files/text_plain/generic
+     23      23   13819 database/files/text_plain/generic
      40      49   23358 database/files/text_xml/1.0
       1       1     600 database/files/text_xml/generic
       1       4    1495 database/files/video_avi/generic
@@ -332,7 +333,7 @@
       1     680    8529 database/solutions/veraPDF/File-header-PDF--offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-nm/error
       1     669    8462 database/solutions/veraPDF/Missing-ID-in-the-document-trailer/error
       1      98    2102 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/error
-      1      74    1721 database/solutions/veraPDF/Pages-not-found/error
+      1      74    1772 database/solutions/veraPDF/Pages-not-found/error
       1     709    9021 database/solutions/veraPDF/Real-value-out-of-range/error
       1     690    8607 database/solutions/veraPDF/The-document-catalog-dictionary-doesnt-contain-metadata-key-or-metadata-stream-dictionary-does-not-contain-either-entry-Type-with-value-Metadata-or-entry-Subtype-with-value-XML/error
       1     669    8511 database/solutions/veraPDF/The-font-program-is-not-embedded/error
