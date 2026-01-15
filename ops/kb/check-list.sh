@@ -14,10 +14,10 @@ invalid_workpath () {
 test -n "${validator}" || invalid_workpath "${workdir}"
 test -e "${workdir}" || invalid_workpath "${workdir}"
 
-errorMessages="${workdir}"/*/error
-errorMessageList="${workdir}"/messages
-preliminaryErrors="${workdir}"/pre
-validatorOutputs="${workdir}"/list
+errorMessages="${workdir}"/*/error		# Location of error objects
+errorMessageList="${workdir}"/messages	# Listing of defined error messages
+preliminaryErrors="${workdir}"/pre		# Location of preliminary error objects
+validatorOutputs="${workdir}"/list		# Listing of preliminary errors' example outputs
 
 test "${2}" = "reset" && {
 	jq -r '.errorMessage' ${errorMessages} > "${errorMessageList}"
