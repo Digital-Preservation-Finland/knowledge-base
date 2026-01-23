@@ -12,7 +12,8 @@
     "justification",
     "heading",
     "files",
-    "softwareTestVersion"
+    "softwareTestVersion",
+    "operation"
   ],
   "additionalProperties": false,
   "properties": {
@@ -54,6 +55,14 @@
     "softwareTestVersion": {
       "description": "Software version or versions the method has been tested and the result verified with.",
       "type": "string"
+    },
+    "operation": {
+      "description": "The type of the operation. Repair does not change file format. Migration changes file format.",
+      "enum": [
+        "repair",
+        "migration",
+        ""
+      ]
     }
   },
   "index": [

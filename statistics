@@ -1,6 +1,6 @@
-    142     191   23827 database/format.objects
+    142     192   23840 database/format.objects
       0       0       0 database/migration-stat.objects
-     10     682    7203 database/repair.objects
+     10     682    7425 database/repair.objects
       2       2    1231 database/files/application_epub+zip/2.0.1
       5       5    3055 database/files/application_epub+zip/3
       8       8    4948 database/files/application_json/generic
@@ -127,7 +127,7 @@
       1      47     725 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/error
       1      33     399 database/solutions/ffmpeg/Bits-overconsumption-at/error
       1      21     335 database/solutions/ffmpeg/bpno-became-invalid/error
-      1     135    1293 database/solutions/ffmpeg/Concealing-bitstream-errors/error
+      1     135    1335 database/solutions/ffmpeg/Concealing-bitstream-errors/error
       1      36     421 database/solutions/ffmpeg/Could-not-find-ref-with-POC/error
       1      58     680 database/solutions/ffmpeg/decodeframe-failed/error
       1      67     899 database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/error
@@ -347,7 +347,7 @@
       1      49     420 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/analysis
       1      62     476 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/analysis
       1      73     749 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/analysis
-      1      83     922 database/solutions/ffmpeg/Concealing-bitstream-errors/analysis
+      1      81     934 database/solutions/ffmpeg/Concealing-bitstream-errors/analysis
       1      39     506 database/solutions/ffmpeg/Referenced-QT-chapter-track-not-found/analysis
       1      24     293 database/solutions/ffprobe/Error-opening-filters/analysis
       1       1     177 database/solutions/ffprobe/Invalid-data-found-when-processing-input/analysis

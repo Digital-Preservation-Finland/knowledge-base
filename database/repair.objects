@@ -12,7 +12,8 @@
     "corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84",
     "corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0"
   ],
-  "softwareTestVersion": "FFmpeg 6.0"
+  "softwareTestVersion": "FFmpeg 6.0",
+  "operation": "migration"
 }
 {
   "repair": "Copy automatically selected audio and video streams and copy 'global metadata' to the new file.",
@@ -25,7 +26,8 @@
   "justification": "The file contains single audio and video streams.",
   "heading": "Recreate file with automatically selected audio and video streams",
   "files": [],
-  "softwareTestVersion": "FFmpeg 6.0"
+  "softwareTestVersion": "FFmpeg 6.0",
+  "operation": "repair"
 }
 {
   "repair": "Migrate only audio streams from an MP3 file to remove an attached image and related video container stream.",
@@ -37,7 +39,8 @@
   "justification": "MP3 files contain primarily audio.",
   "heading": "Remove album cover image from MP3 file",
   "files": [],
-  "softwareTestVersion": "FFmpeg 6.0"
+  "softwareTestVersion": "FFmpeg 6.0",
+  "operation": "migration"
 }
 {
   "repair": "Open the file with Acrobat Reader and save it as a new file without any changes to the content.",
@@ -47,7 +50,8 @@
   "justification": "Acrobat Reader is a standard implementation for PDF.",
   "heading": "Remake PDF with Acrobat Reader",
   "files": [],
-  "softwareTestVersion": ""
+  "softwareTestVersion": "",
+  "operation": "repair"
 }
 {
   "repair": "If the bits are not completely missing, use ImageMagick. If the bits are missing JHOVE reports 'Expected marker byte 255 ' from JPEG-HUL and in that case 4 bytes can be added starting from position 7 in the file. Otherwise, the file more thoroughly corrupted.",
@@ -57,7 +61,8 @@
   "justification": "",
   "heading": "Remake image with ImageMagick",
   "files": [],
-  "softwareTestVersion": ""
+  "softwareTestVersion": "",
+  "operation": "repair"
 }
 {
   "repair": "Open the file in an image processing software and save it again in the same file format",
@@ -67,7 +72,8 @@
   "justification": "",
   "heading": "View and save as new file",
   "files": [],
-  "softwareTestVersion": ""
+  "softwareTestVersion": "",
+  "operation": "repair"
 }
 {
   "repair": "Copy the first audio stream and 'global metadata' of the stream 0 to a new file.",
@@ -79,7 +85,8 @@
   "justification": "Only audio stream and metadata needs to be migrated.",
   "heading": "Recreate WAV file with single audio stream and metadata",
   "files": [],
-  "softwareTestVersion": "FFmpeg 6.0"
+  "softwareTestVersion": "FFmpeg 6.0",
+  "operation": "repair"
 }
 {
   "@id": "database/application_pdf/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/analysis",
@@ -92,7 +99,8 @@
   "justification": "The file will now be valid, however, you lose all annotations.",
   "heading": "Remove annotations with Ghostscript",
   "files": [],
-  "softwareTestVersion": ""
+  "softwareTestVersion": "",
+  "operation": "repair"
 }
 {
   "@id": "database/normalisation/images/mpo-to-jpeg",
@@ -104,7 +112,8 @@
   "justification": "MPO file format is extension of JPEG for saving multiple images into a same file.",
   "heading": "Migrate MPO file to JPEG format",
   "files": [],
-  "softwareTestVersion": ""
+  "softwareTestVersion": "",
+  "operation": "migration"
 }
 {
   "@id": "database/normalisation/video/mov-to-mkv-ffmpeg",
@@ -125,5 +134,6 @@
     "corpus/file/65487bad-a067-4f22-8077-e65c6a373281",
     "corpus/file/d42caac9-c436-49e1-bcb8-5ee49c1a8f28"
   ],
-  "softwareTestVersion": "FFmpeg 6.0"
+  "softwareTestVersion": "FFmpeg 6.0",
+  "operation": "migration"
 }
