@@ -32,7 +32,7 @@ Classification
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_007_page-tree-wrong-count.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_007_page-tree-wrong-count.pdf>`__
 
 --------
 Analyses

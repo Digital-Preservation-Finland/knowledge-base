@@ -67,32 +67,55 @@ Possible solutions
    :local:
 
 
-Convert file format with ffmpeg
-===============================
+Migrate audio stream from WMA file to WAVE format
+=================================================
 
-Suggestion
-~~~~~~~~~~
+The suggestion
+~~~~~~~~~~~~~~
 
-The problematic WMA file is converted to WAVE format using FFMpeg.
+Migrate WMA file to WAVE format using FFmpeg with default settings.
 
 Effects
 ~~~~~~~
 
-The file format changes to the WAVE format.
+Without other parameters than the input/output arguments FFmpeg selects automatically stream from the input file for migration.
+
+The automatic selection is described in FFmpeg's documentation: https://ffmpeg.org/ffmpeg.html#Automatic-stream-selection
 
 Justification
 ~~~~~~~~~~~~~
 
+The input file has single audio stream.
 
-
-Execution example
+Execution
 ~~~~~~~~~~~~~~~~~
 
-	ffmpeg -i <problematic WMA file> <converted WAV file>
+	``ffmpeg -i <input file>.wma <output file>.wav``
 
-Repaired files
+Tested with: FFmpeg 6.0
+
+Migrated files
 ~~~~~~~~~~~~~~
 
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - audio/x-wav
+     - (:unap)
+     - 
+     - The file is migrated from @id'file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f' using @id'ffmpeg-wma-wav-conversion' with FFmpeg version 6.0.
+     - :ref:`corpus <corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84>`
+   * - audio/x-wav
+     - (:unap)
+     - 
+     - The file is migrated from @id'file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798' using @id'ffmpeg-wma-wav-conversion' with FFmpeg version 6.0
+     - :ref:`corpus <corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0>`
 --------------
 Output example
 --------------

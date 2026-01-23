@@ -8,7 +8,9 @@
     "blake2b": "07799adbe0aad238c937de14b31c6a2b1e588e0e13017bdc513790eea90a3670dab011a4f190f0fae396fe8ac4a4c93c738ceb43fb8413dd68b1648242f8712d"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-excel/invalid_8X_missing_data.xls"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-excel/invalid_8X_missing_data.xls"
+    }
   ],
   "metadata": {
     "0": {

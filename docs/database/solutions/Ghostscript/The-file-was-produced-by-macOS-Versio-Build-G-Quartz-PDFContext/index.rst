@@ -50,11 +50,11 @@ Possible solutions
    :local:
 
 
-Remake with Acrobat Reader
-==========================
+Remake PDF with Acrobat Reader
+==============================
 
-Suggestion
-~~~~~~~~~~
+The suggestion
+~~~~~~~~~~~~~~
 
 Open the file with Acrobat Reader and save it as a new file without any changes to the content.
 
@@ -66,14 +66,16 @@ Effects
 Justification
 ~~~~~~~~~~~~~
 
+Acrobat Reader is a standard implementation for PDF.
 
-
-Execution example
+Execution
 ~~~~~~~~~~~~~~~~~
 
 	
 
-Repaired files
+Tested with: 
+
+Migrated files
 ~~~~~~~~~~~~~~
 
 --------------

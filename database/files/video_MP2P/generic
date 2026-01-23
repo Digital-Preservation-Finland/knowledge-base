@@ -8,7 +8,9 @@
     "blake2b": "ca1cd6bcb5b8db2a4006b619831e49662c82713fbd1dafc9805b325a7e047efadb14f8b8402eb4d52b89bc9ba5cd27b7d4fd27bd312303cccacfb01ecc9ae561"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2P/invalid__mpeg2_ac3.mpg"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2P/invalid__mpeg2_ac3.mpg"
+    }
   ],
   "metadata": {
     "0": {
@@ -72,7 +74,9 @@
     "blake2b": "f90389c039c43593fd0e8be11a710ce780c95beda090797ceeee560e36a7e04126daad6482abff3a75431eb5da1a350857b669d21d8fbe38bb19d5898ddefcab"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2P/valid__mpeg2_mp3.mpg"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_MP2P/valid__mpeg2_mp3.mpg"
+    }
   ],
   "metadata": {
     "0": {

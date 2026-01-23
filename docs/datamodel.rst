@@ -69,7 +69,7 @@ fixable : ['yes', 'no', '']
 3. Repair
 ---------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-11/repair.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-02/repair.schema.ld.json``
 
 A repair solution for an error based on an analysis.
 
@@ -87,7 +87,7 @@ heading : string
 execution : string
     Command execution example for the repair, if there is such.
 
-effects : string
+effects : array of string
     Description of how performing the repair affects data.
 
 justification : string
@@ -95,10 +95,13 @@ justification : string
 
 files : array of string
     Knowledge base file object identifiers that refer to file that were normalised using this solution.
+
+softwareTestVersion : string
+    Software version or versions the method has been tested and the result verified with.
 4. File
 -------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-09/file.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-02/file.schema.ld.json``
 
 Description of a file. File objects describe content from which a problem arises. Although the file may be also valid and have no error object referring to it.
 
@@ -119,8 +122,8 @@ wellFormed : [True, False, None, 'virtual']
 checksum : object
     Checksums of the content in the locations. Two checksums are used to mitigate checksum collisions. The other is faster and the other is more reliable.
 
-location : array of string
-    List of free form descriptions of the file locations to the source. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.
+location : array of object
+    List of objects with a label as the key and a free form description of the source location as the value. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.
 
 
 5. Format

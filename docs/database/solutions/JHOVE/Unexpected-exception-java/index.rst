@@ -32,7 +32,7 @@ Classification
      - A-1b
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResWrongObjectID.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResWrongObjectID.pdf>`__
 
 --------
 Analyses

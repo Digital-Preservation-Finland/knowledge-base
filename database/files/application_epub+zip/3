@@ -8,7 +8,9 @@
     "blake2b": "ceabfd0e1b6783eaa6368f6c427b0d628b02430e87f1563479c4219c32ef98d73f9ea8debd082a036d2c6163651a1459f5f66fa85fad03cbed04ae4105a7c14b"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/invalid_3_mimetype_not_first.epub"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/invalid_3_mimetype_not_first.epub"
+    }
   ],
   "metadata": {
     "0": {
@@ -29,7 +31,9 @@
     "blake2b": "2ec1ec7c6a55e725c8d4de8b60a61b11664aca53b836b4a7fe5ada07dc841e0fde382ffbfe9f2bcc9cff665387179fecbb26a9f19c5de023156abad65a1264c0"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_calibre.epub"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_calibre.epub"
+    }
   ],
   "metadata": {
     "0": {
@@ -50,7 +54,9 @@
     "blake2b": "76bea93f030f21e9b0b293264a8c4e5f5515f2929fb87ef6413a2eb39bedfde526372a6e465869103a155dd591c7cbdeb34f95e7bc482439fd13825d9fb626ab"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_pages.epub"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_pages.epub"
+    }
   ],
   "metadata": {
     "0": {
@@ -71,7 +77,9 @@
     "blake2b": "fa38df90101b1fd9beb749344cb9052226536db92fa7dc94b47cb608366619ba24491c830972064c76ebf01d3f2b52c5d80182e48e8e91681cea3a559159ab7a"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_libreoffice_writer2epub.epub"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/valid_3_libreoffice_writer2epub.epub"
+    }
   ],
   "metadata": {
     "0": {
@@ -92,7 +100,9 @@
     "blake2b": "f774ee07f075d8f721431dc465d7d7921c30a1ac698cf579c9d7516b8626077050b3f742ac5a95e9424d1316176c9f5e40c4007acf3098626022e64c9bda2250"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/invalid_3_libreoffice.epub"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_epub+zip/invalid_3_libreoffice.epub"
+    }
   ],
   "metadata": {
     "0": {

@@ -8,7 +8,9 @@
     "blake2b": "98aeb54295434f4ff0ef2a9074d5407878713106bfffde358d11f0931bfbdbdeef3a2de29b5670c060a025245c7b503ef6011113e4be34e57d364d6b31098f38"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_missing_data.mkv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_missing_data.mkv"
+    }
   ],
   "metadata": {
     "0": {

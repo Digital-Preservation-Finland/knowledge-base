@@ -8,7 +8,9 @@
     "blake2b": "a5aa7be1e3ed83e18656b52a4381e789469407317ab3b20c4ff209f0e986f8da08b635b7fc7b45e1713fc0e78aad29a8eaac2ae03b4c8e3c21ee58e98d8b5808"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_dv/invalid__missing_data.dv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_dv/invalid__missing_data.dv"
+    }
   ],
   "metadata": {
     "0": {
@@ -46,7 +48,9 @@
     "blake2b": "8fde6ff3460efa0b2ba72521aff830639c131c3aacdfb3d662534d699996e6864a1dd0a6ffba623cef7cf7f40805791c71de88f8d938328641c95e325d4d3c93"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_dv/valid__pal_lossy.dv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_dv/valid__pal_lossy.dv"
+    }
   ],
   "metadata": {
     "0": {

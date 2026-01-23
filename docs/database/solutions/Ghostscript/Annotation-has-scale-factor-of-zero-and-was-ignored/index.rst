@@ -53,27 +53,31 @@ Possible solutions
 Remove annotations with Ghostscript
 ===================================
 
-Suggestion
-~~~~~~~~~~
+The suggestion
+~~~~~~~~~~~~~~
 
-Remove the annotations using Ghostscript.
+Remove the annotations using Ghostscript. The process is called refrying (a PDF file).
 
 Effects
 ~~~~~~~
 
 All annotations are removed. Ghostscript will convert the file from PDF to PostScript and back to PDF again. The file may lose other features in the process.
 
+Read more about refrying here: https://www.prepressure.com/pdf/basics/refrying
+
 Justification
 ~~~~~~~~~~~~~
 
 The file will now be valid, however, you lose all annotations.
 
-Execution example
+Execution
 ~~~~~~~~~~~~~~~~~
 
-	gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf
+	``gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf``
 
-Repaired files
+Tested with: 
+
+Migrated files
 ~~~~~~~~~~~~~~
 
 --------------

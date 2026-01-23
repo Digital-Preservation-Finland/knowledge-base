@@ -8,7 +8,9 @@
     "blake2b": "7fd33a03f8565be0131fdaa41463d35c70043938830ff39ecc94707a32888f746cff2dc0250b035e7cca0d14d3e31a8d043de99d5e0d6fa3b615e6d4d0b96e6a"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/jp2k-test/byteCorruption/balloon.jpg"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jp2k-test/byteCorruption/balloon.jpg"
+    }
   ],
   "metadata": {
     "0": {

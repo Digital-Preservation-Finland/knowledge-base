@@ -32,7 +32,7 @@ Classification
      - 1.3
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/balloon_a1b_jp2k.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/balloon_a1b_jp2k.pdf>`__
 
 --------
 Analyses

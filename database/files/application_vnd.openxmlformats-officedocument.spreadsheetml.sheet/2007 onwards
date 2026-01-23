@@ -8,7 +8,9 @@
     "blake2b": "2935ee019a20d5dc2daa5483779241a3295d33ef256e76ea83fe14f0e83c36c00ba02ea8ff9720af05322cc476343c2aebaf1b86129995b0ff5d8c1ffb65cf99"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid_2007%20onwards_corrupted.xlsx"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/invalid_2007%20onwards_corrupted.xlsx"
+    }
   ],
   "metadata": {
     "0": {
@@ -29,7 +31,9 @@
     "blake2b": "f17b00b3c8e4174334eea3538ea69da8a84b8ad028eb63a9a0721f90cdb3a932993f20c7e096f354661423e54e6309b79dc043102e57738f49c03d0a968ab7c7"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/valid_2007%20onwards.xlsx"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/valid_2007%20onwards.xlsx"
+    }
   ],
   "metadata": {
     "0": {

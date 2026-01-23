@@ -8,7 +8,9 @@
     "blake2b": "f6e19a22566e8f287be9aa9b36faebe845e0e55c09176f8839036a04cc36592cb81a7978c981df18d16775aec2a5766b9879a1c2f38aa13380da5d56c12281b2"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/text_only.doc"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/text_only.doc"
+    }
   ],
   "metadata": {
     "0": {
@@ -29,7 +31,9 @@
     "blake2b": "587e8d044e5cb36e37c837f15d83bda402fef6487eaa2b03f854bc27f33f62b038441d98e5150d62c763b510d4789beeb5f234b019e517b7edc6c82cb80a08b2"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/application/msword/lorem-ipsum-pages-09-4.1-923.doc"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/application/msword/lorem-ipsum-pages-09-4.1-923.doc"
+    }
   ],
   "metadata": {
     "0": {
@@ -50,7 +54,9 @@
     "blake2b": "db8efde787e4342029dab5768e58125891dd8cfb6e756437f95400d5ee2fa1e67998f67f62b4e32ca2aaf7a3a819f527d95b8f5317bb91e1d6a8b0d600511c7e"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/application/msword/lorem-ipsum.doc"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/application/msword/lorem-ipsum.doc"
+    }
   ],
   "metadata": {
     "0": {
@@ -71,7 +77,9 @@
     "blake2b": "8b83695961673d19bffdbb5f092af0eac8d63d390a72636cdeb5f18b558bf76f6a3eaa98a42c3843a6e9c09180741417089f910c58f9c67c85be967e24820384"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/embedded_video_quicktime.doc"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/embedded_video_quicktime.doc"
+    }
   ],
   "metadata": {
     "0": {
@@ -92,7 +100,9 @@
     "blake2b": "ab2913cbd5e2987d34dab9e7d743a539f64ba33fd8d0fe4ef477651512066236c3cb4802e90d97746ec929a01dee345331c4d963d09c10b98a498be3504c95cb"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/fileAttachment.doc"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/fileAttachment.doc"
+    }
   ],
   "metadata": {
     "0": {
@@ -113,7 +123,9 @@
     "blake2b": "b631cccf72abf4c59943a73720e564baece542bf139db7a373d98d4b8e58d44897274a2d02070ad00231f8116a955c00263a64cd8bed8e08446ac004d8df4842"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/externalLink.doc"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/externalLink.doc"
+    }
   ],
   "metadata": {
     "0": {
@@ -134,7 +146,9 @@
     "blake2b": "d2b15fafbc36af102ae6d93bfa10582e345a3f041017ea3c63523e5f83af16cdfbcea37356711479ffe0b39ad00369d137196af52de56338700f827d76dff264"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/webCapture.doc"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/webCapture.doc"
+    }
   ],
   "metadata": {
     "0": {
@@ -155,7 +169,9 @@
     "blake2b": "6803c886641148cf22fbecc8d55cb156058611bfff5692851c491bbd9147275947eda56bddd845ad9cfe33462be8b8af576e7f1d4a14c425b8c973a52d612aa6"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_msword/valid_97-2003.doc"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_msword/valid_97-2003.doc"
+    }
   ],
   "metadata": {
     "0": {

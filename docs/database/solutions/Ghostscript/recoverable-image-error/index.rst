@@ -32,22 +32,22 @@ Classification
      - 1.5
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/150277.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/150277.pdf>`__
    * - application/pdf
      - 1.5
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/178360.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/178360.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/492484.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/492484.pdf>`__
    * - application/pdf
      - 1.3
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507676.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507676.pdf>`__
 
 --------
 Analyses

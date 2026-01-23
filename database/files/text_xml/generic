@@ -8,7 +8,9 @@
     "blake2b": "9601dcb297358527a60619c416709b87a391accf0a5df2c640079f6942f1f7b23638654b12ef489214bcbe2ce6d0abb6c202f1a4ca17c2051f2debd9271d7d9f"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_mets_noheader.xml"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_xml/valid_1.0_mets_noheader.xml"
+    }
   ],
   "metadata": {
     "0": {

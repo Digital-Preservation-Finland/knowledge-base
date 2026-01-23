@@ -8,7 +8,9 @@
     "blake2b": "13c2c9f4a68e02f26bb90ca6ebb161bd4cb2fcbbe8e3f82343f4278a5685839df8f9d868fa1a364cefac25fadb74e8f57326444f7b5eb17bd8625076fe15d0d6"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-siard/invalid_2.0_invalid_version.siard"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x-siard/invalid_2.0_invalid_version.siard"
+    }
   ],
   "metadata": {
     "0": {

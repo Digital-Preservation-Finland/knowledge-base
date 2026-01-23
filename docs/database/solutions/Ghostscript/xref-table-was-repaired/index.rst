@@ -32,472 +32,472 @@ Classification
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_003_page-object-no-parent.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_003_page-object-no-parent.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_015_trailer-no-size-key-value-pair.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_015_trailer-no-size-key-value-pair.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_008_entry-offset-too-short.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_008_entry-offset-too-short.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_014_trailer-root-indirect-reference-to-wrong-object.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_014_trailer-root-indirect-reference-to-wrong-object.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_007_page-object-resources-wrong-object.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_007_page-object-resources-wrong-object.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_002_resources-basefont-wrong-font.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_002_resources-basefont-wrong-font.pdf>`__
    * - application/pdf
      - 1.6
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/033689.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/033689.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_007_offset_wrong.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_007_offset_wrong.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/268346.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/268346.pdf>`__
    * - application/pdf
      - 1.3
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/509284.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/509284.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_017_trailer-no-startxref-keyword.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_017_trailer-no-startxref-keyword.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_002_Stream-ET-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_002_Stream-ET-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_005_resources-subtype-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_005_resources-subtype-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_006_font-size-operator-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_006_font-size-operator-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/hello_world.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/hello_world.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_006_resources_subtype_wrong.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_006_resources_subtype_wrong.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_018_position-information-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_018_position-information-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_005_invalid-Font-name-operator.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_005_invalid-Font-name-operator.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_011_paranthesis-substituted-with-brackets.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_011_paranthesis-substituted-with-brackets.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_010_trailer-no-closing-brackets.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_010_trailer-no-closing-brackets.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_003_resources-type-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_003_resources-type-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_001_EOF-not-standalone.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_001_EOF-not-standalone.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_008_Font-set-operator-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_008_Font-set-operator-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_003_EOF-incomplete-EO.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_003_EOF-incomplete-EO.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_016_stream-length-missing-in-dictionary.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_016_stream-length-missing-in-dictionary.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_016_trailer-wrong-size-key-value-pair.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_016_trailer-wrong-size-key-value-pair.pdf>`__
    * - application/pdf
      - 1.3
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/392154.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/392154.pdf>`__
    * - application/pdf
      - 1.3
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/477139.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/477139.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507618.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507618.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_012_page-object-resources-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_012_page-object-resources-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_010_page-object-missing-contents.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_010_page-object-missing-contents.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_005_EOF-followed-by-junk-data.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_005_EOF-followed-by-junk-data.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/corruptionOneByteMissing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/corruptionOneByteMissing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_006_premature-EOF.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_006_premature-EOF.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_009_trailer-no-opening-brackets.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_009_trailer-no-opening-brackets.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/040669.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/040669.pdf>`__
    * - application/pdf
      - 1.5
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/150277.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/150277.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_004_number-of-entries-too-many.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_004_number-of-entries-too-many.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_005_page-object-parent-contains-array.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_005_page-object-parent-contains-array.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_001_Stream-BT-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_001_Stream-BT-missing.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020747.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020747.pdf>`__
    * - application/pdf
      - 1.3
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/427669.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/427669.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_009_page-tree-wrong-type.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_009_page-tree-wrong-type.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_012_text-show-operator-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_012_text-show-operator-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_002_xref-keyword-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_002_xref-keyword-missing.pdf>`__
    * - application/pdf
      - 1.6
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/504076.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/504076.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/050734.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/050734.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_004_Font-name-operator--missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_004_Font-name-operator--missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_013_trailer-root-invalid-indirect-reference.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_013_trailer-root-invalid-indirect-reference.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/027613.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/027613.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_004_page-tree-non-existing-object-as-kid.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_004_page-tree-non-existing-object-as-kid.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_004_EOF-incomplete_EOF.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_004_EOF-incomplete_EOF.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_015_invalid-stream-length-in-dictionary.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_015_invalid-stream-length-in-dictionary.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_012_trailer-root-no-indirect-reference.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_012_trailer-root-no-indirect-reference.pdf>`__
    * - application/pdf
      - A-1b
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResWrongObjectID.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResWrongObjectID.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_004_page-object-wrong-parent.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_004_page-object-wrong-parent.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/303226.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/303226.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_001_resources-basefont-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_001_resources-basefont-missing.pdf>`__
    * - application/pdf
      - 1.3
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/073439.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/073439.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_003_page-tree-different-kids.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_003_page-tree-different-kids.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_007_invalid-font-size-operator.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_007_invalid-font-size-operator.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_005_number-of-entries-too-few.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_005_number-of-entries-too-few.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_007_premature-EOF-only.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_007_premature-EOF-only.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_003_Stream-BT-and-ET-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_003_Stream-BT-and-ET-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_002_page-object-wrong-type.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_002_page-object-wrong-type.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_018_trailer-no-xref-byte-offset.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_018_trailer-no-xref-byte-offset.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_010_Missing_closing_paranthesis.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_010_Missing_closing_paranthesis.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_004_resources-wrong-declaration-type.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_004_resources-wrong-declaration-type.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_001_page-object-no-type.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_001_page-object-no-type.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_002_EOF-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_002_EOF-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_007_page-tree-wrong-count.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_007_page-tree-wrong-count.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/435321.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/435321.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_007_document-catalog-type-key-value-pair-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_007_document-catalog-type-key-value-pair-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_009_Missing_open_paranthesis.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_009_Missing_open_paranthesis.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_003_number-of-entries-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_003_number-of-entries-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_009_invalid-keyword-entry.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_009_invalid-keyword-entry.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/226387.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/226387.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_008_page-object-mediabox-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_008_page-object-mediabox-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_006_offset_missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_006_offset_missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_008_trailer-no-trailer-keyword.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_008_trailer-no-trailer-keyword.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_001_no-cross-reference-table.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_001_no-cross-reference-table.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/492484.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/492484.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_013_stream-keyword-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_013_stream-keyword-missing.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_1/421197.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_1/421197.pdf>`__
    * - application/pdf
      - 1.3
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507676.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507676.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_010_wrong-generation-number.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_010_wrong-generation-number.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020806.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020806.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_011_page-object-wrong-contents-reference.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_011_page-object-wrong-contents-reference.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_002_page-tree-kids-links-recursive.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_002_page-tree-kids-links-recursive.pdf>`__
    * - application/pdf
      - 1.2
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/189478.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/189478.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_006_document-catalog-wrong-type-key.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_006_document-catalog-wrong-type-key.pdf>`__
    * - application/pdf
      - 1.5
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/498264.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/498264.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_006_page-tree-no-type.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_006_page-tree-no-type.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_006_page-object-missing.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_006_page-object-missing.pdf>`__
    * - application/pdf
      - 1.7
      - 

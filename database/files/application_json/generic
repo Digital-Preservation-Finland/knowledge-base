@@ -8,7 +8,9 @@
     "blake2b": "786a02f742015903c6c6fd852552d272912f4740e15847618a86e217f71f5419d25e1031afee585313896444934eb04b903a685b1448b755d56f701afe9be2ce"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__empty.json"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__empty.json"
+    }
   ],
   "metadata": {
     "0": {
@@ -29,7 +31,9 @@
     "blake2b": "edd7124d623f6e2eef4d7951da1a3d717e6d3c1550ffe6225353b541c7a76fa42891526057b6b764a4474f05a1e7ae716c0499a1745bc423ecce9b7749f555b9"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__only_one_root_element.json"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__only_one_root_element.json"
+    }
   ],
   "metadata": {
     "0": {
@@ -50,7 +54,9 @@
     "blake2b": "273e7743fbe48208158046b1e942c08d5ea1808ca3acee4ed0397cb8220a28024b3eefd78e49b0f0d2a59a0fb837422863f79e11da90136f2f36b75f87cd8cce"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__property_needs_doublequotes.json"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__property_needs_doublequotes.json"
+    }
   ],
   "metadata": {
     "0": {
@@ -72,7 +78,9 @@
     "blake2b": "bba3f408e85ee435373d131aac69eea371e0211b91b7717d0c9d825a707defe6e6c309a6d7256a26bc9d45138cf4070a2fd56d82bb924f5fa6275f534255621e"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__single_quotes_are_not_allowed.json"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__single_quotes_are_not_allowed.json"
+    }
   ],
   "metadata": {
     "0": {
@@ -94,7 +102,9 @@
     "blake2b": "b6991fa991f702451be2c6e666dfc0b00bb3748bdf412bfd0c10716ffc3e272f5e246b97398fffe25c97631d8b9beeb114ba0ae66a28fcbbf21d591aeb009b98"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__utf16le_bom.json"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/invalid__utf16le_bom.json"
+    }
   ],
   "metadata": {
     "0": {
@@ -116,7 +126,9 @@
     "blake2b": "9327a492264ecac0806b031b780241d86cabe38348fe49c4c5a610ee584cfbaaefd3fdffd1b1b54c9ee225820433a7f902c688b2e123181a56c73b9cbf9cd13f"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__empty_object.json"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__empty_object.json"
+    }
   ],
   "metadata": {
     "0": {
@@ -138,7 +150,9 @@
     "blake2b": "cd61519b2063398edc66f6ad4318a837a5a757d60f4c653c8d0640310063e15ab4cb04e76b03012b9f18fab13ceb9252a73c3f1d9b1c80bccaa3325c3d32d527"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__.json"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__.json"
+    }
   ],
   "metadata": {
     "0": {
@@ -160,7 +174,9 @@
     "blake2b": "32da6f6d4ed9e3cb0dc55a29faf8fc137234e76e8ed42a25edd6c4ad1251e31fbe1179d938a714d7e298ef81f1f0b90347c6813e382dae3fb574081cdfce430a"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__ugly.json"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_json/valid__ugly.json"
+    }
   ],
   "metadata": {
     "0": {

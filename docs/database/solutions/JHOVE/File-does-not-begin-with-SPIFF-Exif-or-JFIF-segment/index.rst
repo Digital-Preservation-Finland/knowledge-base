@@ -55,11 +55,11 @@ Possible solutions
    :local:
 
 
-Remake with ImageMagick
-=======================
+Remake image with ImageMagick
+=============================
 
-Suggestion
-~~~~~~~~~~
+The suggestion
+~~~~~~~~~~~~~~
 
 If the bits are not completely missing, use ImageMagick. If the bits are missing JHOVE reports 'Expected marker byte 255 ' from JPEG-HUL and in that case 4 bytes can be added starting from position 7 in the file. Otherwise, the file more thoroughly corrupted.
 
@@ -73,12 +73,14 @@ Justification
 
 
 
-Execution example
+Execution
 ~~~~~~~~~~~~~~~~~
 
-	ImageMagick: convert <input> <output>
+	``convert <input file> <output file>``
 
-Repaired files
+Tested with: 
+
+Migrated files
 ~~~~~~~~~~~~~~
 
 --------------

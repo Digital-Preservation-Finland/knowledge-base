@@ -50,30 +50,32 @@ Possible solutions
    :local:
 
 
-Create new file from audio stream
-=================================
+Recreate WAV file with single audio stream and metadata
+=======================================================
 
-Suggestion
-~~~~~~~~~~
+The suggestion
+~~~~~~~~~~~~~~
 
-Copy the streams to a new file.
+Copy the first audio stream and 'global metadata' of the stream 0 to a new file.
 
 Effects
 ~~~~~~~
 
-
+Only the first audio stream in the file is copied from the input file to the output file. Video streams are explicitly excluded with ``-vn`` from the migration.
 
 Justification
 ~~~~~~~~~~~~~
 
+Only audio stream and metadata needs to be migrated.
 
-
-Execution example
+Execution
 ~~~~~~~~~~~~~~~~~
 
-	ffmpeg -i INPUT.WAV -vn -c:a copy -map_metadata 0 OUTPUT.WAV
+	``ffmpeg -i <input file>.WAV -vn -c:a copy -map_metadata 0 <output file>.WAV``
 
-Repaired files
+Tested with: FFmpeg 6.0
+
+Migrated files
 ~~~~~~~~~~~~~~
 
 --------------

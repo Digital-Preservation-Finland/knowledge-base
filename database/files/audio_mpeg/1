@@ -8,7 +8,9 @@
     "blake2b": "8cb7c7651663f086d0b15f288d41af496d8ae3d3091ea9e0844ceb4bd08c3b3ed6dd7b07cddfe6f69cf3767be2ee4a1ad52d465ca66273ac1458edcc1fdcdd14"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_contains_jpeg.mp3"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_contains_jpeg.mp3"
+    }
   ],
   "metadata": {
     "0": {
@@ -56,7 +58,9 @@
     "blake2b": "5fd274660f9d3b0b926a2d37128be8c7287b2ae4b4af5a689f56efa80100a20f037f784c3a2c92c74440bb9077957794d3c9f9ca4c39ef506e1cd235d68231b3"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_wrong_sampling_rate.mp3"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_wrong_sampling_rate.mp3"
+    }
   ],
   "metadata": {
     "0": {
@@ -88,7 +92,9 @@
     "blake2b": "00c54565cfe3ef902e36a8bba501f73b8eeb5fe55b0078ee852a8e9d5bcdaa3983b2233bf1998e60c5ab43282e29d97e8580de63d254e6c7f43c1c5869e1cc47"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_missing_header.mp3"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_1_missing_header.mp3"
+    }
   ],
   "metadata": {
     "0": {
@@ -120,7 +126,9 @@
     "blake2b": "ee1771244654784f1f46b249dc0c51ec1ce30ac997d4d43decaf4d5b0114bd9cbaa7ed48521c48e3efa3eb84f11cd18d56bfa3281df7a22da3db1a1def74a6a4"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_contains_png.mp3"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/invalid_contains_png.mp3"
+    }
   ],
   "metadata": {
     "0": {
@@ -179,7 +187,9 @@
     "blake2b": "405d1e05ac42719e59c77c6e5765a68ef2c8e9d54aaf9b58dcb65ab49f66fe1ea002971bb469203df34d00e9c275fd59f27fd06a092d6b49ec80f86b214fbd4d"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/valid_1.mp3"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_mpeg/valid_1.mp3"
+    }
   ],
   "metadata": {
     "0": {

@@ -8,7 +8,9 @@
     "blake2b": "f2fe27b68ce4f3cacb7e4e921c471c9134fd3f248b8ccc886fc66284d31eefeed411439eee354c24f19892df4dc9597a84b38c54e7320eb36afe36d6a293f16f"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1_lpcm8.mkv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1_lpcm8.mkv"
+    }
   ],
   "metadata": {
     "0": {
@@ -72,7 +74,9 @@
     "blake2b": "d09a9f38c2f5f7859c86d8d3f2e68db65179ff8f725b94bf9a3115d5c490695cea41ef273aa30ca26be2103ec2486ac376bb611280dae7ac88629145cc7a7310"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_aac.mkv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_aac.mkv"
+    }
   ],
   "metadata": {
     "0": {
@@ -136,7 +140,9 @@
     "blake2b": "e1e575e4279ce7bd5cc1b43a85e1efa4da95bade26e455cddc268f061095c8132989dae9887ad72cf02c5b21ae9f35e66cc151f9e8d76cbf08e945867184da15"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_wrong_duration.mkv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_ffv1_wrong_duration.mkv"
+    }
   ],
   "metadata": {
     "0": {
@@ -183,7 +189,9 @@
     "blake2b": "e2cf524f0cb12e20a9218bcc57ff3c05194cb2a41fbd3b7976b6e16fef685f2acfd2ea253d3145f6856682851293d94d325db0064482a4445331b6c455bfe291"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1_flac.mkv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1_flac.mkv"
+    }
   ],
   "metadata": {
     "0": {
@@ -247,7 +255,9 @@
     "blake2b": "4d01cd6fc024f9560c9949c17aa24968d23136e7b64f7c4691206c765aebbf9e089616c267c628495b7a8ba8bbb3a58cb821720793371248282d383084ea917e"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_mp1.mkv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/invalid_4_mp1.mkv"
+    }
   ],
   "metadata": {
     "0": {
@@ -294,7 +304,9 @@
     "blake2b": "ed362ee60c302c23f42ccfcbfa6a5034be943d82a0f38418bfd00e10253abf651cc5febaba670585be5818e34120ae4a0bc47fa2679b378dd8f4ecd71f39fed4"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_h265.mkv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_h265.mkv"
+    }
   ],
   "metadata": {
     "0": {
@@ -341,7 +353,9 @@
     "blake2b": "cce160835f08315aca49fa82437351d11fc563197b34d444ec48f6a3023eacbfeff574fb6601c51cf95f59df5ef373be145ecbd81f16a57b2b6df2a3324466ec"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1.mkv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_x-matroska/valid_4_ffv1.mkv"
+    }
   ],
   "metadata": {
     "0": {
@@ -375,6 +389,402 @@
       "signal_format": "(:unap)",
       "sound": "No",
       "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/b9013803-ea52-4fcc-b8a6-24a9d3357929",
+  "source": "corpus/format/bdd6b168-e38f-4a06-8f51-237e65c38290",
+  "wellFormed": true,
+  "description": "The file is migration from @id'file-scraper/1b17ae63-2f1b-4de5-a6d6-41df3dcde9ab' using @id'database/normalisation/video/mov-to-mkv-ffmpeg' with FFmpeg version 6.0",
+  "checksum": {
+    "md5": "71b5198d682da1184b3b3c5aba4c4f1e",
+    "blake2b": "124c9c0b8eaf359d82406cff7d58a7377384198ca4d792f0de741020d4af165de65b39f2573e40820071f69eb47b132a3a3b02a9fe37a3bc085b73d740e294ac"
+  },
+  "location": [
+    {
+      "corpus": "data/normalised/cinepak_lpcm8.mov.mkv"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-matroska",
+      "stream_type": "videocontainer",
+      "version": "4",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "Matroska"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ffv",
+      "stream_type": "video",
+      "version": "3",
+      "bits_per_sample": "8",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FFV1",
+      "codec_quality": "lossless",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.08S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.422",
+      "sampling": "(:unav)",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "720"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/flac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "FLAC",
+      "bits_per_sample": "16",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FLAC",
+      "codec_quality": "lossless",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.86S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "corpus/file/16ee86b0-44f6-44fb-99e9-b1735b8eb52c",
+  "source": "corpus/format/bdd6b168-e38f-4a06-8f51-237e65c38290",
+  "wellFormed": true,
+  "description": "The file is migration from @id'file-scraper/9627eb87-272c-4ed4-a93a-7b53b4c162be' using @id'database/normalisation/video/mov-to-mkv-ffmpeg' with FFmpeg version 6.0",
+  "checksum": {
+    "md5": "18471dbb645a36a6cf16167929ed721f",
+    "blake2b": "e475fe6e3be5a8cf4a588c65f7147ae1963ac54f5ec78734397d354fcd06ddbd7b714028749997c9290358563d5b0d46f7640e8c10fff25581b0463cdcbe8fb9"
+  },
+  "location": [
+    {
+      "corpus": "data/normalised/prores_lpcm8.mov.mkv"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-matroska",
+      "stream_type": "videocontainer",
+      "version": "4",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "Matroska"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ffv",
+      "stream_type": "video",
+      "version": "3",
+      "bits_per_sample": "10",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FFV1",
+      "codec_quality": "lossless",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.08S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.422",
+      "sampling": "4:2:2",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "720"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/flac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "FLAC",
+      "bits_per_sample": "16",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FLAC",
+      "codec_quality": "lossless",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.86S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "corpus/file/7139179b-8cf7-40bf-8ff0-67e024d74a52",
+  "source": "corpus/format/bdd6b168-e38f-4a06-8f51-237e65c38290",
+  "wellFormed": true,
+  "description": "The file is migration from @id'file-scraper/c71ffb28-c479-4db7-a3c4-ce3abd018996' using @id'database/normalisation/video/mov-to-mkv-ffmpeg' with FFmpeg version 6.0",
+  "checksum": {
+    "md5": "6205828b8f6bcf18b826c389fc055e7d",
+    "blake2b": "763bc56d99c4b0bc82a197ed2c0b03cf4e90db9bf02cf3132a82b938ddfb611f971a76efaf4f171b6ab5b86a9b711ea689eba3e9909e04e2e2f30e82aa19cdc8"
+  },
+  "location": [
+    {
+      "corpus": "data/normalised/dv_lpcm8.mov.mkv"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-matroska",
+      "stream_type": "videocontainer",
+      "version": "4",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "Matroska"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ffv",
+      "stream_type": "video",
+      "version": "3",
+      "bits_per_sample": "8",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FFV1",
+      "codec_quality": "lossless",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.08S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.422",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "720"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/flac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "FLAC",
+      "bits_per_sample": "16",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FLAC",
+      "codec_quality": "lossless",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.86S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "corpus/file/b889a784-357d-475e-9890-6d2e01aad6ac",
+  "source": "corpus/format/bdd6b168-e38f-4a06-8f51-237e65c38290",
+  "wellFormed": true,
+  "description": "The file is migration from @id'file-scraper/59cd9213-cd79-44df-9314-10f43907ce3f' using @id'database/normalisation/video/mov-to-mkv-ffmpeg' with FFmpeg version 6.0",
+  "checksum": {
+    "md5": "473c7ca93360a1be73a7ad0f32f84d47",
+    "blake2b": "8f366e00ba77e0826d073a585fad0024d8152a26d0c84dbe70c219b9ace4bcacdaaa2ce8eab8fadbcbaade97ad754577909525cda1fbd80ee525815440fae0b2"
+  },
+  "location": [
+    {
+      "corpus": "data/normalised/h264_aac.mov.mkv"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-matroska",
+      "stream_type": "videocontainer",
+      "version": "4",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "Matroska"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ffv",
+      "stream_type": "video",
+      "version": "3",
+      "bits_per_sample": "8",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FFV1",
+      "codec_quality": "lossless",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.08S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.422",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "720"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/flac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "FLAC",
+      "bits_per_sample": "24",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FLAC",
+      "codec_quality": "lossless",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.86S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "corpus/file/65487bad-a067-4f22-8077-e65c6a373281",
+  "source": "corpus/format/bdd6b168-e38f-4a06-8f51-237e65c38290",
+  "wellFormed": true,
+  "description": "The file is migration from @id'file-scraper/efe3e824-8a13-4a24-8b07-4145d814c4a1' using @id'database/normalisation/video/mov-to-mkv-ffmpeg' with FFmpeg version 6.0",
+  "checksum": {
+    "md5": "350a27600813f10a1492c46689e7fce4",
+    "blake2b": "5d5881930c0c5fb695990c112aea72b6632292f8e8e2253841876d1eda8b589f90ed6b6437412458b95642e129bf827e4a62e7fa5fa5d2ed23bab29a8c796803"
+  },
+  "location": [
+    {
+      "corpus": "data/normalised/h264_aac_no_ftyp_atom.mov.mkv"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-matroska",
+      "stream_type": "videocontainer",
+      "version": "4",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "Matroska"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ffv",
+      "stream_type": "video",
+      "version": "3",
+      "bits_per_sample": "8",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FFV1",
+      "codec_quality": "lossless",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.08S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.422",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "720"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/flac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "FLAC",
+      "bits_per_sample": "24",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FLAC",
+      "codec_quality": "lossless",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.86S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "corpus/file/d42caac9-c436-49e1-bcb8-5ee49c1a8f28",
+  "source": "corpus/format/bdd6b168-e38f-4a06-8f51-237e65c38290",
+  "wellFormed": true,
+  "description": "The file is migration from @id'file-scraper/f206dae7-049c-4c9b-abae-e8d671f10ead' using @id'database/normalisation/video/mov-to-mkv-ffmpeg' with FFmpeg version 6.0",
+  "checksum": {
+    "md5": "ec740725c6f15a127fd8cee1bafde36d",
+    "blake2b": "361f21ee19657e79f0378178846464d8be60a599533b1d2b7f47246e93ba5abd5fe8362a16688496fd6a70e2c5bb82cd5eeacc2cdfbc45632e98ffddacff36a0"
+  },
+  "location": [
+    {
+      "corpus": "data/normalised/h265_aac.mov.mkv"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/x-matroska",
+      "stream_type": "videocontainer",
+      "version": "4",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "Matroska"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x-ffv",
+      "stream_type": "video",
+      "version": "3",
+      "bits_per_sample": "8",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FFV1",
+      "codec_quality": "lossless",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "30",
+      "height": "180",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "Yes",
+      "width": "320"
+    },
+    "2": {
+      "index": 2,
+      "mimetype": "audio/flac",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "FLAC",
+      "bits_per_sample": "24",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "FLAC",
+      "codec_quality": "lossless",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Variable",
+      "duration": "PT0.88S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
     }
   }
 }

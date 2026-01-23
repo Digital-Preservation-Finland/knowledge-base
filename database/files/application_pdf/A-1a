@@ -8,7 +8,9 @@
     "blake2b": "00d85812bd21413699d53fcdb6ce2d9fe493352f1e2aa67aee342d901e9f3a88f758b0520764d933d7409f8802b0ca3d21537065ffa25bba93d662fbf89e277a"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-PDFA-1a.pdf"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-PDFA-1a.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -29,7 +31,9 @@
     "blake2b": "8796bde8019834c9fff4fc0667106ce1553793fac0ff5b0fa55f780f83723f20c8b313a70e5248aff3a243830e6a0bb7793e1b5523a84de386b05aa4fbf42dd1"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/application/pdf/lorem-ipsum.oo3.2.export-pdfa.pdf"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/application/pdf/lorem-ipsum.oo3.2.export-pdfa.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -50,7 +54,9 @@
     "blake2b": "03b36369bd3074cc134d6829d2b6c42f68da60613c62d80d40038ec37b0b65f22818abe3739e8e93a64b5ac0749f0e6d99a7bdd60a88e998430e49fdc347f0a2"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/embeds/embedded-lucinda-sans-PDFA-1a.pdf"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/embeds/embedded-lucinda-sans-PDFA-1a.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -71,7 +77,9 @@
     "blake2b": "5594aca41ccf5d6a10db697766bc44ece59d6109194d0daf3ecfa46457eacb414479f91fdd09fbb1bc1a860f7c1ae4f1d413c9da3f994fa1c55cc4202d499d86"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a.pdf"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -92,7 +100,9 @@
     "blake2b": "e9300d3923092d74c81b96814fe9095f8ca78e60aec17da9268c9a5f14885e626e6cca43e0128f0cbc902eee46b09d646ca8390f8089c10f5d18cb7169690bfd"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_root_1.6.pdf"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_root_1.6.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -113,7 +123,9 @@
     "blake2b": "bac75f7f5fcb542a1d3018c79a8edac3daa1f7401c25a51970da97a12e81955dcdb5b74a0d9922f30418873d5b918efb0a41e285ece1f5c57e489d1540c84194"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-1a_wrong_version.pdf"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/invalid_A-1a_wrong_version.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -134,7 +146,9 @@
     "blake2b": "9e8e4bd49ce9c62e8e4a8a971b2018920337cc2c845f4fba516d25f5b654c50b2a412460395c7f049d86e5c7f6019e34b4bebf9e32e3abb347cd846342985236"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_invalid_resource_name.pdf"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_invalid_resource_name.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -155,7 +169,9 @@
     "blake2b": "cb0d1a2a35b93f384147d1d7906b2bbf31f668e505be2ff8332eae7770f829ee1c0a81f2300540a162920609521fad50b49f2c4e6f8e0f9705b4518f44d853ae"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_root_1.7.pdf"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1a_root_1.7.pdf"
+    }
   ],
   "metadata": {
     "0": {

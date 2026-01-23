@@ -32,27 +32,27 @@ Classification
      - 1.3
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/392154.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/392154.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - Govdocs1 set
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_1/421197.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_1/421197.pdf>`__
    * - application/pdf
      - 1.7
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/webCapture.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/webCapture.pdf>`__
    * - application/pdf
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_002_page-tree-kids-links-recursive.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_002_page-tree-kids-links-recursive.pdf>`__
    * - application/pdf
      - 1.7
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/digitally_signed_3D_Portfolio.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/digitally_signed_3D_Portfolio.pdf>`__
 
 --------
 Analyses

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://digitalpreservation.fi/schemas/2025-09/file.schema.ld.json",
+  "$id": "http://digitalpreservation.fi/schemas/2026-02/file.schema.ld.json",
   "title": "File object",
   "description": "Description of a file. File objects describe content from which a problem arises. Although the file may be also valid and have no error object referring to it.",
   "type": "object",
@@ -50,10 +50,17 @@
       }
     },
     "location": {
-      "description": "List of free form descriptions of the file locations to the source. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.",
+      "description": "List of objects with a label as the key and a free form description of the source location as the value. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.",
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "object",
+        "additionalProperties": false,
+        "patternProperties": {
+          "([a-zA-Z-]){3,30}": {
+            "type": "string",
+            "description": "Location such as path or URL, for example."
+          }
+        }
       }
     },
     "metadata": {

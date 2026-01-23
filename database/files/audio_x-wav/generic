@@ -8,7 +8,9 @@
     "blake2b": "238accdb7cd5535ca17394caad1cf1cb4238c53e40eb71d74c0bdfde92679a9cabd93641f02f5b6903c9efe67bed53a9808cef4e83140a7787cc0ea15c72ca38"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav"
+    }
   ],
   "metadata": {
     "0": {
@@ -40,7 +42,9 @@
     "blake2b": "a6312759db70bd78ce1ffeeb782afeaf3595fc5308db259d0265ad4e5f4c6adc8976e80424e6d4e92faf2a1514844b36f23f9b780415e0470bc2d3caec04d6cc"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid_2_bwf_data_bytes_missing.wav"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid_2_bwf_data_bytes_missing.wav"
+    }
   ],
   "metadata": {
     "0": {
@@ -61,7 +65,9 @@
     "blake2b": "a0c63e71e1447bd6bbea20648e7c61c1660ca5069684f4505dc62c8942185e7196b79119649636dc9788dafed02e9ace6a7e1997826774eff3c0bb8ae88b15e6"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__data_bytes_missing.wav"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__data_bytes_missing.wav"
+    }
   ],
   "metadata": {
     "0": {
@@ -82,7 +88,9 @@
     "blake2b": "c81be6e0c2cfac9c1aba6f5c87e9818e75c948bb49fbd38ffd7524e8ad3eaae882171e9d1f468f19ccfbeb826a0ac81b07146d40810beaed3542b0614c56b9ed"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__RIFF_edited.wav"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__RIFF_edited.wav"
+    }
   ],
   "metadata": {
     "0": {
@@ -103,7 +111,9 @@
     "blake2b": "8338bbddff264fba30f3a43d6ad9c71193905d6eb20864a97e37b2b0956d15cd1fca424be6619eb2a2f68f4a95837c81e064d56721614db74977ce8d0efae9eb"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/valid__wav.wav"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/valid__wav.wav"
+    }
   ],
   "metadata": {
     "0": {
@@ -135,7 +145,9 @@
     "blake2b": "32aef1c0bc57f9d221f5d2c3af35342f61165a693710295319d4f29809a814a355680c66b31cc280375e274791f911a83118f8ee4e62b88ad3d3d74d9aeeb04a"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__pcm_alaw_format.wav"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_x-wav/invalid__pcm_alaw_format.wav"
+    }
   ],
   "metadata": {
     "0": {
@@ -154,6 +166,74 @@
       "duration": "PT0.86S",
       "num_channels": "2",
       "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84",
+  "source": "corpus/format/bccb0fca-8c47-4c5c-be66-edf3e21e1032",
+  "wellFormed": true,
+  "description": "The file is migrated from @id'file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f' using @id'ffmpeg-wma-wav-conversion' with FFmpeg version 6.0.",
+  "checksum": {
+    "md5": "964fdc26e7be6339452a3c3cbd0042a6",
+    "blake2b": "99044782e66685d65b14446f841e8c82a0b2df0006b3b7755ef191f1f7122394778e6361974c2e220db2d4fc9f7dd609f1c0723e6965486a97ed83ee395c746b"
+  },
+  "location": [
+    {
+      "corpus": "data/normalised/wma7.wma.wav"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "audio/x-wav",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "PCM",
+      "bits_per_sample": "16",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "PCM",
+      "codec_quality": "lossless",
+      "data_rate": "1411.2",
+      "data_rate_mode": "Fixed",
+      "duration": "PT0.84S",
+      "num_channels": "2",
+      "sampling_frequency": "44.1"
+    }
+  }
+}
+{
+  "@id": "corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0",
+  "source": "corpus/format/bccb0fca-8c47-4c5c-be66-edf3e21e1032",
+  "wellFormed": true,
+  "description": "The file is migrated from @id'file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798' using @id'ffmpeg-wma-wav-conversion' with FFmpeg version 6.0",
+  "checksum": {
+    "md5": "c4dc63d6e134b15e4a7d99cadfd13cd7",
+    "blake2b": "913d2bd0f4146ffba1e5fe68ddc1573d29d8b90bd5bb394a21617bc18fddeb08aeb5381e081f006e437711a0faa5e2a53f5e2d46c4c1f3d258949a31986d30b7"
+  },
+  "location": [
+    {
+      "corpus": "data/normalised/wma9.wma.wav"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "audio/x-wav",
+      "stream_type": "audio",
+      "version": "(:unap)",
+      "audio_data_encoding": "PCM",
+      "bits_per_sample": "16",
+      "codec_creator_app": "Lavf60.3.100",
+      "codec_creator_app_version": "60.3.100",
+      "codec_name": "PCM",
+      "codec_quality": "lossless",
+      "data_rate": "1536",
+      "data_rate_mode": "Fixed",
+      "duration": "PT0.85S",
+      "num_channels": "2",
+      "sampling_frequency": "48"
     }
   }
 }

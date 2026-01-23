@@ -8,7 +8,9 @@
     "blake2b": "a45764756c1d390da3832d988e1d2b4d30f81600c53d293535e4ab2b20bb2e55de8feef4016e830456c785cae5d14a21d63b33c4be20330dd0fce14a99b0b863"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_ac3/invalid__bit_level_format.ac3"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_ac3/invalid__bit_level_format.ac3"
+    }
   ],
   "metadata": {
     "0": {

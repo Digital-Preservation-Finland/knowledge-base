@@ -32,7 +32,7 @@ Classification
      - 1.4
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_006_document-catalog-wrong-type-key.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_006_document-catalog-wrong-type-key.pdf>`__
 
 --------
 Analyses

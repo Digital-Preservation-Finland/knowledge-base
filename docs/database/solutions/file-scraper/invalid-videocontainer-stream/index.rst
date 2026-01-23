@@ -55,30 +55,32 @@ Possible solutions
    :local:
 
 
-New file from audio stream with ffmpeg
+Remove album cover image from MP3 file
 ======================================
 
-Suggestion
-~~~~~~~~~~
+The suggestion
+~~~~~~~~~~~~~~
 
-Remove the container stream by using FFMPEG.
+Migrate only audio streams from an MP3 file to remove an attached image and related video container stream.
 
 Effects
 ~~~~~~~
 
-
+Image and videocontainer streams are stripped from the output file. Only (all) audio streams are migrated to the output file.
 
 Justification
 ~~~~~~~~~~~~~
 
+MP3 files contain primarily audio.
 
-
-Execution example
+Execution
 ~~~~~~~~~~~~~~~~~
 
-	ffmpeg -i <input>.mp3 -c:a copy -map 0 <output>.mp3
+	``ffmpeg -i <input file>.mp3 -c:a copy -map 0 <output file>.mp3``
 
-Repaired files
+Tested with: FFmpeg 6.0
+
+Migrated files
 ~~~~~~~~~~~~~~
 
 --------------

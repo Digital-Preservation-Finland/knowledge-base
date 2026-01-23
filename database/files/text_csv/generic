@@ -8,7 +8,9 @@
     "blake2b": "419f584c13b7bf1e406a11de9881520697c6d2657bcee19e7e647c28779f061f20ecd75ecae61751365f2a182ff3f90193bb81b324c5b503dc437cf679ff9653"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__utf8_header.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__utf8_header.csv"
+    }
   ],
   "metadata": {
     "0": {
@@ -40,7 +42,9 @@
     "blake2b": "25fa0c9564f4571e2c6b20a7a78b994472d1b853b31c7925c798296537d0edb8699e5c0d109b0b59e2be1f8deb069938aecaaf372506a3c0e548207562556a9f"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__ascii.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__ascii.csv"
+    }
   ],
   "metadata": {
     "0": {
@@ -72,7 +76,9 @@
     "blake2b": "6df79381baa5f9864c2b969b87808d5a001c11cb76c9a8411968017611b7a8f750718c5bf1f7f0832045327a343d850d0e008ac672e852777627a70e18b890c2"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__iso8859-15.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__iso8859-15.csv"
+    }
   ],
   "metadata": {
     "0": {
@@ -104,7 +110,9 @@
     "blake2b": "942726f3a9c1c57e28ed6c19dd5017b2a760ede7968d7f5de08fe40cf10a8fd0e752d8a69e19d8870e9a8ee14b2dadbde295c4f22d2d2415235082f73c779509"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__header_only.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__header_only.csv"
+    }
   ],
   "metadata": {
     "0": {
@@ -126,7 +134,9 @@
     "blake2b": "c3aebbc9ee4400681d03cc6862fc25f04ddbe100ba15569b650e1bd53fa4c2b3223a4c76a7228648374d33f275141486a267aa731a168e17819461fcba5af5e5"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__ascii_header.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__ascii_header.csv"
+    }
   ],
   "metadata": {
     "0": {
@@ -158,7 +168,9 @@
     "blake2b": "730d1cd1e1b4fa862d535cfedfc6e2b5a57564f0f55489dfa761a281b9d1d6b6698a3db17de25dc9014829a0b6cccf287e4ea7e8704e298932011b8a79f977af"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__utf8.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__utf8.csv"
+    }
   ],
   "metadata": {
     "0": {
@@ -190,7 +202,9 @@
     "blake2b": "67ccb6486b2f9e29162f20c4c3ce68141be8199c64cd34a10f165e2cf8986a21d6be5201cbe6c475c903b72f8b0fa6f8947a23984a14d459807044fe7d712a4b"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/invalid__missing_end_quote.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/invalid__missing_end_quote.csv"
+    }
   ],
   "metadata": {
     "0": {
@@ -222,7 +236,9 @@
     "blake2b": "7b30330ed7708a8ec53391e657b53a87908f2d302af564d5be7937c508b757a7d5b7b42282739460583e7193881baf3525d095e1dee08b2a383873a1d8279743"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__iso8859-15_header.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__iso8859-15_header.csv"
+    }
   ],
   "metadata": {
     "0": {
@@ -254,7 +270,9 @@
     "blake2b": "b9671da27a5ec9e0d3da09f772030044b3c29e48b402dfeb7f6a449b64d60144bc2a6bb84de503430c1cfab8427c29c18855693a3c7ae9ed8a6fca86eff465b6"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__quotechar.csv"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/text_csv/valid__quotechar.csv"
+    }
   ],
   "metadata": {
     "0": {

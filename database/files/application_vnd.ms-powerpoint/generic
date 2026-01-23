@@ -8,7 +8,9 @@
     "blake2b": "02fb74141f9ca6d3ac5a5c35ae3d8210f44d6633a2271466af15c00121dd3f5e1e60bf444eb4ee6a747ea2b768ccc6311afe46b50e9a57f556ea37a7fe01ac1c"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-powerpoint/invalid_97-2003_missing_data.ppt"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.ms-powerpoint/invalid_97-2003_missing_data.ppt"
+    }
   ],
   "metadata": {
     "0": {

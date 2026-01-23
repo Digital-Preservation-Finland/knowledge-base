@@ -8,7 +8,9 @@
     "blake2b": "b0c87733c15af9bf5dfbe88ae67c12e76ea107b133571bd0714af64799935c99e618d43499271ff3f3d05bf9cd058662486af32c9ee9b884285cde6cf73539cd"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/NANETH_8bpp_grayscale/grayscale_8bpp_wrong_bpptag.tif"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/NANETH_8bpp_grayscale/grayscale_8bpp_wrong_bpptag.tif"
+    }
   ],
   "metadata": {
     "0": {
@@ -36,7 +38,9 @@
     "blake2b": "a33481bca8ad61ee4d33aad875a8bf3c13122371b109d9a8da8eb6dbb707849dd95e4407b809ac1739f9c51a0aa6454085e2915c460397ea20a729b6f6ee387f"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/jp2k-test/icc/balloon_eciRGBv2.tif"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jp2k-test/icc/balloon_eciRGBv2.tif"
+    }
   ],
   "metadata": {
     "0": {
@@ -66,7 +70,9 @@
     "blake2b": "fd32156af0d621f39d2f24eeb976aa77412e91325c94e5b43accd74dae21265144b3101559ead936b8fe7b88b3075c1b1820778a90b7ba80954fd1cb3a5cc31f"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/old-style-jpeg-compression/old-style-jpeg-compression.tif"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/old-style-jpeg-compression/old-style-jpeg-compression.tif"
+    }
   ],
   "metadata": {
     "0": {
@@ -96,7 +102,9 @@
     "blake2b": "5c57fca4548ed30d7abf214fcd8e874a1015e6314010944ee1db5fb2961006ee7678104c313073ee6b54125f95ab2fb0e7829e10e5ba2b0121831ff581b2d72c"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/invalid_6.0_payload_altered.tif"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/invalid_6.0_payload_altered.tif"
+    }
   ],
   "metadata": {
     "0": {
@@ -117,7 +125,9 @@
     "blake2b": "ce09330f6a5f635c376f8999c6f6008f6d0a83a5c6d8ba53ad58f6264d907661fa0641bb14f28ee206111c01241207845768c083793e7dc48c5f8b756686ab2f"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/jp2k-test/resolution/balloon.tif"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jp2k-test/resolution/balloon.tif"
+    }
   ],
   "metadata": {
     "0": {
@@ -147,7 +157,9 @@
     "blake2b": "9f52247743c4ac410cd8ab834fbba105a2c22c1ee717d7ef221b6f335c0a504f39f3efb48a212900e92b9bcbef6943fd534c8eb7afeeb409d198cf590d0c5f25"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_multiple_pages_and_modes.tif"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_multiple_pages_and_modes.tif"
+    }
   ],
   "metadata": {
     "0": {
@@ -222,7 +234,9 @@
     "blake2b": "40158033b3545360cf7d6724b714eb7044314437434e453f8fdbf07ec112eec78cb8a70043a346c3d30c8136a8f6f45237e7ffa574b9a3df22845d3d757df440"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_multiple_tiffs.tif"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_multiple_tiffs.tif"
+    }
   ],
   "metadata": {
     "0": {
@@ -282,7 +296,9 @@
     "blake2b": "a162189aaf8d5e5f62ad6b54eb915be237a3f3babfc124820d3773086caa539bcb0dc761c8632fd2a2e8a67005cee34795b0ef75e05e8be545e2b478c28b1720"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_latin1_exif_field.tif"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0_latin1_exif_field.tif"
+    }
   ],
   "metadata": {
     "0": {
@@ -312,7 +328,9 @@
     "blake2b": "91a8d1b13615fc0f5e8622271869372a7167c9ff077709c1a0bf24a874b433f7de82dd675e85e0227fa767e1ae1f2cdc5309129783c10311252d3e2efb7eab33"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0.tif"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/valid_6.0.tif"
+    }
   ],
   "metadata": {
     "0": {

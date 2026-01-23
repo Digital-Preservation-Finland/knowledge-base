@@ -32,7 +32,7 @@ Classification
      - 6.0
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/old-style-jpeg-compression/old-style-jpeg-compression.tif>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/old-style-jpeg-compression/old-style-jpeg-compression.tif>`__
 
 --------
 Analyses

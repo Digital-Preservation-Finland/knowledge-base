@@ -11,6 +11,7 @@ Welcome to Knowledge base for file format validation errors's documentation!
 
    toc-validator
    toc-mime
+   repairs
    corpus
    datamodel
 

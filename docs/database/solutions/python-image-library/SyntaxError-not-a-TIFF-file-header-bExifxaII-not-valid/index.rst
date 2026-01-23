@@ -55,11 +55,11 @@ Possible solutions
    :local:
 
 
-Open and save as a new file
-===========================
+View and save as new file
+=========================
 
-Suggestion
-~~~~~~~~~~
+The suggestion
+~~~~~~~~~~~~~~
 
 Open the file in an image processing software and save it again in the same file format
 
@@ -73,12 +73,14 @@ Justification
 
 
 
-Execution example
+Execution
 ~~~~~~~~~~~~~~~~~
 
 	
 
-Repaired files
+Tested with: 
+
+Migrated files
 ~~~~~~~~~~~~~~
 
 --------------

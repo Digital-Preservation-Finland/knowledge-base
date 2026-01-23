@@ -8,7 +8,9 @@
     "blake2b": "a5b392fcee2ee5bf61faa6aa2abc28fa5f9572b5d8b8c5f4a0dd07177a7c323233858103c825230acfa4d632c4be418eac12182b349ae1619fdbb2bde7a7b6bf"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/valid__flac.flac"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/valid__flac.flac"
+    }
   ],
   "metadata": {
     "0": {
@@ -40,7 +42,9 @@
     "blake2b": "aa5803415aac39f8a9a029dfd899f5c3b105d4c7b0ada0b632acf0aba5ec769ffd092a55eff0c4d10d69eb72e2c850e1b3594afdfa7836ee056db3b2081c18b3"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__bytes_missing.flac"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__bytes_missing.flac"
+    }
   ],
   "metadata": {
     "0": {
@@ -72,7 +76,9 @@
     "blake2b": "ed663032dcf3b74fa920a43f785f088de12a1150e32443eb2428b4de2c4a496488489f8052bbcc29f00c5f594c70ee876d3ddffd7fd16fc0ed45c6b917f0fb06"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__header_edited.flac"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/audio_flac/invalid__header_edited.flac"
+    }
   ],
   "metadata": {
     "0": {

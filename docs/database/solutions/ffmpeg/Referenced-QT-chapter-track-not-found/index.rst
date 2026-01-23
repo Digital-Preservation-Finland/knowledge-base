@@ -55,30 +55,34 @@ Possible solutions
    :local:
 
 
-Create new file from audio and video streams
-============================================
+Recreate file with automatically selected audio and video streams
+=================================================================
 
-Suggestion
-~~~~~~~~~~
+The suggestion
+~~~~~~~~~~~~~~
 
-Migrate the streams to a new copy.
+Copy automatically selected audio and video streams and copy 'global metadata' to the new file.
 
 Effects
 ~~~~~~~
 
+The selected audio and video streams are copied along with top-level metadata (``-map_metadata 0``) to the output file.
 
+The automatic selection principles are described in FFmpeg's documentation: https://ffmpeg.org/ffmpeg.html#Automatic-stream-selection
 
 Justification
 ~~~~~~~~~~~~~
 
+The file contains single audio and video streams.
 
-
-Execution example
+Execution
 ~~~~~~~~~~~~~~~~~
 
-	ffmpeg -i INPUT.MOV -c:v copy -c:a copy -map_metadata 0 OUTPUT.MOV
+	``ffmpeg -i <input file>.MOV -c:v copy -c:a copy -map_metadata 0 <output file>.MOV``
 
-Repaired files
+Tested with: FFmpeg 6.0
+
+Migrated files
 ~~~~~~~~~~~~~~
 
 --------------

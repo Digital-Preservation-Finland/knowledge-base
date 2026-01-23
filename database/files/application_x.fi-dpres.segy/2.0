@@ -8,7 +8,9 @@
     "blake2b": "2dfb59db4bbc3aa1283be4189375452dff034eb72f35e6c1587c60ce2be2394da5c8ce1f0e927f76caa44e360d00e46f3be191a5aca5cadc7d3727af051e33df"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid_2.0_ascii_header.sgy"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid_2.0_ascii_header.sgy"
+    }
   ],
   "metadata": {
     "0": {
@@ -29,7 +31,9 @@
     "blake2b": "72bc0a337c7cdad86dec8fd26f860c744b6e4626852684a5a41ee29a971647c0268943cdb2f01e4e97d628ce673fbbc4b953b2b60c2db6094f6b8daf479ff406"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid_2.0_ebcdic_header.sgy"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_x.fi-dpres.segy/invalid_2.0_ebcdic_header.sgy"
+    }
   ],
   "metadata": {
     "0": {

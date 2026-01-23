@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://digitalpreservation.fi/schemas/2025-11/repair.schema.ld.json",
+  "$id": "http://digitalpreservation.fi/schemas/2026-02/repair.schema.ld.json",
   "title": "Repair",
   "description": "A repair solution for an error based on an analysis.",
   "type": "object",
@@ -10,7 +10,9 @@
     "execution",
     "effects",
     "justification",
-    "heading"
+    "heading",
+    "files",
+    "softwareTestVersion"
   ],
   "additionalProperties": false,
   "properties": {
@@ -32,7 +34,11 @@
     },
     "effects": {
       "description": "Description of how performing the repair affects data.",
-      "type": "string"
+      "type": "array",
+      "items": {
+        "description": "Paragraph of effects",
+        "type": "string"
+      }
     },
     "justification": {
       "description": "Rationale for accepting the repair.",
@@ -44,6 +50,10 @@
       "items": {
         "type": "string"
       }
+    },
+    "softwareTestVersion": {
+      "description": "Software version or versions the method has been tested and the result verified with.",
+      "type": "string"
     }
   },
   "index": [

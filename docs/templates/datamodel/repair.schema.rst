@@ -19,7 +19,7 @@ heading : {properties[heading][type]}
 execution : {properties[execution][type]}
     {properties[execution][description]}
 
-effects : {properties[effects][type]}
+effects : {properties[effects][type]} of {properties[effects][items][type]}
     {properties[effects][description]}
 
 justification : {properties[justification][type]}
@@ -27,3 +27,6 @@ justification : {properties[justification][type]}
 
 files : {properties[files][type]} of {properties[files][items][type]}
     {properties[files][description]}
+
+softwareTestVersion : {properties[softwareTestVersion][type]}
+    {properties[softwareTestVersion][description]}

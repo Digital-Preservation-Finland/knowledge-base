@@ -8,7 +8,9 @@
     "blake2b": "31c338046a9a0246d76cfccc16f5713d9d19a5bab935671402befb4994aec80b2789c9c864a1e44784e33f79032003cce145dd848b97b6fcb0ee8bf595066f6d"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid_1.2_missing_data.ods"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_vnd.oasis.opendocument.spreadsheet/invalid_1.2_missing_data.ods"
+    }
   ],
   "metadata": {
     "0": {

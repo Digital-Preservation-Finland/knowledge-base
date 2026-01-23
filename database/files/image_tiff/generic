@@ -8,7 +8,9 @@
     "blake2b": "6164193c56834a9e7ac50d300448ea5b45b631b8c3c64f65361ffb4b9b5e5e15505983226c23cfdab7bd265666175704bfc8e7504b8f567e314a5f83ea68ed57"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/invalid_6.0_wrong_byte_order.tif"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_tiff/invalid_6.0_wrong_byte_order.tif"
+    }
   ],
   "metadata": {
     "0": {

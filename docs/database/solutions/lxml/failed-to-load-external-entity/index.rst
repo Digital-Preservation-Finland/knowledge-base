@@ -32,27 +32,27 @@ Classification
      - 1.0
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-open-nocopy-password.pdf.jhove.xml>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-open-nocopy-password.pdf.jhove.xml>`__
    * - text/xml
      - 1.0
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-open-password.pdf.jhove.xml>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-open-password.pdf.jhove.xml>`__
    * - text/xml
      - 1.0
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple.pdf.jhove.xml>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple.pdf.jhove.xml>`__
    * - text/xml
      - 1.0
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/knowledge-management/Mind Manager/COPAC.UKNUC.xml>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/knowledge-management/Mind Manager/COPAC.UKNUC.xml>`__
    * - text/xml
      - 1.0
      - 
      - 
-     - `OPF format-corpus <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-password-nocopy.pdf.jhove.xml>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-password-nocopy.pdf.jhove.xml>`__
    * - text/xml
      - 1.0
      - 

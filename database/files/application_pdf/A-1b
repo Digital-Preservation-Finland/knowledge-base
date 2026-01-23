@@ -8,7 +8,9 @@
     "blake2b": "96c43e1c1f4929291b00354dd619c800dc4877219e2a1b69cd6c2cbf7892382f4759f464f618c8922e2b1c0a423f0a5ca16373bcb046784ef34cf998437a5223"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiRes.pdf"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiRes.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -29,7 +31,9 @@
     "blake2b": "8c6ea0b6b1a144035813f4d0601d068dedc7e0bdaecd94440729938d0dae2e5c3a8730961d13058f6e5148b822bc8087b457c4f0803cdd3172c60b1fb7a2239e"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResChangedHeight.pdf"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResChangedHeight.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -50,7 +54,9 @@
     "blake2b": "653d6412faf139144c829e5c376cca310ffa8380a8da8fdb85c3a471c92ce2f32213a4e6afad9633f5906cf3356956ef53f3a0812d59ab3ee92aa5e757bda7f1"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResWrongObjectID.pdf"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResWrongObjectID.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -71,7 +77,9 @@
     "blake2b": "263636a851cb746d4fad08f88418489d05cb1ec7325e2bfb93db5af88864d3967e9757ecd3652ea2d2741b778554da2525565facfc89a7c2ec333bb167fa2c61"
   },
   "location": [
-    "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/text_only_pdfa1b.pdf"
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/text_only_pdfa1b.pdf"
+    }
   ],
   "metadata": {
     "0": {
@@ -92,7 +100,9 @@
     "blake2b": "8fa5778da0f85cd4e591219fa20a4db9a2d871314d0dccd550710b48d38671f4ea8f576e6f4141b9a583ae89c03bc7e88f992d0b3d1918d8a8b2ec0046bf51a7"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1b_root_1.7.pdf"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_pdf/valid_A-1b_root_1.7.pdf"
+    }
   ],
   "metadata": {
     "0": {

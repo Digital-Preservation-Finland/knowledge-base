@@ -8,7 +8,9 @@
     "blake2b": "2304dcd4dc157c27d6666c086a797d364a7d8efe4ab162d1988ccde69b2a3a9d08cbf5b38f904c990a068c73678c544b5dfa80ad07ee7ce0dbf64235cf171ccb"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_msword/invalid_97-2003_missing_data.doc"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_msword/invalid_97-2003_missing_data.doc"
+    }
   ],
   "metadata": {
     "0": {

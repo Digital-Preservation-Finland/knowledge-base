@@ -8,7 +8,9 @@
     "blake2b": "7cefd032de4e69ee0e202c8f09cae9585da2be81d0e5d916d128c599c2178b5e17cbb98e171a27f53246fd53eac7effb6e22e59bcdd6ca8349fff01184fc8de1"
   },
   "location": [
-    "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_0.17.warc"
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/application_warc/valid_0.17.warc"
+    }
   ],
   "metadata": {
     "0": {
