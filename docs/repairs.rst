@@ -6,13 +6,20 @@ Here on this page is listed information about possible solutions that can be use
 
 The suggested solutions are in continuous development and using them should be carefully considered beforehand.
 
-.. contents::
-   :depth: 3
+.. contents:: Solution type
+   :local:
+   :depth: 1
 
 
 ----------
 Migrations
 ----------
+
+.. contents::
+   :local:
+   :depth: 1
+
+
 
 .. _ffmpeg-wma-wav-conversion:
 
@@ -231,6 +238,12 @@ Migrated files
 ------------
 File repairs
 ------------
+
+.. contents::
+   :local:
+   :depth: 1
+
+
 
 .. _database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found/analysis:
 
