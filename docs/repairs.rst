@@ -2,7 +2,9 @@
 Solutions
 =========
 
-This is list of solutions, or repairs, that can be used to fix validation errors.
+Here on this page is listed information about possible solutions that can be used to fix validation errors.
+
+The suggested solutions are in continuous development and using them should be carefully considered beforehand.
 
 .. contents::
    :depth: 2
@@ -421,3 +423,5 @@ Migrated files
      - 
      - The file is migration from :ref:`file-scraper/f206dae7-049c-4c9b-abae-e8d671f10ead` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
      - :ref:`corpus <corpus/file/d42caac9-c436-49e1-bcb8-5ee49c1a8f28>`
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
