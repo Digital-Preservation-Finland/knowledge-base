@@ -8508,7 +8508,7 @@ wma7.wma.wav
    * - Location
      - `corpus <data/normalised/wma7.wma.wav>`__
    * - Description
-     - 
+     - The file is migrated from :ref:`file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f` using :ref:`ffmpeg-wma-wav-conversion` with FFmpeg version 6.0.
    * - Well-formed
      - True
    * - MD5
@@ -8558,7 +8558,7 @@ wma9.wma.wav
    * - Location
      - `corpus <data/normalised/wma9.wma.wav>`__
    * - Description
-     - 
+     - The file is migrated from :ref:`file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798` using :ref:`ffmpeg-wma-wav-conversion` with FFmpeg version 6.0
    * - Well-formed
      - True
    * - MD5
@@ -16683,7 +16683,7 @@ cinepak_lpcm8.mov.mkv
    * - Location
      - `corpus <data/normalised/cinepak_lpcm8.mov.mkv>`__
    * - Description
-     - 
+     - The file is migration from :ref:`file-scraper/1b17ae63-2f1b-4de5-a6d6-41df3dcde9ab` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
    * - Well-formed
      - True
    * - MD5
@@ -16765,7 +16765,7 @@ prores_lpcm8.mov.mkv
    * - Location
      - `corpus <data/normalised/prores_lpcm8.mov.mkv>`__
    * - Description
-     - 
+     - The file is migration from :ref:`file-scraper/9627eb87-272c-4ed4-a93a-7b53b4c162be` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
    * - Well-formed
      - True
    * - MD5
@@ -16847,7 +16847,7 @@ dv_lpcm8.mov.mkv
    * - Location
      - `corpus <data/normalised/dv_lpcm8.mov.mkv>`__
    * - Description
-     - 
+     - The file is migration from :ref:`file-scraper/c71ffb28-c479-4db7-a3c4-ce3abd018996` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
    * - Well-formed
      - True
    * - MD5
@@ -16929,7 +16929,7 @@ h264_aac.mov.mkv
    * - Location
      - `corpus <data/normalised/h264_aac.mov.mkv>`__
    * - Description
-     - 
+     - The file is migration from :ref:`file-scraper/59cd9213-cd79-44df-9314-10f43907ce3f` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
    * - Well-formed
      - True
    * - MD5
@@ -17011,7 +17011,7 @@ h265_aac.mov.mkv
    * - Location
      - `corpus <data/normalised/h265_aac.mov.mkv>`__
    * - Description
-     - 
+     - The file is migration from :ref:`file-scraper/f206dae7-049c-4c9b-abae-e8d671f10ead` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
    * - Well-formed
      - True
    * - MD5
@@ -17093,7 +17093,7 @@ h264_aac_no_ftyp_atom.mov.mkv
    * - Location
      - `corpus <data/normalised/h264_aac_no_ftyp_atom.mov.mkv>`__
    * - Description
-     - 
+     - The file is migration from :ref:`file-scraper/efe3e824-8a13-4a24-8b07-4145d814c4a1` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
    * - Well-formed
      - True
    * - MD5

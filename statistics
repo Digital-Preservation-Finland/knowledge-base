@@ -400,4 +400,4 @@
       1       1     220 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     282   24195  371278 corpus/error.objects
-    369     503  271246 corpus/file.objects
+    369     591  272507 corpus/file.objects
