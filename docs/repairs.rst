@@ -20,6 +20,7 @@ Migrations
    :depth: 1
 
 
+----
 
 .. _ffmpeg-wma-wav-conversion:
 
@@ -73,6 +74,7 @@ Migrated files
      - 
      - The file is migrated from :ref:`file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798` using :ref:`ffmpeg-wma-wav-conversion` with FFmpeg version 6.0
      - :ref:`corpus <corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0>`
+----
 
 .. _database/audio_mpeg/file-scraper/invalid-videocontainer-stream/solution:
 
@@ -107,15 +109,7 @@ Migrated files
 
    None found
 
-
-.. list-table::
-   :align: center
-
-   * - **File format**
-     - **Version**
-     - **Specification**
-     - **Description**
-     - **Location**
+----
 
 .. _database/normalisation/images/mpo-to-jpeg:
 
@@ -150,15 +144,7 @@ Migrated files
 
    None found
 
-
-.. list-table::
-   :align: center
-
-   * - **File format**
-     - **Version**
-     - **Specification**
-     - **Description**
-     - **Location**
+----
 
 .. _database/normalisation/video/mov-to-mkv-ffmpeg:
 
@@ -244,6 +230,7 @@ File repairs
    :depth: 1
 
 
+----
 
 .. _database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found/analysis:
 
@@ -280,15 +267,7 @@ Migrated files
 
    None found
 
-
-.. list-table::
-   :align: center
-
-   * - **File format**
-     - **Version**
-     - **Specification**
-     - **Description**
-     - **Location**
+----
 
 .. _database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis:
 
@@ -323,15 +302,7 @@ Migrated files
 
    None found
 
-
-.. list-table::
-   :align: center
-
-   * - **File format**
-     - **Version**
-     - **Specification**
-     - **Description**
-     - **Location**
+----
 
 .. _database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/analysis:
 
@@ -366,15 +337,7 @@ Migrated files
 
    None found
 
-
-.. list-table::
-   :align: center
-
-   * - **File format**
-     - **Version**
-     - **Specification**
-     - **Description**
-     - **Location**
+----
 
 .. _database/image_jpeg/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/analysis:
 
@@ -409,15 +372,7 @@ Migrated files
 
    None found
 
-
-.. list-table::
-   :align: center
-
-   * - **File format**
-     - **Version**
-     - **Specification**
-     - **Description**
-     - **Location**
+----
 
 .. _database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO/analysis:
 
@@ -452,15 +407,7 @@ Migrated files
 
    None found
 
-
-.. list-table::
-   :align: center
-
-   * - **File format**
-     - **Version**
-     - **Specification**
-     - **Description**
-     - **Location**
+----
 
 .. _database/application_pdf/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/analysis:
 
@@ -497,14 +444,5 @@ Migrated files
 
    None found
 
-
-.. list-table::
-   :align: center
-
-   * - **File format**
-     - **Version**
-     - **Specification**
-     - **Description**
-     - **Location**
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
