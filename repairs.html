@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Solutions &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Corpus" href="corpus.html" />
+    <link rel="prev" title="Articles by file format" href="toc-mime.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="solutions">
+<h1>Solutions<a class="headerlink" href="#solutions" title="Link to this heading">¶</a></h1>
+<p>Here on this page is listed information about possible solutions that can be used to fix validation errors.</p>
+<p>The suggested solutions are in continuous development and using them should be carefully considered beforehand.</p>
+<nav class="contents local" id="solution-type">
+<p class="topic-title">Solution type</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#migrations" id="id47">Migrations</a></p></li>
+<li><p><a class="reference internal" href="#file-repairs" id="id48">File repairs</a></p></li>
+</ul>
+</nav>
+<section id="migrations">
+<h2><a class="toc-backref" href="#id47" role="doc-backlink">Migrations</a><a class="headerlink" href="#migrations" title="Link to this heading">¶</a></h2>
+<nav class="contents local" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#migrate-audio-stream-from-wma-file-to-wave-format" id="id49">Migrate audio stream from WMA file to WAVE format</a></p></li>
+<li><p><a class="reference internal" href="#remove-album-cover-image-from-mp3-file" id="id50">Remove album cover image from MP3 file</a></p></li>
+<li><p><a class="reference internal" href="#migrate-mpo-file-to-jpeg-format" id="id51">Migrate MPO file to JPEG format</a></p></li>
+<li><p><a class="reference internal" href="#normalise-apple-prores-file-to-ffv1-and-flac-streams-in-mkv-container" id="id52">Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container</a></p></li>
+</ul>
+</nav>
+<hr class="docutils" />
+<section id="migrate-audio-stream-from-wma-file-to-wave-format">
+<span id="ffmpeg-wma-wav-conversion"></span><h3><a class="toc-backref" href="#id49" role="doc-backlink">Migrate audio stream from WMA file to WAVE format</a><a class="headerlink" href="#migrate-audio-stream-from-wma-file-to-wave-format" title="Link to this heading">¶</a></h3>
+<section id="the-suggestion">
+<h4>The suggestion<a class="headerlink" href="#the-suggestion" title="Link to this heading">¶</a></h4>
+<p>Migrate WMA file to WAVE format using FFmpeg with default settings.</p>
+</section>
+<section id="effects">
+<h4>Effects<a class="headerlink" href="#effects" title="Link to this heading">¶</a></h4>
+<p>Without other parameters than the input/output arguments FFmpeg selects automatically stream from the input file for migration.</p>
+<p>The automatic selection is described in FFmpeg’s documentation: <a class="reference external" href="https://ffmpeg.org/ffmpeg.html#Automatic-stream-selection">https://ffmpeg.org/ffmpeg.html#Automatic-stream-selection</a></p>
+</section>
+<section id="justification">
+<h4>Justification<a class="headerlink" href="#justification" title="Link to this heading">¶</a></h4>
+<p>The input file has single audio stream.</p>
+</section>
+<section id="execution">
+<h4>Execution<a class="headerlink" href="#execution" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-i</span> <span class="pre">&lt;input</span> <span class="pre">file&gt;.wma</span> <span class="pre">&lt;output</span> <span class="pre">file&gt;.wav</span></code></p>
+</div></blockquote>
+<p>Tested with: FFmpeg 6.0</p>
+</section>
+<section id="migrated-files">
+<h4>Migrated files<a class="headerlink" href="#migrated-files" title="Link to this heading">¶</a></h4>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>File format</strong></p></td>
+<td><p><strong>Version</strong></p></td>
+<td><p><strong>Specification</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>Location</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>audio/x-wav</p></td>
+<td><p>(:unap)</p></td>
+<td></td>
+<td><p>The file is migrated from <a class="reference internal" href="corpus/files.html#file-scraper-d3059ea0-8cda-4877-a7a9-2cd05903676f"><span class="std std-ref">invalid__wma7.wma</span></a> using <a class="reference internal" href="#ffmpeg-wma-wav-conversion"><span class="std std-ref">Migrate audio stream from WMA file to WAVE format</span></a> with FFmpeg version 6.0.</p></td>
+<td><p><a class="reference internal" href="corpus/files.html#corpus-file-e32161fd-6328-4ab6-9c8b-b5ada16e5d84"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>audio/x-wav</p></td>
+<td><p>(:unap)</p></td>
+<td></td>
+<td><p>The file is migrated from <a class="reference internal" href="corpus/files.html#file-scraper-a0d43b97-cda5-4818-8705-6de52f3fa798"><span class="std std-ref">valid__wma9.wma</span></a> using <a class="reference internal" href="#ffmpeg-wma-wav-conversion"><span class="std std-ref">Migrate audio stream from WMA file to WAVE format</span></a> with FFmpeg version 6.0</p></td>
+<td><p><a class="reference internal" href="corpus/files.html#corpus-file-a1a90bc0-89f4-404d-8607-0779e42228c0"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+</section>
+</section>
+<section id="remove-album-cover-image-from-mp3-file">
+<span id="database-audio-mpeg-file-scraper-invalid-videocontainer-stream-solution"></span><h3><a class="toc-backref" href="#id50" role="doc-backlink">Remove album cover image from MP3 file</a><a class="headerlink" href="#remove-album-cover-image-from-mp3-file" title="Link to this heading">¶</a></h3>
+<section id="id1">
+<h4>The suggestion<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h4>
+<p>Migrate only audio streams from an MP3 file to remove an attached image and related video container stream.</p>
+</section>
+<section id="id2">
+<h4>Effects<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h4>
+<p>Image and videocontainer streams are stripped from the output file. Only (all) audio streams are migrated to the output file.</p>
+</section>
+<section id="id3">
+<h4>Justification<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h4>
+<p>MP3 files contain primarily audio.</p>
+</section>
+<section id="id4">
+<h4>Execution<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-i</span> <span class="pre">&lt;input</span> <span class="pre">file&gt;.mp3</span> <span class="pre">-c:a</span> <span class="pre">copy</span> <span class="pre">-map</span> <span class="pre">0</span> <span class="pre">&lt;output</span> <span class="pre">file&gt;.mp3</span></code></p>
+</div></blockquote>
+<p>Tested with: FFmpeg 6.0</p>
+</section>
+<section id="id5">
+<h4>Migrated files<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p>None found</p>
+</div></blockquote>
+<hr class="docutils" />
+</section>
+</section>
+<section id="migrate-mpo-file-to-jpeg-format">
+<span id="database-normalisation-images-mpo-to-jpeg"></span><h3><a class="toc-backref" href="#id51" role="doc-backlink">Migrate MPO file to JPEG format</a><a class="headerlink" href="#migrate-mpo-file-to-jpeg-format" title="Link to this heading">¶</a></h3>
+<section id="id6">
+<h4>The suggestion<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h4>
+<p>A valid JPEG file can be created from a MPO file that contains images that complement the first otherwise valid JPEG file by removing the extra images from the file.</p>
+</section>
+<section id="id7">
+<h4>Effects<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h4>
+<p>The main image and its headers stay unchanged. Additional images, such as a preview image and its APP2 header section, are removed. The <code class="docutils literal notranslate"><span class="pre">-overwrite_original</span></code> switch makes ExifTool to overwrite the input file.</p>
+</section>
+<section id="id8">
+<h4>Justification<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h4>
+<p>MPO file format is extension of JPEG for saving multiple images into a same file.</p>
+</section>
+<section id="id9">
+<h4>Execution<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">exiftool</span> <span class="pre">-MPF:All=</span> <span class="pre">-Trailer:All=</span> <span class="pre">-overwrite_original</span> <span class="pre">&lt;input&gt;.JPG</span></code></p>
+</div></blockquote>
+<p>Tested with:</p>
+</section>
+<section id="id10">
+<h4>Migrated files<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p>None found</p>
+</div></blockquote>
+<hr class="docutils" />
+</section>
+</section>
+<section id="normalise-apple-prores-file-to-ffv1-and-flac-streams-in-mkv-container">
+<span id="database-normalisation-video-mov-to-mkv-ffmpeg"></span><h3><a class="toc-backref" href="#id52" role="doc-backlink">Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container</a><a class="headerlink" href="#normalise-apple-prores-file-to-ffv1-and-flac-streams-in-mkv-container" title="Link to this heading">¶</a></h3>
+<section id="id11">
+<h4>The suggestion<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h4>
+<p>All video and audio streams and the first subtitle stream are migrated into a MKV container with FFV1 video streams and FLAC audio streams. The subtitle stream is migrated as it is.</p>
+</section>
+<section id="id12">
+<h4>Effects<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h4>
+<p>Only video and audio streams and the first subtitle stream are migrated. <code class="docutils literal notranslate"><span class="pre">-map</span> <span class="pre">0:v</span></code> and <code class="docutils literal notranslate"><span class="pre">-map</span> <span class="pre">0:a</span></code> select all video and audio streams. <code class="docutils literal notranslate"><span class="pre">-c:v</span> <span class="pre">ffv1</span></code> and <code class="docutils literal notranslate"><span class="pre">-c:a</span> <span class="pre">flac</span></code> set FFV1 and FLAC codecs for video and audio encoding. <code class="docutils literal notranslate"><span class="pre">-c:s</span> <span class="pre">copy</span></code> copies the subtitle stream.</p>
+<p><code class="docutils literal notranslate"><span class="pre">-level</span></code>, <code class="docutils literal notranslate"><span class="pre">-g</span></code>, <code class="docutils literal notranslate"><span class="pre">slicecrc</span></code> and <code class="docutils literal notranslate"><span class="pre">context</span></code> are both general and codec-specific parameters for the encoding with FFV1 codec. They do not alter the video or audio bitstreams.</p>
+<p>Codec-specfic parameters have descriptions in FFmpeg’s documentation at <a class="reference external" href="https://ffmpeg.org/ffmpeg-codecs.html#Codec-Options">https://ffmpeg.org/ffmpeg-codecs.html#Codec-Options</a>. Rewrapping MOV container to MKV follows ffmprovisr’s method for video and audio streams: <a class="reference external" href="https://amiaopensource.github.io/ffmprovisr/#basic-rewrap">https://amiaopensource.github.io/ffmprovisr/#basic-rewrap</a>. Modification of video and audio bitsreams can be detected by FFmpeg’s stream hashing functionality: <a class="reference external" href="https://amiaopensource.github.io/ffmprovisr/#get_stream_checksum">https://amiaopensource.github.io/ffmprovisr/#get_stream_checksum</a></p>
+</section>
+<section id="id13">
+<h4>Justification<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h4>
+<p>The selected bitstreams are not modified even though their format changes.</p>
+</section>
+<section id="id14">
+<h4>Execution<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-i</span> <span class="pre">&lt;input.mov&gt;</span> <span class="pre">-map</span> <span class="pre">0:v</span> <span class="pre">-map</span> <span class="pre">0:a</span> <span class="pre">-c:v</span> <span class="pre">ffv1</span> <span class="pre">-level</span> <span class="pre">3</span> <span class="pre">-g</span> <span class="pre">1</span> <span class="pre">-slicecrc</span> <span class="pre">1</span> <span class="pre">-context</span> <span class="pre">1</span> <span class="pre">-c:a</span> <span class="pre">flac</span> <span class="pre">-c:s</span> <span class="pre">copy</span> <span class="pre">&lt;output.mkv&gt;</span></code></p>
+</div></blockquote>
+<p>Tested with: FFmpeg 6.0</p>
+</section>
+<section id="id15">
+<h4>Migrated files<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h4>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>File format</strong></p></td>
+<td><p><strong>Version</strong></p></td>
+<td><p><strong>Specification</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>Location</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>video/x-matroska</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>The file is migration from <a class="reference internal" href="corpus/files.html#file-scraper-1b17ae63-2f1b-4de5-a6d6-41df3dcde9ab"><span class="std std-ref">invalid__cinepak_lpcm8.mov</span></a> using <a class="reference internal" href="#database-normalisation-video-mov-to-mkv-ffmpeg"><span class="std std-ref">Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container</span></a> with FFmpeg version 6.0</p></td>
+<td><p><a class="reference internal" href="corpus/files.html#corpus-file-b9013803-ea52-4fcc-b8a6-24a9d3357929"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>video/x-matroska</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>The file is migration from <a class="reference internal" href="corpus/files.html#file-scraper-9627eb87-272c-4ed4-a93a-7b53b4c162be"><span class="std std-ref">invalid__prores_lpcm8.mov</span></a> using <a class="reference internal" href="#database-normalisation-video-mov-to-mkv-ffmpeg"><span class="std std-ref">Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container</span></a> with FFmpeg version 6.0</p></td>
+<td><p><a class="reference internal" href="corpus/files.html#corpus-file-16ee86b0-44f6-44fb-99e9-b1735b8eb52c"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>video/x-matroska</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>The file is migration from <a class="reference internal" href="corpus/files.html#file-scraper-c71ffb28-c479-4db7-a3c4-ce3abd018996"><span class="std std-ref">valid__dv_lpcm8.mov</span></a> using <a class="reference internal" href="#database-normalisation-video-mov-to-mkv-ffmpeg"><span class="std std-ref">Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container</span></a> with FFmpeg version 6.0</p></td>
+<td><p><a class="reference internal" href="corpus/files.html#corpus-file-7139179b-8cf7-40bf-8ff0-67e024d74a52"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>video/x-matroska</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>The file is migration from <a class="reference internal" href="corpus/files.html#file-scraper-59cd9213-cd79-44df-9314-10f43907ce3f"><span class="std std-ref">valid__h264_aac.mov</span></a> using <a class="reference internal" href="#database-normalisation-video-mov-to-mkv-ffmpeg"><span class="std std-ref">Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container</span></a> with FFmpeg version 6.0</p></td>
+<td><p><a class="reference internal" href="corpus/files.html#corpus-file-b889a784-357d-475e-9890-6d2e01aad6ac"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>video/x-matroska</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>The file is migration from <a class="reference internal" href="corpus/files.html#file-scraper-efe3e824-8a13-4a24-8b07-4145d814c4a1"><span class="std std-ref">valid__h264_aac_no_ftyp_atom.mov</span></a> using <a class="reference internal" href="#database-normalisation-video-mov-to-mkv-ffmpeg"><span class="std std-ref">Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container</span></a> with FFmpeg version 6.0</p></td>
+<td><p><a class="reference internal" href="corpus/files.html#corpus-file-65487bad-a067-4f22-8077-e65c6a373281"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>video/x-matroska</p></td>
+<td><p>4</p></td>
+<td></td>
+<td><p>The file is migration from <a class="reference internal" href="corpus/files.html#file-scraper-f206dae7-049c-4c9b-abae-e8d671f10ead"><span class="std std-ref">valid__h265_aac.mov</span></a> using <a class="reference internal" href="#database-normalisation-video-mov-to-mkv-ffmpeg"><span class="std std-ref">Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container</span></a> with FFmpeg version 6.0</p></td>
+<td><p><a class="reference internal" href="corpus/files.html#corpus-file-d42caac9-c436-49e1-bcb8-5ee49c1a8f28"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="file-repairs">
+<h2><a class="toc-backref" href="#id48" role="doc-backlink">File repairs</a><a class="headerlink" href="#file-repairs" title="Link to this heading">¶</a></h2>
+<nav class="contents local" id="id16">
+<ul class="simple">
+<li><p><a class="reference internal" href="#recreate-file-with-automatically-selected-audio-and-video-streams" id="id53">Recreate file with automatically selected audio and video streams</a></p></li>
+<li><p><a class="reference internal" href="#remake-pdf-with-acrobat-reader" id="id54">Remake PDF with Acrobat Reader</a></p></li>
+<li><p><a class="reference internal" href="#remake-image-with-imagemagick" id="id55">Remake image with ImageMagick</a></p></li>
+<li><p><a class="reference internal" href="#view-and-save-as-new-file" id="id56">View and save as new file</a></p></li>
+<li><p><a class="reference internal" href="#recreate-wav-file-with-single-audio-stream-and-metadata" id="id57">Recreate WAV file with single audio stream and metadata</a></p></li>
+<li><p><a class="reference internal" href="#remove-annotations-with-ghostscript" id="id58">Remove annotations with Ghostscript</a></p></li>
+</ul>
+</nav>
+<hr class="docutils" />
+<section id="recreate-file-with-automatically-selected-audio-and-video-streams">
+<span id="database-video-quicktime-ffmpeg-referenced-qt-chapter-track-not-found-analysis"></span><h3><a class="toc-backref" href="#id53" role="doc-backlink">Recreate file with automatically selected audio and video streams</a><a class="headerlink" href="#recreate-file-with-automatically-selected-audio-and-video-streams" title="Link to this heading">¶</a></h3>
+<section id="id17">
+<h4>The suggestion<a class="headerlink" href="#id17" title="Link to this heading">¶</a></h4>
+<p>Copy automatically selected audio and video streams and copy ‘global metadata’ to the new file.</p>
+</section>
+<section id="id18">
+<h4>Effects<a class="headerlink" href="#id18" title="Link to this heading">¶</a></h4>
+<p>The selected audio and video streams are copied along with top-level metadata (<code class="docutils literal notranslate"><span class="pre">-map_metadata</span> <span class="pre">0</span></code>) to the output file.</p>
+<p>The automatic selection principles are described in FFmpeg’s documentation: <a class="reference external" href="https://ffmpeg.org/ffmpeg.html#Automatic-stream-selection">https://ffmpeg.org/ffmpeg.html#Automatic-stream-selection</a></p>
+</section>
+<section id="id19">
+<h4>Justification<a class="headerlink" href="#id19" title="Link to this heading">¶</a></h4>
+<p>The file contains single audio and video streams.</p>
+</section>
+<section id="id20">
+<h4>Execution<a class="headerlink" href="#id20" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-i</span> <span class="pre">&lt;input</span> <span class="pre">file&gt;.MOV</span> <span class="pre">-c:v</span> <span class="pre">copy</span> <span class="pre">-c:a</span> <span class="pre">copy</span> <span class="pre">-map_metadata</span> <span class="pre">0</span> <span class="pre">&lt;output</span> <span class="pre">file&gt;.MOV</span></code></p>
+</div></blockquote>
+<p>Tested with: FFmpeg 6.0</p>
+</section>
+<section id="id21">
+<h4>Migrated files<a class="headerlink" href="#id21" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p>None found</p>
+</div></blockquote>
+<hr class="docutils" />
+</section>
+</section>
+<section id="remake-pdf-with-acrobat-reader">
+<span id="database-application-pdf-ghostscript-the-file-was-produced-by-macos-versio-build-g-quartz-pdfcontext-analysis"></span><h3><a class="toc-backref" href="#id54" role="doc-backlink">Remake PDF with Acrobat Reader</a><a class="headerlink" href="#remake-pdf-with-acrobat-reader" title="Link to this heading">¶</a></h3>
+<section id="id22">
+<h4>The suggestion<a class="headerlink" href="#id22" title="Link to this heading">¶</a></h4>
+<p>Open the file with Acrobat Reader and save it as a new file without any changes to the content.</p>
+</section>
+<section id="id23">
+<h4>Effects<a class="headerlink" href="#id23" title="Link to this heading">¶</a></h4>
+</section>
+<section id="id24">
+<h4>Justification<a class="headerlink" href="#id24" title="Link to this heading">¶</a></h4>
+<p>Acrobat Reader is a standard implementation for PDF.</p>
+</section>
+<section id="id25">
+<h4>Execution<a class="headerlink" href="#id25" title="Link to this heading">¶</a></h4>
+<p>Tested with:</p>
+</section>
+<section id="id26">
+<h4>Migrated files<a class="headerlink" href="#id26" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p>None found</p>
+</div></blockquote>
+<hr class="docutils" />
+</section>
+</section>
+<section id="remake-image-with-imagemagick">
+<span id="database-image-jpeg-jhove-file-does-not-begin-with-spiff-exif-or-jfif-segment-analysis"></span><h3><a class="toc-backref" href="#id55" role="doc-backlink">Remake image with ImageMagick</a><a class="headerlink" href="#remake-image-with-imagemagick" title="Link to this heading">¶</a></h3>
+<section id="id27">
+<h4>The suggestion<a class="headerlink" href="#id27" title="Link to this heading">¶</a></h4>
+<p>If the bits are not completely missing, use ImageMagick. If the bits are missing JHOVE reports ‘Expected marker byte 255 ‘ from JPEG-HUL and in that case 4 bytes can be added starting from position 7 in the file. Otherwise, the file more thoroughly corrupted.</p>
+</section>
+<section id="id28">
+<h4>Effects<a class="headerlink" href="#id28" title="Link to this heading">¶</a></h4>
+</section>
+<section id="id29">
+<h4>Justification<a class="headerlink" href="#id29" title="Link to this heading">¶</a></h4>
+</section>
+<section id="id30">
+<h4>Execution<a class="headerlink" href="#id30" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">convert</span> <span class="pre">&lt;input</span> <span class="pre">file&gt;</span> <span class="pre">&lt;output</span> <span class="pre">file&gt;</span></code></p>
+</div></blockquote>
+<p>Tested with:</p>
+</section>
+<section id="id31">
+<h4>Migrated files<a class="headerlink" href="#id31" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p>None found</p>
+</div></blockquote>
+<hr class="docutils" />
+</section>
+</section>
+<section id="view-and-save-as-new-file">
+<span id="database-image-jpeg-python-image-library-syntaxerror-not-a-tiff-file-header-bexifxaii-not-valid-analysis"></span><h3><a class="toc-backref" href="#id56" role="doc-backlink">View and save as new file</a><a class="headerlink" href="#view-and-save-as-new-file" title="Link to this heading">¶</a></h3>
+<section id="id32">
+<h4>The suggestion<a class="headerlink" href="#id32" title="Link to this heading">¶</a></h4>
+<p>Open the file in an image processing software and save it again in the same file format</p>
+</section>
+<section id="id33">
+<h4>Effects<a class="headerlink" href="#id33" title="Link to this heading">¶</a></h4>
+</section>
+<section id="id34">
+<h4>Justification<a class="headerlink" href="#id34" title="Link to this heading">¶</a></h4>
+</section>
+<section id="id35">
+<h4>Execution<a class="headerlink" href="#id35" title="Link to this heading">¶</a></h4>
+<p>Tested with:</p>
+</section>
+<section id="id36">
+<h4>Migrated files<a class="headerlink" href="#id36" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p>None found</p>
+</div></blockquote>
+<hr class="docutils" />
+</section>
+</section>
+<section id="recreate-wav-file-with-single-audio-stream-and-metadata">
+<span id="database-audio-x-wav-unknown-list-type-in-associated-data-list-chunk-type-info-analysis"></span><h3><a class="toc-backref" href="#id57" role="doc-backlink">Recreate WAV file with single audio stream and metadata</a><a class="headerlink" href="#recreate-wav-file-with-single-audio-stream-and-metadata" title="Link to this heading">¶</a></h3>
+<section id="id37">
+<h4>The suggestion<a class="headerlink" href="#id37" title="Link to this heading">¶</a></h4>
+<p>Copy the first audio stream and ‘global metadata’ of the stream 0 to a new file.</p>
+</section>
+<section id="id38">
+<h4>Effects<a class="headerlink" href="#id38" title="Link to this heading">¶</a></h4>
+<p>Only the first audio stream in the file is copied from the input file to the output file. Video streams are explicitly excluded with <code class="docutils literal notranslate"><span class="pre">-vn</span></code> from the migration.</p>
+</section>
+<section id="id39">
+<h4>Justification<a class="headerlink" href="#id39" title="Link to this heading">¶</a></h4>
+<p>Only audio stream and metadata needs to be migrated.</p>
+</section>
+<section id="id40">
+<h4>Execution<a class="headerlink" href="#id40" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">ffmpeg</span> <span class="pre">-i</span> <span class="pre">&lt;input</span> <span class="pre">file&gt;.WAV</span> <span class="pre">-vn</span> <span class="pre">-c:a</span> <span class="pre">copy</span> <span class="pre">-map_metadata</span> <span class="pre">0</span> <span class="pre">&lt;output</span> <span class="pre">file&gt;.WAV</span></code></p>
+</div></blockquote>
+<p>Tested with: FFmpeg 6.0</p>
+</section>
+<section id="id41">
+<h4>Migrated files<a class="headerlink" href="#id41" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p>None found</p>
+</div></blockquote>
+<hr class="docutils" />
+</section>
+</section>
+<section id="remove-annotations-with-ghostscript">
+<span id="database-application-pdf-ghostscript-annotation-has-scale-factor-of-zero-and-was-ignored-analysis"></span><h3><a class="toc-backref" href="#id58" role="doc-backlink">Remove annotations with Ghostscript</a><a class="headerlink" href="#remove-annotations-with-ghostscript" title="Link to this heading">¶</a></h3>
+<section id="id42">
+<h4>The suggestion<a class="headerlink" href="#id42" title="Link to this heading">¶</a></h4>
+<p>Remove the annotations using Ghostscript. The process is called refrying (a PDF file).</p>
+</section>
+<section id="id43">
+<h4>Effects<a class="headerlink" href="#id43" title="Link to this heading">¶</a></h4>
+<p>All annotations are removed. Ghostscript will convert the file from PDF to PostScript and back to PDF again. The file may lose other features in the process.</p>
+<p>Read more about refrying here: <a class="reference external" href="https://www.prepressure.com/pdf/basics/refrying">https://www.prepressure.com/pdf/basics/refrying</a></p>
+</section>
+<section id="id44">
+<h4>Justification<a class="headerlink" href="#id44" title="Link to this heading">¶</a></h4>
+<p>The file will now be valid, however, you lose all annotations.</p>
+</section>
+<section id="id45">
+<h4>Execution<a class="headerlink" href="#id45" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">gs</span> <span class="pre">-o</span> <span class="pre">&lt;fixed</span> <span class="pre">file&gt;.pdf</span> <span class="pre">-sDEVICE=pdfwrite</span> <span class="pre">-dPDFSETTINGS=/prepress</span> <span class="pre">-dPreserveAnnots=false</span> <span class="pre">&lt;broken_file&gt;.pdf</span></code></p>
+</div></blockquote>
+<p>Tested with:</p>
+</section>
+<section id="id46">
+<h4>Migrated files<a class="headerlink" href="#id46" title="Link to this heading">¶</a></h4>
+<blockquote>
+<div><p>None found</p>
+</div></blockquote>
+<p>Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.</p>
+</section>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="toc-validator.html">Articles by validating software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="toc-mime.html">Articles by file format</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Solutions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#migrations">Migrations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#file-repairs">File repairs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="corpus.html">Corpus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datamodel.html">Data model</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="toc-mime.html" title="previous chapter">Articles by file format</a></li>
+      <li>Next: <a href="corpus.html" title="next chapter">Corpus</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/repairs.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data model &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Corpus errors" href="corpus/errors.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="data-model">
+<h1>Data model<a class="headerlink" href="#data-model" title="Link to this heading">¶</a></h1>
+<p>The knowledge base consists of information that enable identification and classification of the errors raised by the validator software running a problematic file. In addition to identification and classification, that enable solution discovery, the database will eventually contain analyses and repairs for the problems as the encountered problems are studied.</p>
+<section id="error">
+<h2>1. Error<a class="headerlink" href="#error" title="Link to this heading">¶</a></h2>
+<p>JSON Schema ID : <code class="docutils literal notranslate"><span class="pre">http://digitalpreservation.fi/schemas/2025-12/error.schema.ld.json</span></code></p>
+<p>Description of an error. An error may have many analyses and it may rise from many files. Output example from the validating software may and should present context for the error message and the error message is also most likely found in the output example. Validator, validator version and error message fields should define unique error objects. Objects without set error message are preliminary errors and they are undefined.</p>
+<p>Index fields: [‘validator’, ‘validatorVersion’, ‘errorMessage’]</p>
+<dl class="simple">
+<dt>files<span class="classifier">array of string</span></dt><dd><p>List of references to Files.</p>
+</dd>
+<dt>analyses<span class="classifier">array of string</span></dt><dd><p>List of references to Analyses</p>
+</dd>
+<dt>validator<span class="classifier">string</span></dt><dd><p>Name of the validating software reporting the error.</p>
+</dd>
+<dt>validatorVersion<span class="classifier">array of string</span></dt><dd><p>List of versions of the validating software that produce the error message for the set of the referred files.</p>
+</dd>
+<dt>errorMessage<span class="classifier">string</span></dt><dd><p>The message reported and identified by the validating software. The message can be (should be) exact match but may contain regular expressions if the message contains varying data in the middle of the string, such as a file name or an offset. A certain amount of uncertainty inevitably hovers around when raisin-picking the error message from validator output. The output example field may be used to provide implicit reasoning for the picked string or pattern. Notes field may be used for explicit reasoning.</p>
+</dd>
+<dt>type<span class="classifier">[‘general’, ‘exact’, ‘’]</span></dt><dd><p>The error message can (perhaps) be classified either general, exact or unknown. Exact error message may have exact repair solution, general error message needs to be investigated further, has probably many analyses and repairs, and should probably have a more specific error message. Error messages of unknown are not studied yet in such a way.</p>
+</dd>
+<dt>outputExample<span class="classifier">array</span></dt><dd><p>Additional output from the validator to the error mesasge to give context for later handling and verification. For example the full output from the validating software.</p>
+</dd>
+<dt>notes<span class="classifier">array</span></dt><dd><p>Additional information on the error.</p>
+</dd>
+</dl>
+</section>
+<section id="analysis">
+<h2>2. Analysis<a class="headerlink" href="#analysis" title="Link to this heading">¶</a></h2>
+<p>JSON Schema ID : <code class="docutils literal notranslate"><span class="pre">http://digitalpreservation.fi/schemas/2025-09/analysis.schema.ld.json</span></code></p>
+<p>Description of the problem.</p>
+<p>Index fields: [<a class="reference external" href="mailto:'&#37;&#52;&#48;id">‘<span>&#64;</span>id</a>’, ‘softwareProlem’, ‘fixable’]</p>
+<dl class="simple">
+<dt>&#64;id<span class="classifier">string</span></dt><dd><p>Analysis object identifier.</p>
+</dd>
+<dt>repairs<span class="classifier">array of string</span></dt><dd><p>List of reference to Repairs.</p>
+</dd>
+<dt>analysis<span class="classifier">array of string</span></dt><dd><p>The analysis of the error. String items in the array can be presented as paragraphs.</p>
+</dd>
+<dt>softwareProblem<span class="classifier">[‘yes’, ‘no’, ‘’]</span></dt><dd><p>Classification whetever the cause of the problem is in the validating software, that is a software bug, or not. Bugs should most likely be handled by the developers.</p>
+</dd>
+<dt>significantProperties<span class="classifier">array of string</span></dt><dd><p>The significant properties that are especially taken into account in the analysis. Significant properties may provide a perspective to the problem. String items in the array can be presented as paragraphs.</p>
+</dd>
+<dt>fixable<span class="classifier">[‘yes’, ‘no’, ‘’]</span></dt><dd><p>Should a fix be determined for the error based on this analysis?</p>
+</dd>
+</dl>
+</section>
+<section id="repair">
+<h2>3. Repair<a class="headerlink" href="#repair" title="Link to this heading">¶</a></h2>
+<p>JSON Schema ID : <code class="docutils literal notranslate"><span class="pre">http://digitalpreservation.fi/schemas/2026-02/repair.schema.ld.json</span></code></p>
+<p>A repair solution for an error based on an analysis.</p>
+<p>Index fields: [<a class="reference external" href="mailto:'&#37;&#52;&#48;id">‘<span>&#64;</span>id</a>’]</p>
+<dl class="simple">
+<dt>&#64;id<span class="classifier">string</span></dt><dd><p>Identifier for the repair.</p>
+</dd>
+<dt>repair<span class="classifier">string</span></dt><dd><p>Detailed description of the repair</p>
+</dd>
+<dt>heading<span class="classifier">string</span></dt><dd><p>Heading or a very short description of the repair for an article.</p>
+</dd>
+<dt>execution<span class="classifier">string</span></dt><dd><p>Command execution example for the repair, if there is such.</p>
+</dd>
+<dt>effects<span class="classifier">array of string</span></dt><dd><p>Description of how performing the repair affects data.</p>
+</dd>
+<dt>justification<span class="classifier">string</span></dt><dd><p>Rationale for accepting the repair.</p>
+</dd>
+<dt>files<span class="classifier">array of string</span></dt><dd><p>Knowledge base file object identifiers that refer to file that were normalised using this solution.</p>
+</dd>
+<dt>softwareTestVersion<span class="classifier">string</span></dt><dd><p>Software version or versions the method has been tested and the result verified with.</p>
+</dd>
+</dl>
+</section>
+<section id="file">
+<h2>4. File<a class="headerlink" href="#file" title="Link to this heading">¶</a></h2>
+<p>JSON Schema ID : <code class="docutils literal notranslate"><span class="pre">http://digitalpreservation.fi/schemas/2026-02/file.schema.ld.json</span></code></p>
+<p>Description of a file. File objects describe content from which a problem arises. Although the file may be also valid and have no error object referring to it.</p>
+<p>Index fields: [‘checksum’]</p>
+<dl class="simple">
+<dt>&#64;id<span class="classifier">string</span></dt><dd><p>Identifier for the file</p>
+</dd>
+<dt>source<span class="classifier">string</span></dt><dd><p>Identifier for the source classifying the file.</p>
+</dd>
+<dt>description<span class="classifier">string</span></dt><dd><p>Description of the content.</p>
+</dd>
+<dt>wellFormed<span class="classifier">[True, False, None, ‘virtual’]</span></dt><dd><p>Should the file validate as well-formed. ‘null’ value equals to undetermined. ‘virtual’ value refers to virtual or dummy files that will never have a location but connect an error to a file format.</p>
+</dd>
+<dt>checksum<span class="classifier">object</span></dt><dd><p>Checksums of the content in the locations. Two checksums are used to mitigate checksum collisions. The other is faster and the other is more reliable.</p>
+</dd>
+<dt>location<span class="classifier">array of object</span></dt><dd><p>List of objects with a label as the key and a free form description of the source location as the value. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.</p>
+</dd>
+</dl>
+</section>
+<section id="format">
+<h2>5. Format<a class="headerlink" href="#format" title="Link to this heading">¶</a></h2>
+<p>JSON Schema ID : <code class="docutils literal notranslate"><span class="pre">http://digitalpreservation.fi/schemas/2026-01/source.schema.ld.json</span></code></p>
+<p>Description of a file format. The file format classifies file objects and determines the valid form for the data.</p>
+<p>Index fields: [‘fileFormat’, ‘version’]</p>
+<dl class="simple">
+<dt>&#64;id<span class="classifier">string</span></dt><dd><p>Identifier for the source.</p>
+</dd>
+<dt>fileFormat<span class="classifier">string</span></dt><dd><p>MIME type of the file format.</p>
+</dd>
+<dt>version<span class="classifier">string</span></dt><dd><p>Version of the file format.</p>
+</dd>
+<dt>profile<span class="classifier">string</span></dt><dd><p>Further classification of the data.</p>
+</dd>
+<dt>description<span class="classifier">string</span></dt><dd><p>Free form description.</p>
+</dd>
+<dt>specification<span class="classifier">array of objects</span></dt><dd><p>List of objects with location, name or other description of the specification as the value and name for the resource as a key.</p>
+</dd>
+</dl>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="toc-validator.html">Articles by validating software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="toc-mime.html">Articles by file format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repairs.html">Solutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="corpus.html">Corpus</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Data model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#error">1. Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#analysis">2. Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#repair">3. Repair</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#file">4. File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#format">5. Format</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="corpus/errors.html" title="previous chapter">Corpus errors</a></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="_sources/datamodel.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

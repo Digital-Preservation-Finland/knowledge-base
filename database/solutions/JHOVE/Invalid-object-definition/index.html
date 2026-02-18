@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Invalid object definition &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/alabaster.css?v=12dfc556" />
+    <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="invalid-object-definition">
+<h1><a class="toc-backref" href="#id2" role="doc-backlink">Invalid object definition</a><a class="headerlink" href="#invalid-object-definition" title="Link to this heading">¶</a></h1>
+<nav class="contents" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#invalid-object-definition" id="id2">Invalid object definition</a></p>
+<ul>
+<li><p><a class="reference internal" href="#classification" id="id3">Classification</a></p></li>
+<li><p><a class="reference internal" href="#analyses" id="id4">Analyses</a></p></li>
+<li><p><a class="reference internal" href="#possible-solutions" id="id5">Possible solutions</a></p></li>
+<li><p><a class="reference internal" href="#output-example" id="id6">Output example</a></p></li>
+<li><p><a class="reference internal" href="#notes-on-the-error" id="id7">Notes on the error</a></p></li>
+<li><p><a class="reference internal" href="#related-errors-by-source-files" id="id8">Related errors by source files</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="classification">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Classification</a><a class="headerlink" href="#classification" title="Link to this heading">¶</a></h2>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>Validator</strong></p></td>
+<td><p><strong>Validator version</strong></p></td>
+<td><p><strong>Error message type</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>JHOVE</p></td>
+<td><p>1.32.1</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>File format</strong></p></td>
+<td><p><strong>Version</strong></p></td>
+<td><p><strong>Specification</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>Location</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_004_document-catalog-incorrect-pages-reference.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_003_page-object-no-parent.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_015_trailer-no-size-key-value-pair.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_008_entry-offset-too-short.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_014_trailer-root-indirect-reference-to-wrong-object.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_007_page-object-resources-wrong-object.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_002_resources-basefont-wrong-font.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_007_offset_wrong.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/268346.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_001_no-page-tree-node.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_002_Stream-ET-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_005_resources-subtype-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_006_font-size-operator-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_014_endstream-keyword-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_008_page-tree-node-no-count.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/hello_world.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_006_resources_subtype_wrong.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_018_position-information-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_005_invalid-Font-name-operator.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_011_paranthesis-substituted-with-brackets.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_010_trailer-no-closing-brackets.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_003_resources-type-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_001_document-catalog-No-document-catalog.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_001_EOF-not-standalone.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_008_Font-set-operator-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_005_document-catalog-type-key-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_016_stream-length-missing-in-dictionary.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_016_trailer-wrong-size-key-value-pair.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.3</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/392154.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_012_page-object-resources-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_010_page-object-missing-contents.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_005_EOF-followed-by-junk-data.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_006_premature-EOF.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_009_trailer-no-opening-brackets.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.2</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/040669.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_011_trailer-no-root-key-value-pair.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_004_number-of-entries-too-many.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_001_Stream-BT-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.3</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/427669.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_009_page-tree-wrong-type.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_012_text-show-operator-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_002_xref-keyword-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_004_Font-name-operator--missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_013_trailer-root-invalid-indirect-reference.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.2</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/027613.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_004_page-tree-non-existing-object-as-kid.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_015_invalid-stream-length-in-dictionary.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_012_trailer-root-no-indirect-reference.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_005_page-tree-no-kids.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_004_page-object-wrong-parent.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.2</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/303226.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_001_resources-basefont-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_005_number-of-entries-too-few.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_003_Stream-BT-and-ET-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_002_page-object-wrong-type.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_010_Missing_closing_paranthesis.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-04-01_004_resources-wrong-declaration-type.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_001_page-object-no-type.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_007_page-tree-wrong-count.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_007_document-catalog-type-key-value-pair-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_009_Missing_open_paranthesis.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_003_number-of-entries-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_009_invalid-keyword-entry.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_002_document-catalog-wrong-object-number.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_008_page-object-mediabox-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_009_page-object-mediabox-not-rectangle.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_006_offset_missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_008_trailer-no-trailer-keyword.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_003_document-catalog-indirecte-pages-reference-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.2</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/492484.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_013_stream-keyword-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.3</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/507676.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T03_010_wrong-generation-number.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.2</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020806.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_011_page-object-wrong-contents-reference.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_002_page-tree-kids-links-recursive.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.2</p></td>
+<td></td>
+<td><p>Govdocs1 set</p></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/189478.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_006_document-catalog-wrong-type-key.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-02_006_page-tree-no-type.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-03_006_page-object-missing.pdf">OPF</a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference internal" href="../../../../corpus/files.html#file-scraper-114f7207-5dc9-491b-a978-2394e6b8cc92"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.3</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference internal" href="../../../../corpus/files.html#file-scraper-15cb88cf-248b-435b-bfde-125f09fcc9ef"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.2</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference internal" href="../../../../corpus/files.html#file-scraper-52f8f0df-bd86-45a2-8c82-fb57900ae739"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.7</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference internal" href="../../../../corpus/files.html#file-scraper-87af55ef-9b6e-4f05-8c04-3e146c310efe"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.6</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference internal" href="../../../../corpus/files.html#file-scraper-9bec28c0-42f9-4556-ab46-f3457df5540a"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>application/pdf</p></td>
+<td><p>1.4</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference internal" href="../../../../corpus/files.html#file-scraper-c4399821-916e-4db9-a036-07f9b1c9d98e"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="analyses">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Analyses</a><a class="headerlink" href="#analyses" title="Link to this heading">¶</a></h2>
+<section id="analysis">
+<h3>Analysis<a class="headerlink" href="#analysis" title="Link to this heading">¶</a></h3>
+<p>See JHOVE documentation: <a class="reference external" href="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#PDF-HUL-37">https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#PDF-HUL-37</a></p>
+<p>Is it a bug in the validating software? -</p>
+</section>
+</section>
+<section id="possible-solutions">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Possible solutions</a><a class="headerlink" href="#possible-solutions" title="Link to this heading">¶</a></h2>
+</section>
+<section id="output-example">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Output example</a><a class="headerlink" href="#output-example" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Validator returned error.
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;jhove xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schema.openpreservation.org/ois/xml/ns/jhove&quot; xsi:schemaLocation=&quot;http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd&quot; name=&quot;Jhove&quot; release=&quot;1.32.1&quot; date=&quot;2025-02-06&quot;&gt;
+ &lt;date&gt;2025-11-03T14:32:33+02:00&lt;/date&gt;
+ &lt;repInfo uri=&quot;/corpus/format-corpus/pdf-handbuilt-test-corpus/T02-01_004_document-catalog-incorrect-pages-reference.pdf&quot;&gt;
+  &lt;reportingModule release=&quot;1.12.7&quot; date=&quot;2024-08-22&quot;&gt;PDF-hul&lt;/reportingModule&gt;
+  &lt;lastModified&gt;2025-10-22T10:46:06+03:00&lt;/lastModified&gt;
+  &lt;size&gt;629&lt;/size&gt;
+  &lt;format&gt;PDF&lt;/format&gt;
+  &lt;status&gt;Not well-formed&lt;/status&gt;
+  &lt;sigMatch&gt;
+  &lt;module&gt;PDF-hul&lt;/module&gt;
+  &lt;/sigMatch&gt;
+  &lt;messages&gt;
+   &lt;message offset=&quot;0&quot; severity=&quot;error&quot; id=&quot;PDF-HUL-85&quot; infoLink=&quot;https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-85&quot;&gt;No document catalog dictionary&lt;/message&gt;
+   &lt;message offset=&quot;466&quot; severity=&quot;error&quot; id=&quot;PDF-HUL-37&quot; infoLink=&quot;https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-37&quot;&gt;Invalid object definition&lt;/message&gt;
+  &lt;/messages&gt;
+  &lt;mimeType&gt;application/pdf&lt;/mimeType&gt;
+ &lt;/repInfo&gt;
+&lt;/jhove&gt;
+</pre></div>
+</div>
+</section>
+<section id="notes-on-the-error">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Notes on the error</a><a class="headerlink" href="#notes-on-the-error" title="Link to this heading">¶</a></h2>
+</section>
+<section id="related-errors-by-source-files">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Related errors by source files</a><a class="headerlink" href="#related-errors-by-source-files" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">A</span> <span class="n">closing</span> <span class="n">mark</span> <span class="p">(]</span> <span class="ow">or</span> <span class="o">&gt;&gt;</span><span class="p">)</span> <span class="n">had</span> <span class="n">no</span> <span class="n">matching</span> <span class="n">mark</span><span class="p">,</span> <span class="n">ignoring</span> <span class="n">the</span> <span class="n">closing</span> <span class="n">mark</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">A</span> <span class="n">dictionary</span> <span class="ow">is</span> <span class="n">missing</span> <span class="n">a</span> <span class="n">required</span> <span class="o">/</span><span class="n">Type</span> <span class="n">key</span><span class="o">.</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">A</span> <span class="n">Form</span> <span class="n">XObject</span> <span class="n">had</span> <span class="n">a</span> <span class="n">BBox</span> <span class="k">with</span> <span class="n">a</span> <span class="n">width</span> <span class="ow">or</span> <span class="n">height</span> <span class="n">of</span> <span class="mi">0</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">An</span> <span class="n">embedded</span> <span class="n">font</span> <span class="ow">is</span> <span class="n">invalid</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">A</span> <span class="n">page</span> <span class="n">ended</span> <span class="n">after</span> <span class="n">a</span> <span class="n">BT</span> <span class="n">had</span> <span class="n">been</span> <span class="n">executed</span> <span class="ow">and</span> <span class="n">without</span> <span class="n">a</span> <span class="n">mtching</span> <span class="n">ET</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">badly</span> <span class="n">escaped</span> <span class="n">name</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">bad</span> <span class="n">trailer</span> <span class="n">dictionary</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">BT</span> <span class="n">found</span> <span class="n">inside</span> <span class="n">a</span> <span class="n">text</span> <span class="n">block</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Can</span><span class="s1">&#39;t repair xref, repair already performed</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Catalog</span> <span class="n">dictionary</span> <span class="ow">not</span> <span class="n">located</span> <span class="ow">in</span> <span class="n">file</span><span class="p">,</span> <span class="n">unable</span> <span class="n">to</span> <span class="n">proceed</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">circular</span> <span class="n">reference</span> <span class="n">to</span> <span class="n">indirect</span> <span class="nb">object</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Couldn</span><span class="s1">&#39;t find a named resource</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Couldn</span><span class="s1">&#39;t retrieve MediaBox for page, using current media size</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">degenerate</span> <span class="n">text</span> <span class="n">matrix</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Document</span> <span class="n">Catalog</span> <span class="n">has</span> <span class="n">incorrect</span> <span class="o">/</span><span class="n">Type</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">encountered</span> <span class="n">more</span> <span class="n">q</span> <span class="n">than</span> <span class="n">Q</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">encountered</span> <span class="n">more</span> <span class="n">Q</span> <span class="n">than</span> <span class="n">q</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">error</span> <span class="n">executing</span> <span class="n">PDF</span> <span class="n">token</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">error</span> <span class="n">reading</span> <span class="n">a</span> <span class="n">stream</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">ET</span> <span class="n">found</span> <span class="n">outside</span> <span class="n">text</span> <span class="n">block</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">garbage</span> <span class="n">left</span> <span class="n">on</span> <span class="n">stack</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">ignoring</span> <span class="n">zlib</span> <span class="n">error</span><span class="p">:</span> <span class="n">incorrect</span> <span class="n">data</span> <span class="n">check</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Incorrect</span> <span class="o">/</span><span class="n">Length</span> <span class="k">for</span> <span class="n">stream</span> <span class="nb">object</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">integer</span> <span class="n">overflowed</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">invalid</span> <span class="nb">object</span> <span class="n">number</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">invalid</span> <span class="n">operator</span> <span class="n">used</span> <span class="ow">in</span> <span class="n">text</span> <span class="n">block</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">malformed</span> <span class="n">number</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">missing</span> <span class="n">white</span> <span class="n">space</span> <span class="n">after</span> <span class="n">number</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">non</span> <span class="n">standard</span> <span class="n">operator</span> <span class="n">found</span> <span class="o">-</span> <span class="n">ignoring</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">number</span> <span class="n">uses</span> <span class="n">illegal</span> <span class="n">exponent</span> <span class="n">form</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Object</span> <span class="n">has</span> <span class="n">an</span> <span class="n">unrecognised</span> <span class="n">Subtype</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="nb">object</span> <span class="n">lacks</span> <span class="n">an</span> <span class="n">endobj</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="nb">object</span> <span class="n">lacks</span> <span class="n">a</span> <span class="n">required</span> <span class="n">Subtype</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Page</span> <span class="n">drawing</span> <span class="n">error</span> <span class="n">occurred</span><span class="o">.</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Page</span> <span class="n">has</span> <span class="n">an</span> <span class="n">invalid</span> <span class="o">/</span><span class="n">MediaBox</span> <span class="n">attribute</span><span class="o">.</span> <span class="n">Using</span> <span class="n">the</span> <span class="n">current</span> <span class="n">page</span> <span class="n">size</span><span class="o">.</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Page</span> <span class="n">has</span> <span class="n">no</span> <span class="o">/</span><span class="n">MediaBox</span> <span class="n">attribute</span><span class="o">.</span> <span class="n">Using</span> <span class="n">the</span> <span class="n">current</span> <span class="n">page</span> <span class="n">size</span><span class="o">.</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">page</span> <span class="ow">not</span> <span class="n">found</span><span class="o">.</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Page</span> <span class="nb">object</span> <span class="n">does</span> <span class="ow">not</span> <span class="n">have</span> <span class="o">/</span><span class="n">Page</span> <span class="nb">type</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">page</span> <span class="n">tree</span> <span class="n">root</span> <span class="n">node</span> <span class="o">/</span><span class="n">Count</span> <span class="n">did</span> <span class="ow">not</span> <span class="n">match</span> <span class="n">the</span> <span class="n">actual</span> <span class="n">number</span> <span class="n">of</span> <span class="n">pages</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">tree</span><span class="o">.</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Possible</span> <span class="n">missing</span> <span class="n">white</span> <span class="n">space</span> <span class="n">between</span> <span class="n">operators</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">recoverable</span> <span class="n">image</span> <span class="n">error</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">stack</span> <span class="n">underflow</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">startxref</span> <span class="n">offset</span> <span class="n">invalid</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">text</span> <span class="n">operator</span> <span class="n">outside</span> <span class="n">text</span> <span class="n">block</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">unbalanced</span> <span class="ow">or</span> <span class="n">unescaped</span> <span class="n">character</span> <span class="s1">&#39;(&#39;</span> <span class="ow">in</span> <span class="n">string</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="o">/</span><span class="n">undefined</span> <span class="ow">in</span> <span class="o">--</span><span class="n">runpdf</span><span class="o">--</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">xref</span> <span class="n">table</span> <span class="n">was</span> <span class="n">repaired</span>
+<span class="n">JHOVE</span><span class="p">:</span>  <span class="n">Invalid</span> <span class="nb">object</span> <span class="n">definition</span>
+<span class="n">JHOVE</span><span class="p">:</span>  <span class="n">No</span> <span class="n">document</span> <span class="n">catalog</span> <span class="n">dictionary</span>
+<span class="n">veraPDF</span><span class="p">:</span>        <span class="n">can</span> <span class="ow">not</span> <span class="n">locate</span> <span class="n">xref</span> <span class="n">table</span>
+</pre></div>
+</div>
+<p>Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../../index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-validator.html">Articles by validating software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-mime.html">Articles by file format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../repairs.html">Solutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../corpus.html">Corpus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../datamodel.html">Data model</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../../../../_sources/database/solutions/JHOVE/Invalid-object-definition/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

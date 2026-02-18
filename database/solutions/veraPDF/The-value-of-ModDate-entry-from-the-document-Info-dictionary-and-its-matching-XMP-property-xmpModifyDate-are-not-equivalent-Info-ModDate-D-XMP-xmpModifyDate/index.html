@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The value of ModDate entry from the document Info dictionary and its matching XMP property .*xmp:ModifyDate.* are not equivalent (Info /ModDate = D:.*, XMP xmp:ModifyDate = .*) &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/alabaster.css?v=12dfc556" />
+    <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="the-value-of-moddate-entry-from-the-document-info-dictionary-and-its-matching-xmp-property-xmp-modifydate-are-not-equivalent-info-moddate-d-xmp-xmp-modifydate">
+<h1><a class="toc-backref" href="#id2" role="doc-backlink">The value of ModDate entry from the document Info dictionary and its matching XMP property .*xmp:ModifyDate.* are not equivalent (Info /ModDate = D:.*, XMP xmp:ModifyDate = .*)</a><a class="headerlink" href="#the-value-of-moddate-entry-from-the-document-info-dictionary-and-its-matching-xmp-property-xmp-modifydate-are-not-equivalent-info-moddate-d-xmp-xmp-modifydate" title="Link to this heading">¶</a></h1>
+<nav class="contents" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#the-value-of-moddate-entry-from-the-document-info-dictionary-and-its-matching-xmp-property-xmp-modifydate-are-not-equivalent-info-moddate-d-xmp-xmp-modifydate" id="id2">The value of ModDate entry from the document Info dictionary and its matching XMP property .*xmp:ModifyDate.* are not equivalent (Info /ModDate = D:.*, XMP xmp:ModifyDate = .*)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#classification" id="id3">Classification</a></p></li>
+<li><p><a class="reference internal" href="#analyses" id="id4">Analyses</a></p></li>
+<li><p><a class="reference internal" href="#possible-solutions" id="id5">Possible solutions</a></p></li>
+<li><p><a class="reference internal" href="#output-example" id="id6">Output example</a></p></li>
+<li><p><a class="reference internal" href="#notes-on-the-error" id="id7">Notes on the error</a></p></li>
+<li><p><a class="reference internal" href="#related-errors-by-source-files" id="id8">Related errors by source files</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="classification">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Classification</a><a class="headerlink" href="#classification" title="Link to this heading">¶</a></h2>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>Validator</strong></p></td>
+<td><p><strong>Validator version</strong></p></td>
+<td><p><strong>Error message type</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>veraPDF</p></td>
+<td><p>1.28.2</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>File format</strong></p></td>
+<td><p><strong>Version</strong></p></td>
+<td><p><strong>Specification</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>Location</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>1.3</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/balloon_a1b_jp2k.pdf">OPF</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="analyses">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Analyses</a><a class="headerlink" href="#analyses" title="Link to this heading">¶</a></h2>
+</section>
+<section id="possible-solutions">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Possible solutions</a><a class="headerlink" href="#possible-solutions" title="Link to this heading">¶</a></h2>
+</section>
+<section id="output-example">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Output example</a><a class="headerlink" href="#output-example" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;report&gt;
+  &lt;buildInformation&gt;
+    &lt;releaseDetails id=&quot;core&quot; version=&quot;1.28.2&quot; buildDate=&quot;2025-07-15T16:07:00+03:00&quot;&gt;&lt;/releaseDetails&gt;
+    &lt;releaseDetails id=&quot;validation-model&quot; version=&quot;1.28.2&quot; buildDate=&quot;2025-07-15T16:12:00+03:00&quot;&gt;&lt;/releaseDetails&gt;
+    &lt;releaseDetails id=&quot;gui&quot; version=&quot;1.28.2&quot; buildDate=&quot;2025-07-15T16:59:00+03:00&quot;&gt;&lt;/releaseDetails&gt;
+  &lt;/buildInformation&gt;
+  &lt;jobs&gt;
+    &lt;job&gt;
+      &lt;item size=&quot;698427&quot;&gt;
+        &lt;name&gt;/corpus/format-corpus/pdfCabinetOfHorrors/balloon_a1b_jp2k.pdf&lt;/name&gt;
+      &lt;/item&gt;
+      &lt;validationReport jobEndStatus=&quot;normal&quot; profileName=&quot;PDF/A-1B validation profile&quot; statement=&quot;PDF file is not compliant with Validation Profile requirements.&quot; isCompliant=&quot;false&quot;&gt;
+        &lt;details passedRules=&quot;125&quot; failedRules=&quot;4&quot; passedChecks=&quot;284&quot; failedChecks=&quot;13&quot;&gt;
+          &lt;rule specification=&quot;ISO 19005-1:2005&quot; clause=&quot;6.1.8&quot; testNumber=&quot;1&quot; status=&quot;failed&quot; failedChecks=&quot;10&quot;&gt;
+            &lt;description&gt;The object number and generation number shall be separated by a single white-space character. The generation number and obj keyword shall be separated by a single white-space character. The object number and endobj keyword shall each be preceded by an EOL marker. The obj and endobj keywords shall each be followed by an EOL marker&lt;/description&gt;
+            &lt;object&gt;CosIndirect&lt;/object&gt;
+            &lt;test&gt;spacingCompliesPDFA&lt;/test&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[0](10 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[1](9 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[2](8 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[3](7 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[4](6 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[5](5 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[6](4 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[7](3 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[8](2 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/indirectObjects[9](1 0)&lt;/context&gt;
+              &lt;errorMessage&gt;Extra spacings or missing EOL characters around indirect object/generation number or keywords &#39;obj&#39; and &#39;endobj&#39;&lt;/errorMessage&gt;
+            &lt;/check&gt;
+          &lt;/rule&gt;
+          &lt;rule specification=&quot;ISO 19005-1:2005&quot; clause=&quot;6.7.3&quot; testNumber=&quot;1&quot; status=&quot;failed&quot; failedChecks=&quot;1&quot;&gt;
+            &lt;description&gt;The value of CreationDate entry from the document information dictionary, if present, and its analogous XMP property &quot;xmp:CreateDate&quot; shall be equivalent&lt;/description&gt;
+            &lt;object&gt;CosInfo&lt;/object&gt;
+            &lt;test&gt;doCreationDatesMatch != false&lt;/test&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/trailer[0]/Info[0]&lt;/context&gt;
+              &lt;errorMessage&gt;The value of CreationDate entry from the document Info dictionary and its matching XMP property &quot;xmp:CreateDate&quot; are not equivalent (Info /CreationDate = D:20160304182438, XMP xmp:CreateDate = 2016-03-04T19:40:39.000+02)&lt;/errorMessage&gt;
+            &lt;/check&gt;
+          &lt;/rule&gt;
+          &lt;rule specification=&quot;ISO 19005-1:2005&quot; clause=&quot;6.2.3.3&quot; testNumber=&quot;1&quot; status=&quot;failed&quot; failedChecks=&quot;1&quot;&gt;
+            &lt;description&gt;DeviceRGB may be used only if the file has a PDF/A-1 OutputIntent that uses an RGB colour space&lt;/description&gt;
+            &lt;object&gt;PDDeviceRGB&lt;/object&gt;
+            &lt;test&gt;gOutputCS != null &amp;amp;&amp;amp; gOutputCS == &quot;RGB &quot;&lt;/test&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/document[0]/pages[0](4 0 obj PDPage)/contentStream[0](7 0 obj PDContentStream)/operators[2]/xObject[0](6 0 obj PDXImage)/imageCS[0]&lt;/context&gt;
+              &lt;errorMessage&gt;DeviceRGB colour space is used without RGB output intent profile&lt;/errorMessage&gt;
+            &lt;/check&gt;
+          &lt;/rule&gt;
+          &lt;rule specification=&quot;ISO 19005-1:2005&quot; clause=&quot;6.7.3&quot; testNumber=&quot;8&quot; status=&quot;failed&quot; failedChecks=&quot;1&quot;&gt;
+            &lt;description&gt;The value of ModDate entry from the document information dictionary, if present, and its analogous XMP property &quot;xmp:ModifyDate&quot; shall be equivalent&lt;/description&gt;
+            &lt;object&gt;CosInfo&lt;/object&gt;
+            &lt;test&gt;doModDatesMatch != false&lt;/test&gt;
+            &lt;check status=&quot;failed&quot;&gt;
+              &lt;context&gt;root/trailer[0]/Info[0]&lt;/context&gt;
+              &lt;errorMessage&gt;The value of ModDate entry from the document Info dictionary and its matching XMP property &quot;xmp:ModifyDate&quot; are not equivalent (Info /ModDate = D:20160304182438, XMP xmp:ModifyDate = 2016-03-04T19:40:39.000+02)&lt;/errorMessage&gt;
+            &lt;/check&gt;
+          &lt;/rule&gt;
+        &lt;/details&gt;
+      &lt;/validationReport&gt;
+      &lt;duration start=&quot;1762173441366&quot; finish=&quot;1762173442339&quot;&gt;00:00:00.973&lt;/duration&gt;
+    &lt;/job&gt;
+  &lt;/jobs&gt;
+  &lt;batchSummary totalJobs=&quot;1&quot; failedToParse=&quot;0&quot; encrypted=&quot;0&quot; outOfMemory=&quot;0&quot; veraExceptions=&quot;0&quot;&gt;
+    &lt;validationReports compliant=&quot;0&quot; nonCompliant=&quot;1&quot; failedJobs=&quot;0&quot;&gt;1&lt;/validationReports&gt;
+    &lt;featureReports failedJobs=&quot;0&quot;&gt;0&lt;/featureReports&gt;
+    &lt;repairReports failedJobs=&quot;0&quot;&gt;0&lt;/repairReports&gt;
+    &lt;duration start=&quot;1762173441073&quot; finish=&quot;1762173442402&quot;&gt;00:00:01.329&lt;/duration&gt;
+  &lt;/batchSummary&gt;
+&lt;/report&gt;
+
+MIME type (:unav) with version (:unav) is not supported.
+</pre></div>
+</div>
+</section>
+<section id="notes-on-the-error">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Notes on the error</a><a class="headerlink" href="#notes-on-the-error" title="Link to this heading">¶</a></h2>
+</section>
+<section id="related-errors-by-source-files">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Related errors by source files</a><a class="headerlink" href="#related-errors-by-source-files" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">veraPDF</span><span class="p">:</span>        <span class="n">DeviceRGB</span> <span class="n">colour</span> <span class="n">space</span> <span class="ow">is</span> <span class="n">used</span> <span class="n">without</span> <span class="n">RGB</span> <span class="n">output</span> <span class="n">intent</span> <span class="n">profile</span>
+<span class="n">veraPDF</span><span class="p">:</span>        <span class="n">Extra</span> <span class="n">spacings</span> <span class="ow">or</span> <span class="n">missing</span> <span class="n">EOL</span> <span class="n">characters</span> <span class="n">around</span> <span class="n">indirect</span> <span class="nb">object</span><span class="o">/</span><span class="n">generation</span> <span class="n">number</span> <span class="ow">or</span> <span class="n">keywords</span> <span class="s1">&#39;obj&#39;</span> <span class="ow">and</span> <span class="s1">&#39;endobj&#39;</span>
+<span class="n">veraPDF</span><span class="p">:</span>        <span class="n">The</span> <span class="n">value</span> <span class="n">of</span> <span class="n">CreationDate</span> <span class="n">entry</span> <span class="kn">from</span><span class="w"> </span><span class="nn">the</span> <span class="n">document</span> <span class="n">Info</span> <span class="n">dictionary</span> <span class="ow">and</span> <span class="n">its</span> <span class="n">matching</span> <span class="n">XMP</span> <span class="nb">property</span> <span class="o">.*</span><span class="n">xmp</span><span class="p">:</span><span class="n">CreateDate</span><span class="o">.*</span> <span class="n">are</span> <span class="ow">not</span> <span class="n">equivalent</span> <span class="p">(</span><span class="n">Info</span> <span class="o">/</span><span class="n">CreationDate</span> <span class="o">=</span> <span class="n">D</span><span class="p">:</span><span class="o">.*</span><span class="p">,</span> <span class="n">XMP</span> <span class="n">xmp</span><span class="p">:</span><span class="n">CreateDate</span> <span class="o">=</span> <span class="o">.*</span><span class="p">)</span>
+<span class="n">veraPDF</span><span class="p">:</span>        <span class="n">The</span> <span class="n">value</span> <span class="n">of</span> <span class="n">ModDate</span> <span class="n">entry</span> <span class="kn">from</span><span class="w"> </span><span class="nn">the</span> <span class="n">document</span> <span class="n">Info</span> <span class="n">dictionary</span> <span class="ow">and</span> <span class="n">its</span> <span class="n">matching</span> <span class="n">XMP</span> <span class="nb">property</span> <span class="o">.*</span><span class="n">xmp</span><span class="p">:</span><span class="n">ModifyDate</span><span class="o">.*</span> <span class="n">are</span> <span class="ow">not</span> <span class="n">equivalent</span> <span class="p">(</span><span class="n">Info</span> <span class="o">/</span><span class="n">ModDate</span> <span class="o">=</span> <span class="n">D</span><span class="p">:</span><span class="o">.*</span><span class="p">,</span> <span class="n">XMP</span> <span class="n">xmp</span><span class="p">:</span><span class="n">ModifyDate</span> <span class="o">=</span> <span class="o">.*</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../../index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-validator.html">Articles by validating software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-mime.html">Articles by file format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../repairs.html">Solutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../corpus.html">Corpus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../datamodel.html">Data model</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../../../../_sources/database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

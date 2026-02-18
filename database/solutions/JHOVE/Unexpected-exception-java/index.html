@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Unexpected exception java.* &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/alabaster.css?v=12dfc556" />
+    <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="unexpected-exception-java">
+<h1><a class="toc-backref" href="#id2" role="doc-backlink">Unexpected exception java.*</a><a class="headerlink" href="#unexpected-exception-java" title="Link to this heading">¶</a></h1>
+<nav class="contents" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#unexpected-exception-java" id="id2">Unexpected exception java.*</a></p>
+<ul>
+<li><p><a class="reference internal" href="#classification" id="id3">Classification</a></p></li>
+<li><p><a class="reference internal" href="#analyses" id="id4">Analyses</a></p></li>
+<li><p><a class="reference internal" href="#possible-solutions" id="id5">Possible solutions</a></p></li>
+<li><p><a class="reference internal" href="#output-example" id="id6">Output example</a></p></li>
+<li><p><a class="reference internal" href="#notes-on-the-error" id="id7">Notes on the error</a></p></li>
+<li><p><a class="reference internal" href="#related-errors-by-source-files" id="id8">Related errors by source files</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="classification">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Classification</a><a class="headerlink" href="#classification" title="Link to this heading">¶</a></h2>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>Validator</strong></p></td>
+<td><p><strong>Validator version</strong></p></td>
+<td><p><strong>Error message type</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>JHOVE</p></td>
+<td><p>1.32.1</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>File format</strong></p></td>
+<td><p><strong>Version</strong></p></td>
+<td><p><strong>Specification</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>Location</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>application/pdf</p></td>
+<td><p>A-1b</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/veraPDFHiResWrongObjectID.pdf">OPF</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="analyses">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Analyses</a><a class="headerlink" href="#analyses" title="Link to this heading">¶</a></h2>
+<section id="analysis">
+<h3>Analysis<a class="headerlink" href="#analysis" title="Link to this heading">¶</a></h3>
+<p>See JHOVE documentation: <a class="reference external" href="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#PDF-HUL-103">https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#PDF-HUL-103</a></p>
+<p>Is it a bug in the validating software? -</p>
+</section>
+</section>
+<section id="possible-solutions">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Possible solutions</a><a class="headerlink" href="#possible-solutions" title="Link to this heading">¶</a></h2>
+</section>
+<section id="output-example">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Output example</a><a class="headerlink" href="#output-example" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Validator returned error.
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;jhove xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schema.openpreservation.org/ois/xml/ns/jhove&quot; xsi:schemaLocation=&quot;http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd&quot; name=&quot;Jhove&quot; release=&quot;1.32.1&quot; date=&quot;2025-02-06&quot;&gt;
+ &lt;date&gt;2025-11-03T14:38:49+02:00&lt;/date&gt;
+ &lt;repInfo uri=&quot;/corpus/format-corpus/pdfCabinetOfHorrors/veraPDFHiResWrongObjectID.pdf&quot;&gt;
+  &lt;reportingModule release=&quot;1.12.7&quot; date=&quot;2024-08-22&quot;&gt;PDF-hul&lt;/reportingModule&gt;
+  &lt;lastModified&gt;2025-10-22T10:46:06+03:00&lt;/lastModified&gt;
+  &lt;size&gt;65205&lt;/size&gt;
+  &lt;format&gt;PDF&lt;/format&gt;
+  &lt;version&gt;1.4&lt;/version&gt;
+  &lt;status&gt;Not well-formed&lt;/status&gt;
+  &lt;sigMatch&gt;
+  &lt;module&gt;PDF-hul&lt;/module&gt;
+  &lt;/sigMatch&gt;
+  &lt;messages&gt;
+   &lt;message severity=&quot;error&quot; id=&quot;PDF-HUL-103&quot; infoLink=&quot;https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-103&quot;&gt;Unexpected exception java.lang.ArrayIndexOutOfBoundsException&lt;/message&gt;
+  &lt;/messages&gt;
+  &lt;mimeType&gt;application/pdf&lt;/mimeType&gt;
+  &lt;properties&gt;
+   &lt;property&gt;
+    &lt;name&gt;PDFMetadata&lt;/name&gt;
+    &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+    &lt;property&gt;
+     &lt;name&gt;Objects&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+      &lt;value&gt;13&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;FreeObjects&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+      &lt;value&gt;1&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;IncrementalUpdates&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+      &lt;value&gt;1&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;DocumentCatalog&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+     &lt;property&gt;
+      &lt;name&gt;PageLayout&lt;/name&gt;
+      &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+       &lt;value&gt;SinglePage&lt;/value&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;PageMode&lt;/name&gt;
+      &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+       &lt;value&gt;UseNone&lt;/value&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Info&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+     &lt;property&gt;
+      &lt;name&gt;Creator&lt;/name&gt;
+      &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+       &lt;value&gt;Adobe Acrobat 11.0.6&lt;/value&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;Producer&lt;/name&gt;
+      &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+       &lt;value&gt;Adobe Acrobat 11.0.6 Image Conversion Plug-in&lt;/value&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;CreationDate&lt;/name&gt;
+      &lt;values arity=&quot;Scalar&quot; type=&quot;Date&quot;&gt;
+       &lt;value&gt;Wed Jul 01 17:56:50 EEST 2015&lt;/value&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;ModDate&lt;/name&gt;
+      &lt;values arity=&quot;Scalar&quot; type=&quot;Date&quot;&gt;
+       &lt;value&gt;Wed Jul 01 17:57:43 EEST 2015&lt;/value&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;ID&lt;/name&gt;
+     &lt;values arity=&quot;Array&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;0xdefec2e7f1016f4aa940b161264a056a&lt;/value&gt;
+      &lt;value&gt;0x2e986c2b23f1b04f91878e96c0b22f99&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Filters&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+     &lt;property&gt;
+      &lt;name&gt;FilterPipeline&lt;/name&gt;
+      &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+       &lt;value&gt;FlateDecode&lt;/value&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;XMP&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;&amp;lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03        &quot;&amp;gt;
+   &amp;lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&amp;gt;
+      &amp;lt;rdf:Description rdf:about=&quot;&quot;
+            xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot;
+            xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;
+            xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot;
+            xmlns:stEvt=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceEvent#&quot;
+            xmlns:pdf=&quot;http://ns.adobe.com/pdf/1.3/&quot;
+            xmlns:pdfaid=&quot;http://www.aiim.org/pdfa/ns/id/&quot;
+            xmlns:pdfaExtension=&quot;http://www.aiim.org/pdfa/ns/extension/&quot;
+            xmlns:pdfaSchema=&quot;http://www.aiim.org/pdfa/ns/schema#&quot;
+            xmlns:pdfaProperty=&quot;http://www.aiim.org/pdfa/ns/property#&quot;&amp;gt;
+         &amp;lt;xmp:CreateDate&amp;gt;2015-07-01T16:56:50+02:00&amp;lt;/xmp:CreateDate&amp;gt;
+         &amp;lt;xmp:CreatorTool&amp;gt;Adobe Acrobat 11.0.6&amp;lt;/xmp:CreatorTool&amp;gt;
+         &amp;lt;xmp:ModifyDate&amp;gt;2015-07-01T16:57:43+02:00&amp;lt;/xmp:ModifyDate&amp;gt;
+         &amp;lt;xmp:MetadataDate&amp;gt;2015-07-01T16:57:43+02:00&amp;lt;/xmp:MetadataDate&amp;gt;
+         &amp;lt;dc:format&amp;gt;application/pdf&amp;lt;/dc:format&amp;gt;
+         &amp;lt;xmpMM:DocumentID&amp;gt;uuid:3d488eb9-5f0c-454f-bfa8-c7a6486620ef&amp;lt;/xmpMM:DocumentID&amp;gt;
+         &amp;lt;xmpMM:InstanceID&amp;gt;uuid:5fb2d1f9-5f21-41cf-8729-641f971130e7&amp;lt;/xmpMM:InstanceID&amp;gt;
+         &amp;lt;xmpMM:RenditionClass&amp;gt;default&amp;lt;/xmpMM:RenditionClass&amp;gt;
+         &amp;lt;xmpMM:VersionID&amp;gt;1&amp;lt;/xmpMM:VersionID&amp;gt;
+         &amp;lt;xmpMM:History&amp;gt;
+            &amp;lt;rdf:Seq&amp;gt;
+               &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                  &amp;lt;stEvt:action&amp;gt;converted&amp;lt;/stEvt:action&amp;gt;
+                  &amp;lt;stEvt:instanceID&amp;gt;uuid:b0913a20-6d53-4d33-a3d5-a70b487a99f7&amp;lt;/stEvt:instanceID&amp;gt;
+                  &amp;lt;stEvt:parameters&amp;gt;converted to PDF/A-1b&amp;lt;/stEvt:parameters&amp;gt;
+                  &amp;lt;stEvt:softwareAgent&amp;gt;Preflight&amp;lt;/stEvt:softwareAgent&amp;gt;
+                  &amp;lt;stEvt:when&amp;gt;2015-07-01T16:57:43+02:00&amp;lt;/stEvt:when&amp;gt;
+               &amp;lt;/rdf:li&amp;gt;
+            &amp;lt;/rdf:Seq&amp;gt;
+         &amp;lt;/xmpMM:History&amp;gt;
+         &amp;lt;pdf:Producer&amp;gt;Adobe Acrobat 11.0.6 Image Conversion Plug-in&amp;lt;/pdf:Producer&amp;gt;
+         &amp;lt;pdfaid:part&amp;gt;1&amp;lt;/pdfaid:part&amp;gt;
+         &amp;lt;pdfaid:conformance&amp;gt;B&amp;lt;/pdfaid:conformance&amp;gt;
+         &amp;lt;pdfaExtension:schemas&amp;gt;
+            &amp;lt;rdf:Bag&amp;gt;
+               &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                  &amp;lt;pdfaSchema:namespaceURI&amp;gt;http://ns.adobe.com/pdf/1.3/&amp;lt;/pdfaSchema:namespaceURI&amp;gt;
+                  &amp;lt;pdfaSchema:prefix&amp;gt;pdf&amp;lt;/pdfaSchema:prefix&amp;gt;
+                  &amp;lt;pdfaSchema:schema&amp;gt;Adobe PDF Schema&amp;lt;/pdfaSchema:schema&amp;gt;
+                  &amp;lt;pdfaSchema:property&amp;gt;
+                     &amp;lt;rdf:Seq&amp;gt;
+                        &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                           &amp;lt;pdfaProperty:category&amp;gt;internal&amp;lt;/pdfaProperty:category&amp;gt;
+                           &amp;lt;pdfaProperty:description&amp;gt;A name object indicating whether the document has been modified to include trapping information&amp;lt;/pdfaProperty:description&amp;gt;
+                           &amp;lt;pdfaProperty:name&amp;gt;Trapped&amp;lt;/pdfaProperty:name&amp;gt;
+                           &amp;lt;pdfaProperty:valueType&amp;gt;Text&amp;lt;/pdfaProperty:valueType&amp;gt;
+                        &amp;lt;/rdf:li&amp;gt;
+                     &amp;lt;/rdf:Seq&amp;gt;
+                  &amp;lt;/pdfaSchema:property&amp;gt;
+               &amp;lt;/rdf:li&amp;gt;
+               &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                  &amp;lt;pdfaSchema:namespaceURI&amp;gt;http://ns.adobe.com/xap/1.0/mm/&amp;lt;/pdfaSchema:namespaceURI&amp;gt;
+                  &amp;lt;pdfaSchema:prefix&amp;gt;xmpMM&amp;lt;/pdfaSchema:prefix&amp;gt;
+                  &amp;lt;pdfaSchema:schema&amp;gt;XMP Media Management Schema&amp;lt;/pdfaSchema:schema&amp;gt;
+                  &amp;lt;pdfaSchema:property&amp;gt;
+                     &amp;lt;rdf:Seq&amp;gt;
+                        &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                           &amp;lt;pdfaProperty:category&amp;gt;internal&amp;lt;/pdfaProperty:category&amp;gt;
+                           &amp;lt;pdfaProperty:description&amp;gt;UUID based identifier for specific incarnation of a document&amp;lt;/pdfaProperty:description&amp;gt;
+                           &amp;lt;pdfaProperty:name&amp;gt;InstanceID&amp;lt;/pdfaProperty:name&amp;gt;
+                           &amp;lt;pdfaProperty:valueType&amp;gt;URI&amp;lt;/pdfaProperty:valueType&amp;gt;
+                        &amp;lt;/rdf:li&amp;gt;
+                        &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                           &amp;lt;pdfaProperty:category&amp;gt;internal&amp;lt;/pdfaProperty:category&amp;gt;
+                           &amp;lt;pdfaProperty:description&amp;gt;The common identifier for all versions and renditions of a document.&amp;lt;/pdfaProperty:description&amp;gt;
+                           &amp;lt;pdfaProperty:name&amp;gt;OriginalDocumentID&amp;lt;/pdfaProperty:name&amp;gt;
+                           &amp;lt;pdfaProperty:valueType&amp;gt;URI&amp;lt;/pdfaProperty:valueType&amp;gt;
+                        &amp;lt;/rdf:li&amp;gt;
+                     &amp;lt;/rdf:Seq&amp;gt;
+                  &amp;lt;/pdfaSchema:property&amp;gt;
+               &amp;lt;/rdf:li&amp;gt;
+               &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                  &amp;lt;pdfaSchema:namespaceURI&amp;gt;http://www.aiim.org/pdfa/ns/id/&amp;lt;/pdfaSchema:namespaceURI&amp;gt;
+                  &amp;lt;pdfaSchema:prefix&amp;gt;pdfaid&amp;lt;/pdfaSchema:prefix&amp;gt;
+                  &amp;lt;pdfaSchema:schema&amp;gt;PDF/A ID Schema&amp;lt;/pdfaSchema:schema&amp;gt;
+                  &amp;lt;pdfaSchema:property&amp;gt;
+                     &amp;lt;rdf:Seq&amp;gt;
+                        &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                           &amp;lt;pdfaProperty:category&amp;gt;internal&amp;lt;/pdfaProperty:category&amp;gt;
+                           &amp;lt;pdfaProperty:description&amp;gt;Part of PDF/A standard&amp;lt;/pdfaProperty:description&amp;gt;
+                           &amp;lt;pdfaProperty:name&amp;gt;part&amp;lt;/pdfaProperty:name&amp;gt;
+                           &amp;lt;pdfaProperty:valueType&amp;gt;Integer&amp;lt;/pdfaProperty:valueType&amp;gt;
+                        &amp;lt;/rdf:li&amp;gt;
+                        &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                           &amp;lt;pdfaProperty:category&amp;gt;internal&amp;lt;/pdfaProperty:category&amp;gt;
+                           &amp;lt;pdfaProperty:description&amp;gt;Amendment of PDF/A standard&amp;lt;/pdfaProperty:description&amp;gt;
+                           &amp;lt;pdfaProperty:name&amp;gt;amd&amp;lt;/pdfaProperty:name&amp;gt;
+                           &amp;lt;pdfaProperty:valueType&amp;gt;Text&amp;lt;/pdfaProperty:valueType&amp;gt;
+                        &amp;lt;/rdf:li&amp;gt;
+                        &amp;lt;rdf:li rdf:parseType=&quot;Resource&quot;&amp;gt;
+                           &amp;lt;pdfaProperty:category&amp;gt;internal&amp;lt;/pdfaProperty:category&amp;gt;
+                           &amp;lt;pdfaProperty:description&amp;gt;Conformance level of PDF/A standard&amp;lt;/pdfaProperty:description&amp;gt;
+                           &amp;lt;pdfaProperty:name&amp;gt;conformance&amp;lt;/pdfaProperty:name&amp;gt;
+                           &amp;lt;pdfaProperty:valueType&amp;gt;Text&amp;lt;/pdfaProperty:valueType&amp;gt;
+                        &amp;lt;/rdf:li&amp;gt;
+                     &amp;lt;/rdf:Seq&amp;gt;
+                  &amp;lt;/pdfaSchema:property&amp;gt;
+               &amp;lt;/rdf:li&amp;gt;
+            &amp;lt;/rdf:Bag&amp;gt;
+         &amp;lt;/pdfaExtension:schemas&amp;gt;
+      &amp;lt;/rdf:Description&amp;gt;
+   &amp;lt;/rdf:RDF&amp;gt;
+&amp;lt;/x:xmpmeta&amp;gt;&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Pages&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+     &lt;property&gt;
+      &lt;name&gt;Page&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Sequence&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+        &lt;value&gt;1&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;/values&gt;
+   &lt;/property&gt;
+  &lt;/properties&gt;
+ &lt;/repInfo&gt;
+&lt;/jhove&gt;
+</pre></div>
+</div>
+</section>
+<section id="notes-on-the-error">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Notes on the error</a><a class="headerlink" href="#notes-on-the-error" title="Link to this heading">¶</a></h2>
+</section>
+<section id="related-errors-by-source-files">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Related errors by source files</a><a class="headerlink" href="#related-errors-by-source-files" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Can</span><span class="s1">&#39;t repair xref, repair already performed</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">Couldn</span><span class="s1">&#39;t find a named resource</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">error</span> <span class="n">executing</span> <span class="n">PDF</span> <span class="n">token</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">invalid</span> <span class="nb">object</span> <span class="n">number</span>
+<span class="n">Ghostscript</span><span class="p">:</span>    <span class="n">xref</span> <span class="n">table</span> <span class="n">was</span> <span class="n">repaired</span>
+<span class="n">JHOVE</span><span class="p">:</span>  <span class="n">Unexpected</span> <span class="n">exception</span> <span class="n">java</span><span class="o">.*</span>
+</pre></div>
+</div>
+<p>Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../../index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-validator.html">Articles by validating software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-mime.html">Articles by file format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../repairs.html">Solutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../corpus.html">Corpus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../datamodel.html">Data model</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../../../../_sources/database/solutions/JHOVE/Unexpected-exception-java/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

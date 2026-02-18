@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>SAXParseException: The content of element type ..html.. must match ..(head,body).. &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/alabaster.css?v=12dfc556" />
+    <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="saxparseexception-the-content-of-element-type-html-must-match-head-body">
+<h1><a class="toc-backref" href="#id2" role="doc-backlink">SAXParseException: The content of element type ..html.. must match ..(head,body)..</a><a class="headerlink" href="#saxparseexception-the-content-of-element-type-html-must-match-head-body" title="Link to this heading">¶</a></h1>
+<nav class="contents" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#saxparseexception-the-content-of-element-type-html-must-match-head-body" id="id2">SAXParseException: The content of element type ..html.. must match ..(head,body)..</a></p>
+<ul>
+<li><p><a class="reference internal" href="#classification" id="id3">Classification</a></p></li>
+<li><p><a class="reference internal" href="#analyses" id="id4">Analyses</a></p></li>
+<li><p><a class="reference internal" href="#possible-solutions" id="id5">Possible solutions</a></p></li>
+<li><p><a class="reference internal" href="#output-example" id="id6">Output example</a></p></li>
+<li><p><a class="reference internal" href="#notes-on-the-error" id="id7">Notes on the error</a></p></li>
+<li><p><a class="reference internal" href="#related-errors-by-source-files" id="id8">Related errors by source files</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="classification">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Classification</a><a class="headerlink" href="#classification" title="Link to this heading">¶</a></h2>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>Validator</strong></p></td>
+<td><p><strong>Validator version</strong></p></td>
+<td><p><strong>Error message type</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>JHOVE</p></td>
+<td><p>1.32.1</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>File format</strong></p></td>
+<td><p><strong>Version</strong></p></td>
+<td><p><strong>Specification</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>Location</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>application/xhtml+xml</p></td>
+<td><p>1.0</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference internal" href="../../../../corpus/files.html#file-scraper-e102c6a4-1954-42b0-ad01-22ffdf2e7edc"><span class="std std-ref">corpus</span></a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="analyses">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Analyses</a><a class="headerlink" href="#analyses" title="Link to this heading">¶</a></h2>
+</section>
+<section id="possible-solutions">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Possible solutions</a><a class="headerlink" href="#possible-solutions" title="Link to this heading">¶</a></h2>
+</section>
+<section id="output-example">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Output example</a><a class="headerlink" href="#output-example" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Validator returned error.
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;jhove xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schema.openpreservation.org/ois/xml/ns/jhove&quot; xsi:schemaLocation=&quot;http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd&quot; name=&quot;Jhove&quot; release=&quot;1.32.1&quot; date=&quot;2025-02-06&quot;&gt;
+ &lt;date&gt;2025-10-29T17:24:30+02:00&lt;/date&gt;
+ &lt;repInfo uri=&quot;/corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_illegal_tags.xhtml&quot;&gt;
+  &lt;reportingModule release=&quot;1.5.5&quot; date=&quot;2024-08-22&quot;&gt;XML-hul&lt;/reportingModule&gt;
+  &lt;lastModified&gt;2025-10-28T08:43:04+02:00&lt;/lastModified&gt;
+  &lt;size&gt;296&lt;/size&gt;
+  &lt;format&gt;XHTML&lt;/format&gt;
+  &lt;version&gt;1.0&lt;/version&gt;
+  &lt;status&gt;Well-Formed, but not valid&lt;/status&gt;
+  &lt;sigMatch&gt;
+  &lt;module&gt;XML-hul&lt;/module&gt;
+  &lt;/sigMatch&gt;
+  &lt;messages&gt;
+   &lt;message subMessage=&quot;Line = 15, Column = 8.&quot; severity=&quot;error&quot; id=&quot;XML-HUL-1&quot; infoLink=&quot;https://github.com/openpreserve/jhove/wiki/XML-hul-Messages#xml-hul-1&quot;&gt;SAXParseException: The content of element type &quot;html&quot; must match &quot;(head,body)&quot;.&lt;/message&gt;
+   &lt;message subMessage=&quot;Line = 11, Column = 7.&quot; severity=&quot;error&quot; id=&quot;XML-HUL-1&quot; infoLink=&quot;https://github.com/openpreserve/jhove/wiki/XML-hul-Messages#xml-hul-1&quot;&gt;SAXParseException: Element type &quot;bod&quot; must be declared.&lt;/message&gt;
+  &lt;/messages&gt;
+  &lt;mimeType&gt;text/xml&lt;/mimeType&gt;
+  &lt;properties&gt;
+   &lt;property&gt;
+    &lt;name&gt;HTMLMetadata&lt;/name&gt;
+    &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+    &lt;property&gt;
+     &lt;name&gt;Title&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;Test document&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;/values&gt;
+   &lt;/property&gt;
+   &lt;property&gt;
+    &lt;name&gt;XMLMetadata&lt;/name&gt;
+    &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+    &lt;property&gt;
+     &lt;name&gt;Parser&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Encoding&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;UTF-8&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;DTD_URI&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Schemas&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+     &lt;property&gt;
+      &lt;name&gt;Schema&lt;/name&gt;
+      &lt;values arity=&quot;Array&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;NamespaceURI&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;http://www.w3.org/1999/xhtml&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Root&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;html&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Namespaces&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+     &lt;property&gt;
+      &lt;name&gt;Namespace&lt;/name&gt;
+      &lt;values arity=&quot;Array&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;URI&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;http://www.w3.org/1999/xhtml&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Entities&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+     &lt;property&gt;
+      &lt;name&gt;Entity&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Name&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;%misc.inline&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;Internal&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Value&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;ins | del | script&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;Entity&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Name&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;%misc&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;Internal&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Value&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;noscript | ins | del | script&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;Entity&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Name&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;%inline&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;Internal&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Value&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;a | br | span | bdo | object | applet | img | map | iframe | tt | i | b | u
+                      | s | strike  | big | small | font | basefont | em | strong | dfn | code | q |
+                   samp | kbd | var | cite | abbr | acronym | sub | sup | input | select | textarea | label | button&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;Entity&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Name&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;%block&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;Internal&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Value&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;p | h1|h2|h3|h4|h5|h6 | div | ul | ol | dl | menu | dir | pre | hr | blockquote | address | center | noframes | isindex |fieldset | table&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;Entity&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Name&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;%head.misc&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;Internal&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Value&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;(script|style|meta|link|object|isindex)*&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;Entity&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Name&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;%HTMLlat1&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;External parsed&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;PublicID&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;-//W3C//ENTITIES Latin 1 for XHTML//EN&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;SystemID&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;http://hul.harvard.edu/xhtml-lat1.ent&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;Entity&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Name&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;%HTMLsymbol&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;External parsed&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;PublicID&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;-//W3C//ENTITIES Symbols for XHTML//EN&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;SystemID&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;http://hul.harvard.edu/xhtml-symbol.ent&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;Entity&lt;/name&gt;
+      &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Name&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;%HTMLspecial&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;External parsed&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;PublicID&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;-//W3C//ENTITIES Special for XHTML//EN&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;SystemID&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;http://hul.harvard.edu/xhtml-special.ent&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;Comments&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;
+   Extensible HTML version 1.0 Transitional DTD
+
+   This is the same as HTML 4 Transitional except for
+   changes due to the differences between XML and SGML.
+
+   Namespace = http://www.w3.org/1999/xhtml
+
+   For further information, see: http://www.w3.org/TR/xhtml1
+
+   Copyright (c) 1998-2002 W3C (MIT, INRIA, Keio),
+   All Rights Reserved.
+
+   This DTD module is identified by the PUBLIC and SYSTEM identifiers:
+
+   PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+   SYSTEM &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;
+
+   $Revision$
+   $Date$
+
+&lt;/value&gt;
+      &lt;value&gt;================ Character mnemonic entities =========================&lt;/value&gt;
+      &lt;value&gt; Portions (C) International Organization for Standardization 1986
+     Permission to copy in any form is granted for use with
+     conforming SGML systems and applications as defined in
+     ISO 8879, provided this notice is included in all copies.
+&lt;/value&gt;
+      &lt;value&gt; Character entity set. Typical invocation:
+    &amp;lt;!ENTITY % HTMLlat1 PUBLIC
+       &quot;-//W3C//ENTITIES Latin 1 for XHTML//EN&quot;
+       &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent&quot;&amp;gt;
+    %HTMLlat1;
+&lt;/value&gt;
+      &lt;value&gt; no-break space = non-breaking space,
+                                  U+00A0 ISOnum &lt;/value&gt;
+      &lt;value&gt; inverted exclamation mark, U+00A1 ISOnum &lt;/value&gt;
+      &lt;value&gt; cent sign, U+00A2 ISOnum &lt;/value&gt;
+      &lt;value&gt; pound sign, U+00A3 ISOnum &lt;/value&gt;
+      &lt;value&gt; currency sign, U+00A4 ISOnum &lt;/value&gt;
+      &lt;value&gt; yen sign = yuan sign, U+00A5 ISOnum &lt;/value&gt;
+      &lt;value&gt; broken bar = broken vertical bar,
+                                  U+00A6 ISOnum &lt;/value&gt;
+      &lt;value&gt; section sign, U+00A7 ISOnum &lt;/value&gt;
+      &lt;value&gt; diaeresis = spacing diaeresis,
+                                  U+00A8 ISOdia &lt;/value&gt;
+      &lt;value&gt; copyright sign, U+00A9 ISOnum &lt;/value&gt;
+      &lt;value&gt; feminine ordinal indicator, U+00AA ISOnum &lt;/value&gt;
+      &lt;value&gt; left-pointing double angle quotation mark
+                                  = left pointing guillemet, U+00AB ISOnum &lt;/value&gt;
+      &lt;value&gt; not sign = angled dash,
+                                  U+00AC ISOnum &lt;/value&gt;
+      &lt;value&gt; soft hyphen = discretionary hyphen,
+                                  U+00AD ISOnum &lt;/value&gt;
+      &lt;value&gt; registered sign = registered trade mark sign,
+                                  U+00AE ISOnum &lt;/value&gt;
+      &lt;value&gt; macron = spacing macron = overline
+                                  = APL overbar, U+00AF ISOdia &lt;/value&gt;
+      &lt;value&gt; degree sign, U+00B0 ISOnum &lt;/value&gt;
+      &lt;value&gt; plus-minus sign = plus-or-minus sign,
+                                  U+00B1 ISOnum &lt;/value&gt;
+      &lt;value&gt; superscript two = superscript digit two
+                                  = squared, U+00B2 ISOnum &lt;/value&gt;
+      &lt;value&gt; superscript three = superscript digit three
+                                  = cubed, U+00B3 ISOnum &lt;/value&gt;
+      &lt;value&gt; acute accent = spacing acute,
+                                  U+00B4 ISOdia &lt;/value&gt;
+      &lt;value&gt; micro sign, U+00B5 ISOnum &lt;/value&gt;
+      &lt;value&gt; pilcrow sign = paragraph sign,
+                                  U+00B6 ISOnum &lt;/value&gt;
+      &lt;value&gt; middle dot = Georgian comma
+                                  = Greek middle dot, U+00B7 ISOnum &lt;/value&gt;
+      &lt;value&gt; cedilla = spacing cedilla, U+00B8 ISOdia &lt;/value&gt;
+      &lt;value&gt; superscript one = superscript digit one,
+                                  U+00B9 ISOnum &lt;/value&gt;
+      &lt;value&gt; masculine ordinal indicator,
+                                  U+00BA ISOnum &lt;/value&gt;
+      &lt;value&gt; right-pointing double angle quotation mark
+                                  = right pointing guillemet, U+00BB ISOnum &lt;/value&gt;
+      &lt;value&gt; vulgar fraction one quarter
+                                  = fraction one quarter, U+00BC ISOnum &lt;/value&gt;
+      &lt;value&gt; vulgar fraction one half
+                                  = fraction one half, U+00BD ISOnum &lt;/value&gt;
+      &lt;value&gt; vulgar fraction three quarters
+                                  = fraction three quarters, U+00BE ISOnum &lt;/value&gt;
+      &lt;value&gt; inverted question mark
+                                  = turned question mark, U+00BF ISOnum &lt;/value&gt;
+      &lt;value&gt; latin capital letter A with grave
+                                  = latin capital letter A grave,
+                                  U+00C0 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter A with acute,
+                                  U+00C1 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter A with circumflex,
+                                  U+00C2 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter A with tilde,
+                                  U+00C3 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter A with diaeresis,
+                                  U+00C4 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter A with ring above
+                                  = latin capital letter A ring,
+                                  U+00C5 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter AE
+                                  = latin capital ligature AE,
+                                  U+00C6 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter C with cedilla,
+                                  U+00C7 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter E with grave,
+                                  U+00C8 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter E with acute,
+                                  U+00C9 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter E with circumflex,
+                                  U+00CA ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter E with diaeresis,
+                                  U+00CB ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter I with grave,
+                                  U+00CC ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter I with acute,
+                                  U+00CD ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter I with circumflex,
+                                  U+00CE ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter I with diaeresis,
+                                  U+00CF ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter ETH, U+00D0 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter N with tilde,
+                                  U+00D1 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter O with grave,
+                                  U+00D2 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter O with acute,
+                                  U+00D3 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter O with circumflex,
+                                  U+00D4 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter O with tilde,
+                                  U+00D5 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter O with diaeresis,
+                                  U+00D6 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; multiplication sign, U+00D7 ISOnum &lt;/value&gt;
+      &lt;value&gt; latin capital letter O with stroke
+                                  = latin capital letter O slash,
+                                  U+00D8 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter U with grave,
+                                  U+00D9 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter U with acute,
+                                  U+00DA ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter U with circumflex,
+                                  U+00DB ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter U with diaeresis,
+                                  U+00DC ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter Y with acute,
+                                  U+00DD ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin capital letter THORN,
+                                  U+00DE ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter sharp s = ess-zed,
+                                  U+00DF ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter a with grave
+                                  = latin small letter a grave,
+                                  U+00E0 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter a with acute,
+                                  U+00E1 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter a with circumflex,
+                                  U+00E2 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter a with tilde,
+                                  U+00E3 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter a with diaeresis,
+                                  U+00E4 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter a with ring above
+                                  = latin small letter a ring,
+                                  U+00E5 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter ae
+                                  = latin small ligature ae, U+00E6 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter c with cedilla,
+                                  U+00E7 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter e with grave,
+                                  U+00E8 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter e with acute,
+                                  U+00E9 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter e with circumflex,
+                                  U+00EA ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter e with diaeresis,
+                                  U+00EB ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter i with grave,
+                                  U+00EC ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter i with acute,
+                                  U+00ED ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter i with circumflex,
+                                  U+00EE ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter i with diaeresis,
+                                  U+00EF ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter eth, U+00F0 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter n with tilde,
+                                  U+00F1 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter o with grave,
+                                  U+00F2 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter o with acute,
+                                  U+00F3 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter o with circumflex,
+                                  U+00F4 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter o with tilde,
+                                  U+00F5 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter o with diaeresis,
+                                  U+00F6 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; division sign, U+00F7 ISOnum &lt;/value&gt;
+      &lt;value&gt; latin small letter o with stroke,
+                                  = latin small letter o slash,
+                                  U+00F8 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter u with grave,
+                                  U+00F9 ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter u with acute,
+                                  U+00FA ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter u with circumflex,
+                                  U+00FB ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter u with diaeresis,
+                                  U+00FC ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter y with acute,
+                                  U+00FD ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter thorn,
+                                  U+00FE ISOlat1 &lt;/value&gt;
+      &lt;value&gt; latin small letter y with diaeresis,
+                                  U+00FF ISOlat1 &lt;/value&gt;
+      &lt;value&gt; Mathematical, Greek and Symbolic characters for XHTML &lt;/value&gt;
+      &lt;value&gt; Character entity set. Typical invocation:
+     &amp;lt;!ENTITY % HTMLsymbol PUBLIC
+        &quot;-//W3C//ENTITIES Symbols for XHTML//EN&quot;
+        &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent&quot;&amp;gt;
+     %HTMLsymbol;
+&lt;/value&gt;
+      &lt;value&gt; Portions (C) International Organization for Standardization 1986:
+     Permission to copy in any form is granted for use with
+     conforming SGML systems and applications as defined in
+     ISO 8879, provided this notice is included in all copies.
+&lt;/value&gt;
+      &lt;value&gt; Relevant ISO entity set is given unless names are newly introduced.
+     New names (i.e., not in ISO 8879 list) do not clash with any
+     existing ISO 8879 entity names. ISO 10646 character numbers
+     are given for each character, in hex. values are decimal
+     conversions of the ISO 10646 values and refer to the document
+     character set. Names are Unicode names.
+&lt;/value&gt;
+      &lt;value&gt; Latin Extended-B &lt;/value&gt;
+      &lt;value&gt; latin small letter f with hook = function
+                                    = florin, U+0192 ISOtech &lt;/value&gt;
+      &lt;value&gt; Greek &lt;/value&gt;
+      &lt;value&gt; greek capital letter alpha, U+0391 &lt;/value&gt;
+      &lt;value&gt; greek capital letter beta, U+0392 &lt;/value&gt;
+      &lt;value&gt; greek capital letter gamma,
+                                    U+0393 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter delta,
+                                    U+0394 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter epsilon, U+0395 &lt;/value&gt;
+      &lt;value&gt; greek capital letter zeta, U+0396 &lt;/value&gt;
+      &lt;value&gt; greek capital letter eta, U+0397 &lt;/value&gt;
+      &lt;value&gt; greek capital letter theta,
+                                    U+0398 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter iota, U+0399 &lt;/value&gt;
+      &lt;value&gt; greek capital letter kappa, U+039A &lt;/value&gt;
+      &lt;value&gt; greek capital letter lamda,
+                                    U+039B ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter mu, U+039C &lt;/value&gt;
+      &lt;value&gt; greek capital letter nu, U+039D &lt;/value&gt;
+      &lt;value&gt; greek capital letter xi, U+039E ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter omicron, U+039F &lt;/value&gt;
+      &lt;value&gt; greek capital letter pi, U+03A0 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter rho, U+03A1 &lt;/value&gt;
+      &lt;value&gt; there is no Sigmaf, and no U+03A2 character either &lt;/value&gt;
+      &lt;value&gt; greek capital letter sigma,
+                                    U+03A3 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter tau, U+03A4 &lt;/value&gt;
+      &lt;value&gt; greek capital letter upsilon,
+                                    U+03A5 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter phi,
+                                    U+03A6 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter chi, U+03A7 &lt;/value&gt;
+      &lt;value&gt; greek capital letter psi,
+                                    U+03A8 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek capital letter omega,
+                                    U+03A9 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter alpha,
+                                    U+03B1 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter beta, U+03B2 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter gamma,
+                                    U+03B3 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter delta,
+                                    U+03B4 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter epsilon,
+                                    U+03B5 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter zeta, U+03B6 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter eta, U+03B7 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter theta,
+                                    U+03B8 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter iota, U+03B9 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter kappa,
+                                    U+03BA ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter lamda,
+                                    U+03BB ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter mu, U+03BC ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter nu, U+03BD ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter xi, U+03BE ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter omicron, U+03BF NEW &lt;/value&gt;
+      &lt;value&gt; greek small letter pi, U+03C0 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter rho, U+03C1 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter final sigma,
+                                    U+03C2 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter sigma,
+                                    U+03C3 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter tau, U+03C4 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter upsilon,
+                                    U+03C5 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter phi, U+03C6 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter chi, U+03C7 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter psi, U+03C8 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek small letter omega,
+                                    U+03C9 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; greek theta symbol,
+                                    U+03D1 NEW &lt;/value&gt;
+      &lt;value&gt; greek upsilon with hook symbol,
+                                    U+03D2 NEW &lt;/value&gt;
+      &lt;value&gt; greek pi symbol, U+03D6 ISOgrk3 &lt;/value&gt;
+      &lt;value&gt; General Punctuation &lt;/value&gt;
+      &lt;value&gt; bullet = black small circle,
+                                     U+2022 ISOpub  &lt;/value&gt;
+      &lt;value&gt; bullet is NOT the same as bullet operator, U+2219 &lt;/value&gt;
+      &lt;value&gt; horizontal ellipsis = three dot leader,
+                                     U+2026 ISOpub  &lt;/value&gt;
+      &lt;value&gt; prime = minutes = feet, U+2032 ISOtech &lt;/value&gt;
+      &lt;value&gt; double prime = seconds = inches,
+                                     U+2033 ISOtech &lt;/value&gt;
+      &lt;value&gt; overline = spacing overscore,
+                                     U+203E NEW &lt;/value&gt;
+      &lt;value&gt; fraction slash, U+2044 NEW &lt;/value&gt;
+      &lt;value&gt; Letterlike Symbols &lt;/value&gt;
+      &lt;value&gt; script capital P = power set
+                                     = Weierstrass p, U+2118 ISOamso &lt;/value&gt;
+      &lt;value&gt; black-letter capital I = imaginary part,
+                                     U+2111 ISOamso &lt;/value&gt;
+      &lt;value&gt; black-letter capital R = real part symbol,
+                                     U+211C ISOamso &lt;/value&gt;
+      &lt;value&gt; trade mark sign, U+2122 ISOnum &lt;/value&gt;
+      &lt;value&gt; alef symbol = first transfinite cardinal,
+                                     U+2135 NEW &lt;/value&gt;
+      &lt;value&gt; alef symbol is NOT the same as hebrew letter alef,
+     U+05D0 although the same glyph could be used to depict both characters &lt;/value&gt;
+      &lt;value&gt; Arrows &lt;/value&gt;
+      &lt;value&gt; leftwards arrow, U+2190 ISOnum &lt;/value&gt;
+      &lt;value&gt; upwards arrow, U+2191 ISOnum&lt;/value&gt;
+      &lt;value&gt; rightwards arrow, U+2192 ISOnum &lt;/value&gt;
+      &lt;value&gt; downwards arrow, U+2193 ISOnum &lt;/value&gt;
+      &lt;value&gt; left right arrow, U+2194 ISOamsa &lt;/value&gt;
+      &lt;value&gt; downwards arrow with corner leftwards
+                                     = carriage return, U+21B5 NEW &lt;/value&gt;
+      &lt;value&gt; leftwards double arrow, U+21D0 ISOtech &lt;/value&gt;
+      &lt;value&gt; Unicode does not say that lArr is the same as the &#39;is implied by&#39; arrow
+    but also does not have any other character for that function. So lArr can
+    be used for &#39;is implied by&#39; as ISOtech suggests &lt;/value&gt;
+      &lt;value&gt; upwards double arrow, U+21D1 ISOamsa &lt;/value&gt;
+      &lt;value&gt; rightwards double arrow,
+                                     U+21D2 ISOtech &lt;/value&gt;
+      &lt;value&gt; Unicode does not say this is the &#39;implies&#39; character but does not have
+     another character with this function so rArr can be used for &#39;implies&#39;
+     as ISOtech suggests &lt;/value&gt;
+      &lt;value&gt; downwards double arrow, U+21D3 ISOamsa &lt;/value&gt;
+      &lt;value&gt; left right double arrow,
+                                     U+21D4 ISOamsa &lt;/value&gt;
+      &lt;value&gt; Mathematical Operators &lt;/value&gt;
+      &lt;value&gt; for all, U+2200 ISOtech &lt;/value&gt;
+      &lt;value&gt; partial differential, U+2202 ISOtech  &lt;/value&gt;
+      &lt;value&gt; there exists, U+2203 ISOtech &lt;/value&gt;
+      &lt;value&gt; empty set = null set, U+2205 ISOamso &lt;/value&gt;
+      &lt;value&gt; nabla = backward difference,
+                                     U+2207 ISOtech &lt;/value&gt;
+      &lt;value&gt; element of, U+2208 ISOtech &lt;/value&gt;
+      &lt;value&gt; not an element of, U+2209 ISOtech &lt;/value&gt;
+      &lt;value&gt; contains as member, U+220B ISOtech &lt;/value&gt;
+      &lt;value&gt; n-ary product = product sign,
+                                     U+220F ISOamsb &lt;/value&gt;
+      &lt;value&gt; prod is NOT the same character as U+03A0 &#39;greek capital letter pi&#39; though
+     the same glyph might be used for both &lt;/value&gt;
+      &lt;value&gt; n-ary summation, U+2211 ISOamsb &lt;/value&gt;
+      &lt;value&gt; sum is NOT the same character as U+03A3 &#39;greek capital letter sigma&#39;
+     though the same glyph might be used for both &lt;/value&gt;
+      &lt;value&gt; minus sign, U+2212 ISOtech &lt;/value&gt;
+      &lt;value&gt; asterisk operator, U+2217 ISOtech &lt;/value&gt;
+      &lt;value&gt; square root = radical sign,
+                                     U+221A ISOtech &lt;/value&gt;
+      &lt;value&gt; proportional to, U+221D ISOtech &lt;/value&gt;
+      &lt;value&gt; infinity, U+221E ISOtech &lt;/value&gt;
+      &lt;value&gt; angle, U+2220 ISOamso &lt;/value&gt;
+      &lt;value&gt; logical and = wedge, U+2227 ISOtech &lt;/value&gt;
+      &lt;value&gt; logical or = vee, U+2228 ISOtech &lt;/value&gt;
+      &lt;value&gt; intersection = cap, U+2229 ISOtech &lt;/value&gt;
+      &lt;value&gt; union = cup, U+222A ISOtech &lt;/value&gt;
+      &lt;value&gt; integral, U+222B ISOtech &lt;/value&gt;
+      &lt;value&gt; therefore, U+2234 ISOtech &lt;/value&gt;
+      &lt;value&gt; tilde operator = varies with = similar to,
+                                     U+223C ISOtech &lt;/value&gt;
+      &lt;value&gt; tilde operator is NOT the same character as the tilde, U+007E,
+     although the same glyph might be used to represent both  &lt;/value&gt;
+      &lt;value&gt; approximately equal to, U+2245 ISOtech &lt;/value&gt;
+      &lt;value&gt; almost equal to = asymptotic to,
+                                     U+2248 ISOamsr &lt;/value&gt;
+      &lt;value&gt; not equal to, U+2260 ISOtech &lt;/value&gt;
+      &lt;value&gt; identical to, U+2261 ISOtech &lt;/value&gt;
+      &lt;value&gt; less-than or equal to, U+2264 ISOtech &lt;/value&gt;
+      &lt;value&gt; greater-than or equal to,
+                                     U+2265 ISOtech &lt;/value&gt;
+      &lt;value&gt; subset of, U+2282 ISOtech &lt;/value&gt;
+      &lt;value&gt; superset of, U+2283 ISOtech &lt;/value&gt;
+      &lt;value&gt; not a subset of, U+2284 ISOamsn &lt;/value&gt;
+      &lt;value&gt; subset of or equal to, U+2286 ISOtech &lt;/value&gt;
+      &lt;value&gt; superset of or equal to,
+                                     U+2287 ISOtech &lt;/value&gt;
+      &lt;value&gt; circled plus = direct sum,
+                                     U+2295 ISOamsb &lt;/value&gt;
+      &lt;value&gt; circled times = vector product,
+                                     U+2297 ISOamsb &lt;/value&gt;
+      &lt;value&gt; up tack = orthogonal to = perpendicular,
+                                     U+22A5 ISOtech &lt;/value&gt;
+      &lt;value&gt; dot operator, U+22C5 ISOamsb &lt;/value&gt;
+      &lt;value&gt; dot operator is NOT the same character as U+00B7 middle dot &lt;/value&gt;
+      &lt;value&gt; Miscellaneous Technical &lt;/value&gt;
+      &lt;value&gt; left ceiling = APL upstile,
+                                     U+2308 ISOamsc  &lt;/value&gt;
+      &lt;value&gt; right ceiling, U+2309 ISOamsc  &lt;/value&gt;
+      &lt;value&gt; left floor = APL downstile,
+                                     U+230A ISOamsc  &lt;/value&gt;
+      &lt;value&gt; right floor, U+230B ISOamsc  &lt;/value&gt;
+      &lt;value&gt; left-pointing angle bracket = bra,
+                                     U+2329 ISOtech &lt;/value&gt;
+      &lt;value&gt; lang is NOT the same character as U+003C &#39;less than sign&#39;
+     or U+2039 &#39;single left-pointing angle quotation mark&#39; &lt;/value&gt;
+      &lt;value&gt; right-pointing angle bracket = ket,
+                                     U+232A ISOtech &lt;/value&gt;
+      &lt;value&gt; rang is NOT the same character as U+003E &#39;greater than sign&#39;
+     or U+203A &#39;single right-pointing angle quotation mark&#39; &lt;/value&gt;
+      &lt;value&gt; Geometric Shapes &lt;/value&gt;
+      &lt;value&gt; lozenge, U+25CA ISOpub &lt;/value&gt;
+      &lt;value&gt; Miscellaneous Symbols &lt;/value&gt;
+      &lt;value&gt; black spade suit, U+2660 ISOpub &lt;/value&gt;
+      &lt;value&gt; black here seems to mean filled as opposed to hollow &lt;/value&gt;
+      &lt;value&gt; black club suit = shamrock,
+                                     U+2663 ISOpub &lt;/value&gt;
+      &lt;value&gt; black heart suit = valentine,
+                                     U+2665 ISOpub &lt;/value&gt;
+      &lt;value&gt; black diamond suit, U+2666 ISOpub &lt;/value&gt;
+      &lt;value&gt; Special characters for XHTML &lt;/value&gt;
+      &lt;value&gt; Character entity set. Typical invocation:
+     &amp;lt;!ENTITY % HTMLspecial PUBLIC
+        &quot;-//W3C//ENTITIES Special for XHTML//EN&quot;
+        &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent&quot;&amp;gt;
+     %HTMLspecial;
+&lt;/value&gt;
+      &lt;value&gt; Portions (C) International Organization for Standardization 1986:
+     Permission to copy in any form is granted for use with
+     conforming SGML systems and applications as defined in
+     ISO 8879, provided this notice is included in all copies.
+&lt;/value&gt;
+      &lt;value&gt; Relevant ISO entity set is given unless names are newly introduced.
+     New names (i.e., not in ISO 8879 list) do not clash with any
+     existing ISO 8879 entity names. ISO 10646 character numbers
+     are given for each character, in hex. values are decimal
+     conversions of the ISO 10646 values and refer to the document
+     character set. Names are Unicode names.
+&lt;/value&gt;
+      &lt;value&gt; C0 Controls and Basic Latin &lt;/value&gt;
+      &lt;value&gt;  quotation mark, U+0022 ISOnum &lt;/value&gt;
+      &lt;value&gt;  ampersand, U+0026 ISOnum &lt;/value&gt;
+      &lt;value&gt;  less-than sign, U+003C ISOnum &lt;/value&gt;
+      &lt;value&gt;  greater-than sign, U+003E ISOnum &lt;/value&gt;
+      &lt;value&gt;  apostrophe = APL quote, U+0027 ISOnum &lt;/value&gt;
+      &lt;value&gt; Latin Extended-A &lt;/value&gt;
+      &lt;value&gt;  latin capital ligature OE,
+                                    U+0152 ISOlat2 &lt;/value&gt;
+      &lt;value&gt;  latin small ligature oe, U+0153 ISOlat2 &lt;/value&gt;
+      &lt;value&gt; ligature is a misnomer, this is a separate character in some languages &lt;/value&gt;
+      &lt;value&gt;  latin capital letter S with caron,
+                                    U+0160 ISOlat2 &lt;/value&gt;
+      &lt;value&gt;  latin small letter s with caron,
+                                    U+0161 ISOlat2 &lt;/value&gt;
+      &lt;value&gt;  latin capital letter Y with diaeresis,
+                                    U+0178 ISOlat2 &lt;/value&gt;
+      &lt;value&gt; Spacing Modifier Letters &lt;/value&gt;
+      &lt;value&gt;  modifier letter circumflex accent,
+                                    U+02C6 ISOpub &lt;/value&gt;
+      &lt;value&gt;  small tilde, U+02DC ISOdia &lt;/value&gt;
+      &lt;value&gt; General Punctuation &lt;/value&gt;
+      &lt;value&gt; en space, U+2002 ISOpub &lt;/value&gt;
+      &lt;value&gt; em space, U+2003 ISOpub &lt;/value&gt;
+      &lt;value&gt; thin space, U+2009 ISOpub &lt;/value&gt;
+      &lt;value&gt; zero width non-joiner,
+                                    U+200C NEW RFC 2070 &lt;/value&gt;
+      &lt;value&gt; zero width joiner, U+200D NEW RFC 2070 &lt;/value&gt;
+      &lt;value&gt; left-to-right mark, U+200E NEW RFC 2070 &lt;/value&gt;
+      &lt;value&gt; right-to-left mark, U+200F NEW RFC 2070 &lt;/value&gt;
+      &lt;value&gt; en dash, U+2013 ISOpub &lt;/value&gt;
+      &lt;value&gt; em dash, U+2014 ISOpub &lt;/value&gt;
+      &lt;value&gt; left single quotation mark,
+                                    U+2018 ISOnum &lt;/value&gt;
+      &lt;value&gt; right single quotation mark,
+                                    U+2019 ISOnum &lt;/value&gt;
+      &lt;value&gt; single low-9 quotation mark, U+201A NEW &lt;/value&gt;
+      &lt;value&gt; left double quotation mark,
+                                    U+201C ISOnum &lt;/value&gt;
+      &lt;value&gt; right double quotation mark,
+                                    U+201D ISOnum &lt;/value&gt;
+      &lt;value&gt; double low-9 quotation mark, U+201E NEW &lt;/value&gt;
+      &lt;value&gt; dagger, U+2020 ISOpub &lt;/value&gt;
+      &lt;value&gt; double dagger, U+2021 ISOpub &lt;/value&gt;
+      &lt;value&gt; per mille sign, U+2030 ISOtech &lt;/value&gt;
+      &lt;value&gt; single left-pointing angle quotation mark,
+                                    U+2039 ISO proposed &lt;/value&gt;
+      &lt;value&gt; lsaquo is proposed but not yet ISO standardized &lt;/value&gt;
+      &lt;value&gt; single right-pointing angle quotation mark,
+                                    U+203A ISO proposed &lt;/value&gt;
+      &lt;value&gt; rsaquo is proposed but not yet ISO standardized &lt;/value&gt;
+      &lt;value&gt; Currency Symbols &lt;/value&gt;
+      &lt;value&gt;  euro sign, U+20AC NEW &lt;/value&gt;
+      &lt;value&gt;================== Imported Names ====================================&lt;/value&gt;
+      &lt;value&gt; media type, as per [RFC2045] &lt;/value&gt;
+      &lt;value&gt; comma-separated list of media types, as per [RFC2045] &lt;/value&gt;
+      &lt;value&gt; a character encoding, as per [RFC2045] &lt;/value&gt;
+      &lt;value&gt; a space separated list of character encodings, as per [RFC2045] &lt;/value&gt;
+      &lt;value&gt; a language code, as per [RFC3066] &lt;/value&gt;
+      &lt;value&gt; a single character, as per section 2.2 of [XML] &lt;/value&gt;
+      &lt;value&gt; one or more digits &lt;/value&gt;
+      &lt;value&gt; space-separated list of link types &lt;/value&gt;
+      &lt;value&gt; single or comma-separated list of media descriptors &lt;/value&gt;
+      &lt;value&gt; a Uniform Resource Identifier, see [RFC2396] &lt;/value&gt;
+      &lt;value&gt; a space separated list of Uniform Resource Identifiers &lt;/value&gt;
+      &lt;value&gt; date and time information. ISO date format &lt;/value&gt;
+      &lt;value&gt; script expression &lt;/value&gt;
+      &lt;value&gt; style sheet data &lt;/value&gt;
+      &lt;value&gt; used for titles etc. &lt;/value&gt;
+      &lt;value&gt; render in this frame &lt;/value&gt;
+      &lt;value&gt; nn for pixels or nn% for percentage length &lt;/value&gt;
+      &lt;value&gt; pixel, percentage, or relative &lt;/value&gt;
+      &lt;value&gt; integer representing length in pixels &lt;/value&gt;
+      &lt;value&gt; these are used for image maps &lt;/value&gt;
+      &lt;value&gt; comma separated list of lengths &lt;/value&gt;
+      &lt;value&gt; used for object, applet, img, input and iframe &lt;/value&gt;
+      &lt;value&gt; a color using sRGB: #RRGGBB as Hex values &lt;/value&gt;
+      &lt;value&gt; There are also 16 widely known color names with their sRGB values:
+
+    Black  = #000000    Green  = #008000
+    Silver = #C0C0C0    Lime   = #00FF00
+    Gray   = #808080    Olive  = #808000
+    White  = #FFFFFF    Yellow = #FFFF00
+    Maroon = #800000    Navy   = #000080
+    Red    = #FF0000    Blue   = #0000FF
+    Purple = #800080    Teal   = #008080
+    Fuchsia= #FF00FF    Aqua   = #00FFFF
+&lt;/value&gt;
+      &lt;value&gt;=================== Generic Attributes ===============================&lt;/value&gt;
+      &lt;value&gt; core attributes common to most elements
+  id       document-wide unique id
+  class    space separated list of classes
+  style    associated style info
+  title    advisory title/amplification
+&lt;/value&gt;
+      &lt;value&gt; internationalization attributes
+  lang        language code (backwards compatible)
+  xml:lang    language code (as per XML 1.0 spec)
+  dir         direction for weak/neutral text
+&lt;/value&gt;
+      &lt;value&gt; attributes for common UI events
+  onclick     a pointer button was clicked
+  ondblclick  a pointer button was double clicked
+  onmousedown a pointer button was pressed down
+  onmouseup   a pointer button was released
+  onmousemove a pointer was moved onto the element
+  onmouseout  a pointer was moved away from the element
+  onkeypress  a key was pressed and released
+  onkeydown   a key was pressed down
+  onkeyup     a key was released
+&lt;/value&gt;
+      &lt;value&gt; attributes for elements that can get the focus
+  accesskey   accessibility key character
+  tabindex    position in tabbing order
+  onfocus     the element got the focus
+  onblur      the element lost the focus
+&lt;/value&gt;
+      &lt;value&gt; text alignment for p, div, h1-h6. The default is
+     align=&quot;left&quot; for ltr headings, &quot;right&quot; for rtl &lt;/value&gt;
+      &lt;value&gt;=================== Text Elements ====================================&lt;/value&gt;
+      &lt;value&gt; these can occur at block or inline level &lt;/value&gt;
+      &lt;value&gt; these can only occur at block level &lt;/value&gt;
+      &lt;value&gt; %Inline; covers inline or &quot;text-level&quot; elements &lt;/value&gt;
+      &lt;value&gt;================== Block level elements ==============================&lt;/value&gt;
+      &lt;value&gt; %Flow; mixes block and inline and is used for list items etc. &lt;/value&gt;
+      &lt;value&gt;================== Content models for exclusions =====================&lt;/value&gt;
+      &lt;value&gt; a elements use %Inline; excluding a &lt;/value&gt;
+      &lt;value&gt; pre uses %Inline excluding img, object, applet, big, small,
+     font, or basefont &lt;/value&gt;
+      &lt;value&gt; form uses %Flow; excluding form &lt;/value&gt;
+      &lt;value&gt; button uses %Flow; but excludes a, form, form controls, iframe &lt;/value&gt;
+      &lt;value&gt;================ Document Structure ==================================&lt;/value&gt;
+      &lt;value&gt; the namespace URI designates the document profile &lt;/value&gt;
+      &lt;value&gt;================ Document Head =======================================&lt;/value&gt;
+      &lt;value&gt; content model is %head.misc; combined with a single
+     title and an optional base element in any order &lt;/value&gt;
+      &lt;value&gt; The title element is not considered part of the flow of text.
+       It should be displayed, for example as the page header or
+       window title. Exactly one title is required per document.
+    &lt;/value&gt;
+      &lt;value&gt; document base URI &lt;/value&gt;
+      &lt;value&gt; generic metainformation &lt;/value&gt;
+      &lt;value&gt;
+  Relationship values can be used in principle:
+
+   a) for document specific toolbars/menus when used
+      with the link element in document head e.g.
+        start, contents, previous, next, index, end, help
+   b) to link to a separate style sheet (rel=&quot;stylesheet&quot;)
+   c) to make a link to a script (rel=&quot;script&quot;)
+   d) by stylesheets to control how collections of
+      html nodes are rendered into printed documents
+   e) to make a link to a printable version of this document
+      e.g. a PostScript or PDF version (rel=&quot;alternate&quot; media=&quot;print&quot;)
+&lt;/value&gt;
+      &lt;value&gt; style info, which may include CDATA sections &lt;/value&gt;
+      &lt;value&gt; script statements, which may include CDATA sections &lt;/value&gt;
+      &lt;value&gt; alternate content container for non script-based rendering &lt;/value&gt;
+      &lt;value&gt;======================= Frames =======================================&lt;/value&gt;
+      &lt;value&gt; inline subwindow &lt;/value&gt;
+      &lt;value&gt; alternate content container for non frame-based rendering &lt;/value&gt;
+      &lt;value&gt;=================== Document Body ====================================&lt;/value&gt;
+      &lt;value&gt; generic language/style container &lt;/value&gt;
+      &lt;value&gt;=================== Paragraphs =======================================&lt;/value&gt;
+      &lt;value&gt;=================== Headings =========================================&lt;/value&gt;
+      &lt;value&gt;
+  There are six levels of headings from h1 (the most important)
+  to h6 (the least important).
+&lt;/value&gt;
+      &lt;value&gt;=================== Lists ============================================&lt;/value&gt;
+      &lt;value&gt; Unordered list bullet styles &lt;/value&gt;
+      &lt;value&gt; Unordered list &lt;/value&gt;
+      &lt;value&gt; Ordered list numbering style
+
+    1   arabic numbers      1, 2, 3, ...
+    a   lower alpha         a, b, c, ...
+    A   upper alpha         A, B, C, ...
+    i   lower roman         i, ii, iii, ...
+    I   upper roman         I, II, III, ...
+
+    The style is applied to the sequence number which by default
+    is reset to 1 for the first list item in an ordered list.
+&lt;/value&gt;
+      &lt;value&gt; Ordered (numbered) list &lt;/value&gt;
+      &lt;value&gt; single column list (DEPRECATED) &lt;/value&gt;
+      &lt;value&gt; multiple column list (DEPRECATED) &lt;/value&gt;
+      &lt;value&gt; LIStyle is constrained to: &quot;(%ULStyle;|%OLStyle;)&quot; &lt;/value&gt;
+      &lt;value&gt; list item &lt;/value&gt;
+      &lt;value&gt; definition lists - dt for term, dd for its definition &lt;/value&gt;
+      &lt;value&gt;=================== Address ==========================================&lt;/value&gt;
+      &lt;value&gt; information on author &lt;/value&gt;
+      &lt;value&gt;=================== Horizontal Rule ==================================&lt;/value&gt;
+      &lt;value&gt;=================== Preformatted Text ================================&lt;/value&gt;
+      &lt;value&gt; content is %Inline; excluding
+        &quot;img|object|applet|big|small|sub|sup|font|basefont&quot; &lt;/value&gt;
+      &lt;value&gt;=================== Block-like Quotes ================================&lt;/value&gt;
+      &lt;value&gt;=================== Text alignment ===================================&lt;/value&gt;
+      &lt;value&gt; center content &lt;/value&gt;
+      &lt;value&gt;=================== Inserted/Deleted Text ============================&lt;/value&gt;
+      &lt;value&gt;
+  ins/del are allowed in block and inline content, but its
+  inappropriate to include block content within an ins element
+  occurring in inline content.
+&lt;/value&gt;
+      &lt;value&gt;================== The Anchor Element ================================&lt;/value&gt;
+      &lt;value&gt; content is %Inline; except that anchors shouldn&#39;t be nested &lt;/value&gt;
+      &lt;value&gt;===================== Inline Elements ================================&lt;/value&gt;
+      &lt;value&gt; generic language/style container &lt;/value&gt;
+      &lt;value&gt; I18N BiDi over-ride &lt;/value&gt;
+      &lt;value&gt; forced line break &lt;/value&gt;
+      &lt;value&gt; emphasis &lt;/value&gt;
+      &lt;value&gt; strong emphasis &lt;/value&gt;
+      &lt;value&gt; definitional &lt;/value&gt;
+      &lt;value&gt; program code &lt;/value&gt;
+      &lt;value&gt; sample &lt;/value&gt;
+      &lt;value&gt; something user would type &lt;/value&gt;
+      &lt;value&gt; variable &lt;/value&gt;
+      &lt;value&gt; citation &lt;/value&gt;
+      &lt;value&gt; abbreviation &lt;/value&gt;
+      &lt;value&gt; acronym &lt;/value&gt;
+      &lt;value&gt; inlined quote &lt;/value&gt;
+      &lt;value&gt; subscript &lt;/value&gt;
+      &lt;value&gt; superscript &lt;/value&gt;
+      &lt;value&gt; fixed pitch font &lt;/value&gt;
+      &lt;value&gt; italic font &lt;/value&gt;
+      &lt;value&gt; bold font &lt;/value&gt;
+      &lt;value&gt; bigger font &lt;/value&gt;
+      &lt;value&gt; smaller font &lt;/value&gt;
+      &lt;value&gt; underline &lt;/value&gt;
+      &lt;value&gt; strike-through &lt;/value&gt;
+      &lt;value&gt; strike-through &lt;/value&gt;
+      &lt;value&gt; base font size &lt;/value&gt;
+      &lt;value&gt; local change to font &lt;/value&gt;
+      &lt;value&gt;==================== Object ======================================&lt;/value&gt;
+      &lt;value&gt;
+  object is used to embed objects as part of HTML pages.
+  param elements should precede other content. Parameters
+  can also be expressed as attribute/value pairs on the
+  object element itself when brevity is desired.
+&lt;/value&gt;
+      &lt;value&gt;
+  param is used to supply a named property value.
+  In XML it would seem natural to follow RDF and support an
+  abbreviated syntax where the param elements are replaced
+  by attribute value pairs on the object start tag.
+&lt;/value&gt;
+      &lt;value&gt;=================== Java applet ==================================&lt;/value&gt;
+      &lt;value&gt;
+  One of code or object attributes must be present.
+  Place param elements before other content.
+&lt;/value&gt;
+      &lt;value&gt;=================== Images ===========================================&lt;/value&gt;
+      &lt;value&gt;
+   To avoid accessibility problems for people who aren&#39;t
+   able to see the image, you should provide a text
+   description using the alt and longdesc attributes.
+   In addition, avoid the use of server-side image maps.
+&lt;/value&gt;
+      &lt;value&gt; usemap points to a map element which may be in this document
+  or an external document, although the latter is not widely supported &lt;/value&gt;
+      &lt;value&gt;================== Client-side image maps ============================&lt;/value&gt;
+      &lt;value&gt; These can be placed in the same document or grouped in a
+     separate document although this isn&#39;t yet widely supported &lt;/value&gt;
+      &lt;value&gt;================ Forms ===============================================&lt;/value&gt;
+      &lt;value&gt; forms shouldn&#39;t be nested &lt;/value&gt;
+      &lt;value&gt;
+  Each label must not contain more than ONE field
+  Label elements shouldn&#39;t be nested.
+&lt;/value&gt;
+      &lt;value&gt; the name attribute is required for all but submit &amp;amp; reset &lt;/value&gt;
+      &lt;value&gt; form control &lt;/value&gt;
+      &lt;value&gt; option selector &lt;/value&gt;
+      &lt;value&gt; option group &lt;/value&gt;
+      &lt;value&gt; selectable choice &lt;/value&gt;
+      &lt;value&gt; multi-line text field &lt;/value&gt;
+      &lt;value&gt;
+  The fieldset element is used to group form fields.
+  Only one legend element should occur in the content
+  and if present should only be preceded by whitespace.
+&lt;/value&gt;
+      &lt;value&gt; fieldset label &lt;/value&gt;
+      &lt;value&gt;
+ Content is %Flow; excluding a, form, form controls, iframe
+&lt;/value&gt;
+      &lt;value&gt; push button &lt;/value&gt;
+      &lt;value&gt; single-line text input control (DEPRECATED) &lt;/value&gt;
+      &lt;value&gt;======================= Tables =======================================&lt;/value&gt;
+      &lt;value&gt; Derived from IETF HTML table standard, see [RFC1942] &lt;/value&gt;
+      &lt;value&gt;
+ The border attribute sets the thickness of the frame around the
+ table. The default units are screen pixels.
+
+ The frame attribute specifies which parts of the frame around
+ the table should be rendered. The values are not the same as
+ CALS to avoid a name clash with the valign attribute.
+&lt;/value&gt;
+      &lt;value&gt;
+ The rules attribute defines which rules to draw between cells:
+
+ If rules is absent then assume:
+     &quot;none&quot; if border is absent or border=&quot;0&quot; otherwise &quot;all&quot;
+&lt;/value&gt;
+      &lt;value&gt; horizontal placement of table relative to document &lt;/value&gt;
+      &lt;value&gt; horizontal alignment attributes for cell contents
+
+  char        alignment char, e.g. char=&#39;:&#39;
+  charoff     offset for alignment char
+&lt;/value&gt;
+      &lt;value&gt; vertical alignment attributes for cell contents &lt;/value&gt;
+      &lt;value&gt;
+colgroup groups a set of col elements. It allows you to group
+several semantically related columns together.
+&lt;/value&gt;
+      &lt;value&gt;
+ col elements define the alignment properties for cells in
+ one or more columns.
+
+ The width attribute specifies the width of the columns, e.g.
+
+     width=64        width in screen pixels
+     width=0.5*      relative width of 0.5
+
+ The span attribute causes the attributes of one
+ col element to apply to more than one column.
+&lt;/value&gt;
+      &lt;value&gt;
+    Use thead to duplicate headers when breaking table
+    across page boundaries, or for static headers when
+    tbody sections are rendered in scrolling panel.
+
+    Use tfoot to duplicate footers when breaking table
+    across page boundaries, or for static footers when
+    tbody sections are rendered in scrolling panel.
+
+    Use multiple tbody sections when rules are needed
+    between groups of table rows.
+&lt;/value&gt;
+      &lt;value&gt; Scope is simpler than headers attribute for common tables &lt;/value&gt;
+      &lt;value&gt; th is for headers, td for data and for cells acting as both &lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;/values&gt;
+   &lt;/property&gt;
+  &lt;/properties&gt;
+ &lt;/repInfo&gt;
+&lt;/jhove&gt;
+
+MIME type (:unav) with version (:unav) is not supported.
+Found encoding declaration (:unav) from the file /corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_illegal_tags.xhtml, but UTF-8 was expected.
+</pre></div>
+</div>
+</section>
+<section id="notes-on-the-error">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Notes on the error</a><a class="headerlink" href="#notes-on-the-error" title="Link to this heading">¶</a></h2>
+</section>
+<section id="related-errors-by-source-files">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Related errors by source files</a><a class="headerlink" href="#related-errors-by-source-files" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">JHOVE</span><span class="p">:</span>  <span class="n">SAXParseException</span><span class="p">:</span> <span class="n">Element</span> <span class="nb">type</span> <span class="o">.*</span> <span class="n">must</span> <span class="n">be</span> <span class="n">declared</span>
+<span class="n">JHOVE</span><span class="p">:</span>  <span class="n">SAXParseException</span><span class="p">:</span> <span class="n">The</span> <span class="n">content</span> <span class="n">of</span> <span class="n">element</span> <span class="nb">type</span> <span class="o">..</span><span class="n">html</span><span class="o">..</span> <span class="n">must</span> <span class="n">match</span> <span class="o">..</span><span class="p">(</span><span class="n">head</span><span class="p">,</span><span class="n">body</span><span class="p">)</span><span class="o">..</span>
+</pre></div>
+</div>
+<p>Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../../index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-validator.html">Articles by validating software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-mime.html">Articles by file format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../repairs.html">Solutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../corpus.html">Corpus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../datamodel.html">Data model</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../../../../_sources/database/solutions/JHOVE/SAXParseException-The-content-of-element-type-html-must-match-headbody/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

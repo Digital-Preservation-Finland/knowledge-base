@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>JPEGProc not defined for JPEG compression &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/alabaster.css?v=12dfc556" />
+    <script src="../../../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="jpegproc-not-defined-for-jpeg-compression">
+<h1><a class="toc-backref" href="#id2" role="doc-backlink">JPEGProc not defined for JPEG compression</a><a class="headerlink" href="#jpegproc-not-defined-for-jpeg-compression" title="Link to this heading">¶</a></h1>
+<nav class="contents" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#jpegproc-not-defined-for-jpeg-compression" id="id2">JPEGProc not defined for JPEG compression</a></p>
+<ul>
+<li><p><a class="reference internal" href="#classification" id="id3">Classification</a></p></li>
+<li><p><a class="reference internal" href="#analyses" id="id4">Analyses</a></p></li>
+<li><p><a class="reference internal" href="#possible-solutions" id="id5">Possible solutions</a></p></li>
+<li><p><a class="reference internal" href="#output-example" id="id6">Output example</a></p></li>
+<li><p><a class="reference internal" href="#notes-on-the-error" id="id7">Notes on the error</a></p></li>
+<li><p><a class="reference internal" href="#related-errors-by-source-files" id="id8">Related errors by source files</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="classification">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Classification</a><a class="headerlink" href="#classification" title="Link to this heading">¶</a></h2>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>Validator</strong></p></td>
+<td><p><strong>Validator version</strong></p></td>
+<td><p><strong>Error message type</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>JHOVE</p></td>
+<td><p>1.32.1</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><strong>File format</strong></p></td>
+<td><p><strong>Version</strong></p></td>
+<td><p><strong>Specification</strong></p></td>
+<td><p><strong>Description</strong></p></td>
+<td><p><strong>Location</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>image/tiff</p></td>
+<td><p>6.0</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference external" href="https://github.com/openpreserve/format-corpus/tree/master/tiff-examples/old-style-jpeg-compression/old-style-jpeg-compression.tif">OPF</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="analyses">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Analyses</a><a class="headerlink" href="#analyses" title="Link to this heading">¶</a></h2>
+</section>
+<section id="possible-solutions">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Possible solutions</a><a class="headerlink" href="#possible-solutions" title="Link to this heading">¶</a></h2>
+</section>
+<section id="output-example">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Output example</a><a class="headerlink" href="#output-example" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Validator returned error.
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;jhove xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schema.openpreservation.org/ois/xml/ns/jhove&quot; xsi:schemaLocation=&quot;http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd&quot; name=&quot;Jhove&quot; release=&quot;1.32.1&quot; date=&quot;2025-02-06&quot;&gt;
+ &lt;date&gt;2025-11-03T14:40:09+02:00&lt;/date&gt;
+ &lt;repInfo uri=&quot;/corpus/format-corpus/tiff-examples/old-style-jpeg-compression/old-style-jpeg-compression.tif&quot;&gt;
+  &lt;reportingModule release=&quot;1.9.5&quot; date=&quot;2024-08-22&quot;&gt;TIFF-hul&lt;/reportingModule&gt;
+  &lt;lastModified&gt;2025-10-22T10:46:06+03:00&lt;/lastModified&gt;
+  &lt;size&gt;213760&lt;/size&gt;
+  &lt;format&gt;TIFF&lt;/format&gt;
+  &lt;version&gt;6.0&lt;/version&gt;
+  &lt;status&gt;Well-Formed, but not valid&lt;/status&gt;
+  &lt;sigMatch&gt;
+  &lt;module&gt;TIFF-hul&lt;/module&gt;
+  &lt;/sigMatch&gt;
+  &lt;messages&gt;
+   &lt;message severity=&quot;error&quot; id=&quot;TIFF-HUL-49&quot; infoLink=&quot;https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-49&quot;&gt;JPEGProc not defined for JPEG compression&lt;/message&gt;
+   &lt;message severity=&quot;info&quot; id=&quot;TIFF-HUL-61&quot; infoLink=&quot;https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-61&quot;&gt;TIFF compression scheme 6 is deprecated&lt;/message&gt;
+   &lt;message offset=&quot;234&quot; severity=&quot;info&quot; id=&quot;TIFF-HUL-12&quot; infoLink=&quot;https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12&quot;&gt;Unknown TIFF IFD tag: 33000&lt;/message&gt;
+  &lt;/messages&gt;
+  &lt;mimeType&gt;image/tiff&lt;/mimeType&gt;
+  &lt;profiles&gt;
+   &lt;profile&gt;Extension YCbCr (Class Y)&lt;/profile&gt;
+  &lt;/profiles&gt;
+  &lt;properties&gt;
+   &lt;property&gt;
+    &lt;name&gt;TIFFMetadata&lt;/name&gt;
+    &lt;values arity=&quot;Array&quot; type=&quot;Property&quot;&gt;
+    &lt;property&gt;
+     &lt;name&gt;ByteOrder&lt;/name&gt;
+     &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+      &lt;value&gt;little-endian&lt;/value&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;property&gt;
+     &lt;name&gt;IFDs&lt;/name&gt;
+     &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+     &lt;property&gt;
+      &lt;name&gt;Number&lt;/name&gt;
+      &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+       &lt;value&gt;1&lt;/value&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;property&gt;
+      &lt;name&gt;IFD&lt;/name&gt;
+      &lt;values arity=&quot;Array&quot; type=&quot;Property&quot;&gt;
+      &lt;property&gt;
+       &lt;name&gt;Offset&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;Long&quot;&gt;
+        &lt;value&gt;8&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Type&lt;/name&gt;
+       &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+        &lt;value&gt;TIFF&lt;/value&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;property&gt;
+       &lt;name&gt;Entries&lt;/name&gt;
+       &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+       &lt;property&gt;
+        &lt;name&gt;NisoImageMetadata&lt;/name&gt;
+        &lt;values arity=&quot;Scalar&quot; type=&quot;NISOImageMetadata&quot;&gt;
+         &lt;value&gt;
+       &lt;mix:mix xmlns:mix=&quot;http://www.loc.gov/mix/v20&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd&quot;&gt;
+        &lt;mix:BasicDigitalObjectInformation&gt;
+         &lt;mix:ObjectIdentifier&gt;
+          &lt;mix:objectIdentifierType&gt;JHOVE&lt;/mix:objectIdentifierType&gt;
+         &lt;/mix:ObjectIdentifier&gt;
+         &lt;mix:FormatDesignation&gt;
+          &lt;mix:formatName&gt;image/tiff&lt;/mix:formatName&gt;
+         &lt;/mix:FormatDesignation&gt;
+         &lt;mix:byteOrder&gt;little endian&lt;/mix:byteOrder&gt;
+         &lt;mix:Compression&gt;
+          &lt;mix:compressionScheme&gt;JPEG&lt;/mix:compressionScheme&gt;
+         &lt;/mix:Compression&gt;
+        &lt;/mix:BasicDigitalObjectInformation&gt;
+        &lt;mix:BasicImageInformation&gt;
+         &lt;mix:BasicImageCharacteristics&gt;
+          &lt;mix:imageWidth&gt;4160&lt;/mix:imageWidth&gt;
+          &lt;mix:imageHeight&gt;870&lt;/mix:imageHeight&gt;
+          &lt;mix:PhotometricInterpretation&gt;
+           &lt;mix:colorSpace&gt;YCbCr&lt;/mix:colorSpace&gt;
+           &lt;mix:YCbCr&gt;
+            &lt;mix:YCbCrSubSampling&gt;
+             &lt;mix:yCbCrSubsampleHoriz&gt;2&lt;/mix:yCbCrSubsampleHoriz&gt;
+             &lt;mix:yCbCrSubsampleVert&gt;2&lt;/mix:yCbCrSubsampleVert&gt;
+            &lt;/mix:YCbCrSubSampling&gt;
+            &lt;mix:yCbCrPositioning&gt;1&lt;/mix:yCbCrPositioning&gt;
+            &lt;mix:YCbCrCoefficients&gt;
+             &lt;mix:lumaRed&gt;
+              &lt;mix:numerator&gt;299&lt;/mix:numerator&gt;
+              &lt;mix:denominator&gt;1000&lt;/mix:denominator&gt;
+             &lt;/mix:lumaRed&gt;
+             &lt;mix:lumaGreen&gt;
+              &lt;mix:numerator&gt;587&lt;/mix:numerator&gt;
+              &lt;mix:denominator&gt;1000&lt;/mix:denominator&gt;
+             &lt;/mix:lumaGreen&gt;
+             &lt;mix:lumaBlue&gt;
+              &lt;mix:numerator&gt;114&lt;/mix:numerator&gt;
+              &lt;mix:denominator&gt;1000&lt;/mix:denominator&gt;
+             &lt;/mix:lumaBlue&gt;
+            &lt;/mix:YCbCrCoefficients&gt;
+           &lt;/mix:YCbCr&gt;
+           &lt;mix:ReferenceBlackWhite&gt;
+            &lt;mix:Component&gt;
+             &lt;mix:componentPhotometricInterpretation&gt;Y&lt;/mix:componentPhotometricInterpretation&gt;
+             &lt;mix:footroom&gt;
+              &lt;mix:numerator&gt;0&lt;/mix:numerator&gt;
+             &lt;/mix:footroom&gt;
+             &lt;mix:headroom&gt;
+              &lt;mix:numerator&gt;255&lt;/mix:numerator&gt;
+             &lt;/mix:headroom&gt;
+             &lt;/mix:Component&gt;
+            &lt;mix:Component&gt;
+             &lt;mix:componentPhotometricInterpretation&gt;Cb&lt;/mix:componentPhotometricInterpretation&gt;
+             &lt;mix:footroom&gt;
+              &lt;mix:numerator&gt;0&lt;/mix:numerator&gt;
+             &lt;/mix:footroom&gt;
+             &lt;mix:headroom&gt;
+              &lt;mix:numerator&gt;255&lt;/mix:numerator&gt;
+             &lt;/mix:headroom&gt;
+             &lt;/mix:Component&gt;
+            &lt;mix:Component&gt;
+             &lt;mix:componentPhotometricInterpretation&gt;Cr&lt;/mix:componentPhotometricInterpretation&gt;
+             &lt;mix:footroom&gt;
+              &lt;mix:numerator&gt;0&lt;/mix:numerator&gt;
+             &lt;/mix:footroom&gt;
+             &lt;mix:headroom&gt;
+              &lt;mix:numerator&gt;255&lt;/mix:numerator&gt;
+             &lt;/mix:headroom&gt;
+             &lt;/mix:Component&gt;
+            &lt;/mix:ReferenceBlackWhite&gt;
+          &lt;/mix:PhotometricInterpretation&gt;
+         &lt;/mix:BasicImageCharacteristics&gt;
+        &lt;/mix:BasicImageInformation&gt;
+        &lt;mix:ImageCaptureMetadata&gt;
+         &lt;mix:GeneralCaptureInformation&gt;
+         &lt;mix:dateTimeCreated&gt;2016-10-14T11:40:04&lt;/mix:dateTimeCreated&gt;
+         &lt;/mix:GeneralCaptureInformation&gt;
+         &lt;mix:ScannerCapture&gt;
+          &lt;mix:ScanningSystemSoftware&gt;
+           &lt;mix:scanningSoftwareName&gt;Kofax standard Multi-Page TIFF Storage Filter v3.03.000&lt;/mix:scanningSoftwareName&gt;
+          &lt;/mix:ScanningSystemSoftware&gt;
+         &lt;/mix:ScannerCapture&gt;
+         &lt;mix:orientation&gt;normal*&lt;/mix:orientation&gt;
+        &lt;/mix:ImageCaptureMetadata&gt;
+        &lt;mix:ImageAssessmentMetadata&gt;
+         &lt;mix:SpatialMetrics&gt;
+          &lt;mix:samplingFrequencyUnit&gt;in.&lt;/mix:samplingFrequencyUnit&gt;
+          &lt;mix:xSamplingFrequency&gt;
+           &lt;mix:numerator&gt;300&lt;/mix:numerator&gt;
+          &lt;/mix:xSamplingFrequency&gt;
+          &lt;mix:ySamplingFrequency&gt;
+           &lt;mix:numerator&gt;300&lt;/mix:numerator&gt;
+          &lt;/mix:ySamplingFrequency&gt;
+         &lt;/mix:SpatialMetrics&gt;
+         &lt;mix:ImageColorEncoding&gt;
+          &lt;mix:BitsPerSample&gt;
+           &lt;mix:bitsPerSampleValue&gt;8&lt;/mix:bitsPerSampleValue&gt;
+           &lt;mix:bitsPerSampleValue&gt;8&lt;/mix:bitsPerSampleValue&gt;
+           &lt;mix:bitsPerSampleValue&gt;8&lt;/mix:bitsPerSampleValue&gt;
+           &lt;mix:bitsPerSampleUnit&gt;integer&lt;/mix:bitsPerSampleUnit&gt;
+          &lt;/mix:BitsPerSample&gt;
+          &lt;mix:samplesPerPixel&gt;3&lt;/mix:samplesPerPixel&gt;
+         &lt;/mix:ImageColorEncoding&gt;
+        &lt;/mix:ImageAssessmentMetadata&gt;
+       &lt;/mix:mix&gt;
+         &lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;DateTime&lt;/name&gt;
+        &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+         &lt;value&gt;2016:10:14 11:40:04&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;NewSubfileType&lt;/name&gt;
+        &lt;values arity=&quot;Scalar&quot; type=&quot;Long&quot;&gt;
+         &lt;value&gt;0&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;SampleFormat&lt;/name&gt;
+        &lt;values arity=&quot;Array&quot; type=&quot;Integer&quot;&gt;
+         &lt;value&gt;1&lt;/value&gt;
+         &lt;value&gt;1&lt;/value&gt;
+         &lt;value&gt;1&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;MinSampleValue&lt;/name&gt;
+        &lt;values arity=&quot;Array&quot; type=&quot;Integer&quot;&gt;
+         &lt;value&gt;0&lt;/value&gt;
+         &lt;value&gt;0&lt;/value&gt;
+         &lt;value&gt;0&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;MaxSampleValue&lt;/name&gt;
+        &lt;values arity=&quot;Array&quot; type=&quot;Integer&quot;&gt;
+         &lt;value&gt;255&lt;/value&gt;
+         &lt;value&gt;255&lt;/value&gt;
+         &lt;value&gt;255&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;TransferRange&lt;/name&gt;
+        &lt;values arity=&quot;Array&quot; type=&quot;Integer&quot;&gt;
+         &lt;value&gt;0&lt;/value&gt;
+         &lt;value&gt;255&lt;/value&gt;
+         &lt;value&gt;0&lt;/value&gt;
+         &lt;value&gt;255&lt;/value&gt;
+         &lt;value&gt;0&lt;/value&gt;
+         &lt;value&gt;255&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;Threshholding&lt;/name&gt;
+        &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+         &lt;value&gt;1&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;JPEGInterchangeFormat&lt;/name&gt;
+        &lt;values arity=&quot;Scalar&quot; type=&quot;Long&quot;&gt;
+         &lt;value&gt;768&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;StripOffsets&lt;/name&gt;
+        &lt;values arity=&quot;Array&quot; type=&quot;Long&quot;&gt;
+         &lt;value&gt;768&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;RowsPerStrip&lt;/name&gt;
+        &lt;values arity=&quot;Scalar&quot; type=&quot;Long&quot;&gt;
+         &lt;value&gt;870&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;StripByteCounts&lt;/name&gt;
+        &lt;values arity=&quot;Array&quot; type=&quot;Long&quot;&gt;
+         &lt;value&gt;212992&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;PlanarConfiguration&lt;/name&gt;
+        &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+         &lt;value&gt;1&lt;/value&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;property&gt;
+        &lt;name&gt;TIFFITProperties&lt;/name&gt;
+        &lt;values arity=&quot;List&quot; type=&quot;Property&quot;&gt;
+        &lt;property&gt;
+         &lt;name&gt;BackgroundColorIndicator&lt;/name&gt;
+         &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+          &lt;value&gt;background not defined&lt;/value&gt;
+         &lt;/values&gt;
+        &lt;/property&gt;
+        &lt;property&gt;
+         &lt;name&gt;ImageColorIndicator&lt;/name&gt;
+         &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+          &lt;value&gt;image not defined&lt;/value&gt;
+         &lt;/values&gt;
+        &lt;/property&gt;
+        &lt;property&gt;
+         &lt;name&gt;TransparencyIndicator&lt;/name&gt;
+         &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+          &lt;value&gt;no transparency&lt;/value&gt;
+         &lt;/values&gt;
+        &lt;/property&gt;
+        &lt;property&gt;
+         &lt;name&gt;PixelIntensityRange&lt;/name&gt;
+         &lt;values arity=&quot;Array&quot; type=&quot;Integer&quot;&gt;
+          &lt;value&gt;0&lt;/value&gt;
+          &lt;value&gt;255&lt;/value&gt;
+         &lt;/values&gt;
+        &lt;/property&gt;
+        &lt;property&gt;
+         &lt;name&gt;RasterPadding&lt;/name&gt;
+         &lt;values arity=&quot;Scalar&quot; type=&quot;String&quot;&gt;
+          &lt;value&gt;1 byte&lt;/value&gt;
+         &lt;/values&gt;
+        &lt;/property&gt;
+        &lt;property&gt;
+         &lt;name&gt;BitsPerRunLength&lt;/name&gt;
+         &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+          &lt;value&gt;8&lt;/value&gt;
+         &lt;/values&gt;
+        &lt;/property&gt;
+        &lt;property&gt;
+         &lt;name&gt;BitsPerExtendedRunLength&lt;/name&gt;
+         &lt;values arity=&quot;Scalar&quot; type=&quot;Integer&quot;&gt;
+          &lt;value&gt;16&lt;/value&gt;
+         &lt;/values&gt;
+        &lt;/property&gt;
+        &lt;/values&gt;
+       &lt;/property&gt;
+       &lt;/values&gt;
+      &lt;/property&gt;
+      &lt;/values&gt;
+     &lt;/property&gt;
+     &lt;/values&gt;
+    &lt;/property&gt;
+    &lt;/values&gt;
+   &lt;/property&gt;
+  &lt;/properties&gt;
+ &lt;/repInfo&gt;
+&lt;/jhove&gt;
+</pre></div>
+</div>
+</section>
+<section id="notes-on-the-error">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Notes on the error</a><a class="headerlink" href="#notes-on-the-error" title="Link to this heading">¶</a></h2>
+</section>
+<section id="related-errors-by-source-files">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Related errors by source files</a><a class="headerlink" href="#related-errors-by-source-files" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">JHOVE</span><span class="p">:</span>  <span class="n">JPEGProc</span> <span class="ow">not</span> <span class="n">defined</span> <span class="k">for</span> <span class="n">JPEG</span> <span class="n">compression</span>
+</pre></div>
+</div>
+<p>Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../../index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-validator.html">Articles by validating software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../toc-mime.html">Articles by file format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../repairs.html">Solutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../corpus.html">Corpus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../datamodel.html">Data model</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../../../../_sources/database/solutions/JHOVE/JPEGProc-not-defined-for-JPEG-compression/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
