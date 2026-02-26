@@ -1068,7 +1068,12 @@
   "version": "4",
   "profile": "",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "RFC": "https://datatracker.ietf.org/doc/rfc9559/",
+      "matroska.org": "https://www.matroska.org/technical/elements.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/76a480a3-9ec4-4951-becc-e8121efb0f3d",
@@ -1076,7 +1081,12 @@
   "version": "(:unav)",
   "profile": "",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "RFC": "https://datatracker.ietf.org/doc/rfc9559/",
+      "matroska.org": "https://www.matroska.org/technical/elements.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/b15f1e79-82f8-42d5-b3d4-dd9412b98247",

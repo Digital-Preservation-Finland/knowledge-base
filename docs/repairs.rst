@@ -67,12 +67,12 @@ Migrated files
    * - audio/x-wav
      - (:unap)
      - 
-     - The file is migrated from :ref:`file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f` using :ref:`ffmpeg-wma-wav-conversion` with FFmpeg version 6.0.
+     - The file is migrated from :ref:`file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f` using @id'ffmpeg-wma-wav-conversion'
      - :ref:`corpus <corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84>`
    * - audio/x-wav
      - (:unap)
      - 
-     - The file is migrated from :ref:`file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798` using :ref:`ffmpeg-wma-wav-conversion` with FFmpeg version 6.0
+     - The file is migrated from :ref:`file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798` using @id'ffmpeg-wma-wav-conversion'
      - :ref:`corpus <corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0>`
 ----
 
@@ -155,21 +155,33 @@ Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container
 The suggestion
 ~~~~~~~~~~~~~~
 
-All video and audio streams and the first subtitle stream are migrated into a MKV container with FFV1 video streams and FLAC audio streams. The subtitle stream is migrated as it is.
+All video and audio streams and the first subtitle stream are migrated into a MKV container as FFV1 video streams and FLAC audio streams. The subtitle stream is migrated as it is. The Matroska MKV container supports video, audio and subtitle streams.
 
 Effects
 ~~~~~~~
 
-Only video and audio streams and the first subtitle stream are migrated. ``-map 0:v`` and ``-map 0:a`` select all video and audio streams. ``-c:v ffv1`` and ``-c:a flac`` set FFV1 and FLAC codecs for video and audio encoding. ``-c:s copy`` copies the subtitle stream.
+Video and audio streams and the first subtitle stream are migrated.
 
-``-level``, ``-g``, ``slicecrc`` and ``context`` are both general and codec-specific parameters for the encoding with FFV1 codec. They do not alter the video or audio bitstreams.
+``-map 0:v`` and ``-map 0:a`` select every video and audio stream from the input file. ``-c:v ffv1`` and ``-c:a flac`` set FFV1 and FLAC codecs for video and audio encoding. ``-c:s copy`` copies the subtitle stream.
 
-Codec-specfic parameters have descriptions in FFmpeg's documentation at https://ffmpeg.org/ffmpeg-codecs.html#Codec-Options. Rewrapping MOV container to MKV follows ffmprovisr's method for video and audio streams: https://amiaopensource.github.io/ffmprovisr/#basic-rewrap. Modification of video and audio bitsreams can be detected by FFmpeg's stream hashing functionality: https://amiaopensource.github.io/ffmprovisr/#get_stream_checksum
+``-level``, ``-g``, ``-slicecrc`` and ``-context`` are both general and codec-specific parameters for the encoding with FFV1 codec. Using them does not alter stream hashes from video streams: https://amiaopensource.github.io/ffmprovisr/#get_streamhash. AAC audio hashes change in the migration.
+
+All of the following parameters for the FFV1 codec are not fully documented:
+
+``-level 3`` sets encoding to FFV1 version 3 (1.3). Earlier versions seem to be disabled at the moment. https://www.rfc-editor.org/rfc/rfc9043#name-introduction.
+
+``-g 1`` sets interval for keyframes (group of frames) so that every frame is a keyframe: https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/6.0:/libavcodec/options_table.h#l93.
+
+``-slicecrc 1`` turns on error detection for FFV1 slices used in FFV1 frames: https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/6.0:/libavcodec/ffv1enc.c#l1243.
+
+``-context 1`` set bigger (rather than smaller ``0``) `ring size` for FFV1 algorithm.
+
+Codec-specfic parameters have descriptions in FFmpeg's documentation at https://ffmpeg.org/ffmpeg-codecs.html#Codec-Options. Rewrapping MOV container to MKV follows ffmprovisr's method for video and audio streams: https://amiaopensource.github.io/ffmprovisr/#basic-rewrap. Modification of video and audio bitsreams can be detected by FFmpeg's stream hashing functionality: https://amiaopensource.github.io/ffmprovisr/#get_stream_checksum.
 
 Justification
 ~~~~~~~~~~~~~
 
-The selected bitstreams are not modified even though their format changes.
+The selected streams are supported by the target container. Video output is not modified.
 
 Execution
 ~~~~~~~~~~~~~~~~~
@@ -192,33 +204,33 @@ Migrated files
      - **Location**
    * - video/x-matroska
      - 4
-     - 
-     - The file is migration from :ref:`file-scraper/1b17ae63-2f1b-4de5-a6d6-41df3dcde9ab` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
+     - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
+     - The file is migration from :ref:`file-scraper/1b17ae63-2f1b-4de5-a6d6-41df3dcde9ab` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed in migration.
      - :ref:`corpus <corpus/file/b9013803-ea52-4fcc-b8a6-24a9d3357929>`
    * - video/x-matroska
      - 4
-     - 
-     - The file is migration from :ref:`file-scraper/9627eb87-272c-4ed4-a93a-7b53b4c162be` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
+     - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
+     - The file is migration from :ref:`file-scraper/9627eb87-272c-4ed4-a93a-7b53b4c162be` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed in migration.
      - :ref:`corpus <corpus/file/16ee86b0-44f6-44fb-99e9-b1735b8eb52c>`
    * - video/x-matroska
      - 4
-     - 
-     - The file is migration from :ref:`file-scraper/c71ffb28-c479-4db7-a3c4-ce3abd018996` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
+     - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
+     - The file is migration from :ref:`file-scraper/c71ffb28-c479-4db7-a3c4-ce3abd018996` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed in migration.
      - :ref:`corpus <corpus/file/7139179b-8cf7-40bf-8ff0-67e024d74a52>`
    * - video/x-matroska
      - 4
-     - 
-     - The file is migration from :ref:`file-scraper/59cd9213-cd79-44df-9314-10f43907ce3f` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
+     - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
+     - The file is migration from :ref:`file-scraper/59cd9213-cd79-44df-9314-10f43907ce3f` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed and audio stream checksum changed in migration.
      - :ref:`corpus <corpus/file/b889a784-357d-475e-9890-6d2e01aad6ac>`
    * - video/x-matroska
      - 4
-     - 
-     - The file is migration from :ref:`file-scraper/efe3e824-8a13-4a24-8b07-4145d814c4a1` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
+     - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
+     - The file is migration from :ref:`file-scraper/efe3e824-8a13-4a24-8b07-4145d814c4a1` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed in migration and audio stream checksum changed in migration.
      - :ref:`corpus <corpus/file/65487bad-a067-4f22-8077-e65c6a373281>`
    * - video/x-matroska
      - 4
-     - 
-     - The file is migration from :ref:`file-scraper/f206dae7-049c-4c9b-abae-e8d671f10ead` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg` with FFmpeg version 6.0
+     - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
+     - The file is migration from :ref:`file-scraper/f206dae7-049c-4c9b-abae-e8d671f10ead` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed and audio stream checksum changed in migration.
      - :ref:`corpus <corpus/file/d42caac9-c436-49e1-bcb8-5ee49c1a8f28>`
 
 ------------

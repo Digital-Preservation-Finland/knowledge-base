@@ -10716,7 +10716,7 @@
   "@id": "corpus/file/65487bad-a067-4f22-8077-e65c6a373281",
   "source": "corpus/format/bdd6b168-e38f-4a06-8f51-237e65c38290",
   "wellFormed": true,
-  "description": "The file is migration from @id'file-scraper/efe3e824-8a13-4a24-8b07-4145d814c4a1' using @id'database/normalisation/video/mov-to-mkv-ffmpeg' with FFmpeg version 6.0",
+  "description": "The file is migration from @id'file-scraper/efe3e824-8a13-4a24-8b07-4145d814c4a1' using @id'database/normalisation/video/mov-to-mkv-ffmpeg'",
   "checksum": {
     "md5": "350a27600813f10a1492c46689e7fce4",
     "blake2b": "5d5881930c0c5fb695990c112aea72b6632292f8e8e2253841876d1eda8b589f90ed6b6437412458b95642e129bf827e4a62e7fa5fa5d2ed23bab29a8c796803"

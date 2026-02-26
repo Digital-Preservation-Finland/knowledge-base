@@ -173,7 +173,7 @@
   "@id": "corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84",
   "source": "corpus/format/bccb0fca-8c47-4c5c-be66-edf3e21e1032",
   "wellFormed": true,
-  "description": "The file is migrated from @id'file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f' using @id'ffmpeg-wma-wav-conversion' with FFmpeg version 6.0.",
+  "description": "The file is migrated from @id'file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f' using @id'ffmpeg-wma-wav-conversion'",
   "checksum": {
     "md5": "964fdc26e7be6339452a3c3cbd0042a6",
     "blake2b": "99044782e66685d65b14446f841e8c82a0b2df0006b3b7755ef191f1f7122394778e6361974c2e220db2d4fc9f7dd609f1c0723e6965486a97ed83ee395c746b"
@@ -207,7 +207,7 @@
   "@id": "corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0",
   "source": "corpus/format/bccb0fca-8c47-4c5c-be66-edf3e21e1032",
   "wellFormed": true,
-  "description": "The file is migrated from @id'file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798' using @id'ffmpeg-wma-wav-conversion' with FFmpeg version 6.0",
+  "description": "The file is migrated from @id'file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798' using @id'ffmpeg-wma-wav-conversion'",
   "checksum": {
     "md5": "c4dc63d6e134b15e4a7d99cadfd13cd7",
     "blake2b": "913d2bd0f4146ffba1e5fe68ddc1573d29d8b90bd5bb394a21617bc18fddeb08aeb5381e081f006e437711a0faa5e2a53f5e2d46c4c1f3d258949a31986d30b7"

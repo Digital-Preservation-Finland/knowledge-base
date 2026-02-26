@@ -109,12 +109,12 @@ Migrated files
    * - audio/x-wav
      - (:unap)
      - 
-     - The file is migrated from @id'file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f' using @id'ffmpeg-wma-wav-conversion' with FFmpeg version 6.0.
+     - The file is migrated from @id'file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f' using @id'ffmpeg-wma-wav-conversion'
      - :ref:`corpus <corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84>`
    * - audio/x-wav
      - (:unap)
      - 
-     - The file is migrated from @id'file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798' using @id'ffmpeg-wma-wav-conversion' with FFmpeg version 6.0
+     - The file is migrated from @id'file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798' using @id'ffmpeg-wma-wav-conversion'
      - :ref:`corpus <corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0>`
 --------------
 Output example

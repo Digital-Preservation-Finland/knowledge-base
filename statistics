@@ -1,6 +1,6 @@
-    142     192   23840 database/format.objects
+    142     192   24074 database/format.objects
       0       0       0 database/migration-stat.objects
-     10     682    7425 database/repair.objects
+     10     777    8347 database/repair.objects
       2       2    1231 database/files/application_epub+zip/2.0.1
       5       5    3055 database/files/application_epub+zip/3
       8       8    4948 database/files/application_json/generic
@@ -77,7 +77,7 @@
       1       1     879 database/files/audio_x-aiff/generic
       1       1     194 database/files/audio_x-ms-wma/generic
       1       1     865 database/files/audio_x-wav/2
-      8      30    6299 database/files/audio_x-wav/generic
+      8      22    6250 database/files/audio_x-wav/generic
       2       2    1327 database/files/image_gif/1987a
       2       2    1797 database/files/image_gif/1989a
       2      12    1224 database/files/image_gif/GIF image data 10 x 6
@@ -115,7 +115,7 @@
       2       4    1871 database/files/video_mpeg/1
       2       4    1871 database/files/video_mpeg/2
       7       7    9324 database/files/video_quicktime/generic
-     13      80   18659 database/files/video_x-matroska/4
+     13     127   18990 database/files/video_x-matroska/4
       1       1     687 database/files/video_x-matroska/generic
       6      14    7352 database/files/video_x-ms-asf/generic
       1    1444   13563 database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/error
@@ -400,4 +400,4 @@
       1       1     220 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
     282   24195  371278 corpus/error.objects
-    369     591  272507 corpus/file.objects
+    369     587  272483 corpus/file.objects
