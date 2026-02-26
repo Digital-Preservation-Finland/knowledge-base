@@ -65,6 +65,13 @@ The suggestion
 
 A valid JPEG file can be created from a MPO file that contains images that complement the first otherwise valid JPEG file by removing the extra images from the file.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``exiftool -MPF:All= -Trailer:All= -overwrite_original <input>.JPG``
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -74,13 +81,6 @@ Justification
 ~~~~~~~~~~~~~
 
 MPO file format is extension of JPEG for saving multiple images into a same file.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``exiftool -MPF:All= -Trailer:All= -overwrite_original <input>.JPG``
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~

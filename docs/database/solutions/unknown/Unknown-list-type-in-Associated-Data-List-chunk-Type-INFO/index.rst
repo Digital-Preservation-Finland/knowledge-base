@@ -58,6 +58,13 @@ The suggestion
 
 Copy the first audio stream and 'global metadata' of the stream 0 to a new file.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``ffmpeg -i <input file>.WAV -vn -c:a copy -map_metadata 0 <output file>.WAV``
+
+Tested with: FFmpeg 6.0
+
 Effects
 ~~~~~~~
 
@@ -67,13 +74,6 @@ Justification
 ~~~~~~~~~~~~~
 
 Only audio stream and metadata needs to be migrated.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``ffmpeg -i <input file>.WAV -vn -c:a copy -map_metadata 0 <output file>.WAV``
-
-Tested with: FFmpeg 6.0
 
 Migrated files
 ~~~~~~~~~~~~~~

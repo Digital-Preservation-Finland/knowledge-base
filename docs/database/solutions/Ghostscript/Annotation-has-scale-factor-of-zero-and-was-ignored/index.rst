@@ -58,6 +58,13 @@ The suggestion
 
 Remove the annotations using Ghostscript. The process is called refrying (a PDF file).
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf``
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -69,13 +76,6 @@ Justification
 ~~~~~~~~~~~~~
 
 The file will now be valid, however, you lose all annotations.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf``
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~

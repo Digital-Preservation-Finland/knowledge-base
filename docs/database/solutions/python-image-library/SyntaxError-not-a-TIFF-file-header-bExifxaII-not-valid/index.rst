@@ -63,6 +63,13 @@ The suggestion
 
 Open the file in an image processing software and save it again in the same file format
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -72,13 +79,6 @@ Justification
 ~~~~~~~~~~~~~
 
 
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~

@@ -58,6 +58,13 @@ The suggestion
 
 Open the file with Acrobat Reader and save it as a new file without any changes to the content.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -67,13 +74,6 @@ Justification
 ~~~~~~~~~~~~~
 
 Acrobat Reader is a standard implementation for PDF.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~

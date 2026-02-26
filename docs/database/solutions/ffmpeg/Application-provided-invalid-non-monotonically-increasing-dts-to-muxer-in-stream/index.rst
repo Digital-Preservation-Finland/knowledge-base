@@ -75,6 +75,13 @@ The suggestion
 
 Migrate WMA file to WAVE format using FFmpeg with default settings.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``ffmpeg -i <input file>.wma <output file>.wav``
+
+Tested with: FFmpeg 6.0
+
 Effects
 ~~~~~~~
 
@@ -86,13 +93,6 @@ Justification
 ~~~~~~~~~~~~~
 
 The input file has single audio stream.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``ffmpeg -i <input file>.wma <output file>.wav``
-
-Tested with: FFmpeg 6.0
 
 Migrated files
 ~~~~~~~~~~~~~~

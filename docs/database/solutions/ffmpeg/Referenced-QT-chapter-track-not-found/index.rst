@@ -63,6 +63,13 @@ The suggestion
 
 Copy automatically selected audio and video streams and copy 'global metadata' to the new file.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``ffmpeg -i <input file>.MOV -c:v copy -c:a copy -map_metadata 0 <output file>.MOV``
+
+Tested with: FFmpeg 6.0
+
 Effects
 ~~~~~~~
 
@@ -74,13 +81,6 @@ Justification
 ~~~~~~~~~~~~~
 
 The file contains single audio and video streams.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``ffmpeg -i <input file>.MOV -c:v copy -c:a copy -map_metadata 0 <output file>.MOV``
-
-Tested with: FFmpeg 6.0
 
 Migrated files
 ~~~~~~~~~~~~~~

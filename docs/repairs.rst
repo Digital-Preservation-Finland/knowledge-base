@@ -33,6 +33,13 @@ The suggestion
 
 Migrate WMA file to WAVE format using FFmpeg with default settings.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``ffmpeg -i <input file>.wma <output file>.wav``
+
+Tested with: FFmpeg 6.0
+
 Effects
 ~~~~~~~
 
@@ -44,13 +51,6 @@ Justification
 ~~~~~~~~~~~~~
 
 The input file has single audio stream.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``ffmpeg -i <input file>.wma <output file>.wav``
-
-Tested with: FFmpeg 6.0
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -87,6 +87,13 @@ The suggestion
 
 Migrate only audio streams from an MP3 file to remove an attached image and related video container stream.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``ffmpeg -i <input file>.mp3 -c:a copy -map 0 <output file>.mp3``
+
+Tested with: FFmpeg 6.0
+
 Effects
 ~~~~~~~
 
@@ -96,13 +103,6 @@ Justification
 ~~~~~~~~~~~~~
 
 MP3 files contain primarily audio.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``ffmpeg -i <input file>.mp3 -c:a copy -map 0 <output file>.mp3``
-
-Tested with: FFmpeg 6.0
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -122,6 +122,13 @@ The suggestion
 
 A valid JPEG file can be created from a MPO file that contains images that complement the first otherwise valid JPEG file by removing the extra images from the file.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``exiftool -MPF:All= -Trailer:All= -overwrite_original <input>.JPG``
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -131,13 +138,6 @@ Justification
 ~~~~~~~~~~~~~
 
 MPO file format is extension of JPEG for saving multiple images into a same file.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``exiftool -MPF:All= -Trailer:All= -overwrite_original <input>.JPG``
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -157,6 +157,13 @@ The suggestion
 
 All video and audio streams and the first subtitle stream are migrated into a MKV container as FFV1 video streams and FLAC audio streams. The subtitle stream is migrated as it is. The Matroska MKV container supports video, audio and subtitle streams.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``ffmpeg -i <input.mov> -map 0:v -map 0:a -c:v ffv1 -level 3 -g 1 -slicecrc 1 -context 1 -c:a flac -c:s copy <output.mkv>``
+
+Tested with: FFmpeg 6.0
+
 Effects
 ~~~~~~~
 
@@ -168,7 +175,7 @@ Video and audio streams and the first subtitle stream are migrated.
 
 All of the following parameters for the FFV1 codec are not fully documented:
 
-``-level 3`` sets encoding to FFV1 version 3 (1.3). Earlier versions seem to be disabled at the moment. https://www.rfc-editor.org/rfc/rfc9043#name-introduction.
+``-level 3`` sets encoding to FFV1 version 3 (1.3): https://www.rfc-editor.org/rfc/rfc9043#name-introduction. Earlier versions seem to be disabled at the moment in FFmpeg.
 
 ``-g 1`` sets interval for keyframes (group of frames) so that every frame is a keyframe: https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/6.0:/libavcodec/options_table.h#l93.
 
@@ -181,14 +188,7 @@ Codec-specfic parameters have descriptions in FFmpeg's documentation at https://
 Justification
 ~~~~~~~~~~~~~
 
-The selected streams are supported by the target container. Video output is not modified.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``ffmpeg -i <input.mov> -map 0:v -map 0:a -c:v ffv1 -level 3 -g 1 -slicecrc 1 -context 1 -c:a flac -c:s copy <output.mkv>``
-
-Tested with: FFmpeg 6.0
+Raw video, audio and subtitle outputs for playback are not modified.
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -255,6 +255,13 @@ The suggestion
 
 Copy automatically selected audio and video streams and copy 'global metadata' to the new file.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``ffmpeg -i <input file>.MOV -c:v copy -c:a copy -map_metadata 0 <output file>.MOV``
+
+Tested with: FFmpeg 6.0
+
 Effects
 ~~~~~~~
 
@@ -266,13 +273,6 @@ Justification
 ~~~~~~~~~~~~~
 
 The file contains single audio and video streams.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``ffmpeg -i <input file>.MOV -c:v copy -c:a copy -map_metadata 0 <output file>.MOV``
-
-Tested with: FFmpeg 6.0
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -292,6 +292,13 @@ The suggestion
 
 Open the file with Acrobat Reader and save it as a new file without any changes to the content.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -301,13 +308,6 @@ Justification
 ~~~~~~~~~~~~~
 
 Acrobat Reader is a standard implementation for PDF.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -327,6 +327,13 @@ The suggestion
 
 If the bits are not completely missing, use ImageMagick. If the bits are missing JHOVE reports 'Expected marker byte 255 ' from JPEG-HUL and in that case 4 bytes can be added starting from position 7 in the file. Otherwise, the file more thoroughly corrupted.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``convert <input file> <output file>``
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -336,13 +343,6 @@ Justification
 ~~~~~~~~~~~~~
 
 
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``convert <input file> <output file>``
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -362,6 +362,13 @@ The suggestion
 
 Open the file in an image processing software and save it again in the same file format
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -371,13 +378,6 @@ Justification
 ~~~~~~~~~~~~~
 
 
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -397,6 +397,13 @@ The suggestion
 
 Copy the first audio stream and 'global metadata' of the stream 0 to a new file.
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``ffmpeg -i <input file>.WAV -vn -c:a copy -map_metadata 0 <output file>.WAV``
+
+Tested with: FFmpeg 6.0
+
 Effects
 ~~~~~~~
 
@@ -406,13 +413,6 @@ Justification
 ~~~~~~~~~~~~~
 
 Only audio stream and metadata needs to be migrated.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``ffmpeg -i <input file>.WAV -vn -c:a copy -map_metadata 0 <output file>.WAV``
-
-Tested with: FFmpeg 6.0
 
 Migrated files
 ~~~~~~~~~~~~~~
@@ -432,6 +432,13 @@ The suggestion
 
 Remove the annotations using Ghostscript. The process is called refrying (a PDF file).
 
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf``
+
+Tested with: 
+
 Effects
 ~~~~~~~
 
@@ -443,13 +450,6 @@ Justification
 ~~~~~~~~~~~~~
 
 The file will now be valid, however, you lose all annotations.
-
-Execution
-~~~~~~~~~~~~~~~~~
-
-	``gs -o <fixed file>.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPreserveAnnots=false <broken_file>.pdf``
-
-Tested with: 
 
 Migrated files
 ~~~~~~~~~~~~~~
