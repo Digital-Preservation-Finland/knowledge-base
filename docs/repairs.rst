@@ -67,12 +67,12 @@ Migrated files
    * - audio/x-wav
      - (:unap)
      - 
-     - The file is migrated from :ref:`file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f` using @id'ffmpeg-wma-wav-conversion'
+     - The file is migrated from :ref:`file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f` using :ref:`ffmpeg-wma-wav-conversion`
      - :ref:`corpus <corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84>`
    * - audio/x-wav
      - (:unap)
      - 
-     - The file is migrated from :ref:`file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798` using @id'ffmpeg-wma-wav-conversion'
+     - The file is migrated from :ref:`file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798` using :ref:`ffmpeg-wma-wav-conversion`
      - :ref:`corpus <corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0>`
 ----
 
@@ -205,32 +205,32 @@ Migrated files
    * - video/x-matroska
      - 4
      - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
-     - The file is migration from :ref:`file-scraper/1b17ae63-2f1b-4de5-a6d6-41df3dcde9ab` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed in migration.
+     - The file is migration from :ref:`file-scraper/1b17ae63-2f1b-4de5-a6d6-41df3dcde9ab` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg`. An unsupported plain data stream was removed in migration.
      - :ref:`corpus <corpus/file/b9013803-ea52-4fcc-b8a6-24a9d3357929>`
    * - video/x-matroska
      - 4
      - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
-     - The file is migration from :ref:`file-scraper/9627eb87-272c-4ed4-a93a-7b53b4c162be` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed in migration.
+     - The file is migration from :ref:`file-scraper/9627eb87-272c-4ed4-a93a-7b53b4c162be` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg`. An unsupported plain data stream was removed in migration.
      - :ref:`corpus <corpus/file/16ee86b0-44f6-44fb-99e9-b1735b8eb52c>`
    * - video/x-matroska
      - 4
      - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
-     - The file is migration from :ref:`file-scraper/c71ffb28-c479-4db7-a3c4-ce3abd018996` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed in migration.
+     - The file is migration from :ref:`file-scraper/c71ffb28-c479-4db7-a3c4-ce3abd018996` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg`. An unsupported plain data stream was removed in migration.
      - :ref:`corpus <corpus/file/7139179b-8cf7-40bf-8ff0-67e024d74a52>`
    * - video/x-matroska
      - 4
      - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
-     - The file is migration from :ref:`file-scraper/59cd9213-cd79-44df-9314-10f43907ce3f` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed and audio stream checksum changed in migration.
+     - The file is migration from :ref:`file-scraper/59cd9213-cd79-44df-9314-10f43907ce3f` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg`. An unsupported plain data stream was removed and audio stream checksum changed in migration.
      - :ref:`corpus <corpus/file/b889a784-357d-475e-9890-6d2e01aad6ac>`
    * - video/x-matroska
      - 4
      - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
-     - The file is migration from :ref:`file-scraper/efe3e824-8a13-4a24-8b07-4145d814c4a1` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed in migration and audio stream checksum changed in migration.
+     - The file is migration from :ref:`file-scraper/efe3e824-8a13-4a24-8b07-4145d814c4a1` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg`. An unsupported plain data stream was removed in migration and audio stream checksum changed in migration.
      - :ref:`corpus <corpus/file/65487bad-a067-4f22-8077-e65c6a373281>`
    * - video/x-matroska
      - 4
      - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
-     - The file is migration from :ref:`file-scraper/f206dae7-049c-4c9b-abae-e8d671f10ead` using @id'database/normalisation/video/mov-to-mkv-ffmpeg'. An unsupported plain data stream was removed and audio stream checksum changed in migration.
+     - The file is migration from :ref:`file-scraper/f206dae7-049c-4c9b-abae-e8d671f10ead` using :ref:`database/normalisation/video/mov-to-mkv-ffmpeg`. An unsupported plain data stream was removed and audio stream checksum changed in migration.
      - :ref:`corpus <corpus/file/d42caac9-c436-49e1-bcb8-5ee49c1a8f28>`
 
 ------------
