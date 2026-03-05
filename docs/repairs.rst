@@ -181,7 +181,7 @@ All of the following parameters for the FFV1 codec are not fully documented:
 
 ``-slicecrc 1`` turns on error detection for FFV1 slices used in FFV1 frames: https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/6.0:/libavcodec/ffv1enc.c#l1243.
 
-``-context 1`` set bigger (rather than smaller ``0``) `ring size` for FFV1 algorithm.
+``-context 1`` sets bigger (rather than smaller ``0``) `ring size` for FFV1 algorithm.
 
 Codec-specfic parameters have descriptions in FFmpeg's documentation at https://ffmpeg.org/ffmpeg-codecs.html#Codec-Options. Rewrapping MOV container to MKV follows ffmprovisr's method for video and audio streams: https://amiaopensource.github.io/ffmprovisr/#basic-rewrap. Modification of video and audio bitsreams can be detected by FFmpeg's stream hashing functionality: https://amiaopensource.github.io/ffmprovisr/#get_stream_checksum.
 

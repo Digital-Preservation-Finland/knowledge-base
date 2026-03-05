@@ -1,6 +1,6 @@
     142     192   24074 database/format.objects
       0       0       0 database/migration-stat.objects
-     10     776    8336 database/repair.objects
+     10     776    8337 database/repair.objects
       2       2    1231 database/files/application_epub+zip/2.0.1
       5       5    3055 database/files/application_epub+zip/3
       8       8    4948 database/files/application_json/generic
