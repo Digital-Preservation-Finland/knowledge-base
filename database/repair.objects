@@ -131,7 +131,7 @@
     "Codec-specfic parameters have descriptions in FFmpeg's documentation at https://ffmpeg.org/ffmpeg-codecs.html#Codec-Options. Rewrapping MOV container to MKV follows ffmprovisr's method for video and audio streams: https://amiaopensource.github.io/ffmprovisr/#basic-rewrap. Modification of video and audio bitsreams can be detected by FFmpeg's stream hashing functionality: https://amiaopensource.github.io/ffmprovisr/#get_stream_checksum."
   ],
   "justification": "Raw video, audio and subtitle outputs for playback are not modified.",
-  "heading": "Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container",
+  "heading": "Migrate Apple ProRes file to FFV1 and FLAC streams in MKV container",
   "files": [
     "corpus/file/b9013803-ea52-4fcc-b8a6-24a9d3357929",
     "corpus/file/16ee86b0-44f6-44fb-99e9-b1735b8eb52c",

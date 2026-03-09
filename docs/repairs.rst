@@ -149,8 +149,8 @@ Migrated files
 .. _database/normalisation/video/mov-to-mkv-ffmpeg:
 
 
-Normalise Apple ProRes file to FFV1 and FLAC streams in MKV container
-=====================================================================
+Migrate Apple ProRes file to FFV1 and FLAC streams in MKV container
+===================================================================
 
 The suggestion
 ~~~~~~~~~~~~~~
