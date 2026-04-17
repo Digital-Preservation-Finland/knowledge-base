@@ -1155,3 +1155,12 @@
   "profile": "",
   "description": ""
 }
+{"@id":"corpus/format/87a2bb1c-4b50-4938-b372-4567f5887b0b","fileFormat":"application/vnd.oasis.opendocument.formula","version":"1.4","profile":"","description":""}
+{"@id":"corpus/format/e64990a0-6699-48e2-bb4a-3716f79ada68","fileFormat":"application/vnd.oasis.opendocument.graphics","version":"1.4","profile":"","description":""}
+{"@id":"corpus/format/3bc09df7-bca9-4caa-9b07-321e66e8d39c","fileFormat":"application/vnd.oasis.opendocument.presentation","version":"1.4","profile":"","description":""}
+{"@id":"corpus/format/55997bb4-d330-4d21-bb9b-1fc96929192e","fileFormat":"application/vnd.oasis.opendocument.spreadsheet","version":"1.4","profile":"","description":""}
+{"@id":"corpus/format/b31bff59-ec01-421d-8ad7-b40713f113e0","fileFormat":"application/vnd.oasis.opendocument.text","version":"1.4","profile":"","description":""}
+{"@id":"corpus/format/9b5118d5-e032-4e0e-a593-c9f81b8b9723","fileFormat":"image/bmp","version":"(:unav)","profile":"","description":""}
+{"@id":"corpus/format/0b20c899-886b-49d7-9838-d2f90f41297a","fileFormat":"image/webp","version":null,"profile":"","description":""}
+{"@id":"corpus/format/5a32c214-0a4d-43c5-a8da-a1b2eb7c240a","fileFormat":"text/html","version":"3.2","profile":"","description":""}
+{"@id":"corpus/format/9c4535cf-e4bd-46ff-bdf9-91d85804125e","fileFormat":"video/mp4","version":null,"profile":"","description":""}
