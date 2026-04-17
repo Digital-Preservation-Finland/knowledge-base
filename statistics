@@ -1,4 +1,4 @@
-    142     192   24074 database/format.objects
+    151     201   25437 database/format.objects
       0       0       0 database/migration-stat.objects
      10     776    8335 database/repair.objects
       2       2    1231 database/files/application_epub+zip/2.0.1
@@ -16,6 +16,7 @@
       8      14    4757 database/files/application_pdf/1.6
      26      28   15297 database/files/application_pdf/1.7
       2       2    1214 database/files/application_pdf/1.8
+      0       0       0 database/files/application_pdf/1.8.tmp
       8      12    4829 database/files/application_pdf/A-1a
       1       1     192 database/files/application_pdf/A1-b
       5       5    2899 database/files/application_pdf/A-1b
@@ -399,5 +400,5 @@
       1       1     212 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/analysis
       1       1     220 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
-    282   24195  371278 corpus/error.objects
-    369     587  272483 corpus/file.objects
+    388   25787  405944 corpus/error.objects
+    395     529  281729 corpus/file.objects
