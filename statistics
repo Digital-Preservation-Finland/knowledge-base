@@ -71,7 +71,7 @@
       1       1     875 database/files/audio_ac3/generic
       3       3    2378 database/files/audio_flac/generic
       1       1    1039 database/files/audio_mp4/generic
-      6      18    5114 database/files/audio_mpeg/1
+      5      17    4930 database/files/audio_mpeg/1
       1       1     594 database/files/audio_mpeg/generic
       2       2    1467 database/files/audio_x-aiff/1.3
       1       1     879 database/files/audio_x-aiff/generic
@@ -150,7 +150,6 @@
       1     221    2686 database/solutions/ffprobe/Error-opening-filters/error
       1      86     948 database/solutions/ffprobe/Invalid-data-found-when-processing-input/error
       1       6     276 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/error
-      1      12     314 database/solutions/file-scraper/invalid-videocontainer-stream/error
       1     206    2452 database/solutions/Ghostscript/A-closing-mark-or-had-no-matching-mark-ignoring-the-closing-mark/error
       1     106    1088 database/solutions/Ghostscript/A-dictionary-is-missing-a-required-Type-key/error
       1     723    6670 database/solutions/Ghostscript/A-Form-XObject-had-a-BBox-with-a-width-or-height-of-0/error
@@ -352,7 +351,6 @@
       1      24     293 database/solutions/ffprobe/Error-opening-filters/analysis
       1       1     177 database/solutions/ffprobe/Invalid-data-found-when-processing-input/analysis
       1      94     749 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/analysis
-      1      79     755 database/solutions/file-scraper/invalid-videocontainer-stream/analysis
       1      37     526 database/solutions/Ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/analysis
       1      26     295 database/solutions/Ghostscript/Quartz-PDFContext/analysis
       1       1     320 database/solutions/Ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/analysis

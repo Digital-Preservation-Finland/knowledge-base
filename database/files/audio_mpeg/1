@@ -167,17 +167,6 @@
   }
 }
 {
-  "@id": "database/sources/audio_mpeg/1",
-  "source": "source/0f97edc0-8a4b-4395-b615-bf099fc8d62f",
-  "wellFormed": "virtual",
-  "description": "",
-  "checksum": {
-    "md5": "",
-    "blake2b": ""
-  },
-  "location": []
-}
-{
   "@id": "file-scraper/a62763b5-890c-4576-a5d8-115a65230eb9",
   "source": "source/0f97edc0-8a4b-4395-b615-bf099fc8d62f",
   "wellFormed": true,

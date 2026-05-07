@@ -490,15 +490,6 @@ audio/mpeg
  - `Error while decoding stream Invalid data found when processing input <database/solutions/ffmpeg/Error-while-decoding-stream-Invalid-data-found-when-processing-input/index.html>`_
  - `Header missing <database/solutions/ffmpeg/Header-missing/index.html>`_
  - `Invalid data found when processing input <database/solutions/ffmpeg/Invalid-data-found-when-processing-input/index.html>`_
-
-file-scraper
-~~~~~~~~~~~~
-
- - `invalid videocontainer stream <database/solutions/file-scraper/invalid-videocontainer-stream/index.html>`_
-
-ffmpeg
-~~~~~~
-
  - `invalid new backstep <database/solutions/ffmpeg/invalid-new-backstep/index.html>`_
 
 audio/x-aiff
