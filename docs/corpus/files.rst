@@ -11304,169 +11304,6 @@ image/webp
    :depth: 2
 
 
-None
-----
-
-.. _file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f:
-
-invalid__lossless_with_lossy_header.webp
-........................................
-
-
-**Info:**
-
-.. list-table::
-
-   * - Location
-     - `corpus <https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.0.0/tests/data/image_webp/invalid__lossless_with_lossy_header.webp>`__
-   * - Description
-     - 
-   * - Well-formed
-     - False
-   * - MD5
-     - 29e48964e03c02677e225e89e2976c83
-
-
-**Streams:**
-
-.. code:: json
-
-   {
-       "0": {
-           "index": 0,
-           "mimetype": "image/webp",
-           "version": null
-       }
-   }
-
-**Error messages:**
-
-* :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f>`
-* :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f>`
-
-
-----
-
-.. _file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b:
-
-invalid__missing_bitstream.webp
-...............................
-
-
-**Info:**
-
-.. list-table::
-
-   * - Location
-     - `corpus <https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.0.0/tests/data/image_webp/invalid__missing_bitstream.webp>`__
-   * - Description
-     - 
-   * - Well-formed
-     - False
-   * - MD5
-     - e619e4599d0397973c9ff69a478730cc
-
-
-**Streams:**
-
-.. code:: json
-
-   {
-       "0": {
-           "index": 0,
-           "mimetype": "image/webp",
-           "version": null
-       }
-   }
-
-**Error messages:**
-
-* :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b>`
-* :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b>`
-
-
-----
-
-.. _file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd:
-
-invalid__missing_icc_profile.webp
-.................................
-
-
-**Info:**
-
-.. list-table::
-
-   * - Location
-     - `corpus <https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.0.0/tests/data/image_webp/invalid__missing_icc_profile.webp>`__
-   * - Description
-     - 
-   * - Well-formed
-     - False
-   * - MD5
-     - b88cb4d4d367e5ecff657fe6e1f4f69a
-
-
-**Streams:**
-
-.. code:: json
-
-   {
-       "0": {
-           "index": 0,
-           "mimetype": "image/webp",
-           "version": null
-       }
-   }
-
-**Error messages:**
-
-* :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd>`
-* :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd>`
-
-
-----
-
-.. _file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea:
-
-invalid__missing_image_data.webp
-................................
-
-
-**Info:**
-
-.. list-table::
-
-   * - Location
-     - `corpus <https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.0.0/tests/data/image_webp/invalid__missing_image_data.webp>`__
-   * - Description
-     - 
-   * - Well-formed
-     - False
-   * - MD5
-     - 6f695b9f5174ce6025375cc28e56681d
-
-
-**Streams:**
-
-.. code:: json
-
-   {
-       "0": {
-           "index": 0,
-           "mimetype": "image/webp",
-           "version": null
-       }
-   }
-
-**Error messages:**
-
-* :ref:`Pillow 10.0.1 <Pillow-10.0.1-file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea>`
-* :ref:`ImageMagick 6.9.13-25 <ImageMagick-6.9.13-25-file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea>`
-
-
-----
-
 (:unap)
 -------
 
@@ -11704,6 +11541,107 @@ valid_1.4.dng
 
 **Error messages:**
 
+
+
+----
+
+.. _corpus/file/2db2bbb4-1933-4cf2-b597-714f1517165e:
+
+:code:`file.@id`: corpus/file/2db2bbb4-1933-4cf2-b597-714f1517165e
+..................................................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - 
+   * - Description
+     - 
+   * - Well-formed
+     - True
+   * - MD5
+     - 618771410b549d34d11cdcc65c110b33
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "image/x-adobe-dng",
+           "version": "1.4",
+           "byte_order": "little endian",
+           "stream_type": "image",
+           "bps_unit": "integer",
+           "bps_value": "16",
+           "colorspace": "rgb",
+           "compression": "undefined",
+           "height": "6376",
+           "samples_per_pixel": "3",
+           "width": "9566",
+           "icc_profile_name": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+
+
+----
+
+1.7
+---
+
+.. _corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197:
+
+:code:`file.@id`: corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197
+..................................................................
+
+
+**Info:**
+
+.. list-table::
+
+   * - Location
+     - 
+   * - Description
+     - File has been exported from Sony A7RV camera with Adobe's Fast Load Data and JPEG Preview settings enabled.
+   * - Well-formed
+     - False
+   * - MD5
+     - 08b3aedcc4a44f8c33e0971dd5510eba
+
+
+**Streams:**
+
+.. code:: json
+
+   {
+       "0": {
+           "index": 0,
+           "mimetype": "image/x-adobe-dng",
+           "version": "1.7",
+           "byte_order": "little endian",
+           "stream_type": "image",
+           "bps_unit": "integer",
+           "bps_value": "16",
+           "colorspace": "rgb",
+           "compression": "undefined",
+           "height": "6376",
+           "samples_per_pixel": "3",
+           "width": "9566",
+           "icc_profile_name": "(:unav)"
+       }
+   }
+
+**Error messages:**
+
+* :ref:`ExifTool 13.10 <ExifTool-13.10-corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197>`
+* :ref:`JHOVE 1.32.1 <JHOVE-1.32.1-corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197>`
 
 
 ----
@@ -16157,49 +16095,6 @@ video/mp4
    :local:
    :depth: 2
 
-
-None
-----
-
-.. _corpus/file/23e0ece3-63a9-41db-9c73-6bdfa4ce7adf:
-
-invalid__h264_aac_missing_data.mp4
-..................................
-
-
-**Info:**
-
-.. list-table::
-
-   * - Location
-     - `corpus <https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.0.0/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4>`__
-   * - Description
-     - 
-   * - Well-formed
-     - False
-   * - MD5
-     - f46bf2f4c2a70a45835027c156a68cbd
-
-
-**Streams:**
-
-.. code:: json
-
-   {
-       "0": {
-           "index": 0,
-           "mimetype": "video/mp4",
-           "version": null
-       }
-   }
-
-**Error messages:**
-
-* :ref:`ffmpeg 6.0 <ffmpeg-6.0-corpus/file/23e0ece3-63a9-41db-9c73-6bdfa4ce7adf>`
-* :ref:`pymediainfo 7.0.1 <pymediainfo-7.0.1-corpus/file/23e0ece3-63a9-41db-9c73-6bdfa4ce7adf>`
-
-
-----
 
 (:unap)
 -------

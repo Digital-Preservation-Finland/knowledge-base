@@ -1,0 +1,18 @@
+{
+  "files": [
+    "corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197"
+  ],
+  "analyses": [],
+  "validator": "ExifTool",
+  "validatorVersion": [
+    "13.10"
+  ],
+  "errorMessage": "MIME type image/x-adobe-dng with version 1.7 is not supported.",
+  "type": "",
+  "outputExample": [
+    "MIME type image/x-adobe-dng with version 1.7 is not supported."
+  ],
+  "notes": [
+    "This error message is added by File Scraper."
+  ]
+}

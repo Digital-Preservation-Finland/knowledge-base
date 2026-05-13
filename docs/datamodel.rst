@@ -129,7 +129,7 @@ location : array of object
 5. Format
 ---------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-01/source.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-05/source.schema.ld.json``
 
 Description of a file format. The file format classifies file objects and determines the valid form for the data.
 

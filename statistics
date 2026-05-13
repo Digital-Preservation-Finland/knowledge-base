@@ -1,5 +1,4 @@
-    153     203   25712 database/format.objects
-      0       0       0 database/migration-stat.objects
+    152     202   25798 database/format.objects
      10     776    8335 database/repair.objects
       2       2    1231 database/files/application_epub+zip/2.0.1
       5       5    3055 database/files/application_epub+zip/3
@@ -94,7 +93,8 @@
       1       1     617 database/files/image_tiff/generic
       1       1     629 database/files/image_vnd.microsoft.icon/generic
       6      12    3618 database/files/image_webp/generic
-      2       4    1424 database/files/image_x-adobe-dng/1.4
+      3       6    2083 database/files/image_x-adobe-dng/1.4
+      1      19     767 database/files/image_x-adobe-dng/1.7
       1       1     609 database/files/image_x-dpx/1.0
       1       1     580 database/files/image_x-dpx/2.0
       3       3    1795 database/files/image_x-dpx/generic
@@ -123,6 +123,7 @@
       1    1468   13756 database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/error
       1      35     620 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/error
       1      36     508 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/error
+      1      24     359 database/solutions/ExifTool/MIME-type-imagex-adobe-dng-with-version-17-is-not-supported/error
       1      55     596 database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/error
       1      47     725 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/error
       1      33     399 database/solutions/ffmpeg/Bits-overconsumption-at/error
@@ -150,6 +151,7 @@
       1     221    2686 database/solutions/ffprobe/Error-opening-filters/error
       1      86     948 database/solutions/ffprobe/Invalid-data-found-when-processing-input/error
       1       6     276 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/error
+      1      19     340 database/solutions/file-scraper/Given-version-17-for-the-mimetype-imagex-adobe-dng-is-not-supported/error
       1     206    2452 database/solutions/Ghostscript/A-closing-mark-or-had-no-matching-mark-ignoring-the-closing-mark/error
       1     106    1088 database/solutions/Ghostscript/A-dictionary-is-missing-a-required-Type-key/error
       1     723    6670 database/solutions/Ghostscript/A-Form-XObject-had-a-BBox-with-a-width-or-height-of-0/error
@@ -260,13 +262,16 @@
       1    5120   52606 database/solutions/JHOVE/SAXParseException-The-content-of-element-type-html-must-match-headbody/error
       1      83    1711 database/solutions/JHOVE/SAXParseException-The-element-type-body-must-be-terminated-by-the-matching-end-tag-body/error
       1    3853   67900 database/solutions/JHOVE/Tag-out-of-sequence/error
+      1    2938   70261 database/solutions/JHOVE/TileLength-not-a-multiple-of-16/error
       1    3858   67927 database/solutions/JHOVE/Type-mismatch-for-tag-expecting-or-saw/error
+      1      26     342 database/solutions/JHOVE/Undocumented-TIFF-tag/error
       1     210    5015 database/solutions/JHOVE/Unexpected-end-of-file/error
       1     385   11866 database/solutions/JHOVE/Unexpected-exception-java/error
       1       3     311 database/solutions/JHOVE/Unexpected-exception-javalangNullPointerException/error
       1      49    1444 database/solutions/JHOVE/Unknown-data-block-type/error
       1    3851   67895 database/solutions/JHOVE/Unknown-data-type/error
       1      85    1873 database/solutions/JHOVE/Unknown-tag/error
+      1      27     341 database/solutions/JHOVE/Unknown-TIFF-IFD-tag/error
       1     102    2226 database/solutions/JHOVE/Unrecognized-or-missing-DOCTYPE-declaration-validation-continuing-as-HTML-32/error
       1    3852   67908 database/solutions/JHOVE/Value-offset-not-word-aligned/error
       1      19    1550 database/solutions/jpylyzer/containsColourSpecificationBoxFalse/error
@@ -397,5 +402,5 @@
       1       1     212 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/analysis
       1       1     220 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
-    388   25787  405944 corpus/error.objects
-    402     536  291615 corpus/file.objects
+    391   28722  476887 corpus/error.objects
+    404     557  293041 corpus/file.objects

@@ -707,6 +707,23 @@ Pillow
 
  - `cannot identify image file <database/solutions/Pillow/cannot-identify-image-file/index.html>`_
 
+ExifTool
+~~~~~~~~
+
+ - `MIME type imagex adobe dng with version 17 is not supported <database/solutions/ExifTool/MIME-type-imagex-adobe-dng-with-version-17-is-not-supported/index.html>`_
+
+file-scraper
+~~~~~~~~~~~~
+
+ - `Given version 17 for the mimetype imagex adobe dng is not supported <database/solutions/file-scraper/Given-version-17-for-the-mimetype-imagex-adobe-dng-is-not-supported/index.html>`_
+
+JHOVE
+~~~~~
+
+ - `TileLength not a multiple of 16 <database/solutions/JHOVE/TileLength-not-a-multiple-of-16/index.html>`_
+ - `Undocumented TIFF tag <database/solutions/JHOVE/Undocumented-TIFF-tag/index.html>`_
+ - `Unknown TIFF IFD tag <database/solutions/JHOVE/Unknown-TIFF-IFD-tag/index.html>`_
+
 image/x-dpx
 -----------
 

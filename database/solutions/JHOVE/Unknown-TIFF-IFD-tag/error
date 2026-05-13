@@ -1,0 +1,16 @@
+{
+  "files": [
+    "corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197"
+  ],
+  "analyses": [],
+  "validator": "JHOVE",
+  "validatorVersion": [
+    "1.32.1"
+  ],
+  "errorMessage": "Unknown TIFF IFD tag",
+  "type": "",
+  "outputExample": [],
+  "notes": [
+    "Example output is removed from this object for being very long. The output can be found in error object 'Tile length is not multiple.'"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://digitalpreservation.fi/schemas/2026-05/source.schema.ld.json",
+  "$id": "http://digitalpreservation.fi/schemas/2026-01/source.schema.ld.json",
   "title": "Format",
   "description": "Description of a file format. The file format classifies file objects and determines the valid form for the data.",
   "type": "object",

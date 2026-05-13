@@ -14,6 +14,11 @@ DBPTK-Developer
  - `Data type invalid   is not in conformity with INTEGER type in contentxml <database/solutions/DBPTK-Developer/Data-type-invalid---is-not-in-conformity-with-INTEGER-type-in-contentxml/index.html>`_
  - `The data type information on the column definitions in metadataxml must be identical to that in the corresponding tablenumberxsd file <database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/index.html>`_
 
+ExifTool
+--------
+
+ - `MIME type imagex adobe dng with version 17 is not supported <database/solutions/ExifTool/MIME-type-imagex-adobe-dng-with-version-17-is-not-supported/index.html>`_
+
 Ghostscript
 -----------
 
@@ -135,10 +140,13 @@ JHOVE
  - `SAXParseException The content of element type html must match headbody <database/solutions/JHOVE/SAXParseException-The-content-of-element-type-html-must-match-headbody/index.html>`_
  - `SAXParseException The element type body must be terminated by the matching end tag body <database/solutions/JHOVE/SAXParseException-The-element-type-body-must-be-terminated-by-the-matching-end-tag-body/index.html>`_
  - `Tag out of sequence <database/solutions/JHOVE/Tag-out-of-sequence/index.html>`_
+ - `TileLength not a multiple of 16 <database/solutions/JHOVE/TileLength-not-a-multiple-of-16/index.html>`_
  - `Type mismatch for tag expecting or saw <database/solutions/JHOVE/Type-mismatch-for-tag-expecting-or-saw/index.html>`_
+ - `Undocumented TIFF tag <database/solutions/JHOVE/Undocumented-TIFF-tag/index.html>`_
  - `Unexpected end of file <database/solutions/JHOVE/Unexpected-end-of-file/index.html>`_
  - `Unexpected exception java <database/solutions/JHOVE/Unexpected-exception-java/index.html>`_
  - `Unexpected exception javalangNullPointerException <database/solutions/JHOVE/Unexpected-exception-javalangNullPointerException/index.html>`_
+ - `Unknown TIFF IFD tag <database/solutions/JHOVE/Unknown-TIFF-IFD-tag/index.html>`_
  - `Unknown data block type <database/solutions/JHOVE/Unknown-data-block-type/index.html>`_
  - `Unknown data type <database/solutions/JHOVE/Unknown-data-type/index.html>`_
  - `Unknown tag <database/solutions/JHOVE/Unknown-tag/index.html>`_
@@ -227,6 +235,7 @@ file-scraper
 ------------
 
  - `Conflict with values imagejpeg and imagempo <database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/index.html>`_
+ - `Given version 17 for the mimetype imagex adobe dng is not supported <database/solutions/file-scraper/Given-version-17-for-the-mimetype-imagex-adobe-dng-is-not-supported/index.html>`_
 
 jpylyzer
 --------
