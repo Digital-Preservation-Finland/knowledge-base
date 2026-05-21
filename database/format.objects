@@ -87,7 +87,7 @@
   "version": "5",
   "profile": "",
   "@id": "source/06c67518-c52a-4ac5-8e79-4bc80f132e04",
-  "specification": [],
+  "specification": [{"WHATWG": "https://html.spec.whatwg.org/multipage/"}],
   "description": ""
 }
 {

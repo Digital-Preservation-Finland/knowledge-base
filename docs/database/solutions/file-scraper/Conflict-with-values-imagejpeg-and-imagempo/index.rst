@@ -31,8 +31,8 @@ Classification
    * - image/mpo
      - 
      - `CIPA <https://www.cipa.jp/std/documents/download_e.html?CIPA_DC-007-2025_E>`__
-     - 
-     - 
+     - No file locations.
+     - :ref:`corpus <database/files/image_mpo/generic>`
 
 --------
 Analyses

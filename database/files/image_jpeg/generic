@@ -25,7 +25,7 @@
   "@id": "database/sources/image_jpeg/general",
   "source": "source/25b0ef4a-7873-48ff-96b9-40f7ab252a89",
   "wellFormed": "virtual",
-  "description": "",
+  "description": "No file locations.",
   "checksum": {
     "md5": "",
     "blake2b": ""

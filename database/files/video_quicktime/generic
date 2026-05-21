@@ -2,7 +2,7 @@
   "@id": "database/sources/video_quicktime/general",
   "source": "source/dfdfa14a-2938-4fa4-b1a4-1f4e834c9546",
   "wellFormed": "virtual",
-  "description": "",
+  "description": "No file locations.",
   "checksum": {
     "md5": "",
     "blake2b": ""

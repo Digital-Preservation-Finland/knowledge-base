@@ -31,8 +31,8 @@ Classification
    * - video/quicktime
      - 
      - 
-     - 
-     - 
+     - No file locations.
+     - :ref:`corpus <database/sources/video_quicktime/general>`
 
 --------
 Analyses

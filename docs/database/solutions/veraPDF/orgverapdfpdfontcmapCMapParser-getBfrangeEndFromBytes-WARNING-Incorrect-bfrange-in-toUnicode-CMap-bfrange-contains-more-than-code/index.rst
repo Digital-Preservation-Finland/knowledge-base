@@ -31,8 +31,8 @@ Classification
    * - application/pdf
      - A1-b
      - 
-     - 
-     - 
+     - No file locations.
+     - :ref:`corpus <database/sources/application_pdf/A1-b>`
 
 --------
 Analyses

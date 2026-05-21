@@ -31,8 +31,8 @@ Classification
    * - image/jpeg
      - 
      - `JPEG <https://jpeg.org/jpeg/index.html>`__
-     - 
-     - 
+     - No file locations.
+     - :ref:`corpus <database/sources/image_jpeg/general>`
 
 --------
 Analyses

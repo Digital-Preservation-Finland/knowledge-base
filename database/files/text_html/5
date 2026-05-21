@@ -2,7 +2,7 @@
   "@id": "database/sources/text_html/5",
   "source": "source/06c67518-c52a-4ac5-8e79-4bc80f132e04",
   "wellFormed": "virtual",
-  "description": "",
+  "description": "No file locations",
   "checksum": {
     "md5": "",
     "blake2b": ""

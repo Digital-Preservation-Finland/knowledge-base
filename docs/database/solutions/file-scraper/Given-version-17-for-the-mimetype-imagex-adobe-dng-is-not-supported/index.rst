@@ -32,7 +32,7 @@ Classification
      - 1.7
      - 
      - File has been exported from Sony A7RV camera with Adobe's Fast Load Data and JPEG Preview settings enabled.
-     - 
+     - :ref:`corpus <corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197>`
 
 --------
 Analyses

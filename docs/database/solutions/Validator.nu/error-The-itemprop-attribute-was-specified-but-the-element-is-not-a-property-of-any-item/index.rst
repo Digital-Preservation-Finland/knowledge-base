@@ -30,9 +30,9 @@ Classification
      - **Location**
    * - text/html
      - 5
-     - 
-     - 
-     - 
+     - `WHATWG <https://html.spec.whatwg.org/multipage/>`__
+     - No file locations
+     - :ref:`corpus <database/sources/text_html/5>`
 
 --------
 Analyses

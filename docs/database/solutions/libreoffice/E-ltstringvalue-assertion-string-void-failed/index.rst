@@ -31,8 +31,8 @@ Classification
    * - application/vnd.openxmlformats-officedocument.wordprocessingml.document
      - 
      - 
-     - 
-     - 
+     - No file locations.
+     - :ref:`corpus <database/sources/application_vnd.openxmlformats-officedocument.wordprocessingml.document/general>`
 
 --------
 Analyses

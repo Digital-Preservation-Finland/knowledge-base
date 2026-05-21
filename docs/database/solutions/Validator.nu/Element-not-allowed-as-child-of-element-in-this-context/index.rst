@@ -30,7 +30,7 @@ Classification
      - **Location**
    * - text/html
      - 5
-     - 
+     - `WHATWG <https://html.spec.whatwg.org/multipage/>`__
      - 
      - :ref:`corpus <file-scraper/c45812d5-67b4-4ef5-8645-45aaefb7e6e2>`
 

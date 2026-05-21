@@ -25,7 +25,7 @@
   "@id": "database/sources/application_vnd.openxmlformats-officedocument.wordprocessingml.document/general",
   "source": "source/8528d8f8-5bf5-42ea-9fa2-5eb03a2825b9",
   "wellFormed": "virtual",
-  "description": "",
+  "description": "No file locations.",
   "checksum": {
     "md5": "",
     "blake2b": ""

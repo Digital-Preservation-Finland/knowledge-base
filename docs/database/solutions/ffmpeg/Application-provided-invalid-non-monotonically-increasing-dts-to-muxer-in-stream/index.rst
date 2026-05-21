@@ -31,13 +31,13 @@ Classification
    * - video/quicktime
      - 
      - 
-     - 
-     - 
+     - No file locations.
+     - :ref:`corpus <database/sources/video_quicktime/general>`
    * - audio/x-ms-wma
      - 
      - 
-     - 
-     - 
+     - No file locations.
+     - :ref:`corpus <database/sources/audio_x-ms-wma/general>`
    * - video/x-ms-asf
      - (:unap)
      - 
