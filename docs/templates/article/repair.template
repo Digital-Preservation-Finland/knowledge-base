@@ -1,0 +1,28 @@
+
+{heading_f}
+
+The suggestion
+~~~~~~~~~~~~~~
+
+{repair}
+
+Execution
+~~~~~~~~~~~~~~~~~
+
+	{execution_f}
+
+Tested with: {softwareTestVersion}
+
+Effects
+~~~~~~~
+
+{effects_f}
+
+Justification
+~~~~~~~~~~~~~
+
+{justification}
+
+Migrated files
+~~~~~~~~~~~~~~
+

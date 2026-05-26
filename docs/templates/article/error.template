@@ -1,0 +1,19 @@
+{errorMessage}
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - {validator}
+     - {validatorVersion_f}
+     - {type}
+
