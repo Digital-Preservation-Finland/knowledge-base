@@ -3,12 +3,23 @@ Corpus layouts
 
 Corpus files and errors both are listed in a single long page using templates followingly.
 
+
+Corpus TOC
+----------
+
+::
+
+   toc.rst
+
+
 Corpus files
 ------------
 
 File formats should be indexed by file format and version for ordered listing:
 
 ::
+
+   files.toc.rst
 
    for each file format:
        format.rst
@@ -26,6 +37,8 @@ Corpus errors
 Errors should be indexed by validator and validator version for ordered listing:
 
 ::
+
+   errors.toc.rst
 
    for validator and version:
        validator.rst

@@ -9,7 +9,7 @@ For the knowledge base, the errors on this page are output examples from validat
 .. contents:: Validators
    :local:
    :depth: 1
-   
+
 
 
 .. _DBPTK Developer 4.0.0-DPRES:
