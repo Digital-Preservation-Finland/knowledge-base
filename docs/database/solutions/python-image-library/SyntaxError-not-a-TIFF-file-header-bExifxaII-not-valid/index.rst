@@ -106,4 +106,4 @@ Related errors by source files
 	jhove:	File does not begin with SPIFF, Exif or JFIF segment
 	python image library:	SyntaxError: not a TIFF file (header b'Exif\x00aII' not valid)
 
-Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

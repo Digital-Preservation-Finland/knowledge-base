@@ -73,4 +73,4 @@ Related errors by source files
 	JHOVE:	Unknown data block type
 	Pillow:	Image size (.* pixels) exceeds limit of .* pixels, could be decompression bomb DOS attack.
 
-Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

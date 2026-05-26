@@ -130,4 +130,4 @@ Related errors by source files
 
 	lxml:	Found encoding declaration ASCII from the file .*, but UTF-8 was expected.
 
-Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

@@ -79,4 +79,4 @@ Related errors by source files
 
 	verapdf:	org.verapdf.pd.font.cmap.CMapParser getBfrangeEndFromBytes WARNING: Incorrect bfrange in toUnicode CMap: bfrange contains more than 256 code.
 
-Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

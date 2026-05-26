@@ -75,4 +75,4 @@ Related errors by source files
 	imagemagick (wand):	"Incompatible type for ""RichTIFFIPTC"""
 	imagemagick (wand):	Read error on strip 525
 
-Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

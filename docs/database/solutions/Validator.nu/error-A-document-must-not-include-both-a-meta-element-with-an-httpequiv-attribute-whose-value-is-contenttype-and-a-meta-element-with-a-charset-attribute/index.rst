@@ -86,4 +86,4 @@ Related errors by source files
 	v.Nu:	error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
 	v.Nu:	error: The "itemprop" attribute was specified, but the element is not a property of any item.
 
-Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

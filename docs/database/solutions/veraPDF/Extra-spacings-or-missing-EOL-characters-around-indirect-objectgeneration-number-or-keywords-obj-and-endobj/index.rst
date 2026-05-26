@@ -194,4 +194,4 @@ Related errors by source files
 	veraPDF:	The value of CreationDate entry from the document Info dictionary and its matching XMP property .*xmp:CreateDate.* are not equivalent (Info /CreationDate = D:.*, XMP xmp:CreateDate = .*)
 	veraPDF:	The value of ModDate entry from the document Info dictionary and its matching XMP property .*xmp:ModifyDate.* are not equivalent (Info /ModDate = D:.*, XMP xmp:ModifyDate = .*)
 
-Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development.
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
