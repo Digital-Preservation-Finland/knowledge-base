@@ -78,6 +78,8 @@ Acrobat Reader is a standard implementation for PDF.
 Migrated files
 ~~~~~~~~~~~~~~
 
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
 --------------
 Output example
 --------------

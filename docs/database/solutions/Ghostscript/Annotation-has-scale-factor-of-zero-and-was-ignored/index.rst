@@ -80,6 +80,8 @@ The file will now be valid, however, you lose all annotations.
 Migrated files
 ~~~~~~~~~~~~~~
 
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
 --------------
 Output example
 --------------

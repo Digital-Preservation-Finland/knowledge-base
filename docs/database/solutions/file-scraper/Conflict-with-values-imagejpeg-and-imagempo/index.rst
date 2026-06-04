@@ -85,6 +85,8 @@ MPO file format is extension of JPEG for saving multiple images into a same file
 Migrated files
 ~~~~~~~~~~~~~~
 
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
 --------------
 Output example
 --------------

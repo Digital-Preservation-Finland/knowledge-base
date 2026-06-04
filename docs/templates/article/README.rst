@@ -23,6 +23,8 @@ Templates are used to create article pages followingly:
        for each file in repair:
            file-format.template
            file-list-file.template
+   else
+       repairs.default
    
    info.template
    
@@ -39,7 +41,7 @@ Repairs are listed followingly:
 
 ::
 
-   repairs-heading.template
+   repair.title
    
    for each repair in repair.objects:
        repair.operation

@@ -116,6 +116,8 @@ Migrated files
      - 
      - The file is migrated from @id'file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798' using @id'ffmpeg-wma-wav-conversion'
      - :ref:`corpus <corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0>`
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
 --------------
 Output example
 --------------

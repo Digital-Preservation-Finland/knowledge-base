@@ -85,6 +85,8 @@ The file contains single audio and video streams.
 Migrated files
 ~~~~~~~~~~~~~~
 
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
 --------------
 Output example
 --------------

@@ -1,3 +1,5 @@
+.. _solutions-list:
+
 =========
 Solutions
 =========
