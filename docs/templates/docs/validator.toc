@@ -1,0 +1,9 @@
+Articles by validator
+=====================
+
+List of knowledge base articles grouped by validator raising the error.
+
+.. contents::
+   :depth: 2
+
+

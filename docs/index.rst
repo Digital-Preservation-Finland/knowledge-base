@@ -9,18 +9,7 @@ Welcome to Knowledge base for file format validation errors's documentation!
 .. toctree::
    :maxdepth: 2
 
-   toc-validator
-   toc-mime
+   validators
    repairs
    corpus
    datamodel
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-

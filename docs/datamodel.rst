@@ -7,7 +7,7 @@ The knowledge base consists of information that enable identification and classi
 1. Error
 --------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-12/error.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-06/error.schema.ld.json``
 
 Description of an error. An error may have many analyses and it may rise from many files. Output example from the validating software may and should present context for the error message and the error message is also most likely found in the output example. Validator, validator version and error message fields should define unique error objects. Objects without set error message are preliminary errors and they are undefined.
 
