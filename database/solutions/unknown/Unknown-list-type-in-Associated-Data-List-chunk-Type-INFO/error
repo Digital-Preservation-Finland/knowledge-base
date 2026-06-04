@@ -12,5 +12,6 @@
   "errorMessage": "Unknown list type in Associated Data List chunk: Type = \"INFO\"",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "02f09d38-c56e-4174-ab82-02e263289edd"
 }

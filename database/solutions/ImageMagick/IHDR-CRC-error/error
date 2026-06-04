@@ -14,5 +14,6 @@
     "Error in analyzing file",
     "IHDR: CRC error `/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IHDR.png' @ error/png.c/MagickPNGErrorHandler/1643"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "246321c6-b9b6-4599-aae6-16e78d9be7e8"
 }

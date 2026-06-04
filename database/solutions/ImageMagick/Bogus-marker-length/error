@@ -13,5 +13,6 @@
     "Error in analyzing file",
     "Bogus marker length `/corpus/file-scraper/tests/data/image_jpeg/invalid_1.01_data_changed.jpg' @ error/jpeg.c/JPEGErrorHandler/343"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "2337181e-a960-4126-9b99-d3d382c7a5f4"
 }

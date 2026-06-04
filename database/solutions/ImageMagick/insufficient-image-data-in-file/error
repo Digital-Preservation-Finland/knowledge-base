@@ -15,5 +15,6 @@
     "Error in analyzing file",
     "insufficient image data in file `/corpus/file-scraper/tests/data/image_webp/invalid__missing_bitstream.webp' @ error/webp.c/ReadWEBPImage/590"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "6e87213f-8933-4125-9c08-de09669038b2"
 }

@@ -13,5 +13,6 @@
     "Error in analyzing file",
     "Read Exception `/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IEND.png' @ error/png.c/MagickPNGErrorHandler/1643"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "48ffc2d9-42f8-4f90-ad08-7014609b52c7"
 }

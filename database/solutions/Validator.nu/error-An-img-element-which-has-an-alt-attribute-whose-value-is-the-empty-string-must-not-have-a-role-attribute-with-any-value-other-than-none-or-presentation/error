@@ -12,5 +12,6 @@
   "errorMessage": "error: An \"img\" element which has an \"alt\" attribute whose value is the empty string must not have a \"role\" attribute with any value other than \"none\" or \"presentation\"",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "6a79220c-7399-41f6-82d9-a154b45af946"
 }

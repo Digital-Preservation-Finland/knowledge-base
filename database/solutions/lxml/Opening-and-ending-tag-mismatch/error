@@ -13,5 +13,6 @@
     "Failed: document is not well-formed.",
     "Opening and ending tag mismatch: body line 6 and note, line 7, column 8 (invalid_1.0_no_closing_tag.xml, line 7)"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "9c0f3184-51cf-45bf-bd48-c888935de55b"
 }

@@ -24,5 +24,6 @@
   "outputExample": [
     "Found encoding declaration ASCII from the file /corpus/format-corpus/jp2k-test/resolution/balloon_kdu61.jp2.xml, but UTF-8 was expected."
   ],
-  "notes": []
+  "notes": [],
+  "@id": "c3a9e53c-bbd4-423e-b8dc-d1e9c47235d2"
 }

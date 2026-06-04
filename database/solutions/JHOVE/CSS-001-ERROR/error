@@ -15,5 +15,6 @@
   ],
   "notes": [
     "The \"direction\" property must not be included in an EPUB Style Sheet"
-  ]
+  ],
+  "@id": "2048abe7-4fbf-4dfe-85bb-c951348f436d"
 }

@@ -13,5 +13,6 @@
     "Warctools returned invalid return code: 255\nException: Compressed file ended before the end-of-stream marker was reached\n",
     "Exception: Compressed file ended before the end-of-stream marker was reached\n"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "d9c87cdf-a919-494c-bd4a-2ef30fcb8e91"
 }

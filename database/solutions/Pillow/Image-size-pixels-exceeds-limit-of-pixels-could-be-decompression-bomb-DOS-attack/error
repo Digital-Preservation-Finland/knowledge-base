@@ -13,5 +13,6 @@
     "Error in analyzing file.",
     "Image size (2662166000 pixels) exceeds limit of 715827882 pixels, could be decompression bomb DOS attack."
   ],
-  "notes": []
+  "notes": [],
+  "@id": "cab4a05a-ed80-40ce-b2ff-8f6adffb88d0"
 }

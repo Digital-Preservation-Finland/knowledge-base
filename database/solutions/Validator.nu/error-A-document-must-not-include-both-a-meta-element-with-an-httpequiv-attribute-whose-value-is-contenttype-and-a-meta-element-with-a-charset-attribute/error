@@ -12,5 +12,6 @@
   "errorMessage": "error: A document must not include both a \"meta\" element with an \"http-equiv\" attribute whose value is \"content-type\", and a \"meta\" element with a \"charset\" attribute.",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "02cc0b17-b1f0-4749-b3c4-96b67c1e9192"
 }

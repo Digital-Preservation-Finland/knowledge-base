@@ -15,5 +15,6 @@
     "MIME type (:unav) with version (:unav) is not supported.",
     "Found encoding declaration (:unav) from the file /corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_missing_closing_tag.xhtml, but UTF-8 was expected."
   ],
-  "notes": []
+  "notes": [],
+  "@id": "c8a5c6c5-4018-4bbd-9f94-a9d8add669bf"
 }

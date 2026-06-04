@@ -38,5 +38,6 @@
     "/tmp/file-scraper-mqal3bxa.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.",
     "WXS schema /tmp/file-scraper-mqal3bxa.tmp failed to compile"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "d81508d7-8c47-49ba-a518-51d5932a34ae"
 }

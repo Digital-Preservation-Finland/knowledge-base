@@ -12,5 +12,6 @@
   "errorMessage": "Unexpected exception java.lang.NullPointerException",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "b46944dc-cb86-48c9-b9d3-23f760d655b7"
 }

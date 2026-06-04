@@ -15,5 +15,6 @@
     "Failed: document is not well-formed.",
     "Input is not proper UTF-8, indicate encoding !\nBytes: 0xC4 0x3C 0x2F 0x6E, line 3, column 20 (invalid_1.0_incorrect_encoding.xml, line 3)"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "e2d527d4-d55f-41d7-857f-85accf37a814"
 }

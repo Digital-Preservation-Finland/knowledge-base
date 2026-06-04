@@ -20,5 +20,6 @@
     "Error in analyzing file.",
     "cannot identify image file '/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IHDR.png'"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "06c14b5d-099e-4902-84e9-be883c8ae20e"
 }

@@ -13,5 +13,6 @@
     "/corpus/file-scraper/tests/data/text_xml/invalid_1.0_no_namespace_xsd.xml:3: element beginnersbook: Schemas validity error : Element 'beginnersbook': Missing child element(s). Expected is ( message ).",
     "/corpus/file-scraper/tests/data/text_xml/invalid_1.0_no_namespace_xsd.xml fails to validate"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "1c4f590c-fa7d-4997-ad85-7c401ec6ae25"
 }

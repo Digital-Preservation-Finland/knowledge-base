@@ -13,5 +13,6 @@
     "Error in analyzing file",
     "Input/output error `/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng' @ error/dng.c/ReadDNGImage/499"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "68485d78-f01f-49ff-9958-70e8af81c902"
 }

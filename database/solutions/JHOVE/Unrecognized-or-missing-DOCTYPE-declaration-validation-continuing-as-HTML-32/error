@@ -18,5 +18,6 @@
     "MIME type (:unav) with version (:unav) is not supported.",
     "Found encoding declaration (:unav) from the file /corpus/file-scraper/tests/data/text_html/invalid_4.01_nodoctype.html, but UTF-8 was expected."
   ],
-  "notes": []
+  "notes": [],
+  "@id": "e9c8a1c0-c828-4ad3-9a37-a7b5288a6769"
 }

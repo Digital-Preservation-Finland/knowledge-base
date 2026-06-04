@@ -14,5 +14,6 @@
     "\"file:/corpus/file-scraper/tests/data/text_html/invalid_4.01_nodoctype.html\":1.1-1.6: error: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.\n",
     "Vnu returned invalid return code: 1\n\"file:/corpus/file-scraper/tests/data/text_html/invalid_4.01_nodoctype.html\":1.1-1.6: error: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.\n"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "8529c390-60b1-4ed3-9f07-196111c5fde4"
 }

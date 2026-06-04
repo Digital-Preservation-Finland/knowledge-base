@@ -14,5 +14,6 @@
   "outputExample": [
     "\"Scraping files  [###################################-]   99%  00:00:02/home/maf-admin/dpres/venv/lib64/python3.6/site-packages/wand/image.py:8387: CoderWarning: Incompatible type for \"\"RichTIFFIPTC\"\""
   ],
-  "notes": []
+  "notes": [],
+  "@id": "e83c76f0-3fb5-411d-a094-8e203a5cfdcc"
 }

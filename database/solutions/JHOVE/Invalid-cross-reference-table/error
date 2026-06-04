@@ -18,5 +18,6 @@
     "Validator returned error.",
     "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jhove xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schema.openpreservation.org/ois/xml/ns/jhove\" xsi:schemaLocation=\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd\" name=\"Jhove\" release=\"1.32.1\" date=\"2025-02-06\">\n <date>2025-11-03T14:33:13+02:00</date>\n <repInfo uri=\"/corpus/format-corpus/pdf-handbuilt-test-corpus/T02-03_005_page-object-parent-contains-array.pdf\">\n  <reportingModule release=\"1.12.7\" date=\"2024-08-22\">PDF-hul</reportingModule>\n  <lastModified>2025-10-22T10:46:06+03:00</lastModified>\n  <size>637</size>\n  <format>PDF</format>\n  <status>Not well-formed</status>\n  <sigMatch>\n  <module>PDF-hul</module>\n  </sigMatch>\n  <messages>\n   <message offset=\"0\" severity=\"error\" id=\"PDF-HUL-85\" infoLink=\"https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-85\">No document catalog dictionary</message>\n   <message offset=\"459\" severity=\"error\" id=\"PDF-HUL-68\" infoLink=\"https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-68\">Invalid cross-reference table</message>\n  </messages>\n  <mimeType>application/pdf</mimeType>\n </repInfo>\n</jhove>\n"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "4f52576a-6def-4aff-96ef-c31f4fc6cd05"
 }

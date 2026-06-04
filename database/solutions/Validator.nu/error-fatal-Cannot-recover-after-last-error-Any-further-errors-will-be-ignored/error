@@ -12,5 +12,6 @@
   "errorMessage": "error fatal: Cannot recover after last error. Any further errors will be ignored.",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "b37e2adc-4473-4f50-bb7d-f8cabd482af4"
 }

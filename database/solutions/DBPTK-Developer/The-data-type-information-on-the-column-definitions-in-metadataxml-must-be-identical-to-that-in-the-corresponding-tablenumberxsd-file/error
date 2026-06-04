@@ -17,5 +17,6 @@
   ],
   "notes": [
     "For 'INTEGER' type expected 'xs:integer' but found 'xs:string' in c2 at content/schema1/table1/table1.xsd"
-  ]
+  ],
+  "@id": "5453c5d9-fdee-44fb-b3b3-c32fa697bb69"
 }

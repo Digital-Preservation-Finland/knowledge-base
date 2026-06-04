@@ -12,5 +12,6 @@
   "errorMessage": "error: The \"itemprop\" attribute was specified, but the element is not a property of any item.",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "fcc7e031-438e-4e68-81d0-be342ee92111"
 }

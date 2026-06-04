@@ -13,5 +13,6 @@
     "Error in analyzing file",
     "Failed to allocate memory for to read TIFF directory (0 elements of 12 bytes each). `/corpus/file-scraper/tests/data/image_tiff/invalid_6.0_payload_altered.tif' @ error/tiff.c/TIFFErrors/528"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "12f69695-bb2d-432f-bc4f-5fc7d16ed4eb"
 }

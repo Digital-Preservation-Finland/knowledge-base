@@ -12,5 +12,6 @@
   "errorMessage": "error: The \"cellpadding\" attribute on the \"table\" element is obsolete. Use CSS instead.",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "c4f39a56-f3e4-4f92-baed-6dfb523d93fa"
 }

@@ -13,5 +13,6 @@
     "Catalog dictionary not located in file, unable to proceed\n",
     "GPL Ghostscript 10.06.0 (2025-09-09)\nCopyright (C) 2025 Artifex Software, Inc.  All rights reserved.\nThis software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:\nsee the file COPYING for details.\n   **** Error: Couldn't initialise file.\n               Output may be incorrect.\n   No pages will be processed (FirstPage > LastPage).\n"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "fbb85b1d-8cd0-4bb4-8c97-b61e5b4c29ad"
 }

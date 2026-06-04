@@ -12,5 +12,6 @@
   "errorMessage": "SyntaxError: not a TIFF file (header b'Exif\\x00aII' not valid)",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "ca300c58-2838-4340-b6cb-7c7a25921584"
 }

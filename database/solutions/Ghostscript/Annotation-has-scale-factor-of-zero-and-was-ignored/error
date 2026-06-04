@@ -12,5 +12,6 @@
   "errorMessage": "Annotation has a scale factor of zero and was ignored",
   "type": "exact",
   "notes": [],
-  "outputExample": []
+  "outputExample": [],
+  "@id": "69d591d1-2ae0-40ad-81d4-4027068edd52"
 }

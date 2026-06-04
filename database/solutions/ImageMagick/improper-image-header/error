@@ -14,5 +14,6 @@
     "Error in analyzing file",
     "improper image header `/corpus/file-scraper/tests/data/image_gif/invalid_1987a_broken_header.gif' @ error/gif.c/ReadGIFImage/1045"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "42d62f16-3aee-46f9-a147-d24cb467645a"
 }

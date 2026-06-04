@@ -13,5 +13,6 @@
     "\"file:/corpus/file-scraper/tests/data/text_html/invalid_5_illegal_tags.html\":9.1-9.12: error: Element “paragraafi” not allowed as child of element “body” in this context. (Suppressing further errors from this subtree.)\n",
     "Vnu returned invalid return code: 1\n\"file:/corpus/file-scraper/tests/data/text_html/invalid_5_illegal_tags.html\":9.1-9.12: error: Element “paragraafi” not allowed as child of element “body” in this context. (Suppressing further errors from this subtree.)\n"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "84ea5d01-4959-4e2f-b984-69f68e6afe29"
 }

@@ -13,5 +13,6 @@
     "/corpus/file-scraper/tests/data/text_xml/invalid_1.0_addml.xml:6: element descriptionss: Schemas validity error : Element '{http://www.arkivverket.no/standarder/addml}descriptionss': This element is not expected. Expected is one of ( {http://www.arkivverket.no/standarder/addml}description, {http://www.arkivverket.no/standarder/addml}reference, {http://www.arkivverket.no/standarder/addml}flatFiles, {http://www.arkivverket.no/standarder/addml}dataObjects ).",
     "/corpus/file-scraper/tests/data/text_xml/invalid_1.0_addml.xml fails to validate"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "a116a641-427a-456e-82dc-8cf33b9c49a0"
 }

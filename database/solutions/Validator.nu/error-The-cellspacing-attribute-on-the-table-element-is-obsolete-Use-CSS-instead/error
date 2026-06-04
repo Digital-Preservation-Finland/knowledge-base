@@ -12,5 +12,6 @@
   "errorMessage": "error: The \"cellspacing\" attribute on the \"table\" element is obsolete. Use CSS instead.",
   "type": "",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "3082d054-a45a-4852-ad1e-de761567169f"
 }

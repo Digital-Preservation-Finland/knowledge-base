@@ -14,5 +14,6 @@
     "Error in analyzing file",
     "corrupt image `/corpus/file-scraper/tests/data/image_gif/invalid_1987a_truncated.gif' @ error/gif.c/DecodeImage/426"
   ],
-  "notes": []
+  "notes": [],
+  "@id": "02ae6e2c-20a5-4b0a-8ead-c20b275c61da"
 }

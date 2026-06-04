@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://digitalpreservation.fi/schemas/2026-06/error.schema.ld.json",
+  "$id": "http://digitalpreservation.fi/schemas/2025-12/error.schema.ld.json",
   "title": "Error",
   "description": "Description of an error. An error may have many analyses and it may rise from many files. Output example from the validating software may and should present context for the error message and the error message is also most likely found in the output example. Validator, validator version and error message fields should define unique error objects. Objects without set error message are preliminary errors and they are undefined.",
   "type": "object",
@@ -12,8 +12,7 @@
     "errorMessage",
     "type",
     "outputExample",
-    "notes",
-    "@id"
+    "notes"
   ],
   "additionalProperties": false,
   "properties": {
@@ -67,10 +66,6 @@
       "items": {
         "type": "string"
       }
-    },
-    "@id": {
-      "description": "Error object identifier",
-      "type": "string"
     }
   },
   "index": [

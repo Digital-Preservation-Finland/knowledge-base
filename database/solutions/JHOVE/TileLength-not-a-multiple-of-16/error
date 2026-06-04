@@ -15,5 +15,6 @@
   ],
   "notes": [
     "22745 'value' elements removed from inside of 'values' elements in output example. Run JHOVE on @id'corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197' to check them."
-  ]
+  ],
+  "@id": "a3051d3a-567a-497e-ac23-d52895446688"
 }

@@ -12,5 +12,6 @@
   "errorMessage": "Conflict with values 'image/jpeg' and 'image/mpo'",
   "type": "general",
   "outputExample": [],
-  "notes": []
+  "notes": [],
+  "@id": "f4e8cb49-3620-4b6b-a210-ee5364235718"
 }
