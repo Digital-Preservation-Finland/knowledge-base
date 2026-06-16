@@ -87,7 +87,11 @@
   "version": "5",
   "profile": "",
   "@id": "source/06c67518-c52a-4ac5-8e79-4bc80f132e04",
-  "specification": [{"WHATWG": "https://html.spec.whatwg.org/multipage/"}],
+  "specification": [
+    {
+      "WHATWG": "https://html.spec.whatwg.org/multipage/"
+    }
+  ],
   "description": ""
 }
 {
@@ -1232,6 +1236,22 @@
   "@id": "corpus/format/c592527a-7f54-4ebc-a256-1de084c4be00",
   "fileFormat": "image/x-adobe-dng",
   "version": "1.7",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/b8eea2f6-057a-4311-b8b6-eac0db62fbfe",
+  "fileFormat": "image/webp",
+  "version": null,
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/a847e430-022c-47f0-890a-1fd750579b96",
+  "fileFormat": "video/mp4",
+  "version": null,
   "profile": "",
   "description": "",
   "specification": []

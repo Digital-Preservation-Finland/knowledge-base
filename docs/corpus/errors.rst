@@ -41,7 +41,7 @@ DBPTK Developer 4.0.0-DPRES
    
    **Import module:** validate-siard
    - file = /corpus/file-scraper/tests/data/application_x-siard/invalid_2.1.1_schema_errors.siard
-   - report = /usr/share/java/dbptk-developer/dbptk-validation-reporter-invalid_2.1.1_schema_errors-20260415132921781.txt
+   - report = /usr/share/java/dbptk-developer/dbptk-validation-reporter-invalid_2.1.1_schema_errors-20260615132923023.txt
    
          Start validation
          Start validation of: 4.1 - Construction of the SIARD archive file
@@ -378,7 +378,7 @@ DBPTK Developer 4.0.0-DPRES
          Number of requirements skipped [13]
          Validation process finished the SIARD is not valid.
          A report with a listing of information  about the individual validations could not be generated, please submit a bug report to help us fix this.
-         Validate SIARD took 0m 3s to complete.
+         Validate SIARD took 0m 7s to complete.
          Log files and migration reports were saved in /usr/share/java/dbptk-developer
          Troubleshooting information can be found at https://github.com/keeps/dbptk-developer/wiki/Troubleshooting
          Please report any problems at https://github.com/keeps/dbptk-developer/issues/new
@@ -404,7 +404,7 @@ DBPTK Developer 4.0.0-DPRES
    
    **Import module:** validate-siard
    - file = /corpus/file-scraper/tests/data/application_x-siard/invalid_2.2_schema_errors.siard
-   - report = /usr/share/java/dbptk-developer/dbptk-validation-reporter-invalid_2.2_schema_errors-20260415132930859.txt
+   - report = /usr/share/java/dbptk-developer/dbptk-validation-reporter-invalid_2.2_schema_errors-20260615132943814.txt
    
          Start validation
          Start validation of: 4.1 - Construction of the SIARD archive file
@@ -741,7 +741,7 @@ DBPTK Developer 4.0.0-DPRES
          Number of requirements skipped [13]
          Validation process finished the SIARD is not valid.
          A report with a listing of information  about the individual validations could not be generated, please submit a bug report to help us fix this.
-         Validate SIARD took 0m 2s to complete.
+         Validate SIARD took 0m 5s to complete.
          Log files and migration reports were saved in /usr/share/java/dbptk-developer
          Troubleshooting information can be found at https://github.com/keeps/dbptk-developer/wiki/Troubleshooting
          Please report any problems at https://github.com/keeps/dbptk-developer/issues/new
@@ -843,23 +843,6 @@ ExifTool 13.10
 
 ----
 
-.. _ExifTool-13.10-corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197:
-
-:ref:`corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   MIME type image/x-adobe-dng with version 1.7 is not supported.
-
-
-----
-
 .. _ffmpeg 6.0:
 
 ffmpeg 6.0
@@ -883,8 +866,8 @@ ffmpeg 6.0
 .. code::
 
 
-   [mxf @ 0x2ed9480] local tag 0x3c0a with 0 size
-   [jpeg2000 @ 0x2edf680] bpno became invalid
+   [mxf @ 0x349b480] local tag 0x3c0a with 0 size
+   [jpeg2000 @ 0x34a1680] bpno became invalid
        Last message repeated 1007 times
 
 
@@ -902,15 +885,15 @@ ffmpeg 6.0
 .. code::
 
 
-   [flac @ 0x35ae6c0] invalid sync code
-   [flac @ 0x35ae6c0] invalid frame header
-   [flac @ 0x35ae6c0] decode_frame() failed
-   [flac @ 0x35b2400] invalid sync code
-   [flac @ 0x35b2400] invalid frame header
-   [flac @ 0x35b2400] decode_frame() failed
+   [flac @ 0x3b6f6c0] invalid sync code
+   [flac @ 0x3b6f6c0] invalid frame header
+   [flac @ 0x3b6f6c0] decode_frame() failed
+   [flac @ 0x3b73400] invalid sync code
+   [flac @ 0x3b73400] invalid frame header
+   [flac @ 0x3b73400] decode_frame() failed
    Error while decoding stream #0:0: Invalid data found when processing input
-   [flac @ 0x35b2400] invalid residual
-   [flac @ 0x35b2400] decode_frame() failed
+   [flac @ 0x3b73400] invalid residual
+   [flac @ 0x3b73400] decode_frame() failed
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -928,7 +911,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mp3float @ 0x23f4980] invalid new backstep -1
+   [mp3float @ 0x257e980] invalid new backstep -1
 
 
 ----
@@ -945,7 +928,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mp3float @ 0x273d840] Header missing
+   [mp3float @ 0x2b0a840] Header missing
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -963,7 +946,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mp3float @ 0x238dbc0] Header missing
+   [mp3float @ 0x3449bc0] Header missing
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -981,7 +964,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [pcm_s16be @ 0x2ba64c0] Invalid PCM packet, data has size 3 but at least a size of 4 was expected
+   [pcm_s16be @ 0x2e064c0] Invalid PCM packet, data has size 3 but at least a size of 4 was expected
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -1010,12 +993,12 @@ ffmpeg 6.0
      libavfilter     9.  3.100 /  9.  3.100
      libswscale      7.  1.100 /  7.  1.100
      libswresample   4. 10.100 /  4. 10.100
-   [wav @ 0x3d41d00] no 'data' tag found
+   [wav @ 0x22ecd00] no 'data' tag found
    /corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav: Invalid data found when processing input
    FFMpeg returned invalid return code: 1
-   [wav @ 0x37a8480] no 'data' tag found
+   [wav @ 0x358f480] no 'data' tag found
    /corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav: Invalid data found when processing input
-   [wav @ 0x37a8480] no 'data' tag found
+   [wav @ 0x358f480] no 'data' tag found
    /corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav: Invalid data found when processing input
    Extractor didn't produce any output streams.
 
@@ -1034,7 +1017,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [pcm_u8 @ 0x345fb00] Invalid PCM packet, data has size 1 but at least a size of 2 was expected
+   [pcm_u8 @ 0x2a94b00] Invalid PCM packet, data has size 1 but at least a size of 2 was expected
    Error while decoding stream #0:0: Invalid data found when processing input
 
 
@@ -1080,12 +1063,12 @@ ffmpeg 6.0
      libavfilter     9.  3.100 /  9.  3.100
      libswscale      7.  1.100 /  7.  1.100
      libswresample   4. 10.100 /  4. 10.100
-   [wav @ 0x2270d00] Invalid sample rate: -2013265748
+   [wav @ 0x3aead00] Invalid sample rate: -2013265748
    /corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav: Invalid data found when processing input
    FFMpeg returned invalid return code: 1
-   [wav @ 0x21f2480] Invalid sample rate: -2013265748
+   [wav @ 0x3337480] Invalid sample rate: -2013265748
    /corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav: Invalid data found when processing input
-   [wav @ 0x21f2480] Invalid sample rate: -2013265748
+   [wav @ 0x3337480] Invalid sample rate: -2013265748
    /corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav: Invalid data found when processing input
    Extractor didn't produce any output streams.
 
@@ -1104,361 +1087,361 @@ ffmpeg 6.0
 .. code::
 
 
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=72
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=88
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=88
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=88
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=88
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=74
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=69
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=74
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=69
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 19 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 8 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=75
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=75
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=75
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 7 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=95
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=95
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=95
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=95
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=88
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=73
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=88
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=73
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 13 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=71
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=71
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 24 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 27 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 25 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=89
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=89
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=69
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=69
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=73
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=73
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 12 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=80
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=80
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=72
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=74
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=74
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=73
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=73
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=72
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=72
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 8 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=64
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 43 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=93
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=93
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 7 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=76
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=70
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=70
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 12 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=67
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=67
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=68
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x33195c0] AC EOB marker is absent pos=66
-   [dvvideo @ 0x33195c0] Concealing bitstream errors
+   [dvvideo @ 0x2c9a5c0] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9a5c0] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=88
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=88
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=88
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=88
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=74
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=69
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=74
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=69
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 19 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 8 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 7 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=95
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=95
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=95
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=95
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=88
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=73
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=88
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=73
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 13 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=71
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=71
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 24 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 27 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 25 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=89
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=89
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=69
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=69
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=73
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=73
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 12 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=80
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=80
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=74
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=74
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=73
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=73
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 8 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 43 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=93
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=93
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 7 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=70
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=70
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 12 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=67
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=67
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 20 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 22 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 9 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 40 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=98
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=98
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 23 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 29 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 10 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 22 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=71
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=71
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=70
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=70
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=68
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=68
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=74
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=74
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=73
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=73
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 3 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=72
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=72
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 34 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=65
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=65
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=71
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=97
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=71
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=97
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=93
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=93
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 6 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=76
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=70
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=76
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=70
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 10 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=67
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=67
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 1 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=67
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=67
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 5 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=66
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=66
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 2 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=71
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=64
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=71
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=64
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
        Last message repeated 4 times
-   [dvvideo @ 0x331ed00] AC EOB marker is absent pos=75
-   [dvvideo @ 0x331ed00] Concealing bitstream errors
+   [dvvideo @ 0x2c9fd00] AC EOB marker is absent pos=75
+   [dvvideo @ 0x2c9fd00] Concealing bitstream errors
 
 
 ----
@@ -1475,7 +1458,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mp3float @ 0x347aec0] invalid new backstep -1
+   [mp3float @ 0x2b42ec0] invalid new backstep -1
 
 
 ----
@@ -1503,12 +1486,12 @@ ffmpeg 6.0
      libavfilter     9.  3.100 /  9.  3.100
      libswscale      7.  1.100 /  7.  1.100
      libswresample   4. 10.100 /  4. 10.100
-   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x3960d00] moov atom not found
+   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x3156d00] moov atom not found
    /corpus/file-scraper/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4: Invalid data found when processing input
    FFMpeg returned invalid return code: 1
-   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x341d480] moov atom not found
+   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x33f5480] moov atom not found
    /corpus/file-scraper/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4: Invalid data found when processing input
-   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x341d480] moov atom not found
+   [mov,mp4,m4a,3gp,3g2,mj2 @ 0x33f5480] moov atom not found
    /corpus/file-scraper/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4: Invalid data found when processing input
    Extractor didn't produce any output streams.
 
@@ -1527,9 +1510,9 @@ ffmpeg 6.0
 .. code::
 
 
-   [hevc @ 0x274d700] offset_len 108 is invalid
+   [hevc @ 0x2728700] offset_len 108 is invalid
    Error while decoding stream #0:0: Invalid data found when processing input
-   [hevc @ 0x274d700] Could not find ref with POC 6
+   [hevc @ 0x2728700] Could not find ref with POC 6
        Last message repeated 10 times
 
 
@@ -1547,7 +1530,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mpeg1video @ 0x3aec880] Warning MVs not available
+   [mpeg1video @ 0x1f1c880] Warning MVs not available
 
 
 ----
@@ -1564,7 +1547,7 @@ ffmpeg 6.0
 .. code::
 
 
-   [mpeg2video @ 0x3791d40] Warning MVs not available
+   [mpeg2video @ 0x39a0d40] Warning MVs not available
 
 
 ----
@@ -1598,8 +1581,8 @@ ffmpeg 6.0
 .. code::
 
 
-   [vc1 @ 0x2fe0600] Bits overconsumption: 32677 > 32672 at 57x20
-   [null @ 0x2fe1380] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 27 >= 27
+   [vc1 @ 0x25e0600] Bits overconsumption: 32677 > 32672 at 57x20
+   [null @ 0x25e1380] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 27 >= 27
 
 
 ----
@@ -2769,97 +2752,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:11:49+03:00</date>
-    <repInfo uri="/corpus/file-scraper/tests/data/application_epub+zip/invalid_2.0.1_libreoffice.epub">
-     <reportingModule release="1.3" date="2023-06-12">EPUB-ptc</reportingModule>
-     <size>1899</size>
-     <format>EPUB</format>
-     <version>2.0.1</version>
-     <status>Well-Formed, but not valid</status>
-     <messages>
-      <message severity="error" id="RSC-005" infoLink="https://github.com/openpreserve/jhove/wiki/EPUB-ptc-Messages#rsc-005">RSC-005, ERROR, [Error while parsing file: element "title" not allowed here; expected the element end-tag or element "base", "link", "meta", "script" or "style"], OEBPS/sections/section0001.xhtml (2-109)</message>
-      <message severity="error" id="RSC-005" infoLink="https://github.com/openpreserve/jhove/wiki/EPUB-ptc-Messages#rsc-005">RSC-005, ERROR, [Error while parsing file: element "title" not allowed here; expected the element end-tag or element "base", "link", "meta", "script" or "style"], OEBPS/sections/section0001.xhtml (2-66)</message>
-     </messages>
-     <mimeType>application/epub+zip</mimeType>
-     <properties>
-      <property>
-       <name>EPUBMetadata</name>
-       <values arity="List" type="Property">
-       <property>
-        <name>CharacterCount</name>
-        <values arity="Scalar" type="Long">
-         <value>71</value>
-        </values>
-       </property>
-       <property>
-        <name>Language</name>
-        <values arity="Scalar" type="String">
-         <value>en</value>
-        </values>
-       </property>
-       <property>
-        <name>Info</name>
-        <values arity="Set" type="Property">
-        <property>
-         <name>Creator</name>
-         <values arity="Scalar" type="String">
-          <value>CSC</value>
-         </values>
-        </property>
-        <property>
-         <name>Identifier</name>
-         <values arity="Scalar" type="String">
-          <value>f6a564df-df42-4768-a7e5-3d8178be9433</value>
-         </values>
-        </property>
-        <property>
-         <name>Title</name>
-         <values arity="Scalar" type="String">
-          <value>Testitiedosto</value>
-         </values>
-        </property>
-        </values>
-       </property>
-       <property>
-        <name>Resources</name>
-        <values arity="Array" type="String">
-         <value>OEBPS/sections/section0001.xhtml</value>
-         <value>OEBPS/styles/stylesheet.css</value>
-        </values>
-       </property>
-       <property>
-        <name>MediaTypes</name>
-        <values arity="Array" type="String">
-         <value>application/x-dtbncx+xml</value>
-         <value>application/xhtml+xml</value>
-         <value>text/css</value>
-        </values>
-       </property>
-       </values>
-      </property>
-     </properties>
-    </repInfo>
-   </jhove>
-
-
-----
-
-.. _JHOVE-1.32.1-file-scraper/2281790a-4bbd-49d6-9584-61ed31010ea7:
-
-:ref:`file-scraper/2281790a-4bbd-49d6-9584-61ed31010ea7`
-........................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Validator returned error.
-   <?xml version="1.0" encoding="UTF-8"?>
-   <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:22:31+03:00</date>
+    <date>2026-06-15T13:17:58+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_epub+zip/invalid_2.0.1_libreoffice.epub">
      <reportingModule release="1.3" date="2023-06-12">EPUB-ptc</reportingModule>
      <size>1899</size>
@@ -2949,7 +2842,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:22:43+03:00</date>
+    <date>2026-06-15T13:18:12+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_epub+zip/invalid_3_libreoffice.epub">
      <reportingModule release="1.3" date="2023-06-12">EPUB-ptc</reportingModule>
      <lastModified>0002-11-30T00:00:00+02:00</lastModified>
@@ -3041,7 +2934,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:22:54+03:00</date>
+    <date>2026-06-15T13:18:24+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_epub+zip/invalid_3_mimetype_not_first.epub">
      <reportingModule release="1.3" date="2023-06-12">EPUB-ptc</reportingModule>
      <lastModified>2022-03-25T13:44:14+02:00</lastModified>
@@ -3050,7 +2943,7 @@ JHOVE 1.32.1
      <version>3.3</version>
      <status>Not well-formed</status>
      <messages>
-      <message severity="error" id="PKG-006" infoLink="https://github.com/openpreserve/jhove/wiki/EPUB-ptc-Messages#pkg-006">PKG-006, ERROR, [Mimetype file entry is missing or is not the first file in the archive.], /tmp/epub3713917207194351885.epub</message>
+      <message severity="error" id="PKG-006" infoLink="https://github.com/openpreserve/jhove/wiki/EPUB-ptc-Messages#pkg-006">PKG-006, ERROR, [Mimetype file entry is missing or is not the first file in the archive.], /tmp/epub727010934642163237.epub</message>
      </messages>
      <mimeType>application/epub+zip</mimeType>
      <properties>
@@ -3154,7 +3047,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:08+03:00</date>
+    <date>2026-06-15T13:20:00+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.2_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3190,7 +3083,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:10+03:00</date>
+    <date>2026-06-15T13:20:03+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.2_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3225,7 +3118,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:12+03:00</date>
+    <date>2026-06-15T13:20:06+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.3_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3273,7 +3166,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:14+03:00</date>
+    <date>2026-06-15T13:20:08+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.3_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3308,7 +3201,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:16+03:00</date>
+    <date>2026-06-15T13:20:11+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.4_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3356,7 +3249,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:18+03:00</date>
+    <date>2026-06-15T13:20:13+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.4_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3391,7 +3284,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:22+03:00</date>
+    <date>2026-06-15T13:20:18+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.5_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3426,7 +3319,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:24+03:00</date>
+    <date>2026-06-15T13:20:20+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.5_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3461,7 +3354,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:27+03:00</date>
+    <date>2026-06-15T13:20:23+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.6_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3509,7 +3402,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:29+03:00</date>
+    <date>2026-06-15T13:20:25+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.6_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3544,7 +3437,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:34+03:00</date>
+    <date>2026-06-15T13:20:31+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.7_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3579,7 +3472,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:36+03:00</date>
+    <date>2026-06-15T13:20:33+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_1.7_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3614,7 +3507,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:38+03:00</date>
+    <date>2026-06-15T13:20:36+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3650,7 +3543,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:24:46+03:00</date>
+    <date>2026-06-15T13:20:47+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3702,7 +3595,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:25:19+03:00</date>
+    <date>2026-06-15T13:21:56+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3737,7 +3630,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:25:26+03:00</date>
+    <date>2026-06-15T13:22:22+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -3772,7 +3665,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:25:33+03:00</date>
+    <date>2026-06-15T13:22:33+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_wrong_version.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -4034,7 +3927,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:25:50+03:00</date>
+    <date>2026-06-15T13:23:03+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_payload_altered.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -4069,7 +3962,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:25:58+03:00</date>
+    <date>2026-06-15T13:23:12+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_removed_xref.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -4104,7 +3997,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:26:05+03:00</date>
+    <date>2026-06-15T13:23:21+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_wrong_version.pdf">
      <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -4366,7 +4259,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:28:47+03:00</date>
+    <date>2026-06-15T13:27:57+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_warc/invalid_1.0_missing_required_field.warc">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-12-09T13:10:01+02:00</lastModified>
@@ -4404,7 +4297,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:28:55+03:00</date>
+    <date>2026-06-15T13:28:19+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_warc/invalid_1.0_no_carriage_return.warc">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-12-09T13:10:01+02:00</lastModified>
@@ -4442,7 +4335,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:29:04+03:00</date>
+    <date>2026-06-15T13:28:42+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_illegal_tags.xhtml">
      <reportingModule release="1.5.5" date="2024-08-22">XML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5569,7 +5462,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:29:07+03:00</date>
+    <date>2026-06-15T13:28:51+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/application_xhtml+xml/invalid_1.0_missing_closing_tag.xhtml">
      <reportingModule release="1.5.5" date="2024-08-22">XML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5606,7 +5499,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:05+03:00</date>
+    <date>2026-06-15T13:31:03+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_data_bytes_missing.wav">
      <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5732,7 +5625,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:07+03:00</date>
+    <date>2026-06-15T13:31:07+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid_2_bwf_RIFF_edited.wav">
      <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5769,7 +5662,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:09+03:00</date>
+    <date>2026-06-15T13:31:11+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid__data_bytes_missing.wav">
      <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5894,7 +5787,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:12+03:00</date>
+    <date>2026-06-15T13:31:19+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/audio_x-wav/invalid__RIFF_edited.wav">
      <reportingModule release="1.8.3" date="2024-03-05">WAVE-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5931,7 +5824,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:17+03:00</date>
+    <date>2026-06-15T13:31:32+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_gif/invalid_1987a_broken_header.gif">
      <reportingModule release="1.4.3" date="2022-04-22">GIF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -5963,7 +5856,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:19+03:00</date>
+    <date>2026-06-15T13:31:36+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_gif/invalid_1987a_truncated.gif">
      <reportingModule release="1.4.3" date="2022-04-22">GIF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6002,7 +5895,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:22+03:00</date>
+    <date>2026-06-15T13:31:40+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_gif/invalid_1989a_broken_header.gif">
      <reportingModule release="1.4.3" date="2022-04-22">GIF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6034,7 +5927,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:24+03:00</date>
+    <date>2026-06-15T13:31:44+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_gif/invalid_1989a_truncated.gif">
      <reportingModule release="1.4.3" date="2022-04-22">GIF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6073,7 +5966,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:29+03:00</date>
+    <date>2026-06-15T13:31:58+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_jpeg/invalid_1.01_data_changed.jpg">
      <reportingModule release="1.5.4" date="2023-03-16">JPEG-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6109,7 +6002,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:46+03:00</date>
+    <date>2026-06-15T13:32:40+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_tiff/invalid_6.0_payload_altered.tif">
      <reportingModule release="1.9.5" date="2024-08-22">TIFF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6145,7 +6038,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:30:56+03:00</date>
+    <date>2026-06-15T13:33:04+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng">
      <reportingModule release="1.9.5" date="2024-08-22">TIFF-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6502,7 +6395,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:31:14+03:00</date>
+    <date>2026-06-15T13:33:45+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/text_html/invalid_4.01_illegal_tags.html">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6554,7 +6447,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:31:17+03:00</date>
+    <date>2026-06-15T13:33:52+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/text_html/invalid_4.01_nodoctype.html">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6603,7 +6496,7 @@ JHOVE 1.32.1
    Validator returned error.
    <?xml version="1.0" encoding="UTF-8"?>
    <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-04-15T13:31:29+03:00</date>
+    <date>2026-06-15T13:34:18+03:00</date>
     <repInfo uri="/corpus/file-scraper/tests/data/text_html/invalid_5_nodoctype.html">
      <reportingModule release="1.4.4" date="2024-08-22">HTML-hul</reportingModule>
      <lastModified>2025-11-21T13:58:37+02:00</lastModified>
@@ -6632,1861 +6525,6 @@ JHOVE 1.32.1
    </jhove>
    Found encoding declaration (:unav) from the file /corpus/file-scraper/tests/data/text_html/invalid_5_nodoctype.html, but UTF-8 was expected.
    MIME type (:unav) with version (:unav) is not supported.
-
-
-----
-
-.. _JHOVE-1.32.1-corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197:
-
-:ref:`corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Validator returned error.
-   <?xml version="1.0" encoding="UTF-8"?>
-   <jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
-    <date>2026-05-13T17:18:10+03:00</date>
-    <repInfo uri="Eduskuntatalo-1_invalid.dng">
-     <reportingModule release="1.9.5" date="2024-08-22">TIFF-hul</reportingModule>
-     <lastModified>2026-05-13T09:32:36+03:00</lastModified>
-     <size>66497546</size>
-     <format>TIFF</format>
-     <version>6.0</version>
-     <status>Well-Formed, but not valid</status>
-     <sigMatch>
-     <module>TIFF-hul</module>
-     </sigMatch>
-     <messages>
-      <message severity="error" id="TIFF-HUL-35" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-35">TileLength not a multiple of 16: 171</message>
-      <message subMessage="ShadowScale (50739)" severity="info" id="TIFF-HUL-11" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-11">Undocumented TIFF tag</message>
-      <message severity="error" id="TIFF-HUL-35" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-35">TileLength not a multiple of 16: 341</message>
-      <message offset="594" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50941</message>
-      <message offset="678" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50970</message>
-      <message offset="82824" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50781</message>
-      <message offset="82840" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50827</message>
-      <message offset="82860" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50931</message>
-      <message offset="82870" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50932</message>
-      <message offset="82880" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50936</message>
-      <message offset="82896" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50937</message>
-      <message offset="82908" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50938</message>
-      <message offset="115308" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50939</message>
-      <message offset="147708" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50942</message>
-      <message offset="147744" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50964</message>
-      <message offset="147816" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50965</message>
-      <message offset="147888" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50966</message>
-      <message offset="147916" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50967</message>
-      <message offset="147922" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50969</message>
-      <message offset="147938" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50971</message>
-      <message offset="147964" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50981</message>
-      <message offset="147976" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50982</message>
-      <message offset="203272" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51041</message>
-      <message offset="203320" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51111</message>
-      <message offset="212070" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50829</message>
-      <message offset="212086" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51022</message>
-      <message offset="212270" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51041</message>
-      <message offset="212544" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50970</message>
-      <message offset="212642" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50966</message>
-      <message offset="212670" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50967</message>
-      <message offset="212676" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50969</message>
-      <message offset="212692" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50971</message>
-      <message offset="212908" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51114</message>
-      <message offset="212920" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52553</message>
-      <message offset="212932" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52554</message>
-      <message offset="212944" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52555</message>
-      <message offset="213150" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50966</message>
-      <message offset="213178" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50967</message>
-      <message offset="213184" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51009</message>
-      <message offset="213642" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51114</message>
-      <message offset="213654" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52553</message>
-      <message offset="213666" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52554</message>
-      <message offset="213678" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52555</message>
-      <message offset="213732" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50966</message>
-      <message offset="213760" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50967</message>
-      <message offset="213766" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51009</message>
-      <message offset="214224" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51114</message>
-      <message offset="214236" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52553</message>
-      <message offset="214248" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52554</message>
-      <message offset="214260" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 52555</message>
-      <message offset="214298" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50966</message>
-      <message offset="214326" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 50967</message>
-      <message offset="214332" severity="info" id="TIFF-HUL-12" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-12">Unknown TIFF IFD tag: 51009</message>
-     </messages>
-     <mimeType>image/tiff</mimeType>
-     <profiles>
-      <profile>DNG 1.0.0.0 (September 2004)</profile>
-     </profiles>
-     <properties>
-      <property>
-       <name>TIFFMetadata</name>
-       <values arity="Array" type="Property">
-       <property>
-        <name>ByteOrder</name>
-        <values arity="Scalar" type="String">
-        </values>
-       </property>
-       <property>
-        <name>IFDs</name>
-        <values arity="List" type="Property">
-        <property>
-         <name>Number</name>
-         <values arity="Scalar" type="Integer">
-         </values>
-        </property>
-        <property>
-         <name>IFD</name>
-         <values arity="Array" type="Property">
-         <property>
-          <name>Offset</name>
-          <values arity="Scalar" type="Long">
-          </values>
-         </property>
-         <property>
-          <name>Type</name>
-          <values arity="Scalar" type="String">
-          </values>
-         </property>
-         <property>
-          <name>Entries</name>
-          <values arity="List" type="Property">
-          <property>
-           <name>NisoImageMetadata</name>
-           <values arity="Scalar" type="NISOImageMetadata">
-            <value>
-          <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
-           <mix:BasicDigitalObjectInformation>
-            <mix:ObjectIdentifier>
-             <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
-            </mix:ObjectIdentifier>
-            <mix:FormatDesignation>
-             <mix:formatName>image/tiff</mix:formatName>
-            </mix:FormatDesignation>
-            <mix:byteOrder>little endian</mix:byteOrder>
-            <mix:Compression>
-             <mix:compressionScheme>Uncompressed</mix:compressionScheme>
-            </mix:Compression>
-           </mix:BasicDigitalObjectInformation>
-           <mix:BasicImageInformation>
-            <mix:BasicImageCharacteristics>
-             <mix:imageWidth>256</mix:imageWidth>
-             <mix:imageHeight>183</mix:imageHeight>
-             <mix:PhotometricInterpretation>
-              <mix:colorSpace>RGB</mix:colorSpace>
-              <mix:ReferenceBlackWhite>
-               <mix:Component>
-                <mix:componentPhotometricInterpretation>R</mix:componentPhotometricInterpretation>
-                <mix:footroom>
-                 <mix:numerator>0</mix:numerator>
-                </mix:footroom>
-                <mix:headroom>
-                 <mix:numerator>255</mix:numerator>
-                </mix:headroom>
-                </mix:Component>
-               <mix:Component>
-                <mix:componentPhotometricInterpretation>G</mix:componentPhotometricInterpretation>
-                <mix:footroom>
-                 <mix:numerator>0</mix:numerator>
-                </mix:footroom>
-                <mix:headroom>
-                 <mix:numerator>255</mix:numerator>
-                </mix:headroom>
-                </mix:Component>
-               <mix:Component>
-                <mix:componentPhotometricInterpretation>B</mix:componentPhotometricInterpretation>
-                <mix:footroom>
-                 <mix:numerator>0</mix:numerator>
-                </mix:footroom>
-                <mix:headroom>
-                 <mix:numerator>255</mix:numerator>
-                </mix:headroom>
-                </mix:Component>
-               </mix:ReferenceBlackWhite>
-             </mix:PhotometricInterpretation>
-            </mix:BasicImageCharacteristics>
-           </mix:BasicImageInformation>
-           <mix:ImageCaptureMetadata>
-            <mix:GeneralCaptureInformation>
-            <mix:dateTimeCreated>2026-05-12T10:22:24</mix:dateTimeCreated>
-            <mix:imageProducer>Olavi Laine</mix:imageProducer>
-            </mix:GeneralCaptureInformation>
-            <mix:ScannerCapture>
-             <mix:scannerManufacturer>SONY</mix:scannerManufacturer>
-             <mix:ScannerModel>
-              <mix:scannerModelName>ILCE-7RM5</mix:scannerModelName>
-             </mix:ScannerModel>
-             <mix:ScanningSystemSoftware>
-              <mix:scanningSoftwareName>Adobe Photoshop Camera Raw 18.3 (Windows)</mix:scanningSoftwareName>
-             </mix:ScanningSystemSoftware>
-            </mix:ScannerCapture>
-            <mix:orientation>normal*</mix:orientation>
-           </mix:ImageCaptureMetadata>
-           <mix:ImageAssessmentMetadata>
-            <mix:ImageColorEncoding>
-             <mix:BitsPerSample>
-              <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
-             </mix:BitsPerSample>
-             <mix:samplesPerPixel>3</mix:samplesPerPixel>
-            </mix:ImageColorEncoding>
-           </mix:ImageAssessmentMetadata>
-          </mix:mix>
-            </value>
-           </values>
-          </property>
-          <property>
-           <name>ImageDescription</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>DateTime</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>NewSubfileType</name>
-           <values arity="List" type="String">
-           </values>
-          </property>
-          <property>
-           <name>Copyright</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>SampleFormat</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MinSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MaxSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>TransferRange</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>Threshholding</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>StripOffsets</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>RowsPerStrip</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>StripByteCounts</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>PlanarConfiguration</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>TIFFITProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>BackgroundColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>ImageColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>TransparencyIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>PixelIntensityRange</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>RasterPadding</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerExtendedRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           </values>
-          </property>
-          <property>
-           <name>XMP</name>
-           <values arity="Scalar" type="String">
-            <value>&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        "&gt;
-    &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
-     &lt;rdf:Description rdf:about=""
-       xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-       xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
-       xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
-       xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
-       xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
-       xmlns:exifEX="http://cipa.jp/exif/1.0/"
-       xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
-       xmlns:dc="http://purl.org/dc/elements/1.1/"
-       xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
-       xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
-       xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
-      xmp:CreatorTool="Adobe Photoshop Camera Raw 18.3 (Windows)"
-      xmp:ModifyDate="2026-05-12T10:22:24+03:00"
-      xmp:CreateDate="2026-05-12T10:00:53.693+02:00"
-      xmp:MetadataDate="2026-05-12T10:22:24+03:00"
-      xmpMM:DocumentID="xmp.did:ae7fac51-4b37-494f-bf04-9c22f224f735"
-      xmpMM:InstanceID="xmp.iid:ae7fac51-4b37-494f-bf04-9c22f224f735"
-      xmpMM:OriginalDocumentID="urn:uuid:b3cf9035-177b-44a8-af05-d5ebf5cbda27"
-      aux:LensInfo="900/10 900/10 28/10 28/10"
-      aux:Lens="FE 90mm F2.8 Macro G OSS"
-      aux:LensDistortInfo="32836/32768 -6220963/1073741824 -4237737/1073741824 1124309/1073741824"
-      exifEX:LensModel="FE 90mm F2.8 Macro G OSS"
-      photoshop:DateCreated="2026-05-12T10:00:53.693+02:00"
-      dc:format="image/dng"
-      crd:CameraProfile="Camera ST"
-      crd:LookName=""
-      xmpRights:Marked="True"
-      crs:HasSettings="False"
-      crs:CropTop="0.098788"
-      crs:CropLeft="0.167191"
-      crs:CropBottom="0.867592"
-      crs:CropRight="0.87305"
-      crs:CropAngle="0.413781"
-      crs:CropConstrainToWarp="0"
-      crs:CropConstrainToUnitSquare="1"
-      crs:HasCrop="True"
-      crs:AlreadyApplied="False"&gt;
-      &lt;xmpMM:History&gt;
-       &lt;rdf:Seq&gt;
-        &lt;rdf:li
-         stEvt:action="saved"
-         stEvt:instanceID="xmp.iid:e7daff42-42c7-e14e-aba9-7ce5b7405af5"
-         stEvt:when="2026-05-12T10:18:20+03:00"
-         stEvt:softwareAgent="Adobe Photoshop Camera Raw 18.3 (Windows)"
-         stEvt:changed="/metadata"/&gt;
-        &lt;rdf:li
-         stEvt:action="saved"
-         stEvt:instanceID="xmp.iid:e939156d-6cdf-334d-96f9-8f9ceca5a96c"
-         stEvt:when="2026-05-12T10:21:21+03:00"
-         stEvt:softwareAgent="Adobe Photoshop Camera Raw 18.3 (Windows)"
-         stEvt:changed="/metadata"/&gt;
-        &lt;rdf:li
-         stEvt:action="derived"
-         stEvt:parameters="converted from image/x-sony-arw to image/dng, saved to new location"/&gt;
-        &lt;rdf:li
-         stEvt:action="saved"
-         stEvt:instanceID="xmp.iid:ae7fac51-4b37-494f-bf04-9c22f224f735"
-         stEvt:when="2026-05-12T10:22:24+03:00"
-         stEvt:softwareAgent="Adobe Photoshop Camera Raw 18.3 (Windows)"
-         stEvt:changed="/"/&gt;
-       &lt;/rdf:Seq&gt;
-      &lt;/xmpMM:History&gt;
-      &lt;xmpMM:DerivedFrom
-       stRef:instanceID="xmp.iid:e939156d-6cdf-334d-96f9-8f9ceca5a96c"
-       stRef:documentID="urn:uuid:b3cf9035-177b-44a8-af05-d5ebf5cbda27"
-       stRef:originalDocumentID="urn:uuid:b3cf9035-177b-44a8-af05-d5ebf5cbda27"/&gt;
-      &lt;dc:creator&gt;
-       &lt;rdf:Seq&gt;
-        &lt;rdf:li&gt;Olavi Laine&lt;/rdf:li&gt;
-       &lt;/rdf:Seq&gt;
-      &lt;/dc:creator&gt;
-      &lt;dc:rights&gt;
-       &lt;rdf:Alt&gt;
-        &lt;rdf:li xml:lang="x-default"&gt;Eduskunta&lt;/rdf:li&gt;
-       &lt;/rdf:Alt&gt;
-      &lt;/dc:rights&gt;
-      &lt;dc:description&gt;
-       &lt;rdf:Alt&gt;
-        &lt;rdf:li xml:lang="x-default"&gt;Eduskuntatalo kuvattuna Mannerheimintieltä. &lt;/rdf:li&gt;
-       &lt;/rdf:Alt&gt;
-      &lt;/dc:description&gt;
-     &lt;/rdf:Description&gt;
-    &lt;/rdf:RDF&gt;
-   &lt;/x:xmpmeta&gt;</value>
-           </values>
-          </property>
-          <property>
-           <name>DNGProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>DNGVersion</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>DNGBackwardVersion</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>UniqueCameraModel</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>LocalizedCameraModel</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>CalibrationIlluminant1</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>CalibrationIlluminant2</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>ColorMatrix1</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>ColorMatrix2</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>AnalogBalance</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>AsShotNeutral</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BaselineExposure</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BaselineNoise</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BaselineSharpness</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>LinearResponseLimit</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>LensInfo</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DNGPrivateData</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>MakerNoteSafety</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           </values>
-          </property>
-          </values>
-         </property>
-         </values>
-        </property>
-        <property>
-         <name>IFD</name>
-         <values arity="Array" type="Property">
-         <property>
-          <name>Offset</name>
-          <values arity="Scalar" type="Long">
-          </values>
-         </property>
-         <property>
-          <name>Type</name>
-          <values arity="Scalar" type="String">
-          </values>
-         </property>
-         <property>
-          <name>Entries</name>
-          <values arity="List" type="Property">
-          <property>
-           <name>NisoImageMetadata</name>
-           <values arity="Scalar" type="NISOImageMetadata">
-            <value>
-          <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
-           <mix:BasicDigitalObjectInformation>
-            <mix:ObjectIdentifier>
-             <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
-            </mix:ObjectIdentifier>
-            <mix:FormatDesignation>
-             <mix:formatName>image/tiff</mix:formatName>
-            </mix:FormatDesignation>
-            <mix:byteOrder>little endian</mix:byteOrder>
-            <mix:Compression>
-             <mix:compressionScheme>Unknown</mix:compressionScheme>
-            </mix:Compression>
-           </mix:BasicDigitalObjectInformation>
-           <mix:BasicImageInformation>
-            <mix:BasicImageCharacteristics>
-             <mix:imageWidth>9566</mix:imageWidth>
-             <mix:imageHeight>6376</mix:imageHeight>
-             <mix:PhotometricInterpretation>
-              <mix:colorSpace>CFA</mix:colorSpace>
-             </mix:PhotometricInterpretation>
-            </mix:BasicImageCharacteristics>
-           </mix:BasicImageInformation>
-           <mix:ImageCaptureMetadata>
-            <mix:orientation>normal*</mix:orientation>
-           </mix:ImageCaptureMetadata>
-           <mix:ImageAssessmentMetadata>
-            <mix:ImageColorEncoding>
-             <mix:BitsPerSample>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
-             </mix:BitsPerSample>
-             <mix:samplesPerPixel>1</mix:samplesPerPixel>
-            </mix:ImageColorEncoding>
-           </mix:ImageAssessmentMetadata>
-          </mix:mix>
-            </value>
-           </values>
-          </property>
-          <property>
-           <name>NewSubfileType</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>SampleFormat</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MinSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MaxSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>Threshholding</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>RowsPerStrip</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileWidth</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileLength</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileOffsets</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileByteCounts</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>PlanarConfiguration</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>TIFFITProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>BackgroundColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>ImageColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>TransparencyIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>PixelIntensityRange</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>RasterPadding</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerExtendedRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           </values>
-          </property>
-          <property>
-           <name>TIFFEPProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>CFARepeatPatternDim</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>CFAPattern</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           </values>
-          </property>
-          <property>
-           <name>DNGProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>CFAPlaneColor</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>CFALayout</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelRepeatDim</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevel</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelDeltaH</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelDeltaV</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>WhiteLevel</name>
-            <values arity="Array" type="Long">
-            </values>
-           </property>
-           <property>
-            <name>DefaultScale</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BestQualityScale</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DefaultCropOrigin</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DefaultCropSize</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>CameraCalibration1</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>CameraCalibration2</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BayerGreenSplit</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>AntiAliasStrength</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           </values>
-          </property>
-          </values>
-         </property>
-         </values>
-        </property>
-        <property>
-         <name>IFD</name>
-         <values arity="Array" type="Property">
-         <property>
-          <name>Offset</name>
-          <values arity="Scalar" type="Long">
-          </values>
-         </property>
-         <property>
-          <name>Type</name>
-          <values arity="Scalar" type="String">
-          </values>
-         </property>
-         <property>
-          <name>Entries</name>
-          <values arity="List" type="Property">
-          <property>
-           <name>NisoImageMetadata</name>
-           <values arity="Scalar" type="NISOImageMetadata">
-            <value>
-          <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
-           <mix:BasicDigitalObjectInformation>
-            <mix:ObjectIdentifier>
-             <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
-            </mix:ObjectIdentifier>
-            <mix:FormatDesignation>
-             <mix:formatName>image/tiff</mix:formatName>
-            </mix:FormatDesignation>
-            <mix:byteOrder>little endian</mix:byteOrder>
-            <mix:Compression>
-             <mix:compressionScheme>Unknown</mix:compressionScheme>
-            </mix:Compression>
-           </mix:BasicDigitalObjectInformation>
-           <mix:BasicImageInformation>
-            <mix:BasicImageCharacteristics>
-             <mix:imageWidth>1024</mix:imageWidth>
-             <mix:imageHeight>732</mix:imageHeight>
-             <mix:PhotometricInterpretation>
-              <mix:colorSpace>YCbCr</mix:colorSpace>
-              <mix:YCbCr>
-               <mix:YCbCrSubSampling>
-                <mix:yCbCrSubsampleHoriz>2</mix:yCbCrSubsampleHoriz>
-                <mix:yCbCrSubsampleVert>2</mix:yCbCrSubsampleVert>
-               </mix:YCbCrSubSampling>
-               <mix:yCbCrPositioning>0</mix:yCbCrPositioning>
-               <mix:YCbCrCoefficients>
-                <mix:lumaRed>
-                 <mix:numerator>299</mix:numerator>
-                 <mix:denominator>1000</mix:denominator>
-                </mix:lumaRed>
-                <mix:lumaGreen>
-                 <mix:numerator>587</mix:numerator>
-                 <mix:denominator>1000</mix:denominator>
-                </mix:lumaGreen>
-                <mix:lumaBlue>
-                 <mix:numerator>114</mix:numerator>
-                 <mix:denominator>1000</mix:denominator>
-                </mix:lumaBlue>
-               </mix:YCbCrCoefficients>
-              </mix:YCbCr>
-              <mix:ReferenceBlackWhite>
-               <mix:Component>
-                <mix:componentPhotometricInterpretation>Y</mix:componentPhotometricInterpretation>
-                <mix:footroom>
-                 <mix:numerator>0</mix:numerator>
-                </mix:footroom>
-                <mix:headroom>
-                 <mix:numerator>255</mix:numerator>
-                </mix:headroom>
-                </mix:Component>
-               <mix:Component>
-                <mix:componentPhotometricInterpretation>Cb</mix:componentPhotometricInterpretation>
-                <mix:footroom>
-                 <mix:numerator>128</mix:numerator>
-                </mix:footroom>
-                <mix:headroom>
-                 <mix:numerator>255</mix:numerator>
-                </mix:headroom>
-                </mix:Component>
-               <mix:Component>
-                <mix:componentPhotometricInterpretation>Cr</mix:componentPhotometricInterpretation>
-                <mix:footroom>
-                 <mix:numerator>128</mix:numerator>
-                </mix:footroom>
-                <mix:headroom>
-                 <mix:numerator>255</mix:numerator>
-                </mix:headroom>
-                </mix:Component>
-               </mix:ReferenceBlackWhite>
-             </mix:PhotometricInterpretation>
-            </mix:BasicImageCharacteristics>
-           </mix:BasicImageInformation>
-           <mix:ImageCaptureMetadata>
-            <mix:orientation>normal*</mix:orientation>
-           </mix:ImageCaptureMetadata>
-           <mix:ImageAssessmentMetadata>
-            <mix:ImageColorEncoding>
-             <mix:BitsPerSample>
-              <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
-             </mix:BitsPerSample>
-             <mix:samplesPerPixel>3</mix:samplesPerPixel>
-            </mix:ImageColorEncoding>
-           </mix:ImageAssessmentMetadata>
-          </mix:mix>
-            </value>
-           </values>
-          </property>
-          <property>
-           <name>NewSubfileType</name>
-           <values arity="List" type="String">
-           </values>
-          </property>
-          <property>
-           <name>SampleFormat</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MinSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MaxSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>TransferRange</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>Threshholding</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>StripOffsets</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>RowsPerStrip</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>StripByteCounts</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>PlanarConfiguration</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>TIFFITProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>BackgroundColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>ImageColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>TransparencyIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>PixelIntensityRange</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>RasterPadding</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerExtendedRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           </values>
-          </property>
-          </values>
-         </property>
-         </values>
-        </property>
-        <property>
-         <name>IFD</name>
-         <values arity="Array" type="Property">
-         <property>
-          <name>Offset</name>
-          <values arity="Scalar" type="Long">
-          </values>
-         </property>
-         <property>
-          <name>Type</name>
-          <values arity="Scalar" type="String">
-          </values>
-         </property>
-         <property>
-          <name>Entries</name>
-          <values arity="List" type="Property">
-          <property>
-           <name>NisoImageMetadata</name>
-           <values arity="Scalar" type="NISOImageMetadata">
-            <value>
-          <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
-           <mix:BasicDigitalObjectInformation>
-            <mix:ObjectIdentifier>
-             <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
-            </mix:ObjectIdentifier>
-            <mix:FormatDesignation>
-             <mix:formatName>image/tiff</mix:formatName>
-            </mix:FormatDesignation>
-            <mix:byteOrder>little endian</mix:byteOrder>
-            <mix:Compression>
-             <mix:compressionScheme>Unknown</mix:compressionScheme>
-            </mix:Compression>
-           </mix:BasicDigitalObjectInformation>
-           <mix:BasicImageInformation>
-            <mix:BasicImageCharacteristics>
-             <mix:imageWidth>1901</mix:imageWidth>
-             <mix:imageHeight>1267</mix:imageHeight>
-             <mix:PhotometricInterpretation>
-              <mix:colorSpace>LinearRaw</mix:colorSpace>
-             </mix:PhotometricInterpretation>
-            </mix:BasicImageCharacteristics>
-           </mix:BasicImageInformation>
-           <mix:ImageCaptureMetadata>
-            <mix:orientation>normal*</mix:orientation>
-           </mix:ImageCaptureMetadata>
-           <mix:ImageAssessmentMetadata>
-            <mix:ImageColorEncoding>
-             <mix:BitsPerSample>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
-             </mix:BitsPerSample>
-             <mix:samplesPerPixel>3</mix:samplesPerPixel>
-            </mix:ImageColorEncoding>
-           </mix:ImageAssessmentMetadata>
-          </mix:mix>
-            </value>
-           </values>
-          </property>
-          <property>
-           <name>NewSubfileType</name>
-           <values arity="List" type="String">
-           </values>
-          </property>
-          <property>
-           <name>SampleFormat</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MinSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MaxSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>Threshholding</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>RowsPerStrip</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileWidth</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileLength</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileOffsets</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileByteCounts</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>PlanarConfiguration</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>TIFFITProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>BackgroundColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>ImageColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>TransparencyIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>PixelIntensityRange</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>RasterPadding</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerExtendedRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           </values>
-          </property>
-          <property>
-           <name>DNGProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>CFAPlaneColor</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>CFALayout</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelRepeatDim</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevel</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelDeltaH</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelDeltaV</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>WhiteLevel</name>
-            <values arity="Array" type="Long">
-            </values>
-           </property>
-           <property>
-            <name>DefaultScale</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BestQualityScale</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DefaultCropOrigin</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DefaultCropSize</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>CameraCalibration1</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>CameraCalibration2</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>AntiAliasStrength</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           </values>
-          </property>
-          </values>
-         </property>
-         </values>
-        </property>
-        <property>
-         <name>IFD</name>
-         <values arity="Array" type="Property">
-         <property>
-          <name>Offset</name>
-          <values arity="Scalar" type="Long">
-          </values>
-         </property>
-         <property>
-          <name>Type</name>
-          <values arity="Scalar" type="String">
-          </values>
-         </property>
-         <property>
-          <name>Entries</name>
-          <values arity="List" type="Property">
-          <property>
-           <name>NisoImageMetadata</name>
-           <values arity="Scalar" type="NISOImageMetadata">
-            <value>
-          <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
-           <mix:BasicDigitalObjectInformation>
-            <mix:ObjectIdentifier>
-             <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
-            </mix:ObjectIdentifier>
-            <mix:FormatDesignation>
-             <mix:formatName>image/tiff</mix:formatName>
-            </mix:FormatDesignation>
-            <mix:byteOrder>little endian</mix:byteOrder>
-            <mix:Compression>
-             <mix:compressionScheme>Unknown</mix:compressionScheme>
-            </mix:Compression>
-           </mix:BasicDigitalObjectInformation>
-           <mix:BasicImageInformation>
-            <mix:BasicImageCharacteristics>
-             <mix:imageWidth>512</mix:imageWidth>
-             <mix:imageHeight>341</mix:imageHeight>
-             <mix:PhotometricInterpretation>
-              <mix:colorSpace>LinearRaw</mix:colorSpace>
-             </mix:PhotometricInterpretation>
-            </mix:BasicImageCharacteristics>
-           </mix:BasicImageInformation>
-           <mix:ImageCaptureMetadata>
-            <mix:orientation>normal*</mix:orientation>
-           </mix:ImageCaptureMetadata>
-           <mix:ImageAssessmentMetadata>
-            <mix:ImageColorEncoding>
-             <mix:BitsPerSample>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
-             </mix:BitsPerSample>
-             <mix:samplesPerPixel>3</mix:samplesPerPixel>
-            </mix:ImageColorEncoding>
-           </mix:ImageAssessmentMetadata>
-          </mix:mix>
-            </value>
-           </values>
-          </property>
-          <property>
-           <name>NewSubfileType</name>
-           <values arity="List" type="String">
-           </values>
-          </property>
-          <property>
-           <name>SampleFormat</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MinSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MaxSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>Threshholding</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>RowsPerStrip</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileWidth</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileLength</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileOffsets</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileByteCounts</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>PlanarConfiguration</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>TIFFITProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>BackgroundColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>ImageColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>TransparencyIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>PixelIntensityRange</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>RasterPadding</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerExtendedRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           </values>
-          </property>
-          <property>
-           <name>DNGProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>CFAPlaneColor</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>CFALayout</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelRepeatDim</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevel</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelDeltaH</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelDeltaV</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>WhiteLevel</name>
-            <values arity="Array" type="Long">
-            </values>
-           </property>
-           <property>
-            <name>DefaultScale</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BestQualityScale</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DefaultCropOrigin</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DefaultCropSize</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>CameraCalibration1</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>CameraCalibration2</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>AntiAliasStrength</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           </values>
-          </property>
-          </values>
-         </property>
-         </values>
-        </property>
-        <property>
-         <name>IFD</name>
-         <values arity="Array" type="Property">
-         <property>
-          <name>Offset</name>
-          <values arity="Scalar" type="Long">
-          </values>
-         </property>
-         <property>
-          <name>Type</name>
-          <values arity="Scalar" type="String">
-          </values>
-         </property>
-         <property>
-          <name>Entries</name>
-          <values arity="List" type="Property">
-          <property>
-           <name>NisoImageMetadata</name>
-           <values arity="Scalar" type="NISOImageMetadata">
-            <value>
-          <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
-           <mix:BasicDigitalObjectInformation>
-            <mix:ObjectIdentifier>
-             <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
-            </mix:ObjectIdentifier>
-            <mix:FormatDesignation>
-             <mix:formatName>image/tiff</mix:formatName>
-            </mix:FormatDesignation>
-            <mix:byteOrder>little endian</mix:byteOrder>
-            <mix:Compression>
-             <mix:compressionScheme>Unknown</mix:compressionScheme>
-            </mix:Compression>
-           </mix:BasicDigitalObjectInformation>
-           <mix:BasicImageInformation>
-            <mix:BasicImageCharacteristics>
-             <mix:imageWidth>256</mix:imageWidth>
-             <mix:imageHeight>171</mix:imageHeight>
-             <mix:PhotometricInterpretation>
-              <mix:colorSpace>LinearRaw</mix:colorSpace>
-             </mix:PhotometricInterpretation>
-            </mix:BasicImageCharacteristics>
-           </mix:BasicImageInformation>
-           <mix:ImageCaptureMetadata>
-            <mix:orientation>normal*</mix:orientation>
-           </mix:ImageCaptureMetadata>
-           <mix:ImageAssessmentMetadata>
-            <mix:ImageColorEncoding>
-             <mix:BitsPerSample>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleValue>16</mix:bitsPerSampleValue>
-              <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
-             </mix:BitsPerSample>
-             <mix:samplesPerPixel>3</mix:samplesPerPixel>
-            </mix:ImageColorEncoding>
-           </mix:ImageAssessmentMetadata>
-          </mix:mix>
-            </value>
-           </values>
-          </property>
-          <property>
-           <name>NewSubfileType</name>
-           <values arity="List" type="String">
-           </values>
-          </property>
-          <property>
-           <name>SampleFormat</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MinSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>MaxSampleValue</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>Threshholding</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>RowsPerStrip</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileWidth</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileLength</name>
-           <values arity="Scalar" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileOffsets</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>TileByteCounts</name>
-           <values arity="Array" type="Long">
-           </values>
-          </property>
-          <property>
-           <name>PlanarConfiguration</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>TIFFITProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>BackgroundColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>ImageColorIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>TransparencyIndicator</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>PixelIntensityRange</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>RasterPadding</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BitsPerExtendedRunLength</name>
-            <values arity="Scalar" type="Integer">
-            </values>
-           </property>
-           </values>
-          </property>
-          <property>
-           <name>DNGProperties</name>
-           <values arity="List" type="Property">
-           <property>
-            <name>CFAPlaneColor</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>CFALayout</name>
-            <values arity="Scalar" type="String">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelRepeatDim</name>
-            <values arity="Array" type="Integer">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevel</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelDeltaH</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BlackLevelDeltaV</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>WhiteLevel</name>
-            <values arity="Array" type="Long">
-            </values>
-           </property>
-           <property>
-            <name>DefaultScale</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>BestQualityScale</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DefaultCropOrigin</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>DefaultCropSize</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>CameraCalibration1</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>CameraCalibration2</name>
-            <values arity="Array" type="Rational">
-            </values>
-           </property>
-           <property>
-            <name>AntiAliasStrength</name>
-            <values arity="Scalar" type="Rational">
-            </values>
-           </property>
-           </values>
-          </property>
-          </values>
-         </property>
-         </values>
-        </property>
-        <property>
-         <name>IFD</name>
-         <values arity="Array" type="Property">
-         <property>
-          <name>Offset</name>
-          <values arity="Scalar" type="Long">
-          </values>
-         </property>
-         <property>
-          <name>Type</name>
-          <values arity="Scalar" type="String">
-          </values>
-         </property>
-         <property>
-          <name>Entries</name>
-          <values arity="List" type="Property">
-          <property>
-           <name>ExifVersion</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>FlashpixVersion</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>ColorSpace</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>DateTimeOriginal</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>DateTimeDigitized</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>SubSecTimeOriginal</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>SubSecTimeDigitized</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>ExposureTime</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>FNumber</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>ExposureProgram</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>ISOSpeedRatings</name>
-           <values arity="Array" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>ShutterSpeedValue</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>ApertureValue</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>BrightnessValue</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>ExposureBiasValue</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>MaxApertureValue</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>MeteringMode</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>LightSource</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>Flash</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>FocalLength</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>FocalPlaneXResolution</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>FocalPlaneYResolution</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>FocalPlaneResolutionUnit</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>FileSource</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>SceneType</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>CustomRendered</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>ExposureMode</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>WhiteBalance</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>DigitalZoomRatio</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>FocalLengthIn35mmFilm</name>
-           <values arity="Scalar" type="Integer">
-           </values>
-          </property>
-          <property>
-           <name>SceneCaptureType</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>Contrast</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>Saturation</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          <property>
-           <name>Sharpness</name>
-           <values arity="Scalar" type="String">
-           </values>
-          </property>
-          </values>
-         </property>
-         </values>
-        </property>
-        </values>
-       </property>
-       </values>
-      </property>
-     </properties>
-    </repInfo>
-   </jhove>
-   
 
 
 ----
@@ -8786,7 +6824,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "http://localhost/loucalll.xsd"
-   /tmp/file-scraper-w9h3yw7q.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-u76crji3.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/invalid_1.0_catalog.xml:3: element note: Schemas validity error : Element '{http://localhost/}note': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/invalid_1.0_catalog.xml fails to validate
    Extractor didn't produce any output streams.
@@ -8906,7 +6944,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "/tmp/loucalll.xsd"
-   /tmp/file-scraper-s1dxfhhr.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location '/tmp/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-u_sxvtma.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location '/tmp/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/invalid_1.0_local_xsd.xml:3: element note: Schemas validity error : Element '{http://localhost/}note': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/invalid_1.0_local_xsd.xml fails to validate
    Extractor didn't produce any output streams.
@@ -8969,6 +7007,25 @@ lxml 4.6.5.0
 
 ----
 
+.. _lxml-4.6.5.0-corpus/file/45f588ed-07f9-40f8-b3bb-632ea2758897:
+
+:ref:`corpus/file/45f588ed-07f9-40f8-b3bb-632ea2758897`
+.......................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   Failed: document is not well-formed.
+   Premature end of data in tag body line 6, line 6, column 9 (invalid_1.0_unknown_encoding.xml, line 6)
+   Extractor didn't produce any output streams.
+
+
+----
+
 .. _lxml-4.6.5.0-file-scraper/1b8d91f5-3c34-4cc7-87db-416748ad6d38:
 
 :ref:`file-scraper/1b8d91f5-3c34-4cc7-87db-416748ad6d38`
@@ -9005,8 +7062,8 @@ lxml 4.6.5.0
    /corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd:11: namespace error : Namespace prefix xsd on element is not defined
                <xsd:element name="body" type="xsd:string"/>
                                                          ^
-   /tmp/file-scraper-jlkk__hu.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.
-   WXS schema /tmp/file-scraper-jlkk__hu.tmp failed to compile
+   /tmp/file-scraper-ddjcn1pc.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.
+   WXS schema /tmp/file-scraper-ddjcn1pc.tmp failed to compile
    Extractor didn't produce any output streams.
 
 
@@ -9044,7 +7101,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "http://localhost/loucalll.xsd"
-   /tmp/file-scraper-c8vqs2_a.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-br2dry8a.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_catalog.xml:3: element note: Schemas validity error : Element '{http://localhost/}note': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_catalog.xml fails to validate
    Extractor didn't produce any output streams.
@@ -9066,7 +7123,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "/tmp/loucalll.xsd"
-   /tmp/file-scraper-fo7nvkrx.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location '/tmp/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-41s5keq6.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location '/tmp/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_local_xsd.xml:3: element note: Schemas validity error : Element '{http://localhost/}note': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_local_xsd.xml fails to validate
    Extractor didn't produce any output streams.
@@ -9087,7 +7144,7 @@ lxml 4.6.5.0
 
 
    warning: failed to load external entity "http://localhost/loucalll.xsd"
-   /tmp/file-scraper-6t6rf_j4.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
+   /tmp/file-scraper-7m6xjiar.tmp:2: element import: Schemas parser warning : Element '{http://www.w3.org/2001/XMLSchema}import': Failed to locate a schema at location 'http://localhost/loucalll.xsd'. Skipping the import.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_no_namespace_catalog.xml:3: element beginnersbook: Schemas validity error : Element 'beginnersbook': No matching global declaration available for the validation root.
    /corpus/file-scraper/tests/data/text_xml/valid_1.0_no_namespace_catalog.xml fails to validate
    Extractor didn't produce any output streams.
@@ -9132,27 +7189,8 @@ lxml 4.6.5.0
    /corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd:11: namespace error : Namespace prefix xsd on element is not defined
                <xsd:element name="body" type="xsd:string"/>
                                                          ^
-   /tmp/file-scraper-hrft4ubs.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.
-   WXS schema /tmp/file-scraper-hrft4ubs.tmp failed to compile
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _lxml-4.6.5.0-corpus/file/eac71d29-6a9a-4495-bdd9-98e6d77a3103:
-
-:ref:`corpus/file/eac71d29-6a9a-4495-bdd9-98e6d77a3103`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Failed: document is not well-formed.
-   Namespace prefix xsd on schema is not defined, line 2, column 78 (local_nons.xsd, line 2)
+   /tmp/file-scraper-gcd6afe7.tmp:2: element import: Schemas parser error : Element '{http://www.w3.org/2001/XMLSchema}import': The XML document '/corpus/file-scraper/tests/data/text_xml/supplementary/local_nons.xsd' is not a schema document.
+   WXS schema /tmp/file-scraper-gcd6afe7.tmp failed to compile
    Extractor didn't produce any output streams.
 
 
@@ -9168,272 +7206,6 @@ Pillow 10.0.1
    :local:
    :depth: 1
 
-
-.. _Pillow-10.0.1-corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309:
-
-:ref:`corpus/file/8fbb8c2c-8c86-40ea-9343-cebe426e6309`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   cannot identify image file '/corpus/file-scraper/tests/data/image_gif/invalid_1987a_broken_header.gif'
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-corpus/file/79f4b2b7-9eac-4352-a188-91c1e50ceeab:
-
-:ref:`corpus/file/79f4b2b7-9eac-4352-a188-91c1e50ceeab`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   Image size (2662166000 pixels) exceeds limit of 715827882 pixels, could be decompression bomb DOS attack.
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80:
-
-:ref:`corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   cannot identify image file '/corpus/file-scraper/tests/data/image_gif/invalid_1989a_broken_header.gif'
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017:
-
-:ref:`corpus/file/866f401f-f48d-4c94-802c-39a56bfa6017`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   cannot identify image file '/corpus/file-scraper/tests/data/image_gif/invalid_1989a_truncated.gif'
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84:
-
-:ref:`file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84`
-........................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   cannot identify image file '/corpus/file-scraper/tests/data/image_jp2/invalid__header_box_missing_bytes.jp2'
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b:
-
-:ref:`file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b`
-........................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   Truncated File Read
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049:
-
-:ref:`corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   cannot identify image file '/corpus/file-scraper/tests/data/image_png/invalid_1.2_no_IHDR.png'
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82:
-
-:ref:`file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82`
-........................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   cannot identify image file '/corpus/file-scraper/tests/data/image_png/invalid_1.2_wrong_CRC.png'
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8:
-
-:ref:`corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   cannot identify image file '/corpus/file-scraper/tests/data/image_tiff/invalid_6.0_payload_altered.tif'
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f:
-
-:ref:`file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f`
-........................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   could not create decoder object
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b:
-
-:ref:`file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b`
-........................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   could not create decoder object
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd:
-
-:ref:`file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd`
-........................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   could not create decoder object
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea:
-
-:ref:`file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea`
-........................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   could not create decoder object
-   Extractor didn't produce any output streams.
-
-
-----
-
-.. _Pillow-10.0.1-corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e:
-
-:ref:`corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e`
-.......................................................
-
-
-**Validator output:**
-
-
-.. code::
-
-
-   Error in analyzing file.
-   cannot identify image file '/corpus/file-scraper/tests/data/image_x-adobe-dng/invalid_1.4_edited_header.dng'
-   Extractor didn't produce any output streams.
-
-
-----
 
 .. _PNGcheck 4.0.0:
 
@@ -9836,17 +7608,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_payload_altered.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1776248682835" finish="1776248683006">00:00:00.171</duration>
+           <duration start="1781518842417" finish="1781518842669">00:00:00.252</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: can not locate xref table</exceptionMessage>
          </taskException>
-         <duration start="1776248682835" finish="1776248683006">00:00:00.171</duration>
+         <duration start="1781518842417" finish="1781518842669">00:00:00.252</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1776248682790" finish="1776248683040">00:00:00.250</duration>
+       <duration start="1781518842343" finish="1781518842726">00:00:00.383</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -9879,17 +7651,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-1a_removed_xref.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1776248690584" finish="1776248690718">00:00:00.134</duration>
+           <duration start="1781518851626" finish="1781518851802">00:00:00.176</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: End of file is reached</exceptionMessage>
          </taskException>
-         <duration start="1776248690584" finish="1776248690718">00:00:00.134</duration>
+         <duration start="1781518851626" finish="1781518851802">00:00:00.176</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1776248690536" finish="1776248690734">00:00:00.198</duration>
+       <duration start="1781518851581" finish="1781518851836">00:00:00.255</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -9922,17 +7694,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-1b_compressed_metadata.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1776248706982" finish="1776248707093">00:00:00.111</duration>
+           <duration start="1781518875667" finish="1781518875823">00:00:00.156</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: Pages not found</exceptionMessage>
          </taskException>
-         <duration start="1776248706982" finish="1776248707093">00:00:00.111</duration>
+         <duration start="1781518875667" finish="1781518875823">00:00:00.156</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1776248706925" finish="1776248707142">00:00:00.217</duration>
+       <duration start="1781518875618" finish="1781518875847">00:00:00.229</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -9965,17 +7737,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_payload_altered.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1776248722326" finish="1776248722400">00:00:00.074</duration>
+           <duration start="1781518932230" finish="1781518932683">00:00:00.453</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: can not locate xref table</exceptionMessage>
          </taskException>
-         <duration start="1776248722326" finish="1776248722400">00:00:00.074</duration>
+         <duration start="1781518932230" finish="1781518932683">00:00:00.453</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1776248722275" finish="1776248722443">00:00:00.168</duration>
+       <duration start="1781518932079" finish="1781518932809">00:00:00.730</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -10008,17 +7780,69 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_removed_xref.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1776248729708" finish="1776248729815">00:00:00.107</duration>
+           <duration start="1781518947867" finish="1781518948068">00:00:00.201</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: End of file is reached</exceptionMessage>
          </taskException>
-         <duration start="1776248729708" finish="1776248729815">00:00:00.107</duration>
+         <duration start="1781518947867" finish="1781518948068">00:00:00.201</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1776248729674" finish="1776248729839">00:00:00.165</duration>
+       <duration start="1781518947799" finish="1781518948109">00:00:00.310</duration>
+     </batchSummary>
+   </report>
+   MIME type (:unav) with version (:unav) is not supported.
+
+
+----
+
+.. _veraPDF-1.28.2-file-scraper/605fba04-371d-4de8-a1cc-a07bd4c80660:
+
+:ref:`file-scraper/605fba04-371d-4de8-a1cc-a07bd4c80660`
+........................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   <?xml version="1.0" encoding="utf-8"?>
+   <report>
+     <buildInformation>
+       <releaseDetails id="core" version="1.28.2" buildDate="2025-07-15T16:07:00+03:00"></releaseDetails>
+       <releaseDetails id="validation-model" version="1.28.2" buildDate="2025-07-15T16:12:00+03:00"></releaseDetails>
+       <releaseDetails id="gui" version="1.28.2" buildDate="2025-07-15T16:59:00+03:00"></releaseDetails>
+     </buildInformation>
+     <jobs>
+       <job>
+         <item size="12805">
+           <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-2b_wrong_version.pdf</name>
+         </item>
+         <validationReport jobEndStatus="normal" profileName="PDF/A-2B validation profile" statement="PDF file is not compliant with Validation Profile requirements." isCompliant="false">
+           <details passedRules="143" failedRules="1" passedChecks="683" failedChecks="1">
+             <rule specification="ISO 19005-2:2011" clause="6.1.2" testNumber="1" status="failed" failedChecks="1">
+               <description>The file header shall begin at byte zero and shall consist of "%PDF-1.n" followed by a single EOL marker, where 'n' is a single digit number between 0 (30h) and 7 (37h)</description>
+               <object>CosDocument</object>
+               <test>headerOffset == 0 &amp;&amp; /^%PDF-1\.[0-7]$/.test(header)</test>
+               <check status="failed">
+                 <context>root</context>
+                 <errorMessage>File header %PDF-1.8 (offset = 0) starts at non-zero offset or does not match the pattern %PDF-1.n, where 'n' is a single digit number between 0 and 7</errorMessage>
+               </check>
+             </rule>
+           </details>
+         </validationReport>
+         <duration start="1781518960614" finish="1781518962774">00:00:02.160</duration>
+       </job>
+     </jobs>
+     <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+       <validationReports compliant="0" nonCompliant="1" failedJobs="0">1</validationReports>
+       <featureReports failedJobs="0">0</featureReports>
+       <repairReports failedJobs="0">0</repairReports>
+       <duration start="1781518960223" finish="1781518962928">00:00:02.705</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -10051,17 +7875,17 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_payload_altered.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1776248754298" finish="1776248754394">00:00:00.096</duration>
+           <duration start="1781518987915" finish="1781518988036">00:00:00.121</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: can not locate xref table</exceptionMessage>
          </taskException>
-         <duration start="1776248754298" finish="1776248754394">00:00:00.096</duration>
+         <duration start="1781518987915" finish="1781518988036">00:00:00.121</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1776248754252" finish="1776248754424">00:00:00.172</duration>
+       <duration start="1781518987877" finish="1781518988066">00:00:00.189</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.
@@ -10094,17 +7918,69 @@ veraPDF 1.28.2
            <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_removed_xref.pdf</name>
          </item>
          <taskException type="PARSE" isExecuted="true" isSuccess="false">
-           <duration start="1776248761503" finish="1776248761604">00:00:00.101</duration>
+           <duration start="1781518996645" finish="1781518996784">00:00:00.139</duration>
            <exceptionMessage>Exception: Couldn't parse stream caused by exception: End of file is reached</exceptionMessage>
          </taskException>
-         <duration start="1776248761503" finish="1776248761604">00:00:00.101</duration>
+         <duration start="1781518996645" finish="1781518996784">00:00:00.139</duration>
        </job>
      </jobs>
      <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
        <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
-       <duration start="1776248761435" finish="1776248761626">00:00:00.191</duration>
+       <duration start="1781518996577" finish="1781518996825">00:00:00.248</duration>
+     </batchSummary>
+   </report>
+   MIME type (:unav) with version (:unav) is not supported.
+
+
+----
+
+.. _veraPDF-1.28.2-file-scraper/467e9ad2-a091-4af1-b364-fee4ce6fa320:
+
+:ref:`file-scraper/467e9ad2-a091-4af1-b364-fee4ce6fa320`
+........................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   <?xml version="1.0" encoding="utf-8"?>
+   <report>
+     <buildInformation>
+       <releaseDetails id="core" version="1.28.2" buildDate="2025-07-15T16:07:00+03:00"></releaseDetails>
+       <releaseDetails id="validation-model" version="1.28.2" buildDate="2025-07-15T16:12:00+03:00"></releaseDetails>
+       <releaseDetails id="gui" version="1.28.2" buildDate="2025-07-15T16:59:00+03:00"></releaseDetails>
+     </buildInformation>
+     <jobs>
+       <job>
+         <item size="12805">
+           <name>/corpus/file-scraper/tests/data/application_pdf/invalid_A-3b_wrong_version.pdf</name>
+         </item>
+         <validationReport jobEndStatus="normal" profileName="PDF/A-3B validation profile" statement="PDF file is not compliant with Validation Profile requirements." isCompliant="false">
+           <details passedRules="145" failedRules="1" passedChecks="683" failedChecks="1">
+             <rule specification="ISO 19005-3:2012" clause="6.1.2" testNumber="1" status="failed" failedChecks="1">
+               <description>The file header shall begin at byte zero and shall consist of "%PDF-1.n" followed by a single EOL marker, where 'n' is a single digit number between 0 (30h) and 7 (37h)</description>
+               <object>CosDocument</object>
+               <test>headerOffset == 0 &amp;&amp; /^%PDF-1\.[0-7]$/.test(header)</test>
+               <check status="failed">
+                 <context>root</context>
+                 <errorMessage>File header %PDF-1.8 (offset = 0) starts at non-zero offset or does not match the pattern %PDF-1.n, where 'n' is a single digit number between 0 and 7</errorMessage>
+               </check>
+             </rule>
+           </details>
+         </validationReport>
+         <duration start="1781519006231" finish="1781519007616">00:00:01.385</duration>
+       </job>
+     </jobs>
+     <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+       <validationReports compliant="0" nonCompliant="1" failedJobs="0">1</validationReports>
+       <featureReports failedJobs="0">0</featureReports>
+       <repairReports failedJobs="0">0</repairReports>
+       <duration start="1781519005980" finish="1781519007725">00:00:01.745</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.

@@ -958,3 +958,75 @@
     }
   }
 }
+{
+  "@id": "corpus/file/69c53d19-2171-4817-a17a-060ef1577c7e",
+  "source": "source/6a5b395d-1fe8-42b7-b1ee-d9da2ac6a4ea",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "e8de09e5bcb5da93a2cb8ab13526b809",
+    "blake2b": "7a3af52f4a6f27c7ce42383aedb5dccdffdac3c2845bfaafbee2da15397a6bc118b0fb8fb7c653f29b7d5451817328e7aec88acedbc30c53cc49a5ee41fbcb96"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.1.1/tests/data/text_xml/invalid_1.0_incorrect_encoding_ascii.xml"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "text/xml",
+      "version": "1.0",
+      "charset": "UTF-8",
+      "stream_type": "text"
+    }
+  }
+}
+{
+  "@id": "corpus/file/45f588ed-07f9-40f8-b3bb-632ea2758897",
+  "source": "source/6a5b395d-1fe8-42b7-b1ee-d9da2ac6a4ea",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "ffdc6e1fdee081ac2bb27542e1eb89a1",
+    "blake2b": "3edaaeec3340b0a8d1d67dc0cdc9e0392f03420f67e648372465f49612a2169c5ae704a86eb017d7fadf8308c9867fbb4d164f6c6c60085cc0ca4242b7beab90"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.1.1/tests/data/text_xml/invalid_1.0_unknown_encoding.xml"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "text/xml",
+      "version": "1.0",
+      "charset": "UNKNOWN-8BIT",
+      "stream_type": "text"
+    }
+  }
+}
+{
+  "@id": "corpus/file/f62396c0-76fa-410e-8320-23f545f28860",
+  "source": "source/6a5b395d-1fe8-42b7-b1ee-d9da2ac6a4ea",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "20657bc5cfb7897fe279876e5410ea34",
+    "blake2b": "253afd3be9a164e6c4010d94c0d83111c4413555dd1e46af25d9e28915fa4a8a938f8fd7677064bf6b097054e3c67e0fa5cf13baa3195713b0fb3ad965181509"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.1.1/tests/data/text_xml/valid_1.0_ascii.xml"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "text/xml",
+      "version": "1.0",
+      "charset": "UTF-8",
+      "stream_type": "text"
+    }
+  }
+}

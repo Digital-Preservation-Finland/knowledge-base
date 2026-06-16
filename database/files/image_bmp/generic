@@ -1,0 +1,23 @@
+{
+  "@id": "corpus/file/4cfb6860-53b5-430b-823a-18b5b8330968",
+  "source": "corpus/format/9b5118d5-e032-4e0e-a593-c9f81b8b9723",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "b7570551c15831ba478139ea9dc50a24",
+    "blake2b": "484ed0974e9b15634126c33e49225ec34c8dd640606e7fbbb989098fc6cd85696ee87d8418ba75acf7b11b6fcc1fd44dd6f8aca44dd997d254ba310918167959"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.1.1/tests/data/image_bmp/invalid__unsupported_format.bmp"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/x-ms-bmp",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}

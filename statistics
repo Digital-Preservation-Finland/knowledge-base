@@ -1,4 +1,4 @@
-    152     202   25850 database/format.objects
+    154     204   26151 database/format.objects
      10     776    8335 database/repair.objects
       2       2    1231 database/files/application_epub+zip/2.0.1
       5       5    3055 database/files/application_epub+zip/3
@@ -27,23 +27,28 @@
       1       1     636 database/files/application_vnd.ms-powerpoint/generic
       1       1     643 database/files/application_vnd.oasis.opendocument.formula/1.2
       2       2    1299 database/files/application_vnd.oasis.opendocument.formula/1.3
-      2       2    1296 database/files/application_vnd.oasis.opendocument.formula/generic
-      1       1     658 database/files/application_vnd.oasis.opendocument.graphics/1.1
+      1       1     642 database/files/application_vnd.oasis.opendocument.formula/1.4
+      4       4    2600 database/files/application_vnd.oasis.opendocument.formula/generic
+      2       2    1315 database/files/application_vnd.oasis.opendocument.graphics/1.1
       1       1     645 database/files/application_vnd.oasis.opendocument.graphics/1.2
       2       2    1303 database/files/application_vnd.oasis.opendocument.graphics/1.3
-      1       1     637 database/files/application_vnd.oasis.opendocument.graphics/generic
-      1       1     666 database/files/application_vnd.oasis.opendocument.presentation/1.1
+      1       1     644 database/files/application_vnd.oasis.opendocument.graphics/1.4
+      2       2    1283 database/files/application_vnd.oasis.opendocument.graphics/generic
+      2       2    1331 database/files/application_vnd.oasis.opendocument.presentation/1.1
       1       1     653 database/files/application_vnd.oasis.opendocument.presentation/1.2
       2       2    1319 database/files/application_vnd.oasis.opendocument.presentation/1.3
-      1       1     641 database/files/application_vnd.oasis.opendocument.presentation/generic
-      1       1     664 database/files/application_vnd.oasis.opendocument.spreadsheet/1.1
+      1       1     652 database/files/application_vnd.oasis.opendocument.presentation/1.4
+      2       2    1291 database/files/application_vnd.oasis.opendocument.presentation/generic
+      2       2    1327 database/files/application_vnd.oasis.opendocument.spreadsheet/1.1
       1       1     651 database/files/application_vnd.oasis.opendocument.spreadsheet/1.2
       2       2    1315 database/files/application_vnd.oasis.opendocument.spreadsheet/1.3
-      1       1     640 database/files/application_vnd.oasis.opendocument.spreadsheet/generic
-      1       1     650 database/files/application_vnd.oasis.opendocument.text/1.1
+      1       1     650 database/files/application_vnd.oasis.opendocument.spreadsheet/1.4
+      2       2    1289 database/files/application_vnd.oasis.opendocument.spreadsheet/generic
+      2       2    1299 database/files/application_vnd.oasis.opendocument.text/1.1
       1       1     637 database/files/application_vnd.oasis.opendocument.text/1.2
       2       2    1287 database/files/application_vnd.oasis.opendocument.text/1.3
-      2       2    1266 database/files/application_vnd.oasis.opendocument.text/generic
+      1       1     636 database/files/application_vnd.oasis.opendocument.text/1.4
+      3       3    1908 database/files/application_vnd.oasis.opendocument.text/generic
       2       4    1465 database/files/application_vnd.openxmlformats-officedocument.presentationml.presentation/2007 onwards
       1       1     679 database/files/application_vnd.openxmlformats-officedocument.presentationml.presentation/generic
       2       4    1433 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/2007 onwards
@@ -54,7 +59,7 @@
       1       1     594 database/files/application_warc/0.17
       1       1     594 database/files/application_warc/0.18
       2       2    1221 database/files/application_warc/-1.0
-      6       6    3601 database/files/application_warc/1.0
+      7       7    4201 database/files/application_warc/1.0
       3       3    1798 database/files/application_warc/1.1
       6       6    3384 database/files/application_warc/generic
       1       1     631 database/files/application_x.fi-dpres.atlproj/generic
@@ -77,6 +82,7 @@
       1       3     212 database/files/audio_x-ms-wma/generic
       1       1     865 database/files/audio_x-wav/2
       8      22    6250 database/files/audio_x-wav/generic
+      1       1     605 database/files/image_bmp/generic
       2       2    1327 database/files/image_gif/1987a
       2       2    1797 database/files/image_gif/1989a
       2      12    1224 database/files/image_gif/GIF image data 10 x 6
@@ -100,11 +106,12 @@
       3       3    1795 database/files/image_x-dpx/generic
       1       1    5739 database/files/none/emptyfile
       9      13    6219 database/files/text_csv/generic
+      1       1     616 database/files/text_html/3.2
       2       2    1208 database/files/text_html/4.01
       5       7    2595 database/files/text_html/5
       2       2    1221 database/files/text_html/generic
      23      23   14072 database/files/text_plain/generic
-     40      49   23738 database/files/text_xml/1.0
+     43      52   25548 database/files/text_xml/1.0
       1       1     611 database/files/text_xml/generic
       1       4    1506 database/files/video_avi/generic
       2       2    1863 database/files/video_dv/generic
@@ -402,5 +409,5 @@
       1       1     212 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/analysis
       1       1     220 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
-    391   28722  476887 corpus/error.objects
-    404     557  293041 corpus/file.objects
+    397   26009  410131 corpus/error.objects
+    382     516  273872 corpus/file.objects
