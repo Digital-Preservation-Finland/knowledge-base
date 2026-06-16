@@ -405,3 +405,2992 @@
     }
   }
 }
+{
+  "@id": "corpus/file/f40d550b-ea8f-46ab-b1b9-c33f2543f462",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "7c845af9f5aa44be9590067758760a8c",
+    "blake2b": "d7d2f9da73442cac33acf8aae9838910f7153168de822b042698af917ba010aa98d3e921847730d0641c7dd0fc99b99869a4698a664e6d117b3fe5c8dbde905a"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/animation.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "(:unav)",
+      "stream_type": "video",
+      "version": "(:unav)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "RLE",
+      "codec_quality": "(:unav)",
+      "color": "(:unav)",
+      "dar": "1.333",
+      "data_rate": "8.154368",
+      "data_rate_mode": "(:unav)",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "(:unav)",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/0c9740d3-8411-4d4c-8707-7fa3bde419e5",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "627fba96fbcaaa50d02f0d33cc3fb361",
+    "blake2b": "815037647c4658d186413a2cee4d4851d9213ae30045450732d182ea247387a3b2147d715454882581f8747fe11aafd9f1f6dc59f40f7ed5ba9357bcca794513"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-intermediate-codec.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "(:unav)",
+      "stream_type": "video",
+      "version": "(:unav)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "AIC",
+      "codec_quality": "(:unav)",
+      "color": "Color",
+      "dar": "1.333",
+      "data_rate": "2.54528",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/f72d3841-ab72-42a1-9fe7-bdd23b9352d3",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "77e088fa5cc4d0a292e0f8f9f5f36cf0",
+    "blake2b": "b4d6bcc660f879ab7c6931d5170734c033a48406acf496af2c4386b0ed77813a0399c8efb1613a54605a30cee3b2969c1ea06ad52ce91ce903ea1d9b14a2f476"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-prores-422-hq.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x.fi-dpres.prores",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "ProRes",
+      "codec_quality": "(:unav)",
+      "color": "Color",
+      "dar": "1.333",
+      "data_rate": "5.597952",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/b59ab069-a639-4cb8-ad4b-2df3fd64314b",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "61d192151181b8449ccf738e26337ef0",
+    "blake2b": "8111dda6204f1b38d129c8abb9e1bd42255506e7f0f453d77ebc504bd29d28f3d5b0f0de0a07f5926603c6f64ebf7eaa7f3b89f50466600d8ff14a810222db5a"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-prores-422-lt.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x.fi-dpres.prores",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "ProRes",
+      "codec_quality": "(:unav)",
+      "color": "Color",
+      "dar": "1.333",
+      "data_rate": "3.801088",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/bb42562c-71f2-4a49-8465-49c15eff621a",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "7a9644967e86ef8efc4de7e3d357370a",
+    "blake2b": "54d175646f607994a0ea45c591183137ffe68f0fdc01195a740447019f4e411c28bb958c6631c27bc926eb0c2f424c140df1c813f16bfe6f7554b5f24656c512"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-prores-422-proxy.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x.fi-dpres.prores",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "ProRes",
+      "codec_quality": "(:unav)",
+      "color": "Color",
+      "dar": "1.333",
+      "data_rate": "1.931904",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/2e78ee2c-f0c4-46da-b94c-fa91bc8029e4",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "44e2f4eee4b062179db7d7eb694fb453",
+    "blake2b": "10271818e0f63f2330b4c13d2104dd4dac6c449feba5d5d6119f91228b44b47b20096570ff071c8150feb7f936eeab6f7e4e1bb5118263fc7245294811e4f26b"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-prores-422.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/x.fi-dpres.prores",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "ProRes",
+      "codec_quality": "(:unav)",
+      "color": "Color",
+      "dar": "1.333",
+      "data_rate": "4.507264",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/9ea92691-021f-46c9-af12-631ce9a0805a",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "38d98389ff914344fa1074fc023c4494",
+    "blake2b": "74a28d97d0468326725c3af4391e54587b9707613ef70211650eec07906aa1cf9dd76d1e75529dd13a70c593114a770e305537f66ac50be748050192bc4dd2dd"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dv-dvchd-ntsc-interlaced.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.364",
+      "data_rate": "24.417183",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "480",
+      "par": "0.909",
+      "sampling": "4:1:1",
+      "signal_format": "NTSC",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/1f1c1b29-19ee-4469-8bb4-6794e69ef55a",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "7123e7a33c9026324b553a434efadff3",
+    "blake2b": "940143196b75af03a70a695a04f7e6ca37d4f18d77dbbbab4e572a5c34a51f58dadb6468b79177646034dea5ea8369ca07aa0ae8509524c8d08e7e8fb3ba9a1d"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dv-dvchd-ntsc-progressive.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.364",
+      "data_rate": "24.417183",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "480",
+      "par": "0.909",
+      "sampling": "4:1:1",
+      "signal_format": "NTSC",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/0fe2adbd-262a-4376-ad54-269a7c35a6a2",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "042cc2c0db16b60eb6f7eddd3dc118ac",
+    "blake2b": "b5024530a6b33efc921e95b47ddf8595ca77e68753277a23d9b6862f19b1c96b1ece9be0c17210e8211ef252636c812020ca502810aa00e34ed82943fad00b75"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dv-pal-interlaced.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.366",
+      "data_rate": "24.4416",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.093",
+      "sampling": "4:2:0",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/df4f04f6-79f6-41de-97ba-dc115b8e2b81",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "c234c2e13aefbcd7c46b35d048c9fa76",
+    "blake2b": "9b08bba24efedc9a2351cecf63ad8e279ecfeadfaa937221f183e92874af85285b86116e2da35059a64a14f4574919ee8cf8bcfa527bcc8aecfe58a43e83bd87"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dv-pal-progressive.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.366",
+      "data_rate": "24.4416",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.093",
+      "sampling": "4:2:0",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/cf8e464e-54dd-4302-973f-2c0ac0a64c18",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "23279d7284c946767602072fc2f48a94",
+    "blake2b": "4c3f847bc99e218fd4df5802f795803f2ee3144cd4a7a43568fc4076c75357f015e6e55b53118ca607e2dccdb6f40f90cf21dd0928cb76a8d6e7989dca984aff"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-1080i50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "97.7664",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:2",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/3b5fffcd-13ba-48cb-9dbe-4f9218b1ba93",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "033dfe66d1fa70a827007bed284d703b",
+    "blake2b": "a4370c6ed7203647e62a9ba820e5cedb56df0f5488ba10506d7df7450ab24a08ae0ec78db0e3d0535d51191ea56a8308acfa8af8c381a98d2dc746440e2fd090"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-1080i60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "96",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.5",
+      "sampling": "4:2:2",
+      "signal_format": "NTSC",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/6cd30815-7594-4a28-b29a-24f0a9230dfc",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "a461c14eaf56c34477d646b0c3dc27ad",
+    "blake2b": "0724186c244bdbb958158dd9a4d0abe088314d2c0e39d55459b75256e9ea8ec1db44441941c09e83c238900fe3a197ed1566449d506ef101356ea3f4408fadc4"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-1080p25.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "97.7664",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:2",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/55e022ed-ad55-46ed-a337-4b7b24308d36",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "0812184da1c85eae2f27bf5763277f3f",
+    "blake2b": "59f6284e781a3b854b3f02a0f4395e09f2290966fe524c6581edfab070736402436ffd73e0eb09642503a2d4b3fcdc550e244513c30260af621d57c0c7c19971"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-1080p30.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "96",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.5",
+      "sampling": "4:2:2",
+      "signal_format": "NTSC",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/a014665f-9532-401c-8970-3a01e5bf7872",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "a02f51b2d4340d3a650822b980010e41",
+    "blake2b": "6694630a0e6bcd0b1e79fbdd5590348a71e13924486eafb49f9ca14f898c713aa2689313908086505519715398582b53864bdc5fc6617b48057f5c1acce0c139"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-720p50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "48.8832",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1.333",
+      "sampling": "4:2:2",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "960"
+    }
+  }
+}
+{
+  "@id": "corpus/file/c8aacaae-6163-4dd1-a5c2-8693ad13b770",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "75aeb7ffd2f1bf156f3fc355e589dae5",
+    "blake2b": "e66a6277ae26e4d36eb279d662bb4efb4cb1b0f740a138a01474fe4d5ad55f956b93a0e1caa2d0e3f818e66fb3a73cfc887e4e0c98ba8bc844abffefe755280d"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-720p60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "(:unav)",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "48",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1.333",
+      "sampling": "4:2:2",
+      "signal_format": "NTSC",
+      "sound": "No",
+      "width": "960"
+    }
+  }
+}
+{
+  "@id": "corpus/file/ed04124d-b0b4-4f0f-b872-fa4f1f914e7e",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "a5a350848af8d4056426aecc0077827c",
+    "blake2b": "2cac321830e853c9997f39486d1c2a62d4678bdaf6e5366a7c55b8141d85bc5f0ccf21085a16e0ce4ffdf1ffe945810471d7665051ff9c78a09eb83b174c8435"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-pal-interlaced.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.366",
+      "data_rate": "24.4416",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.093",
+      "sampling": "4:1:1",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/bd489118-03ae-4adb-8870-c1987b0cba6a",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "a005a1ccd6997d0fffce6e9b161c4324",
+    "blake2b": "e21a1fb08c27588c790a1ed7105f02f02bd28357abdad168beca876cd7374ba8b135cdf733e821ec240c9aea99a32868ceb9ef198761de901d4a2a9a4a1a5aea"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-pal-progressive.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.366",
+      "data_rate": "24.4416",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.093",
+      "sampling": "4:1:1",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/c6da2efc-7681-4c27-b892-96b547950037",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "6ddcba13e200d0432bc86e5920e2d267",
+    "blake2b": "bf598850d99eac8a2f59d22790777ef5e3c16e8c150f748d36b8ddca0b0aeca857b046f4eda21f50f161b1ce791564a770cb8713cb4e0eabac77e8481d472195"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro50-ntsc-interlaced.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.364",
+      "data_rate": "48.834366",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "480",
+      "par": "0.909",
+      "sampling": "4:2:2",
+      "signal_format": "NTSC",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/ece25a82-27ed-4e77-8737-4e0db7f4a638",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "92b9b27c3ba194dc54d82c41b35a50a8",
+    "blake2b": "da09f90b3ad43c241a5c5ac0ecec1bc82d995db70394ecd7b4c0d900f60dad5a42ea56519000fb5c06f20185a9a3ec33d5a64b9e7ffca8ae545c0c99664f34bf"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro50-ntsc-progressive.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.364",
+      "data_rate": "48.834366",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "480",
+      "par": "0.909",
+      "sampling": "4:2:2",
+      "signal_format": "NTSC",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/b6d3a6f6-a576-4f76-8e9f-9d0af0828bbd",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "a4f33762d95651446e84c32e181e19c2",
+    "blake2b": "9f7c001ced308c94748211c97be8c12698e3c269aa6fbdaccb47886e53db4e0da3c940462793364280eda9eec81ba7c006caed8ed07206db9414d9fe348923ad"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro50-pal-interlaced.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.366",
+      "data_rate": "48.8832",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.093",
+      "sampling": "4:2:2",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/7bca1f98-552f-4995-9076-29e020759296",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "6e26144f9b0580f884114d4da7a43e74",
+    "blake2b": "7975bdff46ee07ba45e7a157b3819d22d60f3c291f15bd20d7bb78216bdf37ae367472285ba8193dbe88ec921f054e7a615540e8a4bdb0a2c844692376bce82b"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro50-pal-progressive.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/dv",
+      "stream_type": "video",
+      "version": "(:unap)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "DV",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.366",
+      "data_rate": "48.8832",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "576",
+      "par": "1.093",
+      "sampling": "4:2:2",
+      "signal_format": "PAL",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/fd69ffbc-bb93-409f-8450-8e94a933220e",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "3517df0865f7a4c22285f2aa86741b5f",
+    "blake2b": "51ce924672e124986a655b5c9d041ed3287f33e89262335ee8546dd2edcb17751c1fc247fde9de613512d580e3b17acbfb12a141c65a0a1c8a6f16739cd71572"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080i50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "25",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/0504b1f1-4562-4fb7-876d-f4e1df627580",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "8750b0a29daddf8d9e8b807c4936bf1f",
+    "blake2b": "dea6f11fb59b88761d6b2681dd0eab7bf3c71545a1748374974d371cec118e5bacfa89c05fc9b7f6754bf7495e27366fd3c0c91aac55cc8456d313f1755c46f8"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080i60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "20.848112",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/f0f83477-ec42-420e-b40a-fbd7b305904e",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "cbdce5b8efed06755d4600ded9113644",
+    "blake2b": "e2bb7df8fd92b2a006571877fd4fc637d9bba6c5d086ee2fa5f3e11c2a6d5d1ae8f3fa027be81724b71968165b8d81e9bf4a9b6cc6f88e73ac25a547d3068d70"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080p24.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "26.061544",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/29f0b5d1-936b-40cd-86fe-4bac8553c4a2",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "fed5e9043e284b716c9bc09ca06966be",
+    "blake2b": "1fb3f5db687f7796d346dc006ec18394896bfc1324e344ddef78a6aa5dc0eebfc441b3c3fe5e5724509f6334a0bc440482f781c6aa6d9378a841986dbbcf4749"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080p25.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "25",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/67a78bc6-6cab-4f36-b37e-26aa66e03a7f",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "b58212cff6952f6df4b0e01c8f6ca853",
+    "blake2b": "9bf4baf7fd46789fbdd29b5fa2a9523a07d7c3d13113a415e3ecd9751b670f8471be5d1ceee8e2f9e28b7b8e04a369265f9d26cdd3e994bb2938c9536c4077ec"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080p30.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "20.84832",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/6bc29cbf-a266-4ecf-860b-5e7bb659089b",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "d485fa6f7627cda72b29380e1d5232f1",
+    "blake2b": "c0eaeb4dc54fef859f8e5ee9bc35218439c148997c53fc7b70eb2faeb0964e3d72535be55f46621c92ae34cc64f0d88b098d8872533746068a11f4170d26f218"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p24.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "19.07948",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/d66bc715-f4e9-415d-b1b5-29cc86454c10",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "8ff28e345695e7a8a6f6c0f593e44ecd",
+    "blake2b": "60bf9ce8a7e7b82dddaa254ca7cf2edfa1d957b41b67ba434f74d63415be387ba696b2667ab764db36ad88adebe57ed85d3bd67d64375d3c510690594b82e5e2"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p25.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "18.3",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/841b38f5-c25a-4843-970b-3d495e294af0",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "9524b5eb29d6a9e33399e4ca54eede7a",
+    "blake2b": "4c81fad410b70a2708acd13e155c0934439d32dd59726c0f658642c86ebe0f773597c5023ae2be05f6011e01e061b91e470d19b8ac872738c6ad89e83d2f643b"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p30.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "15.26328",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/dcc606d0-bad4-4920-b7aa-1356b3d91b10",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "8595127c38b5aefef0ab12273ad3410e",
+    "blake2b": "e28d314f602ad649c1fa0eda01c1ce04307c5be67b34f7313dbbc2bb2d36c0ad2588b382400ec5c9ac15877b84b683036d269cf673c6aa6bb0a869f47e2e35a0"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "9.344584",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/b7049027-ef72-40d1-bbec-0b5826b6664b",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "2e22a0cf599fa35112eed32d99d348a4",
+    "blake2b": "93b670762ee22daeb4ed1904aa00e3f7a68e60145332580f82acec2efcbf7cb1f451b82b1f3e52878a4243da29f278029adc350d38993e0bb7b4c16c5be63dc4"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "7.887928",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/7ac29bb3-9500-4fc1-a060-81afacc02a0d",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "bfff74cd3b020f281512829cca291063",
+    "blake2b": "993ff66d8a3210e635dffd7ae7b5873b44a74f4a84c0d2c7283dae8ec5352f019d70c83db8a0d483e4b942cc18c94cad8ec596021be47140a066ed53069979cd"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/jpeg2000.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "(:unav)",
+      "stream_type": "video",
+      "version": "(:unav)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "JPEG 2000",
+      "codec_quality": "(:unav)",
+      "color": "Color",
+      "dar": "1.333",
+      "data_rate": "3.063368",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "(:unav)",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/1836eb02-7508-4514-972a-178ec9062fbb",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "72afdc76f72e769782ff2e6dc08c7adf",
+    "blake2b": "f0ad98695efd608e935855a554c0309ad15aaa0e7de0d9b88cd3f6af053820285039ca213b4e83376fac6f3faf55d6cee7e219b887def13077fc0c6ed894fddb"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/mpeg-imx-525-60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.347",
+      "data_rate": "(:unav)",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "486",
+      "par": "0.909",
+      "sampling": "4:2:2",
+      "signal_format": "(:unap)",
+      "sound": "No",
+      "width": "720"
+    }
+  }
+}
+{
+  "@id": "corpus/file/b08eb80e-8424-4c5c-a0a2-fbfd3ae465bc",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "0a67f830ab31a6d0a7b213e2273593a6",
+    "blake2b": "baece456a412d26d9952c8aebf3531085caaab5f3133c87dae586d31bcb5bdc8422cb6f7f30a9166f5b76dd3a96589dc107a5290af6cfdc02d6f4b8cdde061e0"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/photo-jpeg.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "(:unav)",
+      "stream_type": "video",
+      "version": "(:unav)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "JPEG",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.333",
+      "data_rate": "4.600192",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/f355ca8f-ee75-4f6e-b9bb-165ef264c57b",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": null,
+  "description": "",
+  "checksum": {
+    "md5": "99e52d360b50484d879af9fbc43261b7",
+    "blake2b": "754655490bb204a6ae525745d7c6e0a4c06d724aaff337c13fe4a7d9a30411095cf20900881eaa4d23b629d5c163daf5bf70eac074b18544bf23d82bd1a141b5"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/png.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "image/png",
+      "stream_type": "video",
+      "version": "(:unav)",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "PNG",
+      "codec_quality": "lossless",
+      "color": "(:unav)",
+      "dar": "1.333",
+      "data_rate": "0.374488",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "240",
+      "par": "1",
+      "sampling": "(:unav)",
+      "signal_format": "(:unav)",
+      "sound": "No",
+      "width": "320"
+    }
+  }
+}
+{
+  "@id": "corpus/file/19d50c73-d054-4112-a0e4-eb4234c027f7",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "fd4ae1dbe8635a81e8eaa84e5310ce0f",
+    "blake2b": "2c7fb8f481081827d8792672d9c51e1cab96ba172b296c1de9b169677be2785083808a4fa90758e85c24509a5cb46e55e482584b6f46106157f8486a7ab17fb9"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080i50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "5.586224",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/a9428367-240a-4dba-b183-c2f28129156f",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "c06e8587f528e970602a1dab63c7301e",
+    "blake2b": "0c79de64f95dbd3f8a8eac65fc5df165974fdf1f0457255404c788ce2d0c071f91887484093d7f8ec051415b25cc4dc3b6c87f2b7d80e4f7b287d6d9ced3cc01"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080i60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "4.766648",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/73bc9fec-43b5-4223-b543-9d0157fc6a71",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "491a28657ad8dfd77e7cc0be37897c3f",
+    "blake2b": "8a080bec8b265b071f3cb4a559805ba1ed4eaf461ce562b7c11ddabc7b1c6503245a32a35e5450adb612f80f2f49b65aa0a6adcfb711d0e0aa8245cfab6e19e4"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080p24.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "6.311104",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/6258d0ee-7632-44b6-aa30-b5d1c239ceba",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "dd1fe14b732fa6375d23c0c306d563e9",
+    "blake2b": "b653de9acb14a9d61029aa8e2ab8913fb9337188fdca3a9c43423780f5d12b971c4a01b5da8408320e9701f1fd574d03f26e3827310ad80d21ba3ff0324b6776"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080p25.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "6.311104",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/d58ae853-52e4-4f91-a7fc-e76259c5aaf1",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "e512ff90fc55d33d5d53f32c7e555af3",
+    "blake2b": "47a1337970333474031a85033faa8f1ddaac9c337341905513b6a11358bff2c06427901f70c9da4cf7d4aa380aec7c1d66527b54d835d328a5543138ac7d5bf3"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080p30.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "5.352528",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/7d67a284-5601-4384-b2e1-53840b66ee8d",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "7cf2404c3832d1789a489e8f1273ecba",
+    "blake2b": "2254f96e48d19cba407ad32e8232cca213e275fca4b0d19506d12fb56232f947a9e0ba77160862d53f79df255e440056e58c64a661ab0114d9d5a654946c5470"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p24.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "3.261504",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/a2f1eb27-c8c4-4485-8867-bf5119df5c75",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "5b40236d10a339cb87f9921e6375e733",
+    "blake2b": "51b646644b9edb0d4dab6c22d0bf3a79b0471a997483b612382c5ecfe91485409476f3eb9c12f8759c25434cac5e937feca9a13fc4518a7db4138894f80f3c92"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p25.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "3.261504",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/15df7392-56fd-4297-b182-05c0bf4b1319",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "c165e2eb75ba952203df0e6fb053be91",
+    "blake2b": "af179d3a92e2a5c7ddcc8ba8edca304be7d44b359c188a5436b8afdcb45e78c5b65665a1f04f08c4ad30dde20dbac35e8f9a83d85117aa8d6c189dc2d4633e48"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p30.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "2.74584",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/e8320596-30ae-462b-9294-8ecc402f8d86",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "68c3c9c210cb11d1dcf7214056a20af8",
+    "blake2b": "57c1bd4304542f54860b21d4cfde5facad396175ecaf37f8bfa8446546a2e7e7da52ee238fe811166ee1095b7746ec308b7ff8f512592164b27940c2fb5578ff"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "3.261504",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/835b9323-1bcc-45a0-b288-3ef38b2bc8c4",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "4a71531b6bbeb34841d0ce1b68a7ef34",
+    "blake2b": "47fed82c18be46b169fb13cc29b6519f8dffe5139436df9349d7c07e92650e59c70a0f1c963c856cf84a6c083f5d7b5b134f26c81921522dfd2236183c103f24"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "3.261504",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/9d020a9a-97ab-41db-ac23-577e33abb1a0",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "148f300662e04504a34ef5f1a642ff5d",
+    "blake2b": "1a8fa3567072f7fb000247a72ceeb63ecfaf0ebcccf5e7b37cec2fde013109ba1034beed7fbe1d1bca3a69dec25df47b829f809fd0cbf5fb79e74b0fb3cdb8e4"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080i50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "4.97528",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/e86e1970-4a10-4473-9103-f471660c2d36",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "607dca4e14c2d792e310b975648c6286",
+    "blake2b": "beaeb3220bc99f7cd9f635ae8d5ddbec95a12c21f5069d207e5792ac8b30558dcbf6c7ea77745d813650caa627e1bf4bf4d2b18f92be9929449144854e86288c"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080i60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "4.226848",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/a0129459-3dd8-4119-800b-2af0575ac2be",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "54c55beef19db426c2a0ef8799ac8815",
+    "blake2b": "a199db2a7004c7441fafa03e1e8ff3e0087f87a0a5cb653e5352685a61a5f05ec0d64be985b2ea1a038750ec8dae25b570c713c940c4707d9a3fb972da12fe39"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080p24.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "5.545256",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/8b6fcce1-43f6-4a2e-812e-05a19ac2369d",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "ccf4aebd86a2d81ae9ad2544e90abe52",
+    "blake2b": "09a4a3db54e7c95b98a28922ff235be7b61ef283291fee011f53fcf17b306ea4023aa170c25e5a6c6a69c74da3dd8c0c7e5de1724d53ccddb9550b5fc9fff526"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080p25.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "5.545256",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/aa40cc3d-f0d0-4dd2-be52-588523b7914a",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "a1ea1b20fca6e65e48454c7793f4be2a",
+    "blake2b": "c4e1f817782854186e41fd0ac25609116c720f4eb1fb40949516b0b8f42571daee46e4687b200e28fc631543533312e6b342ce481c7e92ea4af5d2e8e3db1a53"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080p30.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "4.658328",
+      "data_rate_mode": "Variable",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1.333",
+      "sampling": "4:2:0",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1440"
+    }
+  }
+}
+{
+  "@id": "corpus/file/0856ed87-ffa8-44b7-a41a-b7ea8fafdefc",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "5281f430744681ce4d5667aec30021df",
+    "blake2b": "7ba9a372c101f79c32d2880182d22eb6bf3c182a5be7ea663842ad512c0dcb06cc756aebd759b06f26ced2f087585378e903ec295d67c5a3293fe8be95fb2a11"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080i50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "50",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/0a6d9090-53f8-4ce9-ac37-4603cb55e0cd",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "7b8c215c05e46eaa68b1477cd0ca0082",
+    "blake2b": "5088f7d71a548e74cc6f46ab0358d043bdf4ddae1df02372930be593ca8c021c2b87f4a9d92aa725994d1911f015bda7b422fed08c72b8b943373325ea1b23fb"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080i60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "41.702776",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/bddf9377-df38-4cf8-8d99-952726e43c47",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "57fecbeb347cc16ded2ab87d3b957a3d",
+    "blake2b": "96b5d014362c46492cff32f8eb60f25870f88b401bd500aaaae360edaaea73ab43920e621cb0bc90d4a2cb44ba1b86c90d975fe9243c9b6c6f2fb80ead18d62b"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080p24.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "52.129488",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/dc6bb870-54d9-41b0-9596-4a3680a66967",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "5ef708aa13aa301f446610646ad38a94",
+    "blake2b": "d13d2c16b3a520ab0abbabdf249d43f6d8aaaf7052f4eeefa4149c53e62ac2c3402f008ced7d6843e5901d4aab343137ba13fd34888a01856b4b143a903bc9e6"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080p25.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "50",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/f9744672-aec0-4379-8b60-d5535443bca4",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "efaafd4445bed1e4d15d854f866155ad",
+    "blake2b": "97d900b55b58b51d36c2ad3cadbd9dbd111fa293aea16f812692a948a0d421a1c6df0b2a2ad0a3abe4a2352d52581255093c4c32ff02dbdce9026d0b02dac882"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080p30.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "41.702776",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "1080",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1920"
+    }
+  }
+}
+{
+  "@id": "corpus/file/2bcac211-098c-493a-bad5-7c95ca48a59a",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "d407fe22cdcae5ffe2c7cf49bdc898a6",
+    "blake2b": "174ac291c5e29a89a485432606afff3169e026e6891a4a5e90defb95ba186383c18237ccbf7e5f6fc693268458032e16788e8d0b7ae7924bfcb75662d2b6538a"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p24.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "52.129488",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/68ff2079-542b-4c85-8883-774fcbaf9752",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "a57b120db38453ca403454522ef59067",
+    "blake2b": "2fb83dc2c30a063d10287ff14a3ffb6f22068878450b95a52a0dd78965f0416b789046571972b83d282b23cc78848acdb5ee4d29637bbd64e82574c4155ee1dc"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p25.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "50",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/6ebd7d7f-cf8a-4639-9267-31e04e038ed4",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "a9ef25f92febe9f2cd3b895fe38818af",
+    "blake2b": "7e13f9d5e685a4ab751d9506e84fccdc9cd4aca462a8147fcb1db825f22e27086115193099dda34ea83420f4a1fc45f553b1793ed6532de1ccdc2bbe7b1a7219"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p30.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "41.702776",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/b6900d3b-5b76-450a-80cf-6198fa1b6e8c",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "b4c6a638f5463139c80bdd63a5aedf53",
+    "blake2b": "6ad890c4c450ba578dd5a647ede75d1fb5ac2a121f3ddf34f2da83a16effd0385bb8935dcf9f0cbec7f5ad27ef3adce075e2876fbaaa8dc53909872b09f049a6"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p50.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "24.994088",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}
+{
+  "@id": "corpus/file/e8313ac3-3a86-4ec6-be3d-d05ec2a02b07",
+  "source": "corpus/format/7125cce4-f974-4b2b-a319-d0249beaf4a9",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "2251ba9a965f591e34ca061d4d707ff4",
+    "blake2b": "a0f821bf802594817191163f09eb13dbfdd4078854c0dbef9ddd713f4e82fbd89fa241ccbaf9763b616434cb244fb0f533fa8aae4b39dfa2333df17b353cec79"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p60.mov"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "video/quicktime",
+      "version": "(:unap)",
+      "stream_type": "videocontainer",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG-4"
+    },
+    "1": {
+      "index": 1,
+      "mimetype": "video/mpeg",
+      "stream_type": "video",
+      "version": "2",
+      "bits_per_sample": "8",
+      "codec_creator_app": "(:unav)",
+      "codec_creator_app_version": "(:unav)",
+      "codec_name": "MPEG Video",
+      "codec_quality": "lossy",
+      "color": "Color",
+      "dar": "1.778",
+      "data_rate": "20.848264",
+      "data_rate_mode": "Fixed",
+      "duration": "PT1S",
+      "frame_rate": "25",
+      "height": "720",
+      "par": "1",
+      "sampling": "4:2:2",
+      "signal_format": "Component",
+      "sound": "No",
+      "width": "1280"
+    }
+  }
+}

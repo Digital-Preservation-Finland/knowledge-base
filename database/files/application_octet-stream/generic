@@ -1,0 +1,161 @@
+{
+  "@id": "corpus/file/89d4e3ae-f6f0-4e47-b580-0db1b67e422f",
+  "source": "corpus/format/a303d92b-4429-4435-8c90-3524d68dad44",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "adc51b37216c0f06b5e971af23f23028",
+    "blake2b": "be86e30e5dc85550c4bc55070419102b13f204b1ff8579751e31cf58d10a04b04017baf13e7ed8e1d5d3f989fa8e2998b5260a1bc69bd612ffbcd525b7aafffe"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-33/0b1b4c74-8635-4572-9440-f71915654c33.pdf"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/793f93e9-6f3a-4568-825b-ff24bc07d950",
+  "source": "corpus/format/a303d92b-4429-4435-8c90-3524d68dad44",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "ee929db628f4d3be8975a9199aafe5c8",
+    "blake2b": "e978d9914774fdc30def284b31d8e94b8b9c131e4929a2d8c8ef413b7d1f30f668a6df1ff35bc0af81f374565c56798bf6a6df22c739a7a29d149506eb63dc46"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-34/emi15514-sup-0002-SupinfoS2.pdf"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/54d9f5d6-5dc7-46e4-a267-d5b2438ea17e",
+  "source": "corpus/format/a303d92b-4429-4435-8c90-3524d68dad44",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "740f1c8fec04bc836739bde1098f1f58",
+    "blake2b": "0559355184b05399cced5a2e6f8ae3b417b40c4f9c820e8b12ccba0ad6d05651d7057d6af0f68b2b689fd09109f1c3bb5ac4a4f04b0884e2bf619892ed20fb18"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-68/carp2010-2.pdf"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/39006f41-7b3e-4193-9979-c18f7fc75c52",
+  "source": "corpus/format/a303d92b-4429-4435-8c90-3524d68dad44",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "1f2f5da7e74a37038cc69e82eeaedcd6",
+    "blake2b": "0a6a610a1b61cf4898c799df57e9e1aa779922a24b71dddd9a3a386c273a1156aa0999ab848e1b06c30ebe6b335a174af11b56a315f0ef2400df2a2078694faa"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite40.doc"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/39006f41-7b3e-4193-9979-c18f7fc75c52",
+  "source": "corpus/format/a303d92b-4429-4435-8c90-3524d68dad44",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "1f2f5da7e74a37038cc69e82eeaedcd6",
+    "blake2b": "0a6a610a1b61cf4898c799df57e9e1aa779922a24b71dddd9a3a386c273a1156aa0999ab848e1b06c30ebe6b335a174af11b56a315f0ef2400df2a2078694faa"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite42.doc"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/39006f41-7b3e-4193-9979-c18f7fc75c52",
+  "source": "corpus/format/a303d92b-4429-4435-8c90-3524d68dad44",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "1f2f5da7e74a37038cc69e82eeaedcd6",
+    "blake2b": "0a6a610a1b61cf4898c799df57e9e1aa779922a24b71dddd9a3a386c273a1156aa0999ab848e1b06c30ebe6b335a174af11b56a315f0ef2400df2a2078694faa"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite50.doc"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/2ca66921-087a-4ad1-8d29-0c1450e218b3",
+  "source": "corpus/format/a303d92b-4429-4435-8c90-3524d68dad44",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "31276a0e41d10d0fda55ffcf4050ab51",
+    "blake2b": "fd4e6eda8505a66ac0d62c6f5af4101b5099cc693745a8c6e8a87ce9cc9a4e57f3cd09d2a32e8744d121140276bb22668def66fcdb2cb70eb1625c71d9ba2c9f"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/WordPerfect42/testWordPerfect_42.doc"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}

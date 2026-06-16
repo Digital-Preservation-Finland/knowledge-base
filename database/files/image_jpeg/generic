@@ -32,3 +32,34 @@
   },
   "location": []
 }
+{
+  "@id": "corpus/file/10edda54-c000-453b-8c58-97772ad34145",
+  "source": "corpus/format/69a1149f-eb86-45ce-ad7b-cde1e3c895eb",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "8b2b2ddfd65804854ab7088ae02e8bcb",
+    "blake2b": "cbbf3f4345a013c8f9de8085fddeeda624d00362f49bd9da3c2b6e142fa2015b30de8493458ceb769ffdc6df9c4a6fceb2fb7a967361e5ee7d740bb90fd52869"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/desktop-publishing/InDesign/Neddy_Flyer_ft_HeatherRyan.jpg"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/jpeg",
+      "version": "(:unav)",
+      "stream_type": "image",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "cmyk",
+      "compression": "jpeg",
+      "height": "1644",
+      "samples_per_pixel": "4",
+      "width": "1269",
+      "icc_profile_name": "U.S. Web Coated (SWOP) v2"
+    }
+  }
+}

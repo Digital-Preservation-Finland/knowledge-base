@@ -1,0 +1,23 @@
+{
+  "@id": "corpus/file/58298ed2-00cb-45f4-b61f-b13f92af1865",
+  "source": "corpus/format/39c99688-ee17-486c-b48d-dd56dd080728",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "83a75148c2d4df5c6870b0ea4009ad3f",
+    "blake2b": "23201318acafdcc122540dc909ed2ea341b57e1493dc6599bcc9e2cadee07ea01f0d79b7ab63c2c4fd451f02f3618c2457777df8f0ed3dee4d08e4f94e19f04b"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office-examples/powerpoint4-mac/unc- oxford.ppt"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/msword",
+      "version": "6.0/95",
+      "stream_type": "binary"
+    }
+  }
+}

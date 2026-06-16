@@ -1256,3 +1256,99 @@
   "description": "",
   "specification": []
 }
+{
+  "@id": "corpus/format/8f064740-7500-478c-96f9-87490d51ccd5",
+  "fileFormat": "multipart/appledouble",
+  "version": "2",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/a303d92b-4429-4435-8c90-3524d68dad44",
+  "fileFormat": "application/octet-stream",
+  "version": "(:unav)",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/5f3b6e68-9464-4f65-b485-8c8870f8793a",
+  "fileFormat": "application/pdf",
+  "version": "2.4",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/0bc61ca3-a709-471a-89d9-2dbb123a2406",
+  "fileFormat": "application/pdf",
+  "version": "1.9",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/f88ed17d-91c2-4a34-88e4-aac8e1f39dda",
+  "fileFormat": "application/pdf",
+  "version": "1.\\012",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/5cb40bad-b3bc-4ce1-91d4-bc258ade4f04",
+  "fileFormat": "application/vnd.ms-officetheme",
+  "version": "(:unav)",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/6e3b1276-355a-4c83-a109-983c455294ca",
+  "fileFormat": "image/tiff",
+  "version": "2.2",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/a3975857-a3e5-442e-a30d-32785ba021fe",
+  "fileFormat": "application/vnd.wordperfect",
+  "version": "5.0",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/795534e5-4c9b-4b5d-8359-51485b614a8a",
+  "fileFormat": "application/vnd.wordperfect",
+  "version": "5.1",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/aa5d6ab5-efe9-491c-8d21-383afcfa5316",
+  "fileFormat": "image/png",
+  "version": "1.1",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/753ca5e6-5e61-4f12-825a-fec991fb1ffe",
+  "fileFormat": "application/vnd.ms-powerpoint",
+  "version": "4.0",
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/39c99688-ee17-486c-b48d-dd56dd080728",
+  "fileFormat": "application/msword",
+  "version": "6.0/95",
+  "profile": "",
+  "description": "",
+  "specification": []
+}

@@ -1,28 +1,34 @@
-    154     204   26151 database/format.objects
+    166     216   28108 database/format.objects
      10     776    8335 database/repair.objects
       2       2    1231 database/files/application_epub+zip/2.0.1
       5       5    3055 database/files/application_epub+zip/3
       8       8    4948 database/files/application_json/generic
+      1       2     593 database/files/application_msword/6.0-95
       8       8    4680 database/files/application_msword/97-2003
       1       1     625 database/files/application_msword/generic
       6      46    6804 database/files/application_mxf/generic
+      7       7    4285 database/files/application_octet-stream/generic
       2       2    1212 database/files/application_pdf/1.0
-      3       3    1818 database/files/application_pdf/1.1
-     14      25    8235 database/files/application_pdf/1.2
-     21      42   12190 database/files/application_pdf/1.3
-    123     164   72394 database/files/application_pdf/1.4
-     10      16    5888 database/files/application_pdf/1.5
-      8      14    4757 database/files/application_pdf/1.6
-     26      28   15297 database/files/application_pdf/1.7
-      2       2    1214 database/files/application_pdf/1.8
+      5       5    2977 database/files/application_pdf/1.1
+     15      31    8831 database/files/application_pdf/1.2
+     27      53   15678 database/files/application_pdf/1.3
+    129     195   76027 database/files/application_pdf/1.4
+     13      20    7658 database/files/application_pdf/1.5
+      9      15    5337 database/files/application_pdf/1.6
+     32      37   18862 database/files/application_pdf/1.7
+      3       3    1793 database/files/application_pdf/1.8
+      1       1     606 database/files/application_pdf/1.9
+      1       1     606 database/files/application_pdf/2.4
       8      12    4829 database/files/application_pdf/A-1a
       1       3     210 database/files/application_pdf/A1-b
-      5       5    2899 database/files/application_pdf/A-1b
-      2       2    1207 database/files/application_pdf/A-2b
+      6      14    3513 database/files/application_pdf/A-1b
+      4       4    2386 database/files/application_pdf/A-2b
       1       1     600 database/files/application_pdf/A-2u
       2       2    1349 database/files/application_pdf/A-3b
+     74     122   43492 database/files/application_pdf/generic
       1       1     605 database/files/application_vnd.ms-excel/8X
       1       1     626 database/files/application_vnd.ms-excel/generic
+      2       2    1254 database/files/application_vnd.ms-officetheme/generic
       4       5    2416 database/files/application_vnd.ms-powerpoint/97-2003
       1       1     636 database/files/application_vnd.ms-powerpoint/generic
       1       1     643 database/files/application_vnd.oasis.opendocument.formula/1.2
@@ -56,6 +62,8 @@
       3       6    2194 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/2007 onwards
       2       4     946 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/generic
       2       2    1246 database/files/application_vnd.rn-realmedia/generic
+      1       1     611 database/files/application_vnd.wordperfect/5.0
+      1       1     614 database/files/application_vnd.wordperfect/5.1
       1       1     594 database/files/application_warc/0.17
       1       1     594 database/files/application_warc/0.18
       2       2    1221 database/files/application_warc/-1.0
@@ -91,7 +99,7 @@
       1       1     722 database/files/image_jpeg/1.02
       1       1     765 database/files/image_jpeg/2.2
       2       2    1503 database/files/image_jpeg/2.2.1
-      2       4     825 database/files/image_jpeg/generic
+      3       9    1601 database/files/image_jpeg/generic
       1       3     212 database/files/image_mpo/generic
      23      43   16715 database/files/image_png/1.2
       1       1     612 database/files/image_png/generic
@@ -104,14 +112,15 @@
       1       1     609 database/files/image_x-dpx/1.0
       1       1     580 database/files/image_x-dpx/2.0
       3       3    1795 database/files/image_x-dpx/generic
+      1       1     613 database/files/multipart_appledouble/generic
       1       1    5739 database/files/none/emptyfile
       9      13    6219 database/files/text_csv/generic
       1       1     616 database/files/text_html/3.2
       2       2    1208 database/files/text_html/4.01
       5       7    2595 database/files/text_html/5
       2       2    1221 database/files/text_html/generic
-     23      23   14072 database/files/text_plain/generic
-     43      52   25548 database/files/text_xml/1.0
+     31      35   19101 database/files/text_plain/generic
+     45      54   26702 database/files/text_xml/1.0
       1       1     611 database/files/text_xml/generic
       1       4    1506 database/files/video_avi/generic
       2       2    1863 database/files/video_dv/generic
@@ -121,7 +130,7 @@
       6       6    8080 database/files/video_mp4/generic
       2       4    1871 database/files/video_mpeg/1
       2       4    1871 database/files/video_mpeg/2
-      7       9    9342 database/files/video_quicktime/generic
+     68     107   76946 database/files/video_quicktime/generic
      13     127   18990 database/files/video_x-matroska/4
       1       1     687 database/files/video_x-matroska/generic
       6      14    7352 database/files/video_x-ms-asf/generic

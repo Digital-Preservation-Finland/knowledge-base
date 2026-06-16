@@ -1030,3 +1030,51 @@
     }
   }
 }
+{
+  "@id": "corpus/file/2ea62156-521d-4467-85ce-48410ae77320",
+  "source": "source/6a5b395d-1fe8-42b7-b1ee-d9da2ac6a4ea",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "9a69896ccd98717fd6c981f36d32a0b4",
+    "blake2b": "0b5fe9b767d0aa691e4ace940250e50cfa3e5d614a7a80bc4b8fe9824ec645af9df122b3341b401f757fbe5d1704579b232cbc4b8f4e91139322507cd6f0bf76"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/XML-HUL-1/monitors.xml"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "text/xml",
+      "version": "1.0",
+      "charset": "UTF-8",
+      "stream_type": "text"
+    }
+  }
+}
+{
+  "@id": "corpus/file/2ea62156-521d-4467-85ce-48410ae77320",
+  "source": "source/6a5b395d-1fe8-42b7-b1ee-d9da2ac6a4ea",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "9a69896ccd98717fd6c981f36d32a0b4",
+    "blake2b": "0b5fe9b767d0aa691e4ace940250e50cfa3e5d614a7a80bc4b8fe9824ec645af9df122b3341b401f757fbe5d1704579b232cbc4b8f4e91139322507cd6f0bf76"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/XML-HUL-1/monitors.xml"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "text/xml",
+      "version": "1.0",
+      "charset": "UTF-8",
+      "stream_type": "text"
+    }
+  }
+}

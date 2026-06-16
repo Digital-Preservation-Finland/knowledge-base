@@ -1,0 +1,46 @@
+{
+  "@id": "corpus/file/1ad2aa04-9787-4885-8bf1-7f0898ae1216",
+  "source": "corpus/format/5cb40bad-b3bc-4ce1-91d4-bc258ade4f04",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "08b10153870bb9570017cb1e3861dccb",
+    "blake2b": "5a5ec494b9d48ba91a6089ca90df7704bc8cdf4f1bdf9866387439894bec63d2e19a2152202b3e71c82a0c0ecabf56d34ae0473b9e8533e43a1340a332e5fa31"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/variations/variations/text/html/4.0/lorem-ipsum_files/themedata.xml"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/vnd.ms-officetheme",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/1ad2aa04-9787-4885-8bf1-7f0898ae1216",
+  "source": "corpus/format/5cb40bad-b3bc-4ce1-91d4-bc258ade4f04",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "08b10153870bb9570017cb1e3861dccb",
+    "blake2b": "5a5ec494b9d48ba91a6089ca90df7704bc8cdf4f1bdf9866387439894bec63d2e19a2152202b3e71c82a0c0ecabf56d34ae0473b9e8533e43a1340a332e5fa31"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/variations/variations/text/html/4.0/lorem-ipsum_files/themedata.xml"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/vnd.ms-officetheme",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}

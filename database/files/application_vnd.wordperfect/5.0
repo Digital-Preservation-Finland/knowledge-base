@@ -1,0 +1,23 @@
+{
+  "@id": "corpus/file/15df7f5d-6151-4b7e-b11a-ddc5c03a9e98",
+  "source": "corpus/format/a3975857-a3e5-442e-a30d-32785ba021fe",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "6b06a70d18be12d54287d787d6b9d671",
+    "blake2b": "bc6ace3150a9102b12f8e9baebd2ce5c562b62d6f65c8022f3855f9d7b108b51a20abbe959d3e729867a0618ebbe096afc4fdf79a34ca92fdf2ff4ffd405142d"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/WordPerfect50/testWordPerfect_50.doc"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/vnd.wordperfect",
+      "version": "5.0",
+      "stream_type": "(:unav)"
+    }
+  }
+}

@@ -44,3 +44,49 @@
     }
   }
 }
+{
+  "@id": "corpus/file/8da3902f-4e63-4034-ae85-26843e6107be",
+  "source": "corpus/format/748a7ff8-9114-4a4b-ab58-0a8143ddaac9",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "d76a374a46ad4981141f0e1a8d71e89f",
+    "blake2b": "16811979004fa6dcd483f2a12697d801f9e599f4142904bc145cb328f0fe96fd5cd430807d6f57c35e12bf921d96673e40a7cb693a623bf8a81cf6a6cca76b61"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-66/s41589-021-00892-6.pdf"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/pdf",
+      "version": "A-2b",
+      "stream_type": "binary"
+    }
+  }
+}
+{
+  "@id": "corpus/file/d2da9bcc-8460-400d-a976-938f159a4308",
+  "source": "corpus/format/748a7ff8-9114-4a4b-ab58-0a8143ddaac9",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "255b3b794ca874585e3e0e4ed5fc5e1e",
+    "blake2b": "902c341cf174238a3caf43e008d2ff11b15b3db97a33fb73e8b914d258ed2838cbdeda4da0725618d7db368406daae595262bdbc3a1203c5fb67a93517e2649f"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-90/Arakawa-2025-Lab_Animal.pdf"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/pdf",
+      "version": "A-2b",
+      "stream_type": "binary"
+    }
+  }
+}

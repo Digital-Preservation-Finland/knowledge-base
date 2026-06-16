@@ -1,0 +1,23 @@
+{
+  "@id": "corpus/file/8adf9b26-90ab-44d5-99da-5e32c5be6509",
+  "source": "corpus/format/8f064740-7500-478c-96f9-87490d51ccd5",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "f041a44fb17f9b53074c59b7cd40181a",
+    "blake2b": "0afcb8b719bcb9adf6cfa87f6db7fcf02dd924e9b44f0aa89284c5cfed7d0a936f70d53285482b274c28104b578699ce13492f37ebe85e9ab05662a3e03b072e"
+  },
+  "location": [
+    {
+      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-137/124307818233765780864869607481066113457.pdf"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "multipart/appledouble",
+      "version": "2",
+      "stream_type": "(:unav)"
+    }
+  }
+}
