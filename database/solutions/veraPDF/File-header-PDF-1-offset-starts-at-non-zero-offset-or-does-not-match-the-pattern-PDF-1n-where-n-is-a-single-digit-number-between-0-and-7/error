@@ -1,7 +1,8 @@
 {
   "files": [
     "file-scraper/605fba04-371d-4de8-a1cc-a07bd4c80660",
-    "file-scraper/467e9ad2-a091-4af1-b364-fee4ce6fa320"
+    "file-scraper/467e9ad2-a091-4af1-b364-fee4ce6fa320",
+    "corpus/file/7e14a514-2941-44d7-84de-9b0f73feb6ad"
   ],
   "analyses": [],
   "validator": "veraPDF",

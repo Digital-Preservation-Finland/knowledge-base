@@ -1,13 +1,14 @@
 {
   "files": [
-    "database/sources/application_pdf/A1-b"
+    "database/sources/application_pdf/A1-b",
+    "corpus/file/7e14a514-2941-44d7-84de-9b0f73feb6ad"
   ],
   "analyses": [
     "database/application_pdf/verapdf/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code.repair"
   ],
   "validator": "verapdf",
   "validatorVersion": [
-    ""
+    "1.28.2"
   ],
   "errorMessage": "org.verapdf.pd.font.cmap.CMapParser getBfrangeEndFromBytes WARNING: Incorrect bfrange in toUnicode CMap: bfrange contains more than 256 code.",
   "type": "",
