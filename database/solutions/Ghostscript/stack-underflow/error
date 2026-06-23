@@ -2,7 +2,8 @@
   "files": [
     "corpus/file/1e9315bb-cc07-4e3e-9ba4-bac9c62a53df",
     "corpus/file/8c6746fd-bbd4-40e2-9584-45d6ca379ec5",
-    "corpus/file/ed0d1b46-013e-40dd-baae-2613182ea736"
+    "corpus/file/ed0d1b46-013e-40dd-baae-2613182ea736",
+    "corpus/file/8195ab78-dbd6-4be2-8705-5b7e982632fe"
   ],
   "analyses": [],
   "validator": "Ghostscript",
