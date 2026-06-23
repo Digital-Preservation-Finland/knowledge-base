@@ -134,12 +134,13 @@
      13     127   18990 database/files/video_x-matroska/4
       1       1     687 database/files/video_x-matroska/generic
       6      14    7352 database/files/video_x-ms-asf/generic
-      1    1444   13608 database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/error
+      1    1443   13599 database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/error
       1    1451   13634 database/solutions/DBPTK-Developer/Data-type-invalid---is-not-in-conformity-with-INTEGER-type-in-contentxml/error
       1    1468   13801 database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/error
       1      35     665 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/error
       1      36     553 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/error
-      1      24     404 database/solutions/ExifTool/MIME-type-imagex-adobe-dng-with-version-17-is-not-supported/error
+      1      13     317 database/solutions/ExifTool/ExifVersion-is-not-4-characters-long/error
+      1      24     455 database/solutions/ExifTool/MIME-type-imagex-adobe-dng-with-version-17-is-not-supported/error
       1      55     641 database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/error
       1      46     770 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/error
       1      33     444 database/solutions/ffmpeg/Bits-overconsumption-at/error

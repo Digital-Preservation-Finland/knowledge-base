@@ -1,8 +1,8 @@
-.. _7cb7596f-c526-4d97-8434-88d044f5ade5:
+.. _ebf896a2-91d7-4c2b-ae25-a485476cf561:
 
-==============================================================
-MIME type image/x-adobe-dng with version 1.7 is not supported.
-==============================================================
+=========================================
+ExifVersion '.*' is not 4 characters long
+=========================================
 
 .. contents::
    :depth: 2
@@ -30,11 +30,6 @@ Classification
      - **Specification**
      - **Description**
      - **Location**
-   * - image/x-adobe-dng
-     - 1.7
-     - 
-     - File has been exported from Sony A7RV camera with Adobe's Fast Load Data and JPEG Preview settings enabled.
-     - :ref:`corpus <corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197>`
    * - image/jpeg
      - 2.2
      - 
@@ -61,14 +56,14 @@ Output example
 ::
 
 
-	MIME type image/x-adobe-dng with version 1.7 is not supported.
+	ExifVersion '022' is not 4 characters long
 
 
 ------------------
 Notes on the error
 ------------------
 
-This error message is added by File Scraper.
+
 
 
 ------------------------------
@@ -79,9 +74,5 @@ Related errors by source files
 
 	ExifTool:	ExifVersion '.*' is not 4 characters long
 	ExifTool:	MIME type image/x-adobe-dng with version 1.7 is not supported.
-	file-scraper:	Given version 1.7 for the mimetype image/x-adobe-dng is not supported
-	JHOVE:	TileLength not a multiple of
-	JHOVE:	Undocumented TIFF tag
-	JHOVE:	Unknown TIFF IFD tag
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

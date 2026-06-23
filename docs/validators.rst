@@ -25,6 +25,7 @@ ExifTool
 --------
 
  - :ref:`7cb7596f-c526-4d97-8434-88d044f5ade5`
+ - :ref:`ebf896a2-91d7-4c2b-ae25-a485476cf561`
 
 ffmpeg
 ------
