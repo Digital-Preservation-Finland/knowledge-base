@@ -1,0 +1,17 @@
+{
+  "files": [
+    "corpus/file/6dcab94d-3470-4337-8818-56141811a190"
+  ],
+  "analyses": [],
+  "validator": "ExifTool",
+  "validatorVersion": [
+    "13.10"
+  ],
+  "errorMessage": "ExifVersion '.*' is not 4 characters long",
+  "type": "",
+  "outputExample": [
+    "ExifVersion '022' is not 4 characters long"
+  ],
+  "notes": [],
+  "@id": "ebf896a2-91d7-4c2b-ae25-a485476cf561"
+}
