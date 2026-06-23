@@ -9,7 +9,7 @@
     "2.11.1-DPRES",
     "4.0.0-DPRES"
   ],
-  "errorMessage": "Correspondence between metadata and table data .FAILED.",
+  "errorMessage": "Correspondence between metadata and table data",
   "type": "",
   "outputExample": [
     "Validator returned error.",
