@@ -169,66 +169,66 @@
       1       6     321 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/error
       1      19     385 database/solutions/file-scraper/Given-version-17-for-the-mimetype-imagex-adobe-dng-is-not-supported/error
       1     206    2497 database/solutions/Ghostscript/A-closing-mark-or-had-no-matching-mark-ignoring-the-closing-mark/error
-      1     106    1133 database/solutions/Ghostscript/A-dictionary-is-missing-a-required-Type-key/error
-      1     723    6715 database/solutions/Ghostscript/A-Form-XObject-had-a-BBox-with-a-width-or-height-of-0/error
-      1     895   10061 database/solutions/Ghostscript/An-embedded-font-is-invalid/error
-      1      10     373 database/solutions/Ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/error
+      1     106    1184 database/solutions/Ghostscript/A-dictionary-is-missing-a-required-Type-key/error
+      1     723    6766 database/solutions/Ghostscript/A-Form-XObject-had-a-BBox-with-a-width-or-height-of-0/error
+      1     895   10112 database/solutions/Ghostscript/An-embedded-font-is-invalid/error
+      1      10     431 database/solutions/Ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/error
       1     129    2433 database/solutions/Ghostscript/A-page-ended-after-a-BT-had-been-executed-and-without-a-mtching-ET/error
-      1     256    2559 database/solutions/Ghostscript/badly-escaped-name/error
-      1     110    1404 database/solutions/Ghostscript/bad-trailer-dictionary/error
-      1     744   10404 database/solutions/Ghostscript/BT-found-inside-a-text-block/error
-      1     878   10164 database/solutions/Ghostscript/cannot-process-embedded-stream-for-font-object/error
-      1     108    1354 database/solutions/Ghostscript/Cant-repair-xref-repair-already-performed/error
-      1      62     710 database/solutions/Ghostscript/Catalog-dictionary-not-located-in-file-unable-to-proceed/error
-      1     291    3324 database/solutions/Ghostscript/circular-reference-to-indirect-object/error
-      1     111    1794 database/solutions/Ghostscript/Couldnt-find-a-named-resource/error
-      1     135    1318 database/solutions/Ghostscript/Couldnt-retrieve-MediaBox-for-page-using-current-media-size/error
+      1     256    2610 database/solutions/Ghostscript/badly-escaped-name/error
+      1     110    1455 database/solutions/Ghostscript/bad-trailer-dictionary/error
+      1     744   10455 database/solutions/Ghostscript/BT-found-inside-a-text-block/error
+      1     878   10215 database/solutions/Ghostscript/cannot-process-embedded-stream-for-font-object/error
+      1     108    1405 database/solutions/Ghostscript/Cant-repair-xref-repair-already-performed/error
+      1      62     761 database/solutions/Ghostscript/Catalog-dictionary-not-located-in-file-unable-to-proceed/error
+      1     291    3375 database/solutions/Ghostscript/circular-reference-to-indirect-object/error
+      1     111    1845 database/solutions/Ghostscript/Couldnt-find-a-named-resource/error
+      1     135    1369 database/solutions/Ghostscript/Couldnt-retrieve-MediaBox-for-page-using-current-media-size/error
       1     741   10245 database/solutions/Ghostscript/degenerate-text-matrix/error
-      1     100    1064 database/solutions/Ghostscript/Document-Catalog-has-incorrect-Type/error
-      1     743   10556 database/solutions/Ghostscript/encountered-more-q-than-Q/error
+      1     100    1115 database/solutions/Ghostscript/Document-Catalog-has-incorrect-Type/error
+      1     743   10607 database/solutions/Ghostscript/encountered-more-q-than-Q/error
       1     743   10350 database/solutions/Ghostscript/encountered-more-Q-than-q/error
       1     172    3878 database/solutions/Ghostscript/error-executing-PDF-token/error
       1     172    2955 database/solutions/Ghostscript/error-reading-a-stream/error
-      1     743   10505 database/solutions/Ghostscript/ET-found-outside-text-block/error
-      1     744   10106 database/solutions/Ghostscript/found-real-number-when-expecting-int/error
+      1     743   10556 database/solutions/Ghostscript/ET-found-outside-text-block/error
+      1     744   10157 database/solutions/Ghostscript/found-real-number-when-expecting-int/error
       1     172    3105 database/solutions/Ghostscript/garbage-left-on-stack/error
       1     174    3330 database/solutions/Ghostscript/ignoring-zlib-error-incorrect-data-check/error
       1      96    5108 database/solutions/Ghostscript/Incorrect-Length-for-stream-object/error
       1     170    2335 database/solutions/Ghostscript/integer-overflowed/error
-      1     877   10161 database/solutions/Ghostscript/Invalid-ICC-colour-profile-using-alternate/error
-      1     173    2053 database/solutions/Ghostscript/Invalid-number-format-scientific-notation/error
-      1     105    1178 database/solutions/Ghostscript/invalid-object-number/error
-      1     744   11074 database/solutions/Ghostscript/invalid-operator-used-in-text-block/error
-      1     123    1547 database/solutions/Ghostscript/Invalid-xref-entry-incorrect-format/error
-      1     540    6762 database/solutions/Ghostscript/loca-length-is-greater-than-numGlyphs-in-the-font/error
+      1     877   10212 database/solutions/Ghostscript/Invalid-ICC-colour-profile-using-alternate/error
+      1     173    2104 database/solutions/Ghostscript/Invalid-number-format-scientific-notation/error
+      1     105    1229 database/solutions/Ghostscript/invalid-object-number/error
+      1     744   11125 database/solutions/Ghostscript/invalid-operator-used-in-text-block/error
+      1     123    1598 database/solutions/Ghostscript/Invalid-xref-entry-incorrect-format/error
+      1     540    6813 database/solutions/Ghostscript/loca-length-is-greater-than-numGlyphs-in-the-font/error
       1     170    3049 database/solutions/Ghostscript/malformed-number/error
       1     173    3269 database/solutions/Ghostscript/missing-white-space-after-number/error
-      1     744   10414 database/solutions/Ghostscript/non-standard-operator-found---ignoring/error
-      1     111    1151 database/solutions/Ghostscript/no-startxref-token-found/error
+      1     744   10465 database/solutions/Ghostscript/non-standard-operator-found---ignoring/error
+      1     111    1202 database/solutions/Ghostscript/no-startxref-token-found/error
       1     197    2506 database/solutions/Ghostscript/number-uses-illegal-exponent-form/error
-      1     100    1060 database/solutions/Ghostscript/Object-has-an-unrecognised-Subtype/error
-      1      93     922 database/solutions/Ghostscript/object-lacks-an-endobj/error
-      1     100    1105 database/solutions/Ghostscript/object-lacks-a-required-Subtype/error
+      1     100    1111 database/solutions/Ghostscript/Object-has-an-unrecognised-Subtype/error
+      1      93     973 database/solutions/Ghostscript/object-lacks-an-endobj/error
+      1     100    1156 database/solutions/Ghostscript/object-lacks-a-required-Subtype/error
       1     257    3184 database/solutions/Ghostscript/Page-drawing-error-occurred/error
-      1     147    1560 database/solutions/Ghostscript/Page-has-an-invalid-MediaBox-attribute-Using-the-current-page-size/error
-      1     136    1318 database/solutions/Ghostscript/Page-has-no-MediaBox-attribute-Using-the-current-page-size/error
-      1     105    1223 database/solutions/Ghostscript/page-not-found/error
-      1     104    1064 database/solutions/Ghostscript/Page-object-does-not-have-Page-type/error
-      1     122    1152 database/solutions/Ghostscript/page-tree-root-node-Count-did-not-match-the-actual-number-of-pages-in-the-tree/error
+      1     147    1611 database/solutions/Ghostscript/Page-has-an-invalid-MediaBox-attribute-Using-the-current-page-size/error
+      1     136    1369 database/solutions/Ghostscript/Page-has-no-MediaBox-attribute-Using-the-current-page-size/error
+      1     105    1274 database/solutions/Ghostscript/page-not-found/error
+      1     104    1115 database/solutions/Ghostscript/Page-object-does-not-have-Page-type/error
+      1     122    1203 database/solutions/Ghostscript/page-tree-root-node-Count-did-not-match-the-actual-number-of-pages-in-the-tree/error
       1     174    2926 database/solutions/Ghostscript/Possible-missing-white-space-between-operators/error
-      1       2     298 database/solutions/Ghostscript/Quartz-PDFContext/error
-      1     893   10006 database/solutions/Ghostscript/recoverable-image-error/error
-      1     194    1876 database/solutions/Ghostscript/stack-underflow/error
+      1       2     356 database/solutions/Ghostscript/Quartz-PDFContext/error
+      1     893   10057 database/solutions/Ghostscript/recoverable-image-error/error
+      1     194    1927 database/solutions/Ghostscript/stack-underflow/error
       1     171    3214 database/solutions/Ghostscript/startxref-offset-invalid/error
-      1     197    2454 database/solutions/Ghostscript/text-operator-outside-text-block/error
-      1     111    1108 database/solutions/Ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/error
-      1      15     400 database/solutions/Ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu/error
-      1     884   10190 database/solutions/Ghostscript/The-string-data-prameter-for-a-Indexed-colour-space-lookup-is-too-short/error
+      1     197    2505 database/solutions/Ghostscript/text-operator-outside-text-block/error
+      1     111    1166 database/solutions/Ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/error
+      1      15     458 database/solutions/Ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu/error
+      1     884   10241 database/solutions/Ghostscript/The-string-data-prameter-for-a-Indexed-colour-space-lookup-is-too-short/error
       1     199    2571 database/solutions/Ghostscript/unbalanced-or-unescaped-character-in-string/error
-      1     139    1515 database/solutions/Ghostscript/undefined-in---runpdf--/error
+      1     139    1566 database/solutions/Ghostscript/undefined-in---runpdf--/error
       1     253    2230 database/solutions/Ghostscript/used-invalid-operator-in-CharProc/error
-      1     124    1541 database/solutions/Ghostscript/xref-entry-not-exactly-bytes/error
-      1     123    1537 database/solutions/Ghostscript/xref-entry-not-valid-format/error
+      1     124    1592 database/solutions/Ghostscript/xref-entry-not-exactly-bytes/error
+      1     123    1588 database/solutions/Ghostscript/xref-entry-not-valid-format/error
       1      95    6690 database/solutions/Ghostscript/xref-table-was-repaired/error
       1      11     417 database/solutions/ImageMagick/Bogus-marker-length/error
       1       9     447 database/solutions/ImageMagick/corrupt-image/error
@@ -340,27 +340,27 @@
       1      16     419 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/error
       1     171    3476 database/solutions/Validator.nu/error-Unclosed-element/error
       1      40     754 database/solutions/Validator.nu/Start-tag-seen-without-seeing-a-doctype-first-Expected-DOCTYPE-html/error
-      1    9729  118112 database/solutions/veraPDF/A-CIDSet-entry-in-the-Font-descriptor-is-missing-or-does-not-correctly-identify-all-glyphs-present-in-the-embedded-font-subset-and-used-for-rendering/error
-      1     685    8594 database/solutions/veraPDF/Actual-length-of-the-stream-bytes-does-not-match-the-value-of-the-Length-key-in-the-Stream-dictionary-bytes/error
-      1    9732  118133 database/solutions/veraPDF/Annotation-flags-are-either-missing-or-set-the-annotation-to-be-hiddeninvisible-or-non-printable-F-null-Print-null-Hidden-null-Invisible-null-NoView-null/error
-      1    9724  118103 database/solutions/veraPDF/Annotations-color-C-present-true-or-interior-color-IC-present-false-is-used-without-specifying-RGB-based-destination-output-profile/error
-      1    9722  118067 database/solutions/veraPDF/A-property-is-either-not-defined-in-XMP-Specification-or-is-not-defined-in-any-of-the-extension-schemas/error
-      1      78    2718 database/solutions/veraPDF/can-not-locate-xref-table/error
-      1     672    8585 database/solutions/veraPDF/DeviceGray-colour-space-is-used-without-output-intent-profile/error
-      1     536    7611 database/solutions/veraPDF/DeviceRGB-colour-space-is-used-without-RGB-output-intent-profile/error
-      1      78    1892 database/solutions/veraPDF/End-of-file-is-reached/error
-      1     541    7761 database/solutions/veraPDF/Extra-spacings-or-missing-EOL-characters-around-indirect-objectgeneration-number-or-keywords-obj-and-endobj/error
-      1     181    2772 database/solutions/veraPDF/File-header-PDF-1-offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-1n-where-n-is-a-single-digit-number-between-0-and-7/error
-      1     680    8574 database/solutions/veraPDF/File-header-PDF--offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-nm/error
-      1     669    8507 database/solutions/veraPDF/Missing-ID-in-the-document-trailer/error
-      1      98    2147 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/error
-      1      74    1817 database/solutions/veraPDF/Pages-not-found/error
-      1     709    9066 database/solutions/veraPDF/Real-value-out-of-range/error
-      1     690    8652 database/solutions/veraPDF/The-document-catalog-dictionary-doesnt-contain-metadata-key-or-metadata-stream-dictionary-does-not-contain-either-entry-Type-with-value-Metadata-or-entry-Subtype-with-value-XML/error
-      1     669    8556 database/solutions/veraPDF/The-font-program-is-not-embedded/error
-      1     553    7733 database/solutions/veraPDF/The-value-of-CreationDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpCreateDate-are-not-equivalent-Info-CreationDate-D-XMP-xmpCreateDate/error
-      1     553    7723 database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/error
-      1    9711  118008 database/solutions/veraPDF/XMP-property-does-not-correspond-to-type-null/error
+      1    9729  118163 database/solutions/veraPDF/A-CIDSet-entry-in-the-Font-descriptor-is-missing-or-does-not-correctly-identify-all-glyphs-present-in-the-embedded-font-subset-and-used-for-rendering/error
+      1     685    8645 database/solutions/veraPDF/Actual-length-of-the-stream-bytes-does-not-match-the-value-of-the-Length-key-in-the-Stream-dictionary-bytes/error
+      1    9732  118184 database/solutions/veraPDF/Annotation-flags-are-either-missing-or-set-the-annotation-to-be-hiddeninvisible-or-non-printable-F-null-Print-null-Hidden-null-Invisible-null-NoView-null/error
+      1    9724  118154 database/solutions/veraPDF/Annotations-color-C-present-true-or-interior-color-IC-present-false-is-used-without-specifying-RGB-based-destination-output-profile/error
+      1    9722  118118 database/solutions/veraPDF/A-property-is-either-not-defined-in-XMP-Specification-or-is-not-defined-in-any-of-the-extension-schemas/error
+      1      78    2769 database/solutions/veraPDF/can-not-locate-xref-table/error
+      1     672    8636 database/solutions/veraPDF/DeviceGray-colour-space-is-used-without-output-intent-profile/error
+      1     536    7662 database/solutions/veraPDF/DeviceRGB-colour-space-is-used-without-RGB-output-intent-profile/error
+      1      78    1943 database/solutions/veraPDF/End-of-file-is-reached/error
+      1     541    7812 database/solutions/veraPDF/Extra-spacings-or-missing-EOL-characters-around-indirect-objectgeneration-number-or-keywords-obj-and-endobj/error
+      1     181    2823 database/solutions/veraPDF/File-header-PDF-1-offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-1n-where-n-is-a-single-digit-number-between-0-and-7/error
+      1     680    8625 database/solutions/veraPDF/File-header-PDF--offset-starts-at-non-zero-offset-or-does-not-match-the-pattern-PDF-nm/error
+      1     669    8558 database/solutions/veraPDF/Missing-ID-in-the-document-trailer/error
+      1      98    2204 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/error
+      1      74    1868 database/solutions/veraPDF/Pages-not-found/error
+      1     709    9117 database/solutions/veraPDF/Real-value-out-of-range/error
+      1     690    8703 database/solutions/veraPDF/The-document-catalog-dictionary-doesnt-contain-metadata-key-or-metadata-stream-dictionary-does-not-contain-either-entry-Type-with-value-Metadata-or-entry-Subtype-with-value-XML/error
+      1     669    8607 database/solutions/veraPDF/The-font-program-is-not-embedded/error
+      1     553    7784 database/solutions/veraPDF/The-value-of-CreationDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpCreateDate-are-not-equivalent-Info-CreationDate-D-XMP-xmpCreateDate/error
+      1     553    7774 database/solutions/veraPDF/The-value-of-ModDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpModifyDate-are-not-equivalent-Info-ModDate-D-XMP-xmpModifyDate/error
+      1    9711  118059 database/solutions/veraPDF/XMP-property-does-not-correspond-to-type-null/error
       1      15     328 database/solutions/Warchaeology/missing-line-separator-at-end-of-http-headers/error
       1      12     415 database/solutions/Warchaeology/payload-wrong-digest-expected-computed/error
       1      32     506 database/solutions/warctools/Compressed-file-ended-before-the-end-of-stream-marker-was-reached/error

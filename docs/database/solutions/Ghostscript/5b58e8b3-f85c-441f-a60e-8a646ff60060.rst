@@ -40,6 +40,11 @@ Classification
      - 
      - 
      - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-01_007_document-catalog-type-key-value-pair-missing.pdf>`__
+   * - application/pdf
+     - 1.2
+     - 
+     - Govdocs1 set
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/govdocs1-error-pdfs/error_set_2/020747.pdf>`__
 
 --------
 Analyses
@@ -96,9 +101,69 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	A closing mark (] or >>) had no matching mark, ignoring the closing mark
 	Ghostscript:	A dictionary is missing a required /Type key.
+	Ghostscript:	A Form XObject had a BBox with a width or height of 0
+	Ghostscript:	An embedded font is invalid
+	ghostscript:	Annotation has a scale factor of zero and was ignored
+	Ghostscript:	A page ended after a BT had been executed and without a mtching ET
+	Ghostscript:	badly escaped name
+	Ghostscript:	bad trailer dictionary
+	Ghostscript:	BT found inside a text block
+	Ghostscript:	cannot process embedded stream for font object
+	Ghostscript:	Can't repair xref, repair already performed
+	Ghostscript:	Catalog dictionary not located in file, unable to proceed
+	Ghostscript:	circular reference to indirect object
+	Ghostscript:	Couldn't find a named resource
+	Ghostscript:	Couldn't retrieve MediaBox for page, using current media size
+	Ghostscript:	degenerate text matrix
+	Ghostscript:	Document Catalog has incorrect /Type
+	Ghostscript:	encountered more q than Q
+	Ghostscript:	encountered more Q than q
+	Ghostscript:	error executing PDF token
+	Ghostscript:	error reading a stream
+	Ghostscript:	ET found outside text block
+	Ghostscript:	found real number when expecting int
+	Ghostscript:	garbage left on stack
+	Ghostscript:	ignoring zlib error: incorrect data check
 	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	integer overflowed
+	Ghostscript:	Invalid ICC colour profile, using alternate
+	Ghostscript:	Invalid number format: scientific notation
+	Ghostscript:	invalid object number
+	Ghostscript:	invalid operator used in text block
+	Ghostscript:	Invalid xref entry, incorrect format.
+	Ghostscript:	'loca' length .* is greater than numGlyphs .* in the font .*
+	Ghostscript:	malformed number
+	Ghostscript:	missing white space after number
+	Ghostscript:	non standard operator found - ignoring
+	Ghostscript:	no startxref token found
+	Ghostscript:	number uses illegal exponent form
+	Ghostscript:	Object has an unrecognised Subtype
+	Ghostscript:	object lacks an endobj
+	Ghostscript:	object lacks a required Subtype
+	Ghostscript:	Page drawing error occurred.
+	Ghostscript:	Page has an invalid /MediaBox attribute. Using the current page size.
+	Ghostscript:	Page has no /MediaBox attribute. Using the current page size.
+	Ghostscript:	page not found.
+	Ghostscript:	Page object does not have /Page type
+	Ghostscript:	page tree root node /Count did not match the actual number of pages in the tree.
+	Ghostscript:	Possible missing white space between operators
+	ghostscript:	Quartz PDFContext
+	Ghostscript:	recoverable image error
+	Ghostscript:	stack underflow
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	text operator outside text block
+	ghostscript:	The file was produced by: macOS Versio 10.14.6 (Build 18G1012) Quartz PDFContext <<<<
+	ghostscript:	**** The file was produced by: \\n   **** >>>> Adobe PSL 1.2e for Canon\\u0000 <<<<
+	Ghostscript:	The string data prameter for a /Indexed colour space lookup is too short
+	Ghostscript:	unbalanced or unescaped character '(' in string
+	Ghostscript:	/undefined in --runpdf--
+	Ghostscript:	used invalid operator in CharProc
+	Ghostscript:	xref entry not exactly .* bytes
+	Ghostscript:	xref entry not valid format
 	Ghostscript:	xref table was repaired
+	JHOVE:	Improperly nested dictionary delimiters
 	JHOVE:	Invalid object definition
 	JHOVE:	No document catalog dictionary
 

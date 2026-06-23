@@ -18,7 +18,7 @@ Classification
      - **Validator version**
      - **Error message type**
    * - verapdf
-     - 
+     - 1.28.2
      - 
 
 
@@ -35,6 +35,11 @@ Classification
      - 
      - No file locations.
      - :ref:`corpus <database/sources/application_pdf/A1-b>`
+   * - application/pdf
+     - 1.2
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-137/reserve3.pdf>`__
 
 --------
 Analyses
@@ -81,6 +86,26 @@ Related errors by source files
 
 ::
 
+	veraPDF:	A CIDSet entry in the Font descriptor is missing or does not correctly identify all glyphs present in the embedded font subset and used for rendering
+	veraPDF:	Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))
+	veraPDF:	Annotation flags are either missing or set the annotation to be hidden/invisible or non-printable (F = null, Print = null, Hidden = null, Invisible = null, NoView = null)
+	veraPDF:	Annotation.s color (C present = true) or interior color (IC present = false) is used without specifying RGB-based destination output profile
+	veraPDF:	A property is either not defined in XMP Specification, or is not defined in any of the extension schemas
+	veraPDF:	can not locate xref table
+	veraPDF:	DeviceGray colour space is used without output intent profile
+	veraPDF:	DeviceRGB colour space is used without RGB output intent profile
+	veraPDF:	End of file is reached
+	veraPDF:	Extra spacings or missing EOL characters around indirect object/generation number or keywords 'obj' and 'endobj'
+	veraPDF:	File header .*%PDF-1..* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-1.n, where 'n' is a single digit number between 0 and 7
+	veraPDF:	File header .*%PDF-*.* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-n.m
+	veraPDF:	Missing ID in the document trailer
 	verapdf:	org.verapdf.pd.font.cmap.CMapParser getBfrangeEndFromBytes WARNING: Incorrect bfrange in toUnicode CMap: bfrange contains more than 256 code.
+	veraPDF:	Pages not found
+	veraPDF:	Real value .* out of range
+	veraPDF:	The document catalog dictionary doesn't contain metadata key or metadata stream dictionary does not contain either entry Type with value /Metadata or entry Subtype with value /XML
+	veraPDF:	The font program is not embedded
+	veraPDF:	The value of CreationDate entry from the document Info dictionary and its matching XMP property .*xmp:CreateDate.* are not equivalent (Info /CreationDate = D:.*, XMP xmp:CreateDate = .*)
+	veraPDF:	The value of ModDate entry from the document Info dictionary and its matching XMP property .*xmp:ModifyDate.* are not equivalent (Info /ModDate = D:.*, XMP xmp:ModifyDate = .*)
+	veraPDF:	XMP property does not correspond to type null
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
