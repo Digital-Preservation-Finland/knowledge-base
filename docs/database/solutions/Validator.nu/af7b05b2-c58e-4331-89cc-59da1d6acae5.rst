@@ -1,0 +1,107 @@
+.. _af7b05b2-c58e-4331-89cc-59da1d6acae5:
+
+=============================================================
+Element .* not allowed as child of element .* in this context
+=============================================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - Validator.nu
+     - 20.6.30
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - text/html
+     - 5
+     - `WHATWG <https://html.spec.whatwg.org/multipage/>`__
+     - 
+     - :ref:`corpus <file-scraper/c45812d5-67b4-4ef5-8645-45aaefb7e6e2>`
+   * - text/html
+     - (:unav)
+     - 
+     - 
+     - :ref:`corpus <file-scraper/65e97681-3a6c-4416-b4ff-b501a4f8a06b>`
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	"file:/corpus/file-scraper/tests/data/text_html/invalid_5_illegal_tags.html":9.1-9.12: error: Element “paragraafi” not allowed as child of element “body” in this context. (Suppressing further errors from this subtree.)
+	
+	Vnu returned invalid return code: 1
+	"file:/corpus/file-scraper/tests/data/text_html/invalid_5_illegal_tags.html":9.1-9.12: error: Element “paragraafi” not allowed as child of element “body” in this context. (Suppressing further errors from this subtree.)
+	
+	Extractor didn't produce any output streams.
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	JHOVE:	Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2
+	Validator.nu:	Element .* not allowed as child of element .* in this context
+	Validator.nu:	error: Bad element name .*: Code point “U+003A” is not allowed
+	Validator.nu:	error: Element .* is missing a required instance of child element .*.
+	Validator.nu:	error: End tag for .* seen, but there were unclosed elements.
+	Validator.nu:	error: Non-space characters found without seeing a doctype first. Expected “<!DOCTYPE html>”.
+	Validator.nu:	error: Start tag .* seen but an element of the same type was already open.
+	Validator.nu:	error: Stray start tag .*.
+	Validator.nu:	error: Unclosed element .*.
+	Validator.nu:	Start tag seen without seeing a doctype first. Expected ..!DOCTYPE html
+	v.Nu:	error: A document must not include both a "meta" element with an "http-equiv" attribute whose value is "content-type", and a "meta" element with a "charset" attribute.
+	v.Nu:	error: An "img" element which has an "alt" attribute whose value is the empty string must not have a "role" attribute with any value other than "none" or "presentation"
+	v.Nu:	error: Attribute "caption" not allowed on element "img" at this point.
+	v.Nu:	error: Bad value "1" for attribute "novalidate" on element "form".
+	v.Nu:	error: Element "div" not allowed as child of element "span" in this context. (Suppressing further errors from this subtree.)
+	v.Nu:	error: End tag "a" violates nesting rules.
+	v.Nu:	error fatal: Cannot recover after last error. Any further errors will be ignored.
+	v.Nu:	error: Start tag "a" seen but an element of the same type was already open.
+	v.Nu:	error: The "cellpadding" attribute on the "table" element is obsolete. Use CSS instead.
+	v.Nu:	error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
+	v.Nu:	error: The "itemprop" attribute was specified, but the element is not a property of any item.
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

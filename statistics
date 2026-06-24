@@ -319,6 +319,7 @@
       1      12     479 database/solutions/Pillow/could-not-create-decoder-object/error
       1      32     455 database/solutions/Pillow/Image-size-pixels-exceeds-limit-of-pixels-could-be-decompression-bomb-DOS-attack/error
       1       8     299 database/solutions/Pillow/Truncated-File-Read/error
+      1      10     314 database/solutions/PNGcheck/Pngcheck-returned-invalid-return/error
       1      11     393 database/solutions/python-image-library/SyntaxError-not-a-TIFF-file-header-bExifxaII-not-valid/error
       1      11     365 database/solutions/unknown/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO/error
       1      55     802 database/solutions/Validator.nu/Element-not-allowed-as-child-of-element-in-this-context/error

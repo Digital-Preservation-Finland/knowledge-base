@@ -1,0 +1,17 @@
+{
+  "files": [
+    "corpus/file/aad28cd5-cfb7-4cba-bf0c-354a95811f71"
+  ],
+  "analyses": [],
+  "validator": "PNGcheck",
+  "validatorVersion": [
+    "4.0.0"
+  ],
+  "errorMessage": "Pngcheck returned invalid return code:",
+  "type": "",
+  "outputExample": [
+    "Pngcheck returned invalid return code: 2\n"
+  ],
+  "notes": [],
+  "@id": "2404811a-9b05-4c38-93a2-b2a1afebd173"
+}
