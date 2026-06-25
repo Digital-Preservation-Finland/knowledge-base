@@ -1,0 +1,19 @@
+{
+  "files": [
+    "corpus/file/8adf9b26-90ab-44d5-99da-5e32c5be6509"
+  ],
+  "analyses": [],
+  "validator": "file-scraper",
+  "validatorVersion": [
+    "3.1.1"
+  ],
+  "errorMessage": "Given mimetype .* is not supported",
+  "type": "",
+  "outputExample": [
+    "Given mimetype multipart/appledouble is not supported"
+  ],
+  "notes": [
+    "Scraper"
+  ],
+  "@id": "390958d4-3ad0-4d21-b15b-c5fd5e13c12c"
+}

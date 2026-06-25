@@ -192,10 +192,12 @@ Related errors by source files
 
 ::
 
+	Ghostscript:	File has some garbage before %PDF-
 	Ghostscript:	startxref offset invalid
 	Ghostscript:	xref table was repaired
 	JHOVE:	Invalid cross-reference table
 	JHOVE:	No document catalog dictionary
+	JHOVE:	No PDF header
 	veraPDF:	A CIDSet entry in the Font descriptor is missing or does not correctly identify all glyphs present in the embedded font subset and used for rendering
 	veraPDF:	Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))
 	veraPDF:	Annotation flags are either missing or set the annotation to be hidden/invisible or non-printable (F = null, Print = null, Hidden = null, Invisible = null, NoView = null)

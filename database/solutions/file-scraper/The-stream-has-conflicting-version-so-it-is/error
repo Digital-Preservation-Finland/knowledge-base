@@ -1,0 +1,19 @@
+{
+  "files": [
+    "corpus/file/5f489056-9ac8-49e3-8416-d777f702a2dc"
+  ],
+  "analyses": [],
+  "validator": "file-scraper",
+  "validatorVersion": [
+    "3.1.1"
+  ],
+  "errorMessage": "The stream has conflicting version .*, so it is omitted.",
+  "type": "",
+  "outputExample": [
+    "The stream has conflicting version 1.4, so it is omitted."
+  ],
+  "notes": [
+    "Scraper"
+  ],
+  "@id": "32b73db0-57ed-402d-aec8-9d73be837465"
+}

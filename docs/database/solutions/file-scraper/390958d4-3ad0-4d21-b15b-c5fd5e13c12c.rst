@@ -1,8 +1,8 @@
-.. _c42b4177-cef8-4b92-8d9c-24dd68c2b382:
+.. _390958d4-3ad0-4d21-b15b-c5fd5e13c12c:
 
-=====================================================================
-Given version 1.7 for the mimetype image/x-adobe-dng is not supported
-=====================================================================
+==================================
+Given mimetype .* is not supported
+==================================
 
 .. contents::
    :depth: 2
@@ -18,7 +18,7 @@ Classification
      - **Validator version**
      - **Error message type**
    * - file-scraper
-     - 3.0.0
+     - 3.1.1
      - 
 
 
@@ -30,11 +30,11 @@ Classification
      - **Specification**
      - **Description**
      - **Location**
-   * - image/x-adobe-dng
-     - 1.7
+   * - multipart/appledouble
+     - 2
      - 
-     - File has been exported from Sony A7RV camera with Adobe's Fast Load Data and JPEG Preview settings enabled.
-     - :ref:`corpus <corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197>`
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-137/124307818233765780864869607481066113457.pdf>`__
 
 --------
 Analyses
@@ -56,7 +56,7 @@ Output example
 ::
 
 
-	Given version 1.7 for the mimetype image/x-adobe-dng is not supported
+	Given mimetype multipart/appledouble is not supported
 
 
 ------------------
@@ -72,10 +72,9 @@ Related errors by source files
 
 ::
 
-	ExifTool:	MIME type image/x-adobe-dng with version 1.7 is not supported.
-	file-scraper:	Given version 1.7 for the mimetype image/x-adobe-dng is not supported
-	JHOVE:	TileLength not a multiple of
-	JHOVE:	Undocumented TIFF tag
-	JHOVE:	Unknown TIFF IFD tag
+	file-scraper:	Conflict with values 'image/jpeg' and 'image/mpo'
+	file-scraper:	Given mimetype .* is not supported
+	file-scraper:	MIME type .* with version .* is not supported.
+	file-scraper:	Proper extractor was not found. The file was not analyzed.
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

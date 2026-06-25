@@ -1,0 +1,1641 @@
+.. _0c63dc4a-0b25-4cf2-a70c-b9e4d3ed1095:
+
+=====================================
+Annotation object is not a dictionary
+=====================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - JHOVE
+     - 1.32.1
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-114/LLMImplicationsforScience.pdf>`__
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	Validator returned error.
+	<?xml version="1.0" encoding="UTF-8"?>
+	<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
+	 <date>2026-06-15T15:16:15+03:00</date>
+	 <repInfo uri="/corpus/format-corpus/jhove-errors/PDF-HUL-114/LLMImplicationsforScience.pdf">
+	  <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
+	  <lastModified>2026-06-15T13:22:12+03:00</lastModified>
+	  <size>1598244</size>
+	  <format>PDF</format>
+	  <version>1.4</version>
+	  <status>Well-Formed, but not valid</status>
+	  <sigMatch>
+	  <module>PDF-hul</module>
+	  </sigMatch>
+	  <messages>
+	   <message offset="5945" severity="error" id="PDF-HUL-114" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-114">Annotation object is not a dictionary</message>
+	  </messages>
+	  <mimeType>application/pdf</mimeType>
+	  <profiles>
+	   <profile>Linearized PDF</profile>
+	  </profiles>
+	  <properties>
+	   <property>
+	    <name>PDFMetadata</name>
+	    <values arity="List" type="Property">
+	    <property>
+	     <name>Objects</name>
+	     <values arity="Scalar" type="Integer">
+	      <value>2630</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>FreeObjects</name>
+	     <values arity="Scalar" type="Integer">
+	      <value>2288</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>IncrementalUpdates</name>
+	     <values arity="Scalar" type="Integer">
+	      <value>1</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>DocumentCatalog</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>ViewerPreferences</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>HideToolbar</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>HideMenubar</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>HideWindowUI</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>FitWindow</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>CenterWindow</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>DisplayDocTitle</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>NonFullScreenPageMode</name>
+	       <values arity="Scalar" type="String">
+	        <value>UseNone</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Direction</name>
+	       <values arity="Scalar" type="String">
+	        <value>L2R</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>ViewArea</name>
+	       <values arity="Scalar" type="String">
+	        <value>CropBox</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>ViewClip</name>
+	       <values arity="Scalar" type="String">
+	        <value>CropBox</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>PrintArea</name>
+	       <values arity="Scalar" type="String">
+	        <value>CropBox</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>PageClip</name>
+	       <values arity="Scalar" type="String">
+	        <value>CropBox</value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>PageLayout</name>
+	      <values arity="Scalar" type="String">
+	       <value>SinglePage</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>PageMode</name>
+	      <values arity="Scalar" type="String">
+	       <value>UseNone</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Language</name>
+	      <values arity="Scalar" type="String">
+	       <value>en-US</value>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Info</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>Creator</name>
+	      <values arity="Scalar" type="String">
+	       <value>Adobe InDesign 16.4 (Macintosh)</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Producer</name>
+	      <values arity="Scalar" type="String">
+	       <value>Adobe PDF Library 16.0</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>CreationDate</name>
+	      <values arity="Scalar" type="Date">
+	       <value>Thu Apr 14 22:07:14 EEST 2022</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>ModDate</name>
+	      <values arity="Scalar" type="Date">
+	       <value>Thu Apr 14 22:07:16 EEST 2022</value>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>ID</name>
+	     <values arity="Array" type="String">
+	      <value>0x328095f966cb4f499f88cdfc32715c05</value>
+	      <value>0xd729c85385174221bdbffdbed8a2153f</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Filters</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>FilterPipeline</name>
+	      <values arity="Scalar" type="String">
+	       <value>FlateDecode</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>FilterPipeline</name>
+	      <values arity="Scalar" type="String">
+	       <value>DCTDecode</value>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Images</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>Image</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>NisoImageMetadata</name>
+	       <values arity="Scalar" type="NISOImageMetadata">
+	        <value>
+	      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+	       <mix:BasicDigitalObjectInformation>
+	        <mix:ObjectIdentifier>
+	         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+	        </mix:ObjectIdentifier>
+	        <mix:FormatDesignation>
+	         <mix:formatName>image/jpg</mix:formatName>
+	        </mix:FormatDesignation>
+	        <mix:Compression>
+	         <mix:compressionScheme>JPEG</mix:compressionScheme>
+	        </mix:Compression>
+	       </mix:BasicDigitalObjectInformation>
+	       <mix:BasicImageInformation>
+	        <mix:BasicImageCharacteristics>
+	         <mix:imageWidth>1237</mix:imageWidth>
+	         <mix:imageHeight>755</mix:imageHeight>
+	         <mix:PhotometricInterpretation>
+	          <mix:colorSpace>RGB</mix:colorSpace>
+	         </mix:PhotometricInterpretation>
+	        </mix:BasicImageCharacteristics>
+	       </mix:BasicImageInformation>
+	       <mix:ImageAssessmentMetadata>
+	        <mix:ImageColorEncoding>
+	         <mix:BitsPerSample>
+	          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+	         </mix:BitsPerSample>
+	        </mix:ImageColorEncoding>
+	       </mix:ImageAssessmentMetadata>
+	      </mix:mix>
+	        </value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Intent</name>
+	       <values arity="Scalar" type="String">
+	        <value>RelativeColorimetric</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Name</name>
+	       <values arity="Scalar" type="String">
+	        <value>X</value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Image</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>NisoImageMetadata</name>
+	       <values arity="Scalar" type="NISOImageMetadata">
+	        <value>
+	      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+	       <mix:BasicDigitalObjectInformation>
+	        <mix:ObjectIdentifier>
+	         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+	        </mix:ObjectIdentifier>
+	        <mix:FormatDesignation>
+	         <mix:formatName>image/jpg</mix:formatName>
+	        </mix:FormatDesignation>
+	        <mix:Compression>
+	         <mix:compressionScheme>JPEG</mix:compressionScheme>
+	        </mix:Compression>
+	       </mix:BasicDigitalObjectInformation>
+	       <mix:BasicImageInformation>
+	        <mix:BasicImageCharacteristics>
+	         <mix:imageWidth>970</mix:imageWidth>
+	         <mix:imageHeight>588</mix:imageHeight>
+	         <mix:PhotometricInterpretation>
+	          <mix:colorSpace>BlackIsZero</mix:colorSpace>
+	         </mix:PhotometricInterpretation>
+	        </mix:BasicImageCharacteristics>
+	       </mix:BasicImageInformation>
+	       <mix:ImageAssessmentMetadata>
+	        <mix:ImageColorEncoding>
+	         <mix:BitsPerSample>
+	          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+	         </mix:BitsPerSample>
+	        </mix:ImageColorEncoding>
+	       </mix:ImageAssessmentMetadata>
+	      </mix:mix>
+	        </value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Intent</name>
+	       <values arity="Scalar" type="String">
+	        <value>RelativeColorimetric</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Name</name>
+	       <values arity="Scalar" type="String">
+	        <value>X</value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Image</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>NisoImageMetadata</name>
+	       <values arity="Scalar" type="NISOImageMetadata">
+	        <value>
+	      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+	       <mix:BasicDigitalObjectInformation>
+	        <mix:ObjectIdentifier>
+	         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+	        </mix:ObjectIdentifier>
+	        <mix:FormatDesignation>
+	         <mix:formatName>image/jpg</mix:formatName>
+	        </mix:FormatDesignation>
+	        <mix:Compression>
+	         <mix:compressionScheme>JPEG</mix:compressionScheme>
+	        </mix:Compression>
+	       </mix:BasicDigitalObjectInformation>
+	       <mix:BasicImageInformation>
+	        <mix:BasicImageCharacteristics>
+	         <mix:imageWidth>1237</mix:imageWidth>
+	         <mix:imageHeight>759</mix:imageHeight>
+	         <mix:PhotometricInterpretation>
+	          <mix:colorSpace>RGB</mix:colorSpace>
+	         </mix:PhotometricInterpretation>
+	        </mix:BasicImageCharacteristics>
+	       </mix:BasicImageInformation>
+	       <mix:ImageAssessmentMetadata>
+	        <mix:ImageColorEncoding>
+	         <mix:BitsPerSample>
+	          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+	         </mix:BitsPerSample>
+	        </mix:ImageColorEncoding>
+	       </mix:ImageAssessmentMetadata>
+	      </mix:mix>
+	        </value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Intent</name>
+	       <values arity="Scalar" type="String">
+	        <value>RelativeColorimetric</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Name</name>
+	       <values arity="Scalar" type="String">
+	        <value>X</value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Image</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>NisoImageMetadata</name>
+	       <values arity="Scalar" type="NISOImageMetadata">
+	        <value>
+	      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+	       <mix:BasicDigitalObjectInformation>
+	        <mix:ObjectIdentifier>
+	         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+	        </mix:ObjectIdentifier>
+	        <mix:FormatDesignation>
+	         <mix:formatName>image/jpg</mix:formatName>
+	        </mix:FormatDesignation>
+	        <mix:Compression>
+	         <mix:compressionScheme>JPEG</mix:compressionScheme>
+	        </mix:Compression>
+	       </mix:BasicDigitalObjectInformation>
+	       <mix:BasicImageInformation>
+	        <mix:BasicImageCharacteristics>
+	         <mix:imageWidth>1233</mix:imageWidth>
+	         <mix:imageHeight>832</mix:imageHeight>
+	         <mix:PhotometricInterpretation>
+	          <mix:colorSpace>RGB</mix:colorSpace>
+	         </mix:PhotometricInterpretation>
+	        </mix:BasicImageCharacteristics>
+	       </mix:BasicImageInformation>
+	       <mix:ImageAssessmentMetadata>
+	        <mix:ImageColorEncoding>
+	         <mix:BitsPerSample>
+	          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+	         </mix:BitsPerSample>
+	        </mix:ImageColorEncoding>
+	       </mix:ImageAssessmentMetadata>
+	      </mix:mix>
+	        </value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Intent</name>
+	       <values arity="Scalar" type="String">
+	        <value>RelativeColorimetric</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Name</name>
+	       <values arity="Scalar" type="String">
+	        <value>X</value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Fonts</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>Type0</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>Identity-H</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-SemiBold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>Identity-H</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Black</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>Identity-H</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+Merriweather-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>Identity-H</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Italic</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>Identity-H</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>TrueType</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-ExtraBold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>146</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-ExtraBold</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-356</value>
+	          <value>-275</value>
+	          <value>1322</value>
+	          <value>1081</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>169</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Black</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>122</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-Black</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-366</value>
+	          <value>-313</value>
+	          <value>1341</value>
+	          <value>1084</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Light</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>48</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>57</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-Light</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-322</value>
+	          <value>-256</value>
+	          <value>1263</value>
+	          <value>1075</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+Merriweather-Italic</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>169</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+Merriweather-Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	          <value>Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-590</value>
+	          <value>-273</value>
+	          <value>1314</value>
+	          <value>1049</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+Merriweather-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>151</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+Merriweather-Regular</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-439</value>
+	          <value>-272</value>
+	          <value>1422</value>
+	          <value>1055</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+Merriweather-Bold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>121</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+Merriweather-Bold</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-452</value>
+	          <value>-273</value>
+	          <value>1470</value>
+	          <value>1056</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-SemiBold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>149</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-SemiBold</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-337</value>
+	          <value>-264</value>
+	          <value>1290</value>
+	          <value>1078</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Italic</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>122</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	          <value>Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-341</value>
+	          <value>-270</value>
+	          <value>1303</value>
+	          <value>1077</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>CIDFontType2</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Italic</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>CIDSystemInfo</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Adobe</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Identity</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Supplement</name>
+	         <values arity="Scalar" type="Integer">
+	          <value>0</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	          <value>Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-341</value>
+	          <value>-270</value>
+	          <value>1303</value>
+	          <value>1077</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-SemiBold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>CIDSystemInfo</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Adobe</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Identity</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Supplement</name>
+	         <values arity="Scalar" type="Integer">
+	          <value>0</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-SemiBold</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-337</value>
+	          <value>-264</value>
+	          <value>1290</value>
+	          <value>1078</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>CIDSystemInfo</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Adobe</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Identity</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Supplement</name>
+	         <values arity="Scalar" type="Integer">
+	          <value>0</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-Regular</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-329</value>
+	          <value>-259</value>
+	          <value>1277</value>
+	          <value>1077</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+NunitoSans-Black</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>CIDSystemInfo</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Adobe</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Identity</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Supplement</name>
+	         <values arity="Scalar" type="Integer">
+	          <value>0</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+NunitoSans-Black</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-366</value>
+	          <value>-313</value>
+	          <value>1341</value>
+	          <value>1084</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ROJWEE+Merriweather-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>CIDSystemInfo</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Adobe</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Identity</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Supplement</name>
+	         <values arity="Scalar" type="Integer">
+	          <value>0</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ROJWEE+Merriweather-Regular</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-439</value>
+	          <value>-272</value>
+	          <value>1422</value>
+	          <value>1055</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>XMP</name>
+	     <values arity="Scalar" type="String">
+	      <value>&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 6.0-c006 120.7d0d897, 2021/06/30-14:05:38        "&gt;
+	   &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+	      &lt;rdf:Description rdf:about=""
+	            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+	            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+	            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+	            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+	            xmlns:dc="http://purl.org/dc/elements/1.1/"
+	            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"&gt;
+	         &lt;xmp:CreateDate&gt;2022-04-14T19:07:14-04:00&lt;/xmp:CreateDate&gt;
+	         &lt;xmp:MetadataDate&gt;2022-04-14T19:07:16-04:00&lt;/xmp:MetadataDate&gt;
+	         &lt;xmp:ModifyDate&gt;2022-04-14T19:07:16-04:00&lt;/xmp:ModifyDate&gt;
+	         &lt;xmp:CreatorTool&gt;Adobe InDesign 16.4 (Macintosh)&lt;/xmp:CreatorTool&gt;
+	         &lt;xmpMM:InstanceID&gt;uuid:e19beb8c-88aa-f34f-b655-beec35abb31e&lt;/xmpMM:InstanceID&gt;
+	         &lt;xmpMM:OriginalDocumentID&gt;xmp.did:b47ab7fc-11a0-4b0e-84df-2c3b69805103&lt;/xmpMM:OriginalDocumentID&gt;
+	         &lt;xmpMM:DocumentID&gt;xmp.id:98051332-b5f4-432f-86c3-55cfde81d967&lt;/xmpMM:DocumentID&gt;
+	         &lt;xmpMM:RenditionClass&gt;proof:pdf&lt;/xmpMM:RenditionClass&gt;
+	         &lt;xmpMM:DerivedFrom rdf:parseType="Resource"&gt;
+	            &lt;stRef:instanceID&gt;xmp.iid:53b3eed2-79d4-4cd4-ae47-84c581bc7108&lt;/stRef:instanceID&gt;
+	            &lt;stRef:documentID&gt;xmp.did:ca83a14c-9793-4743-ab65-ee89e0270661&lt;/stRef:documentID&gt;
+	            &lt;stRef:originalDocumentID&gt;xmp.did:b47ab7fc-11a0-4b0e-84df-2c3b69805103&lt;/stRef:originalDocumentID&gt;
+	            &lt;stRef:renditionClass&gt;default&lt;/stRef:renditionClass&gt;
+	         &lt;/xmpMM:DerivedFrom&gt;
+	         &lt;xmpMM:History&gt;
+	            &lt;rdf:Seq&gt;
+	               &lt;rdf:li rdf:parseType="Resource"&gt;
+	                  &lt;stEvt:action&gt;converted&lt;/stEvt:action&gt;
+	                  &lt;stEvt:parameters&gt;from application/x-indesign to application/pdf&lt;/stEvt:parameters&gt;
+	                  &lt;stEvt:softwareAgent&gt;Adobe InDesign 16.4 (Macintosh)&lt;/stEvt:softwareAgent&gt;
+	                  &lt;stEvt:changed&gt;/&lt;/stEvt:changed&gt;
+	                  &lt;stEvt:when&gt;2022-04-14T19:07:14-04:00&lt;/stEvt:when&gt;
+	               &lt;/rdf:li&gt;
+	            &lt;/rdf:Seq&gt;
+	         &lt;/xmpMM:History&gt;
+	         &lt;dc:format&gt;application/pdf&lt;/dc:format&gt;
+	         &lt;pdf:Producer&gt;Adobe PDF Library 16.0&lt;/pdf:Producer&gt;
+	         &lt;pdf:Trapped&gt;False&lt;/pdf:Trapped&gt;
+	      &lt;/rdf:Description&gt;
+	   &lt;/rdf:RDF&gt;
+	&lt;/x:xmpmeta&gt;</value>
+	     </values>
+	    </property>
+	    </values>
+	   </property>
+	  </properties>
+	 </repInfo>
+	</jhove>
+	
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	JHOVE:	Annotation object is not a dictionary
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

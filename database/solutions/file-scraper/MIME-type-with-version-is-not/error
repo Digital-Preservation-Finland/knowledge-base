@@ -1,0 +1,20 @@
+{
+  "files": [
+    "corpus/file/8adf9b26-90ab-44d5-99da-5e32c5be6509"
+  ],
+  "analyses": [],
+  "validator": "file-scraper",
+  "validatorVersion": [
+    "3.1.1"
+  ],
+  "errorMessage": "MIME type .* with version .* is not supported.",
+  "type": "",
+  "outputExample": [
+    "Proper extractor was not found. The file was not analyzed.",
+    "MIME type multipart/appledouble with version 2 is not supported."
+  ],
+  "notes": [
+    "ExtractorNotFound"
+  ],
+  "@id": "e732e000-f969-4050-a52c-d63604a474d5"
+}

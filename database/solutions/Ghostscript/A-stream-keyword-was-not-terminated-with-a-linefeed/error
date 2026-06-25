@@ -1,0 +1,18 @@
+{
+  "files": [
+    "corpus/file/75fb8522-a94d-46fe-a1e4-d5d51b2c76c0"
+  ],
+  "analyses": [],
+  "validator": "Ghostscript",
+  "validatorVersion": [
+    "10.06.0"
+  ],
+  "errorMessage": "A stream keyword was not terminated with a linefeed (0x0A)",
+  "type": "",
+  "outputExample": [
+    "\nThe following errors were encountered at least once while processing this file:\n\txref table was repaired\n\n   **** This file had errors that were repaired or ignored.\n   **** The file was produced by: \n   **** >>>>  <<<<\n   **** Please notify the author of the software that produced this\n   **** file that it does not conform to Adobe's published PDF\n   **** specification.\n\n",
+    "GPL Ghostscript 10.06.0 (2025-09-09)\nCopyright (C) 2025 Artifex Software, Inc.  All rights reserved.\nThis software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:\nsee the file COPYING for details.\nProcessing pages 1 through 2.\nPage 1\nPage 2\n\nThe following warnings were encountered at least once while processing this file:\n\tincorrect xref size\n\tA stream keyword was not terminated with a linefeed (0x0A)\n"
+  ],
+  "notes": [],
+  "@id": "5f0e1ecc-9ebb-4058-b3aa-c7444772e3ea"
+}

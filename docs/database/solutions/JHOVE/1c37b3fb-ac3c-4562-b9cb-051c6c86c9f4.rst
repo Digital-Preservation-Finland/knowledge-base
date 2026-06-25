@@ -1,0 +1,2560 @@
+.. _1c37b3fb-ac3c-4562-b9cb-051c6c86c9f4:
+
+==================================================
+Invalid indirect destination - referenced object '
+==================================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - JHOVE
+     - 1.32.1
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - application/pdf
+     - A-2b
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-11/Hawes et al_2024_Comparing the Carbon Footprints of Urban and Conventional Agriculture.pdf>`__
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	Validator returned error.
+	<?xml version="1.0" encoding="UTF-8"?>
+	<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
+	 <date>2026-06-15T15:15:18+03:00</date>
+	 <repInfo uri="/corpus/format-corpus/jhove-errors/PDF-HUL-11/Hawes%20et%20al_2024_Comparing%20the%20Carbon%20Footprints%20of%20Urban%20and%20Conventional%20Agriculture.pdf">
+	  <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
+	  <lastModified>2026-06-15T13:22:11+03:00</lastModified>
+	  <size>5879598</size>
+	  <format>PDF</format>
+	  <version>1.4</version>
+	  <status>Not well-formed</status>
+	  <sigMatch>
+	  <module>PDF-hul</module>
+	  </sigMatch>
+	  <messages>
+	   <message offset="3439915" severity="error" id="PDF-HUL-11" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-11">Invalid character in hex string</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿35.﻿﻿	﻿﻿﻿﻿﻿Goldstein, B., Hauschild, M., Fernandez, J. &amp; Birkved, M. Urban versus conventional agriculture, taxonomy of resource profiles: a review. ﻿Agron. Sustain. Dev.﻿ ﻿36﻿, 9 (2016).﻿:126' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿47.﻿﻿	﻿﻿﻿﻿﻿Schoen, V., Caputo, S. &amp; Blythe, C. Valuing physical and social output: a rapid assessment of a London community garden. ﻿Sustainability﻿ ﻿12﻿, 5452 (2020).﻿:143' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿44.﻿﻿	﻿﻿﻿﻿﻿Rao, N. et al. Cultivating sustainable and healthy cities: a systematic literature review of the outcomes of urban and peri-urban agriculture. ﻿Sustain. Cities Soc.﻿ ﻿85﻿, 104063 (2022).﻿:138' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿63.﻿﻿	﻿﻿﻿USDA Food and Nutrient Database for Dietary Studies 2017–2018﻿ (USDA ARS, 2018); ﻿﻿http://www.ars.usda.gov/ba/bhnrc/fsrg﻿﻿﻿﻿﻿:162' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿﻿﻿35.﻿﻿	﻿﻿﻿﻿﻿Goldstein, B., Hauschild, M., Fernandez, J. &amp; Birkved, M. Urban versus conventional agriculture, taxonomy of resource profiles: a review. ﻿Agron. Sustain. Dev.﻿ ﻿36﻿, 9 (2016).﻿:132' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿﻿﻿Fig. 3﻿﻿ |﻿﻿ ﻿﻿﻿Infrastructure and carbon footprints at urban agriculture sites.﻿﻿ ﻿﻿﻿
+	a﻿, 䌀漀渀琀爀椀戀甀琀椀漀渀猀 漀昀 椀渀昀爀愀猀琀爀甀挀琀甀爀攀Ⰰ 猀甀瀀瀀氀椀攀猀 愀渀搀 椀爀爀椀最愀琀椀漀渀 琀漀 䜀䠀䜀 椀洀瀀愀挀琀猀⸀ 匀甀瀀瀀氀椀攀猀 椀渀挀氀甀搀攀 昀攀爀琀椀氀椀稀攀爀Ⰰ 挀漀洀瀀漀猀琀Ⰰ 最愀猀漀氀椀渀攀Ⰰ 眀攀攀搀 lock textile and so on. Irrigation:112' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿45.﻿﻿	﻿﻿﻿﻿﻿van der Werf, H. M. G., Knudsen, M. T. &amp; Cederberg, C. Towards better representation of organic agriculture in life cycle assessment. ﻿Nat. Sustain﻿ ﻿3﻿, 419–425 (2020).﻿:141' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿1.﻿﻿	﻿﻿﻿﻿﻿Dorr, E., Goldstein, B. P., Horvath, A. &amp; Aubry, C. &amp; Gabrielle, B. Environmental impacts and resource use of urban agriculture: a systematic review and meta-analysis. ﻿Environ. Res. Lett.﻿ ﻿16﻿, 093002 (2021)⻾＀㨀㠀㌩⽆‴⽈⽎⽒散瑛㄰㘮㈹㔠㈲㜮㈷‱〸⸴㜱′ㄷ⸰㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㌲㈴‰⁯扪഼㰯䉂潸嬰⸰‰⸰′⸱㜶‱⸰崯䙩汴敲⽆污瑥䑥捯摥⽌敮杴栠㄰⽒敳潵牣敳㰼㸾⽓畢瑹灥⽆潲洯呹灥⽘佢橥捴㸾獴牥慭ഊ䢉Ȉ　ഊ敮摳瑲敡洍敮摯扪ള㈲㔠〠潢樍㰼⽁值㰯丠㌲㈶‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㈀⻾＀৾＀䌀漀栀攀渀Ⰰ 一⸀ ☀ 圀椀樀猀洀愀渀Ⰰ 䬀⸀ 唀爀戀愀渀 愀最爀椀挀甀氀琀甀爀攀 愀猀 最爀攀攀渀 椀渀昀爀愀猀琀爀甀挀琀甀爀攀⸀⃾＀唀爀戀愀渀 䄀最爀⸀ 䴀愀最﻿ ﻿27﻿, 16–19 (2014).﻿:84' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿17.﻿﻿	﻿﻿﻿﻿﻿Theurl, M. C., Haberl, H., Erb, K.-H. &amp; Lindenthal, T. Contrasted greenhouse gas emissions from local versus long-range tomato production. ﻿Agron. Sustain. Dev.﻿ ﻿34﻿, 593–602 (2014).﻿:106' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿19.﻿﻿	﻿﻿﻿﻿﻿Bell, E., Qin, Y. &amp; Horvath, A. Optimal allocation of tomato supply to minimize greenhouse gas emissions in major US metropolitan markets. ﻿Resour. Conserv. Recycl.﻿ ﻿188﻿, 106660 (2023).﻿:107' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿39.﻿﻿	﻿﻿﻿﻿﻿Martínez-Blanco, J. et al. The use of life cycle assessment for the comparison of biowaste composting at home and full scale. ﻿Waste Manag.﻿ ﻿30﻿, 983–994 (2010).﻿:128' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿3.﻿﻿	﻿﻿﻿﻿﻿Goldstein, B., Hauschild, M. Z., Fernández, J. E. &amp; Birkved, M. Contributions of local farming to urban sustainability in the northeast United States. ﻿Environ. Sci. Technol.﻿ ﻿51﻿, 7340–7349 (2017).﻿:85' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿22.﻿﻿	﻿﻿﻿﻿﻿McCann, E., McClintock, N. &amp; Miewald, C. Mobilizing ‘impermaculture’: temporary urban agriculture and the sustainability fix. ﻿Environ. Plan. E Nat. Space﻿ ﻿6﻿, 952–975 (2023).﻿:114' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿34.﻿﻿	﻿﻿﻿﻿﻿Purchase, C. K. et al. Circular economy of construction and demolition waste: a literature review on lessons, challenges and benefits. ﻿Materials﻿ ﻿15﻿, 76 (2022).﻿:125' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿53.﻿﻿	﻿﻿﻿﻿﻿Zhu, X., Silva, L. C. R., Doane, T. A., Wu, N. &amp; Horwath, W. R. Quantifying the effects of green waste compost application, water content and nitrogen fertilization on nitrous oxide emissions in 10 agricultura氀 猀漀椀氀猀⸀⃾＀䨀⸀ 䔀渀瘀椀爀漀渀⸀ 儀甀愀氀⻾＀⃾＀㐀㋾＀Ⰰ㨀㄀㔀〩⽆‴⽈⽎⽒散瑛㔳㐮㘶㜠㔴㤮㜷‵㌹⸹㈴‵㌹⸵㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㈸㐵‰⁯扪഼㰯䅐㰼⽎″〴㤠〠刾㸯䉓㰼⽓⽓⽔祰支䉯牤敲⽗‰㸾⽂潲摥牛〠〠そ⽄敳琨﻿springernature_natcities_23.indd:﻿54.﻿﻿	﻿﻿﻿﻿﻿Aguilera, E. et al. Greenhouse gas emissions from Mediterranean agriculture: evidence of unbalanced research efforts and knowledge gaps. ﻿Global Environ. Change﻿ ﻿69﻿, 102319 (2021).﻿:151' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿58.﻿﻿	﻿﻿Bowman, S. A. et al. ﻿Food Intakes Converted to Retail Commodities Databases 2003-2008: Methodology and User Guide﻿ (USDA, 2013).﻿:157' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿62.﻿﻿	﻿﻿Bowman, S. A., Clemens, J., Friday, J. &amp; Moshfegh, A. ﻿Food Patterns Equivalents Database 2017–2018﻿: ﻿Methodology and User Guide﻿, 119 (USDA ARS, 2020); ﻿﻿http://www.ars.usda.gov/nea/bhnrc/fsrg﻿﻿﻿﻿﻿:160' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿68.﻿﻿	﻿﻿﻿﻿﻿Wernet, G. et al. The ecoinvent database version 3 (part I): overview and methodology. ﻿Int. J. Life Cycle Assess.﻿ ﻿21﻿, 1218–1230 (2016).﻿:169' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿54.﻿﻿	﻿﻿﻿﻿﻿Aguilera, E. et al. Greenhouse gas emissions from Mediterranean agriculture: evidence of unbalanced research efforts and knowledge gaps. ﻿Global Environ. Change﻿ ﻿69﻿, 102319 (2021).﻿:151' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿﻿﻿﻿9.﻿﻿	﻿﻿﻿﻿﻿Dorr, E. et al. Food production and resource use of urban farms and gardens: a five-country study. ﻿Agron. Sustain. Dev.﻿ ﻿43﻿, 18 (2023).﻿:167' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿60.﻿﻿	﻿﻿﻿Food Waste FAQs﻿ (USDA); ﻿﻿https://www.usda.gov/foodwaste/faqs﻿﻿﻿﻿﻿:158' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿32.﻿﻿	﻿﻿﻿﻿﻿Wang, C., Chen, Y., Sun, M. &amp; Wu, J. Potential of technological innovation to reduce the carbon footprint of urban facility agriculture: a food-energy-water-waste nexus perspective. ﻿J. Environ. Manag.﻿ ﻿339﻿, ㄀㄀㜀㠀　㘀 ㈀　㈀㌀⻾＀㨀㄀㈀㌩⽆‴⽈⽎⽒散瑛㌷㌮〴㔠㌱㌮㈷″㜸⸳㘱″〳⸰㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㐰‰⁯扪഼㰯䅐㰼⽎″〰㘠〠刾㸯䉓㰼⽓⽓⽔祰支䉯牤敲⽗‰㸾⽂潲摥牛〠〠そ⽄敳琨﻿springernature_natcities_23.indd:﻿33.﻿﻿	﻿﻿﻿﻿﻿Rufí-Salís, M. et al. Combining LCA and circularity assessments in complex production systems: the case of urban agriculture. ﻿Resour. Conserv. Recycl.﻿ ﻿166﻿, 105359 (2021).﻿:124' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿64.﻿﻿	﻿﻿Caputo, S. et al. ﻿FEW-Meter Final Report﻿ ﻿﻿https://zenodo.org/record/6558032﻿﻿﻿﻿ (㈀　㈀㈀⻾＀㨀㄀㘀㐩⽆‴⽈⽎⽒散瑛ㄳ㈮㜱㜠㈴㠮㜷‱㐲⸹㈠㈳㠮㔹崯卵扴祰支䱩湫⽔祰支䅮湯琾㸍敮摯扪ല㠶㐠〠潢樍㰼⽁值㰯丠㌰㜵‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㘀㔀⻾＀৾＀䜀漀氀搀猀琀攀椀渀Ⰰ 䈀⸀Ⰰ 䠀愀甀猀挀栀椀氀搀Ⰰ 䴀⸀Ⰰ 䘀攀爀渀渀搀攀稀Ⰰ 䨀⸀ ☀ 䈀椀爀欀瘀攀搀Ⰰ 䴀⸀ 吀攀猀琀椀渀最 琀栀攀 攀渀瘀椀爀漀渀洀攀渀琀l performance of urban agriculture as a food supply in northern climates. ﻿J. Clean. Prod.﻿ ﻿135﻿, 984–994 (2016).﻿:165' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿8.﻿﻿	﻿﻿﻿﻿﻿Cameron, R. W. F. et al. The domestic garden—its contribution 
+	to urban green infr愀猀琀爀甀挀琀甀爀攀⸀⃾＀唀爀戀愀渀 䘀漀爀⸀ 唀爀戀愀渀 䜀爀攀攀渀⻾＀⃾＀㄀ㇾ＀Ⰰ ㄀㈀㤠ጀ㄀㌀㜀 ㈀　㄀㈀⻾＀㨀㤀〩⽆‴⽈⽎⽒散瑛㐵㜠㈴㠮㜷‴㔹⸸㔱′㌸⸵㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㌲㌸‰⁯扪഼㰯䉂潸嬰⸰‰⸰′⸸㔱〱‱⸰崯䙩汴敲⽆污瑥䑥捯摥⽌敮杴栠㄰⽒敳潵牣敳㰼㸾⽓畢瑹灥⽆潲洯呹灥⽘佢橥捴㸾獴牥慭ഊ䢉Ȉ　ഊ敮摳瑲敡洍敮摯扪ള㈳㤠〠潢樍㰼⽁值㰯丠㌲㐰‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㄀⻾＀৾＀䐀漀爀爀Ⰰ 䔀⸀Ⰰ 䜀漀氀搀猀琀攀椀渀Ⰰ 䈀⸀ 倀⸀Ⰰ 䠀漀爀瘀愀琀栀Ⰰ 䄀⸀ ☀ 䄀甀戀爀礀Ⰰ 䌀⸀ ☀ 䜀愀戀爀椀攀氀氀攀Ⰰ 䈀⸀ 䔀渀瘀椀爀漀渀洀攀渀琀愀 impacts and resource use of urban agriculture: a systematic review and meta-analysis. ﻿Environ. Res. Lett.﻿ ﻿16﻿, 093002 (2021).﻿:91' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿7.﻿﻿	﻿﻿﻿﻿﻿Appolloni, E. et al. The global rise of urban rooftop agriculture: a review of worldwide cases. ﻿J. Clean. Prod.﻿ ﻿296﻿, 126556 (2021).﻿:89' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿43.﻿﻿	﻿﻿﻿﻿﻿Ilieva, R. T. et al. The socio-cultural benefits of urban agriculture: a review of the literature. ﻿Land﻿ ﻿11﻿, 622 (2022).﻿:140' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿﻿26.﻿﻿	﻿﻿Reynolds, K. &amp; Cohen, N. ﻿Beyond the Kale﻿: ﻿Urban Agriculture 
+	and Social Justice 䄀挀琀椀瘀椀猀洀 椀渀 一攀眀 夀漀爀欀 䌀椀琀秾＀ 唀渀椀瘀⸀ 䜀攀漀爀最椀愀 倀爀攀猀猀Ⰰ ㈀　㄀㘀⻾＀㨀㄀㄀㠩⽆‴⽈⽎⽒散瑛㌸ㄮ㘱㘠㐵㌮〲″㠷⸱㌠㐴㈮㠴崯卵扴祰支䱩湫⽔祰支䅮湯琾㸍敮摯扪ള㔠〠潢樍㰼⽁值㰯丠㌰ㄷ‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㈀㠀⻾＀৾＀䠀愀眀攀猀Ⰰ 䨀⸀ 䬀⸀Ⰰ 䜀漀甀渀愀爀椀搀椀猀Ⰰ 䐀⸀ ☀ 一攀眀攀氀氀Ⰰ 䨀⸀ 倀⸀ 䐀漀攀猀 甀爀戀愀渀 愀最爀椀挀甀氀琀甀爀攀 氀攀愀搀 琀漀 最攀渀琀爀fication? ﻿Landsc. Urban Plan.﻿ ﻿225﻿, 104447 (2022).﻿:119' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿52.﻿﻿	﻿﻿﻿﻿﻿Ding, W. et al. Effect of long-term compost and inorganic fertilizer application on background N﻿2﻿O and fertilizer-induced N﻿2﻿O emissions from an intensively cultivated soil. ﻿Sci. Total Environ.﻿ ﻿465﻿, 115ጀ㄀㈀㐀 ㈀　㄀㌀⻾＀㨀㄀㐀㤩⽆‴⽈⽎⽒散瑛㔲㠮〱㜠㔴㤮㜷‵㌳⸲㜳‵㌹⸵㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㈸㐴‰⁯扪഼㰯䅐㰼⽎″〴㜠〠刾㸯䉓㰼⽓⽓⽔祰支䉯牤敲⽗‰㸾⽂潲摥牛〠〠そ⽄敳琨﻿springernature_natcities_23.indd:﻿53.﻿﻿	﻿﻿﻿﻿﻿Zhu, X., Silva, L. C. R., Doane, T. A., Wu, N. &amp; Horwath, W. R. Quantifying the effects of green waste compost application, water content and nitrogen fertilization on nitrous oxide emissions in 10 agricultura氀 猀漀椀氀猀⸀⃾＀䨀⸀ 䔀渀瘀椀爀漀渀⸀ 儀甀愀氀⻾＀⃾＀㐀㋾＀Ⰰ㨀㄀㔀〩⽆‴⽈⽎⽒散瑛㔳㐮㘶㜠㔴㤮㜷‵㌹⸹㈴‵㌹⸵㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㈸㐵‰⁯扪഼㰯䅐㰼⽎″〴㤠〠刾㸯䉓㰼⽓⽓⽔祰支䉯牤敲⽗‰㸾⽂潲摥牛〠〠そ⽄敳琨﻿springernature_natcities_23.indd:﻿54.﻿﻿	﻿﻿﻿﻿﻿Aguilera, E. et al. Greenhouse gas emissions from Mediterranean agriculture: evidence of unbalanced research efforts and knowledge gaps. ﻿Global Environ. Change﻿ ﻿69﻿, 102319 (2021).﻿:151' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿27.﻿﻿	﻿﻿﻿﻿﻿Lovell, S. T. Multifunctional urban agriculture for sustainable 
+	land use plannin最 椀渀 琀栀攀 唀渀椀琀攀搀 匀琀愀琀攀猀⸀⃾＀匀甀猀琀愀椀渀愀戀椀氀椀琀秾＀⃾＀㋾＀Ⰰ ㈀㐀㤀㤠ጀ㈀㔀㈀㈀ ㈀　㄀　⻾＀㨀㄀㄀㜩⽆‴⽈⽎⽒散瑛㈲ㄮ㐵㤠㜶⸷㜰㐠㈲㘮㌰㌠㘶⸵㠹㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㌴‰⁯扪഼㰯䅐㰼⽎″〰㌠〠刾㸯䉓㰼⽓⽓⽔祰支䉯牤敲⽗‰㸾⽂潲摥牛〠〠そ⽄敳琨﻿springernature_natcities_23.indd:﻿﻿26.﻿﻿	﻿﻿Reynolds, K. &amp; Cohen, N. ﻿Beyond the Kale﻿: ﻿Urban Agriculture 
+	and Social Justice 䄀挀琀椀瘀椀猀洀 椀渀 一攀眀 夀漀爀欀 䌀椀琀秾＀ 唀渀椀瘀⸀ 䜀攀漀爀最椀愀 倀爀攀猀猀Ⰰ ㈀　㄀㘀⻾＀㨀㄀㄀㠩⽆‴⽈⽎⽒散瑛㌸ㄮ㘱㘠㐵㌮〲″㠷⸱㌠㐴㈮㠴崯卵扴祰支䱩湫⽔祰支䅮湯琾㸍敮摯扪ള㔠〠潢樍㰼⽁值㰯丠㌰ㄷ‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㈀㠀⻾＀৾＀䠀愀眀攀猀Ⰰ 䨀⸀ 䬀⸀Ⰰ 䜀漀甀渀愀爀椀搀椀猀Ⰰ 䐀⸀ ☀ 一攀眀攀氀氀Ⰰ 䨀⸀ 倀⸀ 䐀漀攀猀 甀爀戀愀渀 愀最爀椀挀甀氀琀甀爀攀 氀攀愀搀 琀漀 最攀渀琀爀fication? ﻿Landsc. Urban Plan.﻿ ﻿225﻿, 104447 (2022).﻿:119' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿48.﻿﻿	﻿﻿﻿﻿﻿Plawecki, R., Pirog, R., Montri, A. &amp; Hamm, M. W. Comparative carbon footprint assessment of winter lettuce production in two climatic zones for Midwestern market. ﻿Renew. Agric. Food Syst.﻿ ﻿29﻿, 310–318 (2014).﻿:145' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿﻿3.﻿﻿	﻿﻿﻿﻿﻿Goldstein, B., Hauschild, M. Z., Fernández, J. E. &amp; Birkved, M. Contributions of local farming to urban sustainability in the northeast United States. ﻿Environ. Sci. Technol.﻿ ﻿51﻿, 7340–7349 (2017).﻿:93' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿56.﻿﻿	﻿﻿﻿﻿﻿Elliot, T. et al. An expanded framing of ecosystem services is needed for a sustainable urban future. ﻿Renew. Sustain. Energy Rev.﻿ ﻿162﻿, 112418 (2022).﻿:154' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿30.﻿﻿	﻿﻿﻿﻿﻿McClintock, N. Cultivating (a) sustainability capital: urban agriculture, ecogentrification, and the uneven valorization of social reproduction. ﻿Ann. Am. Assoc. Geogr.﻿ ﻿108﻿, 579–590 (2018).﻿:120' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿11.﻿﻿	﻿﻿﻿﻿﻿Whittinghill, L. &amp; Sarr, S. Practices and barriers to sustainable urban agriculture: a case study of Louisville, Kentucky. ﻿Urban Sci.﻿ ﻿5﻿, 92 (2021).﻿:96' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿4.﻿﻿	﻿﻿﻿﻿﻿Sanyé-Mengual, E., Oliver-Solà, J., Montero, J. I. &amp; Rieradevall, J. An environmental and economic life cycle assessment of 
+	rooftop greenhouse (RTG) implementation in Barcelona, Spain. Assessing new forms of urban agriculture from the greenhou:86' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿28.﻿﻿	﻿﻿﻿﻿﻿Hawes, J. K., Gounaridis, D. &amp; Newell, J. P. Does urban agriculture lead to gentrification? ﻿Landsc. Urban Plan.﻿ ﻿225﻿, 104447 (2022).﻿:119' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿41.﻿﻿	﻿﻿﻿Graywater﻿ (Los Angeles County Department of Public Health); ﻿﻿http://www.publichealth.lacounty.gov/eh/business/
+	graywater.htm﻿﻿﻿﻿﻿:135' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿26.﻿﻿	﻿﻿Reynolds, K. &amp; Cohen, N. ﻿Beyond the Kale﻿: ﻿Urban Agriculture 
+	and Social Justice A挀琀椀瘀椀猀洀 椀渀 一攀眀 夀漀爀欀 䌀椀琀秾＀ 唀渀椀瘀⸀ 䜀攀漀爀最椀愀 倀爀攀猀猀Ⰰ ㈀　㄀㘀⻾＀㨀㄀㄀㘩⽆‴⽈⽎⽒散瑛㈱㐮㘸㔠㜶⸷㜰㐠㈲〮ㄱ‶㘮㔸㤹崯卵扴祰支䱩湫⽔祰支䅮湯琾㸍敮摯扪ള㌠〠潢樍㰼⽁值㰯丠㌰〴‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㈀㜀⻾＀৾＀䰀漀瘀攀氀氀Ⰰ 匀⸀ 吀⸀ 䴀甀氀琀椀昀甀渀挀琀椀漀渀愀氀 甀爀戀愀渀 愀最爀椀挀甀氀琀甀爀攀 昀漀爀 猀甀猀琀愀椀渀愀戀氀攀 氀愀渀搀 甀猀攀 瀀氀愀渀渀椀渀最 椀渀 琀栀攀 唀渀椀琀攀搀 匀琀愀琀攀猀⸀⃾＀匀甀猀琀愀椀渀愀戀椀氀椀琀秾＀⃾＀㋾＀Ⰰ ㈀㐀㤀㤠ጀ㈀㔀㈀㈀ ㈀　㄀　⻾＀㨀㄀㄀㜩⽆‴⽈⽎⽒散瑛㈲ㄮ㐵㤠㜶⸷㜰㐠㈲㘮㌰㌠㘶⸵㠹㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㌴‰⁯扪഼㰯䅐㰼⽎″〰㌠〠刾㸯䉓㰼⽓⽓⽔祰支䉯牤敲⽗‰㸾⽂潲摥牛〠〠そ⽄敳琨﻿springernature_natcities_23.indd:﻿﻿26.﻿﻿	﻿﻿Reynolds, K. &amp; Cohen, N. ﻿Beyond the Kale﻿: ﻿Urban Agriculture 
+	and Social Justice 䄀挀琀椀瘀椀猀洀 椀渀 一攀眀 夀漀爀欀 䌀椀琀秾＀ 唀渀椀瘀⸀ 䜀攀漀爀最椀愀 倀爀攀猀猀Ⰰ ㈀　㄀㘀⻾＀㨀㄀㄀㠩⽆‴⽈⽎⽒散瑛㌸ㄮ㘱㘠㐵㌮〲″㠷⸱㌠㐴㈮㠴崯卵扴祰支䱩湫⽔祰支䅮湯琾㸍敮摯扪ള㔠〠潢樍㰼⽁值㰯丠㌰ㄷ‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㈀㠀⻾＀৾＀䠀愀眀攀猀Ⰰ 䨀⸀ 䬀⸀Ⰰ 䜀漀甀渀愀爀椀搀椀猀Ⰰ 䐀⸀ ☀ 一攀眀攀氀氀Ⰰ 䨀⸀ 倀⸀ 䐀漀攀猀 甀爀戀愀渀 愀最爀椀挀甀氀琀甀爀攀 氀攀愀搀 琀漀 最攀渀琀爀fication? ﻿Landsc. Urban Plan.﻿ ﻿225﻿, 104447 (2022).﻿:119' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿50.﻿﻿	﻿﻿﻿﻿﻿Ermolaev, E., Sundberg, C., Pell, M. &amp; Jönsson, H. Greenhouse gas emissions from home composting in practice. ﻿Bioresour. Technol.﻿ ﻿151﻿, 174–182 (2014).﻿:147' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿﻿﻿26.﻿﻿	﻿﻿Reynolds, K. &amp; Cohen, N. ﻿Beyond the Kale﻿: ﻿Urban Agriculture 
+	and Social Justice 䄀挀琀椀瘀椀猀洀 椀渀 一攀眀 夀漀爀欀 䌀椀琀秾＀ 唀渀椀瘀⸀ 䜀攀漀爀最椀愀 倀爀攀猀猀Ⰰ ㈀　㄀㘀⻾＀㨀㄀㈀ㄩ⽆‴⽈⽎⽒散瑛㌶㠮㔸㐠㌹㤮㈷″㜳⸹㠶″㠹⸰㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㌸‰⁯扪഼㰯䅐㰼⽎″〰㔠〠刾㸯䉓㰼⽓⽓⽔祰支䉯牤敲⽗‰㸾⽂潲摥牛〠〠そ⽄敳琨﻿springernature_natcities_23.indd:﻿31.﻿﻿	﻿﻿﻿﻿﻿Campbell, M. C. &amp; Salus, D. A. Community and conservation land trusts as unlikely partners? The case of Troy Gardens, Madison, Wisconsin. ﻿Land Use Policy﻿ ﻿20﻿, 169–180 (2003).﻿:122' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿6.﻿﻿	﻿﻿﻿﻿﻿Pérez-Neira, D. &amp; Grollmus-Venegas, A. Life-cycle energy assessment and carbon footprint of peri-urban horticulture. A comparative case study of local food systems in Spain. ﻿Landsc. Urban Plan.﻿ ﻿172﻿, 60–68 (㈀　㄀㠀⻾＀㨀㠀㜩⽆‴⽈⽎⽒散瑛㈳㌮㜱ㄠㄶ㈮㜷′㌶⸵㐶‱㔲⸵㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㌲㌲‰⁯扪഼㰯䉂潸嬰⸰‰⸰′⸸㌵〱‱⸰崯䙩汴敲⽆污瑥䑥捯摥⽌敮杴栠㄰⽒敳潵牣敳㰼㸾⽓畢瑹灥⽆潲洯呹灥⽘佢橥捴㸾獴牥慭ഊ䢉Ȉ　ഊ敮摳瑲敡洍敮摯扪ള㈳㌠〠潢樍㰼⽁值㰯丠㌲㌴‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㄀⻾＀৾＀䐀漀爀爀Ⰰ 䔀⸀Ⰰ 䜀漀氀搀猀琀攀椀渀Ⰰ 䈀⸀ 倀⸀Ⰰ 䠀漀爀瘀愀琀栀Ⰰ 䄀⸀ ☀ 䄀甀戀爀礀Ⰰ 䌀⸀ ☀ 䜀愀戀爀椀攀氀氀攀Ⰰ 䈀⸀ 䔀渀瘀椀爀漀渀洀攀渀琀愀氀impacts and resource use of urban agriculture: a systematic review and meta-analysis. ﻿Environ. Res. Lett.﻿ ﻿16﻿, 093002 (2021).﻿:88' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿49.﻿﻿	﻿﻿﻿﻿﻿Puigdueta, I., Aguilera, E., Cruz, J. L., Iglesias, A. &amp; Sanz-Cobena, A. Urban agriculture may change food consumption towards low carbon diets. ﻿Global Food Security﻿ ﻿28﻿, 100507 (2021).﻿:146' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿33.﻿﻿	﻿﻿﻿﻿﻿Rufí-Salís, M. et al. Combining LCA and circularity assessments in complex production systems: the case of urban agriculture. ﻿Resour. Conserv. Recycl.﻿ ﻿166﻿, 105359 (2021).﻿:124' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿21.﻿﻿	﻿﻿﻿﻿﻿Kirby, C. K. et al. Differences in motivations and social impacts across urban agriculture types: case studies in Europe and the US. ﻿Landsc. Urban Plan.﻿ ﻿212﻿, 104110 (2021).﻿:109' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿61.﻿﻿	﻿﻿﻿﻿﻿Tilman, D., Balzer, C., Hill, J. &amp; Befort, B. L. Global food demand and the sustainable intensification of agriculture. ﻿Proc. Natl Acad. Sci. USA﻿ ﻿108﻿, 20260–20264 (2011).﻿:159' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿﻿﻿Fig. 2﻿﻿ |﻿﻿ ﻿﻿﻿GHG emissions by farm type and product.﻿﻿ ﻿﻿Impacts in the left panel are shown per serving of food. Impacts in the right panel are shown per kilogram of crop. Boxplots employ the same descriptive stati猀琀椀挀猀 愀猀 䘀椀最⸀⃾＀ㇾ＀ 洀攀搀椀愀渀 愀渀搀 䤀儀刀 㨀㄀　㐩⽆‴⽈⽎⽒散瑛㌳㘮㠲ㄠ㌲㐮〲″㐱⸲㤳″ㄳ⸸㑝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㘠〠潢樍㰼⽁值㰯丠㈹㜸‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㄀㜀⻾＀৾＀吀栀攀甀爀氀Ⰰ 䴀⸀ 䌀⸀Ⰰ 䠀愀戀攀爀氀Ⰰ 䠀⸀Ⰰ 䔀爀戀Ⰰ 䬀⸀ⴀ䠀⸀ ☀ 䰀椀渀搀攀渀琀栀愀氀Ⰰ 吀⸀ 䌀漀渀琀爀愀猀琀攀搀 最爀攀攀渀栀漀甀猀攀 最愀猀 missions from local versus long-range tomato production. ﻿Agron. Sustain. Dev.﻿ ﻿34﻿, 593–602 (2014).﻿:106' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿﻿﻿﻿26.﻿﻿	﻿﻿Reynolds, K. &amp; Cohen, N. ﻿Beyond the Kale﻿: ﻿Urban Agriculture 
+	and Social Justic攀 䄀挀琀椀瘀椀猀洀 椀渀 一攀眀 夀漀爀欀 䌀椀琀秾＀ 唀渀椀瘀⸀ 䜀攀漀爀最椀愀 倀爀攀猀猀Ⰰ ㈀　㄀㘀⻾＀㨀㄀㌀㘩⽆‴⽈⽎⽒散瑛ㄶ㌮㠹㈠㘳㔮㜷‱㘹⸳㔷‶㈵⸵㥝⽓畢瑹灥⽌楮欯呹灥⽁湮潴㸾൥湤潢樍㈸㌱‰⁯扪഼㰯䅐㰼⽎″〳㔠〠刾㸯䉓㰼⽓⽓⽔祰支䉯牤敲⽗‰㸾⽂潲摥牛〠〠そ⽄敳琨﻿springernature_natcities_23.indd:﻿42.﻿﻿	﻿﻿﻿﻿﻿Grewal, S. S. &amp; Grewal, P. S. Can cities become self-reliant in food? ﻿Cities﻿ ﻿29﻿, 1–11 (2012).﻿:137' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿65.﻿﻿	﻿﻿﻿﻿﻿Goldstein, B., Hauschild, M., Fernández, J. &amp; Birkved, M. Testing the environmental performance of urban agriculture as a food supply in northern climates. ﻿J. Clean. Prod.﻿ ﻿135﻿, 984–994 (2016).﻿:165' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿46.﻿﻿	﻿﻿﻿﻿﻿Finnveden, G. et al. Recent developments in Life Cycle Assessment. ﻿J. Environ. Manag.﻿ ﻿91﻿, 1–21 (2009).﻿:142' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿67.﻿﻿	﻿﻿﻿﻿﻿Orsini, F., Kahane, R., Nono-Womdim, R. &amp; Gianquinto, G. Urban agriculture in the developing world: a review. ﻿Agron. Sustain. Dev.﻿ ﻿33﻿, 695–720 (2013).﻿:166' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿25.﻿﻿	﻿﻿﻿﻿﻿Lawson, L. The planner in the garden: a historical view into the relationship between planning and community gardens. ﻿J. Plan. History﻿ ﻿3﻿, 151–176 (2004).﻿:115' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿40.﻿﻿	﻿﻿﻿Rain Barrel Giveaway Program﻿ (New York City Department of Environment Protection); ﻿﻿https://www.nyc.gov/site/dep/whats-new/rain-barrel-giveaway-program.page﻿﻿﻿﻿﻿:134' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿31.﻿﻿	﻿﻿﻿﻿﻿Campbell, M. C. &amp; Salus, D. A. Community and conservation land trusts as unlikely partners? The case of Troy Gardens, Madison, Wisconsin. ﻿Land Use Policy﻿ ﻿20﻿, 169–180 (2003).﻿:122' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿55.﻿﻿	﻿﻿﻿﻿﻿Brown, S. &amp; Beecher, N. Carbon accounting for compost use in urban areas. ﻿Compost Sci. Util.﻿ ﻿27﻿, 227–239 (2019).﻿:152' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿51.﻿﻿	﻿﻿﻿﻿﻿Quirós, R. et al. Environmental assessment of two home composts with high and low gaseous emissions of the composting process. ﻿Resour. Conserv. Recycl.﻿ ﻿90﻿, 9–20 (2014).﻿:148' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿20.﻿﻿	﻿﻿﻿﻿﻿Stoessel, F., Juraske, R., Pfister, S. &amp; Hellweg, S. Life cycle inventory and carbon and water FoodPrint of fruits and vegetables: application to a Swiss retailer. ﻿Environ. Sci. Technol.﻿ ﻿46﻿, 3253–3262 (2012).﻿:108' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿2.﻿﻿	﻿﻿﻿﻿﻿Cohen, N. &amp; Wijsman, K. Urban agriculture as green infrastructure. ﻿Urban Agr. Mag.﻿ ﻿27﻿, 16–19 (2014).﻿:84' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿57.﻿﻿	﻿﻿﻿ISO 14040:2006 Environmental Management – Life Cycle Assessment – Principles and Framework﻿ (International Organization for Standardization, 2006); ﻿﻿https://www.iso.org/standard/37456.html﻿﻿﻿﻿﻿:156' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿36.﻿﻿	﻿﻿﻿Impact Sanitaire et Environnemental du Compostage Domestique﻿ (APESA, OLENTICA, BIO 䤀渀琀攀氀氀椀最攀渀挀攀 匀攀爀瘀椀挀攀Ⰰ ㈀　㄀㔀㬀⃾＀栀琀琀瀀猀㨀⼀⼀氀椀戀爀愀椀爀椀攀⸀愀搀攀洀攀⸀昀爀⼀搀攀挀栀攀琀猀ⴀ攀挀漀渀漀洀椀攀ⴀ挀椀爀挀甀氀愀椀爀攀⼀㈀㐀㜀　ⴀ椀洀瀀愀挀琀ⴀ猀愀渀椀琀愀椀爀攀ⴀ攀琀ⴀ攀渀瘀椀爀漀渀渀攀洀攀渀琀愀氀ⴀ搀甀ⴀ挀漀洀瀀漀猀琀愀最攀ⴀ搀漀洀攀猀琀椀焀甀攀⸀栀琀洀泾＀㨀㄀㈀㜩⽆‴⽈⽎⽒散瑛㌵㘮〴‱ㄹ⸷㜠㌶ㄮ㜰㌠㄰㤮㔹崯卵扴祰支䱩湫⽔祰支䅮湯琾㸍敮摯扪ഴ㐠〠潢樍㰼⽁值㰯丠㌰ㄲ‰⁒㸾⽂匼㰯匯匯呹灥⽂潲摥爯圠〾㸯䉯牤敲嬰‰‰崯䑥獴⣾＀猀瀀爀椀渀最攀爀渀愀琀甀爀攀开渀愀琀挀椀琀椀攀猀开㈀㌀⸀椀渀搀搀㫾＀㌀㤀⻾＀৾＀䴀愀爀琀渀攀稀ⴀ䈀氀愀渀挀漀Ⰰ 䨀⸀ 攀琀 愀氀⸀ 吀栀攀 甀猀攀 漀昀 氀椀昀攀 挀礀挀氀攀 愀猀猀攀猀猀洀攀渀琀 昀漀爀 琀栀攀 挀漀洀瀀愀爀椀猀漀渀 漀昀biowaste composting at home and full scale. ﻿Waste Manag.﻿ ﻿30﻿, 983–994 (2010).﻿:128' cannot be found</message>
+	   <message offset="5798892" severity="error" id="PDF-HUL-149" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-149">Invalid indirect destination - referenced object 'springernature_natcities_23.indd:﻿42.﻿﻿	﻿﻿﻿﻿﻿Grewal, S. S. &amp; Grewal, P. S. Can cities become self-reliant in food? ﻿Cities﻿ ﻿29﻿, 1–11 (2012).﻿:137' cannot be found</message>
+	  </messages>
+	  <mimeType>application/pdf</mimeType>
+	  <properties>
+	   <property>
+	    <name>PDFMetadata</name>
+	    <values arity="List" type="Property">
+	    <property>
+	     <name>Objects</name>
+	     <values arity="Scalar" type="Integer">
+	      <value>3336</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>FreeObjects</name>
+	     <values arity="Scalar" type="Integer">
+	      <value>1</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>IncrementalUpdates</name>
+	     <values arity="Scalar" type="Integer">
+	      <value>1</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>DocumentCatalog</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>ViewerPreferences</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>HideToolbar</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>HideMenubar</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>HideWindowUI</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>FitWindow</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>CenterWindow</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>DisplayDocTitle</name>
+	       <values arity="Scalar" type="Boolean">
+	        <value>false</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>NonFullScreenPageMode</name>
+	       <values arity="Scalar" type="String">
+	        <value>UseNone</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Direction</name>
+	       <values arity="Scalar" type="String">
+	        <value>L2R</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>ViewArea</name>
+	       <values arity="Scalar" type="String">
+	        <value>CropBox</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>ViewClip</name>
+	       <values arity="Scalar" type="String">
+	        <value>CropBox</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>PrintArea</name>
+	       <values arity="Scalar" type="String">
+	        <value>CropBox</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>PageClip</name>
+	       <values arity="Scalar" type="String">
+	        <value>CropBox</value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>PageLayout</name>
+	      <values arity="Scalar" type="String">
+	       <value>SinglePage</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>PageMode</name>
+	      <values arity="Scalar" type="String">
+	       <value>UseNone</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Outlines</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Item</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>Title</name>
+	        <values arity="Scalar" type="String">
+	         <value>Comparing the carbon footprints of urban and conventional agriculture</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Children</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>Item</name>
+	         <values arity="List" type="Property">
+	         <property>
+	          <name>Title</name>
+	          <values arity="Scalar" type="String">
+	           <value>Results and discussion</value>
+	          </values>
+	         </property>
+	         <property>
+	          <name>Children</name>
+	          <values arity="List" type="Property">
+	          <property>
+	           <name>Item</name>
+	           <values arity="List" type="Property">
+	           <property>
+	            <name>Title</name>
+	            <values arity="Scalar" type="String">
+	             <value>Low-tech UA carbon footprint six times that of conventional agriculture</value>
+	            </values>
+	           </property>
+	           </values>
+	          </property>
+	          <property>
+	           <name>Item</name>
+	           <values arity="List" type="Property">
+	           <property>
+	            <name>Title</name>
+	            <values arity="Scalar" type="String">
+	             <value>Conventional agriculture and UA have similar GHG impacts for some crops</value>
+	            </values>
+	           </property>
+	           </values>
+	          </property>
+	          <property>
+	           <name>Item</name>
+	           <values arity="List" type="Property">
+	           <property>
+	            <name>Title</name>
+	            <values arity="Scalar" type="String">
+	             <value>Towards climate-friendly UA</value>
+	            </values>
+	           </property>
+	           <property>
+	            <name>Children</name>
+	            <values arity="List" type="Property">
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>UA sites should preserve infrastructure as long as possible</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>UA sites should leverage urban waste streams as inputs</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>UA sites should invest in social benefits</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            </values>
+	           </property>
+	           </values>
+	          </property>
+	          <property>
+	           <name>Item</name>
+	           <values arity="List" type="Property">
+	           <property>
+	            <name>Title</name>
+	            <values arity="Scalar" type="String">
+	             <value>Future research</value>
+	            </values>
+	           </property>
+	           </values>
+	          </property>
+	          </values>
+	         </property>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Item</name>
+	         <values arity="List" type="Property">
+	         <property>
+	          <name>Title</name>
+	          <values arity="Scalar" type="String">
+	           <value>Conclusions</value>
+	          </values>
+	         </property>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Item</name>
+	         <values arity="List" type="Property">
+	         <property>
+	          <name>Title</name>
+	          <values arity="Scalar" type="String">
+	           <value>Methods</value>
+	          </values>
+	         </property>
+	         <property>
+	          <name>Children</name>
+	          <values arity="List" type="Property">
+	          <property>
+	           <name>Item</name>
+	           <values arity="List" type="Property">
+	           <property>
+	            <name>Title</name>
+	            <values arity="Scalar" type="String">
+	             <value>UA carbon footprint via LCA</value>
+	            </values>
+	           </property>
+	           <property>
+	            <name>Children</name>
+	            <values arity="List" type="Property">
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>Goal and scope</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>Case studies and typology</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>Lifecycle inventory</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>Lifecycle impact assessment</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>Key dimensions of LCA and sensitivity analyses</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>Climate-friendly UA</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            <property>
+	             <name>Item</name>
+	             <values arity="List" type="Property">
+	             <property>
+	              <name>Title</name>
+	              <values arity="Scalar" type="String">
+	               <value>Synthetic fertilizer inventories</value>
+	              </values>
+	             </property>
+	             </values>
+	            </property>
+	            </values>
+	           </property>
+	           </values>
+	          </property>
+	          <property>
+	           <name>Item</name>
+	           <values arity="List" type="Property">
+	           <property>
+	            <name>Title</name>
+	            <values arity="Scalar" type="String">
+	             <value>Conventional agriculture comparison</value>
+	            </values>
+	           </property>
+	           </values>
+	          </property>
+	          <property>
+	           <name>Item</name>
+	           <values arity="List" type="Property">
+	           <property>
+	            <name>Title</name>
+	            <values arity="Scalar" type="String">
+	             <value>Farmer survey</value>
+	            </values>
+	           </property>
+	           </values>
+	          </property>
+	          <property>
+	           <name>Item</name>
+	           <values arity="List" type="Property">
+	           <property>
+	            <name>Title</name>
+	            <values arity="Scalar" type="String">
+	             <value>Reporting summary</value>
+	            </values>
+	           </property>
+	           </values>
+	          </property>
+	          </values>
+	         </property>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Item</name>
+	         <values arity="List" type="Property">
+	         <property>
+	          <name>Title</name>
+	          <values arity="Scalar" type="String">
+	           <value>Acknowledgements</value>
+	          </values>
+	         </property>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Item</name>
+	         <values arity="List" type="Property">
+	         <property>
+	          <name>Title</name>
+	          <values arity="Scalar" type="String">
+	           <value>Fig. 1 The carbon footprint of conventional versus urban agriculture.</value>
+	          </values>
+	         </property>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Item</name>
+	         <values arity="List" type="Property">
+	         <property>
+	          <name>Title</name>
+	          <values arity="Scalar" type="String">
+	           <value>Fig. 2 GHG emissions by farm type and product.</value>
+	          </values>
+	         </property>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Item</name>
+	         <values arity="List" type="Property">
+	         <property>
+	          <name>Title</name>
+	          <values arity="Scalar" type="String">
+	           <value>Fig. 3 Infrastructure and carbon footprints at urban agriculture sites.</value>
+	          </values>
+	         </property>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Info</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>Title</name>
+	      <values arity="Scalar" type="String">
+	       <value>Comparing the carbon footprints of urban and conventional agriculture</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Author</name>
+	      <values arity="Scalar" type="String">
+	       <value>Jason K. Hawes</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Subject</name>
+	      <values arity="Scalar" type="String">
+	       <value>Nature Cities, doi:10.1038/s44284-023-00023-3</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Creator</name>
+	      <values arity="Scalar" type="String">
+	       <value>Springer</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>CreationDate</name>
+	      <values arity="Scalar" type="Date">
+	       <value>Fri Jan 05 12:09:08 EET 2024</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>ModDate</name>
+	      <values arity="Scalar" type="Date">
+	       <value>Fri Jan 05 12:10:15 EET 2024</value>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>ID</name>
+	     <values arity="Array" type="String">
+	      <value>0xaa7799f113dee548b9f82e941b5148d2</value>
+	      <value>0x638f3abba226d849a40aa0ef3e47150e</value>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Filters</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>FilterPipeline</name>
+	      <values arity="Scalar" type="String">
+	       <value>FlateDecode</value>
+	      </values>
+	     </property>
+	     <property>
+	      <name>FilterPipeline</name>
+	      <values arity="Scalar" type="String">
+	       <value>DCTDecode</value>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Images</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>Image</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>NisoImageMetadata</name>
+	       <values arity="Scalar" type="NISOImageMetadata">
+	        <value>
+	      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+	       <mix:BasicDigitalObjectInformation>
+	        <mix:ObjectIdentifier>
+	         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+	        </mix:ObjectIdentifier>
+	        <mix:FormatDesignation>
+	         <mix:formatName>image/png</mix:formatName>
+	        </mix:FormatDesignation>
+	       </mix:BasicDigitalObjectInformation>
+	       <mix:BasicImageInformation>
+	        <mix:BasicImageCharacteristics>
+	         <mix:imageWidth>1100</mix:imageWidth>
+	         <mix:imageHeight>90</mix:imageHeight>
+	         <mix:PhotometricInterpretation>
+	          <mix:colorSpace>BlackIsZero</mix:colorSpace>
+	         </mix:PhotometricInterpretation>
+	        </mix:BasicImageCharacteristics>
+	       </mix:BasicImageInformation>
+	       <mix:ImageAssessmentMetadata>
+	        <mix:ImageColorEncoding>
+	         <mix:BitsPerSample>
+	          <mix:bitsPerSampleValue>1</mix:bitsPerSampleValue>
+	          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+	         </mix:BitsPerSample>
+	        </mix:ImageColorEncoding>
+	       </mix:ImageAssessmentMetadata>
+	      </mix:mix>
+	        </value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Filter</name>
+	       <values arity="Scalar" type="String">
+	        <value>FlateDecode</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Intent</name>
+	       <values arity="Scalar" type="String">
+	        <value>RelativeColorimetric</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Name</name>
+	       <values arity="Scalar" type="String">
+	        <value>X</value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Image</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>NisoImageMetadata</name>
+	       <values arity="Scalar" type="NISOImageMetadata">
+	        <value>
+	      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+	       <mix:BasicDigitalObjectInformation>
+	        <mix:ObjectIdentifier>
+	         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+	        </mix:ObjectIdentifier>
+	        <mix:FormatDesignation>
+	         <mix:formatName>image/png</mix:formatName>
+	        </mix:FormatDesignation>
+	       </mix:BasicDigitalObjectInformation>
+	       <mix:BasicImageInformation>
+	        <mix:BasicImageCharacteristics>
+	         <mix:imageWidth>46</mix:imageWidth>
+	         <mix:imageHeight>41</mix:imageHeight>
+	        </mix:BasicImageCharacteristics>
+	       </mix:BasicImageInformation>
+	       <mix:ImageAssessmentMetadata>
+	        <mix:ImageColorEncoding>
+	         <mix:BitsPerSample>
+	          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+	         </mix:BitsPerSample>
+	        </mix:ImageColorEncoding>
+	       </mix:ImageAssessmentMetadata>
+	      </mix:mix>
+	        </value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Filter</name>
+	       <values arity="Scalar" type="String">
+	        <value>FlateDecode</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Intent</name>
+	       <values arity="Scalar" type="String">
+	        <value>RelativeColorimetric</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Decode</name>
+	       <values arity="List" type="Integer">
+	        <value>0</value>
+	        <value>255</value>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Name</name>
+	       <values arity="Scalar" type="String">
+	        <value>X</value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Image</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>NisoImageMetadata</name>
+	       <values arity="Scalar" type="NISOImageMetadata">
+	        <value>
+	      <mix:mix xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mix/v20 http://www.loc.gov/standards/mix/mix20/mix20.xsd">
+	       <mix:BasicDigitalObjectInformation>
+	        <mix:ObjectIdentifier>
+	         <mix:objectIdentifierType>JHOVE</mix:objectIdentifierType>
+	        </mix:ObjectIdentifier>
+	        <mix:FormatDesignation>
+	         <mix:formatName>image/jpg</mix:formatName>
+	        </mix:FormatDesignation>
+	        <mix:Compression>
+	         <mix:compressionScheme>JPEG</mix:compressionScheme>
+	        </mix:Compression>
+	       </mix:BasicDigitalObjectInformation>
+	       <mix:BasicImageInformation>
+	        <mix:BasicImageCharacteristics>
+	         <mix:imageWidth>943</mix:imageWidth>
+	         <mix:imageHeight>148</mix:imageHeight>
+	         <mix:PhotometricInterpretation>
+	          <mix:colorSpace>RGB</mix:colorSpace>
+	         </mix:PhotometricInterpretation>
+	        </mix:BasicImageCharacteristics>
+	       </mix:BasicImageInformation>
+	       <mix:ImageAssessmentMetadata>
+	        <mix:ImageColorEncoding>
+	         <mix:BitsPerSample>
+	          <mix:bitsPerSampleValue>8</mix:bitsPerSampleValue>
+	          <mix:bitsPerSampleUnit>integer</mix:bitsPerSampleUnit>
+	         </mix:BitsPerSample>
+	        </mix:ImageColorEncoding>
+	       </mix:ImageAssessmentMetadata>
+	      </mix:mix>
+	        </value>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>Fonts</name>
+	     <values arity="List" type="Property">
+	     <property>
+	      <name>Type0</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>HardingText-Regular2</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>Identity-H</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>CIDFont+F1</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>Identity-H</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>Type1</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>HardingText-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>HardingText-Regular</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-200</value>
+	          <value>-274</value>
+	          <value>1330</value>
+	          <value>960</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>GraphikNaturel-Regular3</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>1</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>173</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>GraphikNaturel-Regular3</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-230</value>
+	          <value>-252</value>
+	          <value>1092</value>
+	          <value>1113</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>ZZESJV+TimesNewRomanPSMT</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>120</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>ZZESJV+TimesNewRomanPSMT</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-568</value>
+	          <value>-307</value>
+	          <value>2046</value>
+	          <value>1040</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>LZOKQX+GraphikNaturel-RegularItalic</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>31</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>31</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>LZOKQX+GraphikNaturel-RegularItalic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	          <value>Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-263</value>
+	          <value>-252</value>
+	          <value>1090</value>
+	          <value>1113</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>DOGUIN+STIXGeneral-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>31</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>31</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>DOGUIN+STIXGeneral-Regular</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-995</value>
+	          <value>-455</value>
+	          <value>2000</value>
+	          <value>1055</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>GraphikNaturel-Regular</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>GraphikNaturel-Regular</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-230</value>
+	          <value>-252</value>
+	          <value>1092</value>
+	          <value>1113</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>GraphikNaturel-Regular2</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>1</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>173</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>GraphikNaturel-Regular2</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-230</value>
+	          <value>-252</value>
+	          <value>1092</value>
+	          <value>1113</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>GraphikNaturel-Regular4</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>1</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>173</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>GraphikNaturel-Regular4</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-230</value>
+	          <value>-252</value>
+	          <value>1092</value>
+	          <value>1113</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>HardingText-Bold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>HardingText-Bold</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-214</value>
+	          <value>-275</value>
+	          <value>1403</value>
+	          <value>976</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>CJYDUP+GraphikNaturel-Black</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>30</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>31</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>CJYDUP+GraphikNaturel-Black</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-255</value>
+	          <value>-252</value>
+	          <value>1217</value>
+	          <value>1142</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>GraphikNaturel-RegularItalic2</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>GraphikNaturel-RegularItalic2</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	          <value>Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-263</value>
+	          <value>-252</value>
+	          <value>1090</value>
+	          <value>1113</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>HardingText-RegularItalic</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>HardingText-RegularItalic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	          <value>Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-250</value>
+	          <value>-274</value>
+	          <value>1293</value>
+	          <value>964</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>HardingText-Semibold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>HardingText-Semibold</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-196</value>
+	          <value>-274</value>
+	          <value>1378</value>
+	          <value>965</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>GraphikNaturel-Medium</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>GraphikNaturel-Medium</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-235</value>
+	          <value>-252</value>
+	          <value>1134</value>
+	          <value>1123</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>LZOKQX+GraphikNaturel-RegularItalic</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>31</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>31</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>LZOKQX+GraphikNaturel-RegularItalic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Symbolic</value>
+	          <value>Italic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-263</value>
+	          <value>-252</value>
+	          <value>1090</value>
+	          <value>1113</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>GraphikNaturel-Semibold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>GraphikNaturel-Semibold</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-238</value>
+	          <value>-252</value>
+	          <value>1159</value>
+	          <value>1128</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>EncodingDictionary</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>BaseEncoding</name>
+	         <values arity="Scalar" type="String">
+	          <value>WinAnsiEncoding</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Differences</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>Harding-Bold</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>0</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>255</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>Harding-Bold</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-211</value>
+	          <value>-274</value>
+	          <value>1389</value>
+	          <value>972</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>TrueType</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>XPTKHZ+ArialUnicodeMS</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontSubset</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FirstChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>LastChar</name>
+	        <values arity="Scalar" type="Integer">
+	         <value>32</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>XPTKHZ+ArialUnicodeMS</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Nonsymbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-1011</value>
+	          <value>-330</value>
+	          <value>2260</value>
+	          <value>1078</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>Encoding</name>
+	        <values arity="Scalar" type="String">
+	         <value>WinAnsiEncoding</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>ToUnicode</name>
+	        <values arity="Scalar" type="Boolean">
+	         <value>true</value>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>CIDFontType0</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>HardingText-Regular2</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>CIDSystemInfo</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Adobe</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Identity</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Supplement</name>
+	         <values arity="Scalar" type="Integer">
+	          <value>0</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>HardingText-Regular2</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-200</value>
+	          <value>-274</value>
+	          <value>1330</value>
+	          <value>960</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile3</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     <property>
+	      <name>CIDFontType2</name>
+	      <values arity="List" type="Property">
+	      <property>
+	       <name>Font</name>
+	       <values arity="List" type="Property">
+	       <property>
+	        <name>BaseFont</name>
+	        <values arity="Scalar" type="String">
+	         <value>CIDFont+F1</value>
+	        </values>
+	       </property>
+	       <property>
+	        <name>CIDSystemInfo</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Adobe</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Registry</name>
+	         <values arity="Scalar" type="String">
+	          <value>Identity</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Supplement</name>
+	         <values arity="Scalar" type="Integer">
+	          <value>0</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       <property>
+	        <name>FontDescriptor</name>
+	        <values arity="List" type="Property">
+	        <property>
+	         <name>FontName</name>
+	         <values arity="Scalar" type="String">
+	          <value>CIDFont+F1</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>Flags</name>
+	         <values arity="List" type="String">
+	          <value>Serif</value>
+	          <value>Symbolic</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontBBox</name>
+	         <values arity="Array" type="Integer">
+	          <value>-393</value>
+	          <value>-268</value>
+	          <value>393</value>
+	          <value>952</value>
+	         </values>
+	        </property>
+	        <property>
+	         <name>FontFile2</name>
+	         <values arity="Scalar" type="Boolean">
+	          <value>true</value>
+	         </values>
+	        </property>
+	        </values>
+	       </property>
+	       </values>
+	      </property>
+	      </values>
+	     </property>
+	     </values>
+	    </property>
+	    <property>
+	     <name>XMP</name>
+	     <values arity="Scalar" type="String">
+	      <value>&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.2-c001 63.143651, 2012/04/05-09:01:49        "&gt;
+	   &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+	      &lt;rdf:Description rdf:about=""
+	            xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+	         &lt;dc:format&gt;application/pdf&lt;/dc:format&gt;
+	         &lt;dc:identifier&gt;doi:10.1038/s44284-023-00023-3&lt;/dc:identifier&gt;
+	         &lt;dc:publisher&gt;
+	            &lt;rdf:Bag&gt;
+	               &lt;rdf:li&gt;Springer US&lt;/rdf:li&gt;
+	            &lt;/rdf:Bag&gt;
+	         &lt;/dc:publisher&gt;
+	         &lt;dc:description&gt;
+	            &lt;rdf:Alt&gt;
+	               &lt;rdf:li xml:lang="x-default"&gt;Nature Cities, doi:10.1038/s44284-023-00023-3&lt;/rdf:li&gt;
+	            &lt;/rdf:Alt&gt;
+	         &lt;/dc:description&gt;
+	         &lt;dc:title&gt;
+	            &lt;rdf:Alt&gt;
+	               &lt;rdf:li xml:lang="x-default"&gt;Comparing the carbon footprints of urban and conventional agriculture&lt;/rdf:li&gt;
+	            &lt;/rdf:Alt&gt;
+	         &lt;/dc:title&gt;
+	         &lt;dc:creator&gt;
+	            &lt;rdf:Seq&gt;
+	               &lt;rdf:li&gt;Jason K. Hawes&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Benjamin P. Goldstein&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Joshua P. Newell&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Erica Dorr&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Silvio Caputo&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Runrid Fox-Kamp#x000E4;mper&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Baptiste Grard&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Rositsa T. Ilieva&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Agnamp#x000E8;s Fargue-Leliamp#x000E8;vre&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Lidia Poniamp#x0017C;y&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Victoria Schoen&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Kathrin Specht&lt;/rdf:li&gt;
+	               &lt;rdf:li&gt;Nevin Cohen&lt;/rdf:li&gt;
+	            &lt;/rdf:Seq&gt;
+	         &lt;/dc:creator&gt;
+	      &lt;/rdf:Description&gt;
+	      &lt;rdf:Description rdf:about=""
+	            xmlns:xmp="http://ns.adobe.com/xap/1.0/"&gt;
+	         &lt;xmp:CreatorTool&gt;Springer&lt;/xmp:CreatorTool&gt;
+	         &lt;xmp:ModifyDate&gt;2024-01-05T15:10:15+05:30&lt;/xmp:ModifyDate&gt;
+	         &lt;xmp:CreateDate&gt;2024-01-05T15:09:08+05:30&lt;/xmp:CreateDate&gt;
+	         &lt;xmp:MetadataDate&gt;2024-01-05T15:10:15+05:30&lt;/xmp:MetadataDate&gt;
+	      &lt;/rdf:Description&gt;
+	      &lt;rdf:Description rdf:about=""
+	            xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"&gt;
+	         &lt;xmpRights:Marked&gt;True&lt;/xmpRights:Marked&gt;
+	      &lt;/rdf:Description&gt;
+	      &lt;rdf:Description rdf:about=""
+	            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"&gt;
+	         &lt;pdf:Keywords/&gt;
+	      &lt;/rdf:Description&gt;
+	      &lt;rdf:Description rdf:about=""
+	            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+	            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"&gt;
+	         &lt;xmpMM:DocumentID&gt;uuid:8d51d3d6-5f10-4d15-a141-17d9ab34d196&lt;/xmpMM:DocumentID&gt;
+	         &lt;xmpMM:InstanceID&gt;uuid:666239d3-82e5-421a-843c-08116a50a616&lt;/xmpMM:InstanceID&gt;
+	         &lt;xmpMM:RenditionClass&gt;default&lt;/xmpMM:RenditionClass&gt;
+	         &lt;xmpMM:VersionID&gt;1&lt;/xmpMM:VersionID&gt;
+	         &lt;xmpMM:History&gt;
+	            &lt;rdf:Seq&gt;
+	               &lt;rdf:li rdf:parseType="Resource"&gt;
+	                  &lt;stEvt:action&gt;converted&lt;/stEvt:action&gt;
+	                  &lt;stEvt:instanceID&gt;uuid:9289b271-d6ea-40bd-9307-366f438e5c95&lt;/stEvt:instanceID&gt;
+	                  &lt;stEvt:parameters&gt;converted to PDF/A-2b&lt;/stEvt:parameters&gt;
+	                  &lt;stEvt:softwareAgent&gt;pdfToolbox&lt;/stEvt:softwareAgent&gt;
+	                  &lt;stEvt:when&gt;2024-01-05T15:10:15+05:30&lt;/stEvt:when&gt;
+	               &lt;/rdf:li&gt;
+	            &lt;/rdf:Seq&gt;
+	         &lt;/xmpMM:History&gt;
+	      &lt;/rdf:Description&gt;
+	      &lt;rdf:Description rdf:about=""
+	            xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/"&gt;
+	         &lt;pdfaid:part&gt;2&lt;/pdfaid:part&gt;
+	         &lt;pdfaid:conformance&gt;B&lt;/pdfaid:conformance&gt;
+	      &lt;/rdf:Description&gt;
+	      &lt;rdf:Description rdf:about=""
+	            xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/"
+	            xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#"
+	            xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#"&gt;
+	         &lt;pdfaExtension:schemas&gt;
+	            &lt;rdf:Bag&gt;
+	               &lt;rdf:li rdf:parseType="Resource"&gt;
+	                  &lt;pdfaSchema:namespaceURI&gt;http://ns.adobe.com/pdf/1.3/&lt;/pdfaSchema:namespaceURI&gt;
+	                  &lt;pdfaSchema:prefix&gt;pdf&lt;/pdfaSchema:prefix&gt;
+	                  &lt;pdfaSchema:schema&gt;Adobe PDF Schema&lt;/pdfaSchema:schema&gt;
+	                  &lt;pdfaSchema:property&gt;
+	                     &lt;rdf:Seq&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;A name object indicating whether the document has been modified to include trapping information&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;Trapped&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                     &lt;/rdf:Seq&gt;
+	                  &lt;/pdfaSchema:property&gt;
+	               &lt;/rdf:li&gt;
+	               &lt;rdf:li rdf:parseType="Resource"&gt;
+	                  &lt;pdfaSchema:namespaceURI&gt;http://ns.adobe.com/pdfx/1.3/&lt;/pdfaSchema:namespaceURI&gt;
+	                  &lt;pdfaSchema:prefix&gt;pdfx&lt;/pdfaSchema:prefix&gt;
+	                  &lt;pdfaSchema:schema&gt;Adobe Document Info PDF eXtension Schema&lt;/pdfaSchema:schema&gt;
+	                  &lt;pdfaSchema:property&gt;
+	                     &lt;rdf:Seq&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;ID of PDF/X standard&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;GTS_PDFXVersion&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;Conformance level of PDF/X standard&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;GTS_PDFXConformance&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;Company creating the PDF&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;Company&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;Date when document was last modified&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;SourceModified&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                     &lt;/rdf:Seq&gt;
+	                  &lt;/pdfaSchema:property&gt;
+	               &lt;/rdf:li&gt;
+	               &lt;rdf:li rdf:parseType="Resource"&gt;
+	                  &lt;pdfaSchema:namespaceURI&gt;http://ns.adobe.com/xap/1.0/mm/&lt;/pdfaSchema:namespaceURI&gt;
+	                  &lt;pdfaSchema:prefix&gt;xmpMM&lt;/pdfaSchema:prefix&gt;
+	                  &lt;pdfaSchema:schema&gt;XMP Media Management Schema&lt;/pdfaSchema:schema&gt;
+	                  &lt;pdfaSchema:property&gt;
+	                     &lt;rdf:Seq&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;UUID based identifier for specific incarnation of a document&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;InstanceID&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;URI&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;The common identifier for all versions and renditions of a document.&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;OriginalDocumentID&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;URI&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                     &lt;/rdf:Seq&gt;
+	                  &lt;/pdfaSchema:property&gt;
+	               &lt;/rdf:li&gt;
+	               &lt;rdf:li rdf:parseType="Resource"&gt;
+	                  &lt;pdfaSchema:namespaceURI&gt;http://www.aiim.org/pdfa/ns/id/&lt;/pdfaSchema:namespaceURI&gt;
+	                  &lt;pdfaSchema:prefix&gt;pdfaid&lt;/pdfaSchema:prefix&gt;
+	                  &lt;pdfaSchema:schema&gt;PDF/A ID Schema&lt;/pdfaSchema:schema&gt;
+	                  &lt;pdfaSchema:property&gt;
+	                     &lt;rdf:Seq&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;Part of PDF/A standard&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;part&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;Integer&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;Amendment of PDF/A standard&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;amd&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                        &lt;rdf:li rdf:parseType="Resource"&gt;
+	                           &lt;pdfaProperty:category&gt;internal&lt;/pdfaProperty:category&gt;
+	                           &lt;pdfaProperty:description&gt;Conformance level of PDF/A standard&lt;/pdfaProperty:description&gt;
+	                           &lt;pdfaProperty:name&gt;conformance&lt;/pdfaProperty:name&gt;
+	                           &lt;pdfaProperty:valueType&gt;Text&lt;/pdfaProperty:valueType&gt;
+	                        &lt;/rdf:li&gt;
+	                     &lt;/rdf:Seq&gt;
+	                  &lt;/pdfaSchema:property&gt;
+	               &lt;/rdf:li&gt;
+	            &lt;/rdf:Bag&gt;
+	         &lt;/pdfaExtension:schemas&gt;
+	      &lt;/rdf:Description&gt;
+	   &lt;/rdf:RDF&gt;
+	&lt;/x:xmpmeta&gt;</value>
+	     </values>
+	    </property>
+	    </values>
+	   </property>
+	  </properties>
+	 </repInfo>
+	</jhove>
+	
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	JHOVE:	Invalid indirect destination - referenced object '
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

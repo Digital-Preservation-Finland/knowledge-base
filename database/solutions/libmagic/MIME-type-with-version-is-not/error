@@ -1,0 +1,17 @@
+{
+  "files": [
+    "corpus/file/c3bc2a99-cd5f-4659-a80b-6151def881bc"
+  ],
+  "analyses": [],
+  "validator": "libmagic",
+  "validatorVersion": [
+    "5.39"
+  ],
+  "errorMessage": "MIME type .* with version .* is not supported.",
+  "type": "",
+  "outputExample": [
+    "MIME type application/pdf with version 1.1 is not supported."
+  ],
+  "notes": [],
+  "@id": "85472b43-5d48-40d6-88d5-47d783897bcf"
+}

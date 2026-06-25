@@ -1,0 +1,18 @@
+{
+  "files": [
+    "corpus/file/c081836b-8c37-461d-8247-854434628150"
+  ],
+  "analyses": [],
+  "validator": "Ghostscript",
+  "validatorVersion": [
+    "10.06.0"
+  ],
+  "errorMessage": "Attempt to dereference a free object",
+  "type": "",
+  "outputExample": [
+    "\nThe following errors were encountered at least once while processing this file:\n\tAttempt to dereference a free object\n\n   **** This file had errors that were repaired or ignored.\n   **** The file was produced by: \n   **** >>>> Toolkit http://www.activepdf.com <<<<\n   **** Please notify the author of the software that produced this\n   **** file that it does not conform to Adobe's published PDF\n   **** specification.\n\n",
+    "GPL Ghostscript 10.06.0 (2025-09-09)\nCopyright (C) 2025 Artifex Software, Inc.  All rights reserved.\nThis software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:\nsee the file COPYING for details.\nProcessing pages 1 through 18.\nPage 1\nLoading font F3 (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nLoading font F3 (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nLoading font Helvetica-Bold (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Bold\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nPage 2\nPage 3\nPage 4\nPage 5\nPage 6\nPage 7\nPage 8\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nPage 9\nPage 10\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nLoading font Symbol (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/StandardSymbolsPS\nPage 11\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nLoading font Symbol (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/StandardSymbolsPS\nPage 12\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nPage 13\nPage 14\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nLoading font Symbol (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/StandardSymbolsPS\nPage 15\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nLoading font Symbol (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/StandardSymbolsPS\nPage 16\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nPage 17\nLoading font Helvetica (or substitute) from /opt/ghostscript-10.06/share/ghostscript/Resource/Font/NimbusSans-Regular\nPage 18\n\nThe following warnings were encountered at least once while processing this file:\n\tA Font key in a Resources dictionary has a value of the wrong type\n"
+  ],
+  "notes": [],
+  "@id": "89b4cdd8-ae04-4f9b-91b7-eb049eb74d79"
+}

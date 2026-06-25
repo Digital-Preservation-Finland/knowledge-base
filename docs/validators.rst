@@ -61,11 +61,20 @@ ffprobe
  - :ref:`2ee22854-0303-47f6-a583-9f3ba7ec2781`
  - :ref:`ecc55794-2b06-4acf-893d-f6ec83741bdf`
 
+file
+----
+
+
 file-scraper
 ------------
 
- - :ref:`c42b4177-cef8-4b92-8d9c-24dd68c2b382`
+ - :ref:`23f13567-5b33-4bb2-a192-5c17365f685f`
+ - :ref:`32b73db0-57ed-402d-aec8-9d73be837465`
+ - :ref:`390958d4-3ad0-4d21-b15b-c5fd5e13c12c`
+ - :ref:`780460e0-93d0-42a0-b682-0a37b4d380a4`
+ - :ref:`e732e000-f969-4050-a52c-d63604a474d5`
  - :ref:`f4e8cb49-3620-4b6b-a210-ee5364235718`
+ - :ref:`f8430cd2-0f7c-4cc9-8b79-25954810299d`
 
 Ghostscript
 -----------
@@ -73,7 +82,11 @@ Ghostscript
  - :ref:`03f82dd8-c69a-46cc-b18b-a53b9f51363d`
  - :ref:`06f996bb-a5fa-48cf-84ea-9eba11d7fef7`
  - :ref:`0e41ca9a-5bf1-4003-a4c9-43fc4c8dd9cb`
+ - :ref:`10615cd0-8f7d-4788-9877-d79e27b82310`
+ - :ref:`13e84173-7f21-4294-b178-201110dfe799`
+ - :ref:`1461b0d2-49ce-4495-8573-1487d1a74f67`
  - :ref:`1ba35b51-40b2-4a12-a012-d8a942d0b116`
+ - :ref:`1d3fdf7b-1dab-407f-b451-d6d20c9f21a6`
  - :ref:`1ed9c4a7-8236-49c1-8367-69f5c84dc5ed`
  - :ref:`267161f3-14cf-445b-bd64-0dfaec8d0c87`
  - :ref:`268f7ab7-be46-4957-b7f7-b67588303779`
@@ -85,6 +98,7 @@ Ghostscript
  - :ref:`377324aa-3bc9-4e70-8e1c-10173e67ddc1`
  - :ref:`37a58f8a-bd08-4c9f-a23d-734b48d061a0`
  - :ref:`38658f91-b518-4db4-9fcc-7661f2d6beaf`
+ - :ref:`4200668f-63c3-4e53-a533-9572ac2656a6`
  - :ref:`42f21025-b000-4463-9d24-aab973566174`
  - :ref:`4602ebeb-e605-4822-b8d1-7fff6d121d5e`
  - :ref:`48b985f5-b033-41f2-9fc3-71e3ce0c6a43`
@@ -96,6 +110,7 @@ Ghostscript
  - :ref:`5950c9f9-75c4-40bf-9323-a088fac90d4f`
  - :ref:`59db0e07-aca2-4fd9-87a0-f47d98c7d3c2`
  - :ref:`5b58e8b3-f85c-441f-a60e-8a646ff60060`
+ - :ref:`5f0e1ecc-9ebb-4058-b3aa-c7444772e3ea`
  - :ref:`6071a06e-cc5c-4852-9c89-21f3e58bdbb0`
  - :ref:`636a9406-28f6-44f9-8a32-0e857a223ca3`
  - :ref:`69d591d1-2ae0-40ad-81d4-4027068edd52`
@@ -105,6 +120,7 @@ Ghostscript
  - :ref:`7f0de8f1-820a-4ac4-92a0-5f0d5dcbceb5`
  - :ref:`7fba2517-b481-462f-bc88-85ebf58cf778`
  - :ref:`87cec4a5-4f9b-4e82-855a-fd765ff19b73`
+ - :ref:`89b4cdd8-ae04-4f9b-91b7-eb049eb74d79`
  - :ref:`8a772501-6ea4-4e70-ae45-34ac83e97df4`
  - :ref:`8caae165-231a-4cdc-80fa-4b6d8ea85223`
  - :ref:`982d5efd-3de6-46c1-bbe0-ef221a07e254`
@@ -116,6 +132,7 @@ Ghostscript
  - :ref:`ac78e737-4019-4afc-ab09-56907ffd5cd7`
  - :ref:`b08302b9-3d3e-43ed-b8f1-77ba16dc78a7`
  - :ref:`b17be000-9ca3-4b13-8605-fdd58399fa18`
+ - :ref:`b33c167f-3be7-4631-b96d-13a471775918`
  - :ref:`b431239e-e9d4-4960-aa48-ef2b8f253eb5`
  - :ref:`bc3dc849-fae3-4bab-8289-4dc96eab0500`
  - :ref:`bd392c68-6621-418f-bae4-a80e5375206b`
@@ -127,6 +144,7 @@ Ghostscript
  - :ref:`da78a0cb-e271-4f23-a1be-77394cb013cb`
  - :ref:`dc96c721-c02d-4823-bcbe-560450889256`
  - :ref:`df53b395-67ab-474c-b1ba-9a4ed6f56ab4`
+ - :ref:`eb2ce4dc-e27b-401a-829d-0892e20e9047`
  - :ref:`eb98674d-e7a7-444d-941a-1404fa03c537`
  - :ref:`ec5fd4f8-dfd7-4f43-9465-57da2b85dcb0`
  - :ref:`f47c863b-9987-4140-aaaf-437ef88e5c3c`
@@ -136,6 +154,7 @@ Ghostscript
 ImageMagick
 -----------
 
+ - :ref:`012d8418-eded-458e-b589-bca7c7c3bffe`
  - :ref:`02ae6e2c-20a5-4b0a-8ead-c20b275c61da`
  - :ref:`12f69695-bb2d-432f-bc4f-5fc7d16ed4eb`
  - :ref:`2337181e-a960-4126-9b99-d3d382c7a5f4`
@@ -145,6 +164,7 @@ ImageMagick
  - :ref:`68485d78-f01f-49ff-9958-70e8af81c902`
  - :ref:`6e87213f-8933-4125-9c08-de09669038b2`
  - :ref:`9490fea9-8cfa-4034-99d1-1a4ea7d0b30a`
+ - :ref:`9566a19b-b4bd-4ad2-9c00-6933fbbf16bb`
  - :ref:`ceccdef3-c125-4d37-aa70-fc1a784f45af`
  - :ref:`e83c76f0-3fb5-411d-a094-8e203a5cfdcc`
  - :ref:`fc45fa83-2956-465d-8e23-1d61a5fedf0d`
@@ -157,33 +177,51 @@ JHOVE
  - :ref:`0987f4cf-cd3c-4cb6-840e-637ad3b2fee1`
  - :ref:`0989070e-7aec-4f84-a50b-38108cbda523`
  - :ref:`0a3cc386-f7bc-4de5-a363-1edb068766ce`
+ - :ref:`0c63dc4a-0b25-4cf2-a70c-b9e4d3ed1095`
  - :ref:`0d30c081-dae7-4494-bb6e-96375acce442`
+ - :ref:`13f5b264-0e54-4064-9afb-f5b0d1b9168e`
  - :ref:`15b21d1e-d76e-43b0-9cf0-783e28ad8502`
  - :ref:`1a0fa003-5953-49d0-bda5-6656bf664b3f`
+ - :ref:`1c37b3fb-ac3c-4562-b9cb-051c6c86c9f4`
  - :ref:`1f3e98f8-afb5-4cb3-85b4-c054306d362b`
  - :ref:`2048abe7-4fbf-4dfe-85bb-c951348f436d`
+ - :ref:`20fcfbe3-6c5b-4f47-a0fc-b2570d5cd507`
  - :ref:`2665ad43-a75c-4cc3-8956-6fd6055fbdcc`
  - :ref:`2905c1b0-45d7-4bf6-a545-e9ad629015b9`
+ - :ref:`2c1b3710-fca3-4886-aa85-6f3b5b0716f7`
  - :ref:`2c214ab1-7d55-4595-b919-a6020fd20ee9`
  - :ref:`2d77a416-4a99-49b0-9859-4672857a69a0`
  - :ref:`3199117a-c878-44e7-b7ba-d42a577301b9`
  - :ref:`3b91a9cf-b18b-4ee0-b0a4-cc48c1831752`
+ - :ref:`3e62e8f1-f7e1-4c4d-a1dd-5cdd00fb0e78`
+ - :ref:`41137150-428a-4747-b61c-8b57a2197578`
  - :ref:`41534208-fa07-456d-aff3-ab11d86530fc`
+ - :ref:`4ca6f9c7-edb3-46ac-b87b-740c6bbc2931`
+ - :ref:`4d921e14-4c39-4eae-9ff9-f1098cc56f38`
  - :ref:`4f52576a-6def-4aff-96ef-c31f4fc6cd05`
  - :ref:`4fd83fee-1875-4f66-b5d3-bf017960dff9`
+ - :ref:`500d7268-eb59-4798-a842-4ef66f5b7804`
  - :ref:`5155ae6b-10aa-411e-8a62-8508c5ae13fc`
+ - :ref:`578c5e48-3648-4cda-9854-12bd0b407c27`
  - :ref:`5db20d59-c29a-4fb7-8c30-d4dcd081480b`
  - :ref:`5f456ecf-8c58-4da3-8599-cb1c89377ea0`
  - :ref:`6a144716-754a-4c03-8007-a9ee1f85ca5d`
+ - :ref:`818f2abe-9746-4ba1-98cc-9123ac140023`
  - :ref:`81fb122e-b119-4f1d-baac-349aae1ddbfa`
  - :ref:`83437331-c1c5-42d2-a256-d4e259ed9784`
  - :ref:`84cc02de-c307-4192-91ea-1d9d45f85a6b`
  - :ref:`859dbdc0-ecc9-486e-bf25-1f03723fbc02`
+ - :ref:`8e32bc21-3eb1-413a-902f-d2c9d34a554a`
+ - :ref:`8f548d12-ad6f-4130-a8d1-97fa57b43c65`
  - :ref:`91f9082c-0188-4be0-943d-8fe6962164db`
+ - :ref:`952cdb00-f152-4fb7-9199-db42a461915a`
  - :ref:`984cfe30-5a0b-4576-a8b6-1ae047795b4e`
+ - :ref:`991295b9-6f0b-42a5-a33c-7f39713a5600`
  - :ref:`99d9e72e-7d2f-4cbb-a9c4-4948d6936b27`
+ - :ref:`a28f7e5d-4941-418c-b13c-702e7178a4c9`
  - :ref:`a3051d3a-567a-497e-ac23-d52895446688`
  - :ref:`a5be43cd-ec2c-4dc9-bd10-fba2894f6f60`
+ - :ref:`a63391ff-8c7b-46ac-ae14-9dd2347b86d6`
  - :ref:`ab9b11d5-1276-4db5-9379-efa7ac12462a`
  - :ref:`b2b36308-0f13-44d1-b1ee-0d6fc5c6fc2d`
  - :ref:`b46944dc-cb86-48c9-b9d3-23f760d655b7`
@@ -191,13 +229,18 @@ JHOVE
  - :ref:`b6eee62a-4d62-4a1f-8404-8219716ba18d`
  - :ref:`bbf8b11e-fe08-4981-b130-110401e09375`
  - :ref:`bc3e3c25-a58b-4887-a2c9-413b24869ecc`
+ - :ref:`c510e7ce-d90b-4fcb-8096-35f1a12f380a`
  - :ref:`c6c03dee-2277-4f49-8dcb-866aab96dc60`
  - :ref:`c8a5c6c5-4018-4bbd-9f94-a9d8add669bf`
+ - :ref:`caeec1a2-7f32-47b8-9040-7fb92278cbf6`
  - :ref:`cfb0c37b-5cad-481e-85ce-0a02d98865f8`
  - :ref:`db3468ab-bc07-4067-a0ba-a2e3d30264f2`
+ - :ref:`e5d038c1-d23e-404b-847f-c0a9cc4d2d0b`
  - :ref:`e9c8a1c0-c828-4ad3-9a37-a7b5288a6769`
+ - :ref:`eaed69e9-8246-4e6f-9eb6-ae66e5477281`
  - :ref:`ed4d0a65-9e3d-4cf1-a688-091181dd12c6`
  - :ref:`ee024f15-e17b-435c-afef-71860fcf39de`
+ - :ref:`f538ae27-0062-4430-8e20-524f480f2b10`
  - :ref:`f976e5fa-fc70-4260-8a7f-6d026605ddd6`
  - :ref:`fd51005c-c369-404f-91f3-e57b60c667dd`
 
@@ -210,6 +253,11 @@ jpylyzer
  - :ref:`bb59ceb4-5653-42a7-8fe8-44614bad9dde`
  - :ref:`ceabdc86-421e-4893-aa48-46cf06f02cd2`
  - :ref:`e8a9d498-66ae-4b6b-b124-d82c9ad70d59`
+
+libmagic
+--------
+
+ - :ref:`85472b43-5d48-40d6-88d5-47d783897bcf`
 
 libreoffice
 -----------
@@ -249,6 +297,19 @@ Pillow
  - :ref:`af2cb831-274e-4e62-9198-a9101933aca7`
  - :ref:`cab4a05a-ed80-40ce-b2ff-8f6adffb88d0`
 
+PNGcheck
+--------
+
+ - :ref:`2404811a-9b05-4c38-93a2-b2a1afebd173`
+
+pre
+---
+
+
+pymediainfo
+-----------
+
+
 python-image-library
 --------------------
 
@@ -275,7 +336,6 @@ Validator.nu
  - :ref:`8b9659b7-7b7a-4249-83fd-f4bbd768cd10`
  - :ref:`8fa05141-2de1-4a3e-920f-ea58d6814007`
  - :ref:`a392f33c-a824-4b20-95be-56826d61fc21`
- - :ref:`af7b05b2-c58e-4331-89cc-59da1d6acae5`
  - :ref:`b37e2adc-4473-4f50-bb7d-f8cabd482af4`
  - :ref:`b6295b47-a617-4ce9-9ac5-e5c8d09334b9`
  - :ref:`c0d4a7f8-fa9b-4128-adfa-fe5b10fd43b2`

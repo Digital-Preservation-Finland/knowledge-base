@@ -202,6 +202,7 @@ Related errors by source files
 	Ghostscript:	error executing PDF token
 	Ghostscript:	error reading a stream
 	Ghostscript:	ET found outside text block
+	Ghostscript:	File has some garbage before %PDF-
 	Ghostscript:	Incorrect /Length for stream object
 	Ghostscript:	object lacks an endobj
 	Ghostscript:	Page drawing error occurred.
@@ -210,6 +211,7 @@ Related errors by source files
 	Ghostscript:	xref table was repaired
 	JHOVE:	Invalid object definition
 	JHOVE:	No document catalog dictionary
+	JHOVE:	No PDF header
 	JHOVE:	No PDF trailer
 	veraPDF:	A CIDSet entry in the Font descriptor is missing or does not correctly identify all glyphs present in the embedded font subset and used for rendering
 	veraPDF:	Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))

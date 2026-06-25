@@ -73,6 +73,10 @@ Related errors by source files
 
 ::
 
+	file-scraper:	Conflict with values 'image/jpeg' and 'image/mpo'
+	file-scraper:	Proper extractor was not found. The file was not analyzed.
+	ImageMagick:	Error in analyzing file
+	ImageMagick:	Extractor didn't produce any output streams.
 	ImageMagick:	Not enough data for scanline .*, expected a request for at most .* bytes, got a request for .* bytes
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

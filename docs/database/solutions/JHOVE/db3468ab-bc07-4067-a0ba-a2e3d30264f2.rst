@@ -70,7 +70,6 @@ Related errors by source files
 ::
 
 	ExifTool:	MIME type image/x-adobe-dng with version 1.7 is not supported.
-	file-scraper:	Given version 1.7 for the mimetype image/x-adobe-dng is not supported
 	JHOVE:	TileLength not a multiple of
 	JHOVE:	Undocumented TIFF tag
 	JHOVE:	Unknown TIFF IFD tag

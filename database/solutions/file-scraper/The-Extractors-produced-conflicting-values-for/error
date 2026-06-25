@@ -1,0 +1,19 @@
+{
+  "files": [
+    "corpus/file/850d46e4-a59c-4b47-83ed-7ee947dd0716"
+  ],
+  "analyses": [],
+  "validator": "file-scraper",
+  "validatorVersion": [
+    "3.1.1"
+  ],
+  "errorMessage": "The Extractors produced conflicting values for charset:",
+  "type": "",
+  "outputExample": [
+    "The Extractors produced conflicting values for charset: UTF-8 and ASCII"
+  ],
+  "notes": [
+    "Scraper"
+  ],
+  "@id": "23f13567-5b33-4bb2-a192-5c17365f685f"
+}

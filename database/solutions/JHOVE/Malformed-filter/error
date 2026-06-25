@@ -1,0 +1,18 @@
+{
+  "files": [
+    "corpus/file/bdd5fff8-5d77-4604-83ed-ae4f8714f475"
+  ],
+  "analyses": [],
+  "validator": "JHOVE",
+  "validatorVersion": [
+    "1.32.1"
+  ],
+  "errorMessage": "Malformed filter",
+  "type": "",
+  "outputExample": [
+    "Validator returned error.",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jhove xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schema.openpreservation.org/ois/xml/ns/jhove\" xsi:schemaLocation=\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd\" name=\"Jhove\" release=\"1.32.1\" date=\"2025-02-06\">\n <date>2026-06-15T15:21:40+03:00</date>\n <repInfo uri=\"/corpus/format-corpus/jhove-errors/PDF-HUL-45/10531_2004_Article_5096977.pdf\">\n  <reportingModule release=\"1.12.7\" date=\"2024-08-22\">PDF-hul</reportingModule>\n  <lastModified>2026-06-15T13:22:18+03:00</lastModified>\n  <size>416096</size>\n  <format>PDF</format>\n  <status>Not well-formed</status>\n  <sigMatch>\n  <module>PDF-hul</module>\n  </sigMatch>\n  <messages>\n   <message offset=\"42847\" severity=\"error\" id=\"PDF-HUL-45\" infoLink=\"https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-45\">Malformed filter</message>\n  </messages>\n  <mimeType>application/pdf</mimeType>\n </repInfo>\n</jhove>\n"
+  ],
+  "notes": [],
+  "@id": "4ca6f9c7-edb3-46ac-b87b-740c6bbc2931"
+}

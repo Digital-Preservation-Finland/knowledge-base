@@ -1,4 +1,4 @@
-    166     216   28108 database/format.objects
+    164     214   27807 database/format.objects
      10     776    8335 database/repair.objects
       2       2    1231 database/files/application_epub+zip/2.0.1
       5       5    3055 database/files/application_epub+zip/3
@@ -167,14 +167,23 @@
       1      10     358 database/solutions/ffmpeg/Warning-MVs-not-available/error
       1     221    2731 database/solutions/ffprobe/Error-opening-filters/error
       1      86     993 database/solutions/ffprobe/Invalid-data-found-when-processing-input/error
-      1       6     321 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/error
-      1      19     385 database/solutions/file-scraper/Given-version-17-for-the-mimetype-imagex-adobe-dng-is-not-supported/error
+      1       6     984 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/error
+      1      11     334 database/solutions/file-scraper/Given-mimetype-is-not-supported/error
+      1      19     367 database/solutions/file-scraper/Given-version-for-the-mimetype-is-not-supported/error
+      1      26     428 database/solutions/file-scraper/MIME-type-with-version-is-not/error
+      1      27    1052 database/solutions/file-scraper/Proper-extractor-was-not-The-file-was-not/error
+      1      16     373 database/solutions/file-scraper/The-Extractors-produced-conflicting-values-for/error
+      1      19     360 database/solutions/file-scraper/The-stream-has-conflicting-version-so-it-is/error
       1     206    2497 database/solutions/Ghostscript/A-closing-mark-or-had-no-matching-mark-ignoring-the-closing-mark/error
       1     106    1184 database/solutions/Ghostscript/A-dictionary-is-missing-a-required-Type-key/error
+      1     246    3171 database/solutions/Ghostscript/A-Font-key-in-a-Resources-dictionary-has-a-value-of-the-wrong-type/error
       1     723    6766 database/solutions/Ghostscript/A-Form-XObject-had-a-BBox-with-a-width-or-height-of-0/error
       1     895   10112 database/solutions/Ghostscript/An-embedded-font-is-invalid/error
       1      10     431 database/solutions/Ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored/error
+      1     288    2682 database/solutions/Ghostscript/Annotation-is-not-a-ignoring/error
       1     129    2433 database/solutions/Ghostscript/A-page-ended-after-a-BT-had-been-executed-and-without-a-mtching-ET/error
+      1     124    1119 database/solutions/Ghostscript/A-stream-keyword-was-not-terminated-with-a-linefeed/error
+      1     238    3141 database/solutions/Ghostscript/Attempt-to-dereference-a-free-object/error
       1     256    2610 database/solutions/Ghostscript/badly-escaped-name/error
       1     110    1455 database/solutions/Ghostscript/bad-trailer-dictionary/error
       1     744   10455 database/solutions/Ghostscript/BT-found-inside-a-text-block/error
@@ -189,12 +198,15 @@
       1     743   10607 database/solutions/Ghostscript/encountered-more-q-than-Q/error
       1     743   10350 database/solutions/Ghostscript/encountered-more-Q-than-q/error
       1     172    3878 database/solutions/Ghostscript/error-executing-PDF-token/error
+      1     286    2671 database/solutions/Ghostscript/error-in-transparency-XObject/error
       1     172    2955 database/solutions/Ghostscript/error-reading-a-stream/error
       1     743   10556 database/solutions/Ghostscript/ET-found-outside-text-block/error
+      1     162    1636 database/solutions/Ghostscript/File-has-some-garbage-before/error
       1     744   10157 database/solutions/Ghostscript/found-real-number-when-expecting-int/error
       1     172    3105 database/solutions/Ghostscript/garbage-left-on-stack/error
       1     174    3330 database/solutions/Ghostscript/ignoring-zlib-error-incorrect-data-check/error
       1      96    5108 database/solutions/Ghostscript/Incorrect-Length-for-stream-object/error
+      1     336    3606 database/solutions/Ghostscript/incorrect-xref-size/error
       1     170    2335 database/solutions/Ghostscript/integer-overflowed/error
       1     877   10212 database/solutions/Ghostscript/Invalid-ICC-colour-profile-using-alternate/error
       1     173    2104 database/solutions/Ghostscript/Invalid-number-format-scientific-notation/error
@@ -224,15 +236,19 @@
       1     197    2505 database/solutions/Ghostscript/text-operator-outside-text-block/error
       1     111    1166 database/solutions/Ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext/error
       1      15     458 database/solutions/Ghostscript/The-file-was-produced-by-n-Adobe-PSL-e-for-Canonu/error
+      1     208    2453 database/solutions/Ghostscript/There-was-an-error-in-an-annotation/error
       1     884   10241 database/solutions/Ghostscript/The-string-data-prameter-for-a-Indexed-colour-space-lookup-is-too-short/error
       1     199    2571 database/solutions/Ghostscript/unbalanced-or-unescaped-character-in-string/error
       1     139    1566 database/solutions/Ghostscript/undefined-in---runpdf--/error
       1     253    2230 database/solutions/Ghostscript/used-invalid-operator-in-CharProc/error
+      1     123    1083 database/solutions/Ghostscript/Xref-entry-for-object-0-not-a-free/error
       1     124    1592 database/solutions/Ghostscript/xref-entry-not-exactly-bytes/error
       1     123    1588 database/solutions/Ghostscript/xref-entry-not-valid-format/error
       1      95    6690 database/solutions/Ghostscript/xref-table-was-repaired/error
       1      11     417 database/solutions/ImageMagick/Bogus-marker-length/error
       1       9     447 database/solutions/ImageMagick/corrupt-image/error
+      1      34     489 database/solutions/ImageMagick/Error-in-analyzing-file/error
+      1      36     510 database/solutions/ImageMagick/Extractor-produce-any-output/error
       1      35     540 database/solutions/ImageMagick/Failed-to-allocate-memory-for-to-read-TIFF-directory-elements-of-bytes-each/error
       1      11     458 database/solutions/ImageMagick/IHDR-CRC-error/error
       1      11     468 database/solutions/ImageMagick/improper-image-header/error
@@ -244,35 +260,58 @@
       1      11     347 database/solutions/ImageMagick/Read-error-on-strip/error
       1       9     404 database/solutions/ImageMagick/Read-Exception/error
       1      27     454 database/solutions/ImageMagick/Stream-error-while-reading-JP2-Header-box-box-length-is-inconsistent/error
+      1    2108   50113 database/solutions/JHOVE/Annotation-object-is-not-a-dictionary/error
       1     230    5306 database/solutions/JHOVE/Chunk-ID-character-outside-printable-ASCII-range/error
       1      63    1746 database/solutions/JHOVE/Chunk-ID-contains-space-before-printable-characters-BKj/error
+      1      49    1386 database/solutions/JHOVE/Compression-method-is-invalid-or-unknown-to-JHOVE/error
       1     176    3602 database/solutions/JHOVE/CSS-001-ERROR/error
       1     175    3653 database/solutions/JHOVE/Document-catalog-dictionary-object-number-and-trailer-root-ref-number-are-inconsistent/error
+      1      57    1429 database/solutions/JHOVE/Document-catalog-has-no-Type-key-or-it-has-a-null/error
       1    3856   68026 database/solutions/JHOVE/Document-must-have-implicit-or-explicit-HEAD-element/error
+      1    1048   21839 database/solutions/JHOVE/Expected-dictionary-for-font-entry-in-page-resource/error
       1     226    7434 database/solutions/JHOVE/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment/error
       1      39    1263 database/solutions/JHOVE/File-does-not-start-with-RIFF-header/error
       1      47    1524 database/solutions/JHOVE/IFD-offset-not-word-aligned/error
       1   10074  209060 database/solutions/JHOVE/Improperly-formed-date/error
       1       4     320 database/solutions/JHOVE/Improperly-nested-array-delimiters/error
       1      41    2190 database/solutions/JHOVE/Improperly-nested-dictionary-delimiters/error
+      1   29535  659678 database/solutions/JHOVE/Invalid-Annotation-property/error
       1       5     314 database/solutions/JHOVE/Invalid-character-in-hex-string/error
       1       2     283 database/solutions/JHOVE/Invalid-Checksum/error
       1      56    1757 database/solutions/JHOVE/Invalid-chunk-size/error
       1      47    1767 database/solutions/JHOVE/Invalid-cross-reference-table/error
+      1    2620   76376 database/solutions/JHOVE/Invalid-date-in-page-number-tree/error
       1   20333  452455 database/solutions/JHOVE/Invalid-destination-object/error
+      1     564   15857 database/solutions/JHOVE/Invalid-dictionary-data-for-page/error
       1      36    1314 database/solutions/JHOVE/Invalid-GIF-header/error
+      1    7185  221221 database/solutions/JHOVE/Invalid-ID-in-trailer/error
+      1    6068  123547 database/solutions/JHOVE/Invalid-indirect-destination-referenced-object/error
+      1      39    1349 database/solutions/JHOVE/Invalid-Names-dictionary/error
+      1   23129  543699 database/solutions/JHOVE/Invalid-name-tree/error
       1      47    5956 database/solutions/JHOVE/Invalid-object-definition/error
+      1      45    1390 database/solutions/JHOVE/Invalid-object-number-in-stream/error
+      1      46    1391 database/solutions/JHOVE/Invalid-object-number-or-object-stream/error
+      1    2978   65306 database/solutions/JHOVE/Invalid-outline-dictionary-item/error
+      1   34136  877835 database/solutions/JHOVE/Invalid-page-dictionary/error
+      1     157    4359 database/solutions/JHOVE/Invalid-page-tree-node/error
+      1      62    1656 database/solutions/JHOVE/Invalid-Prev-offset-in-trailer-dictionary/error
       1     435   11859 database/solutions/JHOVE/JPEGProc-not-defined-for-JPEG-compression/error
       1       2     278 database/solutions/JHOVE/Lexical-error/error
+      1      37    1356 database/solutions/JHOVE/Malformed-dictionary/error
       1      13     412 database/solutions/JHOVE/Malformed-dictionary-Vector-must-contain-an-even-number-of-objects-but-has-17/error
+      1      37    1335 database/solutions/JHOVE/Malformed-filter/error
+      1      39    1364 database/solutions/JHOVE/Malformed-stream/error
+      1    9973  294354 database/solutions/JHOVE/Missing-expected-element-in-page-number-dictionary/error
       1      43    1582 database/solutions/JHOVE/Missing-startxref-keyword-or-value/error
       1      48    4738 database/solutions/JHOVE/No-document-catalog-dictionary/error
       1      39    1372 database/solutions/JHOVE/No-file-trailer/error
       1      66    1829 database/solutions/JHOVE/No-Format-chunk-found/error
+      1      36    1253 database/solutions/JHOVE/No-PDF-header/error
       1      39    1485 database/solutions/JHOVE/No-PDF-trailer/error
       1     388    8797 database/solutions/JHOVE/PDF-minor-version-number-is-greater-than/error
       1     156    3641 database/solutions/JHOVE/PKG-006-ERROR/error
       1      45    1510 database/solutions/JHOVE/Premature-EOF/error
+      1    1817   41183 database/solutions/JHOVE/Problem-with-page-label-structure/error
       1     161    3369 database/solutions/JHOVE/RSC-005-ERROR/error
       1     165    3529 database/solutions/JHOVE/RSC-017-WARN/error
       1    5117   52620 database/solutions/JHOVE/SAXParseException-Element-type-must-be-declared/error
@@ -297,6 +336,7 @@
       1      19    1598 database/solutions/jpylyzer/firstJP2HeaderBoxIsImageHeaderBoxFalse/error
       1      19    1592 database/solutions/jpylyzer/locationJP2HeaderBoxIsValidFalse/error
       1      21    1587 database/solutions/jpylyzer/warningignoring-unknown-box/error
+      1      17     339 database/solutions/libmagic/MIME-type-with-version-is-not/error
       1      36     742 database/solutions/libreoffice/E-ltstringvalue-assertion-string-void-failed/error
       1       5     478 database/solutions/lxml/Corrupted-ZIP-archive/error
       1      28     583 database/solutions/lxml/Element-Missing-child-elements-Expected-is/error

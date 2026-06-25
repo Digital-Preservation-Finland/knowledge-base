@@ -1,0 +1,19 @@
+{
+  "files": [
+    "corpus/file/c3bc2a99-cd5f-4659-a80b-6151def881bc"
+  ],
+  "analyses": [],
+  "validator": "file-scraper",
+  "validatorVersion": [
+    "3.1.1"
+  ],
+  "errorMessage": "Given version .* for the mimetype .* is not supported",
+  "type": "",
+  "outputExample": [
+    "Given version 1.1 for the mimetype application/pdf is not supported"
+  ],
+  "notes": [
+    "Scraper"
+  ],
+  "@id": "f8430cd2-0f7c-4cc9-8b79-25954810299d"
+}
