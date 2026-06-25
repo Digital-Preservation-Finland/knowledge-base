@@ -9,7 +9,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-open-nocopy-password.pdf.jhove.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org%203.2.0%20OSX/pdf-features/simple-open-nocopy-password.pdf.jhove.xml"
     }
   ],
   "metadata": {
@@ -201,7 +201,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-open-password.pdf.jhove.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org%203.2.0%20OSX/pdf-features/simple-open-password.pdf.jhove.xml"
     }
   ],
   "metadata": {
@@ -297,7 +297,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple.pdf.jhove.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org%203.2.0%20OSX/pdf-features/simple.pdf.jhove.xml"
     }
   ],
   "metadata": {
@@ -321,7 +321,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/knowledge-management/Mind Manager/COPAC.UKNUC.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/knowledge-management/Mind%20Manager/COPAC.UKNUC.xml"
     }
   ],
   "metadata": {
@@ -393,7 +393,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-password-nocopy.pdf.jhove.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org%203.2.0%20OSX/pdf-features/simple-password-nocopy.pdf.jhove.xml"
     }
   ],
   "metadata": {
@@ -1041,7 +1041,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/XML-HUL-1/monitors.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/XML-HUL-1/monitors.xml"
     }
   ],
   "metadata": {
@@ -1065,7 +1065,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/XML-HUL-1/monitors.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/XML-HUL-1/monitors.xml"
     }
   ],
   "metadata": {

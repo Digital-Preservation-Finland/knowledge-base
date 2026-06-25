@@ -9,7 +9,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-PDFA-1a.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org%203.2.0%20OSX/pdf-features/simple-PDFA-1a.pdf"
     }
   ],
   "metadata": {
@@ -55,7 +55,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/embeds/embedded-lucinda-sans-PDFA-1a.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org%203.2.0%20OSX/embeds/embedded-lucinda-sans-PDFA-1a.pdf"
     }
   ],
   "metadata": {

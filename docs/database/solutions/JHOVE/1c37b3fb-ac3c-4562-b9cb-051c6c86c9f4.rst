@@ -34,7 +34,7 @@ Classification
      - A-2b
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-11/Hawes et al_2024_Comparing the Carbon Footprints of Urban and Conventional Agriculture.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-11/Hawes%20et%20al_2024_Comparing%20the%20Carbon%20Footprints%20of%20Urban%20and%20Conventional%20Agriculture.pdf>`__
 
 --------
 Analyses

@@ -416,7 +416,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/animation.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/animation.mov"
     }
   ],
   "metadata": {
@@ -465,7 +465,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-intermediate-codec.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/apple-intermediate-codec.mov"
     }
   ],
   "metadata": {
@@ -514,7 +514,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-prores-422-hq.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/apple-prores-422-hq.mov"
     }
   ],
   "metadata": {
@@ -563,7 +563,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-prores-422-lt.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/apple-prores-422-lt.mov"
     }
   ],
   "metadata": {
@@ -612,7 +612,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-prores-422-proxy.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/apple-prores-422-proxy.mov"
     }
   ],
   "metadata": {
@@ -661,7 +661,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/apple-prores-422.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/apple-prores-422.mov"
     }
   ],
   "metadata": {
@@ -710,7 +710,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dv-dvchd-ntsc-interlaced.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dv-dvchd-ntsc-interlaced.mov"
     }
   ],
   "metadata": {
@@ -759,7 +759,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dv-dvchd-ntsc-progressive.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dv-dvchd-ntsc-progressive.mov"
     }
   ],
   "metadata": {
@@ -808,7 +808,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dv-pal-interlaced.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dv-pal-interlaced.mov"
     }
   ],
   "metadata": {
@@ -857,7 +857,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dv-pal-progressive.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dv-pal-progressive.mov"
     }
   ],
   "metadata": {
@@ -906,7 +906,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-1080i50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro-hd-1080i50.mov"
     }
   ],
   "metadata": {
@@ -955,7 +955,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-1080i60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro-hd-1080i60.mov"
     }
   ],
   "metadata": {
@@ -1004,7 +1004,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-1080p25.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro-hd-1080p25.mov"
     }
   ],
   "metadata": {
@@ -1053,7 +1053,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-1080p30.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro-hd-1080p30.mov"
     }
   ],
   "metadata": {
@@ -1102,7 +1102,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-720p50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro-hd-720p50.mov"
     }
   ],
   "metadata": {
@@ -1151,7 +1151,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-hd-720p60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro-hd-720p60.mov"
     }
   ],
   "metadata": {
@@ -1200,7 +1200,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-pal-interlaced.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro-pal-interlaced.mov"
     }
   ],
   "metadata": {
@@ -1249,7 +1249,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro-pal-progressive.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro-pal-progressive.mov"
     }
   ],
   "metadata": {
@@ -1298,7 +1298,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro50-ntsc-interlaced.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro50-ntsc-interlaced.mov"
     }
   ],
   "metadata": {
@@ -1347,7 +1347,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro50-ntsc-progressive.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro50-ntsc-progressive.mov"
     }
   ],
   "metadata": {
@@ -1396,7 +1396,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro50-pal-interlaced.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro50-pal-interlaced.mov"
     }
   ],
   "metadata": {
@@ -1445,7 +1445,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/dvcpro50-pal-progressive.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/dvcpro50-pal-progressive.mov"
     }
   ],
   "metadata": {
@@ -1494,7 +1494,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080i50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-1080i50.mov"
     }
   ],
   "metadata": {
@@ -1543,7 +1543,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080i60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-1080i60.mov"
     }
   ],
   "metadata": {
@@ -1592,7 +1592,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080p24.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-1080p24.mov"
     }
   ],
   "metadata": {
@@ -1641,7 +1641,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080p25.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-1080p25.mov"
     }
   ],
   "metadata": {
@@ -1690,7 +1690,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-1080p30.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-1080p30.mov"
     }
   ],
   "metadata": {
@@ -1739,7 +1739,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p24.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-720p24.mov"
     }
   ],
   "metadata": {
@@ -1788,7 +1788,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p25.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-720p25.mov"
     }
   ],
   "metadata": {
@@ -1837,7 +1837,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p30.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-720p30.mov"
     }
   ],
   "metadata": {
@@ -1886,7 +1886,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-720p50.mov"
     }
   ],
   "metadata": {
@@ -1935,7 +1935,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/hdv-720p60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/hdv-720p60.mov"
     }
   ],
   "metadata": {
@@ -1984,7 +1984,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/jpeg2000.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/jpeg2000.mov"
     }
   ],
   "metadata": {
@@ -2033,7 +2033,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/mpeg-imx-525-60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/mpeg-imx-525-60.mov"
     }
   ],
   "metadata": {
@@ -2082,7 +2082,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/photo-jpeg.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/photo-jpeg.mov"
     }
   ],
   "metadata": {
@@ -2131,7 +2131,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/png.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/png.mov"
     }
   ],
   "metadata": {
@@ -2180,7 +2180,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080i50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-1080i50.mov"
     }
   ],
   "metadata": {
@@ -2229,7 +2229,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080i60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-1080i60.mov"
     }
   ],
   "metadata": {
@@ -2278,7 +2278,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080p24.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-1080p24.mov"
     }
   ],
   "metadata": {
@@ -2327,7 +2327,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080p25.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-1080p25.mov"
     }
   ],
   "metadata": {
@@ -2376,7 +2376,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-1080p30.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-1080p30.mov"
     }
   ],
   "metadata": {
@@ -2425,7 +2425,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p24.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-720p24.mov"
     }
   ],
   "metadata": {
@@ -2474,7 +2474,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p25.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-720p25.mov"
     }
   ],
   "metadata": {
@@ -2523,7 +2523,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p30.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-720p30.mov"
     }
   ],
   "metadata": {
@@ -2572,7 +2572,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-720p50.mov"
     }
   ],
   "metadata": {
@@ -2621,7 +2621,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-ex-720p60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-ex-720p60.mov"
     }
   ],
   "metadata": {
@@ -2670,7 +2670,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080i50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd-1080i50.mov"
     }
   ],
   "metadata": {
@@ -2719,7 +2719,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080i60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd-1080i60.mov"
     }
   ],
   "metadata": {
@@ -2768,7 +2768,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080p24.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd-1080p24.mov"
     }
   ],
   "metadata": {
@@ -2817,7 +2817,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080p25.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd-1080p25.mov"
     }
   ],
   "metadata": {
@@ -2866,7 +2866,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd-1080p30.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd-1080p30.mov"
     }
   ],
   "metadata": {
@@ -2915,7 +2915,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080i50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-1080i50.mov"
     }
   ],
   "metadata": {
@@ -2964,7 +2964,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080i60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-1080i60.mov"
     }
   ],
   "metadata": {
@@ -3013,7 +3013,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080p24.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-1080p24.mov"
     }
   ],
   "metadata": {
@@ -3062,7 +3062,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080p25.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-1080p25.mov"
     }
   ],
   "metadata": {
@@ -3111,7 +3111,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-1080p30.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-1080p30.mov"
     }
   ],
   "metadata": {
@@ -3160,7 +3160,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p24.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-720p24.mov"
     }
   ],
   "metadata": {
@@ -3209,7 +3209,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p25.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-720p25.mov"
     }
   ],
   "metadata": {
@@ -3258,7 +3258,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p30.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-720p30.mov"
     }
   ],
   "metadata": {
@@ -3307,7 +3307,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p50.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-720p50.mov"
     }
   ],
   "metadata": {
@@ -3356,7 +3356,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/video/Quicktime/xdcam-hd422-720p60.mov"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/video/Quicktime/xdcam-hd422-720p60.mov"
     }
   ],
   "metadata": {

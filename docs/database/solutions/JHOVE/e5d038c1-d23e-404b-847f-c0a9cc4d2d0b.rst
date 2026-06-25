@@ -34,7 +34,7 @@ Classification
      - 1.5
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-142/140611493383864950079938377607360675655.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-142/140611493383864950079938377607360675655.pdf>`__
 
 --------
 Analyses

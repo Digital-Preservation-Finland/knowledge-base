@@ -39,37 +39,37 @@ Classification
      - 1.3
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/ebooks/iBooks Author 1.1 (190)/lorem-ipsum-plus-image-openprintcopypw.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/ebooks/iBooks%20Author%201.1%20(190)/lorem-ipsum-plus-image-openprintcopypw.pdf>`__
    * - multipart/appledouble
      - 2
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-137/124307818233765780864869607481066113457.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-137/124307818233765780864869607481066113457.pdf>`__
    * - application/octet-stream
      - (:unav)
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-33/0b1b4c74-8635-4572-9440-f71915654c33.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-33/0b1b4c74-8635-4572-9440-f71915654c33.pdf>`__
    * - application/pdf
      - 1.1
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-85/ESUjulyaugust2002.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-85/ESUjulyaugust2002.pdf>`__
    * - application/pdf
      - 2.4
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/pdf-handbuilt-test-corpus/T01_001_header-invalid-major-version.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T01_001_header-invalid-major-version.pdf>`__
    * - application/pdf
      - 1.9
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/pdf-handbuilt-test-corpus/T01_002_header-invalid-minor-version.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T01_002_header-invalid-minor-version.pdf>`__
    * - application/pdf
      - 1.8
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/pdfCabinetOfHorrors/pdf-17-header18.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors/pdf-17-header18.pdf>`__
    * - image/tiff
      - 6.0
      - 
@@ -79,17 +79,17 @@ Classification
      - (:unav)
      - `JPEG <https://jpeg.org/jpeg/index.html>`__
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/desktop-publishing/InDesign/Neddy_Flyer_ft_HeatherRyan.jpg>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/desktop-publishing/InDesign/Neddy_Flyer_ft_HeatherRyan.jpg>`__
    * - application/vnd.wordperfect
      - 5.0
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/WordPerfect50/testWordPerfect_50.doc>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/office/wordprocessing/WordPerfect50/testWordPerfect_50.doc>`__
    * - application/vnd.wordperfect
      - 5.1
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/WordPerfect51/testWordPerfect_51_52.doc>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/office/wordprocessing/WordPerfect51/testWordPerfect_51_52.doc>`__
    * - image/png
      - 1.2
      - 
@@ -99,7 +99,7 @@ Classification
      - 97-2003
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/office-examples/powerpoint4-mac/ecdl paris.ppt>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/office-examples/powerpoint4-mac/ecdl%20paris.ppt>`__
 
 --------
 Analyses

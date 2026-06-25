@@ -55,7 +55,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-66/s41589-021-00892-6.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-66/s41589-021-00892-6.pdf"
     }
   ],
   "metadata": {
@@ -78,7 +78,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-90/Arakawa-2025-Lab_Animal.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-90/Arakawa-2025-Lab_Animal.pdf"
     }
   ],
   "metadata": {

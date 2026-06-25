@@ -9,7 +9,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/WordPerfect50/testWordPerfect_50.doc"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office/wordprocessing/WordPerfect50/testWordPerfect_50.doc"
     }
   ],
   "metadata": {

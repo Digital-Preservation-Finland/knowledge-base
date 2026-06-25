@@ -34,7 +34,7 @@ Classification
      - A-2b
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-90/Arakawa-2025-Lab_Animal.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-90/Arakawa-2025-Lab_Animal.pdf>`__
 
 --------
 Analyses

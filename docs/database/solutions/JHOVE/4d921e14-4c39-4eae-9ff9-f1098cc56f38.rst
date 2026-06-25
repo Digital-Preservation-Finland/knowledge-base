@@ -34,7 +34,7 @@ Classification
      - 1.6
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-18/ajpa23833_am.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-18/ajpa23833_am.pdf>`__
 
 --------
 Analyses

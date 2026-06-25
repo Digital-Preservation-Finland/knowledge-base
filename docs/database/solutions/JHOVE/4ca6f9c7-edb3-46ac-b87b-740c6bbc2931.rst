@@ -34,7 +34,7 @@ Classification
      - 1.4
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-45/10531_2004_Article_5096977.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-45/10531_2004_Article_5096977.pdf>`__
 
 --------
 Analyses
