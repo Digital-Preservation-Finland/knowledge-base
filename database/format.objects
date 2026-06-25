@@ -1241,22 +1241,6 @@
   "specification": []
 }
 {
-  "@id": "corpus/format/b8eea2f6-057a-4311-b8b6-eac0db62fbfe",
-  "fileFormat": "image/webp",
-  "version": null,
-  "profile": "",
-  "description": "",
-  "specification": []
-}
-{
-  "@id": "corpus/format/a847e430-022c-47f0-890a-1fd750579b96",
-  "fileFormat": "video/mp4",
-  "version": null,
-  "profile": "",
-  "description": "",
-  "specification": []
-}
-{
   "@id": "corpus/format/8f064740-7500-478c-96f9-87490d51ccd5",
   "fileFormat": "multipart/appledouble",
   "version": "2",
