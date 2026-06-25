@@ -551,7 +551,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/pdf-handbuilt-test-corpus/T01_004_header_invalid-syntax-no-dash.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T01_004_header_invalid-syntax-no-dash.pdf"
     }
   ],
   "metadata": {
@@ -575,7 +575,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/pdf-handbuilt-test-corpus/T01_005_header-invalid-syntax-replace-char.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T01_005_header-invalid-syntax-replace-char.pdf"
     }
   ],
   "metadata": {
@@ -599,7 +599,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/pdf-handbuilt-test-corpus/T01_006_header-invalid-syntax-no-pdf.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T01_006_header-invalid-syntax-no-pdf.pdf"
     }
   ],
   "metadata": {
@@ -623,7 +623,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/pdf-handbuilt-test-corpus/T01_007_header-no-version-info.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T01_007_header-no-version-info.pdf"
     }
   ],
   "metadata": {
@@ -647,7 +647,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-password-copy.pdf.jhove.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-password-copy.pdf.jhove.xml"
     }
   ],
   "metadata": {
@@ -671,7 +671,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/variations/variations/text/html/4.0/lorem-ipsum_files/filelist.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/text/html/4.0/lorem-ipsum_files/filelist.xml"
     }
   ],
   "metadata": {
@@ -695,7 +695,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-password-copy.pdf.jhove.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office-examples/OpenOffice.org 3.2.0 OSX/pdf-features/simple-password-copy.pdf.jhove.xml"
     }
   ],
   "metadata": {
@@ -719,7 +719,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/variations/variations/text/html/4.0/lorem-ipsum_files/filelist.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/text/html/4.0/lorem-ipsum_files/filelist.xml"
     }
   ],
   "metadata": {

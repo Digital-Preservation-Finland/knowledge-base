@@ -49,7 +49,7 @@ Classification
      - 1.2
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-137/reserve3.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-137/reserve3.pdf>`__
 
 --------
 Analyses

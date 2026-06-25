@@ -1041,7 +1041,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/XML-HUL-1/monitors.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/XML-HUL-1/monitors.xml"
     }
   ],
   "metadata": {
@@ -1065,7 +1065,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/XML-HUL-1/monitors.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/XML-HUL-1/monitors.xml"
     }
   ],
   "metadata": {

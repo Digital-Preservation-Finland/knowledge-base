@@ -9,7 +9,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/variations/variations/text/html/4.0/lorem-ipsum_files/themedata.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/text/html/4.0/lorem-ipsum_files/themedata.xml"
     }
   ],
   "metadata": {
@@ -32,7 +32,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/variations/variations/text/html/4.0/lorem-ipsum_files/themedata.xml"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/variations/variations/text/html/4.0/lorem-ipsum_files/themedata.xml"
     }
   ],
   "metadata": {

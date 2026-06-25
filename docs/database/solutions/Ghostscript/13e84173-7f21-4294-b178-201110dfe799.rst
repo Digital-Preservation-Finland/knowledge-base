@@ -34,7 +34,7 @@ Classification
      - 1.5
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-80/bessar.pdf>`__
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-80/bessar.pdf>`__
 
 --------
 Analyses

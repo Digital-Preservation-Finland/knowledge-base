@@ -9,7 +9,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-33/0b1b4c74-8635-4572-9440-f71915654c33.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-33/0b1b4c74-8635-4572-9440-f71915654c33.pdf"
     }
   ],
   "metadata": {
@@ -32,7 +32,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-34/emi15514-sup-0002-SupinfoS2.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-34/emi15514-sup-0002-SupinfoS2.pdf"
     }
   ],
   "metadata": {
@@ -55,7 +55,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/jhove-errors/PDF-HUL-68/carp2010-2.pdf"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-68/carp2010-2.pdf"
     }
   ],
   "metadata": {
@@ -78,7 +78,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite40.doc"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite40.doc"
     }
   ],
   "metadata": {
@@ -101,7 +101,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite42.doc"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite42.doc"
     }
   ],
   "metadata": {
@@ -124,7 +124,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite50.doc"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office/wordprocessing/IBM_DisplayWrite/testIBMDisplayWrite50.doc"
     }
   ],
   "metadata": {
@@ -147,7 +147,7 @@
   },
   "location": [
     {
-      "OPF": "https://github.com/openpreserve/format-corpus/corpus/format-corpus/office/wordprocessing/WordPerfect42/testWordPerfect_42.doc"
+      "OPF": "https://github.com/openpreserve/format-corpus/tree/master/office/wordprocessing/WordPerfect42/testWordPerfect_42.doc"
     }
   ],
   "metadata": {
