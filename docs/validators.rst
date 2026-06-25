@@ -61,10 +61,6 @@ ffprobe
  - :ref:`2ee22854-0303-47f6-a583-9f3ba7ec2781`
  - :ref:`ecc55794-2b06-4acf-893d-f6ec83741bdf`
 
-file
-----
-
-
 file-scraper
 ------------
 
@@ -301,14 +297,6 @@ PNGcheck
 --------
 
  - :ref:`2404811a-9b05-4c38-93a2-b2a1afebd173`
-
-pre
----
-
-
-pymediainfo
------------
-
 
 python-image-library
 --------------------
