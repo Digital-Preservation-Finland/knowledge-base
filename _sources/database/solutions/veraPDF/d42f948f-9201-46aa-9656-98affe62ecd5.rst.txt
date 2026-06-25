@@ -1,0 +1,238 @@
+.. _d42f948f-9201-46aa-9656-98affe62ecd5:
+
+=========================
+can not locate xref table
+=========================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - veraPDF
+     - 1.28.2
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_002_Stream-ET-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_006_font-size-operator-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_014_endstream-keyword-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_005_invalid-Font-name-operator.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_011_paranthesis-substituted-with-brackets.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_008_Font-set-operator-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_003_EOF-incomplete-EO.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_001_Stream-BT-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_012_text-show-operator-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_004_Font-name-operator--missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_004_EOF-incomplete_EOF.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_003_Stream-BT-and-ET-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_010_Missing_closing_paranthesis.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T04_002_EOF-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_009_Missing_open_paranthesis.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/pdf-handbuilt-test-corpus/T02-05-01_013_stream-keyword-missing.pdf>`__
+   * - application/pdf
+     - 1.4
+     - 
+     - 
+     - :ref:`corpus <file-scraper/114f7207-5dc9-491b-a978-2394e6b8cc92>`
+   * - application/pdf
+     - 1.7
+     - 
+     - 
+     - :ref:`corpus <file-scraper/87af55ef-9b6e-4f05-8c04-3e146c310efe>`
+   * - application/pdf
+     - 1.7
+     - 
+     - 
+     - :ref:`corpus <file-scraper/a4992834-6697-48b5-a104-e70c7dee22eb>`
+   * - application/pdf
+     - 1.2
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-137/reserve3.pdf>`__
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<report>
+	  <buildInformation>
+	    <releaseDetails id="core" version="1.28.2" buildDate="2025-07-15T16:07:00+03:00"></releaseDetails>
+	    <releaseDetails id="validation-model" version="1.28.2" buildDate="2025-07-15T16:12:00+03:00"></releaseDetails>
+	    <releaseDetails id="gui" version="1.28.2" buildDate="2025-07-15T16:59:00+03:00"></releaseDetails>
+	  </buildInformation>
+	  <jobs>
+	    <job>
+	      <item size="628">
+	        <name>/corpus/format-corpus/pdf-handbuilt-test-corpus/T02-05-01_002_Stream-ET-missing.pdf</name>
+	      </item>
+	      <taskException type="PARSE" isExecuted="true" isSuccess="false">
+	        <duration start="1762173236222" finish="1762173236304">00:00:00.082</duration>
+	        <exceptionMessage>Exception: Couldn't parse stream caused by exception: can not locate xref table</exceptionMessage>
+	      </taskException>
+	      <duration start="1762173236222" finish="1762173236304">00:00:00.082</duration>
+	    </job>
+	  </jobs>
+	  <batchSummary totalJobs="1" failedToParse="1" encrypted="0" outOfMemory="0" veraExceptions="0">
+	    <validationReports compliant="0" nonCompliant="0" failedJobs="1">1</validationReports>
+	    <featureReports failedJobs="0">0</featureReports>
+	    <repairReports failedJobs="0">0</repairReports>
+	    <duration start="1762173236176" finish="1762173236326">00:00:00.150</duration>
+	  </batchSummary>
+	</report>
+	
+	MIME type (:unav) with version (:unav) is not supported.
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	Ghostscript:	A closing mark (] or >>) had no matching mark, ignoring the closing mark
+	Ghostscript:	A page ended after a BT had been executed and without a mtching ET
+	Ghostscript:	Can't repair xref, repair already performed
+	Ghostscript:	Catalog dictionary not located in file, unable to proceed
+	Ghostscript:	Couldn't find a named resource
+	Ghostscript:	error executing PDF token
+	Ghostscript:	error reading a stream
+	Ghostscript:	ET found outside text block
+	Ghostscript:	File has some garbage before %PDF-
+	Ghostscript:	Incorrect /Length for stream object
+	Ghostscript:	object lacks an endobj
+	Ghostscript:	Page drawing error occurred.
+	Ghostscript:	startxref offset invalid
+	Ghostscript:	text operator outside text block
+	Ghostscript:	xref table was repaired
+	JHOVE:	Invalid object definition
+	JHOVE:	No document catalog dictionary
+	JHOVE:	No PDF header
+	JHOVE:	No PDF trailer
+	veraPDF:	A CIDSet entry in the Font descriptor is missing or does not correctly identify all glyphs present in the embedded font subset and used for rendering
+	veraPDF:	Actual length of the stream (.* byte(s)) does not match the value of the Length key in the Stream dictionary (.* byte(s))
+	veraPDF:	Annotation flags are either missing or set the annotation to be hidden/invisible or non-printable (F = null, Print = null, Hidden = null, Invisible = null, NoView = null)
+	veraPDF:	Annotation.s color (C present = true) or interior color (IC present = false) is used without specifying RGB-based destination output profile
+	veraPDF:	A property is either not defined in XMP Specification, or is not defined in any of the extension schemas
+	veraPDF:	can not locate xref table
+	veraPDF:	DeviceGray colour space is used without output intent profile
+	veraPDF:	DeviceRGB colour space is used without RGB output intent profile
+	veraPDF:	End of file is reached
+	veraPDF:	Extra spacings or missing EOL characters around indirect object/generation number or keywords 'obj' and 'endobj'
+	veraPDF:	File header .*%PDF-1..* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-1.n, where 'n' is a single digit number between 0 and 7
+	veraPDF:	File header .*%PDF-*.* (offset = .*) starts at non-zero offset or does not match the pattern %PDF-n.m
+	veraPDF:	Missing ID in the document trailer
+	verapdf:	org.verapdf.pd.font.cmap.CMapParser getBfrangeEndFromBytes WARNING: Incorrect bfrange in toUnicode CMap: bfrange contains more than 256 code.
+	veraPDF:	Pages not found
+	veraPDF:	Real value .* out of range
+	veraPDF:	The document catalog dictionary doesn't contain metadata key or metadata stream dictionary does not contain either entry Type with value /Metadata or entry Subtype with value /XML
+	veraPDF:	The font program is not embedded
+	veraPDF:	The value of CreationDate entry from the document Info dictionary and its matching XMP property .*xmp:CreateDate.* are not equivalent (Info /CreationDate = D:.*, XMP xmp:CreateDate = .*)
+	veraPDF:	The value of ModDate entry from the document Info dictionary and its matching XMP property .*xmp:ModifyDate.* are not equivalent (Info /ModDate = D:.*, XMP xmp:ModifyDate = .*)
+	veraPDF:	XMP property does not correspond to type null
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

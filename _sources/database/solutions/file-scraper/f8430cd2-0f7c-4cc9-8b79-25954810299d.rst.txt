@@ -1,0 +1,80 @@
+.. _f8430cd2-0f7c-4cc9-8b79-25954810299d:
+
+=====================================================
+Given version .* for the mimetype .* is not supported
+=====================================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - file-scraper
+     - 3.1.1
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - application/pdf
+     - 1.1
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-85/ESUjulyaugust2002.pdf>`__
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	Given version 1.1 for the mimetype application/pdf is not supported
+
+
+------------------
+Notes on the error
+------------------
+
+Scraper
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	file-scraper:	Conflict with values 'image/jpeg' and 'image/mpo'
+	file-scraper:	Given version .* for the mimetype .* is not supported
+	file-scraper:	Proper extractor was not found. The file was not analyzed.
+	libmagic:	MIME type .* with version .* is not supported.
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
