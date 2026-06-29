@@ -1,7 +1,9 @@
 database/solutions/*/messages
 database/solutions/*/list
+database/solutions/*/select
 database/solutions/*/work
 database/solutions/*/index
 database/solutions/*/pre
 database/solutions/*/error
+database/solutions/*/ready
 database/solutions/pre
