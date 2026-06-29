@@ -72,8 +72,6 @@ Related errors by source files
 
 ::
 
-	file-scraper:	Conflict with values 'image/jpeg' and 'image/mpo'
-	file-scraper:	Proper extractor was not found. The file was not analyzed.
 	file-scraper:	The stream has conflicting version .*, so it is omitted.
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

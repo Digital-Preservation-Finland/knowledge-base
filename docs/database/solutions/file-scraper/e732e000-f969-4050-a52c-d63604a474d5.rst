@@ -73,7 +73,6 @@ Related errors by source files
 
 ::
 
-	file-scraper:	Conflict with values 'image/jpeg' and 'image/mpo'
 	file-scraper:	Given mimetype .* is not supported
 	file-scraper:	MIME type .* with version .* is not supported.
 	file-scraper:	Proper extractor was not found. The file was not analyzed.

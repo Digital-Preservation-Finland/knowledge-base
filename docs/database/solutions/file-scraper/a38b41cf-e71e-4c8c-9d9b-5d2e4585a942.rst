@@ -1,8 +1,8 @@
-.. _f8430cd2-0f7c-4cc9-8b79-25954810299d:
+.. _a38b41cf-e71e-4c8c-9d9b-5d2e4585a942:
 
-=====================================================
-Given version .* for the mimetype .* is not supported
-=====================================================
+==========================================
+Character decoding error: unknown encoding
+==========================================
 
 .. contents::
    :depth: 2
@@ -30,11 +30,11 @@ Classification
      - **Specification**
      - **Description**
      - **Location**
-   * - application/pdf
-     - 1.1
+   * - text/plain
+     - (:unap)
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-85/ESUjulyaugust2002.pdf>`__
+     - :ref:`corpus <file-scraper/23eef253-7589-4d14-ab9e-9a6bf1d4bde4>`
 
 --------
 Analyses
@@ -56,14 +56,14 @@ Output example
 ::
 
 
-	Given version 1.1 for the mimetype application/pdf is not supported
+	Character decoding error: unknown encoding: UNKNOWN-8BIT
 
 
 ------------------
 Notes on the error
 ------------------
 
-Scraper
+TextEncodingExtractor
 
 
 ------------------------------
@@ -72,7 +72,6 @@ Related errors by source files
 
 ::
 
-	file-scraper:	Given version .* for the mimetype .* is not supported
-	libmagic:	MIME type .* with version .* is not supported.
+	file-scraper:	Character decoding error: unknown encoding
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

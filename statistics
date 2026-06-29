@@ -167,11 +167,14 @@
       1      10     358 database/solutions/ffmpeg/Warning-MVs-not-available/error
       1     221    2731 database/solutions/ffprobe/Error-opening-filters/error
       1      86     993 database/solutions/ffprobe/Invalid-data-found-when-processing-input/error
-      1       6     984 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/error
+      1      10     360 database/solutions/file-scraper/Character-decoding-unknown-encoding/error
+      1       6     321 database/solutions/file-scraper/Conflict-with-values-imagejpeg-and-imagempo/error
+      1      25     399 database/solutions/file-scraper/CSV-error-on-line-unexpected-end-of-data/error
       1      11     334 database/solutions/file-scraper/Given-mimetype-is-not-supported/error
       1      19     367 database/solutions/file-scraper/Given-version-for-the-mimetype-is-not-supported/error
+      1      22     393 database/solutions/file-scraper/JsonExtractor-produced-an-Extra-line-column/error
       1      26     428 database/solutions/file-scraper/MIME-type-with-version-is-not/error
-      1      27    1052 database/solutions/file-scraper/Proper-extractor-was-not-The-file-was-not/error
+      1      27     440 database/solutions/file-scraper/Proper-extractor-was-not-The-file-was-not/error
       1      16     373 database/solutions/file-scraper/The-Extractors-produced-conflicting-values-for/error
       1      19     360 database/solutions/file-scraper/The-stream-has-conflicting-version-so-it-is/error
       1     206    2497 database/solutions/Ghostscript/A-closing-mark-or-had-no-matching-mark-ignoring-the-closing-mark/error

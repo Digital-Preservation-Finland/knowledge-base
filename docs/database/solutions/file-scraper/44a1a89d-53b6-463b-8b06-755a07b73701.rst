@@ -1,8 +1,8 @@
-.. _f8430cd2-0f7c-4cc9-8b79-25954810299d:
+.. _44a1a89d-53b6-463b-8b06-755a07b73701:
 
-=====================================================
-Given version .* for the mimetype .* is not supported
-=====================================================
+============================================
+CSV error on line .*: unexpected end of data
+============================================
 
 .. contents::
    :depth: 2
@@ -30,11 +30,11 @@ Classification
      - **Specification**
      - **Description**
      - **Location**
-   * - application/pdf
-     - 1.1
+   * - text/csv
+     - (:unap)
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-85/ESUjulyaugust2002.pdf>`__
+     - :ref:`corpus <file-scraper/d835f26b-36b4-46cc-a537-0403a9dce14c>`
 
 --------
 Analyses
@@ -56,14 +56,15 @@ Output example
 ::
 
 
-	Given version 1.1 for the mimetype application/pdf is not supported
+	CSV error on line 6: unexpected end of data
+	MIME type (:unav) with version (:unav) is not supported.
 
 
 ------------------
 Notes on the error
 ------------------
 
-Scraper
+CsvExtractor
 
 
 ------------------------------
@@ -72,7 +73,6 @@ Related errors by source files
 
 ::
 
-	file-scraper:	Given version .* for the mimetype .* is not supported
-	libmagic:	MIME type .* with version .* is not supported.
+	file-scraper:	CSV error on line .*: unexpected end of data
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

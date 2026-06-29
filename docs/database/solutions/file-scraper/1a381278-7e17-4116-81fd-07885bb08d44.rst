@@ -1,8 +1,8 @@
-.. _f8430cd2-0f7c-4cc9-8b79-25954810299d:
+.. _1a381278-7e17-4116-81fd-07885bb08d44:
 
-=====================================================
-Given version .* for the mimetype .* is not supported
-=====================================================
+====================================================================
+JsonExtractor produced an error: Extra data: line .* column .* (char
+====================================================================
 
 .. contents::
    :depth: 2
@@ -30,11 +30,11 @@ Classification
      - **Specification**
      - **Description**
      - **Location**
-   * - application/pdf
-     - 1.1
+   * - application/json
+     - (:unav)
      - 
      - 
-     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-85/ESUjulyaugust2002.pdf>`__
+     - :ref:`corpus <corpus/file/b65b3be8-4a57-48ca-a1e2-8286a6d3b18e>`
 
 --------
 Analyses
@@ -56,14 +56,14 @@ Output example
 ::
 
 
-	Given version 1.1 for the mimetype application/pdf is not supported
+	JsonExtractor produced an error: Extra data: line 28 column 1 (char 776)
 
 
 ------------------
 Notes on the error
 ------------------
 
-Scraper
+JsonExtractor
 
 
 ------------------------------
@@ -72,7 +72,6 @@ Related errors by source files
 
 ::
 
-	file-scraper:	Given version .* for the mimetype .* is not supported
-	libmagic:	MIME type .* with version .* is not supported.
+	file-scraper:	JsonExtractor produced an error: Extra data: line .* column .* (char
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

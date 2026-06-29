@@ -1,0 +1,20 @@
+{
+  "files": [
+    "file-scraper/d835f26b-36b4-46cc-a537-0403a9dce14c"
+  ],
+  "analyses": [],
+  "validator": "file-scraper",
+  "validatorVersion": [
+    "3.1.1"
+  ],
+  "errorMessage": "CSV error on line .*: unexpected end of data",
+  "type": "",
+  "outputExample": [
+    "CSV error on line 6: unexpected end of data",
+    "MIME type (:unav) with version (:unav) is not supported."
+  ],
+  "notes": [
+    "CsvExtractor"
+  ],
+  "@id": "44a1a89d-53b6-463b-8b06-755a07b73701"
+}

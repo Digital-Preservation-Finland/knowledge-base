@@ -1,0 +1,19 @@
+{
+  "files": [
+    "corpus/file/b65b3be8-4a57-48ca-a1e2-8286a6d3b18e"
+  ],
+  "analyses": [],
+  "validator": "file-scraper",
+  "validatorVersion": [
+    "3.1.1"
+  ],
+  "errorMessage": "JsonExtractor produced an error: Extra data: line .* column .* (char",
+  "type": "",
+  "outputExample": [
+    "JsonExtractor produced an error: Extra data: line 28 column 1 (char 776)"
+  ],
+  "notes": [
+    "JsonExtractor"
+  ],
+  "@id": "1a381278-7e17-4116-81fd-07885bb08d44"
+}

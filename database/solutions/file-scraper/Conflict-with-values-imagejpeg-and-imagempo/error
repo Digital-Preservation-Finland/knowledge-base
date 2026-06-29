@@ -1,19 +1,6 @@
 {
   "files": [
-    "database/files/image_mpo/generic",
-    "corpus/file/5f489056-9ac8-49e3-8416-d777f702a2dc",
-    "corpus/file/8adf9b26-90ab-44d5-99da-5e32c5be6509",
-    "corpus/file/89d4e3ae-f6f0-4e47-b580-0db1b67e422f",
-    "corpus/file/c3bc2a99-cd5f-4659-a80b-6151def881bc",
-    "corpus/file/edd93577-50db-471a-aaa3-2c1f8b760521",
-    "corpus/file/a9b5687c-ee32-4544-bca7-fe194abaa5e5",
-    "corpus/file/9851beaf-6fd1-46f3-b324-80fd1dff1517",
-    "corpus/file/47e3c01c-0c09-414f-96de-f7ef63ee2677",
-    "corpus/file/10edda54-c000-453b-8c58-97772ad34145",
-    "corpus/file/15df7f5d-6151-4b7e-b11a-ddc5c03a9e98",
-    "corpus/file/914d9ed9-7290-41b9-bac6-551e845d00a3",
-    "corpus/file/11f5fe64-b279-43fb-914d-22f5b6c70fe1",
-    "corpus/file/ff9b2d66-9edc-486f-8f75-16210692f6a6"
+    "database/files/image_mpo/generic"
   ],
   "analyses": [
     "database/normalisation/analysis/mpo-to-jpeg"
