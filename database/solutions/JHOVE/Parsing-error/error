@@ -1,0 +1,20 @@
+{
+  "files": [
+    "corpus/file/9821c146-4b93-4d55-9013-3b8b6aee718e"
+  ],
+  "analyses": [],
+  "validator": "JHOVE",
+  "validatorVersion": [
+    "1.32.1"
+  ],
+  "errorMessage": "Parsing error",
+  "type": "",
+  "outputExample": [
+    "Validator returned error.",
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<jhove xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://schema.openpreservation.org/ois/xml/ns/jhove\" xsi:schemaLocation=\"http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd\" name=\"Jhove\" release=\"1.32.1\" date=\"2025-02-06\">\n <date>2026-06-15T13:27:57+03:00</date>\n <repInfo uri=\"/corpus/file-scraper/tests/data/application_warc/invalid_1.0_missing_required_field.warc\">\n  <reportingModule release=\"1.4.4\" date=\"2024-08-22\">HTML-hul</reportingModule>\n  <lastModified>2025-12-09T13:10:01+02:00</lastModified>\n  <size>255</size>\n  <format>HTML</format>\n  <status>Not well-formed</status>\n  <messages>\n   <message severity=\"error\" id=\"HTML-HUL-16\" infoLink=\"https://github.com/openpreserve/jhove/wiki/HTML-hul-Messages#html-hul-16\">Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2</message>\n   <message severity=\"error\" id=\"HTML-HUL-12\" infoLink=\"https://github.com/openpreserve/jhove/wiki/HTML-hul-Messages#html-hul-12\">Document must have implicit or explicit HEAD element</message>\n   <message severity=\"info\" id=\"HTML-HUL-22\" infoLink=\"https://github.com/openpreserve/jhove/wiki/HTML-hul-Messages#html-hul-22\">This HTML version is currently not supported, falling back to HTML 3.2</message>\n   <message subMessage=\"Text = &quot;:&quot;, Line = 3, Column = 21\" severity=\"error\" id=\"HTML-HUL-2\" infoLink=\"https://github.com/openpreserve/jhove/wiki/HTML-hul-Messages#html-hul-2\">Parsing error</message>\n   <message severity=\"error\" id=\"HTML-HUL-11\" infoLink=\"https://github.com/openpreserve/jhove/wiki/HTML-hul-Messages#html-hul-11\">Document must have implicit or explicit HEAD element</message>\n  </messages>\n  <mimeType>text/html</mimeType>\n </repInfo>\n</jhove>\n",
+    "Found encoding declaration (:unav) from the file /corpus/file-scraper/tests/data/application_warc/invalid_1.0_missing_required_field.warc, but UTF-8 was expected.",
+    "MIME type (:unav) with version (:unav) is not supported."
+  ],
+  "notes": [],
+  "@id": "124168c3-08b0-4a46-9110-7aca57214493"
+}

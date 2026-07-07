@@ -30,6 +30,11 @@ Classification
      - **Specification**
      - **Description**
      - **Location**
+   * - image/tiff
+     - 6.0
+     - 
+     - image/tiff 6.0 : Virtual file object connecting error message to a file format specification and without a file location.
+     - :ref:`corpus <database/sources/image_tiff/6.0>`
 
 --------
 Analyses

@@ -178,6 +178,7 @@ JHOVE
  - :ref:`0a3cc386-f7bc-4de5-a363-1edb068766ce`
  - :ref:`0c63dc4a-0b25-4cf2-a70c-b9e4d3ed1095`
  - :ref:`0d30c081-dae7-4494-bb6e-96375acce442`
+ - :ref:`124168c3-08b0-4a46-9110-7aca57214493`
  - :ref:`13f5b264-0e54-4064-9afb-f5b0d1b9168e`
  - :ref:`15b21d1e-d76e-43b0-9cf0-783e28ad8502`
  - :ref:`1a0fa003-5953-49d0-bda5-6656bf664b3f`

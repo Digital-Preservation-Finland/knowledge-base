@@ -350,3 +350,14 @@
     }
   }
 }
+{
+  "@id": "database/sources/image_tiff/6.0",
+  "source": "source/98ade9ea-d847-4ef5-aca7-cf4f8b4bef93",
+  "wellFormed": "virtual",
+  "description": "image/tiff 6.0 : Virtual file object connecting error message to a file format specification and without a file location.",
+  "checksum": {
+    "md5": "",
+    "blake2b": ""
+  },
+  "location": []
+}

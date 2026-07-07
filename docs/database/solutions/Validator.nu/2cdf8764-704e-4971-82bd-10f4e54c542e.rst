@@ -96,6 +96,7 @@ Related errors by source files
 ::
 
 	JHOVE:	Document must have implicit or explicit HEAD element
+	JHOVE:	Parsing error
 	JHOVE:	Unrecognized or missing DOCTYPE declaration; validation continuing as HTML 3.2
 	Validator.nu:	error: Bad element name .*: Code point “U+003A” is not allowed
 	Validator.nu:	error: Element .* is missing a required instance of child element .*.
