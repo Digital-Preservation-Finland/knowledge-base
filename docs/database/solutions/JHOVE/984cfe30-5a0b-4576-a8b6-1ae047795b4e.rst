@@ -31,6 +31,21 @@ Classification
      - **Description**
      - **Location**
    * - image/x-adobe-dng
+     - 1.4
+     - 
+     - 
+     - :ref:`corpus <corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
+   * - image/tiff
+     - 1.1
+     - 
+     - 
+     - :ref:`corpus <corpus/file/6adc1ec3-16fd-480c-b742-16c8842b74cf>`
+   * - image/tiff
+     - 1.1
+     - 
+     - 
+     - :ref:`corpus <corpus/file/6b24ee7a-8e2b-43fc-bc93-c77711274745>`
+   * - image/x-adobe-dng
      - 1.7
      - 
      - File has been exported from Sony A7RV camera with Adobe's Fast Load Data and JPEG Preview settings enabled.
@@ -70,8 +85,14 @@ Related errors by source files
 ::
 
 	ExifTool:	MIME type image/x-adobe-dng with version 1.7 is not supported.
+	ImageMagick:	Input/output error
+	JHOVE:	Tag .* out of sequence
 	JHOVE:	TileLength not a multiple of
+	JHOVE:	Type mismatch for tag .*; expecting .* or .*, saw
 	JHOVE:	Undocumented TIFF tag
+	JHOVE:	Unknown data type
 	JHOVE:	Unknown TIFF IFD tag
+	JHOVE:	Value offset not word-aligned:
+	Pillow:	cannot identify image file
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

@@ -22,3 +22,75 @@
     }
   }
 }
+{
+  "@id": "corpus/file/8e2b31ec-fae8-439b-a340-be943397906b",
+  "source": "corpus/format/376a9f81-df82-4a4d-87ef-dfcc43f88858",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "4c59d2cb63c605b0bff5e5c7bf80bcb8",
+    "blake2b": "f25a0910529226aeef3fc9ba21d68f7fc0dc846d4ddc0cb38a6f29a426724cd10b78f4967bb0e3f779d26cb4d3eb9ad6e465e77dcf0c56d40cd106ca42379163"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.3/tests/data/text_xml/supplementary/catalog.dtd"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "text/plain",
+      "version": "(:unap)",
+      "charset": "UTF-8",
+      "stream_type": "text"
+    }
+  }
+}
+{
+  "@id": "corpus/file/d835ef36-f426-458e-bdf0-34b13961b47d",
+  "source": "corpus/format/376a9f81-df82-4a4d-87ef-dfcc43f88858",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "725b643688d4722e0d38576619e5532d",
+    "blake2b": "70cd3e83795c93481b5adec7323ad79031405222c85cadbad6ebc88b884803ebd5dc463034b59c704dfebacb3db9c7034840c468dab132549bb1b6c559387bb6"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.3/tests/data/text_xml/supplementary/local.sch"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "text/plain",
+      "version": "(:unap)",
+      "charset": "UTF-8",
+      "stream_type": "text"
+    }
+  }
+}
+{
+  "@id": "corpus/file/d835ef36-f426-458e-bdf0-34b13961b47d",
+  "source": "corpus/format/376a9f81-df82-4a4d-87ef-dfcc43f88858",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "725b643688d4722e0d38576619e5532d",
+    "blake2b": "70cd3e83795c93481b5adec7323ad79031405222c85cadbad6ebc88b884803ebd5dc463034b59c704dfebacb3db9c7034840c468dab132549bb1b6c559387bb6"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.3/tests/data/text_xml/supplementary/local.sch"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "text/plain",
+      "version": "(:unap)",
+      "charset": "UTF-8",
+      "stream_type": "text"
+    }
+  }
+}

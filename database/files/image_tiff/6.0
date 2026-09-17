@@ -361,3 +361,90 @@
   },
   "location": []
 }
+{
+  "@id": "corpus/file/57a7fca8-27fc-4a80-b286-b770bc182d1d",
+  "source": "source/98ade9ea-d847-4ef5-aca7-cf4f8b4bef93",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "ecf14ebd255b2d9beabce07de50f7b16",
+    "blake2b": "78f4b001b9c5bd57332f2482f63f2fb72e4f8be07d0ad00c866978e7471334d228750dadd0bf081e81256624d08d28f3643b383f00cce0546a0d5593919e6c93"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.3/tests/data/image_tiff/invalid_1.1_geotiff_wrong_tag_order.tif"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/tiff",
+      "version": "6.0",
+      "stream_type": "image",
+      "bps_unit": "floating point",
+      "bps_value": "32",
+      "colorspace": "gray",
+      "compression": "no",
+      "height": "741",
+      "samples_per_pixel": "1",
+      "width": "678",
+      "byte_order": "little endian",
+      "icc_profile_name": "(:unav)"
+    }
+  }
+}
+{
+  "@id": "corpus/file/a86e7a9e-e099-489a-b399-3eb1a500d7c9",
+  "source": "source/98ade9ea-d847-4ef5-aca7-cf4f8b4bef93",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "caeac9d62b6cf966eb00d54ef893035b",
+    "blake2b": "69275acd021a56bfa95dd7f2c34383b9197a36b88f936694d81665bc0fe80a43c9579309a27da2ba3c832c0a2d9c5e23eb5b91aadb8a8cbdce7740346fd151f8"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.3/tests/data/image_tiff/invalid_1.1_geotiff_zero_pixel_size.tif"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/tiff",
+      "version": "6.0",
+      "stream_type": "image"
+    }
+  }
+}
+{
+  "@id": "corpus/file/17515ec4-b6ab-43d7-9568-1ffb4cd5db47",
+  "source": "source/98ade9ea-d847-4ef5-aca7-cf4f8b4bef93",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "0a06ab6dd52a673220be458620330813",
+    "blake2b": "366eb944629f74f49a8f366e61e6f9c9a49390d8b22b95cf3111861838b606664048a467b5cddf7e328eff726ba727afa5da3d8181af295b2fd80bf29f1e28e9"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.3/tests/data/image_tiff/valid_6.0_icc_profile_sRGB.tif"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/tiff",
+      "version": "6.0",
+      "stream_type": "image",
+      "bps_unit": "integer",
+      "bps_value": "8",
+      "colorspace": "srgb",
+      "compression": "no",
+      "height": "2",
+      "samples_per_pixel": "3",
+      "width": "2",
+      "byte_order": "little endian",
+      "icc_profile_name": "sRGB"
+    }
+  }
+}

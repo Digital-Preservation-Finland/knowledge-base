@@ -21,3 +21,26 @@
     }
   }
 }
+{
+  "@id": "corpus/file/45504c9c-26b0-428a-80a4-5fede1935f8c",
+  "source": "corpus/format/326129ee-365e-4115-8a70-63636e95bcb1",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "889592dec176a4ffedb7a3b42701e9b6",
+    "blake2b": "92eeec6c5966f896d1b93fbdcb7361f0807f8bf89e44c44908ebcbb9171d7c57f2fa40f25e332594f65c5c723071894ecc856260f4301a280b335a2bba214429"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.3/tests/data/image_tiff/invalid_1.1_geotiff_wrong_byte_order.tif"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/octet-stream",
+      "version": "(:unav)",
+      "stream_type": "(:unav)"
+    }
+  }
+}

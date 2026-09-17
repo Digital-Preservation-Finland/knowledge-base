@@ -35,6 +35,11 @@ Classification
      - 
      - 
      - :ref:`corpus <corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8>`
+   * - image/tiff
+     - 6.0
+     - 
+     - 
+     - :ref:`corpus <corpus/file/a86e7a9e-e099-489a-b399-3eb1a500d7c9>`
 
 --------
 Analyses
@@ -95,6 +100,8 @@ Related errors by source files
 	ImageMagick:	Failed to allocate memory for to read TIFF directory (.* elements of .* bytes each)
 	JHOVE:	IFD offset not word-aligned
 	JHOVE:	Premature EOF
+	JHOVE:	Tag .* out of sequence
+	JHOVE:	Unknown data type
 	Pillow:	cannot identify image file
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

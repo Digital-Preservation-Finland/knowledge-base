@@ -35,6 +35,11 @@ Classification
      - 
      - 
      - :ref:`corpus <corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
+   * - image/tiff
+     - 6.0
+     - 
+     - 
+     - :ref:`corpus <corpus/file/a86e7a9e-e099-489a-b399-3eb1a500d7c9>`
 
 --------
 Analyses
@@ -415,9 +420,11 @@ Related errors by source files
 ::
 
 	ImageMagick:	Input/output error
+	JHOVE:	Premature EOF
 	JHOVE:	Tag .* out of sequence
 	JHOVE:	Type mismatch for tag .*; expecting .* or .*, saw
 	JHOVE:	Unknown data type
+	JHOVE:	Unknown TIFF IFD tag
 	JHOVE:	Value offset not word-aligned:
 	Pillow:	cannot identify image file
 

@@ -1336,3 +1336,27 @@
   "description": "",
   "specification": []
 }
+{
+  "@id": "corpus/format/ed6b2bca-1d59-4fc9-b050-e15b9ea93c7a",
+  "fileFormat": "image/webp",
+  "version": null,
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/7f2e7e9b-a527-4b54-a06c-d7ba3e00c80d",
+  "fileFormat": "video/mp4",
+  "version": null,
+  "profile": "",
+  "description": "",
+  "specification": []
+}
+{
+  "@id": "corpus/format/bfb3d266-57f2-4587-b46a-b79db3b1eabf",
+  "fileFormat": "image/tiff",
+  "version": "1.1",
+  "profile": "",
+  "description": "",
+  "specification": []
+}

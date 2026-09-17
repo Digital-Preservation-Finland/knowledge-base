@@ -121,6 +121,7 @@ Related errors by source files
 	JHOVE:	Type mismatch for tag .*; expecting .* or .*, saw
 	JHOVE:	Unknown data block type
 	JHOVE:	Unknown data type
+	JHOVE:	Unknown TIFF IFD tag
 	JHOVE:	Value offset not word-aligned:
 	jpylyzer:	<containsColourSpecificationBox>False
 	jpylyzer:	<containsContiguousCodestreamBox>False
