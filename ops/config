@@ -1,0 +1,64 @@
+##  CONFIGURATION AND COMMONS
+#  for knowledge base operations
+
+# Set to validator directory name
+#validatorPath=database/solutions/"${1}"
+validatorPath="${1}"
+
+# Location of objects with error messages
+errorObjects="${validatorPath}"/*/error
+
+# Listing of defined error messages
+errorMessages="${validatorPath}"/messages	
+
+# Location of preliminary error objects of a validator
+preliminaryErrors="${validatorPath}"/pre
+
+# Preliminary errors' example outputs that should be reduced to processed
+# error messages. /messages may be appended to this file for updating
+# the existing data.
+selectMessages="${validatorPath}"/select
+
+# Path for ready 
+#updateErrors="${validatorPath}"/ready
+
+# File for handling JSON object in a process
+#workfile="${validatorPath}"/work
+
+# Location of all preliminary error objects. Accumulation starts from here
+globPre=$(dirname "${validatorPath}")/pre
+
+# Error messages that are ignored while accumulating data
+ignoredErrors=$(dirname "${validatorPath}")/ignore
+
+errorPatterns="${validatorPath}"/pattern
+
+
+## FUNCTIONS
+
+error_dirname() {
+
+dots=
+test "${1}" = "--keep-dots" && dots="." && shift
+#test "${1}" = "--keep-dots" && shift
+
+python - << PYTHONCODE
+
+"""This is compatibility feature to be get rid of at some point soon when
+validator names are controlled and error directory names are changed to
+error ids."""
+
+name = []
+for x in "${*}":
+	if x.isalnum():
+		name.append(x)
+	elif x in list("${dots}"):
+		name.append(x)
+	else:
+		name.append(" ")
+
+print("-".join([x for x in "".join(name).split()]))
+
+
+PYTHONCODE
+}
