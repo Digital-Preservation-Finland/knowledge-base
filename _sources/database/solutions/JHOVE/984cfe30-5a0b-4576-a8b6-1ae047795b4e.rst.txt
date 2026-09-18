@@ -1,0 +1,98 @@
+.. _984cfe30-5a0b-4576-a8b6-1ae047795b4e:
+
+====================
+Unknown TIFF IFD tag
+====================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - JHOVE
+     - 1.32.1
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - image/x-adobe-dng
+     - 1.4
+     - 
+     - 
+     - :ref:`corpus <corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
+   * - image/tiff
+     - 1.1
+     - 
+     - 
+     - :ref:`corpus <corpus/file/6adc1ec3-16fd-480c-b742-16c8842b74cf>`
+   * - image/tiff
+     - 1.1
+     - 
+     - 
+     - :ref:`corpus <corpus/file/6b24ee7a-8e2b-43fc-bc93-c77711274745>`
+   * - image/x-adobe-dng
+     - 1.7
+     - 
+     - File has been exported from Sony A7RV camera with Adobe's Fast Load Data and JPEG Preview settings enabled.
+     - :ref:`corpus <corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197>`
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+
+
+
+------------------
+Notes on the error
+------------------
+
+Example output is removed from this object for being very long. The output can be found in error object 'Tile length is not multiple.'
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ExifTool:	MIME type image/x-adobe-dng with version 1.7 is not supported.
+	ImageMagick:	Input/output error
+	JHOVE:	Tag .* out of sequence
+	JHOVE:	TileLength not a multiple of
+	JHOVE:	Type mismatch for tag .*; expecting .* or .*, saw
+	JHOVE:	Undocumented TIFF tag
+	JHOVE:	Unknown data type
+	JHOVE:	Unknown TIFF IFD tag
+	JHOVE:	Value offset not word-aligned:
+	Pillow:	cannot identify image file
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

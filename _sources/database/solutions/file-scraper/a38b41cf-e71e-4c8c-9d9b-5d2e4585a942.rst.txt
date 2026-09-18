@@ -1,0 +1,77 @@
+.. _a38b41cf-e71e-4c8c-9d9b-5d2e4585a942:
+
+==========================================
+Character decoding error: unknown encoding
+==========================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - file-scraper
+     - 3.1.1
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - text/plain
+     - (:unap)
+     - 
+     - 
+     - :ref:`corpus <file-scraper/23eef253-7589-4d14-ab9e-9a6bf1d4bde4>`
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	Character decoding error: unknown encoding: UNKNOWN-8BIT
+
+
+------------------
+Notes on the error
+------------------
+
+TextEncodingExtractor
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	file-scraper:	Character decoding error: unknown encoding
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

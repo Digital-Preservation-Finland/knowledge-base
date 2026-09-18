@@ -1,0 +1,78 @@
+.. _ebf896a2-91d7-4c2b-ae25-a485476cf561:
+
+=========================================
+ExifVersion '.*' is not 4 characters long
+=========================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - ExifTool
+     - 13.10
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - image/jpeg
+     - 2.2
+     - 
+     - 
+     - :ref:`corpus <corpus/file/6dcab94d-3470-4337-8818-56141811a190>`
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	ExifVersion '022' is not 4 characters long
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ExifTool:	ExifVersion '.*' is not 4 characters long
+	ExifTool:	MIME type image/x-adobe-dng with version 1.7 is not supported.
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

@@ -1,0 +1,79 @@
+.. _2404811a-9b05-4c38-93a2-b2a1afebd173:
+
+======================================
+Pngcheck returned invalid return code:
+======================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - PNGcheck
+     - 4.0.0
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - image/png
+     - 1.2
+     - 
+     - 
+     - :ref:`corpus <corpus/file/aad28cd5-cfb7-4cba-bf0c-354a95811f71>`
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	Pngcheck returned invalid return code: 2
+	
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	ImageMagick:	Read Exception
+	PNGcheck:	Pngcheck returned invalid return code:
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

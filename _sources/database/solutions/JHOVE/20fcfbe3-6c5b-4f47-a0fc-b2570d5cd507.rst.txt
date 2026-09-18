@@ -1,0 +1,96 @@
+.. _20fcfbe3-6c5b-4f47-a0fc-b2570d5cd507:
+
+================================
+Malformed cross-reference stream
+================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - JHOVE
+     - 1.32.1
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - application/pdf
+     - 1.5
+     - 
+     - 
+     - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-81/Gasp_and_Wheeze_Puppetry.pdf>`__
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	Validator returned error.
+	<?xml version="1.0" encoding="UTF-8"?>
+	<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.openpreservation.org/ois/xml/ns/jhove" xsi:schemaLocation="http://schema.openpreservation.org/ois/xml/ns/jhove https://schema.openpreservation.org/ois/xml/xsd/jhove/1.9/jhove.xsd" name="Jhove" release="1.32.1" date="2025-02-06">
+	 <date>2026-06-15T15:23:03+03:00</date>
+	 <repInfo uri="/corpus/format-corpus/jhove-errors/PDF-HUL-81/Gasp_and_Wheeze_Puppetry.pdf">
+	  <reportingModule release="1.12.7" date="2024-08-22">PDF-hul</reportingModule>
+	  <lastModified>2026-06-15T13:22:19+03:00</lastModified>
+	  <size>9895556</size>
+	  <format>PDF</format>
+	  <status>Not well-formed</status>
+	  <sigMatch>
+	  <module>PDF-hul</module>
+	  </sigMatch>
+	  <messages>
+	   <message offset="562" severity="error" id="PDF-HUL-81" infoLink="https://github.com/openpreserve/jhove/wiki/PDF-hul-Messages#pdf-hul-81">Malformed cross-reference stream</message>
+	  </messages>
+	  <mimeType>application/pdf</mimeType>
+	 </repInfo>
+	</jhove>
+	
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	JHOVE:	Malformed cross-reference stream
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

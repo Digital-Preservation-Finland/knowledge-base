@@ -1,0 +1,78 @@
+.. _44a1a89d-53b6-463b-8b06-755a07b73701:
+
+============================================
+CSV error on line .*: unexpected end of data
+============================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - file-scraper
+     - 3.1.1
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - text/csv
+     - (:unap)
+     - 
+     - 
+     - :ref:`corpus <file-scraper/d835f26b-36b4-46cc-a537-0403a9dce14c>`
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	CSV error on line 6: unexpected end of data
+	MIME type (:unav) with version (:unav) is not supported.
+
+
+------------------
+Notes on the error
+------------------
+
+CsvExtractor
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	file-scraper:	CSV error on line .*: unexpected end of data
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

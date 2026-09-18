@@ -1,0 +1,77 @@
+.. _1a381278-7e17-4116-81fd-07885bb08d44:
+
+====================================================================
+JsonExtractor produced an error: Extra data: line .* column .* (char
+====================================================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - file-scraper
+     - 3.1.1
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - application/json
+     - (:unav)
+     - 
+     - 
+     - :ref:`corpus <corpus/file/b65b3be8-4a57-48ca-a1e2-8286a6d3b18e>`
+
+--------
+Analyses
+--------
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+
+--------------
+Output example
+--------------
+
+::
+
+
+	JsonExtractor produced an error: Extra data: line 28 column 1 (char 776)
+
+
+------------------
+Notes on the error
+------------------
+
+JsonExtractor
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	file-scraper:	JsonExtractor produced an error: Extra data: line .* column .* (char
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
