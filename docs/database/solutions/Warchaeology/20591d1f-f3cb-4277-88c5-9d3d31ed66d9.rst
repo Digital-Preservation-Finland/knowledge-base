@@ -1,3 +1,4 @@
+database/solutions/Warchaeology/payload-wrong-digest-expected-computed/error
 .. _20591d1f-f3cb-4277-88c5-9d3d31ed66d9:
 
 ===========================================
@@ -40,6 +41,11 @@ Classification
 Analyses
 --------
 
+No investigations yet.
+
+.. note::
+
+	To help, share and save knowledge about fixing validation errors, please see: https://github.com/Digital-Preservation-Finland/knowledge-base/tree/master/.github/CONTRIBUTING.rst
 
 ------------------
 Possible solutions
@@ -47,8 +53,11 @@ Possible solutions
 .. contents::
    :local:
 
-No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+No remediation determined. All solutions are listed :ref:`here <solutions-list>`.
 
+.. note::
+
+	To update or provide a solution, please see: https://github.com/Digital-Preservation-Finland/knowledge-base/tree/master/.github/CONTRIBUTING.rst
 --------------
 Output example
 --------------

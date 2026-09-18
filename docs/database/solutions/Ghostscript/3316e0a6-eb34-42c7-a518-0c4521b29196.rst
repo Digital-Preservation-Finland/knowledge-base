@@ -155,6 +155,11 @@ Classification
 Analyses
 --------
 
+No investigations yet.
+
+.. note::
+
+	To help, share and save knowledge about fixing validation errors, please see: https://github.com/Digital-Preservation-Finland/knowledge-base/tree/master/.github/CONTRIBUTING.rst
 
 ------------------
 Possible solutions
@@ -162,8 +167,11 @@ Possible solutions
 .. contents::
    :local:
 
-No suggestion determined. All solutions are listed for browsing :ref:`in here <solutions-list>`.
+No remediation determined. All solutions are listed :ref:`here <solutions-list>`.
 
+.. note::
+
+	To update or provide a solution, please see: https://github.com/Digital-Preservation-Finland/knowledge-base/tree/master/.github/CONTRIBUTING.rst
 --------------
 Output example
 --------------
