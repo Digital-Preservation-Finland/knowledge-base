@@ -20,6 +20,10 @@ The objects are selected by ``validator`` to ``database/solutions/<validator>/pr
 
     The scripts in ``ops/kb/errors/`` all read configuration file in ``ops/config`` and need as the first argument the path to validator directory, such as ``database/solutions/JHOVE``. The configuration file sets up path to state files and some other functions.
 
+.. important::
+
+    The scripts must be run from the project root. The project root contains ``database/`` and ``ops/`` directories.
+
 The process runs like:
 
   0. Scrape files and form the data into knowledge base (format, file and) error objects.
@@ -31,7 +35,7 @@ The process runs like:
 	3.1 ``sh ops/kb/errors/add-from-pre.sh <validator path> <new error message>`` looks up suitable preliminary object and creates the error directory and file.
 	3.2 ``sh ops/kb/errors/update-from-pre.sh <validator path> <error file> > <updated file>.tmp`` collects files and validator versions from preliminary errors when regexed error message is found in ``outputExample`` of a preliminary error.
   4. When ready, replace the error files with the tmp files and use ``git restore -p database/solutions`` to review the changes.
-  5. Voilà
+
 
 
 Selected errors for accumulation
