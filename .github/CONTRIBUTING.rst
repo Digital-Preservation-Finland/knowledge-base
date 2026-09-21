@@ -15,6 +15,9 @@ but it is also possible to
 
 for example.
 
-The preliminary errors refer to error data objects that are not fully defined and not yet added to the knowledge base. Such objects are as in `https://github.com/Digital-Preservation-Finland/knowledge-base/blob/master/corpus/error.objects`_. They lack, for example the errorMessage value which should be review and selected thoughtfully (the selected message should be specific to the problem). Preliminary errors are accumulated to the knowledge base if they provide new information; new error message, validator, validator version, or files containing an existing error.
+The preliminary errors refer to error data objects that are not fully defined and not yet added to the knowledge base. Such objects can be found from `corpus errors`_. They lack, for example the errorMessage value which should be review and selected thoughtfully (the selected message should be specific to the problem). Preliminary errors are accumulated to the knowledge base if they provide new information; new error message, validator, validator version, or files containing an existing error.
 
 Updates on the data are preferably limited to plain text but features of reStructuredText or Sphinx, and possibly HTML, may be allowed. In some cases, JSON list items are used to set up paragraphs.
+
+
+.. _corpus errors: https://github.com/Digital-Preservation-Finland/knowledge-base/blob/master/corpus/error.objects
