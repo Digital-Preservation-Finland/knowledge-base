@@ -1,4 +1,6 @@
+cd "$(dirname ${0})/../../.."
 . ops/config "${1}"
+
 
 grep -v -f "${errorMessages}" -f "${ignoredErrors}" "${selectMessages}" | sort -u | while IFS= read -r selectedMessage ; do
 	sh ops/kb/errors/add-from-pre.sh "${validatorPath}" "${selectedMessage}"

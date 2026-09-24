@@ -1,6 +1,8 @@
  #usage: $0 <validator directory>
 
+cd "$(dirname ${0})/../../.."
 . ops/config "${1}"
+
 
 missing_file() {
 	echo "missing file $1">&2

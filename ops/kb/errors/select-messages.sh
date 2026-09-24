@@ -3,7 +3,9 @@
 # defined errors may get lost in grep output because they lie outside the
 # context lines.
 
+cd "$(dirname ${0})/../../.."
 . ops/config "${1}"
+
 
 invalid_workpath () {
 	printf "Invalid working directory: %s\n" "${1}" >&2

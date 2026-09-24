@@ -1,4 +1,6 @@
+cd "$(dirname ${0})/../../.."
 . ops/config "${1}"
+
 
 errorFile=${2}
 
