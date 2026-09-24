@@ -12,4 +12,4 @@ cd "$(dirname ${0})/.."
 pattern="${1}"
 shift
 
-jq -c . ${*} | grep "${pattern}"
+jq -c . "${@}" | grep "${pattern}"

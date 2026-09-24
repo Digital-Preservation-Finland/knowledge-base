@@ -20,9 +20,6 @@ The objects are selected by ``validator`` to ``database/solutions/<validator>/pr
 
     The scripts in ``ops/kb/errors/`` all read configuration file in ``ops/config`` and need as the first argument the path to validator directory, such as ``database/solutions/JHOVE``. The configuration file sets up path to state files and some other functions.
 
-.. important::
-
-    The scripts must be run from the project root. The project root contains ``database/`` and ``ops/`` directories.
 
 The process runs like:
 
