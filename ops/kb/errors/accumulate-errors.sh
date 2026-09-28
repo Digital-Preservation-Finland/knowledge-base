@@ -1,4 +1,8 @@
-cd "$(dirname ${0})/../../.."
+#!/bin/bash
+
+# This script first adds new ones from the selected errors to the knowledge base and then updates the existing one, including the newly added in case there are many new files with the newly updated error.
+
+cd "$(dirname "${0}")/../../.." || exit 1
 . ops/config "${1}"
 
 

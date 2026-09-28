@@ -1,9 +1,8 @@
-# Colors a list file by grepping it with a list of error messages.
-# If the context switch is not high enough, undefined errors in between
-# defined errors may get lost in grep output because they lie outside the
-# context lines.
+#!/bin/bash
 
-cd "$(dirname ${0})/../../.."
+# Either colors the select file with existing error messages or select lines containing a pattern in the pattern file. Coloring can be used to visual review and patterns can be used to filter lines that contain errors from long outputs for a review.
+
+cd "$(dirname "${0}")/../../.." || exit 1
 . ops/config "${1}"
 
 
@@ -12,15 +11,15 @@ invalid_workpath () {
 	exit 1
 }
 
-test -e ${validatorPath} || invalid_workpath "${validatorPath}"
+test -e "${validatorPath}" || invalid_workpath "${validatorPath}"
 
 
-jq -r '.errorMessage' ${errorObjects} > "${errorMessages}"
+jq -r '.errorMessage' "${errorObjects}" > "${errorMessages}"
 jq -r '.outputExample[]' "${preliminaryErrors}" > "${selectMessages}"
 
 
 if test "${2}" = "color" ; then
 	grep --color=always -e " " -hf "${errorMessages}" -f "${ignoredErrors}" "${selectMessages}"
-else
+elif test "${2}" = "pattern" ; then
 	grep -f "${errorPatterns}" "${selectMessages}"
 fi

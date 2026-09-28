@@ -1,6 +1,10 @@
- #usage: $0 <validator directory>
+#!/bin/bash
 
-cd "$(dirname ${0})/../../.."
+# This script simply selects preliminary error objects to the correct validator directory for further processing. Preliminary objects are split from database/solutions/pre to database/solutions/<validator>/pre. The file corpus/error.objects, for exaple, needs to be copied to database/solutions/pre for processing. 
+
+#usage: $0 <validator directory>
+
+cd "$(dirname "${0}")/../../.." || exit 1
 . ops/config "${1}"
 
 
@@ -11,20 +15,8 @@ missing_file() {
 
 test -e "${globPre}" || missing_file "${globPre}"
 
-#pre_stats
 validator=$(basename "${1}")
-validator_f="$(error_dirname --keep-dots ${validato})"
+validator_f="$(error_dirname --keep-dots "${validator}")"
 test -z "${validator_f}" && validator_f="${validator}"  # !!
 
 jq -c --arg validator "${validator_f}" 'select(.validator==$validator)' "${globPre}"
-
-the_loop() {
-	jq -r .validator "${1}${globPre}" | sort -u | while IFS= read val ; do
-
-		validator="$(error_dirname --keep-dots ${val})"
-		test -z "${validator}" && validator="${val}"  # !!
-
-		jq -c --arg validator "${validator}" 'select(.validator==$validator)' "${globPre}" > "${1}"database/solutions/"${validator}"/pre
-
-	done
-}

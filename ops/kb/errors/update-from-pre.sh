@@ -1,4 +1,8 @@
-cd "$(dirname ${0})/../../.."
+#!/bin/bash
+
+# This sciprt attempts to update validatorVersion and files lists when existing error is found and updated. However, the existing errorMessages may contain characters that need special handling when testing for a match.
+
+cd "$(dirname "${0}")/../../.." || exit 1
 . ops/config "${1}"
 
 

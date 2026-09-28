@@ -1,4 +1,8 @@
-cd "$(dirname ${0})/../../.."
+#!/bin/bash
+
+# Add new errors from the list of preliminary errors and set @id and errorMessage from the selected errors if the message is found in the outputExample of the error to be added. The list of selected messages should not contain duplicates.
+
+cd "$(dirname "${0}")/../../.." || exit 1
 . ops/config "${1}"
 
 
@@ -10,7 +14,7 @@ jq -c . "${preliminaryErrors}" | while IFS= read -r pre ; do
 
 	formattedMessage=$(error_dirname "${selectedMessage}")
 	errorDir="${1}"/"${formattedMessage}"
-	errorFile="${errorDir}"/error
+	#errorFile="${errorDir}"/error
 
 	mkdir "${errorDir}"
 
