@@ -31,7 +31,8 @@ globPre=$(dirname "${validatorPath}")/pre
 # Error messages that are ignored while accumulating data
 ignoredErrors=$(dirname "${validatorPath}")/ignore
 
-errorPatterns="${validatorPath}"/pattern
+# Patterns match to lines that contain error messages
+errorPatterns="${validatorPath}"/.pattern
 
 
 ## FUNCTIONS

@@ -10,7 +10,7 @@ The objects are selected by ``validator`` to ``database/solutions/<validator>/pr
   * ``/pre`` for the initial preliminary error objects to be processed as candidates to the knowledge base.
   * ``/messages`` for list of existing error messages, for convenience. The exsting messages can be used to remove or to highlight existing errors in the ``/select`` file to visually detect unexsting errors.
   * ``/select`` is two state file that contains outputs of preliminary errors (values of exampleOutput), in full at first but which after are reduced to concise error message lines. The after lines are further encoded with regular expressions to match any similar (same) error (with varying line numbers, for example).
-  * ``/pattern`` is optional file for regular expressions to select the lines that contain error messages in the software outputs in ``/select``. This may be useful for automating the review of multiple long outputs. The patterns should be review for new validator versions.
+  * ``/.pattern`` is file for regular expressions to select the lines that contain error messages in the software outputs listed in ``/select``. This may be useful for automating the review of multiple long outputs. The patterns should be review for new validator versions.
 
 .. note:: Implementation note
 
