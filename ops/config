@@ -9,15 +9,15 @@ validatorPath="${1}"
 errorObjects="${validatorPath}"/*/error
 
 # Listing of defined error messages
-errorMessages="${validatorPath}"/messages	
+errorMessages="${validatorPath}"/.messages
 
 # Location of preliminary error objects of a validator
-preliminaryErrors="${validatorPath}"/pre
+preliminaryErrors="${validatorPath}"/.pre
 
 # Preliminary errors' example outputs that should be reduced to processed
 # error messages. /messages may be appended to this file for updating
 # the existing data.
-selectMessages="${validatorPath}"/select
+selectMessages="${validatorPath}"/.select
 
 # Path for ready 
 #updateErrors="${validatorPath}"/ready
@@ -26,10 +26,10 @@ selectMessages="${validatorPath}"/select
 #workfile="${validatorPath}"/work
 
 # Location of all preliminary error objects. Accumulation starts from here
-globPre=$(dirname "${validatorPath}")/pre
+globPre=$(dirname "${validatorPath}")/.pre
 
 # Error messages that are ignored while accumulating data
-ignoredErrors=$(dirname "${validatorPath}")/ignore
+ignoredErrors=$(dirname "${validatorPath}")/.ignore
 
 # Patterns match to lines that contain error messages
 errorPatterns="${validatorPath}"/.pattern

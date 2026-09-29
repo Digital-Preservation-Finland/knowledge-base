@@ -1,4 +1,4 @@
-database/solutions/*/messages
-database/solutions/*/select
-database/solutions/*/pre
-database/solutions/pre
+database/solutions/*/.messages
+database/solutions/*/.select
+database/solutions/*/.pre
+database/solutions/.pre
