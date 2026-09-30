@@ -13,11 +13,11 @@ Templates are used to create article pages followingly:
        file-list-file.template
    
    analyses.template
-   for each analysis:
+   for each analysis or contribute-analysis:
        analysis.template
    
    repairs.template
-   for each repair:
+   for each repair or contribute-repair:
        repair.template
        files.template
        for each file in repair:
