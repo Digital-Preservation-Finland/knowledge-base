@@ -403,6 +403,7 @@
       1      98    2204 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/error
       1      74    1868 database/solutions/veraPDF/Pages-not-found/error
       1     709    9117 database/solutions/veraPDF/Real-value-out-of-range/error
+      1     113    2316 database/solutions/veraPDF/String-length-exceeded/error
       1     690    8703 database/solutions/veraPDF/The-document-catalog-dictionary-doesnt-contain-metadata-key-or-metadata-stream-dictionary-does-not-contain-either-entry-Type-with-value-Metadata-or-entry-Subtype-with-value-XML/error
       1     669    8607 database/solutions/veraPDF/The-font-program-is-not-embedded/error
       1     553    7784 database/solutions/veraPDF/The-value-of-CreationDate-entry-from-the-document-Info-dictionary-and-its-matching-XMP-property-xmpCreateDate-are-not-equivalent-Info-CreationDate-D-XMP-xmpCreateDate/error
@@ -465,5 +466,6 @@
       1       1     212 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/analysis
       1       1     220 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis
       1      24     390 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
+      1       1     135 database/solutions/veraPDF/String-length-exceeded/analysis
     405   25808  449319 corpus/error.objects
     407     542  290111 corpus/file.objects
