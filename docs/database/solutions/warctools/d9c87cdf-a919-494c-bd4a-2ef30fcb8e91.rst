@@ -1,4 +1,3 @@
-database/solutions/warctools/Compressed-file-ended-before-the-end-of-stream-marker-was-reached/error
 .. _d9c87cdf-a919-494c-bd4a-2ef30fcb8e91:
 
 =================================================================

@@ -1,4 +1,3 @@
-database/solutions/Warchaeology/payload-wrong-digest-expected-computed/error
 .. _20591d1f-f3cb-4277-88c5-9d3d31ed66d9:
 
 ===========================================
