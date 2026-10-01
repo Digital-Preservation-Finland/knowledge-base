@@ -19,12 +19,6 @@ preliminaryErrors="${validatorPath}"/.pre
 # the existing data.
 selectMessages="${validatorPath}"/.select
 
-# Path for ready 
-#updateErrors="${validatorPath}"/ready
-
-# File for handling JSON object in a process
-#workfile="${validatorPath}"/work
-
 # Location of all preliminary error objects. Accumulation starts from here
 globPre=$(dirname "${validatorPath}")/.pre
 

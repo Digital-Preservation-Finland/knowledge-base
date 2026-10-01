@@ -14,12 +14,12 @@ invalid_workpath () {
 test -e "${validatorPath}" || invalid_workpath "${validatorPath}"
 
 
-jq -r '.errorMessage' "${errorObjects}" > "${errorMessages}"
-jq -r '.outputExample[]' "${preliminaryErrors}" > "${selectMessages}"
+jq -r '.errorMessage' ${errorObjects} > "${errorMessages}"
+jq -r '.outputExample[]' ${preliminaryErrors} > "${selectMessages}"
 
 
-if test "${2}" = "color" ; then
-	grep --color=always -e " " -hf "${errorMessages}" -f "${ignoredErrors}" "${selectMessages}"
+if test -z "${2}" ; then
+	grep --color=always -e " " -hf ${errorMessages} -f ${ignoredErrors} "${selectMessages}"
 elif test "${2}" = "pattern" ; then
-	grep -f "${errorPatterns}" "${selectMessages}"
+	grep -f ${errorPatterns} "${selectMessages}"
 fi
