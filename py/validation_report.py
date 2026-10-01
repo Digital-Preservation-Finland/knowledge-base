@@ -1,36 +1,50 @@
-"""Create preliminary errors from validation report results."""
+"""Create preliminary errors from validation report results.
+
+    usage:
+    $ python py/validation_report.py < jq -c . REPORT
+
+where REPORT is the output from the validation service in
+validation.digitalpreservation.fi"""
 
 from json import load, dumps
 
 
-def get_error_tools(file):
-    for tool in file["tool_info"]:
-        for errors in file["tool_info"][tool]["errors"]:
+def get_error_tools(item):
+    """Yield tool indexes if the tool reports errors."""
+
+    for _tool in item["tool_info"]:
+        for errors in item["tool_info"][_tool]["errors"]:
             if errors:
-                yield tool
+                yield _tool
 
 def get_key(listitem):
+    """Get the single key of an object."""
+
     assert len(list(listitem)) == 1, listitem
+
     for item in listitem:
         return item
 
 
-with open(0, 'r') as fsoutput:
-    fs = load(fsoutput)
+with open(0, 'r', encoding="utf-8") as report_file:
+    report = load(report_file)
 
-for file in fs:
+for entry in report:
+
     json_dict = {}
-    for tool in get_error_tools(file):
 
-        tool_name = get_key(file["tool_info"][tool]["tools"])
+    for tool in get_error_tools(entry):
+        tool_name = get_key(entry["tool_info"][tool]["tools"])
+
         json_dict.update({
             "files": [],
             "analyses": [],
             "validator": tool_name,
-            "validatorVersion": [file["tool_info"][tool]["tools"][tool_name]["version"]],
+            "validatorVersion": [entry["tool_info"][tool]["tools"][tool_name]["version"]],
             "errorMessage": "",
             "type": "",
-            "outputExample": file["tool_info"][tool]["errors"],
+            "outputExample": entry["tool_info"][tool]["errors"],
             "notes": []
     })
-    print(dumps(json_dict))  
+
+    print(dumps(json_dict))
