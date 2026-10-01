@@ -10,7 +10,8 @@ with open(0, 'r') as schema_file:
 
 default_map = {
     "string": "",
-    "array": []
+    "array": [],
+    "object": {}
     }
 
 obj = {}
