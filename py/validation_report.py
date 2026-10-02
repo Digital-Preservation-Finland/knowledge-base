@@ -4,7 +4,16 @@
     $ python py/validation_report.py < jq -c . REPORT
 
 where REPORT is the output from the validation service in
-validation.digitalpreservation.fi"""
+validation.digitalpreservation.fi
+
+Reports from File Scraper can be also used when tool info is
+included in the report:
+
+    usage:
+    $ scraper scrape-file --tool-info FILE | jq -c | \
+        python py/validation_report.py
+
+"""
 
 from json import load, dumps
 
@@ -28,6 +37,9 @@ def get_key(listitem):
 
 with open(0, 'r', encoding="utf-8") as report_file:
     report = load(report_file)
+
+if not isinstance(report, list):
+    report = [report]  # file-scraper report contains single object
 
 for entry in report:
 
