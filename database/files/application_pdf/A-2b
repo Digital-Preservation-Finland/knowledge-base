@@ -90,3 +90,26 @@
     }
   }
 }
+{
+  "@id": "corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f",
+  "source": "corpus/format/748a7ff8-9114-4a4b-ab58-0a8143ddaac9",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "e3a57c5735dabe484cdb18bc01c74e79",
+    "blake2b": "0bc3aed351c2761c714d78079d7012a97f9ae4df750b2f5d104e8e8ec26132230670b556681409a755bc6c5288b269ad7e7e0d555131e365f1cdbe59ababfd69"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/knowledge-base-data/blob/master/data/too-long-string-pdf-a.pdf"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/pdf",
+      "version": "A-2b",
+      "stream_type": "binary"
+    }
+  }
+}
