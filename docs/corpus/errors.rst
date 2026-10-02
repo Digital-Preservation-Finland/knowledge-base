@@ -843,6 +843,23 @@ ExifTool 13.10
 
 ----
 
+.. _ExifTool-13.10-corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197:
+
+:ref:`corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197`
+.......................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   MIME type image/x-adobe-dng with version 1.7 is not supported.
+
+
+----
+
 .. _ffmpeg 6.0:
 
 ffmpeg 6.0
@@ -7538,6 +7555,25 @@ JHOVE 1.32.1
 
 ----
 
+.. _JHOVE-1.32.1-corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197:
+
+:ref:`corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197`
+.......................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   Validator returned error.
+   <message severity="error" id="TIFF-HUL-35" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-35">TileLength not a multiple of 16: 171</message>
+   <message severity="error" id="TIFF-HUL-35" infoLink="https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-35">TileLength not a multiple of 16: 341</message>
+
+
+----
+
 .. _jpylyzer 2.2.1:
 
 jpylyzer 2.2.1
@@ -9809,6 +9845,58 @@ veraPDF 1.28.2
        <featureReports failedJobs="0">0</featureReports>
        <repairReports failedJobs="0">0</repairReports>
        <duration start="1789543287664" finish="1789543288724">00:00:01.060</duration>
+     </batchSummary>
+   </report>
+   MIME type (:unav) with version (:unav) is not supported.
+
+
+----
+
+.. _veraPDF-1.28.2-corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f:
+
+:ref:`corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f`
+.......................................................
+
+
+**Validator output:**
+
+
+.. code::
+
+
+   <?xml version="1.0" encoding="utf-8"?>
+   <report>
+     <buildInformation>
+       <releaseDetails id="core" version="1.28.2" buildDate="2025-07-15T16:07:00+03:00"></releaseDetails>
+       <releaseDetails id="validation-model" version="1.28.2" buildDate="2025-07-15T16:12:00+03:00"></releaseDetails>
+       <releaseDetails id="gui" version="1.28.2" buildDate="2025-07-15T16:59:00+03:00"></releaseDetails>
+     </buildInformation>
+     <jobs>
+       <job>
+         <item size="889863">
+           <name>/corpus/knowledge-base-data/data/too-long-string-pdf-a.pdf</name>
+         </item>
+         <validationReport jobEndStatus="normal" profileName="PDF/A-2B validation profile" statement="PDF file is not compliant with Validation Profile requirements." isCompliant="false">
+           <details passedRules="143" failedRules="1" passedChecks="3120" failedChecks="1">
+             <rule specification="ISO 19005-2:2011" clause="6.1.13" testNumber="3" status="failed" failedChecks="1">
+               <description>A conforming file shall not contain any string longer than 32767 bytes</description>
+               <object>CosString</object>
+               <test>value.length() &lt; 32768</test>
+               <check status="failed">
+                 <context>root/indirectObjects[34](60 0)/directObject[0]/values[2]</context>
+                 <errorMessage>String length (57944) exceeded 32767</errorMessage>
+               </check>
+             </rule>
+           </details>
+         </validationReport>
+         <duration start="1790925459433" finish="1790925460542">00:00:01.109</duration>
+       </job>
+     </jobs>
+     <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+       <validationReports compliant="0" nonCompliant="1" failedJobs="0">1</validationReports>
+       <featureReports failedJobs="0">0</featureReports>
+       <repairReports failedJobs="0">0</repairReports>
+       <duration start="1790925459309" finish="1790925460581">00:00:01.272</duration>
      </batchSummary>
    </report>
    MIME type (:unav) with version (:unav) is not supported.

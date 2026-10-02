@@ -30,6 +30,11 @@ Classification
      - **Specification**
      - **Description**
      - **Location**
+   * - application/pdf
+     - A-2b
+     - 
+     - 
+     - :ref:`corpus <corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f>`
 
 --------
 Analyses
@@ -108,3 +113,8 @@ Notes on the error
 Related errors by source files
 ------------------------------
 
+::
+
+	veraPDF:	String length .* exceeded
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
