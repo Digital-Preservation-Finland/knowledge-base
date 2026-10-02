@@ -6908,3 +6908,70 @@
   ],
   "notes": []
 }
+{
+  "files": [
+    "corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197"
+  ],
+  "analyses": [],
+  "validator": "ExifTool",
+  "validatorVersion": [
+    "13.10"
+  ],
+  "errorMessage": "",
+  "type": "",
+  "outputExample": [
+    "MIME type image/x-adobe-dng with version 1.7 is not supported."
+  ],
+  "notes": []
+}
+{
+  "files": [
+    "corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197"
+  ],
+  "analyses": [],
+  "validator": "JHOVE",
+  "validatorVersion": [
+    "1.32.1"
+  ],
+  "errorMessage": "",
+  "type": "",
+  "outputExample": [
+    "Validator returned error.",
+    "<message severity=\"error\" id=\"TIFF-HUL-35\" infoLink=\"https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-35\">TileLength not a multiple of 16: 171</message>",
+    "<message severity=\"error\" id=\"TIFF-HUL-35\" infoLink=\"https://github.com/openpreserve/jhove/wiki/TIFF-hul-Messages#tiff-hul-35\">TileLength not a multiple of 16: 341</message>"
+  ],
+  "notes": []
+}
+{
+  "files": [
+    "corpus/file/da4ba779-78ea-4f45-9d79-8e1a44f4b197"
+  ],
+  "analyses": [],
+  "validator": "file-scraper",
+  "validatorVersion": "3.2.3",
+  "errorMessage": "",
+  "type": "",
+  "outputExample": [
+    "Given version 1.7 for the mimetype image/x-adobe-dng is not supported"
+  ],
+  "notes": [
+    "Scraper"
+  ]
+}
+{
+  "files": [
+    "corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f"
+  ],
+  "analyses": [],
+  "validator": "veraPDF",
+  "validatorVersion": [
+    "1.28.2"
+  ],
+  "errorMessage": "",
+  "type": "",
+  "outputExample": [
+    "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<report>\n  <buildInformation>\n    <releaseDetails id=\"core\" version=\"1.28.2\" buildDate=\"2025-07-15T16:07:00+03:00\"></releaseDetails>\n    <releaseDetails id=\"validation-model\" version=\"1.28.2\" buildDate=\"2025-07-15T16:12:00+03:00\"></releaseDetails>\n    <releaseDetails id=\"gui\" version=\"1.28.2\" buildDate=\"2025-07-15T16:59:00+03:00\"></releaseDetails>\n  </buildInformation>\n  <jobs>\n    <job>\n      <item size=\"889863\">\n        <name>/corpus/knowledge-base-data/data/too-long-string-pdf-a.pdf</name>\n      </item>\n      <validationReport jobEndStatus=\"normal\" profileName=\"PDF/A-2B validation profile\" statement=\"PDF file is not compliant with Validation Profile requirements.\" isCompliant=\"false\">\n        <details passedRules=\"143\" failedRules=\"1\" passedChecks=\"3120\" failedChecks=\"1\">\n          <rule specification=\"ISO 19005-2:2011\" clause=\"6.1.13\" testNumber=\"3\" status=\"failed\" failedChecks=\"1\">\n            <description>A conforming file shall not contain any string longer than 32767 bytes</description>\n            <object>CosString</object>\n            <test>value.length() &lt; 32768</test>\n            <check status=\"failed\">\n              <context>root/indirectObjects[34](60 0)/directObject[0]/values[2]</context>\n              <errorMessage>String length (57944) exceeded 32767</errorMessage>\n            </check>\n          </rule>\n        </details>\n      </validationReport>\n      <duration start=\"1790925459433\" finish=\"1790925460542\">00:00:01.109</duration>\n    </job>\n  </jobs>\n  <batchSummary totalJobs=\"1\" failedToParse=\"0\" encrypted=\"0\" outOfMemory=\"0\" veraExceptions=\"0\">\n    <validationReports compliant=\"0\" nonCompliant=\"1\" failedJobs=\"0\">1</validationReports>\n    <featureReports failedJobs=\"0\">0</featureReports>\n    <repairReports failedJobs=\"0\">0</repairReports>\n    <duration start=\"1790925459309\" finish=\"1790925460581\">00:00:01.272</duration>\n  </batchSummary>\n</report>\n",
+    "MIME type (:unav) with version (:unav) is not supported."
+  ],
+  "notes": []
+}
