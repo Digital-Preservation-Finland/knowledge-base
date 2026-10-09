@@ -19,7 +19,7 @@ Classification
      - **Error message type**
    * - veraPDF
      - 1.28.2
-     - 
+     - exact
 
 
 .. list-table::
@@ -32,8 +32,8 @@ Classification
      - **Location**
    * - application/pdf
      - A-2b
-     - 
-     - The long string is at line 3350 (vim). The file contains signature.
+     - `ISO 19005-2:2011 <https://pdfa.org/resource/iso-19005-2-pdf-a-2>`__
+     - The long string is at line 3350 (vim). The file contains signature. The file has two xref tables, the second one in the end of the file containing the digital signature.
      - :ref:`corpus <corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f>`
 
 --------
@@ -43,11 +43,15 @@ Analyses
 Analysis
 ========
 
+PDF file is electronically signed and contains digital signature.
 
+A file identified as a PDF/A-2 cannot contain any string that is longer than 32767 bytes according to ISO 19005-2:2011 standard, to which veraPDF rightly refers.
 
+However, (i) ISO 32000-1:2008 standard of PDF 1.7, which is the basis of PDF/A-2, **notes** that ``/Contents`` key in a signature dictionary will not have restriction on length since PDF 1.3, when digital signatures were introduced to PDFs. Additionally (ii), **note** on the implementation limits in ISO 19005-2:2011 states that the limits are derived from the 32000-1:2008 table C.1. The table describes minimum architectural limits for readers and writers on 32-bit machines. And (iii) conforming readers should follow the 19005, but the 19005 does not 'prescribe' any specific implementation.
 
+The signature should be readable by decoding it for example with programs such as xxd and OpenSSL: first by extracting the hexadecimal string between ``<`` and ``>`` and then decoding it to binary form by running ``$ xxd -r -p`` on it. The binary data can be then interpreted with OpenSSL's PKCS#7 utility: ``$ openssl pkcs7 -in <extracted binary data file> -inform DER -print``. Base64-encoded PKCS#7 object is printed after the plain text one.
 
-Is it a bug in the validating software? - 
+Is it a bug in the validating software? - no
 
 
 ------------------

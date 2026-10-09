@@ -228,7 +228,11 @@
   "version": "A-2b",
   "profile": "",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "ISO 19005-2:2011": "https://pdfa.org/resource/iso-19005-2-pdf-a-2"
+    }
+  ]
 }
 {
   "@id": "corpus/format/02589ec9-b678-4a2d-8200-4d1dabcda31b",
