@@ -19,7 +19,9 @@ jq -r '.outputExample[]' ${preliminaryErrors} > "${selectMessages}"
 
 
 if test -z "${2}" ; then
-	grep --color=always -e " " -hf ${errorMessages} -f ${ignoredErrors} "${selectMessages}"
+	# Coloring the output does not present new errors.
+	# Grepping for whitespace hopefully results them being output as well.
+	grep --color=always -C2 -e " " -hf ${errorMessages} -f ${ignoredErrors} "${selectMessages}"
 elif test "${2}" = "pattern" ; then
 	grep -f ${errorPatterns} "${selectMessages}"
 fi
