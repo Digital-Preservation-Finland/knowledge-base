@@ -14,16 +14,16 @@ Description of an error. An error may have many analyses and it may rise from ma
 Index fields: ['validator', 'validatorVersion', 'errorMessage']
 
 files : array of string
-    List of references to Files.
+    List of references to file objects that describe the content.
 
 analyses : array of string
-    List of references to Analyses
+    List of references to analysis objects that explain this problem.
 
 validator : string
-    Name of the validating software reporting the error.
+    Name of the validating software that has reported the error.
 
 validatorVersion : array of string
-    List of versions of the validating software that produce the error message for the set of the referred files.
+    List of versions of the validating software that produced the error message.
 
 errorMessage : string
     The message reported and identified by the validating software. The message can be (should be) exact match but may contain regular expressions if the message contains varying data in the middle of the string, such as a file name or an offset. A certain amount of uncertainty inevitably hovers around when raisin-picking the error message from validator output. The output example field may be used to provide implicit reasoning for the picked string or pattern. Notes field may be used for explicit reasoning.
@@ -32,7 +32,7 @@ type : ['general', 'exact', '']
     The error message can (perhaps) be classified either general, exact or unknown. Exact error message may have exact repair solution, general error message needs to be investigated further, has probably many analyses and repairs, and should probably have a more specific error message. Error messages of unknown are not studied yet in such a way.
 
 outputExample : array
-    Additional output from the validator to the error mesasge to give context for later handling and verification. For example the full output from the validating software.
+    Additional output from the validator to the error mesasge to give context for later handling and verification. For example the full output from the validating software. The string items of the array should be easily printed, eg. only quotation marks (") should be escaped, because of JSON format. The items may contain full output including line breaks or the output lines can be split to items.
 
 notes : array
     Additional information on the error.
@@ -41,23 +41,23 @@ notes : array
 2. Analysis
 -----------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2025-09/analysis.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-10/analysis.schema.ld.json``
 
 Description of the problem.
 
 Index fields: ['@id', 'softwareProlem', 'fixable']
 
 @id : string
-    Analysis object identifier.
+    Unique identifier for this analysis object. The identifier is referred by an error object and can be referred from multiple objects.
 
 repairs : array of string
-    List of reference to Repairs.
+    List of reference to repair objects containing a solution for a referring error.
 
 analysis : array of string
-    The analysis of the error. String items in the array can be presented as paragraphs.
+    The analysis of the error. String items in the array are presented as paragraphs.
 
 softwareProblem : ['yes', 'no', '']
-    Classification whetever the cause of the problem is in the validating software, that is a software bug, or not. Bugs should most likely be handled by the developers.
+    Classification whetever the cause of the problem is in the validating software, that is a software bug, or not. Bugs should most likely be handled by the developers of the software.
 
 significantProperties : array of string
     The significant properties that are especially taken into account in the analysis. Significant properties may provide a perspective to the problem. String items in the array can be presented as paragraphs.
@@ -108,10 +108,10 @@ Description of a file. File objects describe content from which a problem arises
 Index fields: ['checksum']
 
 @id : string
-    Identifier for the file
+    Unique identifier for the file object. Error objects refer to this identifier. The referring error objects describe problems discovered from this file.
 
 source : string
-    Identifier for the source classifying the file.
+    Reference to the file format object identifier classifying the file.
 
 description : string
     Description of the content.
@@ -136,21 +136,21 @@ Description of a file format. The file format classifies file objects and determ
 Index fields: ['fileFormat', 'version']
 
 @id : string
-    Identifier for the source.
+    Unique identifier for the file format object.
 
 fileFormat : string
-    MIME type of the file format.
+    Media type of the file format in the form of <type>/<subtype>.
 
 version : string
     Version of the file format.
 
-profile : string
-    Further classification of the data.
+pronom : array
+    List of PRONOM identifiers for the file format.
 
 description : string
     Free form description.
 
 specification : array of objects
-    List of objects with location, name or other description of the specification as the value and name for the resource as a key.
+    List of JSON objects of containing name and location or other description of the specification.
 
 

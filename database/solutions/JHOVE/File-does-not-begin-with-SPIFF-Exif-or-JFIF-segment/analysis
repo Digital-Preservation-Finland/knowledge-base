@@ -6,5 +6,6 @@
   "softwareProblem": "no",
   "@id": "database/image_jpeg/jhove/File-does-not-begin-with-SPIFF-Exif-or-JFIF-segment.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

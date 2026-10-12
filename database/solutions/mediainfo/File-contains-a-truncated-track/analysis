@@ -8,5 +8,6 @@
   "softwareProblem": "",
   "@id": "database/video_quicktime/mediainfo/File-contains-a-truncated-track.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

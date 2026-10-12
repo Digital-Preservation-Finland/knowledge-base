@@ -4,5 +4,6 @@
   "softwareProblem": "",
   "@id": "database/image_tiff/imagemagick-(wand)/Incompatible-type-for-RichTIFFIPTC.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

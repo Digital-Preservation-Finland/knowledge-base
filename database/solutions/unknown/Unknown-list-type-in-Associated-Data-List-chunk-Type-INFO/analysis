@@ -8,5 +8,6 @@
   "softwareProblem": "",
   "@id": "database/audio_x-wav/Unknown-list-type-in-Associated-Data-List-chunk-Type-INFO.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

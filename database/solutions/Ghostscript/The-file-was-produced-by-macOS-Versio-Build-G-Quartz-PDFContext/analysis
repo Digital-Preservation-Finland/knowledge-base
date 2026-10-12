@@ -6,5 +6,6 @@
   "softwareProblem": "yes",
   "@id": "database/application_pdf/ghostscript/The-file-was-produced-by-macOS-Versio-Build-G-Quartz-PDFContext.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

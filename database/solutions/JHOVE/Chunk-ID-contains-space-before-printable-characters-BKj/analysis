@@ -6,5 +6,6 @@
   "softwareProblem": "no",
   "@id": "database/audio_x-wav/jhove/Chunk-ID-contains-space-before-printable-characters-BKj.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

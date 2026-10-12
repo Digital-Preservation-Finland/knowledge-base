@@ -8,5 +8,6 @@
   "softwareProblem": "",
   "@id": "database/application_pdf/JHOVE/Lexical-error.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

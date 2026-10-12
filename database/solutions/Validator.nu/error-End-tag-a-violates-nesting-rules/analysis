@@ -4,5 +4,6 @@
   "softwareProblem": "no",
   "@id": "database/text_html/v.Nu/error-End-tag-a-violates-nesting-rules.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

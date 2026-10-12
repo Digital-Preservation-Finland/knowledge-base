@@ -16,8 +16,8 @@ fileFormat : {properties[fileFormat][type]}
 version : {properties[version][type]}
     {properties[version][description]}
 
-profile : {properties[profile][type]}
-    {properties[profile][description]}
+pronom : {properties[pronom][type]}
+    {properties[pronom][description]}
 
 description : {properties[description][type]}
     {properties[description][description]}

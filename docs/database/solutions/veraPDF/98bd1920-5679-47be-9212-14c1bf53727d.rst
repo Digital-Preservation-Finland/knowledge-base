@@ -40,8 +40,8 @@ Classification
 Analyses
 --------
 
-Analysis
-========
+Compliance of long strings on PDF/A-2/3
+=======================================
 
 PDF file is electronically signed and contains digital signature.
 

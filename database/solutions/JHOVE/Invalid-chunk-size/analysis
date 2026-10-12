@@ -6,5 +6,6 @@
   "softwareProblem": "no",
   "@id": "database/audio_x-wav/jhove/Invalid-chunk-size.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

@@ -9,5 +9,6 @@
   "softwareProblem": "",
   "@id": "database/normalisation/analysis/mpo-to-jpeg",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

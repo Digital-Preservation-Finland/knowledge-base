@@ -14,30 +14,34 @@
   "additionalProperties": false,
   "properties": {
     "@id": {
-      "description": "Identifier for the source.",
+      "description": "Unique identifier for the file format object.",
       "type": "string"
     },
     "fileFormat": {
-      "description": "MIME type of the file format.",
+      "description": "Media type of the file format in the form of <type>/<subtype>.",
       "type": "string"
     },
     "version": {
       "description": "Version of the file format.",
       "type": "string"
     },
-    "profile": {
-      "description": "Further classification of the data.",
-      "type": "string"
+    "pronom": {
+      "description": "List of PRONOM identifiers for the file format.",
+      "type": "array",
+      "items": {
+        "description": "PRONOM identifier (fmt/xyz). PRONOM may present different profiles for the file format with unique PRONOM identifiers.",
+        "type": "string"
+      }
     },
     "description": {
       "description": "Free form description.",
       "type": "string"
     },
     "specification": {
-      "description": "List of objects with location, name or other description of the specification as the value and name for the resource as a key.",
+      "description": "List of JSON objects of containing name and location or other description of the specification.",
       "type": "array",
       "items": {
-        "description": "A named resource for file format specification.",
+        "description": "A named resource for file format specification in the form of {name: location}",
         "type": "object"
       }
     }

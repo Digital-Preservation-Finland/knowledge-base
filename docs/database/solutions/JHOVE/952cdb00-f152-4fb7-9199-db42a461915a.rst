@@ -32,7 +32,7 @@ Classification
      - **Location**
    * - application/pdf
      - A-2b
-     - 
+     - `ISO 19005-2:2011 <https://pdfa.org/resource/iso-19005-2-pdf-a-2>`__
      - 
      - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-90/Arakawa-2025-Lab_Animal.pdf>`__
 

@@ -6,5 +6,6 @@
   "softwareProblem": "",
   "@id": "database/application_pdf/ghostscript/Quartz-PDFContext.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

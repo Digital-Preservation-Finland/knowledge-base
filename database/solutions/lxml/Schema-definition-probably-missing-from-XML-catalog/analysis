@@ -6,5 +6,6 @@
   "softwareProblem": "no",
   "@id": "database/text_xml/xmllint-kai/Schema-definition-probably-missing-from-XML-catalog.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

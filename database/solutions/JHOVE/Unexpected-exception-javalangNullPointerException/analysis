@@ -6,5 +6,6 @@
   "softwareProblem": "",
   "@id": "database/application_pdf/JHOVE/Unexpected-exception-javalangNullPointerException.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

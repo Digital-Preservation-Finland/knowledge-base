@@ -8,5 +8,6 @@
   "softwareProblem": "no",
   "@id": "database/application_pdf/ghostscript/Annotation-has-scale-factor-of-zero-and-was-ignored.repair",
   "significantProperties": [],
-  "fixable": "yes"
+  "fixable": "yes",
+  "heading": ""
 }

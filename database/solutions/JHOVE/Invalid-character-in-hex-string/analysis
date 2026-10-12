@@ -8,5 +8,6 @@
   "softwareProblem": "",
   "@id": "database/application_pdf/JHOVE/Invalid-character-in-hex-string.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

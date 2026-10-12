@@ -6,5 +6,6 @@
   "softwareProblem": "",
   "@id": "database/image_jpeg/jhove/Invalid-Checksum.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

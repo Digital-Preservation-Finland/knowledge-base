@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://digitalpreservation.fi/schemas/2025-09/analysis.schema.ld.json",
+  "$id": "http://digitalpreservation.fi/schemas/2026-10/analysis.schema.ld.json",
   "title": "Analysis",
   "description": "Description of the problem.",
   "type": "object",
@@ -15,18 +15,22 @@
   "additionalProperties": false,
   "properties": {
     "@id": {
-      "description": "Analysis object identifier.",
+      "description": "Unique identifier for this analysis object. The identifier is referred by an error object and can be referred from multiple objects.",
       "type": "string"
     },
     "repairs": {
-      "description": "List of reference to Repairs.",
+      "description": "List of reference to repair objects containing a solution for a referring error.",
       "type": "array",
       "items": {
         "type": "string"
       }
     },
+    "heading": {
+      "description": "A unique and descriptive heading for the analysis.",
+       "type": "string"
+    },
     "analysis": {
-      "description": "The analysis of the error. String items in the array can be presented as paragraphs.",
+      "description": "The analysis of the error. String items in the array are presented as paragraphs.",
       "type": "array",
       "items": {
         "type": "string"
@@ -40,7 +44,7 @@
       }
     },
     "softwareProblem": {
-      "description": "Classification whetever the cause of the problem is in the validating software, that is a software bug, or not. Bugs should most likely be handled by the developers.",
+      "description": "Classification whetever the cause of the problem is in the validating software, that is a software bug, or not. Bugs should most likely be handled by the developers of the software.",
       "type": "string",
       "enum": [
         "yes",

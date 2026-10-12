@@ -87,7 +87,7 @@ Classification
      - :ref:`corpus <file-scraper/07f8f586-1d9d-4f8e-8486-c4cb94dca022>`
    * - application/pdf
      - A-2b
-     - 
+     - `ISO 19005-2:2011 <https://pdfa.org/resource/iso-19005-2-pdf-a-2>`__
      - 
      - :ref:`corpus <file-scraper/49a97c44-37c5-4855-b10f-7f1c031a2eff>`
    * - application/pdf

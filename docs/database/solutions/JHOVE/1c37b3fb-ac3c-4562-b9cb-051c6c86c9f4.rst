@@ -32,7 +32,7 @@ Classification
      - **Location**
    * - application/pdf
      - A-2b
-     - 
+     - `ISO 19005-2:2011 <https://pdfa.org/resource/iso-19005-2-pdf-a-2>`__
      - 
      - `OPF <https://github.com/openpreserve/format-corpus/tree/master/jhove-errors/PDF-HUL-11/Hawes%20et%20al_2024_Comparing%20the%20Carbon%20Footprints%20of%20Urban%20and%20Conventional%20Agriculture.pdf>`__
 

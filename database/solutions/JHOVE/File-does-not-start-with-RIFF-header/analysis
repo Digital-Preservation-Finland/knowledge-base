@@ -4,5 +4,6 @@
   "softwareProblem": "no",
   "@id": "database/audio_x-wav/jhove/File-does-not-start-with-RIFF-header.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

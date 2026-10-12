@@ -8,5 +8,6 @@
   "softwareProblem": "",
   "@id": "database/video_quicktime/ffmpeg/Referenced-QT-chapter-track-not-found.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

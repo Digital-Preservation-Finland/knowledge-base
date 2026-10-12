@@ -15,11 +15,11 @@
   "additionalProperties": false,
   "properties": {
     "@id": {
-      "description": "Identifier for the file",
+      "description": "Unique identifier for the file object. Error objects refer to this identifier. The referring error objects describe problems discovered from this file.",
       "type": "string"
     },
     "source": {
-      "description": "Identifier for the source classifying the file.",
+      "description": "Reference to the file format object identifier classifying the file.",
       "type": "string"
     },
     "wellFormed": {

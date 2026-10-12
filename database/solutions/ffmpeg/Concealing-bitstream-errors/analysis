@@ -12,5 +12,6 @@
   "significantProperties": [
     "The digital data is technically intact and valid in accordance with file format specification. The concealed errors were created during the digitisation process and the concealments were reported using intended features of the file format."
   ],
-  "fixable": "no"
+  "fixable": "no",
+  "heading": ""
 }

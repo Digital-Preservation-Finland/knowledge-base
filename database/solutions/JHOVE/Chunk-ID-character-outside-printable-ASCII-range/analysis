@@ -6,5 +6,6 @@
   "softwareProblem": "no",
   "@id": "database/audio_x-wav/jhove/Chunk-ID-character-outside-printable-ASCII-range.repair",
   "significantProperties": [],
-  "fixable": ""
+  "fixable": "",
+  "heading": ""
 }

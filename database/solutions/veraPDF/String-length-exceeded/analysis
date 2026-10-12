@@ -10,5 +10,6 @@
     "PDF file is electronically signed and contains digital signature."
   ],
   "softwareProblem": "no",
-  "fixable": ""
+  "fixable": "",
+  "heading": "Compliance of long strings on PDF/A-2/3"
 }

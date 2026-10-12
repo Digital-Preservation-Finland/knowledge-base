@@ -18,25 +18,25 @@
   "additionalProperties": false,
   "properties": {
     "files": {
-      "description": "List of references to Files.",
+      "description": "List of references to file objects that describe the content.",
       "type": "array",
       "items": {
         "type": "string"
       }
     },
     "analyses": {
-      "description": "List of references to Analyses",
+      "description": "List of references to analysis objects that explain this problem.",
       "type": "array",
       "items": {
         "type": "string"
       }
     },
     "validator": {
-      "description": "Name of the validating software reporting the error.",
+      "description": "Name of the validating software that has reported the error.",
       "type": "string"
     },
     "validatorVersion": {
-      "description": "List of versions of the validating software that produce the error message for the set of the referred files.",
+      "description": "List of versions of the validating software that produced the error message.",
       "type": "array",
       "items": {
         "type": "string"
@@ -55,7 +55,7 @@
       ]
     },
     "outputExample": {
-      "description": "Additional output from the validator to the error mesasge to give context for later handling and verification. For example the full output from the validating software.",
+      "description": "Additional output from the validator to the error mesasge to give context for later handling and verification. For example the full output from the validating software. The string items of the array should be easily printed, eg. only quotation marks (\") should be escaped, because of JSON format. The items may contain full output including line breaks or the output lines can be split to items.",
       "type": "array",
       "items": {
         "type": "string"
@@ -69,7 +69,7 @@
       }
     },
     "@id": {
-      "description": "Error object identifier",
+      "description": "Unique identifier for the error object.",
       "type": "string"
     }
   },
