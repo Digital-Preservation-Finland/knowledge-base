@@ -89,7 +89,7 @@
       1       1     879 database/files/audio_x-aiff/generic
       1       3     212 database/files/audio_x-ms-wma/generic
       1       1     865 database/files/audio_x-wav/2
-      8      22    6250 database/files/audio_x-wav/generic
+      8      22    6396 database/files/audio_x-wav/generic
       1       1     605 database/files/image_bmp/generic
       2       2    1327 database/files/image_gif/1987a
       2       2    1797 database/files/image_gif/1989a
@@ -132,7 +132,7 @@
       2       4    1871 database/files/video_mpeg/1
       2       4    1871 database/files/video_mpeg/2
      68     107   76397 database/files/video_quicktime/generic
-     13     127   18990 database/files/video_x-matroska/4
+     13     127   19428 database/files/video_x-matroska/4
       1       1     687 database/files/video_x-matroska/generic
       6      14    7352 database/files/video_x-ms-asf/generic
       1    1443   13599 database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/error

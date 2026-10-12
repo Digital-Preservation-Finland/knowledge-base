@@ -403,7 +403,7 @@
   },
   "location": [
     {
-      "corpus": "data/normalised/cinepak_lpcm8.mov.mkv"
+      "corpus": "https://github.com/Digital-Preservation-Finland/knowledge-base-data/tree/master/migrated/cinepak_lpcm8.mov.mkv"
     }
   ],
   "metadata": {
@@ -469,7 +469,7 @@
   },
   "location": [
     {
-      "corpus": "data/normalised/prores_lpcm8.mov.mkv"
+      "corpus": "https://github.com/Digital-Preservation-Finland/knowledge-base-data/tree/master/migrated/prores_lpcm8.mov.mkv"
     }
   ],
   "metadata": {
@@ -535,7 +535,7 @@
   },
   "location": [
     {
-      "corpus": "data/normalised/dv_lpcm8.mov.mkv"
+      "corpus": "https://github.com/Digital-Preservation-Finland/knowledge-base-data/tree/master/migrated/dv_lpcm8.mov.mkv"
     }
   ],
   "metadata": {
@@ -601,7 +601,7 @@
   },
   "location": [
     {
-      "corpus": "data/normalised/h264_aac.mov.mkv"
+      "corpus": "https://github.com/Digital-Preservation-Finland/knowledge-base-data/tree/master/migrated/h264_aac.mov.mkv"
     }
   ],
   "metadata": {
@@ -667,7 +667,7 @@
   },
   "location": [
     {
-      "corpus": "data/normalised/h264_aac_no_ftyp_atom.mov.mkv"
+      "corpus": "https://github.com/Digital-Preservation-Finland/knowledge-base-data/tree/master/migrated/h264_aac_no_ftyp_atom.mov.mkv"
     }
   ],
   "metadata": {
@@ -733,7 +733,7 @@
   },
   "location": [
     {
-      "corpus": "data/normalised/h265_aac.mov.mkv"
+      "corpus": "https://github.com/Digital-Preservation-Finland/knowledge-base-data/tree/master/migrated/h265_aac.mov.mkv"
     }
   ],
   "metadata": {
