@@ -3088,7 +3088,7 @@ too-long-string-pdf-a.pdf
 .. list-table::
 
    * - Location
-     - `corpus <https://github.com/Digital-Preservation-Finland/knowledge-base-data/blob/master/corpus/knowledge-base-data/data/too-long-string-pdf-a.pdf>`__
+     - This file can be requested
    * - Description
      - 
    * - Well-formed
