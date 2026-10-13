@@ -1,3 +1,5 @@
 ^MIME type .* with version .* is not supported
 ^Extractor didn't produce any output streams.$
 ^Error in analyzing file$
+Given version .* for the mimetype .* is not supported
+Proper extractor was not found. The file was not analyzed.
