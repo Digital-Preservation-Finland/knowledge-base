@@ -101,7 +101,10 @@
   },
   "location": [
     {
-      "corpus": "https://github.com/Digital-Preservation-Finland/knowledge-base-data/blob/master/data/too-long-string-pdf-a.pdf"
+      "corpus": "corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f"
+    },
+    {
+      "request": "This file can be requested from pas-support@csc.fi"
     }
   ],
   "metadata": {

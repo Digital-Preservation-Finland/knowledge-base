@@ -34,7 +34,7 @@ Classification
      - A-2b
      - `ISO 19005-2:2011 <https://pdfa.org/resource/iso-19005-2-pdf-a-2>`__
      - The long string is at line 3350 (vim). The file contains signature. The file has two xref tables, the second one in the end of the file containing the digital signature.
-     - :ref:`corpus <corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f>`
+     - :ref:`corpus <corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f>`, :abbr:`request (This file can be requested from pas-support@csc.fi)`
 
 --------
 Analyses
