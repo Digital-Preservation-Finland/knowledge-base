@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Corpus layouts &#8212; Knowledge base for file format validation errors  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=12dfc556" />
+    <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="corpus-layouts">
+<h1>Corpus layouts<a class="headerlink" href="#corpus-layouts" title="Link to this heading">¶</a></h1>
+<p>Corpus files and errors both are listed in a single long page using templates followingly.</p>
+<section id="corpus-toc">
+<h2>Corpus TOC<a class="headerlink" href="#corpus-toc" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">toc</span><span class="o">.</span><span class="n">rst</span>
+</pre></div>
+</div>
+</section>
+<section id="corpus-files">
+<h2>Corpus files<a class="headerlink" href="#corpus-files" title="Link to this heading">¶</a></h2>
+<p>File formats should be indexed by file format and version for ordered listing:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">files</span><span class="o">.</span><span class="n">toc</span><span class="o">.</span><span class="n">rst</span>
+
+<span class="k">for</span> <span class="n">each</span> <span class="n">file</span> <span class="nb">format</span><span class="p">:</span>
+    <span class="nb">format</span><span class="o">.</span><span class="n">rst</span>
+    <span class="k">for</span> <span class="n">each</span> <span class="n">file</span> <span class="nb">format</span> <span class="n">version</span><span class="p">:</span>
+        <span class="n">file</span><span class="o">-</span><span class="nb">format</span><span class="o">-</span><span class="n">version</span><span class="o">.</span><span class="n">rst</span>
+        <span class="k">for</span> <span class="n">each</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">file</span> <span class="nb">format</span> <span class="ow">and</span> <span class="n">version</span><span class="p">:</span>
+            <span class="n">file</span><span class="o">.</span><span class="n">rst</span>
+            <span class="k">for</span> <span class="n">each</span> <span class="n">error</span> <span class="n">of</span> <span class="n">file</span><span class="p">:</span>
+                <span class="n">file</span><span class="o">-</span><span class="n">errormessage</span><span class="o">.</span><span class="n">rst</span>
+</pre></div>
+</div>
+</section>
+<section id="corpus-errors">
+<h2>Corpus errors<a class="headerlink" href="#corpus-errors" title="Link to this heading">¶</a></h2>
+<p>Errors should be indexed by validator and validator version for ordered listing:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">errors</span><span class="o">.</span><span class="n">toc</span><span class="o">.</span><span class="n">rst</span>
+
+<span class="k">for</span> <span class="n">validator</span> <span class="ow">and</span> <span class="n">version</span><span class="p">:</span>
+    <span class="n">validator</span><span class="o">.</span><span class="n">rst</span>
+    <span class="k">for</span> <span class="n">each</span> <span class="n">error</span> <span class="k">with</span> <span class="n">validator</span> <span class="ow">and</span> <span class="n">version</span><span class="p">:</span>
+        <span class="n">error</span><span class="o">.</span><span class="n">rst</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Knowledge base for file format validation errors</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../validators.html">Articles by validator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../repairs.html">Solutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../corpus.html">Corpus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../datamodel.html">Data model</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Digital Preservation Finland.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../../_sources/templates/corpus/README.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
