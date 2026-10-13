@@ -2,10 +2,10 @@
   "@id": "analysis/f9e66ede-4fa4-4cd5-9e0e-af7b9d106b18",
   "repairs": [],
   "analysis": [
-    "The value of the start position of the image data presented in the file format header is further than the end of the file. The file size must be greater than the image data starting offset, or possibly equal to if there is not image data. The file might have been truncated or the presented start of the image data is scrambled."
+    "The start position of the image data, according to the value in header, is beyond the end of the file. The file size is supposed to be greater than the image data starting offset, or possibly equal to if there is not image data. The file might have been truncated or the presented start of the image data is scrambled."
   ],
   "softwareProblem": "no",
   "significantProperties": [],
   "fixable": "",
-  "heading": ""
+  "heading": "Header points out of the file"
 }
