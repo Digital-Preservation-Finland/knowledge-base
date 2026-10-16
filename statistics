@@ -461,6 +461,6 @@
       1       1     225 database/solutions/Validator.nu/error-The-cellspacing-attribute-on-the-table-element-is-obsolete-Use-CSS-instead/analysis
       1       1     233 database/solutions/Validator.nu/error-The-itemprop-attribute-was-specified-but-the-element-is-not-a-property-of-any-item/analysis
       1      24     403 database/solutions/veraPDF/orgverapdfpdfontcmapCMapParser-getBfrangeEndFromBytes-WARNING-Incorrect-bfrange-in-toUnicode-CMap-bfrange-contains-more-than-code/analysis
-      1     200    1467 database/solutions/veraPDF/String-length-exceeded/analysis
+      1     217    1579 database/solutions/veraPDF/String-length-exceeded/analysis
     409   25958  452719 corpus/error.objects
     418     555  303290 corpus/file.objects
