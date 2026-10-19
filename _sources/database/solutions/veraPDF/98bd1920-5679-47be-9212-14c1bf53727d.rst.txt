@@ -1,0 +1,124 @@
+.. _98bd1920-5679-47be-9212-14c1bf53727d:
+
+=========================
+String length .* exceeded
+=========================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - veraPDF
+     - 1.28.2
+     - exact
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - application/pdf
+     - A-2b
+     - `ISO 19005-2:2011 <https://pdfa.org/resource/iso-19005-2-pdf-a-2>`__
+     - The long string is at line 3350 (vim). The file contains signature. The file has two xref tables, the second one in the end of the file containing the digital signature.
+     - :ref:`corpus <corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f>`, :abbr:`request (This file can be requested from pas-support@csc.fi)`
+
+--------
+Analyses
+--------
+
+Compliance of long strings in PDF/A-2/3
+=======================================
+
+PDF file is electronically signed and contains digital signature.
+
+A file identified as a PDF/A-2 cannot contain any string that is longer than 32767 bytes according to ISO 19005-2:2011 standard, to which veraPDF rightly refers.
+
+However, (i) ISO 32000-1:2008 standard of PDF 1.7, which is the basis of PDF/A-2, **notes** that ``/Contents`` key in a signature dictionary will not have restriction on length since PDF 1.3, when digital signatures were introduced to PDFs. Additionally (ii), **note** on the implementation limits in ISO 19005-2:2011 states that the limits are derived from the 32000-1:2008 table C.1. The table describes minimum architectural limits for readers and writers on 32-bit machines. And (iii) conforming readers should follow the 19005-2, but the 19005-2 does not 'prescribe' any specific implementation. (iv) A PDF/A-2-conformant file may contain any feature of PDF 1.7 unless the 19005-2 explicitly forbids it.
+
+The signature should be readable by decoding it for example with programs such as xxd and OpenSSL: first by extracting the hexadecimal string between ``<`` and ``>`` and then decoding it to binary form by running ``$ xxd -r -p`` on it. The binary data can be then interpreted with OpenSSL's PKCS#7 utility: ``$ openssl pkcs7 -in <extracted binary data file> -inform DER -print``. Base64-encoded PKCS#7 object is printed after the plain text one.
+
+Is it a bug in the validating software? - no
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+--------------
+Output example
+--------------
+
+::
+
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<report>
+	  <buildInformation>
+	    <releaseDetails id="core" version="1.28.2" buildDate="2025-07-15T16:07:00+03:00"></releaseDetails>
+	    <releaseDetails id="validation-model" version="1.28.2" buildDate="2025-07-15T16:12:00+03:00"></releaseDetails>
+	    <releaseDetails id="gui" version="1.28.2" buildDate="2025-07-15T16:59:00+03:00"></releaseDetails>
+	  </buildInformation>
+	  <jobs>
+	    <job>
+	      <item size="901381">
+	        <name>/path-to-file</name>
+	      </item>
+	      <validationReport jobEndStatus="normal" profileName="PDF/A-2B validation profile" statement="PDF file is not compliant with Validation Profile requirements." isCompliant="false">
+	        <details passedRules="143" failedRules="1" passedChecks="10253" failedChecks="1">
+	          <rule specification="ISO 19005-2:2011" clause="6.1.13" testNumber="3" status="failed" failedChecks="1">
+	            <description>A conforming file shall not contain any string longer than 32767 bytes</description>
+	            <object>CosString</object>
+	            <test>value.length() &lt; 32768</test>
+	            <check status="failed">
+	              <context>root/indirectObjects[34](60 0)/directObject[0]/values[2]</context>
+	              <errorMessage>String length (57673) exceeded 32767</errorMessage>
+	            </check>
+	          </rule>
+	        </details>
+	      </validationReport>
+	      <duration start="1790760060597" finish="1790760061651">00:00:01.054</duration>
+	    </job>
+	  </jobs>
+	  <batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">
+	    <validationReports compliant="0" nonCompliant="1" failedJobs="0">1</validationReports>
+	    <featureReports failedJobs="0">0</featureReports>
+	    <repairReports failedJobs="0">0</repairReports>
+	    <duration start="1790760060489" finish="1790760061689">00:00:01.200</duration>
+	  </batchSummary>
+	</report>
+	
+	MIME type (:unav) with version (:unav) is not supported.
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	veraPDF:	String length .* exceeded
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
