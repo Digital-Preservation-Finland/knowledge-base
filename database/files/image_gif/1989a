@@ -19,7 +19,8 @@
       "stream_type": "image",
       "version": "1989a"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/9b3fffa5-1c0c-414c-a4f5-dcee7c3ec39f",
@@ -78,5 +79,6 @@
       "width": "1",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }

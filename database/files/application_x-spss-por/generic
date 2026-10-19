@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/66165a49-e5ef-46f6-a469-2d914f2459b6",
@@ -43,7 +44,8 @@
       "stream_type": "text",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/76bdb9ae-ccb6-4afa-9a68-278cd3e1e609",
@@ -67,7 +69,8 @@
       "stream_type": "text",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/7a3dc142-8ed0-4754-909f-e5cb43a0b5e8",
@@ -91,7 +94,8 @@
       "stream_type": "text",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/c703aa91-10fa-40de-97b0-1a6ba0c52fd7",
@@ -114,7 +118,8 @@
       "stream_type": "binary",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/d1f8698c-e599-45a9-9d5e-a3b952a632b9",
@@ -137,5 +142,6 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }

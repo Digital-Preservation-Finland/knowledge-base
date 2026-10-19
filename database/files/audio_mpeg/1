@@ -46,7 +46,8 @@
       "stream_type": "image",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/9aef58b1-fb9a-4d2f-928d-ea4fcd1e26e8",
@@ -80,7 +81,8 @@
       "num_channels": "2",
       "sampling_frequency": "48"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/d832b0e8-15dc-4802-89f3-3590752866da",
@@ -114,7 +116,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/fa436a0d-1678-4d22-8d82-5e0c1469737e",
@@ -164,7 +167,8 @@
       "stream_type": "image",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/a62763b5-890c-4576-a5d8-115a65230eb9",
@@ -198,5 +202,6 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }

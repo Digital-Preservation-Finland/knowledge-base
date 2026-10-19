@@ -62,7 +62,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/0c547a10-e60e-4671-a314-66f5f4f531fd",
@@ -128,7 +129,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/1d283a86-eb65-4a07-9792-df396e8f4b5e",
@@ -177,7 +179,8 @@
       "sound": "No",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/23e80173-eaf2-4f9d-8954-9258f36efe03",
@@ -243,7 +246,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/576c8107-d3e1-48d5-8417-61c7435aa8df",
@@ -292,7 +296,8 @@
       "sound": "No",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/9fc18ac5-e617-46b7-837b-b3d7c47ad88e",
@@ -341,7 +346,8 @@
       "sound": "No",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/c4854f08-c3bf-447d-b7ad-e067450ea67e",
@@ -390,7 +396,8 @@
       "sound": "No",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/b9013803-ea52-4fcc-b8a6-24a9d3357929",
@@ -456,7 +463,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/16ee86b0-44f6-44fb-99e9-b1735b8eb52c",
@@ -522,7 +530,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/7139179b-8cf7-40bf-8ff0-67e024d74a52",
@@ -588,7 +597,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/b889a784-357d-475e-9890-6d2e01aad6ac",
@@ -654,7 +664,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/65487bad-a067-4f22-8077-e65c6a373281",
@@ -720,7 +731,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/d42caac9-c436-49e1-bcb8-5ee49c1a8f28",
@@ -786,5 +798,6 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }

@@ -19,7 +19,8 @@
       "stream_type": "image",
       "version": "GIF image data 10 x 6"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/b2c7ca67-2919-46d7-8d3c-86926605ef80",
@@ -42,5 +43,6 @@
       "stream_type": "image",
       "version": "GIF image data 10 x 6"
     }
-  }
+  },
+  "pronom": []
 }

@@ -20,7 +20,8 @@
       "stream_type": "text",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/fa318d1f-0d26-40a3-b35c-16b979943a72",
@@ -44,5 +45,6 @@
       "stream_type": "text",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }

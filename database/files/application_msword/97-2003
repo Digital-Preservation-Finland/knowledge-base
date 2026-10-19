@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/229a946c-112e-4245-a52e-db5ac8cef5a1",
@@ -42,7 +43,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/532be204-649e-485c-acc4-f3febca1a158",
@@ -65,7 +67,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/5c051fe2-f54c-495e-b3e4-74d222bff58f",
@@ -88,7 +91,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/b75f2e29-8893-41cc-ad9e-06ed8e7b209b",
@@ -111,7 +115,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/b954e2e0-16fe-4741-a532-ec391848bcb3",
@@ -134,7 +139,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/d1157af2-209a-4326-bcf4-44aa461504b1",
@@ -157,7 +163,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/e4853581-66e7-406b-a252-0ab6fd3dfda1",
@@ -180,5 +187,6 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }

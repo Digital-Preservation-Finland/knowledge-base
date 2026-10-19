@@ -20,7 +20,8 @@
       "stream_type": "text",
       "version": "1.0"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/446fa986-8785-4c06-89b5-e086126746f4",
@@ -44,7 +45,8 @@
       "stream_type": "text",
       "version": "1.0"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/4bdbde3c-ab84-43c6-af2b-294437608814",
@@ -68,7 +70,8 @@
       "stream_type": "text",
       "version": "1.0"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/e102c6a4-1954-42b0-ad01-22ffdf2e7edc",
@@ -92,5 +95,6 @@
       "stream_type": "text",
       "version": "1.0"
     }
-  }
+  },
+  "pronom": []
 }

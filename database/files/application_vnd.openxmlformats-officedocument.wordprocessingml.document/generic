@@ -19,7 +19,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "database/sources/application_vnd.openxmlformats-officedocument.wordprocessingml.document/general",
@@ -30,5 +31,6 @@
     "md5": "",
     "blake2b": ""
   },
-  "location": []
+  "location": [],
+  "pronom": []
 }

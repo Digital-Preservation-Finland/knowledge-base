@@ -19,7 +19,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "database/sources/image_jpeg/general",
@@ -30,7 +31,8 @@
     "md5": "",
     "blake2b": ""
   },
-  "location": []
+  "location": [],
+  "pronom": []
 }
 {
   "@id": "corpus/file/10edda54-c000-453b-8c58-97772ad34145",
@@ -61,5 +63,6 @@
       "width": "1269",
       "icc_profile_name": "U.S. Web Coated (SWOP) v2"
     }
-  }
+  },
+  "pronom": []
 }

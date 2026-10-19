@@ -62,7 +62,8 @@
       "num_channels": "2",
       "sampling_frequency": "48"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/64b924a4-2c71-4956-be07-9ff189f65a18",
@@ -128,5 +129,6 @@
       "num_channels": "2",
       "sampling_frequency": "48"
     }
-  }
+  },
+  "pronom": []
 }

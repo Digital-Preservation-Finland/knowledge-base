@@ -7,7 +7,8 @@
     "md5": "",
     "blake2b": ""
   },
-  "location": []
+  "location": [],
+  "pronom": []
 }
 {
   "@id": "file-scraper/7c0bace1-4107-44d3-adf8-919b52e78426",
@@ -31,7 +32,8 @@
       "stream_type": "text",
       "version": "5"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/85ec6bde-3e2f-4a68-9c74-7c4b30e55810",
@@ -55,7 +57,8 @@
       "stream_type": "text",
       "version": "5"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/a48a7dc3-fb18-479a-b163-a72d7895ce22",
@@ -79,7 +82,8 @@
       "stream_type": "text",
       "version": "5"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/c45812d5-67b4-4ef5-8645-45aaefb7e6e2",
@@ -103,5 +107,6 @@
       "stream_type": "text",
       "version": "5"
     }
-  }
+  },
+  "pronom": []
 }

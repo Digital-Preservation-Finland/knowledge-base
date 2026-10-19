@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "(:unkn)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/41df419d-68a4-4d64-bd6b-cd5ef3b523f1",
@@ -42,7 +43,8 @@
       "stream_type": "binary",
       "version": "(:unkn)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/5fff0bd6-1c43-4bac-911e-652d307682b0",
@@ -65,7 +67,8 @@
       "stream_type": "binary",
       "version": "(:unkn)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/7f9f0d4a-3cbf-48f2-93e8-1ab1b6650840",
@@ -88,7 +91,8 @@
       "stream_type": "binary",
       "version": "(:unkn)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/97362a3c-82d3-4130-8b18-4a9c50d00aae",
@@ -111,7 +115,8 @@
       "stream_type": "binary",
       "version": "(:unkn)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/b51387f9-47ca-4718-810a-f62e899a3480",
@@ -134,7 +139,8 @@
       "stream_type": "binary",
       "version": "(:unkn)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/e2919418-66c4-44ed-a95c-fa3fbd302d6c",
@@ -157,5 +163,6 @@
       "stream_type": "binary",
       "version": "(:unkn)"
     }
-  }
+  },
+  "pronom": []
 }

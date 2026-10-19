@@ -62,5 +62,6 @@
       "num_channels": "2",
       "sampling_frequency": "48"
     }
-  }
+  },
+  "pronom": []
 }

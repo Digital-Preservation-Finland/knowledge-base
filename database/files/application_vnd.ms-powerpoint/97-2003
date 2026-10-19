@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/e13c7d36-4d2b-4e8e-a45c-9b0131eb3afb",
@@ -42,7 +43,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/ff9b2d66-9edc-486f-8f75-16210692f6a6",
@@ -65,7 +67,8 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/4ce588dc-a234-4523-8897-4a7fd2ce72bc",
@@ -88,5 +91,6 @@
       "stream_type": "binary",
       "version": "97-2003"
     }
-  }
+  },
+  "pronom": []
 }

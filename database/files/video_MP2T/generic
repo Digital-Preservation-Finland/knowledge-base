@@ -31,7 +31,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/612abb51-f6b3-40d7-8b22-f484d2668d57",
@@ -54,7 +55,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/1edc5f4d-6e3d-43b2-946f-07ca9fbd01da",
@@ -120,7 +122,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/be74454b-9ce9-4c8b-9ef2-a31a030a40c8",
@@ -186,5 +189,6 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }

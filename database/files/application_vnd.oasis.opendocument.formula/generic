@@ -19,7 +19,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/ca422367-f71a-46d0-8c76-1bd482a83c6c",
@@ -42,7 +43,8 @@
       "stream_type": "binary",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/01b29796-ff3b-48d3-9413-7c3552545fe1",
@@ -65,7 +67,8 @@
       "version": "(:unav)",
       "stream_type": "binary"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/560f4006-ef62-47a5-9862-9a390c435b6b",
@@ -88,5 +91,6 @@
       "version": "(:unav)",
       "stream_type": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }

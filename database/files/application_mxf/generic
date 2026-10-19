@@ -46,7 +46,8 @@
       "version": "(:unap)",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/2d88bca1-a4b2-448e-846b-6870e70ec6af",
@@ -96,7 +97,8 @@
       "version": "(:unap)",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/475d76f1-4fb0-478d-a61c-b9dc4b0b1e4e",
@@ -119,7 +121,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/ad1806b2-5da6-4e13-9f7f-2c281bdc3f33",
@@ -169,7 +172,8 @@
       "version": "(:unap)",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/c8d6dbdf-cd5c-4283-b897-d999608a7c6f",
@@ -219,7 +223,8 @@
       "version": "(:unap)",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/d8c37749-9812-47e8-8a75-42cd057fa3ab",
@@ -269,5 +274,6 @@
       "version": "(:unap)",
       "width": "320"
     }
-  }
+  },
+  "pronom": []
 }

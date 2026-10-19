@@ -19,7 +19,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/23d70128-b0f7-443e-b628-a4417d04636d",
@@ -42,7 +43,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/de76b410-cbf9-42cc-9c15-f185c380eab6",
@@ -65,5 +67,6 @@
       "version": "(:unav)",
       "stream_type": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }

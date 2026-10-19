@@ -19,5 +19,6 @@
       "stream_type": "binary",
       "version": "0.18"
     }
-  }
+  },
+  "pronom": []
 }

@@ -101,7 +101,7 @@ softwareTestVersion : string
 4. File
 -------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-02/file.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-10-19/file.schema.ld.json``
 
 Description of a file. File objects describe content from which a problem arises. Although the file may be also valid and have no error object referring to it.
 
@@ -125,11 +125,14 @@ checksum : object
 location : array of object
     List of objects with a label as the key and a free form description of the source location as the value. Locations may be URIs (URL preferred), relative file paths or instructions on how to ask for the file.
 
+pronom : array
+    List of PRONOM identifiers for the file.
+
 
 5. Format
 ---------
 
-JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-05/source.schema.ld.json``
+JSON Schema ID : ``http://digitalpreservation.fi/schemas/2026-10-19/source.schema.ld.json``
 
 Description of a file format. The file format classifies file objects and determines the valid form for the data.
 
@@ -143,9 +146,6 @@ fileFormat : string
 
 version : string
     Version of the file format.
-
-pronom : array
-    List of PRONOM identifiers for the file format.
 
 description : string
     Free form description.

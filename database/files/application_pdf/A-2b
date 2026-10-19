@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "A-2b"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/f0b544c7-0d56-4a42-8321-3900969e480c",
@@ -42,7 +43,8 @@
       "stream_type": "binary",
       "version": "A-2b"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/8da3902f-4e63-4034-ae85-26843e6107be",
@@ -65,7 +67,8 @@
       "version": "A-2b",
       "stream_type": "binary"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/d2da9bcc-8460-400d-a976-938f159a4308",
@@ -88,7 +91,8 @@
       "version": "A-2b",
       "stream_type": "binary"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/e50f42f1-119e-441a-bbcb-b2545d2b152f",
@@ -114,5 +118,6 @@
       "version": "A-2b",
       "stream_type": "binary"
     }
-  }
+  },
+  "pronom": []
 }

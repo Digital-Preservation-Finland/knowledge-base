@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://digitalpreservation.fi/schemas/2026-10/source.schema.ld.json",
+  "$id": "http://digitalpreservation.fi/schemas/2026-10-19/source.schema.ld.json",
   "title": "Format",
   "description": "Description of a file format. The file format classifies file objects and determines the valid form for the data.",
   "type": "object",
@@ -24,14 +24,6 @@
     "version": {
       "description": "Version of the file format.",
       "type": "string"
-    },
-    "pronom": {
-      "description": "List of PRONOM identifiers for the file format.",
-      "type": "array",
-      "items": {
-        "description": "PRONOM identifier (fmt/xyz). PRONOM may present different profiles for the file format with unique PRONOM identifiers.",
-        "type": "string"
-      }
     },
     "description": {
       "description": "Free form description.",

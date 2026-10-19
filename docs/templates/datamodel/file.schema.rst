@@ -25,4 +25,7 @@ checksum : {properties[checksum][type]}
 location : {properties[location][type]} of {properties[location][items][type]}
     {properties[location][description]}
 
+pronom : {properties[pronom][type]}
+    {properties[pronom][description]}
+
 

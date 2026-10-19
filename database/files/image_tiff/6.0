@@ -26,7 +26,8 @@
       "samples_per_pixel": "1",
       "width": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/4c3ec80b-7541-42a7-84e8-76e372f30185",
@@ -58,7 +59,8 @@
       "byte_order": "little endian",
       "icc_profile_name": "eciRGB v2"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/8828ecc2-9bcb-499e-a7b5-6747b9dc2e6e",
@@ -90,7 +92,8 @@
       "byte_order": "little endian",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/95040a99-efbf-4e85-989e-e54f46e304f8",
@@ -113,7 +116,8 @@
       "stream_type": "image",
       "version": "6.0"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/c25d745c-b92c-4477-9f55-e4672eb8f622",
@@ -145,7 +149,8 @@
       "byte_order": "little endian",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/7d3fe13f-2444-41c3-b878-10228afde5a8",
@@ -222,7 +227,8 @@
       "byte_order": "little endian",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/7ea898b1-eac3-44af-b4e1-2a0447cf1e6c",
@@ -284,7 +290,8 @@
       "byte_order": "little endian",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/8074fe00-9583-4d2a-a2ee-a61433bd12d6",
@@ -316,7 +323,8 @@
       "byte_order": "little endian",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/e6bb54fe-953d-4903-9c4a-278b73751999",
@@ -348,7 +356,8 @@
       "byte_order": "little endian",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "database/sources/image_tiff/6.0",
@@ -359,7 +368,8 @@
     "md5": "",
     "blake2b": ""
   },
-  "location": []
+  "location": [],
+  "pronom": []
 }
 {
   "@id": "corpus/file/57a7fca8-27fc-4a80-b286-b770bc182d1d",
@@ -391,7 +401,8 @@
       "byte_order": "little endian",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/a86e7a9e-e099-489a-b399-3eb1a500d7c9",
@@ -414,7 +425,8 @@
       "version": "6.0",
       "stream_type": "image"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/17515ec4-b6ab-43d7-9568-1ffb4cd5db47",
@@ -446,5 +458,6 @@
       "byte_order": "little endian",
       "icc_profile_name": "sRGB"
     }
-  }
+  },
+  "pronom": []
 }

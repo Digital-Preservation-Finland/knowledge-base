@@ -27,7 +27,8 @@
       "width": "16",
       "icc_profile_name": "GIMP built-in sRGB"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/6f442eac-99b3-4d19-946f-d91c6472129f",
@@ -43,7 +44,8 @@
       "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__lossless_with_lossy_header.webp"
     }
   ],
-  "metadata": {}
+  "metadata": {},
+  "pronom": []
 }
 {
   "@id": "file-scraper/8e5c274c-f866-47e4-8d94-7f2b9ec9368b",
@@ -59,7 +61,8 @@
       "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__missing_bitstream.webp"
     }
   ],
-  "metadata": {}
+  "metadata": {},
+  "pronom": []
 }
 {
   "@id": "file-scraper/a101fc4f-eba6-4d69-a494-d8a047412fc7",
@@ -90,7 +93,8 @@
       "width": "16",
       "icc_profile_name": "GIMP built-in sRGB"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/ef8f4899-2396-4b46-adfc-bc96f84d2cdd",
@@ -106,7 +110,8 @@
       "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__missing_icc_profile.webp"
     }
   ],
-  "metadata": {}
+  "metadata": {},
+  "pronom": []
 }
 {
   "@id": "file-scraper/f7583972-f036-43a3-ab4a-a1583c41b0ea",
@@ -122,5 +127,6 @@
       "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/image_webp/invalid__missing_image_data.webp"
     }
   ],
-  "metadata": {}
+  "metadata": {},
+  "pronom": []
 }

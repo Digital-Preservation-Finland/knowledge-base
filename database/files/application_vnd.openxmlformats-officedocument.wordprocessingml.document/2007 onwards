@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "2007 onwards"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/92b7bef5-00b5-477e-9ee2-a7adb480b8bc",
@@ -42,7 +43,8 @@
       "stream_type": "binary",
       "version": "2007 onwards"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/f322aabc-246a-489b-b0c5-d7aab811b8b9",
@@ -65,5 +67,6 @@
       "stream_type": "binary",
       "version": "2007 onwards"
     }
-  }
+  },
+  "pronom": []
 }

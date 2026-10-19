@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "A-1b"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/519b9adc-4abe-4d1d-b21e-5cb8549b0580",
@@ -42,7 +43,8 @@
       "stream_type": "binary",
       "version": "A-1b"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/a521745c-531b-4a63-a755-96e70ed39e67",
@@ -65,7 +67,8 @@
       "stream_type": "binary",
       "version": "A-1b"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/e3783283-d8be-44ae-a3ec-2c71b9809872",
@@ -88,7 +91,8 @@
       "stream_type": "binary",
       "version": "A-1b"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/816da61a-d93c-4b72-95fa-2893430fc480",
@@ -111,7 +115,8 @@
       "stream_type": "binary",
       "version": "A-1b"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/d9ba137d-6f68-415e-9c04-e2e11da1fbfe",
@@ -134,5 +139,6 @@
       "version": "A-1b",
       "stream_type": "binary"
     }
-  }
+  },
+  "pronom": []
 }

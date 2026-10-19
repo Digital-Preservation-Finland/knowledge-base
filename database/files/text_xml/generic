@@ -20,7 +20,8 @@
       "stream_type": "text",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/8e2b31ec-fae8-439b-a340-be943397906b",
@@ -44,7 +45,8 @@
       "charset": "UTF-8",
       "stream_type": "text"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/d835ef36-f426-458e-bdf0-34b13961b47d",
@@ -68,7 +70,8 @@
       "charset": "UTF-8",
       "stream_type": "text"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/d835ef36-f426-458e-bdf0-34b13961b47d",
@@ -92,5 +95,6 @@
       "charset": "UTF-8",
       "stream_type": "text"
     }
-  }
+  },
+  "pronom": []
 }

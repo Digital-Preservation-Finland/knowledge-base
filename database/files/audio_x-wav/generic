@@ -30,7 +30,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/406e5d9c-da24-479b-a38f-be6d9cb8603a",
@@ -53,7 +54,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/5e601373-3d79-4d3c-bf18-621440677296",
@@ -76,7 +78,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/7b474fe4-ceba-46c0-9605-583dd8b56783",
@@ -99,7 +102,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/91b455fa-f16b-439e-be0d-97ed2da26e79",
@@ -133,7 +137,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/f37d1e1e-1161-4f70-9894-2cf40bc08119",
@@ -167,7 +172,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84",
@@ -201,7 +207,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0",
@@ -235,5 +242,6 @@
       "num_channels": "2",
       "sampling_frequency": "48"
     }
-  }
+  },
+  "pronom": []
 }

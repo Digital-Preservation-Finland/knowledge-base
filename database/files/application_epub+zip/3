@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "3"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/4c6dc012-d215-4a77-95a2-c7aeea914718",
@@ -42,7 +43,8 @@
       "stream_type": "binary",
       "version": "3"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/6b362ecc-1d2f-44ff-8e4c-1764fb4fabac",
@@ -65,7 +67,8 @@
       "stream_type": "binary",
       "version": "3"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/7ee7dfc8-03b5-4044-b926-94fb7021550f",
@@ -88,7 +91,8 @@
       "stream_type": "binary",
       "version": "3"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/cc3ebd39-d7b0-498d-8398-86bbb6b971e7",
@@ -111,5 +115,6 @@
       "stream_type": "binary",
       "version": "3"
     }
-  }
+  },
+  "pronom": []
 }

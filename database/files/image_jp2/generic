@@ -19,7 +19,8 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84",
@@ -42,7 +43,8 @@
       "stream_type": "image",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/68732686-9140-48e4-830a-12b182d59b5c",
@@ -73,7 +75,8 @@
       "width": "10",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/fa2bf85a-4986-4bac-9fba-705386d8bfa8",
@@ -104,5 +107,6 @@
       "width": "6",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }

@@ -27,7 +27,8 @@
       "width": "600",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/82396d5a-ffbb-4389-a13a-c485431e9e17",
@@ -58,7 +59,8 @@
       "width": "10",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/d9972833-5ee1-42f5-aee2-fa10c1e4af85",
@@ -89,7 +91,8 @@
       "width": "600",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/09c3deaa-0d7d-48b2-b651-422995356f6b",
@@ -112,7 +115,8 @@
       "stream_type": "image",
       "version": "1.01"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/16a6bc4c-8bfe-4644-818c-a2a06ff892e4",
@@ -143,7 +147,8 @@
       "width": "25",
       "icc_profile_name": "XF270HU #1 2022-08-23 19-42 0.3127x 0.329y sRGB F-S XYZLUT+MTX"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/18be37fb-2abb-4f45-b7a8-3a3f6c382fde",
@@ -174,7 +179,8 @@
       "width": "10",
       "icc_profile_name": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/862aa4f9-db88-4759-941f-e3d5d194678e",
@@ -205,5 +211,6 @@
       "width": "10",
       "icc_profile_name": "sRGB"
     }
-  }
+  },
+  "pronom": []
 }

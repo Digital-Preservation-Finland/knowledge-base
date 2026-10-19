@@ -12,7 +12,8 @@
       "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/master/tests/data/video_mp4/invalid__h264_aac_missing_data.mp4"
     }
   ],
-  "metadata": {}
+  "metadata": {},
+  "pronom": []
 }
 {
   "@id": "file-scraper/5fc90433-2a60-4b05-a565-caa392ea4b48",
@@ -78,7 +79,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/7446922f-a338-4962-afa7-2cb375cbabb8",
@@ -144,7 +146,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/a98625fa-046e-4875-9810-bfae42d7a794",
@@ -210,7 +213,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/ce489e82-4302-44e3-bc0f-e758fde6df70",
@@ -276,7 +280,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/fa1c9c16-8b37-426e-b02b-8d42ffbb86a7",
@@ -342,5 +347,6 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }

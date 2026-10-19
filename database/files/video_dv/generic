@@ -36,7 +36,8 @@
       "sound": "No",
       "width": "720"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/5e935594-eb2d-4583-ad2b-fbb5c605d6f3",
@@ -76,5 +77,6 @@
       "sound": "No",
       "width": "720"
     }
-  }
+  },
+  "pronom": []
 }

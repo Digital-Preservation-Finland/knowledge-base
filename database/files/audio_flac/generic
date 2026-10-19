@@ -30,7 +30,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/690d68cf-7aeb-4257-bd66-ad62b218d1d8",
@@ -64,7 +65,8 @@
       "num_channels": "2",
       "sampling_frequency": "44.1"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/99b576cd-4ddb-45ba-b5d9-802fb9a88037",
@@ -87,5 +89,6 @@
       "stream_type": "(:unav)",
       "version": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }

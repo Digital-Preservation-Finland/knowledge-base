@@ -30,7 +30,8 @@
       "version": "(:unap)",
       "charset": "UTF-8"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/268c464c-f41d-4ed1-b715-53f4f4e561c9",
@@ -64,7 +65,8 @@
       "version": "(:unap)",
       "charset": "UTF-8"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/53335ca9-cc93-4a55-ac7a-2219899e70ba",
@@ -98,7 +100,8 @@
       "version": "(:unap)",
       "charset": "ISO-8859-15"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/6644883f-03fa-43aa-83c9-294b2037c292",
@@ -122,7 +125,8 @@
       "stream_type": "text",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/7e4f22b6-3784-47d2-8dd8-0d58344ea562",
@@ -156,7 +160,8 @@
       "version": "(:unap)",
       "charset": "UTF-8"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/b7b642a5-9455-4597-9ea0-bae10c307a1f",
@@ -190,7 +195,8 @@
       "version": "(:unap)",
       "charset": "UTF-8"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/d835f26b-36b4-46cc-a537-0403a9dce14c",
@@ -224,7 +230,8 @@
       "version": "(:unap)",
       "charset": "UTF-8"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/e80f686c-24ba-43dc-b731-6beae36360e9",
@@ -258,7 +265,8 @@
       "version": "(:unap)",
       "charset": "ISO-8859-15"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/ea256e07-b14d-4aa8-9efb-4d033220364e",
@@ -282,5 +290,6 @@
       "stream_type": "text",
       "version": "(:unap)"
     }
-  }
+  },
+  "pronom": []
 }

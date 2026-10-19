@@ -19,7 +19,8 @@
       "stream_type": "binary",
       "version": "1.0"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "file-scraper/6bba2836-c52f-474e-851e-2b2c10090a02",
@@ -42,5 +43,6 @@
       "stream_type": "binary",
       "version": "1.0"
     }
-  }
+  },
+  "pronom": []
 }

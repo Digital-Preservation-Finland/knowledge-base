@@ -19,7 +19,8 @@
       "version": "(:unav)",
       "stream_type": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/793f93e9-6f3a-4568-825b-ff24bc07d950",
@@ -42,7 +43,8 @@
       "version": "(:unav)",
       "stream_type": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/54d9f5d6-5dc7-46e4-a267-d5b2438ea17e",
@@ -65,7 +67,8 @@
       "version": "(:unav)",
       "stream_type": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/39006f41-7b3e-4193-9979-c18f7fc75c52",
@@ -88,7 +91,8 @@
       "version": "(:unav)",
       "stream_type": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
 {
   "@id": "corpus/file/2ca66921-087a-4ad1-8d29-0c1450e218b3",
@@ -111,5 +115,6 @@
       "version": "(:unav)",
       "stream_type": "(:unav)"
     }
-  }
+  },
+  "pronom": []
 }
