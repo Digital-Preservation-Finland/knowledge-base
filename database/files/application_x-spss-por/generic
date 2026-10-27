@@ -26,7 +26,7 @@
   "@id": "file-scraper/66165a49-e5ef-46f6-a469-2d914f2459b6",
   "source": "corpus/format/5f54568f-8897-4fc7-baed-0c5deb490819",
   "wellFormed": true,
-  "description": "",
+  "description": "Header contains 'foo' strings on lines 4 and 5.",
   "checksum": {
     "md5": "7e29ce79752cfd08e32f9ac6f11f0600",
     "blake2b": "ff1bc44ada2765764d0ce338de92f97f81629df6173f9f467a578b2b40bbf6a1176925c88a0c88bd9f743b454aeda47e66e0d6723240b2acb0ddb979666ca0c1"
@@ -51,7 +51,7 @@
   "@id": "file-scraper/76bdb9ae-ccb6-4afa-9a68-278cd3e1e609",
   "source": "corpus/format/5f54568f-8897-4fc7-baed-0c5deb490819",
   "wellFormed": true,
-  "description": "",
+  "description": "The first two lines are not full length. The line are missing whitespaces to fulfill the requirement of 80 characters on each line.",
   "checksum": {
     "md5": "a755dcad6c2f288669fee30d0fbad024",
     "blake2b": "b27e5c29d074c642f1fa6503592591cf119c5da94bf6dbae2a64ced9cd1b833c414d6a4bd2aee0a788a06842cc497bbe8f43e1f0c2ce71c7ce5d5fa4a4f64201"
