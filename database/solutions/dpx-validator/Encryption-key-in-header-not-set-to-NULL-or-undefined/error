@@ -2,7 +2,9 @@
   "files": [
     "corpus/file/507d9158-c62c-459e-9c7e-ad21899b89bb"
   ],
-  "analyses": [],
+  "analyses": [
+    "5288e83c-d8cd-4b7c-ad02-3c3450a2e9cc"
+  ],
   "validator": "dpx-validator",
   "validatorVersion": [
     "1.0.2"

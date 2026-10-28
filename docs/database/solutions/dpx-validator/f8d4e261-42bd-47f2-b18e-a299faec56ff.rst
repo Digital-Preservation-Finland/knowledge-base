@@ -58,3 +58,30 @@ Possible solutions
 .. contents::
    :local:
 
+--------------
+Output example
+--------------
+
+::
+
+
+	InvalidField('Encryption key in header not set to NULL or undefined')
+	MIME type (:unav) with version (:unav) is not supported.
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	dpx-validator:	Encryption key in header not set to NULL or undefined
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
