@@ -1,0 +1,86 @@
+.. _f8d4e261-42bd-47f2-b18e-a299faec56ff:
+
+=====================================================
+Encryption key in header not set to NULL or undefined
+=====================================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - dpx-validator
+     - 1.0.2
+     - 
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Specification**
+     - **Description**
+     - **Location**
+   * - image/x-dpx
+     - 2.0
+     - 
+     - 
+     - :ref:`corpus <corpus/file/507d9158-c62c-459e-9c7e-ad21899b89bb>`
+
+--------
+Analyses
+--------
+
+No investigations yet.
+
+.. note::
+
+	To help, share and save knowledge about fixing validation errors, please see: https://github.com/Digital-Preservation-Finland/knowledge-base/tree/master/.github/CONTRIBUTING.rst
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+No remediation determined. All solutions are listed :ref:`here <solutions-list>`.
+
+.. note::
+
+	To update or provide a solution, please see: https://github.com/Digital-Preservation-Finland/knowledge-base/tree/master/.github/CONTRIBUTING.rst
+--------------
+Output example
+--------------
+
+::
+
+
+	InvalidField('Encryption key in header not set to NULL or undefined')
+	MIME type (:unav) with version (:unav) is not supported.
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	dpx-validator:	Encryption key in header not set to NULL or undefined
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

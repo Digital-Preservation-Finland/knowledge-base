@@ -18,7 +18,7 @@ jq -c . "${preliminaryErrors}" | while IFS= read -r pre ; do
 
 	mkdir "${errorDir}"
 
-	echo "${pre}" | jq --arg id "$(uuidgen)" --arg msg "${selectedMessage}" '."@id" = $id | .errorMessage=$msg' #  > "${errorFile}"
+	echo "${pre}" | jq --arg id "$(uuidgen)" --arg msg "${selectedMessage}" '."@id" = $id | .errorMessage=$msg' | tee "${errorFile}"
 	#jq . "${errorFile}"
 
 	break

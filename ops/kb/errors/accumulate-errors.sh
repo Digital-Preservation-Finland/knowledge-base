@@ -6,10 +6,15 @@ cd "$(dirname "${0}")/../../.." || exit 1
 . ops/config "${1}"
 
 
+echo Adding
 grep -v -f "${errorMessages}" -f "${ignoredErrors}" "${selectMessages}" | sort -u | while IFS= read -r selectedMessage ; do
 	sh ops/kb/errors/add-from-pre.sh "${validatorPath}" "${selectedMessage}"
 done
 
+echo Updating
 for errorFile in ${errorObjects} ; do
 	sh ops/kb/errors/update-from-pre.sh "${validatorPath}" "${errorFile}" > "${errorFile}".tmp  # write to .tmp for manual validation
 done
+
+echo Verify updates in .tmp files
+find ${errorObjects}.tmp

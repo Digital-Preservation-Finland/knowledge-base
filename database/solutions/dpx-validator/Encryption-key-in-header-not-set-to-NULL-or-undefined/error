@@ -1,0 +1,18 @@
+{
+  "files": [
+    "corpus/file/507d9158-c62c-459e-9c7e-ad21899b89bb"
+  ],
+  "analyses": [],
+  "validator": "dpx-validator",
+  "validatorVersion": [
+    "1.0.2"
+  ],
+  "errorMessage": "Encryption key in header not set to NULL or undefined",
+  "type": "",
+  "outputExample": [
+    "InvalidField('Encryption key in header not set to NULL or undefined')",
+    "MIME type (:unav) with version (:unav) is not supported."
+  ],
+  "notes": [],
+  "@id": "f8d4e261-42bd-47f2-b18e-a299faec56ff"
+}
