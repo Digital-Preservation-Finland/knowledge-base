@@ -40,11 +40,17 @@ Classification
 Analyses
 --------
 
-No investigations yet.
+Data is not marked unencrypted
+==============================
 
-.. note::
+Data is and must be unencrypted.
 
-	To help, share and save knowledge about fixing validation errors, please see: https://github.com/Digital-Preservation-Finland/knowledge-base/tree/master/.github/CONTRIBUTING.rst
+Metadata field for encryption in the DPX file header is not set to indicate unencrypted content or the value in the field is set incorrectly.
+
+The value should be FFFFFFFF like described in https://github.com/Digital-Preservation-Finland/dpx-validator/blob/v1.0.2/dpx_validator/dpx_validator.py#L58.
+
+Is it a bug in the validating software? - no
+
 
 ------------------
 Possible solutions
@@ -52,35 +58,3 @@ Possible solutions
 .. contents::
    :local:
 
-No remediation determined. All solutions are listed :ref:`here <solutions-list>`.
-
-.. note::
-
-	To update or provide a solution, please see: https://github.com/Digital-Preservation-Finland/knowledge-base/tree/master/.github/CONTRIBUTING.rst
---------------
-Output example
---------------
-
-::
-
-
-	InvalidField('Encryption key in header not set to NULL or undefined')
-	MIME type (:unav) with version (:unav) is not supported.
-
-
-------------------
-Notes on the error
-------------------
-
-
-
-
-------------------------------
-Related errors by source files
-------------------------------
-
-::
-
-	dpx-validator:	Encryption key in header not set to NULL or undefined
-
-Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
