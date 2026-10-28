@@ -20,6 +20,7 @@ dpx-validator
 
  - :ref:`14daf827-5ac9-426b-80d7-35da6e5b40b4`
  - :ref:`acb98230-1711-45a6-bb37-8983de880a8d`
+ - :ref:`f8d4e261-42bd-47f2-b18e-a299faec56ff`
 
 ExifTool
 --------
