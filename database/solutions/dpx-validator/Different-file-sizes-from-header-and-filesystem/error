@@ -9,7 +9,8 @@
   ],
   "validator": "dpx-validator",
   "validatorVersion": [
-    "1.0.1"
+    "1.0.1",
+    "1.0.2"
   ],
   "errorMessage": "Different file sizes from header (.*) and filesystem (",
   "type": "exact",

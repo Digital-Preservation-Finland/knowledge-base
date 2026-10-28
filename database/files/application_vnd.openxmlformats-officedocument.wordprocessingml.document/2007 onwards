@@ -70,3 +70,26 @@
   },
   "pronom": []
 }
+{
+  "@id": "corpus/file/027d5d9a-72b4-4138-add7-1201205ae916",
+  "source": "corpus/format/0a2fe451-d33d-4d55-afc3-de5419d1fe47",
+  "wellFormed": true,
+  "description": "",
+  "checksum": {
+    "md5": "01b658eba425d396519350f0961785ef",
+    "blake2b": "d5147fa083472b9581a1b9fbae284111e97882102048e689544bd7c2ab85126847bb32d0f5b8e12b02fb207ecbc622dda66e079de0deceff4c2aa2efecdab733"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.4/tests/data/application_vnd.openxmlformats-officedocument.wordprocessingml.document/valid_2007%20onwards_customXml_first.docx"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "version": "2007 onwards",
+      "stream_type": "binary"
+    }
+  }
+}

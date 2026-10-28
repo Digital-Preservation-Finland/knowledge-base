@@ -7,7 +7,8 @@
   ],
   "validator": "dpx-validator",
   "validatorVersion": [
-    "1.0.1"
+    "1.0.1",
+    "1.0.2"
   ],
   "errorMessage": "Offset to image (.*) is more than file size (",
   "type": "exact",

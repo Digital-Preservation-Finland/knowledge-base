@@ -59,7 +59,7 @@
       1       1     691 database/files/application_vnd.openxmlformats-officedocument.presentationml.presentation/generic
       2       4    1457 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/2007 onwards
       1       1     683 database/files/application_vnd.openxmlformats-officedocument.spreadsheetml.sheet/generic
-      3       6    2230 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/2007 onwards
+      4       8    2967 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/2007 onwards
       2       4     970 database/files/application_vnd.openxmlformats-officedocument.wordprocessingml.document/generic
       2       2    1270 database/files/application_vnd.rn-realmedia/generic
       1       1     614 database/files/application_vnd.wordperfect/5.0
@@ -111,7 +111,7 @@
       3       6    2119 database/files/image_x-adobe-dng/1.4
       1      19     904 database/files/image_x-adobe-dng/1.7
       1       1     621 database/files/image_x-dpx/1.0
-      1       1     592 database/files/image_x-dpx/2.0
+      2       2    1199 database/files/image_x-dpx/2.0
       3       3    1831 database/files/image_x-dpx/generic
       1       1     616 database/files/multipart_appledouble/generic
       1       1    5751 database/files/none/emptyfile
@@ -138,8 +138,8 @@
       1    1443   13599 database/solutions/DBPTK-Developer/Correspondence-between-metadata-and-table-data/error
       1    1451   13634 database/solutions/DBPTK-Developer/Data-type-invalid---is-not-in-conformity-with-INTEGER-type-in-contentxml/error
       1    1468   13801 database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/error
-      1      35     665 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/error
-      1      36     553 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/error
+      1      35     673 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/error
+      1      36     561 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/error
       1      13     317 database/solutions/ExifTool/ExifVersion-is-not-4-characters-long/error
       1      24     455 database/solutions/ExifTool/MIME-type-imagex-adobe-dng-with-version-17-is-not-supported/error
       1      55     641 database/solutions/ffmpeg/AC-EOB-marker-is-absent-pos/error

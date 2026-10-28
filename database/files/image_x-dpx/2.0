@@ -22,3 +22,26 @@
   },
   "pronom": []
 }
+{
+  "@id": "corpus/file/507d9158-c62c-459e-9c7e-ad21899b89bb",
+  "source": "corpus/format/44b102f8-5417-4658-99e0-d526f17a937b",
+  "wellFormed": false,
+  "description": "",
+  "checksum": {
+    "md5": "ccac2c9b31fe10da5b58604b01d92da2",
+    "blake2b": "a332b4e2d475716fd516bc106cabe6ac571a2d6efa53075faa19e90b72687ee9f7c412a158c5e7e68ba67e7d23227e0c7ea851c89b558cc685b3e5ce59767e5b"
+  },
+  "location": [
+    {
+      "corpus": "https://github.com/Digital-Preservation-Finland/file-scraper/blob/v3.2.4/tests/data/image_x-dpx/invalid_2.0_invalid_encryption_key.dpx"
+    }
+  ],
+  "metadata": {
+    "0": {
+      "index": 0,
+      "mimetype": "image/x-dpx",
+      "version": "2.0",
+      "stream_type": "(:unav)"
+    }
+  }
+}
