@@ -11,13 +11,17 @@ with open(0, 'r', encoding="utf-8") as schema_file:
 default_map = {
     "string": "",
     "array": [],
-    "object": {}
+    "object": {},
+    "enum": ""
     }
 
 obj = {}
 
 for prope in schema["properties"]:
-    obj.update({prope: default_map[schema["properties"][prope]["type"]]})
+    if "type" not in schema["properties"][prope]:
+        obj.update({prope: default_map["enum"]})
+    else:
+        obj.update({prope: default_map[schema["properties"][prope]["type"]]})
 
     if prope == "@id":
         obj.update({prope: str(uuid4())})
