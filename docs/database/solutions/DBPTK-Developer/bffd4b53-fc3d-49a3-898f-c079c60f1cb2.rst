@@ -27,9 +27,9 @@ Classification
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - application/x-siard
      - 2.1.1
      - `DILCIS <https://github.com/DILCISBoard/SIARD>`__

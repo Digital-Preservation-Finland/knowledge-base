@@ -27,9 +27,9 @@ Classification
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - text/html
      - 5
      - `WHATWG <https://html.spec.whatwg.org/multipage/>`__

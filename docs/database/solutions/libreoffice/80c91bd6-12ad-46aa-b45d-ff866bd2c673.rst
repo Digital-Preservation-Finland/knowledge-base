@@ -27,9 +27,9 @@ Classification
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - application/vnd.openxmlformats-officedocument.wordprocessingml.document
      - 
      - `ECMA-376 <https://ecma-international.org/publications-and-standards/standards/ecma-376/>`__

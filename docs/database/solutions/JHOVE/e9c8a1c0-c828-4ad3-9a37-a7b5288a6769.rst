@@ -27,9 +27,9 @@ Classification
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - text/html
      - (:unav)
      - 

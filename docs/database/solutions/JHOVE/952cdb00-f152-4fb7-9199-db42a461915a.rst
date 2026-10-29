@@ -27,9 +27,9 @@ Classification
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - application/pdf
      - A-2b
      - `ISO 19005-2:2011 <https://pdfa.org/resource/iso-19005-2-pdf-a-2>`__

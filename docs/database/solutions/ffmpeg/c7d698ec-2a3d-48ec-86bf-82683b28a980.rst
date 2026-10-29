@@ -27,9 +27,9 @@ Classification
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - audio/x-wav
      - (:unav)
      - `Wikipedia <https://en.wikipedia.org/wiki/WAV#File_specifications>`__

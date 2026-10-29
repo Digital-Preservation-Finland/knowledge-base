@@ -27,9 +27,9 @@ Classification
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - video/x-matroska
      - (:unav)
      - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__

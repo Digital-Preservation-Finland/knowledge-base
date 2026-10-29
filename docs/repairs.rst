@@ -63,9 +63,9 @@ Migrated files
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - audio/x-wav
      - (:unap)
      - `Wikipedia <https://en.wikipedia.org/wiki/WAV#File_specifications>`__
@@ -201,9 +201,9 @@ Migrated files
 
    * - **File format**
      - **Version**
-     - **Specification**
+     - **Documentation**
      - **Description**
-     - **Location**
+     - **Source**
    * - video/x-matroska
      - 4
      - `RFC <https://datatracker.ietf.org/doc/rfc9559/>`__, `matroska.org <https://www.matroska.org/technical/elements.html>`__
