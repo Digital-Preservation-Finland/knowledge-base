@@ -1,0 +1,118 @@
+.. _f8d4e261-42bd-47f2-b18e-a299faec56ff:
+
+=====================================================
+Encryption key in header not set to NULL or undefined
+=====================================================
+
+.. contents::
+   :depth: 2
+
+--------------
+Classification
+--------------
+
+.. list-table::
+   :align: center
+
+   * - **Validator**
+     - **Validator version**
+     - **Error message type**
+   * - dpx-validator
+     - 1.0.2
+     - exact
+
+
+.. list-table::
+   :align: center
+
+   * - **File format**
+     - **Version**
+     - **Documentation**
+     - **Description**
+     - **Source**
+   * - image/x-dpx
+     - 2.0
+     - 
+     - 
+     - :ref:`corpus <corpus/file/507d9158-c62c-459e-9c7e-ad21899b89bb>`
+
+--------
+Analyses
+--------
+
+Data is not marked unencrypted
+==============================
+
+Data is and must be unencrypted.
+
+Metadata field for encryption in the DPX file header is not set to indicate unencrypted content or the value in the field is set incorrectly.
+
+The value should be FFFFFFFF as described at https://github.com/Digital-Preservation-Finland/dpx-validator/blob/v1.0.2/dpx_validator/dpx_validator.py#L58.
+
+Is it a bug in the validating software? - no
+
+
+------------------
+Possible solutions
+------------------
+.. contents::
+   :local:
+
+
+Set DPX header field of content encryption to unencrpyted
+=========================================================
+
+The suggestion
+~~~~~~~~~~~~~~
+
+Write FF hex values to the four-byte header field that contains metadata about encryption state of content.
+
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``python -c 'with open("<input file>", "r+b") as file: file.seek(660); file.write(b"\xff\xff\xff\xff")'``
+
+Tested with: Python 3.9.25
+
+Effects
+~~~~~~~
+
+The file changes as the values are overwritten. File format does not change.
+
+Metadata is changed, and for example file checksum changes, but the image data in the file does not change. It is still in it's original state either encrypted or unencrypted.
+
+Justification
+~~~~~~~~~~~~~
+
+Metadata contains incorrect value for encryption.
+
+Migrated files
+~~~~~~~~~~~~~~
+
+--------------
+Output example
+--------------
+
+::
+
+
+	InvalidField('Encryption key in header not set to NULL or undefined')
+	MIME type (:unav) with version (:unav) is not supported.
+
+
+------------------
+Notes on the error
+------------------
+
+
+
+
+------------------------------
+Related errors by source files
+------------------------------
+
+::
+
+	dpx-validator:	Encryption key in header not set to NULL or undefined
+
+Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.
