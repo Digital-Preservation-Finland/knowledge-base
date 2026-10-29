@@ -30,8 +30,15 @@
   "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
   "version": "",
   "@id": "source/8528d8f8-5bf5-42ea-9fa2-5eb03a2825b9",
-  "specification": [],
-  "description": ""
+  "specification": [
+    {
+      "ECMA-376": "https://ecma-international.org/publications-and-standards/standards/ecma-376/"
+    },
+    {
+      "ISO/IEC 29500-1:2016": "https://www.iso.org/standard/71691.html"
+    }
+  ],
+  "description": "Microsoft Office Open XML Document (OOXML)"
 }
 {
   "fileFormat": "audio/mpeg",
@@ -51,7 +58,14 @@
   "fileFormat": "audio/x-wav",
   "version": "",
   "@id": "source/6d1d670b-63b4-4c1b-9356-170323d1b0c5",
-  "specification": [],
+  "specification": [
+    {
+      "Wikipedia": "https://en.wikipedia.org/wiki/WAV#File_specifications"
+    },
+    {
+      "www.mmsp.ece.mcgill.ca": "https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/WAVE.html"
+    }
+  ],
   "description": ""
 }
 {
@@ -406,43 +420,85 @@
   "@id": "corpus/format/ce673eb4-1fad-48f1-ab4d-74e895fabf1b",
   "fileFormat": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
   "version": "2007 onwards",
-  "description": "",
-  "specification": []
+  "description": "Microsoft Office Open XML Presentation (OOXML)",
+  "specification": [
+    {
+      "ECMA-376": "https://ecma-international.org/publications-and-standards/standards/ecma-376/"
+    },
+    {
+      "ISO/IEC 29500-1:2016": "https://www.iso.org/standard/71691.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/a05a4761-4e1e-4e7c-9a27-47b99d9f1d81",
   "fileFormat": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
   "version": "(:unav)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "ECMA-376": "https://ecma-international.org/publications-and-standards/standards/ecma-376/"
+    },
+    {
+      "ISO/IEC 29500-1:2016": "https://www.iso.org/standard/71691.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/c4a8e685-395b-4f1f-bee2-612d3ad8c48f",
   "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
   "version": "2007 onwards",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "ECMA-376": "https://ecma-international.org/publications-and-standards/standards/ecma-376/"
+    },
+    {
+      "ISO/IEC 29500-1:2016": "https://www.iso.org/standard/71691.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/90c23f10-80ad-4706-b769-a54f63afeb52",
   "fileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
   "version": "(:unav)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "ECMA-376": "https://ecma-international.org/publications-and-standards/standards/ecma-376/"
+    },
+    {
+      "ISO/IEC 29500-1:2016": "https://www.iso.org/standard/71691.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/0a2fe451-d33d-4d55-afc3-de5419d1fe47",
   "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
   "version": "2007 onwards",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "ECMA-376": "https://ecma-international.org/publications-and-standards/standards/ecma-376/"
+    },
+    {
+      "ISO/IEC 29500-1:2016": "https://www.iso.org/standard/71691.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/c3df3aa1-5464-48c5-b8f4-21f2d649fb2d",
   "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
   "version": "(:unav)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "ECMA-376": "https://ecma-international.org/publications-and-standards/standards/ecma-376/"
+    },
+    {
+      "ISO/IEC 29500-1:2016": "https://www.iso.org/standard/71691.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/b1165ae3-50d3-4d01-b814-e15eae2eb2af",
@@ -533,35 +589,55 @@
   "fileFormat": "application/x-siard",
   "version": "2.0",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "DILCIS": "https://github.com/DILCISBoard/SIARD"
+    }
+  ]
 }
 {
   "@id": "corpus/format/3f68153e-159c-4ef3-9986-a3bf2f942305",
   "fileFormat": "application/x-siard",
   "version": "(:unav)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "DILCIS": "https://github.com/DILCISBoard/SIARD"
+    }
+  ]
 }
 {
   "@id": "corpus/format/92ea31e1-a2e6-42da-9156-d8285d34bd3c",
   "fileFormat": "application/x-siard",
   "version": "2.1.1",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "DILCIS": "https://github.com/DILCISBoard/SIARD"
+    }
+  ]
 }
 {
   "@id": "corpus/format/47130af0-d8f0-4fc3-8101-d70068ef0c35",
   "fileFormat": "application/x-spss-por",
   "version": "(:unav)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "GNU": "https://www.gnu.org/software/pspp/pspp-dev/html_node/Portable-File-Format.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/5f54568f-8897-4fc7-baed-0c5deb490819",
   "fileFormat": "application/x-spss-por",
   "version": "(:unap)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "GNU": "https://www.gnu.org/software/pspp/pspp-dev/html_node/Portable-File-Format.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/7e848444-6b44-4b30-ab0f-81c714dd6915",
@@ -624,21 +700,42 @@
   "fileFormat": "audio/x-wav",
   "version": "(:unav)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "Wikipedia": "https://en.wikipedia.org/wiki/WAV#File_specifications"
+    },
+    {
+      "www.mmsp.ece.mcgill.ca": "https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/WAVE.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/bccb0fca-8c47-4c5c-be66-edf3e21e1032",
   "fileFormat": "audio/x-wav",
   "version": "(:unap)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "Wikipedia": "https://en.wikipedia.org/wiki/WAV#File_specifications"
+    },
+    {
+      "www.mmsp.ece.mcgill.ca": "https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/WAVE.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/7f0117f2-7b2e-4acd-acd7-40045c74ff52",
   "fileFormat": "audio/x-wav",
   "version": "2",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "Wikipedia": "https://en.wikipedia.org/wiki/WAV#File_specifications"
+    },
+    {
+      "www.mmsp.ece.mcgill.ca": "https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/WAVE.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/806a120e-6240-49b5-b44e-157588ebb814",
@@ -712,14 +809,31 @@
   "fileFormat": "image/png",
   "version": "1.2",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "libpng": "https://www.libpng.org/pub/png/spec/index.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/c64973e9-8eae-4758-89cc-c6cf6deadf07",
   "fileFormat": "image/png",
   "version": "(:unav)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "3.0 W3C": "https://www.w3.org/TR/png-3/"
+    },
+    {
+      "1.0 RFC": "https://www.rfc-editor.org/info/rfc2083/"
+    },
+    {
+      "libpng": "https://www.libpng.org/pub/png/spec/index.html"
+    },
+    {
+      "1.0 W3C": "https://www.w3.org/TR/PR-png-960701"
+    }
+  ]
 }
 {
   "@id": "corpus/format/326129ee-365e-4115-8a70-63636e95bcb1",
@@ -1083,7 +1197,14 @@
   "fileFormat": "audio/x-wav",
   "version": "(:unap)",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "Wikipedia": "https://en.wikipedia.org/wiki/WAV#File_specifications"
+    },
+    {
+      "www.mmsp.ece.mcgill.ca": "https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/WAVE.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/c592527a-7f54-4ebc-a256-1de084c4be00",
@@ -1121,13 +1242,6 @@
   "specification": []
 }
 {
-  "@id": "corpus/format/f88ed17d-91c2-4a34-88e4-aac8e1f39dda",
-  "fileFormat": "application/pdf",
-  "version": "1.\\012",
-  "description": "",
-  "specification": []
-}
-{
   "@id": "corpus/format/5cb40bad-b3bc-4ce1-91d4-bc258ade4f04",
   "fileFormat": "application/vnd.ms-officetheme",
   "version": "(:unav)",
@@ -1160,7 +1274,11 @@
   "fileFormat": "image/png",
   "version": "1.1",
   "description": "",
-  "specification": []
+  "specification": [
+    {
+      "libpng": "https://www.libpng.org/pub/png/spec/index.html"
+    }
+  ]
 }
 {
   "@id": "corpus/format/753ca5e6-5e61-4f12-825a-fec991fb1ffe",
@@ -1195,5 +1313,5 @@
   "fileFormat": "image/tiff",
   "version": "1.1",
   "description": "",
-  "specification": []
+  "specification": [{"libgeotiff": "https://github.com/OSGeo/libgeotiff"}]
 }
