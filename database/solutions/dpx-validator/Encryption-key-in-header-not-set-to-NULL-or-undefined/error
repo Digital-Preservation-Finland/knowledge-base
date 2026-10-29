@@ -10,7 +10,7 @@
     "1.0.2"
   ],
   "errorMessage": "Encryption key in header not set to NULL or undefined",
-  "type": "",
+  "type": "exact",
   "outputExample": [
     "InvalidField('Encryption key in header not set to NULL or undefined')",
     "MIME type (:unav) with version (:unav) is not supported."

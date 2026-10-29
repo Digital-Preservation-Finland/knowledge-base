@@ -1,5 +1,5 @@
     166     237   28745 database/format.objects
-     10     776    8335 database/repair.objects
+     11     857    9104 database/repair.objects
       2       2    1255 database/files/application_epub+zip/2.0.1
       5       5    3115 database/files/application_epub+zip/3
       9       9    5669 database/files/application_json/generic
@@ -139,7 +139,7 @@
       1    1451   13634 database/solutions/DBPTK-Developer/Data-type-invalid---is-not-in-conformity-with-INTEGER-type-in-contentxml/error
       1    1468   13801 database/solutions/DBPTK-Developer/The-data-type-information-on-the-column-definitions-in-metadataxml-must-be-identical-to-that-in-the-corresponding-tablenumberxsd-file/error
       1      35     673 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/error
-      1      27     458 database/solutions/dpx-validator/Encryption-key-in-header-not-set-to-NULL-or-undefined/error
+      1      27     463 database/solutions/dpx-validator/Encryption-key-in-header-not-set-to-NULL-or-undefined/error
       1      36     561 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/error
       1      13     317 database/solutions/ExifTool/ExifVersion-is-not-4-characters-long/error
       1      24     455 database/solutions/ExifTool/MIME-type-imagex-adobe-dng-with-version-17-is-not-supported/error
@@ -409,7 +409,7 @@
       1      12     415 database/solutions/Warchaeology/payload-wrong-digest-expected-computed/error
       1      32     506 database/solutions/warctools/Compressed-file-ended-before-the-end-of-stream-marker-was-reached/error
       1      49     433 database/solutions/dpx-validator/Different-file-sizes-from-header-and-filesystem/analysis
-      1      42     519 database/solutions/dpx-validator/Encryption-key-in-header-not-set-to-NULL-or-undefined/analysis
+      1      42     555 database/solutions/dpx-validator/Encryption-key-in-header-not-set-to-NULL-or-undefined/analysis
       1      65     508 database/solutions/dpx-validator/Offset-to-image-is-more-than-file-size/analysis
       1      73     762 database/solutions/ffmpeg/Application-provided-invalid-non-monotonically-increasing-dts-to-muxer-in-stream/analysis
       1      81     947 database/solutions/ffmpeg/Concealing-bitstream-errors/analysis

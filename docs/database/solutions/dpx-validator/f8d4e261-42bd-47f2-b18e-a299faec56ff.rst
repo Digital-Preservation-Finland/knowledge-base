@@ -19,7 +19,7 @@ Classification
      - **Error message type**
    * - dpx-validator
      - 1.0.2
-     - 
+     - exact
 
 
 .. list-table::
@@ -47,7 +47,7 @@ Data is and must be unencrypted.
 
 Metadata field for encryption in the DPX file header is not set to indicate unencrypted content or the value in the field is set incorrectly.
 
-The value should be FFFFFFFF like described in https://github.com/Digital-Preservation-Finland/dpx-validator/blob/v1.0.2/dpx_validator/dpx_validator.py#L58.
+The value should be FFFFFFFF as described at https://github.com/Digital-Preservation-Finland/dpx-validator/blob/v1.0.2/dpx_validator/dpx_validator.py#L58.
 
 Is it a bug in the validating software? - no
 
@@ -57,6 +57,37 @@ Possible solutions
 ------------------
 .. contents::
    :local:
+
+
+Set DPX header field of content encryption to unencrpyted
+=========================================================
+
+The suggestion
+~~~~~~~~~~~~~~
+
+Write FF hex values to the four-byte header field that contains metadata about encryption state of content.
+
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``python -c 'with open("<input file>", "r+b") as file: file.seek(660); file.write(b"\xff\xff\xff\xff")'``
+
+Tested with: Python 3.9.25
+
+Effects
+~~~~~~~
+
+The file changes as the values are overwritten. File format does not change.
+
+Metadata is changed, and for example file checksum changes, but the image data in the file does not change. It is still in it's original state either encrypted or unencrypted.
+
+Justification
+~~~~~~~~~~~~~
+
+Metadata contains incorrect value for encryption.
+
+Migrated files
+~~~~~~~~~~~~~~
 
 --------------
 Output example

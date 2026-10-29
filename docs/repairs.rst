@@ -458,5 +458,42 @@ Migrated files
 
    None found
 
+----
+
+.. _ae684b8b-6253-48e4-8e94-dd0a3c270530:
+
+
+Set DPX header field of content encryption to unencrpyted
+=========================================================
+
+The suggestion
+~~~~~~~~~~~~~~
+
+Write FF hex values to the four-byte header field that contains metadata about encryption state of content.
+
+Execution
+~~~~~~~~~~~~~~~~~
+
+	``python -c 'with open("<input file>", "r+b") as file: file.seek(660); file.write(b"\xff\xff\xff\xff")'``
+
+Tested with: Python 3.9.25
+
+Effects
+~~~~~~~
+
+The file changes as the values are overwritten. File format does not change.
+
+Metadata is changed, and for example file checksum changes, but the image data in the file does not change. It is still in it's original state either encrypted or unencrypted.
+
+Justification
+~~~~~~~~~~~~~
+
+Metadata contains incorrect value for encryption.
+
+Migrated files
+~~~~~~~~~~~~~~
+
+   None found
+
 
 Notice: any operation suggested on this page should be carefully considered before use, as this article is in continuous development. Data is available at https://github.com/Digital-Preservation-Finland/knowledge-base.

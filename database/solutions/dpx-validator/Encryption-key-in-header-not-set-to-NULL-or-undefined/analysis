@@ -1,10 +1,12 @@
 {
   "@id": "5288e83c-d8cd-4b7c-ad02-3c3450a2e9cc",
-  "repairs": [],
+  "repairs": [
+    "ae684b8b-6253-48e4-8e94-dd0a3c270530"
+  ],
   "heading": "Data is not marked unencrypted",
   "analysis": [
     "Metadata field for encryption in the DPX file header is not set to indicate unencrypted content or the value in the field is set incorrectly.",
-    "The value should be FFFFFFFF like described in https://github.com/Digital-Preservation-Finland/dpx-validator/blob/v1.0.2/dpx_validator/dpx_validator.py#L58."
+    "The value should be FFFFFFFF as described at https://github.com/Digital-Preservation-Finland/dpx-validator/blob/v1.0.2/dpx_validator/dpx_validator.py#L58."
   ],
   "significantProperties": [
     "Data is and must be unencrypted."
