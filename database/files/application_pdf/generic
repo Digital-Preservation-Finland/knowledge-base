@@ -1752,7 +1752,7 @@
 }
 {
   "@id": "corpus/file/77d0305c-d9e8-44c4-bc61-a652e045ea2c",
-  "source": "corpus/format/f88ed17d-91c2-4a34-88e4-aac8e1f39dda",
+  "source": "source/8de5a6ad-c918-406d-af10-b9404f49e894",
   "wellFormed": false,
   "description": "The file starts with invalid '%PDF14' header.",
   "checksum": {
