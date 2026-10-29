@@ -32,7 +32,7 @@ Classification
      - **Location**
    * - audio/x-wav
      - (:unap)
-     - 
+     - `Wikipedia <https://en.wikipedia.org/wiki/WAV#File_specifications>`__
      - 
      - :ref:`corpus <file-scraper/f37d1e1e-1161-4f70-9894-2cf40bc08119>`
 

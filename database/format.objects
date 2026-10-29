@@ -1313,5 +1313,9 @@
   "fileFormat": "image/tiff",
   "version": "1.1",
   "description": "",
-  "specification": [{"libgeotiff": "https://github.com/OSGeo/libgeotiff"}]
+  "specification": [
+    {
+      "libgeotiff": "https://github.com/OSGeo/libgeotiff"
+    }
+  ]
 }

@@ -68,12 +68,12 @@ Migrated files
      - **Location**
    * - audio/x-wav
      - (:unap)
-     - 
+     - `Wikipedia <https://en.wikipedia.org/wiki/WAV#File_specifications>`__
      - The file is migrated from :ref:`file-scraper/d3059ea0-8cda-4877-a7a9-2cd05903676f` using :ref:`ffmpeg-wma-wav-conversion`
      - :ref:`corpus <corpus/file/e32161fd-6328-4ab6-9c8b-b5ada16e5d84>`
    * - audio/x-wav
      - (:unap)
-     - 
+     - `Wikipedia <https://en.wikipedia.org/wiki/WAV#File_specifications>`__
      - The file is migrated from :ref:`file-scraper/a0d43b97-cda5-4818-8705-6de52f3fa798` using :ref:`ffmpeg-wma-wav-conversion`
      - :ref:`corpus <corpus/file/a1a90bc0-89f4-404d-8607-0779e42228c0>`
 ----

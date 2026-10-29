@@ -37,12 +37,12 @@ Classification
      - :ref:`corpus <corpus/file/64ffd610-755a-4b5b-8896-d152257dd24e>`
    * - image/tiff
      - 1.1
-     - 
+     - `libgeotiff <https://github.com/OSGeo/libgeotiff>`__
      - 
      - :ref:`corpus <corpus/file/6adc1ec3-16fd-480c-b742-16c8842b74cf>`
    * - image/tiff
      - 1.1
-     - 
+     - `libgeotiff <https://github.com/OSGeo/libgeotiff>`__
      - 
      - :ref:`corpus <corpus/file/6b24ee7a-8e2b-43fc-bc93-c77711274745>`
    * - image/x-adobe-dng

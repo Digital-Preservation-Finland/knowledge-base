@@ -32,7 +32,7 @@ Classification
      - **Location**
    * - image/png
      - 1.2
-     - 
+     - `libpng <https://www.libpng.org/pub/png/spec/index.html>`__
      - 
      - :ref:`corpus <corpus/file/4a0b1b9a-6d4b-466a-982d-412f32c5c049>`
    * - image/x-adobe-dng
@@ -67,7 +67,7 @@ Classification
      - :ref:`corpus <file-scraper/1d48d922-47b3-4edf-a383-b0d86c3ebd84>`
    * - image/png
      - 1.2
-     - 
+     - `libpng <https://www.libpng.org/pub/png/spec/index.html>`__
      - 
      - :ref:`corpus <file-scraper/6e0e263e-b413-4f0b-a304-ed1b69324c82>`
 

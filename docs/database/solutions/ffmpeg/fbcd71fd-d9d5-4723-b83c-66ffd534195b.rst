@@ -32,7 +32,7 @@ Classification
      - **Location**
    * - audio/x-wav
      - (:unav)
-     - 
+     - `Wikipedia <https://en.wikipedia.org/wiki/WAV#File_specifications>`__
      - 
      - :ref:`corpus <corpus/file/5e601373-3d79-4d3c-bf18-621440677296>`
    * - audio/x-aiff

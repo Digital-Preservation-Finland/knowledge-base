@@ -32,7 +32,7 @@ Classification
      - **Location**
    * - application/vnd.openxmlformats-officedocument.wordprocessingml.document
      - 
-     - 
+     - `ECMA-376 <https://ecma-international.org/publications-and-standards/standards/ecma-376/>`__
      - No file locations.
      - :ref:`corpus <database/sources/application_vnd.openxmlformats-officedocument.wordprocessingml.document/general>`
 
